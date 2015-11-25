@@ -1,4 +1,4 @@
-/* global $:false */
+/* global $:false, document:false */
 
 'use strict';
 
@@ -14,5 +14,15 @@ $(() => {
     }
     $('.list-group .list-group-item').removeClass('list-group-item-info');
     target.addClass('list-group-item-info');
+  });
+
+  $('.colour-swatch').click((e) => {
+    let copyElement = document.createElement('input');
+    copyElement.setAttribute('type', 'text');
+    copyElement.setAttribute('value', e.target.textContent);
+    copyElement = document.body.appendChild(copyElement);
+    copyElement.select();
+    document.execCommand('copy');
+    copyElement.remove();
   });
 });
