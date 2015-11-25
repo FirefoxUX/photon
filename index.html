@@ -10,15 +10,37 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
   <meta name="description" content="The Firefox Style Guide contains all the styles to build Firefox-y looking applications and webpages.">
   <meta name="viewport" content="width=device-width">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic" rel="stylesheet" type="text/css">
+  <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="styles/base.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="https://raw.githubusercontent.com/FirefoxUX/SharedBanner/master/dist/fxux-banner.min.js"></script>
 </head>
 <body>
-  <h1>Style Guide</h1>
-  <ul>
-    <li>Atoms</li>
-    <li>Molecules</li>
-    <li>Playground</li>
-  </ul>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <h1>Firefox Style Guide</h1>
+        <ul class="list-group">
+          <a href="#" class="list-group-item">Introduction</a>
+          <a href="#" class="list-group-item">Design</a>
+          <a href="#" class="list-group-item components">Components</a>
+          <ul class="list-group components">
+            <a href="#" class="list-group-item list-group-item-info">Labels</a>
+            <a href="#" class="list-group-item">Dialogs</a>
+            <a href="#" class="list-group-item">Buttons</a>
+            <a href="#" class="list-group-item">Inputs</a>
+            <a href="#" class="list-group-item">Checkboxes</a>
+            <a href="#" class="list-group-item">Radio Buttons</a>
+            <a href="#" class="list-group-item">Progress</a>
+            <a href="#" class="list-group-item">Shapes</a>
+          </ul>
+          <a href="#" class="list-group-item">Patterns</a>
+          <a href="#" class="list-group-item">Resources</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://raw.githubusercontent.com/FirefoxUX/SharedBanner/master/dist/fxux-banner.min.js"></script>
+  <script src="scripts/base.js"></script>
 </body>
 </html>
