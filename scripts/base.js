@@ -3,8 +3,12 @@
 'use strict';
 
 $(() => {
-  $('ul.components').hide();
+  $('div.components').hide();
   $('.list-group-item.components').click(() => {
-    $('ul.components').slideToggle();
+    $('div.components').slideToggle();
+  });
+  $('.list-group').click((e) => {
+    $('.list-group .list-group-item').removeClass('list-group-item-info');
+    $(e.target).addClass('list-group-item-info');
   });
 });
