@@ -2,8 +2,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
-#colours {
-  margin-top: 4.5em;
+.toc {
+  position: fixed;
 }
 
 .colour-swatch {
@@ -11,6 +11,6 @@ body {
   margin: .5em;
   width: 10em;
   padding-top: 4em;
-  text-align: initial;
+  text-align: left;
   font-size: smaller;
 }

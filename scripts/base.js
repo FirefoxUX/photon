@@ -2,7 +2,28 @@
 
 'use strict';
 
+let populateToc = () => {
+
+  let toc = [];
+  $('.content > div[id]').each((_, e) => {
+    let title = $(e).children('h2').text();
+    toc.push($(`<a href="#${e.id}" class="list-group-item ${e.id}">${title}</a>`));
+    let children = $(e).children('div[id]');
+    if (children.length) {
+      let childToc = [];
+      children.each((_, e) => {
+        let title = $(e).children('h3').text();
+        childToc.push($(`<a href="#${e.id}" class="list-group-item">${title}</a>`));
+      });
+      toc.push($(`<div class="${e.id}">`).append(childToc));
+    }
+  });
+  $('.toc ul').append(toc);
+};
+
 $(() => {
+
+  populateToc();
   $('.list-group > div').hide();
   $('.list-group').click((e) => {
     let target = $(e.target);
