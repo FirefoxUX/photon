@@ -4,6 +4,8 @@ body {
 
 .toc {
   position: fixed;
+  max-height: 85vh;
+  overflow-y: scroll;
 }
 
 .colour-swatch {
