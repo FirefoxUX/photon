@@ -4,7 +4,7 @@ body {
 
 .toc {
   position: fixed;
-  max-height: 85vh;
+  max-height: calc(100vh - 60px);
   overflow-y: scroll;
 }
 
