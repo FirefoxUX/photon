@@ -2,9 +2,10 @@
 
 var gulp = require('gulp');
 
+var babel = require('gulp-babel');
 var del = require('del');
 var eslint = require('gulp-eslint');
-var babel = require('gulp-babel');
+var include = require('gulp-include');
 var minifyCss = require('gulp-minify-css');
 var minifyHtml = require('gulp-minify-html');
 var rev = require('gulp-rev');
@@ -24,6 +25,8 @@ gulp.task('eslint', function() {
 
 gulp.task('usemin', ['eslint'], function() {
   return gulp.src('./html/*.html')
+    .pipe(include())
+      .on('error', console.log)
     .pipe(usemin({
       css: [ rev() ],
       html: [ minifyHtml({ empty: true }) ],
