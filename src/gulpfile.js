@@ -3,7 +3,7 @@
 var gulp = require('gulp');
 
 var del = require('del');
-// var eslint = require('gulp-eslint');
+var eslint = require('gulp-eslint');
 var babel = require('gulp-babel');
 var minifyCss = require('gulp-minify-css');
 var minifyHtml = require('gulp-minify-html');
@@ -15,7 +15,14 @@ gulp.task('clean', function() {
   return del(['../index.html', '../js', '../styles'], {force: true});
 });
 
-gulp.task('usemin', function() {
+gulp.task('eslint', function() {
+  return gulp.src(['scripts/**/*.js'])
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
+
+gulp.task('usemin', ['eslint'], function() {
   return gulp.src('./html/*.html')
     .pipe(usemin({
       css: [ rev() ],

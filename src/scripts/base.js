@@ -1,5 +1,3 @@
-/* global $:false, document:false */
-
 'use strict';
 
 let populateToc = () => {
