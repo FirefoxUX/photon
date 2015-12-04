@@ -10,6 +10,7 @@
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
     "gulp-eslint": "^1.1.1",
+    "gulp-include": "^2.1.0",
     "gulp-minify-css": "^1.2.2",
     "gulp-minify-html": "^1.0.4",
     "gulp-rev": "^6.0.1",
