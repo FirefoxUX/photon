@@ -5,6 +5,7 @@ var gulp = require('gulp');
 var babel = require('gulp-babel');
 var del = require('del');
 var eslint = require('gulp-eslint');
+var foreach = require('gulp-foreach');
 var include = require('gulp-include');
 var minifyCss = require('gulp-minify-css');
 var minifyHtml = require('gulp-minify-html');
@@ -26,13 +27,13 @@ gulp.task('eslint', function() {
 gulp.task('usemin', ['eslint'], function() {
   return gulp.src('./html/*.html')
     .pipe(include())
-      .on('error', console.log)
-    .pipe(usemin({
-      css: [ rev() ],
-      html: [ minifyHtml({ empty: true }) ],
-      js: [ babel({presets: ['es2015']}), uglify(), rev() ],
-      inlinejs: [ babel({presets: ['es2015']}), uglify() ],
-      inlinecss: [ minifyCss(), 'concat' ]
+    .pipe(foreach(function (stream) {
+      return stream.pipe(usemin({
+        css: [ minifyCss(), 'concat', rev() ],
+        html: [ minifyHtml({ empty: true }) ],
+        js: [ babel({presets: ['es2015']}), uglify(), rev() ],
+        inlinejs: [ babel({presets: ['es2015']}), uglify() ]
+      }));
     }))
     .pipe(gulp.dest('../'));
 });

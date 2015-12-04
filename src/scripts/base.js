@@ -16,7 +16,8 @@ let populateToc = () => {
       toc.push($(`<div class="${e.id}">`).append(childToc));
     }
   });
-  $('.toc ul').append(toc);
+  // $('.toc ul').append(toc);
+  // Do something with document.body.id.
 };
 
 $(() => {
