@@ -17,7 +17,7 @@ let populateToc = () => {
     }
   });
   // $('.toc ul').append(toc);
-  // Do something with document.body.id.
+  // Do something with document.body.id to highlight and show/hide stuff.
 };
 
 $(() => {
