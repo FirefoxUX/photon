@@ -1,0 +1,7 @@
+[
+  {"title": "Home", "file": "home.html"},
+  {"title": "VisualDesign", "file": "visualDesign.html"},
+  {"title": "Components", "file": "components.html"},
+  {"title": "Patterns", "file": "patterns.html"},
+  {"title": "Resources", "file": "resources.html"}
+]
