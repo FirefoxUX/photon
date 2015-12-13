@@ -6,6 +6,7 @@ const Editor = React.createFactory(require('./Editor.jsx'));
 
 const App = React.createClass({
   displayName: 'App',
+
   getInitialState: function() {
     const sources = generateSources();
     return { sources: sources,
