@@ -3,8 +3,8 @@ const React = require('react');
 const TableOfContents = React.createClass({
   displayName: 'TableOfContents',
   propTypes: {
-    items: React.PropTypes.arrayOf(React.PropTypes.shape),
-    onItemSelected: React.PropTypes.func,
+    items: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
+    onItemSelected: React.PropTypes.func.isRequired,
     selectedItem: React.PropTypes.shape()
   },
 

@@ -5,7 +5,7 @@ const Editor = React.createClass({
   propTypes: {
     source: React.PropTypes.shape({
       text: React.PropTypes.string
-    })
+    }).isRequired
   },
 
   render: function() {
