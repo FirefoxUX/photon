@@ -23,13 +23,16 @@ h2 {
   font-size: 28px;
 }
 
-.hbox {
+.app {
   display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .toolbar {
   background-color: #ff9216;
   padding: 0;
+  flex: 0 0 200px;
   display: flex;
 }
 
@@ -62,16 +65,20 @@ h2 {
 }
 
 .toc li {
-  /*background: #336699;*/
-  padding: 0px 10px;
+  padding: 0 10px;
   margin-top: 15px;
   border-left: 3px solid transparent;
   transition: border-left 150ms ease-in-out
 }
 
-.toc li.selected {
-  /*background: #336699;*/
+.toc .selected {
   border-left: 3px solid #c84510;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
 }
 
 
