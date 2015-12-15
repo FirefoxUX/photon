@@ -5,11 +5,20 @@ const TableOfContents = React.createClass({
   propTypes: {
     items: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
     onItemSelected: React.PropTypes.func.isRequired,
-    selectedItem: React.PropTypes.shape()
+    onSubpageSelected: React.PropTypes.func,
+    selectedItem: React.PropTypes.shape(),
+    selectedSubpage: React.PropTypes.shape()
   },
 
   render: function() {
-    const { items, onItemSelected, selectedItem } = this.props;
+    const { items, onItemSelected, selectedItem, onSubpageSelected, selectedSubpage } = this.props;
+
+    var subpages = selectedItem.subpages.map((subpage, i) => {
+      return (<li className={(subpage === selectedSubpage) ? 'subselected' : ''}
+          key={items.indexOf(selectedItem) + ':' + i}
+          onClick={() => onSubpageSelected(subpage)}
+              >{subpage.title}</li>);
+    });
 
     return (<ul className="toc">
       {items.map((item, i) => {
@@ -17,7 +26,10 @@ const TableOfContents = React.createClass({
           <li className={(item === selectedItem) ? 'selected' : ''}
               key={i}
               onClick={() => onItemSelected(item)}
-          >{item.title}</li>)
+          >{item.title}
+          {(item === selectedItem) ? subpages : ''}
+        </li>
+          )
       })}
     </ul>)
   }

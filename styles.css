@@ -68,7 +68,8 @@ h2 {
   padding: 0 10px;
   margin-top: 15px;
   border-left: 3px solid transparent;
-  transition: border-left 150ms ease-in-out
+  transition: border-left 150ms ease-in-out;
+  cursor: pointer;
 }
 
 .toc .selected {
