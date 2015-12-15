@@ -9,7 +9,8 @@ const Editor = React.createClass({
   },
 
   render: function() {
-    return <div className="editor">{this.props.source.text}</div>
+    return (<div className="editor"
+        dangerouslySetInnerHTML={{__html: this.props.source.text}}></div>)
   }
 });
 
