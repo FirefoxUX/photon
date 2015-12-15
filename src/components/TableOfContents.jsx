@@ -17,7 +17,7 @@ const TableOfContents = React.createClass({
           <li className={(item === selectedItem) ? 'selected' : ''}
               key={i}
               onClick={() => onItemSelected(item)}
-          >{item.name}</li>)
+          >{item.title}</li>)
       })}
     </ul>)
   }

@@ -10,24 +10,23 @@ const App = React.createClass({
   getInitialState: function() {
     const sources = generateSources();
     return { sources: sources,
-             selectedSourceName: sources[0].name };
+             selectedSourceName: sources[0].title };
   },
 
   handleNavigation: function() {
     const sources = generateSources();
     this.setState({ sources: sources,
-                    selectedSourceName: sources[0].name });
+                    selectedSourceName: sources[0].title });
   },
 
   handleItemSelected: function(source) {
-    this.setState({ selectedSourceName: source.name });
+    this.setState({ selectedSourceName: source.title });
   },
 
   render: function() {
     const { sources, selectedSourceName } = this.state;
-    const selectedSource = sources.find(source => source.name === selectedSourceName);
-
-    return (<div className="app">
+    const selectedSource = sources.find(source => source.title === selectedSourceName);
+    return (<div className={"app " + (selectedSource ? selectedSource.className : "")}>
       <div className="toolbar">
         <div className="title">
           <h2>{"Firefox"}<br/>{"Style Guide v1.0"}</h2>

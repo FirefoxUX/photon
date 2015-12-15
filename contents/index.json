@@ -1,7 +1,17 @@
 [
-  {"title": "Home", "file": "home.html"},
-  {"title": "VisualDesign", "file": "visualDesign.html"},
-  {"title": "Components", "file": "components.html"},
-  {"title": "Patterns", "file": "patterns.html"},
-  {"title": "Resources", "file": "resources.html"}
+  {"title": "Home",
+    "className": "home",
+    "file": "home.html"},
+  {"title": "VisualDesign",
+    "className": "visual-design",
+    "file": "visualDesign.html"},
+  {"title": "Components",
+    "className": "components",
+    "file": "components.html"},
+  {"title": "Patterns",
+    "className": "patterns",
+    "file": "patterns.html"},
+  {"title": "Resources",
+    "className": "resources",
+    "file": "resources.html"}
 ]

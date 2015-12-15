@@ -4,13 +4,13 @@ var data = require('json!../../contents/index.json');
 
 function generateSources() {
   return data.map(e => {
-    let rv = {name: e.title, text: ''};
+    e.text = '';
     fetch(`contents/${e.file}`).then(response => {
       return response.text();
     }).then(text => {
-      rv.text = text;
+      e.text = text;
     });
-    return rv
+    return e;
   });
 }
 
