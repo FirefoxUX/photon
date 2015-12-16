@@ -1,3 +1,5 @@
+/*csslint adjoining-classes:false, box-sizing:false, ids: false, universal-selector:false */
+
 html {
   box-sizing: border-box;
 }
@@ -70,6 +72,10 @@ h2 {
   border-left: 3px solid transparent;
   transition: border-left 150ms ease-in-out;
   cursor: pointer;
+}
+
+.toc .subitem {
+  padding-left: 20px;
 }
 
 .toc .selected {
