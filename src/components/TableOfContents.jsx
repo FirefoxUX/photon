@@ -1,38 +1,51 @@
 const React = require('react');
 
+const { connect } = require('react-redux');
+
 const TableOfContents = React.createClass({
   displayName: 'TableOfContents',
   propTypes: {
+    dispatch: React.PropTypes.func,
     items: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
-    onItemSelected: React.PropTypes.func.isRequired,
-    onSubpageSelected: React.PropTypes.func,
     selectedItem: React.PropTypes.shape(),
     selectedSubpage: React.PropTypes.shape()
   },
 
   render: function() {
-    const { items, onItemSelected, selectedItem, onSubpageSelected, selectedSubpage } = this.props;
+    const { items, selectedItem, selectedSubpage, dispatch } = this.props;
 
     var subpages = selectedItem.subpages.map((subpage, i) => {
-      return (<li className={(subpage === selectedSubpage) ? 'subselected' : ''}
+      return (<li className={'subitem ' + ((subpage === selectedSubpage) ? 'selected' : '')}
           key={items.indexOf(selectedItem) + ':' + i}
-          onClick={() => onSubpageSelected(subpage)}
+          onClick={(e) => {
+            e.stopPropagation();
+            dispatch({type: 'SUBPAGE', data: subpage.title});
+          }}
               >{subpage.title}</li>);
     });
 
     return (<ul className="toc">
       {items.map((item, i) => {
-        return (
+        return ([].concat(
           <li className={(item === selectedItem) ? 'selected' : ''}
               key={i}
-              onClick={() => onItemSelected(item)}
+              onClick={() => dispatch({type: 'PAGE', data: item.title})}
           >{item.title}
-          {(item === selectedItem) ? subpages : ''}
-        </li>
+        </li>).concat((item === selectedItem) ? subpages : [])
           )
       })}
     </ul>)
   }
 });
 
-module.exports = TableOfContents;
+function makeProps(state) {
+  var item = state.sources.find(source => source.title === state.selectedSourceName);
+  var subitem = item.subpages.find(subitem => subitem.title === state.selectedSubpage);
+  return {
+    items: state.sources,
+    selectedItem: item,
+    selectedSubpage: subitem
+  }
+}
+
+module.exports = connect(makeProps)(TableOfContents);

@@ -1,30 +1,19 @@
 const React = require('react');
-const generateSources = require('./generateSources');
 
 const TableOfContents = React.createFactory(require('./TableOfContents.jsx'));
 const Editor = React.createFactory(require('./Editor.jsx'));
 
+const { connect } = require('react-redux');
+
 const App = React.createClass({
   displayName: 'App',
-
-  getInitialState: function() {
-    const sources = generateSources();
-    return { sources: sources,
-             selectedSourceName: sources[0].title };
-  },
-
-  handleNavigation: function() {
-    const sources = generateSources();
-    this.setState({ sources: sources,
-                    selectedSourceName: sources[0].title });
-  },
-
-  handleItemSelected: function(source) {
-    this.setState({ selectedSourceName: source.title });
+  propTypes: {
+    selectedSourceName: React.PropTypes.string,
+    sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired
   },
 
   render: function() {
-    const { sources, selectedSourceName } = this.state;
+    const { sources, selectedSourceName } = this.props;
     const selectedSource = sources.find(source => source.title === selectedSourceName);
     return (<div className={"app " + (selectedSource ? selectedSource.className : "")}>
       <div className="toolbar">
@@ -39,14 +28,18 @@ const App = React.createClass({
         </div>
       </div>
       <div className="content">
-        <TableOfContents items={sources}
-            onItemSelected={this.handleItemSelected}
-            selectedItem={selectedSource}
-        />
-        <Editor source={selectedSource} />
+        <TableOfContents/>
+        <Editor/>
       </div>
     </div>);
   }
 });
 
-module.exports = App;
+function makeProps(state) {
+  return {
+    sources: state.sources,
+    selectedSourceName: state.selectedSourceName
+  }
+}
+
+module.exports = connect(makeProps)(App);
