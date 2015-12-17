@@ -1,3 +1,7 @@
+/* global process:false */
+
+'use strict';
+
 const React = require('react');
 const ReactDOM = require('react-dom');
 
@@ -10,10 +14,17 @@ const App = require('./components/App.jsx');
 const reducer = require('./components/store.js');
 
 const loggerMiddleware = createLogger();
-const createStoreWithMiddleware = applyMiddleware(
-  thunkMiddleware, // lets us dispatch() functions
-  loggerMiddleware // neat middleware that logs actions
-)(createStore)
+var createStoreWithMiddleware;
+if (process.env.NODE_ENV === 'development') {
+  createStoreWithMiddleware = applyMiddleware(
+    thunkMiddleware, // lets us dispatch() functions
+    loggerMiddleware // neat middleware that logs actions
+  )(createStore);
+} else {
+  createStoreWithMiddleware = applyMiddleware(
+    thunkMiddleware // lets us dispatch() functions
+  )(createStore);
+}
 
 var store = createStoreWithMiddleware(reducer);
 

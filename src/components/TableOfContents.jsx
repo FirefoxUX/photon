@@ -19,7 +19,7 @@ const ListItem = connect(state => {
     i: React.PropTypes.number,
     item: React.PropTypes.shape().isRequired,
     selectedItem: React.PropTypes.shape(),
-    selectedSubpage: React.PropTypes.shape()
+    selectedSubpage: React.PropTypes.string
   },
 
   handleItem() {

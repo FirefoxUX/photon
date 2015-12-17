@@ -9,7 +9,7 @@ const { connect } = require('react-redux');
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
-    subpage: React.PropTypes.boolean,
+    subpage: React.PropTypes.bool,
     text: React.PropTypes.string
   },
 
@@ -23,7 +23,7 @@ const Editor = React.createClass({
 function makeProps(state) {
   var text = state.text;
   return {
-    subpage: state.selectedSubpage,
+    subpage: !!state.selectedSubpage,
     text: text
   }
 }

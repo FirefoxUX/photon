@@ -33,6 +33,7 @@ h2 {
 }
 
 .toolbar {
+  transition: background-color 150ms ease-in-out;
   background-color: #ff9216;
   padding: 0;
   flex: 0 0 200px;
@@ -41,6 +42,7 @@ h2 {
 
 .toolbar > .title {
   flex: 0 0 200px;
+  transition: background-color 150ms ease-in-out;
   background-color: #c84510;
   color: #ffffff;
   margin: 0;
@@ -93,6 +95,7 @@ h2 {
 .editor {
   flex: 1;
   color: #ffffff;
+  transition: background-color 150ms ease-in-out;
   background-color: #ffad2e;
   padding: 10px;
 
