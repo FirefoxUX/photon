@@ -9,22 +9,22 @@ const { connect } = require('react-redux');
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
-    source: React.PropTypes.shape({
-      text: React.PropTypes.string
-    }).isRequired
+    subpage: React.PropTypes.boolean,
+    text: React.PropTypes.string
   },
 
   render: function() {
-    return (<div className="editor"
-        dangerouslySetInnerHTML={{__html: this.props.source.text}}
+    return (<div className={'editor' + (this.props.subpage ? ' subpage' : ' ')}
+        dangerouslySetInnerHTML={{__html: this.props.text}}
             ></div>)
   }
 });
 
 function makeProps(state) {
-  var source = state.sources.find(source => source.title === state.selectedSourceName);
+  var text = state.text;
   return {
-    source: source
+    subpage: state.selectedSubpage,
+    text: text
   }
 }
 
