@@ -29,6 +29,7 @@ h2 {
   display: flex;
   flex-direction: column;
   height: 100%;
+  color: #0c0c0c;
 }
 
 .toolbar {
@@ -75,11 +76,11 @@ h2 {
 }
 
 .toc .subitem {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .toc .selected {
-  border-left: 3px solid #c84510;
+  border-left-color: #c84510;
 }
 
 .content {
@@ -99,6 +100,10 @@ h2 {
   font-family: Monaco, Courier New;
 }
 
+.app .content .editor.subpage {
+  color: #0c0c0c;
+  background-color: #fcfcfc;
+}
 
 /* Colour Schemes. */
 
