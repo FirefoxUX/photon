@@ -2,6 +2,8 @@
 
 /* eslint "react/no-danger":[0] */
 
+require('../styles/editor.css');
+
 const React = require('react');
 const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
