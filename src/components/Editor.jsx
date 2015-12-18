@@ -25,12 +25,12 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     Array.from(node.querySelectorAll('.colours, .multi-swatch')).map(e => {
       e.addEventListener('click', (evt) => {
-        if (!evt.originalTarget.classList.contains('colour')) {
+        if (!evt.target.classList.contains('colour')) {
           return;
         }
         let copyElement = document.createElement('input');
         copyElement.setAttribute('type', 'text');
-        copyElement.setAttribute('value', evt.originalTarget.textContent);
+        copyElement.setAttribute('value', evt.target.textContent);
         copyElement = document.body.appendChild(copyElement);
         copyElement.select();
         document.execCommand('copy');
