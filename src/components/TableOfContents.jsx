@@ -1,3 +1,5 @@
+/* eslint react/no-multi-comp:[0] */
+
 'use strict';
 
 const React = require('react');
