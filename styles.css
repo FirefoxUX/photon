@@ -116,19 +116,23 @@ h2 {
   flex-wrap: wrap;
 }
 
-.colour-swatch {
+.colour.swatch {
   width: 10em;
   border-radius: 4px;
 }
 
-.colour-swatch, .multi-swatch {
+.colour {
+  cursor: copy;
+}
+
+.colour.swatch, .multi-swatch {
   color: white;
   margin: .5em;
   font-size: smaller;
   display: flex;
 }
 
-.colour-swatch, .multi-swatch .colour {
+.colour.swatch, .multi-swatch .colour {
   padding: 4em 1em 4px;
 }
 
