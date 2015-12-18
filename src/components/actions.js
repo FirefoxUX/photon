@@ -8,29 +8,28 @@ function buildSubpageRequest(page, text) {
   return {type: 'SUBPAGE', data: page, text: text || ''};
 }
 
-function showPage(page) {
+function getContent(title, builder, getFile) {
   return (dispatch,  getState) => {
-    dispatch(buildPageRequest(page));
-    const state = getState();
-    var item = state.sources.find(source => source.title === page);
-
-    return fetch(`contents/${item.file}`)
+    dispatch(builder(title));
+    return fetch(`contents/${getFile(getState())}`)
       .then(response => response.text())
-      .then(text => dispatch(buildPageRequest(page, text)));
+      .then(text => dispatch(builder(title, text)));
   }
 }
 
-function showSubpage(subpage) {
-  return (dispatch,  getState) => {
-    dispatch(buildSubpageRequest(subpage));
-    const state = getState();
-    var item = state.sources.find(source => source.title === state.selectedSourceName);
-    var subitem = item.subpages.find(subitem => subitem.title === subpage);
+function showPage(title) {
+  return getContent(title, buildPageRequest, (state) => {
+    var item = state.sources.find(source => source.title === title);
+    return item.file;
+  });
+}
 
-    return fetch(`contents/${subitem.file}`)
-      .then(response => response.text())
-      .then(text => dispatch(buildSubpageRequest(subpage, text)));
-  }
+function showSubpage(title) {
+  return getContent(title, buildSubpageRequest,  (state) => {
+    var item = state.sources.find(source => source.title === state.selectedSourceName);
+    var subitem = item.subpages.find(subpage => subpage.title === title);
+    return subitem.file;
+  });
 }
 
 module.exports = {

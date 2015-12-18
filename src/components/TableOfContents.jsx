@@ -82,24 +82,26 @@ const TableOfContents = React.createClass({
     selectedSubpage: React.PropTypes.shape()
   },
 
+  getSubpage: (subpage, i) => {
+    return (<Subpage
+        i={i}
+        subpage={subpage}
+            />);
+  },
+
   render: function() {
     const { items, selectedItem } = this.props;
-
-    var subpages = selectedItem.subpages.map((subpage, i) => {
-      return (<Subpage
+    var subpages = selectedItem.subpages.map(this.getSubpage);
+    let getItem = (item, i) => {
+      return ([].concat(<ListItem
           i={i}
-          subpage={subpage}
-              />);
-    });
+          item={item}
+                        />).concat(
+        (item === selectedItem) ? subpages : []));
+    }
 
     return (<ul className="toc">
-      {items.map((item, i) => {
-        return ([].concat(<ListItem
-            i={i}
-            item={item}
-                          />).concat(
-          (item === selectedItem) ? subpages : []));
-      })}
+      {items.map(getItem)}
     </ul>)
   }
 });
