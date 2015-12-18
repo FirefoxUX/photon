@@ -103,6 +103,17 @@ h2 {
   font-family: Monaco, Courier New;
 }
 
+.editor > .popup {
+  position: absolute;
+  left: calc(50vw - 5em);
+  opacity: 0;
+  padding: 15px;
+  background: #fcfcfc;
+  border-radius: 4px;
+  border: 1px solid #b1b1b1;
+  transition: opacity 500ms ease-in-out;
+}
+
 .app .content .editor.subpage {
   color: #0c0c0c;
   background-color: #fcfcfc;

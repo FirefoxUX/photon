@@ -35,13 +35,22 @@ const Editor = React.createClass({
         copyElement.select();
         document.execCommand('copy');
         copyElement.remove();
+        var popup = node.querySelector('.popup');
+        popup.textContent = `Copied ${evt.target.textContent} to clipboard.`;
+        popup.style.opacity = 1;
+        var scrollPosition = document.body.scrollTop || document.documentElement.scrollTop;
+        popup.style.top = `calc(${scrollPosition}px + 50vh - .5em)`;
+        setTimeout(() => {
+          popup.style.opacity = '';
+        }, 1500);
       });
     });
   },
 
   render: function() {
     return (<div className={'editor' + (this.props.subpage ? ' subpage' : ' ')}
-        dangerouslySetInnerHTML={{__html: this.props.text}}
+        dangerouslySetInnerHTML={{__html:
+          '<div class="popup"></div>' + this.props.text}}
             ></div>)
   }
 });

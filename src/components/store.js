@@ -6,7 +6,8 @@ function counter(state, action) {
   if (!state) {
     state = { sources: sources,
       selectedSourceName: sources[0].title,
-      selectedSubpage: null };
+      selectedSubpage: null,
+      text: ''};
   }
   var newState;
   switch (action.type) {
