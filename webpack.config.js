@@ -2,6 +2,8 @@
 var path = require('path');
 var webpack = require('webpack');
 
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 var entry = [
   './src/app.jsx'
 ];
@@ -11,10 +13,14 @@ var plugins = [
   })
 ];
 
-var loaders = ['babel?presets[]=es2015,presets[]=react'];
+var jsLoaders = ['babel?presets[]=es2015,presets[]=react'];
+var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader', 'sass-loader');
 
 if (process.env.NODE_ENV === 'production') {
   plugins = plugins.concat([
+    new ExtractTextPlugin('style.css', {
+      allChunks: true
+    }),
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin({
       process: {env: {NODE_ENV: '"production"'}}
@@ -35,7 +41,8 @@ if (process.env.NODE_ENV === 'production') {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin()
   ]);
-  loaders = ['react-hot'].concat(loaders);
+  jsLoaders = ['react-hot'].concat(jsLoaders);
+  cssLoader = 'style!css!sass';
 }
 
 module.exports = {
@@ -49,8 +56,11 @@ module.exports = {
   plugins: plugins,
   module: {
     loaders: [{
+      test: /\.s?css$/,
+      loader: cssLoader
+    },{
       test: /\.jsx?$/,
-      loaders: loaders,
+      loaders: jsLoaders,
       exclude: /node_modules/
     }]
   }

@@ -2,6 +2,8 @@
 
 'use strict';
 
+require('./styles/base.css');
+
 const React = require('react');
 const ReactDOM = require('react-dom');
 
