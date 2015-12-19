@@ -2,13 +2,19 @@
 
 'use strict';
 
+require('../styles/toc.css');
+
 const React = require('react');
 const { Link } = require('react-router');
 
 const { connect } = require('react-redux');
+const { getPages } = require('./utilities.js');
 
 const ListItem = connect(state => {
-  var {page, subpage} = state.data;
+  var {path} = state.routing;
+  var {sources} = state.data;
+
+  var [page, subpage] = getPages(path, sources);
   return {
     page: page,
     subpage: subpage
@@ -31,14 +37,17 @@ const ListItem = connect(state => {
     return (
           <li className={(!subpage && item === page) ? 'selected' : ''}
               key={i}
-          ><Link to={url}>{item.title}</Link>
+          ><Link to={url} activeClassName="active">{item.title}</Link>
         </li>
       );
   }
 }));
 
 const Subpage = connect(state => {
-  var {sources, page, subpage} = state.data;
+  var {path} = state.routing;
+  var {sources} = state.data;
+
+  var [page, subpage] = getPages(path, sources);
   return {
     sources: sources,
     page: page,
@@ -62,7 +71,7 @@ const Subpage = connect(state => {
     return (<li
         className={'subitem ' + ((item === subpage) ? 'selected' : '')}
         key={sources.indexOf(page) + ':' + i}
-            ><Link to={url}>{item.title}</Link></li>);
+            ><Link to={url} activeClassName="active">{item.title}</Link></li>);
   }
 }));
 
@@ -71,8 +80,7 @@ const TableOfContents = React.createClass({
   displayName: 'TableOfContents',
   propTypes: {
     page: React.PropTypes.shape(),
-    sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
-    subpage: React.PropTypes.shape()
+    sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired
   },
 
   getSubpage: (item, i) => {
@@ -85,6 +93,7 @@ const TableOfContents = React.createClass({
   render: function() {
     const { sources, page } = this.props;
     var subpages = page ? page.subpages.map(this.getSubpage) : [];
+
     let getItem = (item, i) => {
       return ([].concat(<ListItem
           i={i}
@@ -100,11 +109,13 @@ const TableOfContents = React.createClass({
 });
 
 function makeProps(state) {
-  var {sources, page, subpage} = state.data;
+  var {path} = state.routing;
+  var {sources} = state.data;
+
+  var [page] = getPages(path, sources);
   return {
     sources: sources,
-    page: page,
-    subpage: subpage
+    page: page
   }
 }
 

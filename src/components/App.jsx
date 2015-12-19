@@ -4,6 +4,7 @@ const TableOfContents = React.createFactory(require('./TableOfContents.jsx'));
 const Editor = React.createFactory(require('./Editor.jsx'));
 
 const { connect } = require('react-redux');
+const { getPages } = require('./utilities.js');
 
 const App = React.createClass({
   displayName: 'App',
@@ -34,7 +35,10 @@ const App = React.createClass({
 });
 
 function makeProps(state) {
-  var {page} = state.data;
+  var {path} = state.routing;
+  var {sources} = state.data;
+
+  var [page] = getPages(path, sources);
   return {page: page};
 }
 

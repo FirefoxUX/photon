@@ -8,6 +8,8 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
 
+const { parsePath } = require('./utilities.js');
+
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
@@ -63,7 +65,10 @@ const Editor = React.createClass({
 });
 
 function makeProps(state) {
-  var {text, subpage} = state.data;
+  var {text} = state.data;
+  var {path} = state.routing;
+  var subpage = parsePath(path)[1];
+
   return {
     subpage: !!subpage,
     text: text
