@@ -8,14 +8,12 @@ const { connect } = require('react-redux');
 const App = React.createClass({
   displayName: 'App',
   propTypes: {
-    selectedSourceName: React.PropTypes.string,
-    sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired
+    page: React.PropTypes.shape()
   },
 
   render: function() {
-    const { sources, selectedSourceName } = this.props;
-    const selectedSource = sources.find(source => source.title === selectedSourceName);
-    return (<div className={"app " + (selectedSource ? selectedSource.className : "")}>
+    const { page } = this.props;
+    return (<div className={"app " + (page ? page.className : "")}>
       <div className="toolbar">
         <div className="title">
           <h2>{"Firefox"}<br/>{"Style Guide v1.0"}</h2>
@@ -36,10 +34,8 @@ const App = React.createClass({
 });
 
 function makeProps(state) {
-  return {
-    sources: state.sources,
-    selectedSourceName: state.selectedSourceName
-  }
+  var {page} = state.data;
+  return {page: page};
 }
 
 module.exports = connect(makeProps)(App);

@@ -3,74 +3,66 @@
 'use strict';
 
 const React = require('react');
+const { Link } = require('react-router');
 
 const { connect } = require('react-redux');
-const { showPage, showSubpage } = require('./actions');
 
 const ListItem = connect(state => {
-  var item = state.sources.find(source => source.title === state.selectedSourceName);
+  var {page, subpage} = state.data;
   return {
-    selectedItem: item,
-    selectedSubpage: state.selectedSubpage
+    page: page,
+    subpage: subpage
   };
 })(React.createClass({
   displayName: 'ListItem',
 
   propTypes: {
-    dispatch: React.PropTypes.func,
     i: React.PropTypes.number,
-    item: React.PropTypes.shape().isRequired,
-    selectedItem: React.PropTypes.shape(),
-    selectedSubpage: React.PropTypes.string
+    item: React.PropTypes.shape(),
+    page: React.PropTypes.shape(),
+    subpage: React.PropTypes.shape()
   },
 
-  handleItem() {
-    this.props.dispatch(showPage(this.props.item.title));
-  },
   render() {
-    const { i, item, selectedItem, selectedSubpage } = this.props;
+    const { i, item, page, subpage } = this.props;
+
+    const url = `/${item.file}`;
 
     return (
-          <li className={(!selectedSubpage && item === selectedItem) ? 'selected' : ''}
+          <li className={(!subpage && item === page) ? 'selected' : ''}
               key={i}
-              onClick={this.handleItem}
-          >{item.title}
+          ><Link to={url}>{item.title}</Link>
         </li>
       );
   }
 }));
 
 const Subpage = connect(state => {
-  var item = state.sources.find(source => source.title === state.selectedSourceName);
-  var subitem = item.subpages.find(subitem => subitem.title === state.selectedSubpage);
+  var {sources, page, subpage} = state.data;
   return {
-    items: state.sources,
-    selectedItem: item,
-    selectedSubpage: subitem
+    sources: sources,
+    page: page,
+    subpage: subpage
   };
 })(React.createClass({
   displayName: 'ListItem',
 
   propTypes: {
-    dispatch: React.PropTypes.func,
     i: React.PropTypes.number,
-    items: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
-    selectedItem: React.PropTypes.shape().isRequired,
-    selectedSubpage: React.PropTypes.shape(),
-    subpage: React.PropTypes.shape().isRequired
+    item: React.PropTypes.shape(),
+    page: React.PropTypes.shape().isRequired,
+    sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
+    subpage: React.PropTypes.shape()
   },
 
-  handleSubItem() {
-    this.props.dispatch(showSubpage(this.props.subpage.title));
-  },
   render() {
-    const { i, items, subpage, selectedItem, selectedSubpage } = this.props;
+    const { item, i, page, sources, subpage } = this.props;
 
+    const url = `/${page.file}/${item.file}`;
     return (<li
-        className={'subitem ' + ((subpage === selectedSubpage) ? 'selected' : '')}
-        key={items.indexOf(selectedItem) + ':' + i}
-        onClick={this.handleSubItem}
-            >{subpage.title}</li>);
+        className={'subitem ' + ((item === subpage) ? 'selected' : '')}
+        key={sources.indexOf(page) + ':' + i}
+            ><Link to={url}>{item.title}</Link></li>);
   }
 }));
 
@@ -78,43 +70,41 @@ const Subpage = connect(state => {
 const TableOfContents = React.createClass({
   displayName: 'TableOfContents',
   propTypes: {
-    dispatch: React.PropTypes.func,
-    items: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
-    selectedItem: React.PropTypes.shape(),
-    selectedSubpage: React.PropTypes.shape()
+    page: React.PropTypes.shape(),
+    sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
+    subpage: React.PropTypes.shape()
   },
 
-  getSubpage: (subpage, i) => {
+  getSubpage: (item, i) => {
     return (<Subpage
         i={i}
-        subpage={subpage}
+        item={item}
             />);
   },
 
   render: function() {
-    const { items, selectedItem } = this.props;
-    var subpages = selectedItem.subpages.map(this.getSubpage);
+    const { sources, page } = this.props;
+    var subpages = page ? page.subpages.map(this.getSubpage) : [];
     let getItem = (item, i) => {
       return ([].concat(<ListItem
           i={i}
           item={item}
                         />).concat(
-        (item === selectedItem) ? subpages : []));
+        (item === page) ? subpages : []));
     }
 
     return (<ul className="toc">
-      {items.map(getItem)}
+      {sources.map(getItem)}
     </ul>)
   }
 });
 
 function makeProps(state) {
-  var item = state.sources.find(source => source.title === state.selectedSourceName);
-  var subitem = item.subpages.find(subitem => subitem.title === state.selectedSubpage);
+  var {sources, page, subpage} = state.data;
   return {
-    items: state.sources,
-    selectedItem: item,
-    selectedSubpage: subitem
+    sources: sources,
+    page: page,
+    subpage: subpage
   }
 }
 

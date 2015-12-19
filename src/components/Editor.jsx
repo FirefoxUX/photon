@@ -63,9 +63,9 @@ const Editor = React.createClass({
 });
 
 function makeProps(state) {
-  var text = state.text;
+  var {text, subpage} = state.data;
   return {
-    subpage: !!state.selectedSubpage,
+    subpage: !!subpage,
     text: text
   }
 }
