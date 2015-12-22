@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox - active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="checkbox---active" sketch:type="MSLayerGroup">
+            <rect id="Button-Shape" stroke="#0095FF" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="24" height="24"></rect>
+            <image id="img.checkmark" sketch:type="MSBitmapLayer" x="6" y="6" width="12" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAq1JREFUSA2tVk1oU0EQnnlp86r4AxWrnlqSWC9WBQ9VT1VBDx48VY+CPWjSpvaiFZGCF7GCpGLSUDz4d/MkgopVMSAq/hWEmlJMg6Anc6hFLJQm+Zx96XvJvqamNdlDdueb2W9mdmc2jwFQLQcPT50TvmmE/DcVL9fSAccndxDVfRDaeiKcQdB/o2YO+FLSS00N7yXonSpyawD9hr2uet5oDghHkbxA2F6TDDj2tZ0Mz2vh9BQDxU/KYnvVGXDk7Sohv6OTW25OIRzIVO2AzKYrQretGLmsgLtywQ8UVpUDKcn9xBx2kf8gnu2zsf92wFcn10o53hIitslklqZCF4Jt0zbmOODB9HqOpg7biorzmvohoW7W7IARhAKjpZjlgK+Pb6J1eEkefrgcJxxPHxHyk6VEEvkU0dxZHVPpRZPNxOaorFoXlLOUzx1A99Z3bmMlcyTZSGbDF7Hf7OhBecplOxBufeVgCwuDDO/tEnIFryY2HnE03eY2tmTTjGvkFohIOXKlMiiXC8o8Y9nZP8wbyMBjjk1oZyxVc1yq5phtVpiRpMz3izpWlKxO5lj6oLh6KnBJJ4oEpCiHfapheGhiC5nmuKCNznYgS3neix7fRwdzLaxLRrfvhZyiXs/KkDlAdfxEVRh5TfX8FsmVHrj8L3Jlor1FPJyOyfmGlMI1voncomHAGH3+tQcju+c13CU4fWDhiU+90irPXDZKbNEwYI6ydKISudqjOcD9zhz9pk7JPakRLhYG0OtX91FxaA6UNfp9M5LFUTnfTNndwBtKjF0rqysDandQqpeO7pDOlspir4OD/kgIu+T/NuVgFRaLMrDt0RNICPlpWy7MOL8ScrVnyQxsYmmuQSlX9aXwnEL+Q/KRIC/m8seSGTgUibELciz3aJ66VkquOP4CpKLp6lECoFIAAAAASUVORK5CYII="></image>
+        </g>
+    </g>
+</svg>

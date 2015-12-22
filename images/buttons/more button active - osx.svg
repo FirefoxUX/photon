@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>more button active - osx</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="more-button-active---osx" sketch:type="MSLayerGroup">
+            <rect id="Button-Shape" stroke="#0675D3" fill="#2EA3FF" sketch:type="MSShapeGroup" x="0" y="0" width="40" height="40"></rect>
+            <g id="Icon---Arrow---Page-Left---Inverted" transform="translate(16.000000, 14.000000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                <path d="M1.774,12 L-3.55271368e-15,10.29 L4.451,6 L-3.55271368e-15,1.71 L1.774,0 L8,6 L1.774,12 Z" transform="translate(4.000000, 6.000000) scale(-1, 1) translate(-4.000000, -6.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
