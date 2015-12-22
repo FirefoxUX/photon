@@ -27,6 +27,7 @@ const Editor = React.createClass({
 
   addEditorHandlers: function() {
     let node = ReactDOM.findDOMNode(this);
+
     Array.from(node.querySelectorAll('.colours, .multi-swatch')).map(e => {
       e.addEventListener('click', (evt) => {
         var popup = node.querySelector('.popup');
@@ -52,6 +53,27 @@ const Editor = React.createClass({
             popup.style.zIndex = '';
           }, 500);
         }, 1500);
+      });
+    });
+
+    Array.from(node.querySelectorAll('code')).map(e => {
+      let baseHeight = e.style.height;
+      e.style.height = baseHeight;
+      let container = document.createElement('div');
+      container.setAttribute('class', 'code-container');
+      let image = document.createElement('img');
+      image.setAttribute('class', 'expando');
+      image.setAttribute('src', 'expand.svg');
+      e.parentNode.appendChild(container);
+      container.appendChild(e);
+      container.appendChild(image);
+      image.addEventListener('click', () => {
+        console.log(e.style.height, baseHeight);
+        if (e.style.height === baseHeight) {
+          e.style.height = '500px';
+        } else {
+          e.style.height = baseHeight;
+        }
       });
     });
   },

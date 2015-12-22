@@ -1,5 +1,9 @@
 // scss-lint:disable ColorVariable
 
+.editor > h3 {
+  font-weight: 400;
+}
+
 .editor > .popup {
   background: #fcfcfc;
   border: 1px solid #b1b1b1;
@@ -57,4 +61,54 @@
 
 .multi-swatch .colour:last-child {
   border-radius: 0 4px 4px 0;
+}
+
+.example {
+  background-color: #fff;
+  display: flex;
+  margin-top: 40px;
+
+  > * {
+    min-height: 100px;
+    padding: 10px;
+  }
+
+  .source {
+    flex: 1;
+
+    .title {
+      font-size: smaller;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+
+    .code-container {
+      display: flex;
+    }
+
+    code {
+      border: 1px solid #0c0c0c;
+      display: inline-block;
+      flex: 1;
+      font-family: Monaco, Courier New;
+      height: 24px;
+      transition: height 250ms ease-in-out;
+    }
+
+    .expando {
+      flex: 0;
+      margin-left: 10px;
+      height: 24px;
+      width: 24px;
+    }
+  }
+
+  .result {
+    align-items: center;
+    background-color: #f5f5f5;
+    display: flex;
+    flex: 0 0 213px;
+    justify-content: center;
+  }
+
 }
