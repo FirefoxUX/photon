@@ -61,13 +61,21 @@ const Editor = React.createClass({
       e.style.height = baseHeight;
       let container = document.createElement('div');
       container.setAttribute('class', 'code-container');
-      let image = document.createElement('img');
-      image.setAttribute('class', 'expando');
-      image.setAttribute('src', 'expand.svg');
+      let copy = document.createElement('img');
+      copy.setAttribute('class', 'copyImage');
+      copy.setAttribute('src', 'expand.svg');
       e.parentNode.appendChild(container);
       container.appendChild(e);
-      container.appendChild(image);
-      image.addEventListener('click', () => {
+      container.appendChild(copy);
+      let expand = document.createElement('div');
+      expand.textContent = 'Click to expand code snippet';
+      container.parentNode.appendChild(expand);
+
+      copy.addEventListener('click', () => {
+        e.select();
+        document.execCommand('copy');
+      });
+      expand.addEventListener('click', () => {
         console.log(e.style.height, baseHeight);
         if (e.style.height === baseHeight) {
           e.style.height = '500px';
