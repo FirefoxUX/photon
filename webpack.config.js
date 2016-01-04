@@ -53,6 +53,12 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/static/'
   },
+  worker: {
+    output: {
+        filename: 'worker.js'
+    },
+    inline: true
+  },
   plugins: plugins,
   module: {
     loaders: [{

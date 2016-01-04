@@ -3,12 +3,14 @@
 /* eslint "react/no-danger":[0] */
 
 require('../styles/editor.scss');
+require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');
 const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
 
 const { parsePath } = require('./utilities.js');
+var HighlightWorker = require('worker?inline=true!../worker.js');
 
 const Editor = React.createClass({
   displayName: 'Editor',
@@ -27,6 +29,12 @@ const Editor = React.createClass({
 
   addEditorHandlers: function() {
     let node = ReactDOM.findDOMNode(this);
+    let codes = Array.from(node.querySelectorAll('code'));
+
+    var worker = new HighlightWorker();
+    worker.onmessage = (event) => {
+      codes[event.data.index].innerHTML = event.data.text;
+    };
 
     Array.from(node.querySelectorAll('.colours, .multi-swatch')).map(e => {
       e.addEventListener('click', (evt) => {
@@ -56,17 +64,21 @@ const Editor = React.createClass({
       });
     });
 
-    Array.from(node.querySelectorAll('code')).map(e => {
+    codes.map((e, i) => {
       let baseHeight = e.style.height;
       e.style.height = baseHeight;
       let container = document.createElement('div');
       container.setAttribute('class', 'code-container');
+
+      worker.postMessage({index: i, text: e.textContent});
+
       let copy = document.createElement('img');
       copy.setAttribute('class', 'copyImage');
       copy.setAttribute('src', 'expand.svg');
       e.parentNode.appendChild(container);
       container.appendChild(e);
       container.appendChild(copy);
+
       let expand = document.createElement('div');
       expand.textContent = 'Click to expand code snippet';
       container.parentNode.appendChild(expand);
@@ -76,7 +88,6 @@ const Editor = React.createClass({
         document.execCommand('copy');
       });
       expand.addEventListener('click', () => {
-        console.log(e.style.height, baseHeight);
         if (e.style.height === baseHeight) {
           e.style.height = '500px';
         } else {
