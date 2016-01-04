@@ -1,4 +1,4 @@
-// scss-lint:disable ColorVariable
+// scss-lint:disable ColorVariable UrlFormat
 
 .editor > h3 {
   font-weight: 400;
@@ -21,6 +21,23 @@
   color: #0c0c0c;
 }
 
+.copy-image {
+  background-image: url('../../images/site-controls/copy icon normal.svg');
+  margin: 0 10px;
+  width: 24px;
+
+  &:hover {
+    background-image: url('../../images/site-controls/copy icon hover.svg');
+  }
+
+  &:focus {
+    background-image: url('../../images/site-controls/copy icon focused.svg');
+  }
+
+  &:active {
+    background-image: url('../../images/site-controls/copy icon active.svg');
+  }
+}
 
 // in-editor styles
 

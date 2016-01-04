@@ -50,18 +50,15 @@ module.exports = {
   entry: entry,
   output: {
     path: path.join(__dirname, 'static'),
-    filename: 'bundle.js',
-    publicPath: '/static/'
-  },
-  worker: {
-    output: {
-        filename: 'worker.js'
-    },
-    inline: true
+    filename: 'bundle.js'
   },
   plugins: plugins,
   module: {
     loaders: [{
+      test: /\.(svg|png)$/,
+      loader: 'file',
+      publicPath: ''
+    },{
       test: /\.s?css$/,
       loader: cssLoader
     },{

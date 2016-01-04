@@ -72,9 +72,8 @@ const Editor = React.createClass({
 
       worker.postMessage({index: i, text: e.textContent});
 
-      let copy = document.createElement('img');
-      copy.setAttribute('class', 'copyImage');
-      copy.setAttribute('src', 'expand.svg');
+      let copy = document.createElement('div');
+      copy.setAttribute('class', 'copy-image');
       e.parentNode.appendChild(container);
       container.appendChild(e);
       container.appendChild(copy);
