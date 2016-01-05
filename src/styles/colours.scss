@@ -38,7 +38,7 @@
   }
 }
 
-.app.patterns {
+.app.resources {
   .toolbar {
     background-color: #0996f8;
 
@@ -53,24 +53,5 @@
 
   .editor {
     background-color: #2ea3ff;
-  }
-}
-
-
-.app.resources {
-  .toolbar {
-    background-color: #ea385e;
-
-    > .title {
-      background-color: #911a2e;
-    }
-  }
-
-  .toc .selected {
-    border-left-color: #911a2e;
-  }
-
-  .editor {
-    background-color: #fa526e;
   }
 }

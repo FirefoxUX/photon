@@ -15,6 +15,7 @@ var plugins = [
 
 var jsLoaders = ['babel?presets[]=es2015,presets[]=react'];
 var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader');
+var publicPath = '/StyleGuide/static/';
 
 if (process.env.NODE_ENV === 'production') {
   plugins = plugins.concat([
@@ -43,6 +44,7 @@ if (process.env.NODE_ENV === 'production') {
   ]);
   jsLoaders = ['react-hot'].concat(jsLoaders);
   cssLoader = 'style!css!sass';
+  publicPath = '/static/';
 }
 
 module.exports = {
@@ -50,14 +52,14 @@ module.exports = {
   entry: entry,
   output: {
     path: path.join(__dirname, 'static'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: publicPath
   },
   plugins: plugins,
   module: {
     loaders: [{
       test: /\.(svg|png)$/,
-      loader: 'file',
-      publicPath: ''
+      loader: 'file'
     },{
       test: /\.s?css$/,
       loader: cssLoader
