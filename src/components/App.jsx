@@ -20,11 +20,6 @@ const App = React.createClass({
           <h2>{"Firefox"}<br/>{"Style Guide v1.0"}</h2>
           <small>{"Updated today"}</small>
         </div>
-        <div className="section">
-          <input placeholder="🔍 Search the style guide"
-              type="search"
-          ></input>
-        </div>
       </div>
       <div className="content">
         <TableOfContents/>
