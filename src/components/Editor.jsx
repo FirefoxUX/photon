@@ -79,6 +79,7 @@ const Editor = React.createClass({
       container.appendChild(copy);
 
       let expand = document.createElement('div');
+      expand.setAttribute('class', 'expando');
       expand.textContent = 'Click to expand code snippet';
       container.parentNode.appendChild(expand);
 
@@ -88,9 +89,11 @@ const Editor = React.createClass({
       });
       expand.addEventListener('click', () => {
         if (e.style.height === baseHeight) {
-          e.style.height = '500px';
+          e.style.height = '250px';
+          expand.textContent = 'Click to collapse code snippet';
         } else {
           e.style.height = baseHeight;
+          expand.textContent = 'Click to expand code snippet';
         }
       });
     });

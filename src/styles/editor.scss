@@ -1,4 +1,4 @@
-// scss-lint:disable ColorVariable UrlFormat
+// scss-lint:disable ColorVariable UrlFormat VendorPrefix
 
 .editor > h3 {
   font-weight: 400;
@@ -23,6 +23,8 @@
 
 .copy-image {
   background-image: url('../../images/site-controls/copy icon normal.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
   margin: 0 10px;
   width: 24px;
 
@@ -131,10 +133,11 @@
     }
 
     .expando {
-      flex: 0;
-      height: 24px;
-      margin-left: 10px;
-      width: 24px;
+      color: #2ea3ff;
+      cursor: pointer;
+      margin-top: 1em;
+      width: -moz-fit-content;
+      width: -webkit-fit-content;
     }
   }
 
