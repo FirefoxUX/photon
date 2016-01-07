@@ -48,6 +48,7 @@ h3 {
   flex: 0 0 200px;
   padding: 0;
   transition: background-color 150ms ease-in-out;
+  z-index: 2;
 
   > .title {
     background-color: #c84510;
@@ -69,6 +70,35 @@ h3 {
     }
   }
 }
+
+.sticky {
+  background-color: #ff9216;
+  display: flex;
+  flex: 0 0 2em;
+  padding: 0 0 0 230px;
+  position: fixed;
+  top: 50px;
+  transition: background-color 150ms ease-in-out;
+  width: 100%;
+  z-index: 1;
+
+  > .breadcrumbs {
+    color: #fff;
+    flex: 1;
+    margin: 0;
+    padding: 10px;
+    transition: background-color 150ms ease-in-out;
+  }
+
+  > .nav-buttons {
+    color: #fff;
+    flex: 0 0 100px;
+    margin: 0;
+    padding: 10px;
+    transition: background-color 150ms ease-in-out;
+  }
+}
+
 
 .toc {
   background-color: #fff;
