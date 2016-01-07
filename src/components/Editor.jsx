@@ -9,7 +9,7 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
 
-const { newSection } = require('./actions.js');
+const { newSection, newSections } = require('./actions.js');
 const { parsePath } = require('./utilities.js');
 var HighlightWorker = require('worker?inline=true!../worker.js');
 
@@ -17,7 +17,8 @@ const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
     dispatch: React.PropTypes.func,
-    section: React.PropTypes.string,
+    section: React.PropTypes.shape(),
+    sections: React.PropTypes.arrayOf(React.PropTypes.shape()),
     subpage: React.PropTypes.bool,
     text: React.PropTypes.string
   },
@@ -33,11 +34,9 @@ const Editor = React.createClass({
       codes[event.data.index].innerHTML = event.data.text;
     };
 
-
     document.addEventListener('scroll', () => {
       let section = Array.from(node.querySelectorAll('h3'))
         .reverse().find(e => e.getBoundingClientRect().bottom <= 100)
-      section = section ? section.innerText : '';
       if (section != this.props.section) {
         newSection(this.props.dispatch, section);
       }
@@ -79,7 +78,7 @@ const Editor = React.createClass({
       }
     }
 
-    node.addEventListener('click',  (evt) => {
+    node.addEventListener('click', (evt) => {
       if (evt.target.classList.contains('colour')) {
         handleCopyClick(evt.target.textContent);
       } else if (evt.target.classList.contains('copy-image')) {
@@ -123,6 +122,15 @@ const Editor = React.createClass({
       expand.textContent = 'Click to expand code snippet';
       container.parentNode.appendChild(expand);
     });
+
+    let sections = Array.from(node.querySelectorAll('h3'));
+    let comparable = sections => {
+      return JSON.stringify((sections || []).map(e => e.innerText))
+    }
+    if (comparable(sections) != comparable(this.props.sections)) {
+      newSections(this.props.dispatch, sections);
+    }
+
   },
 
   render: function() {
@@ -134,12 +142,14 @@ const Editor = React.createClass({
 });
 
 function makeProps(state) {
-  var {section, text} = state.data;
+  var {scrollTo, section, sections, text} = state.data;
   var {path} = state.routing;
   var subpage = parsePath(path)[1];
 
   return {
+    scrollTo: scrollTo,
     section: section,
+    sections: sections,
     subpage: !!subpage,
     text: text
   }

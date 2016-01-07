@@ -9,9 +9,36 @@ const { getPages } = require('./utilities.js');
 const App = React.createClass({
   displayName: 'App',
   propTypes: {
+    dispatch: React.PropTypes.func,
     page: React.PropTypes.shape(),
-    section: React.PropTypes.string,
+    section: React.PropTypes.shape(),
+    sections: React.PropTypes.arrayOf(React.PropTypes.shape()),
     subpage: React.PropTypes.shape()
+  },
+
+  handleSectionDown: function() {
+    if (!this.props.section) {
+      let section = this.props.sections[0];
+      window.scrollBy(0, section.getBoundingClientRect().bottom - 80);
+      return;
+    }
+    let index = this.props.sections.indexOf(this.props.section);
+    if (index !== -1 && index + 1 < this.props.sections.length) {
+      let section = this.props.sections[index + 1];
+      window.scrollBy(0, section.getBoundingClientRect().bottom - 80);
+    }
+  },
+
+  handleSectionUp: function() {
+    let index = this.props.sections.indexOf(this.props.section);
+    if (index === 0) {
+      window.scrollBy(0, document.querySelector('.editor').getBoundingClientRect().top - 45);
+      return;
+    }
+    if (index > 0) {
+      let section = this.props.sections[index - 1];
+      window.scrollBy(0, section.getBoundingClientRect().bottom - 80);
+    }
   },
 
   render: function() {
@@ -23,7 +50,7 @@ const App = React.createClass({
         breadcrumbs += ' > ' + subpage.title;
       }
       if (section) {
-        breadcrumbs += ' > ' + section;
+        breadcrumbs += ' > ' + section.innerText;
       }
     }
 
@@ -40,8 +67,8 @@ const App = React.createClass({
           {breadcrumbs}
         </div>
         <div className="nav-buttons">
-          <button>{"v"}</button>
-          <button>{"^"}</button>
+          <button onClick={this.handleSectionDown}>{"v"}</button>
+          <button onClick={this.handleSectionUp}>{"^"}</button>
         </div>
       </div>
       <div className="content">
@@ -54,13 +81,14 @@ const App = React.createClass({
 
 function makeProps(state) {
   var {path} = state.routing;
-  var {section, sources} = state.data;
+  var {section, sections, sources} = state.data;
 
   var [page, subpage] = getPages(path, sources);
   return {
     page: page,
     subpage: subpage,
-    section: section
+    section: section,
+    sections: sections
   };
 }
 
