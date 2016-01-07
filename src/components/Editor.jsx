@@ -43,19 +43,19 @@ const Editor = React.createClass({
       }
     });
 
-    let handleColourClick = (colour) => {
+    let handleCopyClick = (text, popupText) => {
       var popup = node.querySelector('.popup');
       if (popup.style.zIndex) {
         return;
       }
       let copyElement = document.createElement('input');
       copyElement.setAttribute('type', 'text');
-      copyElement.setAttribute('value', colour);
+      copyElement.setAttribute('value', text);
       copyElement = document.body.appendChild(copyElement);
       copyElement.select();
       document.execCommand('copy');
       copyElement.remove();
-      popup.textContent = `Copied ${colour} to clipboard.`;
+      popup.textContent = `Copied ${popupText || text} to clipboard.`;
       popup.style.zIndex = '2';
       popup.style.opacity = 1;
       var scrollPosition = document.body.scrollTop || document.documentElement.scrollTop;
@@ -81,9 +81,10 @@ const Editor = React.createClass({
 
     node.addEventListener('click',  (evt) => {
       if (evt.target.classList.contains('colour')) {
-        handleColourClick(evt.target.textContent);
+        handleCopyClick(evt.target.textContent);
       } else if (evt.target.classList.contains('copy-image')) {
-        console.log('copyImage!');
+        let code = evt.target.parentNode.querySelector('code').innerText;
+        handleCopyClick(code, 'code');
       } else if (evt.target.classList.contains('expando')) {
         handleExpand(evt.target);
       }
