@@ -13,7 +13,7 @@ var plugins = [
   })
 ];
 
-var jsLoaders = ['babel?presets[]=es2015,presets[]=react', 'eslint-loader'];
+var jsLoaders = ['babel?presets[]=es2015,presets[]=react'];
 var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader');
 var publicPath = '/StyleGuide/static/';
 
@@ -55,8 +55,20 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: publicPath
   },
+  stylelint: {
+    configFile: path.join(__dirname, './.stylelintrc')
+  },
   plugins: plugins,
   module: {
+    preLoaders: [{
+      test: /\.s?css$/,
+      loader: 'stylelint',
+      exclude: /node_modules/
+    },{
+      test: /\.jsx?$/,
+      loader: 'eslint',
+      exclude: /node_modules/
+    }],
     loaders: [{
       test: /\.(svg|png)$/,
       loader: 'file'
