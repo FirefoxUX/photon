@@ -1,4 +1,4 @@
-// scss-lint:disable ColorVariable UrlFormat VendorPrefix
+/* stylelint-disable value-no-vendor-prefix */
 
 .editor > h3 {
   font-weight: 400;
@@ -32,22 +32,22 @@
 }
 
 .copy-image {
-  background-image: url('../../images/site-controls/copy icon normal.svg');
+  background-image: url("../../images/site-controls/copy icon normal.svg");
   background-repeat: no-repeat;
   cursor: pointer;
   margin: 0 10px;
   width: 24px;
 
   &:hover {
-    background-image: url('../../images/site-controls/copy icon hover.svg');
+    background-image: url("../../images/site-controls/copy icon hover.svg");
   }
 
   &:focus {
-    background-image: url('../../images/site-controls/copy icon focused.svg');
+    background-image: url("../../images/site-controls/copy icon focused.svg");
   }
 
   &:active {
-    background-image: url('../../images/site-controls/copy icon active.svg');
+    background-image: url("../../images/site-controls/copy icon active.svg");
   }
 }
 

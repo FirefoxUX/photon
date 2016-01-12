@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-cssrecipes",
+  "rules": {
+    "rule-nested-empty-line-before":[ "always", {
+      except: ["first-nested"],
+      ignore: ["after-comment"],
+    } ]
+  }
+}
