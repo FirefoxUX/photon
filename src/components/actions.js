@@ -15,6 +15,17 @@ function getContent(dispatch, file) {
 }
 
 /**
+ * Get a url, and notify the store.
+ *
+ * @param {function} dispatch - The Redux dispatcher.
+ * @param {string} url - The name of the url.
+ */
+function loadUrl(dispatch, url) {
+  // Put something innocuous in the text to indicate we're loading.
+  dispatch({type: 'URL', url: url});
+}
+
+/**
  * Notifies the store that we’ve navigated to a new section.
  *
  * @param {function} dispatch - The Redux dispatcher.
@@ -36,6 +47,7 @@ function newSections(dispatch, sections) {
 
 module.exports = {
   getContent: getContent,
+  loadUrl: loadUrl,
   newSection: newSection,
   newSections: newSections
 };

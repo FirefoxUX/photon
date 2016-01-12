@@ -20,7 +20,8 @@ const Editor = React.createClass({
     section: React.PropTypes.shape(),
     sections: React.PropTypes.arrayOf(React.PropTypes.shape()),
     subpage: React.PropTypes.bool,
-    text: React.PropTypes.string
+    text: React.PropTypes.string,
+    url: React.PropTypes.string
   },
 
   componentDidMount: function() {
@@ -134,15 +135,21 @@ const Editor = React.createClass({
   },
 
   render: function() {
-    return (<div className={'editor' + (this.props.subpage ? ' subpage' : ' ')}
+    let text = this.props.text;
+    if (this.props.url) {
+      text = `<iframe src=${this.props.url}></iframe>`;
+    }
+    return (<div className={'editor' +
+      (this.props.subpage ? ' subpage' : ' ') +
+      (this.props.url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
-          '<div class="popup"></div>' + this.props.text}}
+          '<div class="popup"></div>' + text}}
             ></div>)
   }
 });
 
 function makeProps(state) {
-  var {scrollTo, section, sections, text} = state.data;
+  var {scrollTo, section, sections, text, url} = state.data;
   var {path} = state.routing;
   var subpage = parsePath(path)[1];
 
@@ -151,7 +158,8 @@ function makeProps(state) {
     section: section,
     sections: sections,
     subpage: !!subpage,
-    text: text
+    text: text,
+    url: url
   }
 }
 

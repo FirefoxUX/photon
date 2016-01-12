@@ -16,7 +16,7 @@ const createLogger = require('redux-logger');
 const { createHashHistory } = require('history');
 const { syncReduxAndRouter, routeReducer, pushPath } = require('redux-simple-router');
 
-const { getContent } = require('./components/actions.js');
+const { getContent, loadUrl } = require('./components/actions.js');
 const { getPages, parsePath } = require('./components/utilities.js');
 const data = require('./components/store.js');
 const App = require('./components/App.jsx');
@@ -71,7 +71,12 @@ function onUpdate() {
 
   // If we got a page or a subpage, load its content.
   if (subpage || page) {
-    getContent(store.dispatch, subpage ? subpage.file : page.file);
+    let data = subpage || page;
+    if (data.url) {
+      loadUrl(store.dispatch, data.url);
+    } else {
+      getContent(store.dispatch, data.file);
+    }
   }
 }
 

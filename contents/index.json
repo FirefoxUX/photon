@@ -37,6 +37,10 @@
     "className": "resources",
     "file": "resources",
     "subpages": [
+      {"title": "Design Values",
+        "className": "design-values",
+        "file": "designValues",
+        "url": "/DesignValues/embed.html"},
       {"title": "Best Practices",
         "className": "best-practices",
         "file": "bestPractices"},
