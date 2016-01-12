@@ -97,24 +97,25 @@ h3 {
     padding: 10px;
     transition: background-color 150ms ease-in-out;
 
-    button {
-      border: 1px solid #b1b1b1;
-      border-radius: 0;
-      height: 24px;
-      width: 24px;
-
-      &:active {
-        background-color: #d4d4d4;
-        color: #fff;
-      }
-
-      &:first-child {
-        border-right: none;
-      }
-    }
   }
 }
 
+.nav-buttons button {
+  border: 1px solid #b1b1b1;
+  border-radius: 0;
+  height: 24px;
+  width: 24px;
+
+  &:active {
+    background-color: #d4d4d4;
+    color: #fff;
+  }
+
+  &:first-child {
+    border-right: 0;
+  }
+
+}
 
 .toc {
   background-color: #fff;
