@@ -1,3 +1,5 @@
+/* eslint-env worker */
+
 'use strict';
 
 var hljs = require('highlight.js');

@@ -13,7 +13,7 @@ var plugins = [
   })
 ];
 
-var jsLoaders = ['babel?presets[]=es2015,presets[]=react'];
+var jsLoaders = ['babel?presets[]=es2015,presets[]=react', 'eslint-loader'];
 var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader');
 var publicPath = '/StyleGuide/static/';
 
