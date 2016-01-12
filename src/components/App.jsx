@@ -67,8 +67,8 @@ const App = React.createClass({
           {breadcrumbs}
         </div>
         <div className="nav-buttons">
-          <button onClick={this.handleSectionDown}>{"v"}</button>
-          <button onClick={this.handleSectionUp}>{"^"}</button>
+          <button onClick={this.handleSectionDown}><img src="images/site-controls/down.svg"></img></button>
+          <button onClick={this.handleSectionUp}><img src="images/site-controls/up.svg"></img></button>
         </div>
       </div>
       <div className="content">
