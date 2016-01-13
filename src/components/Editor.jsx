@@ -1,6 +1,7 @@
 'use strict';
 
 /* eslint "react/no-danger":[0] */
+/* global process:false */
 
 require('../styles/editor.scss');
 require('../../node_modules/highlight.js/styles/color-brewer.css');
@@ -132,12 +133,38 @@ const Editor = React.createClass({
       newSections(this.props.dispatch, sections);
     }
 
+    let iframe = document.getElementById('editor-iframe');
+    if (iframe && !iframe.onload) {
+      iframe.onload = function() {
+        let getDocHeight = function (doc) {
+          doc = doc || document;
+          // stackoverflow.com/questions/1145850/
+          var body = doc.body, html = doc.documentElement;
+          var height = Math.max( body.scrollHeight, body.offsetHeight,
+            html.clientHeight, html.scrollHeight, html.offsetHeight );
+          return height;
+        }
+        var ifrm = document.getElementById('editor-iframe');
+        var doc = ifrm.contentDocument? ifrm.contentDocument:
+          ifrm.contentWindow.document;
+        ifrm.style.visibility = 'hidden';
+        ifrm.style.height = "10px"; // reset to minimal height ...
+        // IE opt. for bing/msn needs a bit added or scrollbar appears
+        ifrm.style.height = getDocHeight( doc ) + 4 + "px";
+        ifrm.style.visibility = 'visible';
+      }
+    }
+
   },
 
   render: function() {
     let text = this.props.text;
-    if (this.props.url) {
-      text = `<iframe src=${this.props.url}></iframe>`;
+    let url = this.props.url;
+    if (url) {
+      if (process.env.NODE_ENV === 'development') {
+        url = `https://firefoxux.github.io${url}`;
+      }
+      text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
     return (<div className={'editor' +
       (this.props.subpage ? ' subpage' : ' ') +
@@ -146,6 +173,7 @@ const Editor = React.createClass({
           '<div class="popup"></div>' + text}}
             ></div>)
   }
+
 });
 
 function makeProps(state) {
