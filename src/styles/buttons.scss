@@ -1,0 +1,110 @@
+/* Variables */
+
+:root {
+  --color-grey-lightest: #fbfbfb;
+  --color-grey-lighter: #ebebeb;
+  --color-grey-light: #d4d4d4;
+  --color-grey: #b1b1b1;
+  --color-grey-dark: #858585;
+  --color-grey-disabled: #666;
+
+  --color-blue: #0996f8;
+  --color-blue-dark: #0670cc;
+  --color-blue-darker: #005bab;
+  --color-blue-darkest: #004480;
+  --color-blue-focusRing: hsla(208, 100%, 69%, .75);
+
+  --border-radius-osx: 4px;
+}
+
+/* Buttons */
+
+button {
+  background-color: var(--color-grey-lightest);
+  border: 1px solid var(--color-grey);
+  font: caption;
+  height: 24px;
+  outline: 0 !important;
+  padding: 0 8px 0;
+  width: 80px;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  outline: 0;
+}
+
+.mac button {
+  border-radius: var(--border-radius-osx);
+}
+
+.other button {
+  border-radius: 0;
+}
+
+button.hover {
+  background-color: var(--color-grey-lighter);
+  border: 1px solid var(--color-grey);
+}
+
+button.pressed {
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+}
+
+button.disabled {
+  color: var(--color-grey-disabled);
+  opacity: .5;
+}
+
+button.focused {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+
+button.default {
+  background-color: var(--color-blue);
+  border-color: var(--color-blue-dark);
+  color: #fff;
+}
+
+button.default.hover {
+  background-color: var(--color-blue-dark);
+  border-color: var(--color-blue-darker);
+}
+
+button.default.pressed {
+  background-color: var(--color-blue-darker);
+  border-color: var(--color-blue-darkest);
+}
+
+button.default.focused {
+  border-color: #fff;
+}
+
+/* Interactive States */
+
+button:hover:not(.pressed):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-lighter);
+  border: 1px solid var(--color-grey);
+}
+
+button:hover:active:not(.hover):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+}
+
+button.default:hover:not(.pressed):not(.disabled):not(.focused) {
+  background-color: var(--color-blue-dark);
+  border-color: var(--color-blue-darker);
+}
+
+button.default:hover:active:not(.hover):not(.disabled):not(.focused) {
+  background-color: var(--color-blue-darker);
+  border-color: var(--color-blue-darkest);
+}
+
+button:focus {
+  border-color: #fff !important;
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}

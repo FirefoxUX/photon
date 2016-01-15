@@ -4,6 +4,7 @@
 /* global process:false */
 
 require('../styles/editor.scss');
+require('../styles/buttons.scss');
 require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');

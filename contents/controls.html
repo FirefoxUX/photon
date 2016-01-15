@@ -5,26 +5,50 @@
 <p>Buttons are a very important part of Firefox.  Without them, what
   would you click?</p>
 
-<div class="spec">
-  <div>
-    <img src="images/buttons/button - normal.svg"/>
-    <p>Normal</p>
+<div class="spec multi-row other">
+  <div class="row">
+    <div>
+      <button name="button" class="normal">Normal</button>
+      <p>Normal</p>
+    </div>
+    <div>
+      <button name="button" class="hover">Hover</button>
+      <p>Hover</p>
+    </div>
+    <div>
+      <button name="button" class="pressed">Pressed</button>
+      <p>Active</p>
+    </div>
+    <div>
+      <button name="button" class="focused">Focused</button>
+      <p>Focused</p>
+    </div>
+    <div>
+      <button name="button" class="disabled">Disabled</button>
+      <p>Disabled</p>
+    </div>
   </div>
-  <div>
-    <img src="images/buttons/button - hover.svg"/>
-    <p>Hover</p>
-  </div>
-  <div>
-    <img src="images/buttons/button - active.svg"/>
-    <p>Active</p>
-  </div>
-  <div>
-    <img src="images/buttons/button - focused.svg"/>
-    <p>Focused</p>
-  </div>
-  <div>
-    <img src="images/buttons/button - disabled.svg"/>
-    <p>Disabled</p>
+  <div class="row">
+    <div>
+      <button name="button" class="default">Default</button>
+      <p>Default Normal</p>
+    </div>
+    <div>
+      <button name="button" class="default hover">Hover</button>
+      <p>Default Hover</p>
+    </div>
+    <div>
+      <button name="button" class="default pressed">Pressed</button>
+      <p>Default Active</p>
+    </div>
+    <div>
+      <button name="button" class="default focused">Focused</button>
+      <p>Default Focused</p>
+    </div>
+    <div>
+      <button name="button" class="default disabled">Disabled</button>
+      <p>Default Disabled</p>
+    </div>
   </div>
 </div>
 
@@ -32,12 +56,58 @@
 <small>Buttons on OS X and later platforms will adopt a 4px border
   radius.</small>
 
-<div class="spec multi-row">
+<div class="spec multi-row mac">
   <div class="row">
     <div>
-      <img src="images/buttons/button - osx.svg"/>
+      <button name="button" class="normal">Normal</button>
       <p>Normal</p>
     </div>
+    <div>
+      <button name="button" class="hover">Hover</button>
+      <p>Hover</p>
+    </div>
+    <div>
+      <button name="button" class="pressed">Pressed</button>
+      <p>Active</p>
+    </div>
+    <div>
+      <button name="button" class="focused">Focused</button>
+      <p>Focused</p>
+    </div>
+    <div>
+      <button name="button" class="disabled">Disabled</button>
+      <p>Disabled</p>
+    </div>
+  </div>
+  <div class="row">
+    <div>
+      <button name="button" class="default">Default</button>
+      <p>Default Normal</p>
+    </div>
+    <div>
+      <button name="button" class="default hover">Hover</button>
+      <p>Default Hover</p>
+    </div>
+    <div>
+      <button name="button" class="default pressed">Pressed</button>
+      <p>Default Active</p>
+    </div>
+    <div>
+      <button name="button" class="default focused">Focused</button>
+      <p>Default Focused</p>
+    </div>
+    <div>
+      <button name="button" class="default disabled">Disabled</button>
+      <p>Default Disabled</p>
+    </div>
+  </div>
+</div>
+
+<h4>Other Button-like things</h4>
+<small>Some things are like buttons, but not quite.</small>
+
+<div class="spec multi-row">
+  <div class="row">
     <div>
       <img src="images/buttons/footer button - osx.svg"/>
       <p>Footer Button</p>
@@ -51,7 +121,7 @@
       <p>Tab - Selected</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row mac">
     <div>
       <img src="images/buttons/disclosure button - osx.svg"/>
       <p>Disclosure Button</p>
