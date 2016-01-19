@@ -124,6 +124,11 @@ const Editor = React.createClass({
       e.dataset.height = e.style.height;
 
       let container = document.createElement('div');
+      container.setAttribute('class', 'result');
+      container.innerHTML = e.textContent;
+      e.parentNode.parentNode.appendChild(container);
+
+      container = document.createElement('div');
       container.setAttribute('class', 'code-container');
 
       this.worker.postMessage({index: i, text: e.textContent});
