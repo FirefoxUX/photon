@@ -72,11 +72,10 @@ const Editor = React.createClass({
 
     let handleExpand = (expand) => {
       let code = expand.previousSibling.querySelector('code');
-      if (code.style.height === code.dataset.height) {
-        code.style.height = '250px';
+      code.classList.toggle('expanded');
+      if (code.classList.contains('expanded')) {
         expand.textContent = 'Click to collapse code snippet';
       } else {
-        code.style.height = code.dataset.height;
         expand.textContent = 'Click to expand code snippet';
       }
     }
@@ -117,15 +116,16 @@ const Editor = React.createClass({
     let codes = Array.from(node.querySelectorAll('code'));
 
     codes.map((e, i) => {
-      if (e.dataset.hasOwnProperty('height')) {
+      if (e.dataset.hasOwnProperty('processed')) {
         // We’ve already processed this code block!
         return;
       }
-      e.dataset.height = e.style.height;
+      e.dataset.processed = 'true';
+
 
       let container = document.createElement('div');
       container.setAttribute('class', 'result');
-      container.innerHTML = e.textContent;
+      container.innerHTML = '<div>' + e.textContent + '</div>';
       e.parentNode.parentNode.appendChild(container);
 
       container = document.createElement('div');
@@ -139,10 +139,12 @@ const Editor = React.createClass({
       container.appendChild(e);
       container.appendChild(copy);
 
-      let expand = document.createElement('div');
-      expand.setAttribute('class', 'expando');
-      expand.textContent = 'Click to expand code snippet';
-      container.parentNode.appendChild(expand);
+      if (e.scrollHeight > e.clientHeight) {
+        let expand = document.createElement('div');
+        expand.setAttribute('class', 'expando');
+        expand.textContent = 'Click to expand code snippet';
+        e.parentNode.parentNode.appendChild(expand);
+      }
     });
 
     let sections = Array.from(node.querySelectorAll('h3'));
