@@ -74,8 +74,10 @@ const Editor = React.createClass({
       let code = expand.previousSibling.querySelector('code');
       code.classList.toggle('expanded');
       if (code.classList.contains('expanded')) {
+        code.style.height = (code.scrollHeight + 2) + 'px';
         expand.textContent = 'Click to collapse code snippet';
       } else {
+        code.style.height = '';
         expand.textContent = 'Click to expand code snippet';
       }
     }

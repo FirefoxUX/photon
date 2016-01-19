@@ -149,13 +149,6 @@
       font-family: Monaco, Courier New;
       height: 24px;
       transition: height 250ms ease-in-out;
-
-      &.expanded {
-        /* stylelint-disable value-no-vendor-prefix, rule-no-duplicate-properties */
-        height: -moz-fit-content;
-        height: -webkit-fit-content;
-        /* stylelint-enable */
-      }
     }
 
     .expando {
