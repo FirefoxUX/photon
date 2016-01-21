@@ -5,14 +5,18 @@ const { UPDATE_PATH } = require('redux-simple-router');
 
 function store(state, action) {
   if (!state) {
-    state = { sources: sources, text: '', url:'', section: null, sections: [] };
+    state = { sources: sources, text: '', file: '', url:'', section: null, sections: [] };
   }
   switch (action.type) {
   case "@@router/INIT_PATH":
   case UPDATE_PATH:
-    return Object.assign({}, state, {text: '', url:'', section: null, sections: []});
+    return Object.assign({}, state, {text: '', file: '', url:'', section: null, sections: []});
   case 'TEXT':
-    return Object.assign({}, state, {text: action.text || ''});
+    if (action.text !== '&nbsp;' && action.file !== state.file) {
+      // Previous fetch completed, ignore it.
+      return state;
+    }
+    return Object.assign({}, state, {text: action.text || '', file: action.file});
   case 'URL':
     return Object.assign({}, state, {url: action.url || ''});
   case 'NEW_SECTION':
