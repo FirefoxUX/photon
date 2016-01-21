@@ -100,7 +100,6 @@
   background-color: #f5f5f5;
   display: flex;
   justify-content: space-around;
-  margin: auto;
   max-width: 994px;
   padding: 2em 0 0;
 
@@ -116,7 +115,6 @@
 
 .example {
   display: flex;
-  justify-content: center;
   margin-top: 40px;
   min-height: 150px;
 
@@ -181,8 +179,8 @@
   }
 
   &.fullwidth {
-    align-items: center;
     flex-direction: column;
+    max-width: 781px;
 
     > .source {
       min-width: 994px;
