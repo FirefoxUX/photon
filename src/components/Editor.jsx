@@ -15,6 +15,59 @@ const { newSection, newSections } = require('./actions.js');
 const { parsePath } = require('./utilities.js');
 var HighlightWorker = require('worker?inline=true!../worker.js');
 
+function handleCodes(node) {
+  let codes = Array.from(node.querySelectorAll('code'));
+
+  codes.map((e, i) => {
+    if (e.dataset.hasOwnProperty('processed')) {
+      // We’ve already processed this code block!
+      return;
+    }
+    e.dataset.processed = 'true';
+
+
+    let container = document.createElement('div');
+    container.setAttribute('class', 'result');
+    container.innerHTML = '<div>' + e.textContent + '</div>';
+    e.parentNode.parentNode.appendChild(container);
+
+    container = document.createElement('div');
+    container.setAttribute('class', 'code-container');
+
+    this.worker.postMessage({index: i, text: e.textContent});
+
+    let copy = document.createElement('div');
+    copy.setAttribute('class', 'copy-image');
+    e.parentNode.appendChild(container);
+    container.appendChild(e);
+    container.appendChild(copy);
+
+    if (e.scrollHeight > e.clientHeight) {
+      let expand = document.createElement('div');
+      expand.setAttribute('class', 'expando');
+      expand.textContent = 'Click to expand code snippet';
+      e.parentNode.parentNode.appendChild(expand);
+    }
+  });
+
+}
+
+function handleColours(node) {
+  let colours = Array.from(node.querySelectorAll('div.colour'));
+
+  colours.map(e => {
+    if (e.dataset.hasOwnProperty('processed')) {
+      // We’ve already processed this code block!
+      return;
+    }
+    e.dataset.processed = 'true';
+    let copy = document.createElement('div');
+    copy.setAttribute('class', 'copy-hover');
+    copy.textContent = 'copy';
+    e.insertBefore(copy, e.firstChild);
+  });
+}
+
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
@@ -83,13 +136,17 @@ const Editor = React.createClass({
     }
 
     node.addEventListener('click', (evt) => {
-      if (evt.target.classList.contains('colour')) {
-        handleCopyClick(evt.target.textContent);
-      } else if (evt.target.classList.contains('copy-image')) {
-        let code = evt.target.parentNode.querySelector('code').innerText;
+      let target = evt.target;
+      if (target.classList.contains('copy-hover')) {
+        target = target.parentNode;
+      }
+      if (target.classList.contains('colour')) {
+        handleCopyClick(target.lastChild.textContent);
+      } else if (target.classList.contains('copy-image')) {
+        let code = target.parentNode.querySelector('code').innerText;
         handleCopyClick(code, 'code');
-      } else if (evt.target.classList.contains('expando')) {
-        handleExpand(evt.target);
+      } else if (target.classList.contains('expando')) {
+        handleExpand(target);
       }
     });
 
@@ -115,39 +172,8 @@ const Editor = React.createClass({
 
   addEditorHandlers: function() {
     let node = ReactDOM.findDOMNode(this);
-    let codes = Array.from(node.querySelectorAll('code'));
-
-    codes.map((e, i) => {
-      if (e.dataset.hasOwnProperty('processed')) {
-        // We’ve already processed this code block!
-        return;
-      }
-      e.dataset.processed = 'true';
-
-
-      let container = document.createElement('div');
-      container.setAttribute('class', 'result');
-      container.innerHTML = '<div>' + e.textContent + '</div>';
-      e.parentNode.parentNode.appendChild(container);
-
-      container = document.createElement('div');
-      container.setAttribute('class', 'code-container');
-
-      this.worker.postMessage({index: i, text: e.textContent});
-
-      let copy = document.createElement('div');
-      copy.setAttribute('class', 'copy-image');
-      e.parentNode.appendChild(container);
-      container.appendChild(e);
-      container.appendChild(copy);
-
-      if (e.scrollHeight > e.clientHeight) {
-        let expand = document.createElement('div');
-        expand.setAttribute('class', 'expando');
-        expand.textContent = 'Click to expand code snippet';
-        e.parentNode.parentNode.appendChild(expand);
-      }
-    });
+    handleCodes(node);
+    handleColours(node);
 
     let sections = Array.from(node.querySelectorAll('h3'));
     let comparable = sections => {

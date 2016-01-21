@@ -59,7 +59,8 @@
 }
 
 .colour {
-  cursor: copy;
+  cursor: default;
+  position: relative;
 
   &.swatch {
     border-radius: 4px;
@@ -79,7 +80,24 @@
 
 .colour.swatch,
 .multi-swatch .colour {
+  overflow: hidden;
   padding: 4em 1em 4px;
+
+  > .copy-hover {
+    background-color: rgba(0, 0, 0, .5);
+    margin-bottom: -4px;
+    padding-top: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -21px;
+    transition: top ease-in-out 150ms;
+    width: 100%;
+  }
+
+  &:hover > .copy-hover {
+    top: 0;
+  }
 }
 
 .multi-swatch .colour {
