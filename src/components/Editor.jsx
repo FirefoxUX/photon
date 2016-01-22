@@ -15,7 +15,7 @@ const { newSection, newSections } = require('./actions.js');
 const { parsePath } = require('./utilities.js');
 var HighlightWorker = require('worker?inline=true!../worker.js');
 
-function handleCodes(node) {
+function handleCodes(node, worker) {
   let codes = Array.from(node.querySelectorAll('code'));
 
   codes.map((e, i) => {
@@ -34,7 +34,7 @@ function handleCodes(node) {
     container = document.createElement('div');
     container.setAttribute('class', 'code-container');
 
-    this.worker.postMessage({index: i, text: e.textContent});
+    worker.postMessage({index: i, text: e.textContent});
 
     let copy = document.createElement('div');
     copy.setAttribute('class', 'copy-image');
@@ -172,7 +172,7 @@ const Editor = React.createClass({
 
   addEditorHandlers: function() {
     let node = ReactDOM.findDOMNode(this);
-    handleCodes(node);
+    handleCodes(node, this.worker);
     handleColours(node);
 
     let sections = Array.from(node.querySelectorAll('h3'));
