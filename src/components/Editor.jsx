@@ -61,9 +61,13 @@ function handleColours(node) {
       return;
     }
     e.dataset.processed = 'true';
+    let text = document.createElement('span');
+    text.setAttribute('class', 'copy-text');
+    text.textContent = e.textContent;
+    e.replaceChild(text, e.firstChild);
     let copy = document.createElement('div');
     copy.setAttribute('class', 'copy-hover');
-    copy.textContent = 'copy';
+    copy.textContent = 'click to copy';
     e.insertBefore(copy, e.firstChild);
   });
 }
@@ -98,10 +102,14 @@ const Editor = React.createClass({
       }
     });
 
-    let handleCopyClick = (text, popupText) => {
+    let handleCopyClick = (text, popupText, textNode) => {
       var popup = node.querySelector('.popup');
       if (popup.style.zIndex) {
         return;
+      }
+      if (textNode) {
+        var content = textNode.textContent;
+        textNode.textContent = '╰(◕ᗜ◕)╯';
       }
       let copyElement = document.createElement('input');
       copyElement.setAttribute('type', 'text');
@@ -119,6 +127,9 @@ const Editor = React.createClass({
         popup.style.opacity = '';
         setTimeout(() => {
           popup.style.zIndex = '';
+          if (textNode) {
+            textNode.textContent = content;
+          }
         }, 500);
       }, 1500);
     };
@@ -137,11 +148,13 @@ const Editor = React.createClass({
 
     node.addEventListener('click', (evt) => {
       let target = evt.target;
-      if (target.classList.contains('copy-hover')) {
+      if (target.classList.contains('copy-hover') ||
+          target.classList.contains('copy-text')) {
         target = target.parentNode;
       }
       if (target.classList.contains('colour')) {
-        handleCopyClick(target.lastChild.textContent);
+        let text = target.lastChild.textContent;
+        handleCopyClick(text, text, target.querySelector('.copy-hover'));
       } else if (target.classList.contains('copy-image')) {
         let code = target.parentNode.querySelector('code').innerText;
         handleCopyClick(code, 'code');

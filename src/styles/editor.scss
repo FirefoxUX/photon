@@ -84,19 +84,19 @@
   padding: 4em 1em 4px;
 
   > .copy-hover {
-    background-color: rgba(0, 0, 0, .5);
+    left: 13px;
     margin-bottom: -4px;
+    opacity: 0;
     padding-top: 0;
     position: absolute;
-    right: 0;
-    text-align: center;
-    top: -21px;
-    transition: top ease-in-out 150ms;
+    // text-align: center;
+    top: 10px;
+    transition: opacity ease-in-out 150ms;
     width: 100%;
   }
 
   &:hover > .copy-hover {
-    top: 0;
+    opacity: 1;
   }
 }
 
