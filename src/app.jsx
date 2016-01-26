@@ -90,3 +90,9 @@ ReactDOM.render((<Provider store={store}>
     </Router>
   </Provider>),
   document.querySelector('#mount'));
+
+window.addEventListener("message", function (event) {
+  if (event.data === 'whimsy:enabled') {
+    document.querySelector('body').classList.add('whimsical');
+  }
+}, false);
