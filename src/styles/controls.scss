@@ -1,3 +1,4 @@
+
 /* stylelint-disable property-no-vendor-prefix */
 
 /* Base */
@@ -29,8 +30,7 @@ $border-radius-osx: 4px;
 /* Buttons */
 
 button,
-select,
-input {
+select {
   background-color: $color-grey-lightest;
   border: 1px solid $color-grey;
   font: caption;
@@ -49,6 +49,10 @@ select {
   width: 216px;
 }
 
+label {
+  font: caption;
+}
+
 button::-moz-focus-inner {
   border: 0;
   outline: 0;
@@ -65,7 +69,8 @@ select:-moz-focusring * {
 }
 
 .mac button,
-.mac select {
+.mac select,
+.mac input[type="checkbox"] + label::before {
   border-radius: $border-radius-osx;
 }
 
@@ -118,7 +123,6 @@ button.default.focused {
 .radioItem {
   margin-bottom: 6px;
   text-align: left;
-  width: 120px;
 }
 
 input[type="radio"] {
@@ -185,6 +189,79 @@ input[type="radio"]:checked:hover:active + label::before,
 }
 
 .radioItem.focused input[type="radio"]:checked + label::before {
+  border-color: #fff;
+}
+
+/* --Checkbox-- */
+
+.checkboxItem {
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  -moz-user-select: none;
+}
+
+input[type="checkbox"] + label::before {
+  background-color: #fff;
+  background-position: center;
+  border: 1px solid $color-grey;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: text-top;
+  width: 16px;
+}
+
+input[type="checkbox"]:hover + label::before,
+.checkboxItem.hover input[type="checkbox"]:not(active) + label::before {
+  background-color: $color-grey-lightest;
+  border-color: $color-grey;
+}
+
+input[type="checkbox"]:hover:active + label::before,
+.checkboxItem.pressed input[type="checkbox"]:not(active) + label::before {
+  background-color: $color-grey-lighter;
+  border-color: $color-grey-dark;
+}
+
+input[type="checkbox"]:checked + label::before {
+  background-color: $color-blue;
+  background-image: url("../../images/controls/Checkbox-Checked.svg");
+  border-color: $color-blue-dark;
+}
+
+input[type="checkbox"]:checked:hover + label::before,
+.checkboxItem.hover input[type="checkbox"]:checked:not(active) + label::before {
+  background-color: $color-blue-dark;
+  border-color: $color-blue-darker;
+}
+
+input[type="checkbox"]:checked:hover:active + label::before,
+.checkboxItem.pressed input[type="checkbox"]:checked:not(active) + label::before {
+  background-color: $color-blue-darker;
+  border-color: $color-blue-darkest;
+}
+
+.checkboxItem.disabled input[type="checkbox"] + label,
+.checkboxItem.disabled input[type="checkbox"]:hover + label,
+.checkboxItem.disabled input[type="checkbox"]:hover:active + label {
+  color: $color-grey-disabled;
+  opacity: .5;
+}
+
+.checkboxItem.focused input[type="checkbox"] + label::before {
+  border-color: $color-blue;
+  box-shadow: 0 0 0 2px $color-blue-focusRing;
+}
+
+.checkboxItem.focused input[type="checkbox"]:checked + label::before {
   border-color: #fff;
 }
 
