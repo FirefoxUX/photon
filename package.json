@@ -2,7 +2,7 @@
   "name": "workshop",
   "scripts": {
     "serve": "NODE_ENV=development node run.js",
-    "build": "NODE_ENV=production webpack --optimize-minimize"
+    "build": "NODE_ENV=production webpack --optimize-minimize && rm static/css/deleteme.js"
   },
   "dependencies": {
     "express": "^4.13.3",

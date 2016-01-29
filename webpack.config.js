@@ -7,7 +7,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var entry = [
   './src/app.jsx'
 ];
-var plugins = [
+var basePlugins = [
   new webpack.ProvidePlugin({
     'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
   })
@@ -18,7 +18,7 @@ var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loade
 var publicPath = '/StyleGuide/static/';
 
 if (process.env.NODE_ENV === 'production') {
-  plugins = plugins.concat([
+  plugins = basePlugins.concat([
     new ExtractTextPlugin('style.css', {
       allChunks: true
     }),
@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === 'production') {
 } else {
   entry = ['webpack-dev-server/client?http://0.0.0.0:3000',
     'webpack/hot/only-dev-server'].concat(entry);
-  plugins = plugins.concat([
+  plugins = basePlugins.concat([
     new webpack.DefinePlugin({
       process: {env: {NODE_ENV: '"development"'}}
     }),
@@ -47,7 +47,7 @@ if (process.env.NODE_ENV === 'production') {
   publicPath = '/static/';
 }
 
-module.exports = {
+module.exports = [{
   devtool: 'source-map',
   entry: entry,
   output: {
@@ -81,4 +81,26 @@ module.exports = {
       exclude: /node_modules/
     }]
   }
-};
+}, {
+  entry: {
+    buttons: './src/styles/buttons.scss'
+  },
+  output: {
+    path: path.join(__dirname, 'static'),
+    filename: 'css/deleteme.js'
+  },
+  plugins: basePlugins.concat([
+    new ExtractTextPlugin('css/[name].css', {
+      allChunks: true
+    })
+  ]),
+  sassLoader: {
+    outputStyle: 'expanded'
+  },
+  module: {
+    loaders: [{
+      test: /\.s?css$/,
+      loader: ExtractTextPlugin.extract('style-loader', 'css-loader?-minimize!sass-loader')
+    }]
+  }
+}];
