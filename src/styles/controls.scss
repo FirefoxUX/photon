@@ -131,6 +131,7 @@ input[type="radio"] + label {
 
 input[type="radio"] + label::before {
   background-color: #fff;
+  background-position: center;
   border: 1px solid $color-grey;
   border-radius: 50%;
   content: "";
