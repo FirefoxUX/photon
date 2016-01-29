@@ -1,3 +1,14 @@
+/* stylelint-disable property-no-vendor-prefix */
+
+/* Base */
+
+button,
+select,
+option,
+input {
+  -moz-appearance: none;
+}
+
 /* Variables */
 
 $color-grey-lightest: #fbfbfb;
@@ -17,7 +28,8 @@ $border-radius-osx: 4px;
 
 /* Buttons */
 
-button {
+button,
+select {
   background-color: $color-grey-lightest;
   border: 1px solid $color-grey;
   font: caption;
@@ -27,35 +39,55 @@ button {
   width: 80px;
 }
 
+select {
+  background-image: url("../../images/controls/Arrow-Dropdown.svg");
+  background-position: calc(100% - 4px) center;
+  background-repeat: no-repeat;
+  -moz-padding-end: 24px;
+  text-overflow: ellipsis;
+  width: 216px;
+}
+
 button::-moz-focus-inner {
   border: 0;
   outline: 0;
 }
 
-.mac button {
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000; /* your normal text color here */
+}
+
+select:-moz-focusring * {
+  color: #000; /* your normal text color here */
+  text-shadow: none;
+}
+
+.mac button,
+.mac select {
   border-radius: $border-radius-osx;
 }
 
-.other button {
-  border-radius: 0;
-}
-
-button.hover {
+button.hover,
+select.hover {
   background-color: $color-grey-lighter;
   border: 1px solid $color-grey;
 }
 
-button.pressed {
+button.pressed,
+select.pressed {
   background-color: $color-grey-light;
   border: 1px solid $color-grey-dark;
 }
 
-button.disabled {
+button.disabled,
+select.disabled {
   color: $color-grey-disabled;
   opacity: .5;
 }
 
-button.focused {
+button.focused,
+select.focused {
   border-color: #fff;
   box-shadow: 0 0 0 2px $color-blue-focusRing;
 }
@@ -82,12 +114,14 @@ button.default.focused {
 
 /* Interactive States */
 
-button:hover:not(.pressed):not(.disabled):not(.focused) {
+button:hover:not(.pressed):not(.disabled):not(.focused),
+select:hover:not(.pressed):not(.disabled):not(.focused) {
   background-color: $color-grey-lighter;
   border: 1px solid $color-grey;
 }
 
-button:hover:active:not(.hover):not(.disabled):not(.focused) {
+button:hover:active:not(.hover):not(.disabled):not(.focused),
+select:hover:active:not(.hover):not(.disabled):not(.focused) {
   background-color: $color-grey-light;
   border: 1px solid $color-grey-dark;
 }
@@ -102,7 +136,7 @@ button.default:hover:active:not(.hover):not(.disabled):not(.focused) {
   border-color: $color-blue-darkest;
 }
 
-button:focus {
+button:focus:not(.disabled) {
   border-color: #fff !important;
   box-shadow: 0 0 0 2px $color-blue-focusRing;
 }

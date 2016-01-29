@@ -83,7 +83,7 @@ module.exports = [{
   }
 }, {
   entry: {
-    buttons: './src/styles/buttons.scss'
+    controls: './src/styles/controls.scss'
   },
   output: {
     path: path.join(__dirname, 'static'),
@@ -99,6 +99,9 @@ module.exports = [{
   },
   module: {
     loaders: [{
+      test: /\.(svg|png)$/,
+      loader: 'file'
+    },{
       test: /\.s?css$/,
       loader: ExtractTextPlugin.extract('style-loader', 'css-loader?-minimize!sass-loader')
     }]
