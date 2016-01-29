@@ -290,14 +290,46 @@
 
 <h3>Radio States</h3>
 
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="column">
+      <div class="radioItem"><input type="radio" name="radio" id="radio01" /><label for="radio01">Radio</label></div>
+      <div class="radioItem"><input type="radio" name="radio" id="radio02" checked /><label for="radio02">Checked</label></div>
+      <div class="radioItem"><input type="radio" name="radio" id="radio03" /><label for="radio03">Radio</label></div>
+    </div>
+    <div class="column">
+      <div class="radioItem hover"><input type="radio" name="radioHover" id="radioHover01" /><label for="radioHover01">Hover</label></div>
+      <div class="radioItem hover"><input type="radio" name="radioHover" id="radioHover02" checked /><label for="radioHover02">Hover</label></div>
+      <div class="radioItem hover"><input type="radio" name="radioHover" id="radioHover03" /><label for="radioHover03">Hover</label></div>
+    </div>
+    <div class="column">
+      <div class="radioItem pressed"><input type="radio" name="radioPressed" id="radioPressed01" /><label for="radioPressed01">Pressed</label></div>
+      <div class="radioItem pressed"><input type="radio" name="radioPressed" id="radioPressed02" checked /><label for="radioPressed02">Pressed</label></div>
+      <div class="radioItem pressed"><input type="radio" name="radioPressed" id="radioPressed03" /><label for="radioPressed03">Pressed</label></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="radioItem disabled"><input type="radio" name="radioDisabled" id="radioDisabled01" disabled /><label for="radioDisabled01">Disabled</label></div>
+      <div class="radioItem disabled"><input type="radio" name="radioDisabled" id="radioDisabled02" disabled checked /><label for="radioDisabled02">Disabled</label></div>
+      <div class="radioItem disabled"><input type="radio" name="radioDisabled" id="radioDisabled03" disabled /><label for="radioDisabled03">Disabled</label></div>
+    </div>
+    <div class="column">
+      <div class="radioItem focused"><input type="radio" name="radioFocused" id="radioFocused01" disabled /><label for="radioFocused01">Focused</label></div>
+      <div class="radioItem focused"><input type="radio" name="radioFocused" id="radioFocused02" disabled checked /><label for="radioFocused02">Focused</label></div>
+      <div class="radioItem focused"><input type="radio" name="radioFocused" id="radioFocused03" disabled /><label for="radioFocused03">Focused</label></div>
+    </div>
+  </div>
+</div>
+
 <h3>Radio Buttons</h3>
 
 <div class="example">
   <div class="source">
     <div class="title">Radio button</div>
     <p>This is just a radio button.  Click it.</p>
-    <code>&lt;input type="radio" name="radio-group"&gt;Radio1&lt;/input&gt;
-      &lt;br/&gt;
-      &lt;input type="radio" name="radio-group"&gt;Radio2&lt;/input&gt;</code>
+    <code>&lt;input type=&quot;radio&quot; name=&quot;radioExample&quot; id=&quot;radioExample01&quot; /&gt;&lt;label for=&quot;radioExample01&quot;&gt;Radio&lt;/label&gt;&lt;br&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;radioExample&quot; id=&quot;radioExample02&quot; checked /&gt;&lt;label for=&quot;radioExample02&quot;&gt;Checked&lt;/label&gt;&lt;br&gt;
+      &lt;input type=&quot;radio&quot; name=&quot;radioExample&quot; id=&quot;radioExample03&quot; /&gt;&lt;label for=&quot;radioExample03&quot;&gt;Radio&lt;/label&gt;</code>
   </div>
 </div>

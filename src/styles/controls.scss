@@ -29,7 +29,8 @@ $border-radius-osx: 4px;
 /* Buttons */
 
 button,
-select {
+select,
+input {
   background-color: $color-grey-lightest;
   border: 1px solid $color-grey;
   font: caption;
@@ -109,6 +110,80 @@ button.default.pressed {
 }
 
 button.default.focused {
+  border-color: #fff;
+}
+
+/* Radio Buttons */
+
+.radioItem {
+  margin-bottom: 6px;
+  text-align: left;
+  width: 120px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  -moz-user-select: none;
+}
+
+input[type="radio"] + label::before {
+  background-color: #fff;
+  border: 1px solid $color-grey;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  height: 16px;
+  margin-right: 6px;
+  vertical-align: text-top;
+  width: 16px;
+}
+
+input[type="radio"]:hover + label::before,
+.radioItem.hover input[type="radio"]:not(active) + label::before {
+  background-color: $color-grey-lightest;
+  border-color: $color-grey;
+}
+
+input[type="radio"]:hover:active + label::before,
+.radioItem.pressed input[type="radio"]:not(active) + label::before {
+  background-color: $color-grey-lighter;
+  border-color: $color-grey-dark;
+}
+
+input[type="radio"]:checked + label::before {
+  background-color: $color-blue;
+  background-image: url("../../images/controls/Radio-Checked.svg");
+  border-color: $color-blue-dark;
+}
+
+input[type="radio"]:checked:hover + label::before,
+.radioItem.hover input[type="radio"]:checked:not(active) + label::before {
+  background-color: $color-blue-dark;
+  border-color: $color-blue-darker;
+}
+
+input[type="radio"]:checked:hover:active + label::before,
+.radioItem.pressed input[type="radio"]:checked:not(active) + label::before {
+  background-color: $color-blue-darker;
+  border-color: $color-blue-darkest;
+}
+
+.radioItem.disabled input[type="radio"] + label,
+.radioItem.disabled input[type="radio"]:hover + label,
+.radioItem.disabled input[type="radio"]:hover:active + label {
+  color: $color-grey-disabled;
+  opacity: .5;
+}
+
+.radioItem.focused input[type="radio"] + label::before {
+  border-color: $color-blue;
+  box-shadow: 0 0 0 2px $color-blue-focusRing;
+}
+
+.radioItem.focused input[type="radio"]:checked + label::before {
   border-color: #fff;
 }
 
