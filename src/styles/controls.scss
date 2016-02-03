@@ -1,31 +1,6 @@
-
 /* stylelint-disable property-no-vendor-prefix */
 
-/* Base */
-
-button,
-select,
-option,
-input {
-  -moz-appearance: none;
-}
-
-/* Variables */
-
-$color-grey-lightest: #fbfbfb;
-$color-grey-lighter: #ebebeb;
-$color-grey-light: #d4d4d4;
-$color-grey: #b1b1b1;
-$color-grey-dark: #858585;
-$color-grey-disabled: #666;
-
-$color-blue: #0996f8;
-$color-blue-dark: #0670cc;
-$color-blue-darker: #005bab;
-$color-blue-darkest: #004480;
-$color-blue-focusRing: hsla(208, 100%, 69%, .75);
-
-$border-radius-osx: 4px;
+@import "content-base";
 
 /* Buttons */
 
@@ -33,10 +8,13 @@ button,
 select {
   background-color: $color-grey-lightest;
   border: 1px solid $color-grey;
+  box-shadow: 0 0 0 0 hsla(0, 0%, 0%, 0);
   font: caption;
   height: 24px;
   outline: 0 !important;
   padding: 0 8px 0;
+  transition-duration: 250ms;
+  transition-property: box-shadow, border;
   width: 80px;
 }
 
@@ -56,6 +34,41 @@ label {
 button::-moz-focus-inner {
   border: 0;
   outline: 0;
+}
+
+/* Dropdowns */
+
+select {
+  background-color: $color-grey-lightest;
+  border: 1px solid $color-grey;
+  box-shadow: 0 0 0 0 hsla(0, 0%, 0%, 0);
+  font: caption;
+  height: 24px;
+  outline: 0 !important;
+  padding: 0 8px 0;
+  transition-duration: 250ms;
+  transition-property: box-shadow, border;
+  width: 80px;
+}
+
+select {
+  background-image: url("../../images/controls/Arrow-Dropdown.svg");
+  background-position: calc(100% - 4px) center;
+  background-repeat: no-repeat;
+  -moz-padding-end: 24px;
+  text-overflow: ellipsis;
+  width: 216px;
+}
+
+select.icon {
+  background-image: url("../../images/controls/Icon-Folder.svg"),
+    url("../../images/controls/Arrow-Dropdown.svg");
+  background-position: 8px center, calc(100% - 4px) center;
+  background-repeat: no-repeat;
+  -moz-padding-end: 24px;
+  -moz-padding-start: 26px;
+  text-overflow: ellipsis;
+  width: 216px;
 }
 
 select:-moz-focusring {
@@ -192,7 +205,7 @@ input[type="radio"]:checked:hover:active + label::before,
   border-color: #fff;
 }
 
-/* --Checkbox-- */
+/* Checkboxes */
 
 .checkboxItem {
   margin-bottom: 6px;
@@ -263,6 +276,16 @@ input[type="checkbox"]:checked:hover:active + label::before,
 
 .checkboxItem.focused input[type="checkbox"]:checked + label::before {
   border-color: #fff;
+}
+
+/* Expander Button */
+button.expander {
+  background-image: url("../../images/controls/Arrow-Dropdown.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 24px;
+  padding: 0;
+  width: 24px;
 }
 
 /* Interactive States */

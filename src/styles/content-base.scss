@@ -1,0 +1,36 @@
+/* stylelint-disable property-no-vendor-prefix */
+
+/* Base */
+
+button,
+select,
+option,
+input {
+  -moz-appearance: none;
+}
+
+/* Variables */
+
+$color-grey-lightest: #fbfbfb;
+$color-grey-lighter: #ebebeb;
+$color-grey-light: #d4d4d4;
+$color-grey: #b1b1b1;
+$color-grey-dark: #858585;
+$color-grey-disabled: #999;
+
+$color-blue: #0996f8;
+$color-blue-dark: #0670cc;
+$color-blue-darker: #005bab;
+$color-blue-darkest: #004480;
+$color-blue-focusRing: hsla(208, 100%, 69%, .75);
+
+$border-radius-osx: 4px;
+
+$color-panel-background: hsla(0, 0%, 99%, 1);
+$color-panel-separator: hsla(0, 0%, 0%, .15);
+
+$color-panel-hover-background: hsla(0, 0%, 0%, .06);
+$color-panel-active-background: hsla(0, 0%, 0%, .1);
+$color-panel-border: hsla(0, 0%, 0%, .1);
+
+$color-text-shortcut: #808080;
