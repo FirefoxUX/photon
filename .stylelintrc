@@ -4,6 +4,7 @@
     "comment-empty-line-before": ["always", {
       ignore: ["stylelint-commands"]
     }],
+    "indentation": 2,
     "rule-nested-empty-line-before": ["always", {
       except: ["first-nested"],
       ignore: ["after-comment"]
