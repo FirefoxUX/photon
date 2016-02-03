@@ -55,7 +55,7 @@ label {
   --color-grey-light: #d4d4d4;
   --color-grey: #b1b1b1;
   --color-grey-dark: #858585;
-  --color-grey-disabled: #666666;
+  --color-grey-disabled: #999999;
 
   --color-blue: #0996f8;
   --color-blue-dark: #0670cc;
@@ -78,6 +78,9 @@ button {
   background-color: var(--color-grey-lightest);
   border: 1px solid var(--color-grey);
   font: caption;
+  box-shadow: 0 0 0 0 hsla(0,0%,0%,0);
+  transition-property: box-shadow, border;
+  transition-duration: 250ms;
 }
 
 button::-moz-focus-inner{
@@ -125,8 +128,19 @@ button.default.focused {
   border-color: #fff;
 }
 
-/* --Interactive States-- */
 
+/* --Expander Button-- */
+button.expander {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  background-image: url("images/Arrow-Dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* --Interactive States-- */
 button:hover:not(.pressed):not(.disabled):not(.focused) {
   background-color: var(--color-grey-lighter);
   border: 1px solid var(--color-grey);
@@ -165,6 +179,9 @@ select {
   background-color: var(--color-grey-lightest);
   border: 1px solid var(--color-grey);
   font: caption;
+  box-shadow: 0 0 0 0 hsla(0,0%,0%,0);
+  transition-property: box-shadow, border;
+  transition-duration: 250ms;
 }
 
 select {
@@ -173,6 +190,17 @@ select {
   background-image: url("images/Arrow-Dropdown.svg");
   background-repeat: no-repeat;
   background-position: calc(100% - 4px) center;
+  text-overflow: ellipsis;
+}
+
+select.icon {
+  width: 216px;
+  -moz-padding-start: 26px;
+  -moz-padding-end: 24px;
+  background-image: url("images/Icon-Folder.svg"),
+                    url("images/Arrow-Dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: 8px center, calc(100% - 4px) center;
   text-overflow: ellipsis;
 }
 
@@ -221,6 +249,13 @@ select:hover:active:not(.hover):not(.disabled):not(.focused) {
   background-color: var(--color-grey-light);
   border: 1px solid var(--color-grey-dark);
 }
+
+/*
+select:focus:not(.disabled) {
+  border-color: #fff !important;
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+*/
 
 
 /* ====================== */
@@ -377,13 +412,13 @@ input[type="checkbox"]:checked:hover:active + label:before,
 input[type="text"] {
   width: 216px;
   height: 24px;
-  padding: 0 8px 0;
+  padding: 0 6px 0;
   background-color: #fff;
   border: 1px solid var(--color-grey);
   font: caption;
   box-shadow: 0 0 0 0 hsla(208,100%,69%,0);
   transition-property: box-shadow;
-  transition-duration: 300ms;
+  transition-duration: 250ms;
 }
 
 input[type="text"].hover {
