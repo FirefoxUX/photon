@@ -1,0 +1,371 @@
+/* ====================== */
+/* -------General-------- */
+/* ====================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+button, select, input {
+  -moz-appearance: none;
+}
+
+p {
+  margin-bottom: .5em;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  width: 100%;
+}
+
+/* ====================== */
+/* ------Variables------- */
+/* ====================== */
+
+:root {
+  --color-grey-lightest: #fbfbfb;
+  --color-grey-lighter: #ebebeb;
+  --color-grey-light: #d4d4d4;
+  --color-grey: #b1b1b1;
+  --color-grey-dark: #858585;
+  --color-grey-disabled: #666666;
+
+  --color-blue: #0996f8;
+  --color-blue-dark: #0670cc;
+  --color-blue-darker: #005bab;
+  --color-blue-darkest: #004480;
+  --color-blue-focusRing: hsla(208,100%,69%,.75);
+
+  --border-radius-osx: 4px;
+}
+
+/* ====================== */
+/* ----Form Controls----- */
+/* ====================== */
+
+button, select {
+  outline: 0 !important;
+  width: 80px;
+  height: 24px;
+  padding: 0 8px 0;
+  background-color: var(--color-grey-lightest);
+  border: 1px solid var(--color-grey);
+  font: caption;
+}
+
+select {
+  width: 216px;
+  -moz-padding-end: 24px;
+  background-image: url("images/Arrow-Dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 4px) center;
+  text-overflow: ellipsis;
+}
+
+label {
+  font: caption;
+}
+
+button::-moz-focus-inner{
+  outline: 0;
+  border: 0;
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow:0 0 0 #000; /* your normal text color here */
+}
+select:-moz-focusring * {
+  color: #000; /* your normal text color here */
+  text-shadow: none;
+}
+
+.group.mac button,
+.group.mac select,
+.group.mac input[type="checkbox"] + label:before {
+  border-radius: var(--border-radius-osx);
+}
+
+button.hover,
+select.hover {
+  background-color: var(--color-grey-lighter);
+  border: 1px solid var(--color-grey);
+}
+
+button.pressed,
+select.pressed {
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+}
+
+button.disabled,
+select.disabled {
+  color: var(--color-grey-disabled);
+  opacity: .5;
+}
+
+button.focused,
+select.focused {
+/*   border-color: var(--color-blue); */
+  border-color: #fff;
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+
+button.default {
+  background-color: var(--color-blue);
+  border-color: var(--color-blue-dark);
+  color: #fff;
+}
+
+button.default.hover {
+  background-color: var(--color-blue-dark);
+  border-color: var(--color-blue-darker);
+}
+
+button.default.pressed {
+  background-color: var(--color-blue-darker);
+  border-color: var(--color-blue-darkest);
+}
+
+button.default.focused {
+  border-color: #fff;
+}
+
+
+/* --Radio Buttons-- */
+
+.radioItem {
+  margin-bottom: 6px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label {
+  -moz-user-select: none;
+}
+
+input[type="radio"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  background-color: #fff;
+  border: 1px solid var(--color-grey);
+  border-radius: 50%;
+  vertical-align: text-top;
+}
+
+input[type="radio"]:hover + label:before,
+.radioItem.hover input[type="radio"]:not(active) + label:before {
+  background-color: var(--color-grey-lightest);
+  border-color: var(--color-grey);
+}
+
+input[type="radio"]:hover:active + label:before,
+.radioItem.pressed input[type="radio"]:not(active) + label:before {
+  background-color: var(--color-grey-lighter);
+  border-color: var(--color-grey-dark);
+}
+
+input[type="radio"]:checked + label:before {
+  background-color: var(--color-blue);
+  background-image: url("images/Radio-Checked.svg");
+  border-color: var(--color-blue-dark);
+}
+
+input[type="radio"]:checked:hover + label:before,
+.radioItem.hover input[type="radio"]:checked:not(active) + label:before {
+  background-color: var(--color-blue-dark);
+  border-color: var(--color-blue-darker);
+}
+
+input[type="radio"]:checked:hover:active + label:before,
+.radioItem.pressed input[type="radio"]:checked:not(active) + label:before {
+  background-color: var(--color-blue-darker);
+  border-color: var(--color-blue-darkest);
+}
+
+.radioItem.disabled input[type="radio"] + label,
+.radioItem.disabled input[type="radio"]:hover + label,
+.radioItem.disabled input[type="radio"]:hover:active + label {
+  color: var(--color-grey-disabled);
+  opacity: .5;
+}
+
+.radioItem.focused input[type="radio"] + label:before {
+  border-color: var(--color-blue);
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+.radioItem.focused input[type="radio"]:checked + label:before {
+  border-color: #fff;
+}
+
+
+/* --Checkbox-- */
+
+.checkboxItem {
+  margin-bottom: 6px;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  -moz-user-select: none;
+}
+
+input[type="checkbox"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  background-color: #fff;
+  border: 1px solid var(--color-grey);
+  vertical-align: text-top;
+}
+
+input[type="checkbox"]:hover + label:before,
+.checkboxItem.hover input[type="checkbox"]:not(active) + label:before {
+  background-color: var(--color-grey-lightest);
+  border-color: var(--color-grey);
+}
+
+input[type="checkbox"]:hover:active + label:before,
+.checkboxItem.pressed input[type="checkbox"]:not(active) + label:before {
+  background-color: var(--color-grey-lighter);
+  border-color: var(--color-grey-dark);
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: var(--color-blue);
+  background-image: url("images/Checkbox-Checked.svg");
+  border-color: var(--color-blue-dark);
+}
+
+input[type="checkbox"]:checked:hover + label:before,
+.checkboxItem.hover input[type="checkbox"]:checked:not(active) + label:before {
+  background-color: var(--color-blue-dark);
+  border-color: var(--color-blue-darker);
+}
+
+input[type="checkbox"]:checked:hover:active + label:before,
+.checkboxItem.pressed input[type="checkbox"]:checked:not(active) + label:before {
+  background-color: var(--color-blue-darker);
+  border-color: var(--color-blue-darkest);
+}
+
+.checkboxItem.disabled input[type="checkbox"] + label,
+.checkboxItem.disabled input[type="checkbox"]:hover + label,
+.checkboxItem.disabled input[type="checkbox"]:hover:active + label {
+  color: var(--color-grey-disabled);
+  opacity: .5;
+}
+
+.checkboxItem.focused input[type="checkbox"] + label:before {
+  border-color: var(--color-blue);
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+.checkboxItem.focused input[type="checkbox"]:checked + label:before {
+  border-color: #fff;
+}
+
+/* ====================== */
+/* --Interactive States-- */
+/* ====================== */
+
+button:hover:not(.pressed):not(.disabled):not(.focused),
+select:hover:not(.pressed):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-lighter);
+  border: 1px solid var(--color-grey);
+}
+
+button:hover:active:not(.hover):not(.disabled):not(.focused),
+select:hover:active:not(.hover):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+}
+
+button.default:hover:not(.pressed):not(.disabled):not(.focused) {
+  background-color: var(--color-blue-dark);
+  border-color: var(--color-blue-darker);
+}
+
+button.default:hover:active:not(.hover):not(.disabled):not(.focused) {
+  background-color: var(--color-blue-darker);
+  border-color: var(--color-blue-darkest);
+}
+
+button:focus:not(.disabled) {
+  border-color: #fff !important;
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+
+
+/* ====================== */
+/* -------Layout--------- */
+/* ====================== */
+
+.row {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: .5em;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.column {
+  width: 140px;
+  margin: 0 4px 0;
+}
+
+.column:first-child { margin-left: 0; }
+.column:last-child { margin-right: 0; }
+
+button, select {
+  margin: 0 4px 0;
+}
+
+button:first-child,
+select:first-child {
+  margin-left: 0;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+.group {
+  width: 450px;
+  margin-bottom: 2em;
+}
+.group:last-child {
+  margin-bottom: .5em;
+}
