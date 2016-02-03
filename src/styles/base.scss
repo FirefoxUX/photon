@@ -60,12 +60,6 @@ h3 {
   > .section {
     flex: 1;
     padding: 20px;
-
-    > input {
-      float: right;
-      font-size: 16px;
-      padding: 6px;
-    }
   }
 }
 
@@ -94,25 +88,12 @@ h3 {
     margin: 0;
     padding: 10px;
     transition: background-color 150ms ease-in-out;
-
   }
 }
 
 .nav-buttons button {
-  border: 1px solid #b1b1b1;
-  border-radius: 0;
   height: 24px;
   width: 24px;
-
-  &:active {
-    background-color: #d4d4d4;
-    color: #fff;
-  }
-
-  &:first-child {
-    border-right: 0;
-  }
-
 }
 
 .toc {
