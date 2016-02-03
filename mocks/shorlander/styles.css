@@ -40,6 +40,11 @@ section {
   width: 100%;
 }
 
+label {
+  font: caption;
+}
+
+
 /* ====================== */
 /* ------Variables------- */
 /* ====================== */
@@ -62,10 +67,10 @@ section {
 }
 
 /* ====================== */
-/* ----Form Controls----- */
+/* -------Buttons-------- */
 /* ====================== */
 
-button, select {
+button {
   outline: 0 !important;
   width: 80px;
   height: 24px;
@@ -75,60 +80,27 @@ button, select {
   font: caption;
 }
 
-select {
-  width: 216px;
-  -moz-padding-end: 24px;
-  background-image: url("images/Arrow-Dropdown.svg");
-  background-repeat: no-repeat;
-  background-position: calc(100% - 4px) center;
-  text-overflow: ellipsis;
-}
-
-label {
-  font: caption;
-}
-
 button::-moz-focus-inner{
   outline: 0;
   border: 0;
 }
 
-select:-moz-focusring {
-  color: transparent;
-  text-shadow:0 0 0 #000; /* your normal text color here */
-}
-select:-moz-focusring * {
-  color: #000; /* your normal text color here */
-  text-shadow: none;
-}
-
-.group.mac button,
-.group.mac select,
-.group.mac input[type="checkbox"] + label:before {
-  border-radius: var(--border-radius-osx);
-}
-
-button.hover,
-select.hover {
+button.hover {
   background-color: var(--color-grey-lighter);
   border: 1px solid var(--color-grey);
 }
 
-button.pressed,
-select.pressed {
+button.pressed {
   background-color: var(--color-grey-light);
   border: 1px solid var(--color-grey-dark);
 }
 
-button.disabled,
-select.disabled {
+button.disabled {
   color: var(--color-grey-disabled);
   opacity: .5;
 }
 
-button.focused,
-select.focused {
-/*   border-color: var(--color-blue); */
+button.focused {
   border-color: #fff;
   box-shadow: 0 0 0 2px var(--color-blue-focusRing);
 }
@@ -153,8 +125,107 @@ button.default.focused {
   border-color: #fff;
 }
 
+/* --Interactive States-- */
 
-/* --Radio Buttons-- */
+button:hover:not(.pressed):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-lighter);
+  border: 1px solid var(--color-grey);
+}
+
+button:hover:active:not(.hover):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+}
+
+button.default:hover:not(.pressed):not(.disabled):not(.focused) {
+  background-color: var(--color-blue-dark);
+  border-color: var(--color-blue-darker);
+}
+
+button.default:hover:active:not(.hover):not(.disabled):not(.focused) {
+  background-color: var(--color-blue-darker);
+  border-color: var(--color-blue-darkest);
+}
+
+button:focus:not(.disabled) {
+  border-color: #fff !important;
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+
+
+/* ====================== */
+/* ------Dropdowns------- */
+/* ====================== */
+
+select {
+  outline: 0 !important;
+  width: 80px;
+  height: 24px;
+  padding: 0 8px 0;
+  background-color: var(--color-grey-lightest);
+  border: 1px solid var(--color-grey);
+  font: caption;
+}
+
+select {
+  width: 216px;
+  -moz-padding-end: 24px;
+  background-image: url("images/Arrow-Dropdown.svg");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 4px) center;
+  text-overflow: ellipsis;
+}
+
+/* Hack for hiding the focus ring inside of the dropdown :( */
+select:-moz-focusring {
+  color: transparent;
+  text-shadow:0 0 0 #000; /* your normal text color here */
+}
+select:-moz-focusring * {
+  color: #000; /* your normal text color here */
+  text-shadow: none;
+}
+
+.group.mac select {
+  border-radius: var(--border-radius-osx);
+}
+
+select.hover {
+  background-color: var(--color-grey-lighter);
+  border: 1px solid var(--color-grey);
+}
+
+select.pressed {
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+}
+
+select.disabled {
+  color: var(--color-grey-disabled);
+  opacity: .5;
+}
+
+select.focused {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+
+/* --Interactive States-- */
+
+select:hover:not(.pressed):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-lighter);
+  border: 1px solid var(--color-grey);
+}
+
+select:hover:active:not(.hover):not(.disabled):not(.focused) {
+  background-color: var(--color-grey-light);
+  border: 1px solid var(--color-grey-dark);
+}
+
+
+/* ====================== */
+/* ----Radio Buttons----- */
+/* ====================== */
 
 .radioItem {
   margin-bottom: 6px;
@@ -226,7 +297,9 @@ input[type="radio"]:checked:hover:active + label:before,
 }
 
 
-/* --Checkbox-- */
+/* ====================== */
+/* -------Checkbox------- */
+/* ====================== */
 
 .checkboxItem {
   margin-bottom: 6px;
@@ -296,35 +369,57 @@ input[type="checkbox"]:checked:hover:active + label:before,
   border-color: #fff;
 }
 
+
 /* ====================== */
-/* --Interactive States-- */
+/* --------Fields-------- */
 /* ====================== */
 
-button:hover:not(.pressed):not(.disabled):not(.focused),
-select:hover:not(.pressed):not(.disabled):not(.focused) {
-  background-color: var(--color-grey-lighter);
+input[type="text"] {
+  width: 216px;
+  height: 24px;
+  padding: 0 8px 0;
+  background-color: #fff;
   border: 1px solid var(--color-grey);
+  font: caption;
+  box-shadow: 0 0 0 0 hsla(208,100%,69%,0);
+  transition-property: box-shadow;
+  transition-duration: 300ms;
 }
 
-button:hover:active:not(.hover):not(.disabled):not(.focused),
-select:hover:active:not(.hover):not(.disabled):not(.focused) {
-  background-color: var(--color-grey-light);
+input[type="text"].hover {
   border: 1px solid var(--color-grey-dark);
 }
 
-button.default:hover:not(.pressed):not(.disabled):not(.focused) {
-  background-color: var(--color-blue-dark);
-  border-color: var(--color-blue-darker);
+input[type="text"].disabled {
+  color: var(--color-grey-disabled);
+  opacity: .5;
 }
 
-button.default:hover:active:not(.hover):not(.disabled):not(.focused) {
-  background-color: var(--color-blue-darker);
-  border-color: var(--color-blue-darkest);
-}
-
-button:focus:not(.disabled) {
-  border-color: #fff !important;
+input[type="text"].focused {
+  border-color: var(--color-blue);
   box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+
+/* --Interactive States-- */
+
+input[type="text"]:not(disabled="true"):hover {
+  border: 1px solid var(--color-grey-dark);
+}
+
+input[type="text"]:focus {
+  border-color: var(--color-blue);
+  box-shadow: 0 0 0 2px var(--color-blue-focusRing);
+}
+
+
+/* ====================== */
+/* --Platform Specifics-- */
+/* ====================== */
+
+.group.mac button,
+.group.mac select,
+.group.mac input[type="checkbox"] + label:before {
+  border-radius: var(--border-radius-osx);
 }
 
 
@@ -349,16 +444,19 @@ button:focus:not(.disabled) {
 .column:first-child { margin-left: 0; }
 .column:last-child { margin-right: 0; }
 
-button, select {
+button, select, input[type="text"] {
   margin: 0 4px 0;
 }
 
 button:first-child,
-select:first-child {
+select:first-child,
+input[type="text"]:first-child {
   margin-left: 0;
 }
 
-button:last-child {
+button:last-child,
+select:last-child,
+input[type="text"]:last-child {
   margin-right: 0;
 }
 
