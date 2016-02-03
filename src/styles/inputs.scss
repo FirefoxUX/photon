@@ -1,0 +1,40 @@
+@import "content-base";
+
+/* Fields */
+
+input[type="text"] {
+  background-color: #fff;
+  border: 1px solid $color-grey;
+  box-shadow: 0 0 0 0 hsla(208, 100%, 69%, 0);
+  font: caption;
+  height: 24px;
+  padding: 0 6px 0;
+  transition-duration: 250ms;
+  transition-property: box-shadow;
+  width: 216px;
+}
+
+input[type="text"].hover {
+  border: 1px solid $color-grey-dark;
+}
+
+input[type="text"].disabled {
+  color: $color-grey-disabled;
+  opacity: .5;
+}
+
+input[type="text"].focused {
+  border-color: $color-blue;
+  box-shadow: 0 0 0 2px $color-blue-focusRing;
+}
+
+/* Interactive States */
+
+input[type="text"]:not(disabled):hover {
+  border: 1px solid $color-grey-dark;
+}
+
+input[type="text"]:focus {
+  border-color: $color-blue;
+  box-shadow: 0 0 0 2px $color-blue-focusRing;
+}

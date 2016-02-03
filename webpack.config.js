@@ -16,6 +16,7 @@ var basePlugins = [
 var jsLoaders = ['babel?presets[]=es2015,presets[]=react'];
 var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader');
 var publicPath = '/StyleGuide/static/';
+var plugins = [];
 
 if (process.env.NODE_ENV === 'production') {
   plugins = basePlugins.concat([
@@ -83,7 +84,9 @@ module.exports = [{
   }
 }, {
   entry: {
-    controls: './src/styles/controls.scss'
+    controls: './src/styles/controls.scss',
+    inputs: './src/styles/inputs.scss',
+    panels: './src/styles/panels.scss'
   },
   output: {
     path: path.join(__dirname, 'static'),
