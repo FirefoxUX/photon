@@ -41,15 +41,5 @@
   {"title": "Resources",
     "className": "resources",
     "file": "resources",
-    "subpages": [
-      {"title": "Best Practices",
-        "className": "best-practices",
-        "file": "bestPractices"},
-      {"title": "Sketch File",
-        "className": "sketch-file",
-        "file": "sketchFile"},
-      {"title": "CSS Files",
-        "className": "css-files",
-        "file": "cssFiles"}
-      ]}
+    "subpages": []}
 ]
