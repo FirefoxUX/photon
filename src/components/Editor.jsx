@@ -5,6 +5,7 @@
 
 require('../styles/editor.scss');
 require('../styles/controls.scss');
+require('../styles/glyphs.scss');
 require('../styles/inputs.scss');
 require('../styles/panels.scss');
 require('../../node_modules/highlight.js/styles/color-brewer.css');

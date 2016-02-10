@@ -1,0 +1,109 @@
+/* stylelint-disable property-no-vendor-prefix */
+
+@import "content-base";
+
+.glyph {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 16px;
+  margin: 12px 0;
+  padding-left: 22px;
+  width: 150px;
+
+  &::after {
+    content: attr(data-source);
+    display: inline-block;
+    position: relative;
+    top: -2px;
+  }
+
+  &[data-source="back-alt"] {
+    background-image: url("../../images/glyphs/back-alt.svg");
+  }
+
+  &[data-source="back"] {
+    background-image: url("../../images/glyphs/back.svg");
+  }
+
+  &[data-source="close"] {
+    background-image: url("../../images/glyphs/close.svg");
+  }
+
+  &[data-source="copy"] {
+    background-image: url("../../images/glyphs/copy.svg");
+  }
+
+  &[data-source="cut"] {
+    background-image: url("../../images/glyphs/cut.svg");
+  }
+
+  &[data-source="find"] {
+    background-image: url("../../images/glyphs/find.svg");
+  }
+
+  &[data-source="forward-alt"] {
+    background-image: url("../../images/glyphs/forward-alt.svg");
+  }
+
+  &[data-source="forward"] {
+    background-image: url("../../images/glyphs/forward.svg");
+  }
+
+  &[data-source="help"] {
+    background-image: url("../../images/glyphs/help.svg");
+  }
+
+  &[data-source="info"] {
+    background-image: url("../../images/glyphs/info.svg");
+  }
+
+  &[data-source="open"] {
+    background-image: url("../../images/glyphs/open.svg");
+  }
+
+  &[data-source="paste"] {
+    background-image: url("../../images/glyphs/paste.svg");
+  }
+
+  &[data-source="pause"] {
+    background-image: url("../../images/glyphs/pause.svg");
+  }
+
+  &[data-source="play"] {
+    background-image: url("../../images/glyphs/play.svg");
+  }
+
+  &[data-source="reload"] {
+    background-image: url("../../images/glyphs/reload.svg");
+  }
+
+  &[data-source="save"] {
+    background-image: url("../../images/glyphs/save.svg");
+  }
+
+  &[data-source="settings"] {
+    background-image: url("../../images/glyphs/settings.svg");
+  }
+
+  &[data-source="stop"] {
+    background-image: url("../../images/glyphs/stop.svg");
+  }
+
+  &[data-source="typography"] {
+    background-image: url("../../images/glyphs/typography.svg");
+  }
+
+  &[data-source="warning"] {
+    background-image: url("../../images/glyphs/warning.svg");
+  }
+
+  &[data-source="zoom-in"] {
+    background-image: url("../../images/glyphs/zoom-in.svg");
+  }
+
+  &[data-source="zoom-out"] {
+    background-image: url("../../images/glyphs/zoom-out.svg");
+  }
+
+}
