@@ -5,7 +5,10 @@
       {"title": "Design Values",
         "className": "design-values",
         "file": "designValues",
-        "url": "/DesignValues/embed.html"}
+        "url": "/DesignValues/embed.html"},
+      {"title": "Add-ons",
+        "className": "add-ons",
+        "file": "addons"}
       ]},
   {"title": "Visual Design",
     "className": "visual-design",
