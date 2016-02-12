@@ -1,26 +1,96 @@
 .toc {
   li {
-    border-left: 3px solid transparent;
+    border-left: 4px solid transparent;
+    color: #f1f1f1;
     cursor: pointer;
-    margin-top: 15px;
-    padding: 0 10px;
+    padding: 10px;
     transition: border-left 150ms ease-in-out;
+
+    .selected {
+      color: #fbfbfb;
+    }
+
+    &:hover {
+      background-color: #5e6972;
+    }
   }
 
-  .subitem {
-    margin-left: 20px;
+  .subitem,
+  .item {
+    a::before {
+      filter: invert(100%);
+      height: 16px;
+      margin-right: 6px;
+      position: relative;
+      top: 2px;
+      width: 16px;
+    }
+
+    &.home a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/home.svg");
+    }
+
+    &.design-values a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/developer/touch.svg");
+    }
+
+    &.add-ons a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/addons.svg");
+    }
+
+    &.visual-design a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/content/find.svg");
+    }
+
+    &.colours-page a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/developer/screenshot.svg");
+    }
+
+    &.components a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/sidebars.svg");
+    }
+
+    &.typography a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/reader/reader-view.svg");
+    }
+
+    &.controls a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/settings.svg");
+    }
+
+    &.shapes a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/bookmark-starred.svg");
+    }
+
+    &.glyphs a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/stop.svg");
+    }
+
+    &.inputs a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/bookmarks-menu.svg");
+    }
+
+    &.panels a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/developer/dock-side.svg");
+    }
+
+    &.resources a::before {
+      content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/menu.svg");
+    }
   }
 
   .selected {
-    border-left-color: #c84510;
+    background-color: #343f48;
+    border-left: 4px solid #ffad2e;
+    color: white;
   }
 
   a {
     color: inherit;
+    text-decoration: none;
   }
 
   .active {
     cursor: default;
-    text-decoration: none;
   }
 }

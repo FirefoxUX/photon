@@ -35,7 +35,8 @@ const ListItem = connect(state => {
     const url = `/${item.file}`;
 
     return (
-          <li className={(!subpage && item === page) ? 'selected' : ''}
+          <li className={'item ' + item.className +
+              ((!subpage && item === page) ? ' selected' : '')}
               key={i}
           ><Link activeClassName="active"
               to={url}
@@ -71,7 +72,8 @@ const Subpage = connect(state => {
 
     const url = `/${page.file}/${item.file}`;
     return (<li
-        className={'subitem ' + ((item === subpage) ? 'selected' : '')}
+        className={'subitem ' + item.className +
+          ((item === subpage) ? ' selected' : '')}
         key={sources.indexOf(page) + ':' + i}
             ><Link activeClassName="active"
                 to={url}
