@@ -18,11 +18,13 @@ cd dist
 git config user.name "Travis CI"
 git config user.email "firefox-ux-team@mozilla.com"
 
-git add -Af .
-git commit -m "Deploy ${TRAVIS_COMMIT_RANGE} to GitHub Pages."
+if [ -n "$(git status --porcelain)" ]; then
+  git add -Af .
+  git commit -m "Deploy ${TRAVIS_COMMIT_RANGE} to GitHub Pages."
 
-# Force push from the current repo's master branch to the remote
-# repo's gh-pages branch. (All previous history on the gh-pages branch
-# will be lost, since we are overwriting it.) We redirect any output to
-# /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages
+  # Force push from the current repo's master branch to the remote
+  # repo's gh-pages branch. (All previous history on the gh-pages branch
+  # will be lost, since we are overwriting it.) We redirect any output to
+  # /dev/null to hide any sensitive credential data that might otherwise be exposed.
+  git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages
+fi
