@@ -2,7 +2,9 @@
 var path = require('path');
 var webpack = require('webpack');
 
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var failPlugin = require('webpack-fail-plugin');
 
 var entry = [
   './src/app.jsx'
@@ -10,10 +12,11 @@ var entry = [
 var basePlugins = [
   new webpack.ProvidePlugin({
     'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
-  })
+  }),
+  failPlugin
 ];
 
-var jsLoaders = ['babel?presets[]=es2015,presets[]=react'];
+var jsLoaders = ['babel?presets[]=react,presets[]=es2015'];
 var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader');
 var publicPath = '/StyleGuide/static/';
 var plugins = [];
@@ -52,7 +55,7 @@ module.exports = [{
   devtool: 'source-map',
   entry: entry,
   output: {
-    path: path.join(__dirname, 'static'),
+    path: path.join(__dirname, 'dist', 'static'),
     filename: 'bundle.js',
     publicPath: publicPath
   },
@@ -89,13 +92,18 @@ module.exports = [{
     panels: './src/styles/panels.scss'
   },
   output: {
-    path: path.join(__dirname, 'static'),
+    path: path.join(__dirname, 'dist', 'static'),
     filename: 'css/deleteme.js'
   },
   plugins: basePlugins.concat([
     new ExtractTextPlugin('css/[name].css', {
       allChunks: true
-    })
+    }),
+    new CopyWebpackPlugin([
+      { from: 'index.html', to: '../' },
+      { from: 'contents', to: '../contents' },
+      { from: 'images/site-controls', to: '../images/site-controls' }
+    ])
   ]),
   sassLoader: {
     outputStyle: 'expanded'
