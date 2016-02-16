@@ -1,18 +1,24 @@
-/*csslint box-sizing:false, ids: false, universal-selector:false */
+// scss-lint:disable ColorVariable,IdSelector
 
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-html, body, ul {
+html,
+body,
+ul {
   margin: 0;
 }
 
-html, body, #mount {
+html,
+body,
+#mount {
   height: 100%;
 }
 
@@ -21,68 +27,67 @@ body {
 }
 
 h2 {
-  font-weight: normal;
   font-size: 28px;
+  font-weight: normal;
 }
 
 .app {
+  color: #0c0c0c;
   display: flex;
   flex-direction: column;
   height: 100%;
-  color: #0c0c0c;
 }
 
 .toolbar {
-  transition: background-color 150ms ease-in-out;
   background-color: #ff9216;
-  padding: 0;
-  flex: 0 0 200px;
   display: flex;
-}
-
-.toolbar > .title {
   flex: 0 0 200px;
+  padding: 0;
   transition: background-color 150ms ease-in-out;
-  background-color: #c84510;
-  color: #ffffff;
-  margin: 0;
-  padding: 10px;
-}
 
-.toolbar > .section {
-  flex: 1;
-  padding: 20px;
-}
+  > .title {
+    background-color: #c84510;
+    color: #fff;
+    flex: 0 0 200px;
+    margin: 0;
+    padding: 10px;
+    transition: background-color 150ms ease-in-out;
+  }
 
-.toolbar > .section > input {
-  float: right;
-  font-size: 16px;
-  padding: 6px;
+  > .section {
+    flex: 1;
+    padding: 20px;
+
+    > input {
+      float: right;
+      font-size: 16px;
+      padding: 6px;
+    }
+  }
 }
 
 .toc {
+  background-color: #fff;
   flex: 0 0 200px;
-  background-color: #ffffff;
+  font-size: 18px;
+  list-style: none;
   margin: 0;
   padding: 10px 0 0;
-  list-style: none;
-  font-size: 18px;
 }
 
 .content {
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: row;
 }
 
 
 .editor {
-  flex: 1;
-  color: #ffffff;
-  transition: background-color 150ms ease-in-out;
   background-color: #ffad2e;
-  padding: 10px;
-
-  white-space: pre;
+  color: #fff;
+  flex: 1;
   font-family: Monaco, Courier New;
+  padding: 10px;
+  transition: background-color 150ms ease-in-out;
+  white-space: pre;
 }

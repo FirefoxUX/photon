@@ -2,7 +2,7 @@
 
 'use strict';
 
-require('../styles/toc.css');
+require('../styles/toc.scss');
 
 const React = require('react');
 const { Link } = require('react-router');
@@ -37,7 +37,9 @@ const ListItem = connect(state => {
     return (
           <li className={(!subpage && item === page) ? 'selected' : ''}
               key={i}
-          ><Link to={url} activeClassName="active">{item.title}</Link>
+          ><Link activeClassName="active"
+              to={url}
+           >{item.title}</Link>
         </li>
       );
   }
@@ -71,7 +73,9 @@ const Subpage = connect(state => {
     return (<li
         className={'subitem ' + ((item === subpage) ? 'selected' : '')}
         key={sources.indexOf(page) + ':' + i}
-            ><Link to={url} activeClassName="active">{item.title}</Link></li>);
+            ><Link activeClassName="active"
+                to={url}
+             >{item.title}</Link></li>);
   }
 }));
 

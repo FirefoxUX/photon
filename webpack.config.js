@@ -14,7 +14,7 @@ var plugins = [
 ];
 
 var jsLoaders = ['babel?presets[]=es2015,presets[]=react'];
-var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader', 'sass-loader');
+var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader');
 
 if (process.env.NODE_ENV === 'production') {
   plugins = plugins.concat([

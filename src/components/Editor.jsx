@@ -2,7 +2,7 @@
 
 /* eslint "react/no-danger":[0] */
 
-require('../styles/editor.css');
+require('../styles/editor.scss');
 
 const React = require('react');
 const ReactDOM = require('react-dom');

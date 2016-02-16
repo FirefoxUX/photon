@@ -1,0 +1,76 @@
+// scss-lint:disable ColorVariable
+
+// Colour Schemes.
+
+.app.visual-design {
+  .toolbar {
+    background-color: #d92215;
+
+    > .title {
+      background-color: #881606;
+    }
+  }
+
+  .toc .selected {
+    border-left-color: #881606;
+  }
+
+  .editor {
+    background-color: #ee4b36;
+  }
+}
+
+.app.components {
+  .toolbar {
+    background-color: #57bd35;
+
+    > .title {
+      background-color: #2e761a;
+    }
+  }
+
+  .toc .selected {
+    border-left-color: #2e761a;
+  }
+
+  .editor {
+    background-color: #70cf5b;
+  }
+}
+
+.app.patterns {
+  .toolbar {
+    background-color: #0996f8;
+
+    > .title {
+      background-color: #025295;
+    }
+  }
+
+  .toc .selected {
+    border-left-color: #025295;
+  }
+
+  .editor {
+    background-color: #2ea3ff;
+  }
+}
+
+
+.app.resources {
+  .toolbar {
+    background-color: #ea385e;
+
+    > .title {
+      background-color: #911a2e;
+    }
+  }
+
+  .toc .selected {
+    border-left-color: #911a2e;
+  }
+
+  .editor {
+    background-color: #fa526e;
+  }
+}

@@ -1,0 +1,28 @@
+// scss-lint:disable ColorVariable
+
+.toc {
+  li {
+    border-left: 3px solid transparent;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 0 10px;
+    transition: border-left 150ms ease-in-out;
+  }
+
+  .subitem {
+    margin-left: 20px;
+  }
+
+  .selected {
+    border-left-color: #c84510;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .active {
+    cursor: default;
+    text-decoration: none;
+  }
+}

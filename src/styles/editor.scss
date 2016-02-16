@@ -1,47 +1,49 @@
-/*csslint adjoining-classes:false */
+// scss-lint:disable ColorVariable
 
 .editor > .popup {
-  position: absolute;
+  background: #fcfcfc;
+  border: 1px solid #b1b1b1;
+  border-radius: 4px;
   left: calc(50vw - 5em);
   opacity: 0;
-  z-index: -1;
   padding: 15px;
-  background: #fcfcfc;
-  border-radius: 4px;
-  border: 1px solid #b1b1b1;
+  position: absolute;
   transition: opacity 500ms ease-in-out;
+  z-index: -1;
 }
 
 .app .content .editor.subpage {
-  color: #0c0c0c;
   background-color: #fcfcfc;
+  color: #0c0c0c;
 }
 
 
-/* in-editor styles */
+// in-editor styles
 
 .colours {
   display: flex;
   flex-wrap: wrap;
 }
 
-.colour.swatch {
-  width: 10em;
-  border-radius: 4px;
-}
-
 .colour {
   cursor: copy;
+
+  &.swatch {
+    border-radius: 4px;
+    width: 10em;
+  }
 }
 
-.colour.swatch, .multi-swatch {
-  color: white;
-  margin: .5em;
-  font-size: smaller;
+.colour.swatch,
+.multi-swatch {
+  color: #fff;
   display: flex;
+  font-size: smaller;
+  margin: .5em;
 }
 
-.colour.swatch, .multi-swatch .colour {
+.colour.swatch,
+.multi-swatch .colour {
   padding: 4em 1em 4px;
 }
 
