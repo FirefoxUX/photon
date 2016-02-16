@@ -4,8 +4,11 @@ set -e # exit with nonzero exit code if anything fails
 # clear the dist directory
 rm -rf dist || exit 0;
 
-# get the existing gh-pages files.
+# get the existing gh-pages history, but clean out the files.
 git clone --quiet --branch=gh-pages https://${GH_TOKEN}@${GH_REF} dist > /dev/null
+cd dist
+rm -rf *
+cd ..
 
 # run our compile script, discussed above
 npm run build
