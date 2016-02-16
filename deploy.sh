@@ -18,7 +18,7 @@ cd dist
 git config user.name "Travis CI"
 git config user.email "firefox-ux-team@mozilla.com"
 
-if [ -n "$(git status --porcelain)" ]; then
+if [ -n "$(git status --porcelain)" -a "${TRAVIS_PULL_REQUEST}" == "false" ]; then
   git add -Af .
   git commit -m "Deploy ${TRAVIS_COMMIT_RANGE} to GitHub Pages."
 
