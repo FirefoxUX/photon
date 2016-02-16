@@ -1,0 +1,46 @@
+/* stylelint-disable property-no-vendor-prefix */
+/* Base */
+button,
+select,
+option,
+input {
+  -moz-appearance: none;
+}
+
+/* Variables */
+/* Fields */
+input[type="text"] {
+  background-color: #fff;
+  border: 1px solid #b1b1b1;
+  box-shadow: 0 0 0 0 rgba(97, 181, 255, 0);
+  font: caption;
+  height: 24px;
+  padding: 0 6px 0;
+  transition-duration: 250ms;
+  transition-property: box-shadow;
+  width: 216px;
+}
+
+input[type="text"].hover {
+  border: 1px solid #858585;
+}
+
+input[type="text"].disabled {
+  color: #999;
+  opacity: .5;
+}
+
+input[type="text"].focused {
+  border-color: #0996f8;
+  box-shadow: 0 0 0 2px rgba(97, 181, 255, 0.75);
+}
+
+/* Interactive States */
+input[type="text"]:not(disabled):hover {
+  border: 1px solid #858585;
+}
+
+input[type="text"]:focus {
+  border-color: #0996f8;
+  box-shadow: 0 0 0 2px rgba(97, 181, 255, 0.75);
+}

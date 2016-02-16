@@ -1,0 +1,48 @@
+[ {"title": "Home",
+    "className": "home",
+    "file": "home",
+    "subpages": [
+      {"title": "Design Values",
+        "className": "design-values",
+        "file": "designValues",
+        "url": "/DesignValues/embed.html"},
+      {"title": "Add-ons",
+        "className": "add-ons",
+        "file": "addons"}
+      ]},
+  {"title": "Visual Design",
+    "className": "visual-design",
+    "file": "visualDesign",
+    "subpages": [
+      {"title": "Colours",
+        "className": "colours-page",
+        "file": "colours"},
+      {"title": "Typography",
+        "className": "typography",
+        "file": "typography"}
+      ]},
+  {"title": "Components",
+    "className": "components",
+    "file": "components",
+    "subpages": [
+      {"title": "Controls",
+        "className": "controls",
+        "file": "controls"},
+      {"title": "Inputs",
+        "className": "inputs",
+        "file": "inputs"},
+      {"title": "Glyphs",
+        "className": "glyphs",
+        "file": "glyphs"},
+      {"title": "Shapes",
+        "className": "shapes",
+        "file": "shapes"},
+      {"title": "Panels",
+        "className": "panels",
+        "file": "panels"}
+      ]},
+  {"title": "Resources",
+    "className": "resources",
+    "file": "resources",
+    "subpages": []}
+]

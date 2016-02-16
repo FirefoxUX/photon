@@ -1,0 +1,171 @@
+<h3>Add-on Presentation</h3>
+
+<p>Present add-ons in a way that describes their functionality in clear terms.
+This involves choosing a descriptive name for the add-on, including demonstrative screenshots, and making the description understandable.  For bonus
+points, try to make the description conform to <a
+href="https://www.mozilla.org/en-US/styleguide/communications/copy-tone/"
+>Mozilla’s copy tone</a>.</p>
+
+
+<h3>Images</h3>
+
+<p>Keep your images up to date. If they show OS elements make sure it is a
+current version of a well known OS (such as the latest versions of Windows or
+Mac OS X). This will reassure your potential users that this add-on is up to
+date.</p>
+
+
+<h3>Installation</h3>
+
+<p>On installing an add-on the user will see a panel indicating the add-on has
+been installed. This panel will be placed underneath the icon of the add-on. If
+the add-on does not have a visual representation, the panel will be placed
+underneath the menu button.<br><small>This is a lie.  We actually show the panel
+underneath the add-on icon in the urlbar, if I’m remembering
+correctly…</small></p>
+
+
+<h3>Browser Action</h3>
+<small>(related to <a
+href="https://developer.chrome.com/extensions/browserAction"
+>chrome.browserAction</a>)</small>
+
+<p>Use browserActions to put a button in the main Mozilla Firefox toolbar. Per
+default this button will be placed to the right of the address bar. However, the
+user is free to move this button to multiple locations in the browser.   In
+addition to its button, a browserAction should also have a tooltip, and can
+have a badge, a panel and can be highlighted.</p>
+
+
+<h4>Button</h4>
+
+<p>A browserAction button is represented by an icon. Its states are defined by
+Firefox and will be adapted to match the operating system. Besides those states
+a button can be highlighted to indicate important events.</p>
+
+
+<h4>Icon</h4>
+
+<p>The icon should be clear and distinguishable in one color. To keep a clean
+appearance within Firefox and match individual OSs we will color the SVG
+provided in the same color as other toolbar icons. The icon should be 16×16px
+outline SVG. For compatibility with Chrome/Opera we will also support full color
+images but strongly recommend matching your icon’s color with native icons. If
+the user moves the button to the menu panel the icon</p>
+
+<h5>Icon Sizes</h5>
+<table>
+  <tr><td>URL Bar</td><td>12x12 px</td></tr>
+  <tr><td>Toolbar</td><td>16x16 px</td></tr>
+  <tr><td>Menu Panel</td><td>32x32 px</td></tr>
+  <tr><td>Display Icon</td><td>64x64 px</td></tr>
+</table>
+
+
+<h4>States</h4>
+
+<p>Browser actions as other buttons have different appearances indicating their state.</p>
+
+<table>
+  <tr><td>enabled</td>
+  <td>Basic state of a button if it’s function is available.</td></tr>
+  <tr><td>disabled</td>
+  <td>Basic state of a button if it’s function is not available.<br>Should not
+  be needed on a browserAction as they should work all the time. If it does not,
+  consider if it should rather be a pageAction.</td></tr>
+  <tr><td>hover (if not disabled)</td>
+  <td>Controlled by Firefox. Can not be influenced by an add-on.</td></tr>
+  <tr><td>active (if not disabled)</td>
+  <td>Controlled by Firefox. Can not be influenced by an add-on.</td></tr>
+  <tr><td>highlighted</td>
+  <td>To indicate an important active state of a browserAction you can set it to
+  be highlighted. This will color the icon blue until the state is resolved.
+  (e.g. set Bookmark or finished Download)<br>Can only be used if the icon is
+  provided as an SVG</td></tr>
+</table>
+
+
+<h4>Locations</h4>
+
+<p>A browserAction by default is placed in the toolbar to the right of the
+address bar. The user can however move it to any other location in the toolbar,
+the bookmark toolbar, or the menu panel. In the menu panel the content specified
+to be displayed in the popup will be displayed.</p>
+
+<ul>
+  <li>in Toolbar (default)</li>
+  <li>in Menu Panel</li>
+  <li>in Bookmark Toolbar</li>
+</ul>
+
+
+<h4>Tooltip</h4>
+
+<p>Users should be able to understand what will happen when they click the
+button. Therefore the tooltip will describe what the button does by clearly
+stating the action that will be performed on click. (Do not just put the name of
+the add-on in the tooltip, unless it is very descriptive of the action the
+button will perform!)</p>
+
+
+<h4>Badge</h4>
+
+<p>Use sparingly to inform users about important events.</p>
+
+<p>Can be up to 4 characters and will not extend beyond the borders of the
+button.  We recommend using one of four states provided for different severity
+of notifications: Info (grey #ebebeb), Casual (blue #0996f8), Warning (red
+#d92215), and Update (green #57bd35).</p>
+
+<p>For compatibility with Chrome/Opera we will also support free color
+selection, recommend however usage of Firefox defaults to keep consistency.</p>
+
+
+<h4>Panel</h4>
+
+<p>Use a panel if your browserAction provides the user with multiple actions or
+displays an other form of content on request. To best integrate with Firefox
+make sure to align the content of the panel with our recommended styles.</p>
+
+<h5>Requirements:</h5>
+<ul>
+  <li>Width of 300px or greater</li>
+</ul>
+
+<h5>Optional:</h5>
+<ul>
+  <li>Display Icon</li>
+  <li>Header</li>
+  <li>Dialog</li>
+  <li>List</li>
+  <li>Buttons</li>
+  <li>Inputs</li>
+  <li>Checkbox</li>
+  <li>Radio Buttons</li>
+</ul>
+
+
+<h4>Tips</h4>
+
+<p>For the best visual impact, follow these guidelines:</p>
+<ul>
+  <li>Use browserActions for features that make sense on most pages.</li>
+  <li>Don't use browserActions for features that make sense for only a few
+    pages.<br>Use pageActions instead.</li>
+  <li>Use SVG icons that blend well with the other icons in Firefox.</li>
+</ul>
+
+
+<hr>
+
+<h3>Page Action</h3>
+
+<p>pageActions are like browserActions, but with a 12x12 icon.</p>
+
+
+<hr>
+
+<p>See also <a href="https://dev.opera.com/extensions/">Opera
+  Extensions</a> and
+  <a href="https://developer.chrome.com/extensions">Chrome
+  Extensions</a>.</p>
