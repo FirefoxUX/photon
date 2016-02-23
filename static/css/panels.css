@@ -9,48 +9,7 @@ input {
 }
 
 /* Variables */
-.panel {
-  background-clip: padding-box;
-  background-color: #fcfcfc;
-  border: 1px solid rgba(24, 26, 27, 0.2);
-  box-shadow: 0 3px 5px rgba(24, 26, 27, 0.1), 0 0 7px rgba(24, 26, 27, 0.1);
-  box-sizing: content-box;
-  color: #222426;
-  cursor: default;
-  display: flex;
-  flex-direction: column;
-  font: caption;
-  margin: 2em auto .5em;
-  padding: 0;
-  position: relative;
-  -moz-user-select: none;
-  width: 384px;
-}
-
-.result .panel {
-  margin-top: 0;
-}
-
-.panel * {
-  box-sizing: border-box;
-  text-align: start;
-}
-
-.panel-arrowUp {
-  background-image: url(77bfee72eee9836269c3062731a60ad7.png);
-  background-position: calc(100% - 12px) top;
-  background-repeat: no-repeat;
-  height: 14px;
-  margin-top: -14px;
-  pointer-events: none;
-  position: absolute;
-  width: 100%;
-}
-
-.panel-body {
-  position: relative;
-}
-
+/* stylelint-disable property-no-vendor-prefix */
 .panel-section {
   display: flex;
   flex-direction: row;
@@ -67,7 +26,6 @@ input {
 }
 
 .panel-section-header > .icon-section-header {
-  background-image: url(a261687f27a80804dee0e1207268f1f9.svg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 32px;
@@ -152,7 +110,6 @@ input {
   flex-shrink: 0;
   margin-right: 6px;
   text-align: right;
-  width: 60px;
 }
 
 .panel-formElements-item input[type="text"],
@@ -177,6 +134,12 @@ input {
   margin: 0 -1px;
   padding: 12px;
   text-align: center;
+}
+
+.panel-section-footer-button > .text-shortcut {
+  color: #808080;
+  font-family: "Lucida Grande", caption;
+  font-size: .847em;
 }
 
 .panel-section-footer-button:hover {
@@ -248,15 +211,4 @@ input {
   background-color: rgba(0, 0, 0, 0.1);
   width: 1px;
   z-index: 99;
-}
-
-/* Platform Specifics */
-.mac .panel-section-footer {
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  overflow: hidden;
-}
-
-.mac .panel {
-  border-radius: 4px;
 }

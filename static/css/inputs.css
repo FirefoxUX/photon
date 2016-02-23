@@ -1,4 +1,5 @@
 /* stylelint-disable property-no-vendor-prefix */
+/* stylelint-disable property-no-vendor-prefix */
 /* Base */
 button,
 select,
@@ -18,7 +19,6 @@ input[type="text"] {
   padding: 0 6px 0;
   transition-duration: 250ms;
   transition-property: box-shadow;
-  width: 216px;
 }
 
 input[type="text"].hover {
