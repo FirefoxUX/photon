@@ -1,0 +1,38 @@
+/* stylelint-disable property-no-vendor-prefix */
+
+@import "controls";
+
+/* Buttons */
+
+button,
+select {
+  width: 80px;
+}
+
+select {
+  width: 216px;
+}
+
+/* Dropdowns */
+
+select {
+  width: 80px;
+}
+
+select {
+  width: 216px;
+}
+
+select.icon {
+  background-image: url("../../images/controls/Icon-Folder.svg"),
+    url("../../images/controls/Arrow-Dropdown.svg");
+  background-position: 8px center, calc(100% - 4px) center;
+  -moz-padding-start: 26px;
+  width: 216px;
+}
+
+.mac button,
+.mac select,
+.mac input[type="checkbox"] + label::before {
+  border-radius: $border-radius-osx;
+}

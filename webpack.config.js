@@ -87,6 +87,7 @@ module.exports = [{
   }
 }, {
   entry: {
+    all: './src/styles/all.scss',
     controls: './src/styles/controls.scss',
     inputs: './src/styles/inputs.scss',
     panels: './src/styles/panels.scss'
@@ -111,7 +112,7 @@ module.exports = [{
   module: {
     loaders: [{
       test: /\.(svg|png)$/,
-      loader: 'file'
+      loader: 'url-loader'
     },{
       test: /\.s?css$/,
       loader: ExtractTextPlugin.extract('style-loader', 'css-loader?-minimize!sass-loader')
