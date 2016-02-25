@@ -34,14 +34,12 @@ const ListItem = connect(state => {
 
     const url = `/${item.file}`;
 
-    return (
-          <li className={'item ' + item.className +
-              ((!subpage && item === page) ? ' selected' : '')}
-              key={i}
-          ><Link activeClassName="active"
-              to={url}
-           >{item.title}</Link>
-        </li>
+    return (<Link activeClassName="active"
+        className={'item ' + item.className +
+          ((!subpage && item === page) ? ' selected' : '')}
+        key={i}
+        to={url}
+            >{item.title}</Link>
       );
   }
 }));
@@ -67,17 +65,20 @@ const Subpage = connect(state => {
     subpage: React.PropTypes.shape()
   },
 
+  contextTypes: {
+    router: React.PropTypes.func
+  },
+
   render() {
     const { item, i, page, sources, subpage } = this.props;
 
     const url = `/${page.file}/${item.file}`;
-    return (<li
+    return (<Link activeClassName="active"
         className={'subitem ' + item.className +
           ((item === subpage) ? ' selected' : '')}
         key={sources.indexOf(page) + ':' + i}
-            ><Link activeClassName="active"
-                to={url}
-             >{item.title}</Link></li>);
+        to={url}
+            >{item.title}</Link>);
   }
 }));
 
@@ -108,9 +109,9 @@ const TableOfContents = React.createClass({
         (item === page) ? subpages : []));
     }
 
-    return (<ul className="toc">
+    return (<div className="toc">
       {sources.map(getItem)}
-    </ul>)
+    </div>)
   }
 });
 

@@ -1,9 +1,10 @@
 .toc {
-  li {
+  a {
     border-left: 4px solid transparent;
     color: #f1f1f1;
-    cursor: pointer;
+    display: block;
     padding: 10px;
+    text-decoration: none;
     transition: border-left 150ms ease-in-out;
 
     .selected {
@@ -17,7 +18,7 @@
 
   .subitem,
   .item {
-    a::before {
+    &::before {
       filter: invert(100%);
       height: 16px;
       margin-right: 6px;
@@ -26,55 +27,55 @@
       width: 16px;
     }
 
-    &.home a::before {
+    &.home::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/home.svg");
     }
 
-    &.design-values a::before {
+    &.design-values::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/developer/touch.svg");
     }
 
-    &.add-ons a::before {
+    &.add-ons::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/addons.svg");
     }
 
-    &.visual-design a::before {
+    &.visual-design::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/content/find.svg");
     }
 
-    &.colours-page a::before {
+    &.colours-page::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/developer/screenshot.svg");
     }
 
-    &.components a::before {
+    &.components::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/sidebars.svg");
     }
 
-    &.typography a::before {
+    &.typography::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/reader/reader-view.svg");
     }
 
-    &.controls a::before {
+    &.controls::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/settings.svg");
     }
 
-    &.shapes a::before {
+    &.shapes::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/bookmark-starred.svg");
     }
 
-    &.glyphs a::before {
+    &.glyphs::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/stop.svg");
     }
 
-    &.inputs a::before {
+    &.inputs::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/places/bookmarks-menu.svg");
     }
 
-    &.panels a::before {
+    &.panels::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/developer/dock-side.svg");
     }
 
-    &.resources a::before {
+    &.resources::before {
       content: url("http://firefoxux.github.io/firefox-svg-icons/icons/navigation/menu.svg");
     }
   }
@@ -85,12 +86,11 @@
     color: white;
   }
 
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-
   .active {
     cursor: default;
+  }
+
+  .subitem {
+    padding-left: 33px;
   }
 }
