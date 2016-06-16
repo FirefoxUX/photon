@@ -1,7 +1,7 @@
 .toc {
   a {
     border-left: 4px solid transparent;
-    color: #f1f1f1;
+    color: #0c0c0c;
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -13,13 +13,17 @@
 
     &:hover {
       background-color: #5e6972;
+      color: #fbfbfb;
     }
   }
 
   .subitem,
   .item {
-    &::before {
+    &:hover::before {
       filter: invert(100%);
+    }
+
+    &::before {
       height: 16px;
       margin-right: 6px;
       position: relative;
@@ -84,6 +88,10 @@
     background-color: #343f48;
     border-left: 4px solid #ffad2e;
     color: white;
+
+    &::before {
+      filter: invert(100%);
+    }
   }
 
   .active {

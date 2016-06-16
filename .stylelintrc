@@ -9,7 +9,7 @@
       except: ["first-nested"],
       ignore: ["after-comment"]
     }],
-    rule-no-duplicate-properties: true,
-    "rule-properties-order": "alphabetical"
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-properties-order": "alphabetical"
   }
 }

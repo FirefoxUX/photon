@@ -41,7 +41,7 @@ h3 {
 }
 
 .toolbar {
-  background-color: #ff9216;
+  background-color: #eee;
   display: flex;
   flex: 0 0 200px;
   padding: 0;
@@ -49,8 +49,8 @@ h3 {
   z-index: 2;
 
   > .title {
-    background-color: #c84510;
-    color: #fff;
+    background-color: #eee;
+    color: #0c0c0c;
     flex: 0 0 200px;
     margin: 0;
     padding: 10px;
@@ -64,7 +64,7 @@ h3 {
 }
 
 .sticky {
-  background-color: #ff9216;
+  background-color: #eee;
   display: flex;
   flex: 0 0 2em;
   padding: 0 0 0 230px;
@@ -75,7 +75,7 @@ h3 {
   z-index: 1;
 
   > .breadcrumbs {
-    color: #fff;
+    color: #0c0c0c;
     flex: 1;
     margin: 0;
     padding: 10px;
@@ -83,7 +83,7 @@ h3 {
   }
 
   > .nav-buttons {
-    color: #fff;
+    color: #0c0c0c;
     flex: 0 0 100px;
     margin: 0;
     padding: 10px;
@@ -97,7 +97,7 @@ h3 {
 }
 
 .toc {
-  background-color: #424f5a;
+  background-color: #fff;
   flex: 0 0 200px;
   font-size: 16px;
   list-style: none;
@@ -112,8 +112,8 @@ h3 {
 }
 
 .editor {
-  background-color: #ffad2e;
-  color: #fff;
+  background-color: #fff;
+  color: #0c0c0c;
   flex: 1;
   font-weight: 400;
   padding: 10px;

@@ -3,7 +3,6 @@
 'use strict';
 
 require('./styles/base.scss');
-require('./styles/colours.scss');
 
 const React = require('react');
 const ReactDOM = require('react-dom');

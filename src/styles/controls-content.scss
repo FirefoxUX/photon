@@ -116,54 +116,7 @@ button.default.focused {
 }
 
 input[type="radio"] {
-  display: none;
-}
-
-input[type="radio"] + label {
-  -moz-user-select: none;
-}
-
-input[type="radio"] + label::before {
-  background-color: #fff;
-  background-position: center;
-  border: 1px solid $color-grey;
-  border-radius: 50%;
-  content: "";
-  display: inline-block;
-  height: 16px;
-  margin-right: 6px;
-  vertical-align: text-top;
-  width: 16px;
-}
-
-input[type="radio"]:hover + label::before,
-.radioItem.hover input[type="radio"]:not(active) + label::before {
-  background-color: $color-grey-lightest;
-  border-color: $color-grey;
-}
-
-input[type="radio"]:hover:active + label::before,
-.radioItem.pressed input[type="radio"]:not(active) + label::before {
-  background-color: $color-grey-lighter;
-  border-color: $color-grey-dark;
-}
-
-input[type="radio"]:checked + label::before {
-  background-color: $color-blue;
-  background-image: url("../../images/controls/Radio-Checked.svg");
-  border-color: $color-blue-dark;
-}
-
-input[type="radio"]:checked:hover + label::before,
-.radioItem.hover input[type="radio"]:checked:not(active) + label::before {
-  background-color: $color-blue-dark;
-  border-color: $color-blue-darker;
-}
-
-input[type="radio"]:checked:hover:active + label::before,
-.radioItem.pressed input[type="radio"]:checked:not(active) + label::before {
-  background-color: $color-blue-darker;
-  border-color: $color-blue-darkest;
+  -moz-appearance: radio;
 }
 
 .radioItem.disabled input[type="radio"] + label,
@@ -171,15 +124,6 @@ input[type="radio"]:checked:hover:active + label::before,
 .radioItem.disabled input[type="radio"]:hover:active + label {
   color: $color-grey-disabled;
   opacity: .5;
-}
-
-.radioItem.focused input[type="radio"] + label::before {
-  border-color: $color-blue;
-  box-shadow: 0 0 0 2px $color-blue-focusRing;
-}
-
-.radioItem.focused input[type="radio"]:checked + label::before {
-  border-color: #fff;
 }
 
 /* Checkboxes */
@@ -190,53 +134,7 @@ input[type="radio"]:checked:hover:active + label::before,
 }
 
 input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"] + label {
-  -moz-user-select: none;
-}
-
-input[type="checkbox"] + label::before {
-  background-color: #fff;
-  background-position: center;
-  border: 1px solid $color-grey;
-  content: "";
-  display: inline-block;
-  height: 16px;
-  margin-right: 6px;
-  vertical-align: text-top;
-  width: 16px;
-}
-
-input[type="checkbox"]:hover + label::before,
-.checkboxItem.hover input[type="checkbox"]:not(active) + label::before {
-  background-color: $color-grey-lightest;
-  border-color: $color-grey;
-}
-
-input[type="checkbox"]:hover:active + label::before,
-.checkboxItem.pressed input[type="checkbox"]:not(active) + label::before {
-  background-color: $color-grey-lighter;
-  border-color: $color-grey-dark;
-}
-
-input[type="checkbox"]:checked + label::before {
-  background-color: $color-blue;
-  background-image: url("../../images/controls/Checkbox-Checked.svg");
-  border-color: $color-blue-dark;
-}
-
-input[type="checkbox"]:checked:hover + label::before,
-.checkboxItem.hover input[type="checkbox"]:checked:not(active) + label::before {
-  background-color: $color-blue-dark;
-  border-color: $color-blue-darker;
-}
-
-input[type="checkbox"]:checked:hover:active + label::before,
-.checkboxItem.pressed input[type="checkbox"]:checked:not(active) + label::before {
-  background-color: $color-blue-darker;
-  border-color: $color-blue-darkest;
+  -moz-appearance: checkbox;
 }
 
 .checkboxItem.disabled input[type="checkbox"] + label,
@@ -244,15 +142,6 @@ input[type="checkbox"]:checked:hover:active + label::before,
 .checkboxItem.disabled input[type="checkbox"]:hover:active + label {
   color: $color-grey-disabled;
   opacity: .5;
-}
-
-.checkboxItem.focused input[type="checkbox"] + label::before {
-  border-color: $color-blue;
-  box-shadow: 0 0 0 2px $color-blue-focusRing;
-}
-
-.checkboxItem.focused input[type="checkbox"]:checked + label::before {
-  border-color: #fff;
 }
 
 /* Expander Button */
