@@ -22,6 +22,7 @@ input {
 
 /* Panel Section - Header */
 .panel-section-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   padding: 16px;
 }
 
@@ -120,6 +121,7 @@ input {
 /* Panel Section - Footer */
 .panel-section-footer {
   background-color: rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
   color: #1a1a1a;
   display: flex;
   flex-direction: row;
