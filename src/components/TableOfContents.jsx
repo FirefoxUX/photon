@@ -110,6 +110,7 @@ const TableOfContents = React.createClass({
     }
 
     return (<div className="toc">
+      <h1>{'Firefox Style Guide'}</h1>
       {sources.map(getItem)}
     </div>)
   }

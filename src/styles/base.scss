@@ -1,3 +1,6 @@
+$toc-width: 290px;
+$toc-padding: $toc-width + 120px;
+
 html {
   box-sizing: border-box;
 }
@@ -21,6 +24,7 @@ body,
 }
 
 body {
+  background-color: #fbfbfb;
   font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 300;
 }
@@ -40,82 +44,25 @@ h3 {
   height: 100%;
 }
 
-.toolbar {
-  background-color: #eee;
-  display: flex;
-  flex: 0 0 200px;
-  padding: 0;
-  transition: background-color 150ms ease-in-out;
-  z-index: 2;
-
-  > .title {
-    background-color: #eee;
-    color: #0c0c0c;
-    flex: 0 0 200px;
-    margin: 0;
-    padding: 10px;
-    transition: background-color 150ms ease-in-out;
-  }
-
-  > .section {
-    flex: 1;
-    padding: 20px;
-  }
-}
-
-.sticky {
-  background-color: #eee;
-  display: flex;
-  flex: 0 0 2em;
-  padding: 0 0 0 230px;
-  position: fixed;
-  top: 50px;
-  transition: background-color 150ms ease-in-out;
-  width: 100%;
-  z-index: 1;
-
-  > .breadcrumbs {
-    color: #0c0c0c;
-    flex: 1;
-    margin: 0;
-    padding: 10px;
-    transition: background-color 150ms ease-in-out;
-  }
-
-  > .nav-buttons {
-    color: #0c0c0c;
-    flex: 0 0 100px;
-    margin: 0;
-    padding: 10px;
-    transition: background-color 150ms ease-in-out;
-  }
-}
-
-.nav-buttons button {
-  height: 24px;
-  width: 24px;
-}
-
-.toc {
-  background-color: #fff;
-  flex: 0 0 200px;
-  font-size: 16px;
-  list-style: none;
-  margin: 0;
-  padding: 10px 0 0;
-}
-
 .content {
   display: flex;
   flex: 1;
   flex-direction: row;
 }
 
+.toc {
+  font-size: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0 0;
+  position: fixed;
+  width: $toc-width;
+}
+
 .editor {
-  background-color: #fff;
   color: #0c0c0c;
   flex: 1;
   font-weight: 400;
+  margin-left: $toc-padding;
   padding: 10px;
-  transition: background-color 150ms ease-in-out;
 }
