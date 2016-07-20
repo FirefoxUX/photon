@@ -10,8 +10,13 @@ function getContent(dispatch, file) {
   // Put something innocuous in the text to indicate we're loading.
   dispatch({type: 'TEXT', text: '&nbsp;', file: file});
   return fetch(`contents/${file}.html`)
-    .then(response => response.text())
-    .then(text => dispatch({type: 'TEXT', text: text || '', file: file}));
+    .then(response => {
+      console.log(response); //eslint-disable-line no-console
+      if (response.status < 200 || response.status >= 300) {
+        return `Error loading ${file}.html`;
+      }
+      return response.text()
+    }).then(text => dispatch({type: 'TEXT', text: text || '', file: file}));
 }
 
 /**

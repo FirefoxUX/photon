@@ -16,7 +16,6 @@ const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
 
 const { newSection, newSections } = require('./actions.js');
-const { parsePath } = require('./utilities.js');
 var HighlightWorker = require('worker?inline=true!../worker.js');
 
 function handleCodes(node, worker) {
@@ -82,7 +81,6 @@ const Editor = React.createClass({
     dispatch: React.PropTypes.func,
     section: React.PropTypes.shape(),
     sections: React.PropTypes.arrayOf(React.PropTypes.shape()),
-    subpage: React.PropTypes.bool,
     text: React.PropTypes.string,
     url: React.PropTypes.string
   },
@@ -211,8 +209,7 @@ const Editor = React.createClass({
       }
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
-    return (<div className={'editor' +
-      (this.props.subpage ? ' subpage' : ' ') +
+    return (<div className={'editor subpage' +
       (this.props.url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}
@@ -223,14 +220,11 @@ const Editor = React.createClass({
 
 function makeProps(state) {
   var {scrollTo, section, sections, text, url} = state.data;
-  var {path} = state.routing;
-  var subpage = parsePath(path)[1];
 
   return {
     scrollTo: scrollTo,
     section: section,
     sections: sections,
-    subpage: !!subpage,
     text: text,
     url: url
   }

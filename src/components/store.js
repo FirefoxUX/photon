@@ -1,11 +1,21 @@
 'use strict';
 
-const sources = require('json!../../contents/index.json');
+const {sources, pages} = mungeSources(require('json!../../contents/index.json'));
 const { UPDATE_PATH } = require('redux-simple-router');
+
+function mungeSources(sources) {
+  let pages = []
+  sources.forEach(source => {
+    source.pages.forEach(page => {
+      pages.push(Object.assign({'category':source.title}, page));
+    })
+  })
+  return {sources, pages};
+}
 
 function store(state, action) {
   if (!state) {
-    state = { sources: sources, text: '', file: '', url:'', section: null, sections: [] };
+    state = { sources: sources, pages: pages, text: '', file: '', url:'', section: null, sections: [] };
   }
   switch (action.type) {
   case "@@router/INIT_PATH":

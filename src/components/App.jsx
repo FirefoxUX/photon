@@ -4,7 +4,7 @@ const TableOfContents = React.createFactory(require('./TableOfContents.jsx'));
 const Editor = React.createFactory(require('./Editor.jsx'));
 
 const { connect } = require('react-redux');
-const { getPages } = require('./utilities.js');
+const { getPage } = require('./utilities.js');
 
 const App = React.createClass({
   displayName: 'App',
@@ -15,9 +15,7 @@ const App = React.createClass({
   },
 
   render: function() {
-    const { page } = this.props;
-
-    return (<div className={"app " + (page ? page.className : "")}>
+    return (<div className="app">
       <div className="content">
         <TableOfContents/>
         <Editor/>
@@ -28,13 +26,10 @@ const App = React.createClass({
 
 function makeProps(state) {
   var {path} = state.routing;
-  var {sections, sources} = state.data;
+  var {sections, pages} = state.data;
 
-  var [page] = getPages(path, sources);
-  return {
-    page: page,
-    sections: sections
-  };
+  var page = getPage(path, pages);
+  return {page, sections};
 }
 
 module.exports = connect(makeProps)(App);

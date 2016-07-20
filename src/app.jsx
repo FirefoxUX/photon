@@ -16,7 +16,7 @@ const { createHashHistory } = require('history');
 const { syncReduxAndRouter, routeReducer, pushPath } = require('redux-simple-router');
 
 const { getContent, loadUrl } = require('./components/actions.js');
-const { getPages, parsePath } = require('./components/utilities.js');
+const { getPage } = require('./components/utilities.js');
 const data = require('./components/store.js');
 const App = require('./components/App.jsx');
 const reducer = combineReducers(Object.assign({},
@@ -44,7 +44,7 @@ syncReduxAndRouter(history, store);
 
 
 function onUpdate() {
-  var {sources, text} = store.getState().data;
+  var {pages, text} = store.getState().data;
   var {path} = store.getState().routing;
 
   if( text ) {
@@ -52,30 +52,21 @@ function onUpdate() {
     return;
   }
 
-  var [page, subpage] = getPages(path, sources);
-  var [basepath, subpath] = parsePath(path);
+  var page = getPage(path, pages);
 
   // If there's nothing, redirect to the first page.
   if (!page) {
-    let url = '/' + sources[0].file;
+    let url = '/' + pages[0].file;
     store.dispatch(pushPath(url));
     return;
   }
 
-  // If there's an invalid subpage, redirect to the base page.
-  if (subpath && !subpage) {
-    store.dispatch(pushPath('/' + basepath));
-    return;
-  }
-
-  // If we got a page or a subpage, load its content.
-  if (subpage || page) {
-    let data = subpage || page;
-    if (data.url) {
-      loadUrl(store.dispatch, data.url);
-    } else {
-      getContent(store.dispatch, data.file);
-    }
+  // If we got a page, load its content.
+  let data = page;
+  if (data.url) {
+    loadUrl(store.dispatch, data.url);
+  } else {
+    getContent(store.dispatch, data.file);
   }
 }
 

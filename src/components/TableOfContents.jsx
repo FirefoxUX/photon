@@ -8,52 +8,59 @@ const React = require('react');
 const { Link } = require('react-router');
 
 const { connect } = require('react-redux');
-const { getPages } = require('./utilities.js');
+const { getPage } = require('./utilities.js');
 
 const ListItem = connect(state => {
   var {path} = state.routing;
-  var {sources} = state.data;
+  var {pages} = state.data;
 
-  var [page, subpage] = getPages(path, sources);
-  return {
-    page: page,
-    subpage: subpage
-  };
+  var page = getPage(path, pages);
+  return {page};
 })(React.createClass({
   displayName: 'ListItem',
 
   propTypes: {
-    i: React.PropTypes.number,
     item: React.PropTypes.shape(),
-    page: React.PropTypes.shape(),
-    subpage: React.PropTypes.shape()
+    page: React.PropTypes.shape()
+  },
+
+  getInitialState : function() {
+    return {expanded: false};
+  },
+
+  handleClick : function() {
+    this.setState({ // eslint-disable-line react/no-set-state
+      expanded: !this.state.expanded
+    });
+  },
+
+  getPage: (item, i) => {
+    return (<Page
+        i={i}
+        item={item}
+            />);
   },
 
   render() {
-    const { i, item, page, subpage } = this.props;
-
-    const url = `/${item.file}`;
-
-    return (<Link activeClassName="active"
-        className={'item ' + item.className +
-          ((!subpage && item === page) ? ' selected' : '')}
-        key={i}
-        to={url}
-            >{item.title}</Link>
+    const { item, page } = this.props;
+    return (<div className={'section' + ((item.title === page.category) ? ' selected' : '') +
+              (this.state.expanded ? ' expanded' : '')}
+            >
+      <div className={'item'}
+          onClick={this.handleClick}
+      >{item.title}</div>
+      {item.pages.map(this.getPage)}
+    </div>
       );
   }
 }));
 
-const Subpage = connect(state => {
+const Page = connect(state => {
   var {path} = state.routing;
-  var {sources} = state.data;
+  var {pages} = state.data;
 
-  var [page, subpage] = getPages(path, sources);
-  return {
-    sources: sources,
-    page: page,
-    subpage: subpage
-  };
+  var page = getPage(path, pages);
+  return {pages, page};
 })(React.createClass({
   displayName: 'ListItem',
 
@@ -61,8 +68,7 @@ const Subpage = connect(state => {
     i: React.PropTypes.number,
     item: React.PropTypes.shape(),
     page: React.PropTypes.shape().isRequired,
-    sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired,
-    subpage: React.PropTypes.shape()
+    pages: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired
   },
 
   contextTypes: {
@@ -70,13 +76,12 @@ const Subpage = connect(state => {
   },
 
   render() {
-    const { item, i, page, sources, subpage } = this.props;
+    const { item, i, page, pages } = this.props;
 
-    const url = `/${page.file}/${item.file}`;
+    const url = `/${item.file}`;
     return (<Link activeClassName="active"
-        className={'subitem ' + item.className +
-          ((item === subpage) ? ' selected' : '')}
-        key={sources.indexOf(page) + ':' + i}
+        className={'subitem ' + ((item === page) ? ' selected' : '')}
+        key={pages.indexOf(page) + ':' + i}
         to={url}
             >{item.title}</Link>);
   }
@@ -90,23 +95,15 @@ const TableOfContents = React.createClass({
     sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired
   },
 
-  getSubpage: (item, i) => {
-    return (<Subpage
-        i={i}
-        item={item}
-            />);
-  },
-
   render: function() {
-    const { sources, page } = this.props;
-    var subpages = page ? page.subpages.map(this.getSubpage) : [];
+    const { sources } = this.props;
 
     let getItem = (item, i) => {
-      return ([].concat(<ListItem
-          i={i}
-          item={item}
-                        />).concat(
-        (item === page) ? subpages : []));
+      return ([].concat(
+        <ListItem i={i}
+            item={item}
+        />)
+      );
     }
 
     return (<div className="toc">
@@ -118,13 +115,10 @@ const TableOfContents = React.createClass({
 
 function makeProps(state) {
   var {path} = state.routing;
-  var {sources} = state.data;
+  var {sources, pages} = state.data;
 
-  var [page] = getPages(path, sources);
-  return {
-    sources: sources,
-    page: page
-  }
+  var page = getPage(path, pages);
+  return {sources, page}
 }
 
 module.exports = connect(makeProps)(TableOfContents);
