@@ -25,7 +25,6 @@ body,
 
 body {
   background-color: #fbfbfb;
-  color: #6a6a6a;
   font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -68,9 +67,9 @@ h3 {
 }
 
 .editor {
-  color: #0c0c0c;
+  color: #6a6a6a;
   flex: 1;
-  font-weight: 400;
+  font-weight: 300;
   margin-left: $toc-padding;
   padding: 10px;
 }
