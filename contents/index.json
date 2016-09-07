@@ -27,31 +27,31 @@
   {"title": "Browser Components",
     "pages": [
       {"title": "Side Bars",
-        "file": "sidebars"}
+        "file": "sidebars"},
       {"title": "Notification Bars",
-        "file": "notificationbars"}
+        "file": "notificationbars"},
       {"title": "Panels",
-        "file": "panels"}
+        "file": "panels"},
       {"title": "Tool Bar",
-        "file": "toolbar"}
+        "file": "toolbar"},
       {"title": "Prompts",
-        "file": "prompts"}
-      ]}
+        "file": "prompts"},
+      ]},
   {"title": "Copy",
     "pages": [
       {"title": "Introduction",
-        "file": "introduction"}
+        "file": "introduction"},
       {"title": "Voice and Tone",
-        "file": "voice"}
+        "file": "voice"},
       {"title": "Writing for Users",
-        "file": "writing"}
+        "file": "writing"},
       {"title": "Localization",
-        "file": "localization"}
+        "file": "localization"},
       {"title": "Accessibility",
-        "file": "accessibility"}
+        "file": "accessibility"},
       {"title": "Copy Rules",
-        "file": "copyrules"}
+        "file": "copyrules"},
       {"title": "Word List",
-        "file": "wordlist"}
+        "file": "wordlist"},
       ]}
 ]
