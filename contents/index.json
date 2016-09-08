@@ -4,14 +4,14 @@
         "file": "welcome"},
       {"title": "Design Values",
         "file": "designValues",
-        "url": "/DesignValues/embed.html"},
+        "url": "/DesignValues/embed.html"}
       ]},
   {"title": "Design Foundation",
     "pages": [
       {"title": "Colours",
         "file": "colours"},
       {"title": "Typography",
-        "file": "typography"},
+        "file": "typography"}
       ]},
   {"title": "In Content UI",
     "pages": [
@@ -22,7 +22,7 @@
       {"title": "User Inputs",
         "file": "userinputs"},
       {"title": "Progress Indications",
-        "file": "progress"},
+        "file": "progress"}
       ]},
   {"title": "Browser Components",
     "pages": [
@@ -35,7 +35,7 @@
       {"title": "Tool Bar",
         "file": "toolbar"},
       {"title": "Prompts",
-        "file": "prompts"},
+        "file": "prompts"}
       ]},
   {"title": "Copy",
     "pages": [
