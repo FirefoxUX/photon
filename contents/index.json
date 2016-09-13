@@ -34,8 +34,6 @@
         "file": "notificationbars"},
       {"title": "Panels",
         "file": "panels"},
-      {"title": "Tool Bar",
-        "file": "toolbar"},
       {"title": "Prompts",
         "file": "prompts"}
       ]},
