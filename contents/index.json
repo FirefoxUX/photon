@@ -30,8 +30,6 @@
     "pages": [
       {"title": "Side Bars",
         "file": "sidebars"},
-      {"title": "Notification Bars",
-        "file": "notificationbars"},
       {"title": "Panels",
         "file": "panels"},
       {"title": "Prompts",
