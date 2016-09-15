@@ -18,4 +18,4 @@ $ npm install
 $ npm run build
 ```
 
-Pull requests welcome!
+Pull requests welcome by anyone!
