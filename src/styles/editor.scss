@@ -6,6 +6,12 @@
   max-width: none;
 }
 
+.editor > h2 {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 300;
+}
+
 .editor > h3 {
   font-weight: 400;
   margin: 60px 0 40px;
@@ -34,6 +40,20 @@
       content: ":";
     }
   }
+}
+
+.editor dt {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.editor dd {
+  margin-left: 0;
+}
+
+.editor .grid > div {
+  background-color: #efefef;
+  padding-left: 20px;
 }
 
 .editor > .spec {
