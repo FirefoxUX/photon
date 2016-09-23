@@ -86,6 +86,20 @@
   }
 }
 
+.wrapper2 {
+  -moz-column-count: 2; /* stylelint-disable-line property-no-vendor-prefix */
+  -webkit-column-count: 2; /* stylelint-disable-line property-no-vendor-prefix */
+  column-count: 2;
+  max-width: 800px;
+}
+
+.wrapper3 {
+  -moz-column-count: 3; /* stylelint-disable-line property-no-vendor-prefix */
+  -webkit-column-count: 3; /* stylelint-disable-line property-no-vendor-prefix */
+  column-count: 3;
+  max-width: 800px;
+}
+
 .copy-image {
   background-image: url("../../images/site-controls/copy icon normal.svg");
   background-repeat: no-repeat;
