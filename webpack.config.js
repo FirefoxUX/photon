@@ -103,7 +103,7 @@ module.exports = [{
     new CopyWebpackPlugin([
       { from: 'index.html', to: '../' },
       { from: 'contents', to: '../contents' },
-      { from: 'images/site-controls', to: '../images/site-controls' }
+      { from: 'images', to: '../images' }
     ])
   ]),
   sassLoader: {
