@@ -50,6 +50,12 @@
     vertical-align: middle;
   }
 
+  td {
+    max-width: 390px;
+    min-width: 390px;
+    width: 390px;
+  }
+
   th > h3 {
     font-weight: 400;
     text-align: left;
@@ -64,8 +70,8 @@
 
   td:first-child {
     padding-right: .5em;
-    text-align: center;
-    white-space: wrap;
+    text-align: left;
+    white-space: normal;
 
     &::after {
       content: "";
