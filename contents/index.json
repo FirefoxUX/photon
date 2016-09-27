@@ -15,8 +15,8 @@
       ]},
   {"title": "In Content UI",
     "pages": [
-      {"title": "Iconography",
-        "file": "iconography"},
+      {"title": "Glyphs",
+        "file": "glyphs"},
       {"title": "Buttons and Links",
         "file": "buttons"},
       {"title": "Input Fields",
