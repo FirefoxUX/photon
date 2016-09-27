@@ -10,15 +10,19 @@
   font-size: 45px;
   font-style: italic;
   font-weight: 300;
+  margin-top: 17px;
 }
 
 .editor > h3 {
   font-weight: 400;
-  margin: 60px 0 40px;
+   margin-top: 40px;
+
 }
 
 .editor > h4 {
   font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 
 .editor > hr {
@@ -192,18 +196,18 @@
   position: relative;
 
   &.swatch {
-    border-radius: 4px;
-    width: 10em;
+    border-radius: 0px;
+    width: 12em;
+    Height: 12em;
   }
 }
 
 .colour.swatch,
 .multi-swatch {
-  color: #fff;
+  color: transparent;
   display: flex;
   font-size: smaller;
-  margin: .5em;
-  margin-left: 0;
+  margin: 0px 20px 20px 0px;
 }
 
 .colour.swatch,
@@ -229,16 +233,9 @@
 }
 
 .multi-swatch .colour {
-  margin: 0;
-  width: 7.5em;
-}
-
-.multi-swatch .colour:first-child {
-  border-radius: 4px 0 0 4px;
-}
-
-.multi-swatch .colour:last-child {
-  border-radius: 0 4px 4px 0;
+  margin: 15px 20px 20px 0px;
+  width: 8em;
+  height: 8em;
 }
 
 .spec,
