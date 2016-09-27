@@ -15,14 +15,13 @@
 
 .editor > h3 {
   font-weight: 400;
-   margin-top: 40px;
-
+  margin-top: 40px;
 }
 
 .editor > h4 {
   font-weight: 400;
-    margin-top: 40px;
-    margin-bottom: 0px;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 .editor > hr {
@@ -145,7 +144,8 @@
 
 .app .content .editor.subpage {
   height: 100%;
-  padding: 40px;
+  padding-left: 0;
+  padding-top: 40px;
 
   &.url {
     padding: 0;
