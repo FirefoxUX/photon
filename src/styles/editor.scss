@@ -97,6 +97,14 @@
   padding-top: 20px;
 }
 
+.editor .labels {
+  display: flex;
+}
+
+.editor .labels > div {
+  flex: 1;
+}
+
 .editor dt {
   font-weight: 400;
   margin-top: 20px;
