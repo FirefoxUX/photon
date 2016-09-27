@@ -28,8 +28,6 @@
       ]},
   {"title": "Browser Components",
     "pages": [
-      {"title": "Side Bars",
-        "file": "sidebars"},
       {"title": "Navigation",
         "file": "navigation"},
       {"title": "Prompts",
