@@ -1,7 +1,7 @@
 {
   "name": "workshop",
   "scripts": {
-    "serve": "NODE_ENV=development node run.js",
+    "serve": "NODE_ENV=development webpack-dashboard -- node run.js",
     "build": "NODE_ENV=production webpack --optimize-minimize && rm dist/static/css/deleteme.js"
   },
   "dependencies": {
@@ -42,6 +42,7 @@
     "stylelint-loader": "^0.2.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.9",
+    "webpack-dashboard": "^0.2.0",
     "webpack-dev-server": "^1.14.0",
     "webpack-fail-plugin": "^1.0.4",
     "worker-loader": "^0.7.0"
