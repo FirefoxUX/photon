@@ -63,7 +63,9 @@
   }
 
   .section.selected {
-    background: linear-gradient(-30deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1));
+    background: linear-gradient(-15deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    background-position: 0 36px;
+    background-repeat: no-repeat;
     margin-bottom: 20px;
 
     .item {
