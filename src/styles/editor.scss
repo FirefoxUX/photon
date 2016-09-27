@@ -46,7 +46,8 @@
   }
 }
 
-.editor > table.copy {
+.editor > table.copy,
+.editor > table.typography {
   margin-top: 20px;
 
   * {
@@ -81,6 +82,15 @@
       content: "";
     }
   }
+}
+
+.editor > table.typography * {
+  padding-left: 0;
+}
+
+.editor > table.typography {
+  max-width: 780px;
+  width: 780px;
 }
 
 .editor > table.copy.scenario img {
@@ -189,16 +199,25 @@
 .colours {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 30px;
 }
 
 .colour {
+  border: 0 solid white;
+  box-shadow: none;
   cursor: default;
   position: relative;
+  transition: border 300ms ease-in-out, box-shadow 300ms ease-in-out;
 
   &.swatch {
     border-radius: 0;
     height: 12em;
     width: 12em;
+  }
+
+  &:hover {
+    border: 7px solid white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
   }
 }
 
@@ -236,6 +255,11 @@
   height: 8em;
   margin: 15px 20px 0 0;
   width: 8em;
+
+  &:hover {
+    border: 5px solid white;
+  }
+
 }
 
 .spec,
