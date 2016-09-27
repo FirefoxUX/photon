@@ -1,13 +1,20 @@
 /* stylelint-disable property-no-vendor-prefix */
 
 .glyph {
+  background-position: 3px center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 16px 16px;
   display: inline-block;
-  height: 16px;
-  margin: 12px 0;
+  height: 32px;
+  line-height: 37px;
+  margin: 4px 0;
   padding-left: 22px;
+  vertical-align: middle;
   width: 150px;
+
+  &:hover {
+    background-color: #ccc;
+  }
 
   &::after {
     content: attr(data-source);
