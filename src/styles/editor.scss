@@ -20,8 +20,8 @@
 
 .editor > h4 {
   font-weight: 400;
+  margin-bottom: 0;
   margin-top: 40px;
-  margin-bottom: 0px;
 }
 
 .editor > hr {
@@ -196,9 +196,9 @@
   position: relative;
 
   &.swatch {
-    border-radius: 0px;
+    border-radius: 0;
+    height: 12em;
     width: 12em;
-    Height: 12em;
   }
 }
 
@@ -207,7 +207,7 @@
   color: transparent;
   display: flex;
   font-size: smaller;
-  margin: 0px 20px 20px 0px;
+  margin: 0 20px 20px 0;
 }
 
 .colour.swatch,
@@ -233,9 +233,9 @@
 }
 
 .multi-swatch .colour {
-  margin: 15px 20px 00px 0px;
-  width: 8em;
   height: 8em;
+  margin: 15px 20px 0 0;
+  width: 8em;
 }
 
 .spec,
