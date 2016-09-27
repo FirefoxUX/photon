@@ -44,7 +44,7 @@ const ListItem = connect(state => {
             >
       <div className={'item'}
           onClick={handleClick}
-      >{item.title}</div>
+      >{item.title}<span className={'arrow'}></span></div>
       {item.pages.map(this.getPage)}
     </div>
       );

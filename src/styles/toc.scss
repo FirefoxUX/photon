@@ -18,6 +18,7 @@
     letter-spacing: -.06em;
     line-height: 60px;
     opacity: .25;
+    padding-right: 4px;
     text-decoration: none;
 
     &:hover {
@@ -33,6 +34,7 @@
     line-height: 20px;
     opacity: 1;
     overflow: hidden;
+    padding-right: 35px;
     transition: height 300ms ease-in-out;
 
     &.active {
@@ -43,6 +45,21 @@
         opacity: 1;
       }
     }
+  }
+
+  .section .arrow {
+    background-image: url("../../images/glyphs/play.svg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    display: inline-block;
+    height: 18.5px;
+    position: relative;
+    top: 2px;
+    transform: rotate(0);
+    transform-origin: calc(100% - 6px) center;
+    transition: transform 300ms ease-in-out;
+    width: 30px;
   }
 
   .section.selected {
@@ -62,6 +79,10 @@
 
   .section.selected,
   .section.expanded {
+    .arrow {
+      transform: rotate(90deg);
+    }
+
     .subitem {
       height: 20px;
 
