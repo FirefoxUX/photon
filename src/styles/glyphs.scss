@@ -21,11 +21,11 @@
   &::after {
     content: attr(data-source);
     display: block;
+    left: 0;
     position: relative;
-    top: 22px;
-    left: 0px;
-    width: 100%;
     text-align: center;
+    top: 22px;
+    width: 100%;
   }
 
   &[data-source="back-alt"] {
