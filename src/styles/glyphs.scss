@@ -1,26 +1,31 @@
 /* stylelint-disable property-no-vendor-prefix */
 
+.glyphs a {
+  color: #6a6a6a;
+}
+
 .glyph {
-  background-position: 3px center;
+  background-position: 42px 8px;
   background-repeat: no-repeat;
   background-size: 16px 16px;
   display: inline-block;
-  height: 32px;
+  height: 64px;
   line-height: 37px;
   margin: 4px 0;
-  padding-left: 22px;
-  vertical-align: middle;
-  width: 150px;
+  width: 100px;
 
   &:hover {
-    background-color: #ccc;
+    background-color: #ebebeb;
   }
 
   &::after {
     content: attr(data-source);
-    display: inline-block;
+    display: block;
     position: relative;
-    top: -2px;
+    top: 22px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
   }
 
   &[data-source="back-alt"] {
