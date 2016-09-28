@@ -32,8 +32,16 @@
     background-image: url("../../images/glyphs/back-alt.svg");
   }
 
+  &[data-source="forward-alt"] {
+    background-image: url("../../images/glyphs/forward-alt.svg");
+  }
+
   &[data-source="back"] {
     background-image: url("../../images/glyphs/back.svg");
+  }
+
+  &[data-source="forward"] {
+    background-image: url("../../images/glyphs/forward.svg");
   }
 
   &[data-source="close"] {
@@ -114,6 +122,22 @@
 
   &[data-source="zoom-out"] {
     background-image: url("../../images/glyphs/zoom-out.svg");
+  }
+
+  &[data-source="download"] {
+    background-image: url("../../images/glyphs/download.svg");
+  }
+
+  &[data-source="home"] {
+    background-image: url("../../images/glyphs/home.svg");
+  }
+
+  &[data-source="share"] {
+    background-image: url("../../images/glyphs/save.svg");
+  }
+
+  &[data-source="addons"] {
+    background-image: url("../../images/glyphs/addons.svg");
   }
 
 }
