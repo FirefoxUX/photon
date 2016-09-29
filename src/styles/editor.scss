@@ -49,9 +49,11 @@
 .editor > table.copy,
 .editor > table.typography {
   margin-top: 20px;
+  table-layout: fixed;
+  width: 780px;
 
   * {
-    padding: 4px 20px;
+    padding: 7px 20px;
     vertical-align: middle;
   }
 
