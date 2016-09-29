@@ -228,6 +228,29 @@
   margin-bottom: 10px;
 }
 
+.editor > .when > table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.editor > .when > table tr {
+  border-top: 14px solid transparent;
+}
+
+.editor > .when > table > thead > tr {
+  border-top: none;
+}
+
+.editor > .when > table td {
+  padding: 1px 8px 0 0;
+  width: 362px;
+}
+
+.editor > .when > table td + td {
+  border-left: 1px solid #bbb;
+  padding: 1px 8px 0 30px;
+}
+
 // in-editor styles
 
 .colours {
