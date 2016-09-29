@@ -208,6 +208,26 @@
   }
 }
 
+.editor > .when {
+  background: rgba(51, 51, 51, .03);
+  margin-top: 20px;
+  padding: 20px 28px;
+}
+
+.editor > .when > h3 {
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.editor > .when > h4 {
+  font-weight: 400;
+  margin: 20px 0 10px;
+}
+
+.editor > .when > img {
+  margin-bottom: 10px;
+}
+
 // in-editor styles
 
 .colours {
