@@ -196,6 +196,7 @@
   background-image: url("../../images/site-controls/copy icon normal.svg");
   background-repeat: no-repeat;
   cursor: pointer;
+  height: 24px;
   margin: 0 10px;
   width: 24px;
 
@@ -339,6 +340,48 @@
   &.multi-row {
     flex-direction: column;
   }
+
+  > .hidden {
+    visibility: hidden;
+  }
+}
+
+.spec .alternates {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0;
+  width: 100%;
+
+}
+
+.row.result {
+  border-top: 1px solid rgba(51, 51, 51, .15);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 20px;
+  padding: 20px 0 0;
+  position: relative;
+  text-align: left;
+  width: calc(100% - 40px);
+
+  > div {
+    margin: 0;
+  }
+
+  > code {
+    max-height: 15px;
+    overflow: hidden;
+    transition: max-height 300ms ease-in-out;
+  }
+
+  .expando {
+    color: #2284e6;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: -30px;
+    width: 100%;
+  }
 }
 
 .example {
@@ -395,29 +438,4 @@
     flex: 0 0 213px;
     justify-content: center;
   }
-
-  &.medium {
-    > .source {
-      max-width: 568px;
-    }
-
-    > .result {
-      flex: 0 0 426px;
-    }
-  }
-
-  &.fullwidth {
-    flex-direction: column;
-    max-width: 781px;
-
-    > .source {
-      min-width: 994px;
-    }
-
-    > .result {
-      flex: 0 0 auto;
-      min-width: 994px;
-    }
-  }
-
 }

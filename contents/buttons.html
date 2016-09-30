@@ -5,64 +5,36 @@
 
 <div class="spec multi-row other">
   <div class="row">
-    <div>
-      <button name="button" class="normal">Normal</button>
-      <p>Normal</p>
+    <div class="source">
+      <code>&lt;button&gt;Button&lt;/button&gt;</code>
     </div>
-    <div>
+
+    <div class="alternates">
       <button name="button" class="hover">Hover</button>
-      <p>Hover</p>
-    </div>
-    <div>
       <button name="button" class="pressed">Pressed</button>
-      <p>Active</p>
-    </div>
-    <div>
       <button name="button" class="focused">Focused</button>
-      <p>Focused</p>
-    </div>
-    <div>
       <button name="button" class="disabled">Disabled</button>
-      <p>Disabled</p>
     </div>
   </div>
 
-  <div class="example">
-  <div class="source">
-    <code>&lt;button&gt;Button&lt;/button&gt;</code>
-  </div>
-  </div>
+  <div class="row result"></div>
 </div>
 
 <div class="spec multi-row other">
   <div class="row">
-    <div>
-      <button name="button" class="default">Default</button>
-      <p>Default Normal</p>
+    <div class="source">
+      <code>&lt;button class="default"&gt;Button&lt;/button&gt;</code>
     </div>
-    <div>
+
+    <div class="alternates">
       <button name="button" class="default hover">Hover</button>
-      <p>Default Hover</p>
-    </div>
-    <div>
       <button name="button" class="default pressed">Pressed</button>
-      <p>Default Active</p>
-    </div>
-    <div>
       <button name="button" class="default focused">Focused</button>
-      <p>Default Focused</p>
-    </div>
-    <div>
       <button name="button" class="default disabled">Disabled</button>
-      <p>Default Disabled</p>
     </div>
   </div>
 
-  <div class="example medium">
-  <div class="source">
-    <code>&lt;button class="default"&gt;Button&lt;/button&gt;</code>
-  </div>
-</div>
+  <div class="row result"></div>
 </div>
 
 
@@ -71,48 +43,19 @@
 
 <div class="spec multi-row mac">
   <div class="row">
-    <div>
-      <button name="button" class="normal">Normal</button>
-      <p>Normal</p>
-    </div>
-    <div>
-      <button name="button" class="hover">Hover</button>
-      <p>Hover</p>
-    </div>
-    <div>
-      <button name="button" class="pressed">Pressed</button>
-      <p>Active</p>
-    </div>
-    <div>
-      <button name="button" class="focused">Focused</button>
-      <p>Focused</p>
-    </div>
-    <div>
-      <button name="button" class="disabled">Disabled</button>
-      <p>Disabled</p>
+    <button name="button" class="normal">Normal</button>
+    <button name="button" class="hover">Hover</button>
+    <button name="button" class="pressed">Pressed</button>
+    <button name="button" class="focused">Focused</button>
+    <button name="button" class="disabled">Disabled</button>
     </div>
   </div>
   <div class="row">
-    <div>
-      <button name="button" class="default">Default</button>
-      <p>Default Normal</p>
-    </div>
-    <div>
-      <button name="button" class="default hover">Hover</button>
-      <p>Default Hover</p>
-    </div>
-    <div>
-      <button name="button" class="default pressed">Pressed</button>
-      <p>Default Active</p>
-    </div>
-    <div>
-      <button name="button" class="default focused">Focused</button>
-      <p>Default Focused</p>
-    </div>
-    <div>
-      <button name="button" class="default disabled">Disabled</button>
-      <p>Default Disabled</p>
-    </div>
+    <button name="button" class="default">Default</button>
+    <button name="button" class="default hover">Hover</button>
+    <button name="button" class="default pressed">Pressed</button>
+    <button name="button" class="default focused">Focused</button>
+    <button name="button" class="default disabled">Disabled</button>
   </div>
 </div>
 
@@ -131,36 +74,43 @@
 
 <div class="spec multi-row other">
   <div class="row">
-    <select>
-      <option value="value1" selected>Dropdown</option>
-      <option value="value2">List Item</option>
-      <option value="value3">List Item</option>
-    </select>
-    <select class="hover">
-      <option value="value1" selected>Hover</option>
-      <option value="value2">List Item</option>
-      <option value="value3">List Item</option>
-    </select>
+    <div class="source">
+      <code>&lt;select&gt;&#10;
+          &lt;option value=&quot;value1&quot; selected&gt;Dropdown&lt;/option&gt;&#10;
+          &lt;option value=&quot;value2&quot;&gt;List Item&lt;/option&gt;&#10;
+          &lt;option value=&quot;value3&quot;&gt;List Item&lt;/option&gt;&#10;
+        &lt;/select&gt;&#10;</code>
+    </div>
+
+    <div class="alternates">
+      <select class="hover">
+        <option value="value1" selected>Hover</option>
+        <option value="value2">List Item</option>
+        <option value="value3">List Item</option>
+      </select>
+      <select class="pressed">
+        <option value="value1" selected>Presssed</option>
+        <option value="value2">List Item</option>
+        <option value="value3">List Item</option>
+      </select>
+    </div>
   </div>
+
   <div class="row">
-    <select class="pressed">
-      <option value="value1" selected>Presssed</option>
-      <option value="value2">List Item</option>
-      <option value="value3">List Item</option>
-    </select>
     <select disabled class="disabled">
       <option value="value1" selected>Disabled</option>
       <option value="value2">List Item</option>
       <option value="value3">List Item</option>
     </select>
-  </div>
-  <div class="row">
     <select class="focused">
       <option value="value1" selected>Focused</option>
       <option value="value2">List Item</option>
       <option value="value3">List Item</option>
     </select>
+    <select class="hidden"></select>
   </div>
+
+  <div class="row result"></div>
 </div>
 
 <h3>OS X Drop Down Buttons</h3>
@@ -179,25 +129,24 @@
       <option value="value2">List Item</option>
       <option value="value3">List Item</option>
     </select>
-  </div>
-  <div class="row">
     <select class="pressed">
       <option value="value1" selected>Presssed</option>
       <option value="value2">List Item</option>
       <option value="value3">List Item</option>
     </select>
+  </div>
+  <div class="row">
     <select disabled class="disabled">
       <option value="value1" selected>Disabled</option>
       <option value="value2">List Item</option>
       <option value="value3">List Item</option>
     </select>
-  </div>
-  <div class="row">
     <select class="focused">
       <option value="value1" selected>Focused</option>
       <option value="value2">List Item</option>
       <option value="value3">List Item</option>
     </select>
+    <select class="hidden"></select>
   </div>
 </div>
 

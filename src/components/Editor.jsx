@@ -17,6 +17,13 @@ const { connect } = require('react-redux');
 
 var HighlightWorker = require('worker?inline=true!../worker.js');
 
+var getResult = (node) => {
+  while (node && !node.classList.contains('spec')) {
+    node = node.parentNode;
+  }
+  return node && node.querySelector('.result');
+}
+
 function handleCodes(node, worker) {
   let codes = Array.from(node.querySelectorAll('code'));
 
@@ -27,28 +34,25 @@ function handleCodes(node, worker) {
     }
     e.dataset.processed = 'true';
 
-
     let container = document.createElement('div');
-    container.setAttribute('class', 'result');
     container.innerHTML = '<div>' + e.textContent + '</div>';
-    e.parentNode.parentNode.appendChild(container);
-
-    container = document.createElement('div');
-    container.setAttribute('class', 'code-container');
+    e.parentNode.appendChild(container);
 
     worker.postMessage({index: i, text: e.textContent});
 
+    let result = getResult(e);
+
     let copy = document.createElement('div');
     copy.setAttribute('class', 'copy-image');
-    e.parentNode.appendChild(container);
-    container.appendChild(e);
-    container.appendChild(copy);
+    result.appendChild(e);
+    result.appendChild(copy);
 
+    window.console.log('0', e.scrollHeight, e.clientHeight); // eslint-disable-line no-console
     if (e.scrollHeight > e.clientHeight) {
       let expand = document.createElement('div');
       expand.setAttribute('class', 'expando');
       expand.textContent = 'Click to expand code snippet';
-      e.parentNode.parentNode.appendChild(expand);
+      result.appendChild(expand);
     }
   });
 
@@ -126,13 +130,13 @@ const Editor = React.createClass({
     };
 
     let handleExpand = (expand) => {
-      let code = expand.previousSibling.querySelector('code');
+      let code = getResult(expand).querySelector('code');
       code.classList.toggle('expanded');
       if (code.classList.contains('expanded')) {
-        code.style.height = (code.scrollHeight + 2) + 'px';
+        code.style.maxHeight = (code.scrollHeight + 2) + 'px';
         expand.textContent = 'Click to collapse code snippet';
       } else {
-        code.style.height = '';
+        code.style.maxHeight = '';
         expand.textContent = 'Click to expand code snippet';
       }
     }
