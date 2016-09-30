@@ -30,29 +30,7 @@ function loadUrl(dispatch, url) {
   dispatch({type: 'URL', url: url});
 }
 
-/**
- * Notifies the store that we’ve navigated to a new section.
- *
- * @param {function} dispatch - The Redux dispatcher.
- * @param {string} section - The title of the section we’ve navigated to.
- */
-function newSection(dispatch, section) {
-  dispatch({type: 'NEW_SECTION', section: section})
-}
-
-/**
- * Notifies the store that we’ve found new sections.
- *
- * @param {function} dispatch - The Redux dispatcher.
- * @param {Element[]} sections - The new array of sections.
- */
-function newSections(dispatch, sections) {
-  dispatch({type: 'NEW_SECTIONS', sections: sections})
-}
-
 module.exports = {
   getContent: getContent,
-  loadUrl: loadUrl,
-  newSection: newSection,
-  newSections: newSections
+  loadUrl: loadUrl
 };

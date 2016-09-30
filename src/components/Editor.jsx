@@ -15,7 +15,6 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
 
-const { newSection, newSections } = require('./actions.js');
 var HighlightWorker = require('worker?inline=true!../worker.js');
 
 function handleCodes(node, worker) {
@@ -79,8 +78,6 @@ const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
     dispatch: React.PropTypes.func,
-    section: React.PropTypes.shape(),
-    sections: React.PropTypes.arrayOf(React.PropTypes.shape()),
     text: React.PropTypes.string,
     url: React.PropTypes.string
   },
@@ -95,14 +92,6 @@ const Editor = React.createClass({
       let codes = node.querySelectorAll('code');
       codes[event.data.index].innerHTML = event.data.text;
     };
-
-    document.addEventListener('scroll', () => {
-      let section = Array.from(node.querySelectorAll('h3'))
-        .reverse().find(e => e.getBoundingClientRect().bottom <= 100)
-      if (section != this.props.section) {
-        newSection(this.props.dispatch, section);
-      }
-    });
 
     let handleCopyClick = (text, popupText, textNode) => {
       var popup = node.querySelector('.popup');
@@ -189,15 +178,6 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     handleCodes(node, this.worker);
     handleColours(node);
-
-    let sections = Array.from(node.querySelectorAll('h3'));
-    let comparable = sections => {
-      return JSON.stringify((sections || []).map(e => e.innerText))
-    }
-    if (comparable(sections) != comparable(this.props.sections)) {
-      newSections(this.props.dispatch, sections);
-    }
-
   },
 
   render: function() {
@@ -219,12 +199,9 @@ const Editor = React.createClass({
 });
 
 function makeProps(state) {
-  var {scrollTo, section, sections, text, url} = state.data;
+  var {text, url} = state.data;
 
   return {
-    scrollTo: scrollTo,
-    section: section,
-    sections: sections,
     text: text,
     url: url
   }
