@@ -78,6 +78,35 @@ function handleColours(node) {
   });
 }
 
+const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('');
+
+function handleIndex(node) {
+  let results = Array.from(node.querySelectorAll('.word-index'));
+  let headers = Array.from(node.querySelectorAll('h3'));
+  headers = headers.filter(e => {
+    return alphabet.indexOf(e.innerText) != -1;
+  });
+
+  let generateLinks = headers => {
+    let links = alphabet.map(e => {
+      let link = document.createElement('span');
+      link.setAttribute('class', 'index-entry');
+      link.innerText = e;
+      return link;
+    });
+    headers.map(e => {
+      let link = links.find(link => link.innerText == e.innerText);
+      link.classList.add('link');
+      link.addEventListener('click', () => {
+        window.scrollTo(0, e.offsetTop - 60)
+      });
+    });
+    return links;
+  };
+  let links = generateLinks(headers);
+  links.map(link => results.forEach(result => result.appendChild(link)));
+}
+
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
@@ -182,6 +211,7 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     handleCodes(node, this.worker);
     handleColours(node);
+    handleIndex(node);
   },
 
   render: function() {

@@ -439,3 +439,14 @@
     justify-content: center;
   }
 }
+
+.index-entry {
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 10px;
+
+  &.link {
+    color: #2ea3ff;
+    cursor: pointer;
+  }
+}
