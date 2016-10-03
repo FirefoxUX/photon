@@ -47,7 +47,6 @@ function handleCodes(node, worker) {
     result.appendChild(e);
     result.appendChild(copy);
 
-    window.console.log('0', e.scrollHeight, e.clientHeight); // eslint-disable-line no-console
     if (e.scrollHeight > e.clientHeight) {
       let expand = document.createElement('div');
       expand.setAttribute('class', 'expando');

@@ -11,7 +11,6 @@ function getContent(dispatch, file) {
   dispatch({type: 'TEXT', text: '&nbsp;', file: file});
   return fetch(`contents/${file}.html`)
     .then(response => {
-      console.log(response); //eslint-disable-line no-console
       if (response.status < 200 || response.status >= 300) {
         return `Error loading ${file}.html`;
       }
