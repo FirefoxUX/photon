@@ -440,13 +440,24 @@
   }
 }
 
+.word-index {
+  display: flex;
+  width: 100%;
+}
+
 .index-entry {
+  color: rgba(106, 106, 106, .25);
+  flex: 1;
   font-size: 16px;
   font-weight: 400;
-  padding-right: 10px;
+  padding: 0;
 
   &.link {
-    color: #2ea3ff;
+    color: #6a6a6a;
     cursor: pointer;
+
+    &:hover {
+      color: #2ea3ff;
+    }
   }
 }
