@@ -391,6 +391,10 @@
   }
 }
 
+.editor .column {
+  min-width: 140px;
+}
+
 .example {
   display: flex;
   margin-top: 40px;
