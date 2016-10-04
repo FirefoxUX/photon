@@ -52,6 +52,7 @@ function handleCodes(node, worker) {
       expand.setAttribute('class', 'expando');
       expand.textContent = 'Click to expand code snippet';
       result.appendChild(expand);
+      result.classList.add('expando-added');
     }
   });
 

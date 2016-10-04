@@ -333,7 +333,7 @@
   padding: 2em 0 0;
 
   > div {
-    margin: 20px;
+    margin: 0 20px 4px;
     text-align: center;
   }
 
@@ -358,11 +358,15 @@
   border-top: 1px solid rgba(51, 51, 51, .15);
   display: flex;
   justify-content: space-between;
-  margin: 0 20px 20px;
+  margin: 30px 20px 20px;
   padding: 20px 0 0;
   position: relative;
   text-align: left;
   width: calc(100% - 40px);
+
+  &.expando-added {
+    margin-top: 48px;
+  }
 
   > div {
     margin: 0;
@@ -376,6 +380,9 @@
 
   .expando {
     color: #2284e6;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
     position: absolute;
     right: 0;
     text-align: right;
