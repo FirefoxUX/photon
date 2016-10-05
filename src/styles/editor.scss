@@ -333,7 +333,7 @@
   padding: 2em 0 0;
 
   > div {
-    margin: 0 20px 4px;
+    margin-bottom: 4px;
     text-align: center;
   }
 
@@ -344,14 +344,6 @@
   > .hidden {
     visibility: hidden;
   }
-}
-
-.spec .alternates {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 0;
-  width: 100%;
-
 }
 
 .row.result {
