@@ -9,6 +9,7 @@ require('../styles/controls-examples.scss');
 require('../styles/glyphs.scss');
 require('../styles/inputs-examples.scss');
 require('../styles/panels-examples.scss');
+require('../styles/switches.scss');
 require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');
