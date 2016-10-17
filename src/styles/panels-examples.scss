@@ -6,7 +6,8 @@
   background-clip: padding-box;
   background-color: $color-panel-background;
   border: 1px solid hsla(210, 4%, 10%, .2);
-  box-shadow: 0 3px 5px hsla(210, 4%, 10%, .1),
+  box-shadow:
+    0 3px 5px hsla(210, 4%, 10%, .1),
     0 0 7px hsla(210, 4%, 10%, .1);
   box-sizing: content-box;
   color: #222426;

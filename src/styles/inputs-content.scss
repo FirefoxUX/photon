@@ -6,7 +6,7 @@ textarea {
   border: 1px solid $color-grey;
   box-shadow: 0 0 0 0 hsla(208, 100%, 69%, 0);
   font: caption;
-  padding: 0 6px 0;
+  padding: 0 6px;
   transition-duration: 250ms;
   transition-property: box-shadow;
 }
@@ -34,8 +34,8 @@ textarea.focused {
 
 /* Interactive States */
 
-input[type="text"]:not(disabled):hover,
-textarea:not(disabled):hover {
+input[type="text"]:not(:disabled):hover,
+textarea:not(:disabled):hover {
   border: 1px solid $color-grey-dark;
 }
 

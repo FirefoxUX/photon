@@ -24,7 +24,8 @@ select {
 }
 
 select.icon {
-  background-image: url("../../images/controls/Icon-Folder.svg"),
+  background-image:
+    url("../../images/controls/Icon-Folder.svg"),
     url("../../images/controls/Arrow-Dropdown.svg");
   background-position: 8px center, calc(100% - 4px) center;
   -moz-padding-start: 26px;
