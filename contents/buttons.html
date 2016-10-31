@@ -58,11 +58,63 @@
 <h3>Combo Buttons</h3>
 <p>Use discrete combo buttons to show separate (and often opposing) but contextually related items (like Don’t Allow and Allow). Use joined combo buttons to indicate actions in a multi-step processes (like Copy + Cut + Paste or Increase + Reset + Decrease Zoom Level).</p>
 
+<div class="spec multi-row">
+  <div class="row">
+    <div class="comboButtons">
+      <button name="button" class="normal">Button</button>
+      <button name="button" class="hover">Hover</button>
+      <button name="button" class="pressed">Pressed</button>
+      <button name="button" class="disabled">Disabled</button>
+      <button name="button" class="normal">Button</button>
+    </div>
+  </div>
+  <div class="row mac">
+    <div class="comboButtons">
+      <button name="button" class="normal">Button</button>
+      <button name="button" class="hover">Hover</button>
+      <button name="button" class="pressed">Pressed</button>
+      <button name="button" class="disabled">Disabled</button>
+      <button name="button" class="normal">Button</button>
+    </div>
+  </div>
+</div>
+
+
 <h3>Default Footer Buttons</h3>
 <p>Use footer buttons at the bottom of panels or in-content dialogs. When used alone, as in the Show All Downloads panel, use grey. When two or more footer buttons appear together, use blue to indicate the primary action and grey, the secondary action. </p>
 
 <h3>Disclosure Button</h3>
 <p>Use disclosure buttons to allow users to display and hide additional content in the interface.</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source">
+      <div>
+        <code>&lt;button name=&quot;expander&quot; class=&quot;expander&quot;&gt;&lt;/button&gt;</code>
+      </div>
+      <div class="label">Normal</div>
+    </div>
+
+    <div>
+      <button name="expander" class="expander hover"></button>
+      <div class="label">Hover</div>
+    </div>
+    <div>
+      <button name="expander" class="expander pressed"></button>
+      <div class="label">Pressed</div>
+    </div>
+    <div>
+      <button name="expander" class="expander focused"></button>
+      <div class="label">Focused</div>
+    </div>
+    <div>
+      <button name="expander" class="expander disabled"></button>
+      <div class="label">Disabled</div>
+    </div>
+  </div>
+
+  <div class="row result"></div>
+</div>
 
 
 <h3>Drop Down Buttons</h3>

@@ -37,3 +37,15 @@ select.icon {
 .mac input[type="checkbox"] + label::before {
   border-radius: $border-radius-osx;
 }
+
+.mac .comboButtons > button {
+  border-radius: 0;
+}
+
+.mac .comboButtons > button:first-child {
+  border-radius: $border-radius-osx 0 0 $border-radius-osx;
+}
+
+.mac .comboButtons > button:last-child {
+  border-radius: 0 $border-radius-osx $border-radius-osx 0;
+}
