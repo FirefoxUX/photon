@@ -63,6 +63,7 @@ $installStripeColor2: #00c42e;
 }
 
 .switch {
+  margin-bottom: 10px;
   position: relative;
 
   &.hidden {
@@ -72,7 +73,6 @@ $installStripeColor2: #00c42e;
   &.success::after {
     color: #fff;
     content: "\2713";
-    font-family: sans-serif;
     left: $size;
     position: absolute;
     top: $size/2;
@@ -136,6 +136,7 @@ $installStripeColor2: #00c42e;
     }
 
     input + label::after {
+      background: #fff !important;
       left: 0;
     }
   }
@@ -151,8 +152,15 @@ $installStripeColor2: #00c42e;
       }
 
       &::after {
+        background: #fff !important;
         left: $switchHandleActivePosition;
       }
+    }
+  }
+
+  &.success {
+    input + label::after {
+      background: #fff !important;
     }
   }
 
