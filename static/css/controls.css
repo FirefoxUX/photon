@@ -160,6 +160,32 @@ button.expander {
   width: 24px;
 }
 
+div.label {
+  margin-top: 10px;
+}
+
+/* Combo Buttons */
+.comboButtons {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.comboButtons > button {
+  margin: 0 -1px;
+  padding: 0;
+  width: 100px;
+}
+
+.comboButtons > button.hover,
+.comboButtons > button.pressed {
+  z-index: 99;
+}
+
+.comboButtons > button:focus {
+  z-index: 199;
+}
+
 /* Interactive States */
 button:hover:not(.pressed):not(.disabled):not(.focused),
 select:hover:not(.pressed):not(.disabled):not(.focused) {
