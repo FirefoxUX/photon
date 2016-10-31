@@ -65,6 +65,10 @@ $installStripeColor2: #00c42e;
 .switch {
   position: relative;
 
+  &.hidden {
+    width: 65px;
+  }
+
   &.success::after {
     color: #fff;
     content: "\2713";
@@ -173,7 +177,18 @@ $installStripeColor2: #00c42e;
       position: absolute;
       right: 0;
       top: 0;
-      width: 80%;
+
+      &.twenty {
+        width: 20%;
+      }
+
+      &.sixty {
+        width: 60%;
+      }
+
+      &.eighty {
+        width: 80%;
+      }
     }
 
     input + label {

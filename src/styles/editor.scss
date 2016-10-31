@@ -345,6 +345,11 @@
   }
 }
 
+.other .row {
+  justify-content: space-between;
+  margin: 30px 20px 20px;
+}
+
 .row.result {
   border-top: 1px solid rgba(51, 51, 51, .15);
   display: flex;
