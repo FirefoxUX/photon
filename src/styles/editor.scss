@@ -345,8 +345,13 @@
   }
 }
 
+.mac .row,
 .other .row {
   justify-content: space-between;
+  margin: 0 20px;
+}
+
+.other .row {
   margin: 30px 20px 20px;
 }
 

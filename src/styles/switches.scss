@@ -208,7 +208,7 @@ $installStripeColor2: #00c42e;
       }
 
       &::after {
-        background: $switchHandleInactive;
+        background: #fff !important;
         left: $switchHandleActivePosition;
       }
     }

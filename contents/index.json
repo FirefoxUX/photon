@@ -16,7 +16,8 @@
   {"title": "In Content UI",
     "pages": [
       {"title": "Glyphs",
-        "file": "glyphs"},
+        "file": "glyphs",
+        "url": "/firefox-svg-icons/viewer/embed.html"},
       {"title": "Buttons and Links",
         "file": "buttons"},
       {"title": "Input Fields",
