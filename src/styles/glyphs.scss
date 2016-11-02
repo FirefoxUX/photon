@@ -1,27 +1,47 @@
 /* stylelint-disable property-no-vendor-prefix */
 
+.glyphs a {
+  color: #6a6a6a;
+}
+
 .glyph {
+  background-position: 42px 8px;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 16px 16px;
   display: inline-block;
-  height: 16px;
-  margin: 12px 0;
-  padding-left: 22px;
-  width: 150px;
+  height: 64px;
+  line-height: 37px;
+  margin: 4px 0;
+  width: 100px;
+
+  &:hover {
+    background-color: #ebebeb;
+  }
 
   &::after {
     content: attr(data-source);
-    display: inline-block;
+    display: block;
+    left: 0;
     position: relative;
-    top: -2px;
+    text-align: center;
+    top: 22px;
+    width: 100%;
   }
 
   &[data-source="back-alt"] {
     background-image: url("../../images/glyphs/back-alt.svg");
   }
 
+  &[data-source="forward-alt"] {
+    background-image: url("../../images/glyphs/forward-alt.svg");
+  }
+
   &[data-source="back"] {
     background-image: url("../../images/glyphs/back.svg");
+  }
+
+  &[data-source="forward"] {
+    background-image: url("../../images/glyphs/forward.svg");
   }
 
   &[data-source="close"] {
@@ -104,4 +124,19 @@
     background-image: url("../../images/glyphs/zoom-out.svg");
   }
 
+  &[data-source="download"] {
+    background-image: url("../../images/glyphs/download.svg");
+  }
+
+  &[data-source="home"] {
+    background-image: url("../../images/glyphs/home.svg");
+  }
+
+  &[data-source="share"] {
+    background-image: url("../../images/glyphs/share.svg");
+  }
+
+  &[data-source="addons"] {
+    background-image: url("../../images/glyphs/addons.svg");
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "extends": "stylelint-config-cssrecipes",
+  "extends": "stylelint-config-standard",
   "rules": {
     "comment-empty-line-before": ["always", {
       ignore: ["stylelint-commands"]
@@ -10,6 +10,7 @@
       ignore: ["after-comment"]
     }],
     "declaration-block-no-duplicate-properties": true,
-    "declaration-block-properties-order": "alphabetical"
+    "declaration-block-properties-order": "alphabetical",
+    "number-leading-zero": "never"
   }
 }

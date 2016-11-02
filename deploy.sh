@@ -5,7 +5,7 @@ set -e # exit with nonzero exit code if anything fails
 rm -rf dist || exit 0;
 
 # get the existing gh-pages history, but clean out the files.
-git clone --quiet --branch=gh-pages https://${GH_TOKEN}@${GH_REF} dist > /dev/null
+git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git dist > /dev/null
 cd dist
 rm -rf *
 cd ..
@@ -26,5 +26,5 @@ if [ -n "$(git status --porcelain)" -a "${TRAVIS_PULL_REQUEST}" == "false" ]; th
   # repo's gh-pages branch. (All previous history on the gh-pages branch
   # will be lost, since we are overwriting it.) We redirect any output to
   # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-  git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" gh-pages
+  git push --force --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" gh-pages
 fi

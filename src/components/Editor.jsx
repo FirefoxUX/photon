@@ -9,14 +9,21 @@ require('../styles/controls-examples.scss');
 require('../styles/glyphs.scss');
 require('../styles/inputs-examples.scss');
 require('../styles/panels-examples.scss');
+require('../styles/switches.scss');
 require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');
 const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
 
-const { newSection, newSections } = require('./actions.js');
 var HighlightWorker = require('worker?inline=true!../worker.js');
+
+var getResult = (node) => {
+  while (node && !node.classList.contains('spec')) {
+    node = node.parentNode;
+  }
+  return node && node.querySelector('.result');
+}
 
 function handleCodes(node, worker) {
   let codes = Array.from(node.querySelectorAll('code'));
@@ -28,28 +35,25 @@ function handleCodes(node, worker) {
     }
     e.dataset.processed = 'true';
 
-
     let container = document.createElement('div');
-    container.setAttribute('class', 'result');
     container.innerHTML = '<div>' + e.textContent + '</div>';
-    e.parentNode.parentNode.appendChild(container);
-
-    container = document.createElement('div');
-    container.setAttribute('class', 'code-container');
+    e.parentNode.appendChild(container);
 
     worker.postMessage({index: i, text: e.textContent});
 
+    let result = getResult(e);
+
     let copy = document.createElement('div');
     copy.setAttribute('class', 'copy-image');
-    e.parentNode.appendChild(container);
-    container.appendChild(e);
-    container.appendChild(copy);
+    result.appendChild(e);
+    result.appendChild(copy);
 
     if (e.scrollHeight > e.clientHeight) {
       let expand = document.createElement('div');
       expand.setAttribute('class', 'expando');
       expand.textContent = 'Click to expand code snippet';
-      e.parentNode.parentNode.appendChild(expand);
+      result.appendChild(expand);
+      result.classList.add('expando-added');
     }
   });
 
@@ -75,12 +79,39 @@ function handleColours(node) {
   });
 }
 
+const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('');
+
+function handleIndex(node) {
+  let results = Array.from(node.querySelectorAll('.word-index'));
+  let headers = Array.from(node.querySelectorAll('h3'));
+  headers = headers.filter(e => {
+    return alphabet.indexOf(e.innerText) != -1;
+  });
+
+  let generateLinks = headers => {
+    let links = alphabet.map(e => {
+      let link = document.createElement('span');
+      link.setAttribute('class', 'index-entry');
+      link.innerText = e;
+      return link;
+    });
+    headers.map(e => {
+      let link = links.find(link => link.innerText == e.innerText);
+      link.classList.add('link');
+      link.addEventListener('click', () => {
+        window.scrollTo(0, e.offsetTop - 60)
+      });
+    });
+    return links;
+  };
+  let links = generateLinks(headers);
+  links.map(link => results.forEach(result => result.appendChild(link)));
+}
+
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
     dispatch: React.PropTypes.func,
-    section: React.PropTypes.shape(),
-    sections: React.PropTypes.arrayOf(React.PropTypes.shape()),
     text: React.PropTypes.string,
     url: React.PropTypes.string
   },
@@ -95,14 +126,6 @@ const Editor = React.createClass({
       let codes = node.querySelectorAll('code');
       codes[event.data.index].innerHTML = event.data.text;
     };
-
-    document.addEventListener('scroll', () => {
-      let section = Array.from(node.querySelectorAll('h3'))
-        .reverse().find(e => e.getBoundingClientRect().bottom <= 100)
-      if (section != this.props.section) {
-        newSection(this.props.dispatch, section);
-      }
-    });
 
     let handleCopyClick = (text, popupText, textNode) => {
       var popup = node.querySelector('.popup');
@@ -137,13 +160,13 @@ const Editor = React.createClass({
     };
 
     let handleExpand = (expand) => {
-      let code = expand.previousSibling.querySelector('code');
+      let code = getResult(expand).querySelector('code');
       code.classList.toggle('expanded');
       if (code.classList.contains('expanded')) {
-        code.style.height = (code.scrollHeight + 2) + 'px';
+        code.style.maxHeight = (code.scrollHeight + 2) + 'px';
         expand.textContent = 'Click to collapse code snippet';
       } else {
-        code.style.height = '';
+        code.style.maxHeight = '';
         expand.textContent = 'Click to expand code snippet';
       }
     }
@@ -189,15 +212,7 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     handleCodes(node, this.worker);
     handleColours(node);
-
-    let sections = Array.from(node.querySelectorAll('h3'));
-    let comparable = sections => {
-      return JSON.stringify((sections || []).map(e => e.innerText))
-    }
-    if (comparable(sections) != comparable(this.props.sections)) {
-      newSections(this.props.dispatch, sections);
-    }
-
+    handleIndex(node);
   },
 
   render: function() {
@@ -219,12 +234,9 @@ const Editor = React.createClass({
 });
 
 function makeProps(state) {
-  var {scrollTo, section, sections, text, url} = state.data;
+  var {text, url} = state.data;
 
   return {
-    scrollTo: scrollTo,
-    section: section,
-    sections: sections,
     text: text,
     url: url
   }

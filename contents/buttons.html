@@ -1,0 +1,263 @@
+<h2>Buttons and Links</h2>
+
+<h3>Buttons</h3>
+<p>Use these buttons to indicate actions in the main pages of the application (anywhere that is not part of or attached to the browser chrome). The default button color is blue and secondary buttons are white. When designing for Windows, the native OS will place the primary (or default) action to the left of the secondary action. On Mac OS and in most websites and web applications, the primary (or default) action appears to the right of the secondary action.</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source">
+      <code>&lt;button&gt;Button&lt;/button&gt;</code>
+    </div>
+
+    <button name="button" class="hover">Hover</button>
+    <button name="button" class="pressed">Pressed</button>
+    <button name="button" class="focused">Focused</button>
+    <button name="button" class="disabled">Disabled</button>
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source">
+      <code>&lt;button class="default"&gt;Button&lt;/button&gt;</code>
+    </div>
+
+    <button name="button" class="default hover">Hover</button>
+    <button name="button" class="default pressed">Pressed</button>
+    <button name="button" class="default focused">Focused</button>
+    <button name="button" class="default disabled">Disabled</button>
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+
+<h3>macOS Buttons</h3>
+<p>Buttons on macOS and later platforms will adopt a 4px border radius.</p>
+
+<div class="spec multi-row mac">
+  <div class="row">
+    <button name="button" class="normal">Normal</button>
+    <button name="button" class="hover">Hover</button>
+    <button name="button" class="pressed">Pressed</button>
+    <button name="button" class="focused">Focused</button>
+    <button name="button" class="disabled">Disabled</button>
+  </div>
+  <div class="row">
+    <button name="button" class="default">Default</button>
+    <button name="button" class="default hover">Hover</button>
+    <button name="button" class="default pressed">Pressed</button>
+    <button name="button" class="default focused">Focused</button>
+    <button name="button" class="default disabled">Disabled</button>
+  </div>
+  <div class="row"></div>
+</div>
+
+<h3>Combo Buttons</h3>
+<p>Use discrete combo buttons to show separate (and often opposing) but contextually related items (like Don’t Allow and Allow). Use joined combo buttons to indicate actions in a multi-step processes (like Copy + Cut + Paste or Increase + Reset + Decrease Zoom Level).</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source">
+      <code>&lt;div class=&quot;comboButtons&quot;&gt;&lt;button name=&quot;button&quot; class=&quot;normal&quot;&gt;Button&lt;/button&gt;&lt;button name=&quot;button&quot; class=&quot;hover&quot;&gt;Hover&lt;/button&gt;&lt;/div&gt;&#10;</code>
+    </div>
+    <div class="comboButtons">
+      <button name="button" class="normal">Button</button>
+      <button name="button" class="pressed">Pressed</button>
+    </div>
+    <div class="comboButtons">
+      <button name="button" class="normal">Button</button>
+      <button name="button" class="disabled">Disabled</button>
+    </div>
+  </div>
+  <div class="row result"></div>
+</div>
+
+<h3>macOS Combo Buttons</h3>
+<p>Buttons on macOS and later platforms will adopt a 4px border radius.</p>
+
+<div class="spec multi-row mac">
+  <div class="row mac">
+    <div class="comboButtons">
+      <button name="button" class="normal">Button</button>
+      <button name="button" class="hover">Hover</button>
+    </div>
+    <div class="comboButtons">
+      <button name="button" class="normal">Button</button>
+      <button name="button" class="pressed">Pressed</button>
+    </div>
+    <div class="comboButtons">
+      <button name="button" class="normal">Button</button>
+      <button name="button" class="disabled">Disabled</button>
+    </div>
+  </div>
+  <div class="row"></div>
+</div>
+
+<!-- 
+<h3>Default Footer Buttons</h3>
+<p>Use footer buttons at the bottom of panels or in-content dialogs. When used alone, as in the Show All Downloads panel, use grey. When two or more footer buttons appear together, use blue to indicate the primary action and grey, the secondary action. </p>
+-->
+
+<h3>Disclosure Button</h3>
+<p>Use disclosure buttons to allow users to display and hide additional content in the interface.</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source">
+      <div>
+        <code>&lt;button name=&quot;expander&quot; class=&quot;expander&quot;&gt;&lt;/button&gt;</code>
+      </div>
+      <div class="label">Normal</div>
+    </div>
+
+    <div>
+      <button name="expander" class="expander hover"></button>
+      <div class="label">Hover</div>
+    </div>
+    <div>
+      <button name="expander" class="expander pressed"></button>
+      <div class="label">Pressed</div>
+    </div>
+    <div>
+      <button name="expander" class="expander focused"></button>
+      <div class="label">Focused</div>
+    </div>
+    <div>
+      <button name="expander" class="expander disabled"></button>
+      <div class="label">Disabled</div>
+    </div>
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+<h3>macOS Disclosure Button</h3>
+<p>Buttons on macOS and later platforms will adopt a 4px border radius.</p>
+
+<div class="spec multi-row mac">
+  <div class="row">
+    <div>
+      <button name="expander" class="expander"></button>
+      <div class="label">Normal</div>
+    </div>
+    <div>
+      <button name="expander" class="expander hover"></button>
+      <div class="label">Hover</div>
+    </div>
+    <div>
+      <button name="expander" class="expander pressed"></button>
+      <div class="label">Pressed</div>
+    </div>
+    <div>
+      <button name="expander" class="expander focused"></button>
+      <div class="label">Focused</div>
+    </div>
+    <div>
+      <button name="expander" class="expander disabled"></button>
+      <div class="label">Disabled</div>
+    </div>
+  </div>
+  <div class="row"></div>
+</div>
+
+
+<h3>Drop Down Buttons</h3>
+<p>Use dropdown buttons to display predefined lists of actions or choices. Use a single dropdown in conjunction with a submit action. Use combo dropdowns when there is a predefined list of primary actions and a predefined list of secondary actions. Place the button for the initial action on the left and a dropdown of secondary actions on the right. Secondary actions chosen from the dropdown submit immediately. (Note: Avoid obscuring options that users may not anticipate or understand.  In these cases, it may be better to expose options through radio buttons.)</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source">
+      <code>&lt;select&gt;&#10;
+          &lt;option value=&quot;value1&quot; selected&gt;Dropdown&lt;/option&gt;&#10;
+          &lt;option value=&quot;value2&quot;&gt;List Item&lt;/option&gt;&#10;
+          &lt;option value=&quot;value3&quot;&gt;List Item&lt;/option&gt;&#10;
+        &lt;/select&gt;&#10;</code>
+    </div>
+
+    <select class="hover">
+      <option value="value1" selected>Hover</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+    <select class="pressed">
+      <option value="value1" selected>Presssed</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+  </div>
+
+  <div class="row">
+    <select disabled class="disabled">
+      <option value="value1" selected>Disabled</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+    <select class="focused">
+      <option value="value1" selected>Focused</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+    <select class="hidden"></select>
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+<h3>macOS Drop Down Buttons</h3>
+<p>Buttons on macOS and later platforms will adopt a 4px border
+  radius.</p>
+
+<div class="spec multi-row mac">
+  <div class="row">
+    <select>
+      <option value="value1" selected>Dropdown</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+    <select class="hover">
+      <option value="value1" selected>Hover</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+    <select class="pressed">
+      <option value="value1" selected>Presssed</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+  </div>
+  <div class="row">
+    <select disabled class="disabled">
+      <option value="value1" selected>Disabled</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+    <select class="focused">
+      <option value="value1" selected>Focused</option>
+      <option value="value2">List Item</option>
+      <option value="value3">List Item</option>
+    </select>
+    <select class="hidden"></select>
+  </div>
+  <div class="row"></div>
+</div>
+
+<!--h3>Directional Button</h3>
+<p>Use directional buttons to allow users to advance through steps in a process or access previous or subsequent pages in a result or process.</p></-->
+
+<!-- 
+<h3>More Button</h3>
+
+
+<h3>Icon Button Large</h3>
+
+
+<h3>Icon Button Small</h3>
+-->
+
+<h3>Links</h3>
+<p>Use text hyperlinks as navigation to guide users to a new page in the application or to anchor users to a section within a page. (Note: In Firefox, buttons and links have clear and distinct purposes. Use buttons to indicate user actions that result in an immediate change to the application upon click.)</p>
+
+<div class="spacer"></div>

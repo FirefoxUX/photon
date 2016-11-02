@@ -191,7 +191,8 @@
 }
 
 .panel-section-tabs-button.selected {
-  box-shadow: 0 -1px 0 $color-blue-dark inset,
+  box-shadow:
+    0 -1px 0 $color-blue-dark inset,
     0 -4px 0 $color-blue inset;
   color: $color-blue;
 }

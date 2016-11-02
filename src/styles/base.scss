@@ -1,5 +1,5 @@
 $toc-width: 290px;
-$toc-padding: $toc-width + 120px;
+$toc-padding: $toc-width + 88px;
 
 html {
   box-sizing: border-box;
@@ -26,11 +26,28 @@ body,
 body {
   background-color: #fbfbfb;
   font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
   font-weight: 300;
+}
+
+.block1.welcome {
+  color: #1470cc;
+  display: inline-block;
+  font-size: 67px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 57px;
+  max-width: 160px;
+  padding-top: 18px;
+}
+
+.block2.welcome {
+  padding-top: 36px;
 }
 
 h2 {
   font-size: 28px;
+  font-weight: 300;
 }
 
 h3 {
@@ -60,9 +77,9 @@ h3 {
 }
 
 .editor {
-  color: #0c0c0c;
+  color: #6a6a6a;
   flex: 1;
-  font-weight: 400;
+  font-weight: 300;
   margin-left: $toc-padding;
   padding: 10px;
 }

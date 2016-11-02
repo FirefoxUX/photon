@@ -5,6 +5,7 @@ var webpack = require('webpack');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var failPlugin = require('webpack-fail-plugin');
+var DashboardPlugin = require('webpack-dashboard/plugin');
 
 var entry = [
   './src/app.jsx'
@@ -44,7 +45,8 @@ if (process.env.NODE_ENV === 'production') {
       process: {env: {NODE_ENV: '"development"'}}
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+    new webpack.NoErrorsPlugin(),
+    new DashboardPlugin()
   ]);
   jsLoaders = ['react-hot'].concat(jsLoaders);
   cssLoader = 'style!css!sass';
@@ -103,7 +105,7 @@ module.exports = [{
     new CopyWebpackPlugin([
       { from: 'index.html', to: '../' },
       { from: 'contents', to: '../contents' },
-      { from: 'images/site-controls', to: '../images/site-controls' }
+      { from: 'images', to: '../images' }
     ])
   ]),
   sassLoader: {

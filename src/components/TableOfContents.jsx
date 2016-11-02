@@ -20,18 +20,10 @@ const ListItem = connect(state => {
   displayName: 'ListItem',
 
   propTypes: {
+    expanded: React.PropTypes.bool,
+    handleClick: React.PropTypes.func,
     item: React.PropTypes.shape(),
     page: React.PropTypes.shape()
-  },
-
-  getInitialState : function() {
-    return {expanded: false};
-  },
-
-  handleClick : function() {
-    this.setState({ // eslint-disable-line react/no-set-state
-      expanded: !this.state.expanded
-    });
   },
 
   getPage: (item, i) => {
@@ -43,12 +35,16 @@ const ListItem = connect(state => {
 
   render() {
     const { item, page } = this.props;
-    return (<div className={'section' + ((item.title === page.category) ? ' selected' : '') +
-              (this.state.expanded ? ' expanded' : '')}
+    let handleClick = () => {
+      this.props.handleClick(item);
+    }
+
+    return (<div className={'section' + ((page && item.title === page.category) ? ' selected' : '') +
+              (this.props.expanded ? ' expanded' : '')}
             >
       <div className={'item'}
-          onClick={this.handleClick}
-      >{item.title}</div>
+          onClick={handleClick}
+      >{item.title}<span className={'arrow'}></span></div>
       {item.pages.map(this.getPage)}
     </div>
       );
@@ -62,7 +58,7 @@ const Page = connect(state => {
   var page = getPage(path, pages);
   return {pages, page};
 })(React.createClass({
-  displayName: 'ListItem',
+  displayName: 'Page',
 
   propTypes: {
     i: React.PropTypes.number,
@@ -95,20 +91,40 @@ const TableOfContents = React.createClass({
     sources: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired
   },
 
+  getInitialState : function() {
+    return {expanded: null};
+  },
+
   render: function() {
     const { sources } = this.props;
 
+    let setState = this.setState.bind(this);
+    let handleClick = (item) => {
+      if (expanded === item) {
+        item = null;
+      }
+      setState({
+        expanded: item
+      });
+    }
+
+    let expanded = this.state.expanded;
+
     let getItem = (item, i) => {
       return ([].concat(
-        <ListItem i={i}
+        <ListItem expanded={item === expanded}
+            handleClick={handleClick}
+            i={i}
             item={item}
         />)
       );
     }
 
+    let items = sources.map(getItem);
+
     return (<div className="toc">
       <h1>{'Firefox Style Guide'}</h1>
-      {sources.map(getItem)}
+      {items}
     </div>)
   }
 });

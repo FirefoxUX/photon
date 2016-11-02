@@ -24,7 +24,8 @@ select {
 }
 
 select.icon {
-  background-image: url("../../images/controls/Icon-Folder.svg"),
+  background-image:
+    url("../../images/controls/Icon-Folder.svg"),
     url("../../images/controls/Arrow-Dropdown.svg");
   background-position: 8px center, calc(100% - 4px) center;
   -moz-padding-start: 26px;
@@ -35,4 +36,16 @@ select.icon {
 .mac select,
 .mac input[type="checkbox"] + label::before {
   border-radius: $border-radius-osx;
+}
+
+.mac .comboButtons > button {
+  border-radius: 0;
+}
+
+.mac .comboButtons > button:first-child {
+  border-radius: $border-radius-osx 0 0 $border-radius-osx;
+}
+
+.mac .comboButtons > button:last-child {
+  border-radius: 0 $border-radius-osx $border-radius-osx 0;
 }

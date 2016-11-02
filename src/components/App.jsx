@@ -10,8 +10,7 @@ const App = React.createClass({
   displayName: 'App',
   propTypes: {
     dispatch: React.PropTypes.func,
-    page: React.PropTypes.shape(),
-    sections: React.PropTypes.arrayOf(React.PropTypes.shape())
+    page: React.PropTypes.shape()
   },
 
   render: function() {
@@ -26,10 +25,10 @@ const App = React.createClass({
 
 function makeProps(state) {
   var {path} = state.routing;
-  var {sections, pages} = state.data;
+  var {pages} = state.data;
 
   var page = getPage(path, pages);
-  return {page, sections};
+  return {page};
 }
 
 module.exports = connect(makeProps)(App);

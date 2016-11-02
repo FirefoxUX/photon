@@ -15,12 +15,12 @@ function mungeSources(sources) {
 
 function store(state, action) {
   if (!state) {
-    state = { sources: sources, pages: pages, text: '', file: '', url:'', section: null, sections: [] };
+    state = { sources: sources, pages: pages, text: '', file: '', url:'' };
   }
   switch (action.type) {
   case "@@router/INIT_PATH":
   case UPDATE_PATH:
-    return Object.assign({}, state, {text: '', file: '', url:'', section: null, sections: []});
+    return Object.assign({}, state, {text: '', file: '', url:''});
   case 'TEXT':
     if (action.text !== '&nbsp;' && action.file !== state.file) {
       // Previous fetch completed, ignore it.
@@ -29,10 +29,6 @@ function store(state, action) {
     return Object.assign({}, state, {text: action.text || '', file: action.file});
   case 'URL':
     return Object.assign({}, state, {url: action.url || ''});
-  case 'NEW_SECTION':
-    return Object.assign({}, state, {section: action.section});
-  case 'NEW_SECTIONS':
-    return Object.assign({}, state, {sections: action.sections});
   default:
     return state;
   }

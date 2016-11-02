@@ -1,36 +1,54 @@
-[ {"title": "Home",
+[ {"title": "Overview",
     "pages": [
-      {"title": "Introduction",
-        "file": "introduction"},
+      {"title": "Welcome",
+        "file": "welcome"},
       {"title": "Design Values",
         "file": "designValues",
-        "url": "/DesignValues/embed.html"},
-      {"title": "Add-ons",
-        "file": "addons"}
+        "url": "/DesignValues/embed.html"}
       ]},
-  {"title": "Visual Design",
+  {"title": "Design Foundation",
     "pages": [
       {"title": "Colours",
         "file": "colours"},
       {"title": "Typography",
         "file": "typography"}
       ]},
-  {"title": "Components",
+  {"title": "In Content UI",
     "pages": [
-      {"title": "Controls",
-        "file": "controls"},
-      {"title": "Inputs",
-        "file": "inputs"},
       {"title": "Glyphs",
-        "file": "glyphs"},
-      {"title": "Shapes",
-        "file": "shapes"},
-      {"title": "Panels",
-        "file": "panels"}
+        "file": "glyphs",
+        "url": "/firefox-svg-icons/viewer/embed.html"},
+      {"title": "Buttons and Links",
+        "file": "buttons"},
+      {"title": "Input Fields",
+        "file": "inputfields"},
+      {"title": "User Selections",
+        "file": "userselections"},
+      {"title": "Progress Indications",
+        "file": "progress"}
       ]},
-  {"title": "Resources",
+  {"title": "Browser Components",
     "pages": [
-      {"title": "Downloads",
-        "file": "downloads"}
+      {"title": "Navigation",
+        "file": "navigation"},
+      {"title": "Prompts",
+        "file": "prompts"}
+      ]},
+  {"title": "Copy",
+    "pages": [
+      {"title": "Introduction",
+        "file": "introduction"},
+      {"title": "Voice and Tone",
+        "file": "voice"},
+      {"title": "Writing for Users",
+        "file": "writing"},
+      {"title": "Localization",
+        "file": "localization"},
+      {"title": "Accessibility",
+        "file": "accessibility"},
+      {"title": "Copy Rules",
+        "file": "copyrules"},
+      {"title": "Word List",
+        "file": "wordlist"}
       ]}
 ]
