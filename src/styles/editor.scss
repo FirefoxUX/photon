@@ -295,7 +295,6 @@
 .colour.swatch,
 .multi-swatch .colour {
   overflow: hidden;
-  padding: 4em 1em 4px;
 
   > .copy-hover {
     left: 13px;
@@ -315,9 +314,9 @@
 }
 
 .multi-swatch .colour {
-  height: 8em;
-  margin: 15px 20px 0 0;
-  width: 8em;
+  height: 50px;
+  margin: 15px 19px 0 0;
+  width: 50px;
 
   &:hover {
     border: 5px solid white;
@@ -472,4 +471,31 @@
       color: #2ea3ff;
     }
   }
+}
+
+.os-font {
+  font-family: Segoe, Tahoma, "San Francisco", "Helevetica Neue", "Lucida Grande", Ubuntu;  
+}
+.example-caption {
+  color: #4a4a4a;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.example-disabled {
+  color: #999999;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.example-error {
+  color: #999999;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.example-approved {
+  color: #999999;
+  font-size: 13px;
+  font-weight: 300;
 }
