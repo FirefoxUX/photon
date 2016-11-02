@@ -152,6 +152,12 @@ input[type="radio"] {
   opacity: .5;
 }
 
+.radioItem.focused input[type="radio"],
+.radioItem.focused input[type="radio"]:hover,
+.radioItem.focused input[type="radio"]:hover:active {
+  box-shadow: 0 0 0 2px rgba(97, 181, 255, 0.75);
+}
+
 /* Checkboxes */
 .checkboxItem {
   margin-bottom: 6px;
@@ -167,6 +173,12 @@ input[type="checkbox"] {
 .checkboxItem.disabled input[type="checkbox"]:hover:active + label {
   color: #999;
   opacity: .5;
+}
+
+.checkboxItem.focused input[type="checkbox"],
+.checkboxItem.focused input[type="checkbox"]:hover,
+.checkboxItem.focused input[type="checkbox"]:hover:active {
+  box-shadow: 0 0 0 2.5px rgba(97, 181, 255, 0.75);
 }
 
 /* Expander Button */
