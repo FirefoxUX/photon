@@ -474,8 +474,9 @@
 }
 
 .os-font {
-  font-family: Segoe, Tahoma, "San Francisco", "Helevetica Neue", "Lucida Grande", Ubuntu;  
+  font-family: Segoe, Tahoma, "San Francisco", "Helevetica Neue", "Lucida Grande", Ubuntu;
 }
+
 .example-caption {
   color: #4a4a4a;
   font-size: 13px;
@@ -483,19 +484,19 @@
 }
 
 .example-disabled {
-  color: #999999;
+  color: #999;
   font-size: 13px;
   font-weight: 300;
 }
 
 .example-error {
-  color: #999999;
+  color: #999;
   font-size: 13px;
   font-weight: 300;
 }
 
 .example-approved {
-  color: #999999;
+  color: #999;
   font-size: 13px;
   font-weight: 300;
 }
