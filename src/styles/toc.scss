@@ -26,6 +26,10 @@
     }
   }
 
+  .item {
+    cursor: pointer;
+  }
+
   .subitem {
     font-size: 14px;
     font-weight: 300;
@@ -69,6 +73,7 @@
     margin-bottom: 20px;
 
     .item {
+      cursor: default;
       margin-bottom: 1.5px;
       opacity: 1;
     }
