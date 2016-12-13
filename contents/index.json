@@ -5,19 +5,21 @@
       {"title": "Design Values",
         "file": "designValues",
         "url": "/DesignValues/embed.html"}
-      ]},
-  {"title": "Design Foundation",
+      ]
+  },
+  {"title": "Style",
     "pages": [
       {"title": "Colours",
         "file": "colours"},
       {"title": "Typography",
-        "file": "typography"}
-      ]},
-  {"title": "In Content UI",
+        "file": "typography"},
+      {"title": "Icons",
+        "file": "icons",
+        "url": "/firefox-svg-icons/viewer/embed.html"}
+      ]
+  },
+  {"title": "UI components",
     "pages": [
-      {"title": "Glyphs",
-        "file": "glyphs",
-        "url": "/firefox-svg-icons/viewer/embed.html"},
       {"title": "Buttons and Links",
         "file": "buttons"},
       {"title": "Input Fields",
@@ -25,15 +27,13 @@
       {"title": "User Selections",
         "file": "userselections"},
       {"title": "Progress Indications",
-        "file": "progress"}
-      ]},
-  {"title": "Browser Components",
-    "pages": [
+        "file": "progress"},
       {"title": "Navigation",
         "file": "navigation"},
       {"title": "Prompts",
         "file": "prompts"}
-      ]},
+      ]
+    },
   {"title": "Copy",
     "pages": [
       {"title": "Introduction",
@@ -47,8 +47,13 @@
       {"title": "Accessibility",
         "file": "accessibility"},
       {"title": "Copy Rules",
-        "file": "copyrules"},
+        "file": "copyrules"}
+      ]
+  },
+  {"title": "Resources",
+    "pages": [
       {"title": "Word List",
         "file": "wordlist"}
-      ]}
+      ]
+  }
 ]
