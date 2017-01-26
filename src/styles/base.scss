@@ -27,7 +27,6 @@ body {
   background-color: #fbfbfb;
   font-family: "Fira Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
-  font-weight: 300;
 }
 
 .block1.welcome {
@@ -35,7 +34,6 @@ body {
   display: inline-block;
   font-size: 67px;
   font-style: italic;
-  font-weight: 300;
   line-height: 57px;
   max-width: 160px;
   padding-top: 18px;
@@ -46,12 +44,15 @@ body {
 }
 
 h2 {
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 32px;
 }
 
 h3 {
-  font-weight: 300;
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .app {
@@ -77,9 +78,7 @@ h3 {
 }
 
 .editor {
-  color: #6a6a6a;
   flex: 1;
-  font-weight: 300;
   margin-left: $toc-padding;
   padding: 10px;
 }
