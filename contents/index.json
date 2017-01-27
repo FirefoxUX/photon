@@ -10,30 +10,9 @@
   {"title": "Style",
     "pages": [
       {"title": "Colours",
-        "file": "colours"},
-      {"title": "Typography",
-        "file": "typography"},
-      {"title": "Icons",
-        "file": "icons",
-        "url": "/firefox-svg-icons/viewer/embed.html"}
+        "file": "colours"}
       ]
   },
-  {"title": "UI components",
-    "pages": [
-      {"title": "Buttons and Links",
-        "file": "buttons"},
-      {"title": "Input Fields",
-        "file": "inputfields"},
-      {"title": "User Selections",
-        "file": "userselections"},
-      {"title": "Progress Indications",
-        "file": "progress"},
-      {"title": "Navigation",
-        "file": "navigation"},
-      {"title": "Prompts",
-        "file": "prompts"}
-      ]
-    },
   {"title": "Copy",
     "pages": [
       {"title": "Introduction",
@@ -53,7 +32,10 @@
   {"title": "Resources",
     "pages": [
       {"title": "Word List",
-        "file": "wordlist"}
+        "file": "wordlist"},
+      {"title": "Icons",
+        "file": "icons",
+        "url": "/firefox-svg-icons/viewer/embed.html"}
       ]
   }
 ]
