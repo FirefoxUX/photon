@@ -108,6 +108,21 @@ function handleIndex(node) {
   links.map(link => results.forEach(result => result.appendChild(link)));
 }
 
+function handleLinks(node) {
+  let links = Array.from(node.querySelectorAll('a'));
+
+  links.map(link => {
+    let target = document.getElementById(link.dataset.href);
+    if (target) {
+      link.classList.add('link');
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        window.scrollTo(0, target.offsetTop - 60);
+      });
+    }
+  });
+}
+
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
@@ -212,6 +227,7 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     handleCodes(node, this.worker);
     handleColours(node);
+    handleLinks(node);
     handleIndex(node);
   },
 
