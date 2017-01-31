@@ -1,29 +1,29 @@
-<h2 class="fw3">Colours</h2>
+<h2 class="fw3">Colors</h2>
 
 <ul>
   <li>
-    <a class="mr2" href="#palettes">Palettes</a><span class="code">30%</span>
+    <a class="mr2" data-href="palettes">Palettes</a><span class="code">30%</span>
   </li>
   <li>
-    <a class="mr2" href="#states">States</a><span class="code">70%</span>
+    <a class="mr2" data-href="states">States</a><span class="code">70%</span>
   </li>
   <li>
-    <a class="mr2" href="#typography">Typography</a><span class="code">70%</span>
+    <a class="mr2" data-href="typography">Typography</a><span class="code">70%</span>
   </li>
   <li>
-    <a class="mr2" href="#chrome-bar">Chrome Bar</a><span class="code">0%</span> 
+    <a class="mr2" data-href="chrome-bar">Chrome Bar</a><span class="code">0%</span>
   </li>
   <li>
-    <a class="mr2" href="#icons">Icons</a><span class="code">0%</span> 
+    <a class="mr2" data-href="icons">Icons</a><span class="code">0%</span>
   </li>
   <li>
-    <a class="mr2" href="#accessibility">Accessibility</a><span class="code">8%</span> 
+    <a class="mr2" data-href="accessibility">Accessibility</a><span class="code">0%</span>
   </li>
 </ul>
 
 <h3 id="palettes">Palettes</h3>
 
-<div class="cf mh-2">
+<div class="cf nl2 nr2">
   <div class="fl w-100 w-third-ns ph2">
     <div style="background-color: var(--blue-500)">
       <div class="cf pt2 ph2 pb4">
@@ -89,37 +89,47 @@
 <h3 id="states">States</h3>
 
 <p>
-  Firefox components usually have three different states: active, hover, and pressed. The hover colour is one step darker and the pressed colour is two steps darker.
+  Firefox components usually have three different states: active, hover, and pressed. The hover color is one step darker of your primary color and the pressed color is two steps darker.
 </p>
 
 <h4>Validation States</h4>
 
 <p>
-  When you design a component that features validation use the following colour definitions for success, warning or error. Don't use the warning colour as text color because it fails WCAG 2.0.
+  When you design a component that features validation use the following colors for success, warning or error. Don't use the <em>warning yellow</em> as text color because it does not ensure enough contrast.
 </p>
 
-<div class="cf mh-2">
+<p class="fw7">Without background</p>
+<div class="cf nl2 nr2">
   <div class="fl pa2 w-50-ns">
-    <p class="fw7">Without background</p>
-    <div class="pa2 bg-grey-700">
-      <p class="ma0 green-900">
+    <div class="pa2 bg-grey-500">
+      <p class="ma0 green-500">
         This device had joined the party!
       </p>
     </div>
-    <div class="pa2 bg-grey-700">
-      <p class="ma0 black-30">
-        Fails WCAG 2.0
-      </p>
-    </div>
-    <div class="pa2 bg-grey-700">
+    <div class="pa2 bg-grey-500">
       <p class="ma0 red-500">
         You must enter your age to sign up.
       </p>
     </div>
   </div>
   <div class="fl pa2 w-50-ns">
-    <p class="fw7">With background</p>
-    <div class="pa2 bg-green-900">
+    <div class="pa2">
+      <p class="ma0 code">
+        #57bd35
+      </p>
+    </div>
+    <div class="pa2">
+      <p class="ma0 code">
+        #d92015
+      </p>
+    </div>
+  </div>
+</div>
+
+<p class="fw7">As background</p>
+<div class="cf nl2 nr2">
+  <div class="fl pa2 w-50-ns">
+    <div class="pa2 bg-green-500">
       <p class="ma0 white">
         This device had joined the party!
       </p>
@@ -135,12 +145,29 @@
       </p>
     </div>
   </div>
+  <div class="fl pa2 w-50-ns">
+    <div class="pa2">
+      <p class="ma0 code">
+        #57bd35
+      </p>
+    </div>
+    <div class="pa2">
+      <p class="ma0 code">
+        #ffcd02
+      </p>
+    </div>
+    <div class="pa2">
+      <p class="ma0 code">
+        #d92015
+      </p>
+    </div>
+  </div>
 </div>
 
 
 <h4>Notification States</h4>
 
-<p>The notification colour of choice is #xxxxxx. Use it for example in xx, yy, or zz.</p>
+<p>The notification color of choice is #xxxxxx. Use it for example in xx, yy, or zz.</p>
 
 <h3 id="typography">Typography</h3>
 
@@ -148,34 +175,57 @@
   Texts are set with an aplha channel so that they work well on different background contexts. 
 </p>
 
-<div class="cf mh-2">
+<p class="fw7">Dark typography on light background</p>
+<div class="cf nl2 nr2">
   <div class="fl w-50-ns pa2">
-    <p class="mt0 fw7">Dark typography on light background</p>
-    <div class="pa2 bg-grey-700">
-      <p class="ma0 black-90">
+    <p class="ma0 pa2 bg-grey-500 black-90">
+      Active Text
+    </p>
+    <p class="ma0 pa2 bg-grey-500 black-60">
+      Active Secondary Text
+    </p>
+    <p class="ma0 pa2 bg-grey-500 black-30">
+      Inactive Text
+    </p>
+  </div>
+  <div class="fl w-50-ns pa2">
+    <p class="ma0 pa2 code">
+      #000000 90%
+    </p>
+    <p class="ma0 pa2 code">
+      #000000 60%
+    </p>
+    <p class="ma0 pa2 code">
+      #000000 30%
+    </p>
+  </div>
+</div>
+
+<p class="fw7">Light typography on dark background</p>
+<div class="cf nl2 nr2">
+  <div class="fl w-50-ns pa2">
+    <div class="bg-black-90">
+      <p class="ma0 pa2 white">
         Active Text
       </p>
-      <p class="ma0 black-60">
+      <p class="ma0 pa2 white o-70">
         Active Secondary Text
       </p>
-      <p class="ma0 black-30">
+      <p class="ma0 pa2 white o-50">
         Inactive Text
       </p>
     </div>
   </div>
-  <div class="fl w-50-ns pa2">
-    <p class="mt0 fw7">Light typography on dark background</p>
-    <div class="pa2 bg-black-90">
-      <p class="ma0 white">
-        Active Text
-      </p>
-      <p class="ma0 white o-70">
-        Active Secondary Text
-      </p>
-      <p class="ma0 white o-50">
-        Inactive Text
-      </p>
-    </div>
+    <div class="fl w-50-ns pa2">
+    <p class="ma0 pa2 code">
+      #ffffff 100%
+    </p>
+    <p class="ma0 pa2 code">
+      #ffffff 70%
+    </p>
+    <p class="ma0 pa2 code">
+      #ffffff 50%
+    </p>
   </div>
 </div>
 
@@ -194,9 +244,33 @@ Currently the chrome bar has a different treatment based
 <h3 id="icons">Icons</h3>
 
 <p>
-  Icons are set with an alpha channel so that they are flexible enogh to work in different contexts and themes. 
+  As for the text, icons are set with an alpha channel so they work on different backgrounds.
 </p>
 
 <h3 id="accessibility">Accesibility</h3>
+
+<h4>Color contrast</h4>
+
+<p>
+  Follow the <a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast. Bodies of text should have a contrast ratio of at least 4.5:1 and that large-scale text should have a contrast ratio of at least 3:1.
+</p>
+
+<h4>Color blind</h4>
+
+<p>
+  There are different types of color blindness. The most common form is reg-green color blidness, followed by blue-yellow color blindness and total color blindness. Red-green color blindness affects up to 8% of males and 0.5% of females. Ensure that between adjacent color shades are blind-safe. In case of doubts use a color blindness analyser in order to test your palette.
+</p>
+
+<div class="pa2 bg-grey-500">
+  <p class="ma0 fw7">Resourses</p>
+  <ul>
+    <li>
+      <a href="https://www.paciellogroup.com/resources/contrastanalyser/">Color contrast and color blindness analyser</a> app for Windows and macOS from The Paciello Gruop.
+    </li>
+    <li>
+      <a href="http://leaverou.github.io/contrast-ratio/">Color contrast</a> web analyser from Lea Verou.
+    </li>
+  </ul>
+</div>
 
 <div class="spacer"></div>
