@@ -13,7 +13,8 @@ html {
 
 html,
 body,
-ul {
+ul
+{
   margin: 0;
 }
 
@@ -80,4 +81,10 @@ h4 {
   flex: 1;
   margin-left: $toc-padding;
   padding: 10px;
+}
+
+.h4, :-moz-any(article, aside, nav, section) :-moz-any(article, aside, nav, section) :-moz-any(article, aside, nav, section) h1 {
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 40px;
 }

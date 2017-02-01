@@ -21,6 +21,12 @@ body * {
   text-align: start;
 }
 
+h4, :-moz-any(article, aside, nav, section) :-moz-any(article, aside, nav, section) :-moz-any(article, aside, nav, section) h1 {
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
 @import "controls-content";
 @import "inputs-content";
 @import "panels-content";
