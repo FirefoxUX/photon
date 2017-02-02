@@ -10,7 +10,9 @@
   {"title": "Style",
     "pages": [
       {"title": "Colours",
-        "file": "colours"}
+        "file": "colours"},
+      {"title": "Icon design",
+        "file": "icondesign"}
       ]
   },
   {"title": "Copy",
