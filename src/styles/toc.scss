@@ -1,29 +1,10 @@
 .toc {
-  color: #505050;
-  text-align: right;
-
-  h1 {
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: -.06em;
-    line-height: 120px;
-  }
 
   .item,
   .subitem {
-    color: #505050;  // Needed to override the default anchor colour.
     display: block;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: -.06em;
-    line-height: 60px;
-    opacity: .25;
-    padding-right: 4px;
     text-decoration: none;
-
-    &:hover {
-      opacity: 1;
-    }
+    color: var(--black-082);
   }
 
   .item {
@@ -31,24 +12,21 @@
   }
 
   .subitem {
+    color: var(--black-054);
     font-size: 14px;
-    font-weight: 300;
     height: 0;
     letter-spacing: 0;
-    line-height: 20px;
-    opacity: 1;
     overflow: hidden;
-    padding-right: 35px;
+    padding-left: 16px;
     transition: height 300ms ease-in-out;
 
     &.active {
-      color: #2284e6;
-      font-weight: 300;
-
-      &:hover {
-        opacity: 1;
-      }
+      color: var(--blue-5);
     }
+  }
+
+  .section {
+    margin-bottom: 16px;
   }
 
   .section .arrow {
@@ -59,7 +37,7 @@
     display: inline-block;
     height: 18.5px;
     position: relative;
-    top: 2px;
+    top: 4px;
     transform: rotate(0);
     transform-origin: calc(100% - 6px) center;
     transition: transform 300ms ease-in-out;
@@ -70,7 +48,6 @@
     background: linear-gradient(-15deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
     background-position: 0 36px;
     background-repeat: no-repeat;
-    margin-bottom: 20px;
 
     .item {
       cursor: default;

@@ -9,9 +9,9 @@
   },
   {"title": "Style",
     "pages": [
-      {"title": "Colours",
-        "file": "colours"},
-      {"title": "Icon design",
+      {"title": "Color",
+        "file": "color"},
+      {"title": "Icons",
         "file": "icondesign"}
       ]
   },
@@ -37,7 +37,9 @@
         "file": "wordlist"},
       {"title": "Icons",
         "file": "icons",
-        "url": "/firefox-svg-icons/viewer/embed.html"}
+        "url": "/firefox-svg-icons/viewer/embed.html"},
+      {"title": "Templates",
+        "file": "Templates"},
       ]
   }
 ]

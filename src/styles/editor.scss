@@ -8,13 +8,16 @@
 
 .editor > h2,
 .editor > div > h2 {
-  font-size: 45px;
-  margin-top: 17px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 500;
 }
 
 .editor > h3,
 .editor > div > h3 {
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 40px;
 }
 
@@ -165,8 +168,6 @@
 
 .app .content .editor.subpage {
   height: 100%;
-  padding-left: 0;
-  padding-top: 34px;
 
   &.url {
     padding: 0;

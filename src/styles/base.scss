@@ -68,10 +68,7 @@ h4 {
 }
 
 .toc {
-  font-size: 16px;
   list-style: none;
-  margin: 0;
-  padding: 10px 0 0;
   position: fixed;
   width: $toc-width;
 }
@@ -79,5 +76,4 @@ h4 {
 .editor {
   flex: 1;
   margin-left: $toc-padding;
-  padding: 10px;
 }
