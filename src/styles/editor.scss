@@ -1,6 +1,6 @@
 .editor {
-  max-width: 780px;
   color: var(--black-082);
+  max-width: 780px;
 }
 
 .editor > iframe {
@@ -9,11 +9,11 @@
 
 .editor > h2,
 .editor > div > h2 {
-  margin-top: 0;
-  margin-bottom: 24px;
   font-size: 32px;
-  line-height: 32px;
   font-weight: 500;
+  margin-bottom: 24px;
+  margin-top: 0;
+  line-height: 32px;
 }
 
 .editor > h3,
