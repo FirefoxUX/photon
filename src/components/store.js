@@ -2,6 +2,7 @@
 
 const {sources, pages} = mungeSources(require('json!../../contents/index.json'));
 const { UPDATE_PATH } = require('redux-simple-router');
+const { parsePath } = require('./utilities.js');
 
 function mungeSources(sources) {
   let pages = []
@@ -20,7 +21,10 @@ function store(state, action) {
   switch (action.type) {
   case "@@router/INIT_PATH":
   case UPDATE_PATH:
-    return Object.assign({}, state, {text: '', file: '', url:''});
+      if (state.file === parsePath(action.payload.path)) {
+        return Object.assign({}, state);
+      }
+      return Object.assign({}, state, { text: '', file: '', url: '' });
   case 'TEXT':
     if (action.text !== '&nbsp;' && action.file !== state.file) {
       // Previous fetch completed, ignore it.

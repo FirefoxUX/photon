@@ -1,8 +1,9 @@
 {
   "name": "workshop",
   "scripts": {
-    "serve": "NODE_ENV=development webpack-dashboard -- node run.js",
-    "build": "NODE_ENV=production webpack --optimize-minimize && rm dist/static/css/deleteme.js"
+    "serve": "bash -c 'NODE_ENV=development webpack-dashboard -- node run.js'",
+    "serve-win": "bash -c 'NODE_ENV=development node run.js'",
+    "build": "bash -c 'NODE_ENV=production webpack --optimize-minimize && rm dist/static/css/deleteme.js'"
   },
   "dependencies": {
     "express": "^4.13.3",
@@ -35,6 +36,7 @@
     "json-loader": "^0.5.4",
     "node-sass": "^3.4.2",
     "react-hot-loader": "^1.3.0",
+    "require-json": "0.0.1",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "stylelint": "^7.4.2",
