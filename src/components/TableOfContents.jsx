@@ -124,7 +124,9 @@ const TableOfContents = React.createClass({
 
     return (<div className="toc pa4">
       <h1 className="mt0 mb2 fw5 lh-solid">
-        <a className="no-underline black-082" href="/#/welcome">{'Firefox Design System'}</a>
+        <a className="no-underline black-082" 
+            href="/#/welcome">{'Firefox Design System'}
+        </a>
       </h1>
       <h2 className="mt0 mb4 f6 lh-copy ttu fw5 black-064">{'starting v57 (photon)'}</h2>
       {items}
