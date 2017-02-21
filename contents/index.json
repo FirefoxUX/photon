@@ -1,7 +1,10 @@
 [ {"title": "Overview",
     "pages": [
       {"title": "Welcome",
-        "file": "welcome"}
+        "file": "welcome"},
+      {"title": "Design Values",
+        "file": "designValues",
+        "url": "/DesignValues/embed.html"}
       ]
   },
   {"title": "Style",
@@ -32,6 +35,9 @@
     "pages": [
       {"title": "Word List",
         "file": "wordlist"},
+      {"title": "Icons",
+        "file": "icons",
+        "url": "/firefox-svg-icons/viewer/embed.html"},
       {"title": "Templates",
         "file": "templates"}
       ]

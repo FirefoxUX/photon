@@ -1,18 +1,11 @@
 /* eslint-env node */
 var path = require('path');
 var webpack = require('webpack');
-require('require-json');
 
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var failPlugin = require('webpack-fail-plugin');
 var DashboardPlugin = require('webpack-dashboard/plugin');
-var pages = require('./contents/index.json')
-  .map(x => x.pages)
-  .reduce((acc, val) => acc.concat(val), [{ file: 'index' }])
-  .map(x => {
-    return { from: 'index.html', to: `../${x.file}.html` }
-  });
 
 var entry = [
   './src/app.jsx'
@@ -110,7 +103,7 @@ module.exports = [{
       allChunks: true
     }),
     new CopyWebpackPlugin([
-      ...pages,
+      { from: 'index.html', to: '../' },
       { from: 'contents', to: '../contents' },
       { from: 'images', to: '../images' }
     ])
