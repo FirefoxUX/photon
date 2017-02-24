@@ -21,7 +21,6 @@ function checkWidth() {
 
 window.onload = function(){
   checkWidth();
-  document.getElementById("nav").style.left = "-100%";
 };
 
 window.onresize = function(){
