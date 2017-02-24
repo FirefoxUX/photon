@@ -2,8 +2,6 @@
 
 'use strict';
 
-require('../styles/toc.scss');
-
 const React = require('react');
 const { Link } = require('react-router');
 
@@ -39,12 +37,12 @@ const ListItem = connect(state => {
       this.props.handleClick(item);
     }
 
-    return (<div className={'section' + ((page && item.title === page.category) ? ' selected' : '') +
+    return (<div className={'pb2' + ((page && item.title === page.category) ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
             >
-      <div className={'item'}
+      <p className="mv0"
           onClick={handleClick}
-      >{item.title}<span className={'arrow'}></span></div>
+      >{item.title}</p>
       {item.pages.map(this.getPage)}
     </div>
       );
@@ -76,7 +74,7 @@ const Page = connect(state => {
 
     const url = `/${item.file}`;
     return (<Link activeClassName="active"
-        className={'subitem ' + ((item === page) ? ' selected' : '')}
+        className={'db pl3 pt2 no-underline black-064' + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
             >{item.title}</Link>);
@@ -122,15 +120,16 @@ const TableOfContents = React.createClass({
 
     let items = sources.map(getItem);
 
-    return (<div className="toc pa4">
-      <h1 className="mt0 mb2 fw5 lh-solid">
+    return (<nav id="nav"
+        className="fixed top-0 left-0 h-100 overflow-y-scroll pa3 pa4-ns bg-white z-max w5-ns">
+      <p className="f3 mt0 mb2 fw5 lh-solid">
         <a className="no-underline black-082" 
             href="/#/welcome">{'Firefox Design System'}
         </a>
-      </h1>
-      <h2 className="mt0 mb4 f6 lh-copy ttu fw5 black-064">{'starting v57 (photon)'}</h2>
+      </p>
+      <p className="mt0 mb4 f6 lh-copy ttu fw5 black-064">{'starting v57 (photon)'}</p>
       {items}
-    </div>)
+    </nav>)
   }
 });
 

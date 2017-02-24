@@ -150,12 +150,19 @@
     </style>
   </head>
   <body>
+    <header class="fixed top-0 left-0 w-100 bg-white">
+      <div class="center mw7 pa3">
+        <span class="pointer" onclick="showNav()">MENU</span>
+      </div>
+    </header>
+    <div id="overlay" class="fixed top-0 left-0 w-100 h-100 bg-black o-30 dn z-9999" onclick="hideNav()"></div>
     <div id="mount"></div>
-    <div class="fixed bottom-0 w-100 tc bg-aqua-5 white black-082">
+    <div class="fixed bottom-0 w-100 tc bg-aqua-5 white black-082 z-999">
       <p>
         Questions, doubts or feedback? <a class="black-082" href="https://github.com/bwinton/StyleGuide/issues">Open an issue!</a>
       </p>
     </div>
     <script src="static/bundle.js"></script>
+    <script src="scripts/custom.js"></script>
   </body>
 </html>

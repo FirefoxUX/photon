@@ -3,13 +3,6 @@
 /* eslint "react/no-danger":[0] */
 /* global process:false */
 
-require('../styles/editor.scss');
-require('../styles/content-base.scss');
-require('../styles/controls-examples.scss');
-require('../styles/glyphs.scss');
-require('../styles/inputs-examples.scss');
-require('../styles/panels-examples.scss');
-require('../styles/switches.scss');
 require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');
@@ -240,7 +233,7 @@ const Editor = React.createClass({
       }
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
-    return (<div className={'editor subpage pv4 pr4' +
+    return (<div className={'center mw7 pa3 pt5 mb6' +
       (this.props.url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}
