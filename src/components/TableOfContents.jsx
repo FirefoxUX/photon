@@ -120,14 +120,17 @@ const TableOfContents = React.createClass({
 
     let items = sources.map(getItem);
 
-    return (<nav id="nav"
-        className="fixed top-0 left-0 h-100 overflow-y-scroll pa3 pa4-ns bg-white z-max w5-ns">
-      <p className="f3 mt0 mb2 fw5 lh-solid">
-        <a className="no-underline black-082" 
-            href="/#/welcome">{'Firefox Design System'}
+    return (<nav 
+        className="bg-white fixed h-100 left-0 overflow-y-scroll pa3 pa4-ns top-0 w5-ns z-max"
+        id="nav"
+            >
+      <p className="f3 fw5 lh-solid mt0 mb2">
+        <a className="black-082 no-underline" 
+            href="/#/welcome"
+        >{'Firefox Design System'}
         </a>
       </p>
-      <p className="mt0 mb4 f6 lh-copy ttu fw5 black-064">{'starting v57 (photon)'}</p>
+      <p className="f6 mt0 mb4 lh-copy ttu fw5 black-064">{'starting v57 (photon)'}</p>
       {items}
     </nav>)
   }
