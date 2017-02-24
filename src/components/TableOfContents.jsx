@@ -37,7 +37,7 @@ const ListItem = connect(state => {
       this.props.handleClick(item);
     }
 
-    return (<div className={'pb2' + ((page && item.title === page.category) ? ' selected' : '') +
+    return (<div className={'pb3' + ((page && item.title === page.category) ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
             >
       <p className="mv0"
@@ -74,7 +74,7 @@ const Page = connect(state => {
 
     const url = `/${item.file}`;
     return (<Link activeClassName="active"
-        className={'db pl3 pt2 no-underline black-064' + ((item === page) ? ' selected' : '')}
+        className={'db pl3 pt3 no-underline black-064' + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
             >{item.title}</Link>);

@@ -1,0 +1,27 @@
+#page {
+  h1, h2, h3, h4, strong {
+    font-weight: 500;
+  }
+
+  h1, h2 {
+    margin: 0 0 2rem;
+  }
+
+  h3 {
+    margin: 0 0 1rem;
+  }
+
+  p {
+    margin: 0 0 1rem;
+    line-height: 1.4;
+  }
+
+  section, header {
+    margin-bottom: 4rem;
+  }
+
+  header > ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
