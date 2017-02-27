@@ -16,7 +16,7 @@ article {
     line-height: 1.4;
   }
 
-  section, header {
+  section:not(:last-child), header {
     margin-bottom: 4rem;
   }
 
