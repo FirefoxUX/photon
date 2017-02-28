@@ -13,10 +13,10 @@ article {
     ul {
       list-style-type: none;
       padding-left: 0;
+    }
 
-      li {
-        margin-bottom: 0.5rem;
-      }
+    li {
+      margin-bottom: 0.5rem;
     }
   }
 
@@ -31,11 +31,11 @@ article {
       font-weight: 500;
     }
 
-    h1, h2 {
+    h1 {
       margin: 0 0 2rem;
     }
 
-    h3 {
+    h2, h3, h4 {
       margin: 0 0 1rem;
     }
 
@@ -44,12 +44,34 @@ article {
       line-height: 1.4;
     }
 
+    a {
+      color: var(--blue-5);
+      text-decoration: none;
+    }
+
     figure {
       margin: 0 0 1rem;
 
       figcaption {
         margin-top: 0.5rem;
+        font-size: small;
       }
+    }
+
+    blockquote {
+      background-color: var(--grey-5);
+      padding: 1rem 1rem 0.25rem 1rem;
+      margin: 0 0 1rem;
+
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
     }
   }
 }
