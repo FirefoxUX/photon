@@ -1,27 +1,55 @@
 article {
-  h1, h2, h3, h4, strong {
-    font-weight: 500;
-  }
+  header {
+    font-family: "Fira Sans";
 
-  h1, h2 {
-    margin: 0 0 2rem;
-  }
+    p {
+      margin-bottom: 2rem;
+    }
 
-  h3 {
-    margin: 0 0 1rem;
-  }
+    h1 {
+      font-weight: 500;
+    }
 
-  p {
-    margin: 0 0 1rem;
-    line-height: 1.4;
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
   }
 
   section:not(:last-child), header {
     margin-bottom: 4rem;
   }
 
-  header > ul {
-    list-style-type: none;
-    padding-left: 0;
+  section {
+    font-family: "Fira Sans";
+
+    h2, h3, h4, strong {
+      font-weight: 500;
+    }
+
+    h1, h2 {
+      margin: 0 0 2rem;
+    }
+
+    h3 {
+      margin: 0 0 1rem;
+    }
+
+    p, ul {
+      margin: 0 0 1rem;
+      line-height: 1.4;
+    }
+
+    figure {
+      margin: 0 0 1rem;
+
+      figcaption {
+        margin-top: 0.5rem;
+      }
+    }
   }
 }
