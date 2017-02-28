@@ -71,7 +71,44 @@ article {
       li {
         margin-bottom: 0.5rem;
       }
+    }
 
+    table {
+      border: 1px solid var(--grey-6);
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: small;
+      margin-bottom: 1rem;
+      table-layout: auto;
+      width: 100%;
+
+      thead {
+        background-color: var(--grey-5);
+      }
+
+      th {
+        border: 1px solid var(--grey-6);
+        font-weight: 500;
+        text-align: left;
+        padding: 0.5rem 0.75rem;
+
+        @media screen and (min-width: 30em) {
+          padding: 0.75rem 1rem;
+        }
+      }
+
+      td {
+        border: 1px solid var(--grey-6);
+        padding: 0.5rem 0.75rem;
+
+        @media screen and (min-width: 30em) {
+          padding: 0.75rem 1rem;
+        }
+      }
+
+      @media screen and (min-width: 30em) {
+        font-size: initial;
+      }
     }
   }
 }
