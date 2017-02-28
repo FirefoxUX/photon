@@ -3,7 +3,7 @@ article {
     font-family: "Fira Sans";
 
     p {
-      margin-bottom: 2rem;
+      margin: 0 0 2rem;
     }
 
     h1 {
@@ -12,12 +12,15 @@ article {
     }
 
     ul {
+      border-top: 1px solid var(--grey-6);
+      border-bottom: 1px solid var(--grey-6);
       list-style-type: none;
-      padding-left: 0;
+      padding: 1rem 0 0;
     }
 
     li {
-      margin-bottom: 0.5rem;
+      display: inline-block;
+      padding-bottom: 1rem;
     }
   }
 
