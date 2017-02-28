@@ -6,31 +6,33 @@
     <title>Firefox Design System</title>
     <meta name="description" content="The Firefox Style Guide contains all the styles to build Firefox-y looking applications and webpages.">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet" /> 
     <link rel="stylesheet" type="text/css" href="static/style.css" />
   </head>
   <body>
-    <header class="fixed top-0 left-0 w-100 bg-white z-999">
+    <header id="header" class="fixed top-0 left-0 w-100 bg-white z-999 dn">
       <div class="center mw7 pa3">
         <span class="pointer" onclick="showNav()">MENU</span>
       </div>
     </header>
-    <div id="overlay" class="fixed top-0 left-0 w-100 h-100 bg-black o-30 dn z-9999" onclick="hideNav()"></div>
+    <div id="overlay" class="fixed top-0 left-0 w-100 h-100 dn z-9999" onclick="hideNav()"></div>
     <div id="mount"></div>
     <div class="fixed bottom-0 w-100 tc bg-aqua-5 white black-082 z-999">
       <p>
         Questions, doubts or feedback? <a class="black-082" href="https://github.com/bwinton/StyleGuide/issues">Open an issue!</a>
       </p>
     </div>
-    <footer class="center mw7 pa3 mb6 cf">
-      <p class="fl w-50-ns ma0">
-        <a href="#!" class="no-underline black">Previos Page Title</a>
-      </p>
-      <p class="fl w-50-ns tr ma0">
-        <a href="#!" class="no-underline black">Next Page Title</a>
-      </p>
+    <footer id="footer">
+      <div class="center mw7 pa3 mb6 cf">
+        <p class="fl w-50-ns ma0">
+          <a href="#!" class="no-underline black">Previos Page Title</a>
+        </p>
+        <p class="fl w-50-ns tr ma0">
+          <a href="#!" class="no-underline black">Next Page Title</a>
+        </p>
+      </div>
     </footer>
     <script src="static/bundle.js"></script>
     <script src="scripts/custom.js"></script>

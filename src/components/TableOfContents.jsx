@@ -37,7 +37,7 @@ const ListItem = connect(state => {
       this.props.handleClick(item);
     }
 
-    return (<div className={'pb3' + ((page && item.title === page.category) ? ' selected' : '') +
+    return (<div className={'pb3 white fw5' + ((page && item.title === page.category) ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
             >
       <p className="mv0"
@@ -74,7 +74,7 @@ const Page = connect(state => {
 
     const url = `/${item.file}`;
     return (<Link activeClassName="active"
-        className={'db pl3 pt3 no-underline black-064' + ((item === page) ? ' selected' : '')}
+        className={'db pl3 pt3 no-underline moon-gray fw4' + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
             >{item.title}</Link>);
@@ -121,16 +121,16 @@ const TableOfContents = React.createClass({
     let items = sources.map(getItem);
 
     return (<nav 
-        className="bg-white fixed h-100 left-0 overflow-y-scroll pa3 pa4-ns top-0 w5-ns z-max"
+        className="bg-dark-gray fixed h-100 left-0 overflow-y-scroll pa3 pa4-ns top-0 w5-ns z-max"
         id="nav"
             >
-      <p className="f3 fw5 lh-solid mt0 mb2">
-        <a className="black-082 no-underline" 
+      <p className="f4 fw5 lh-solid mt0 mb2">
+        <a className="white no-underline" 
             href="/#/welcome"
         >{'Firefox Design System'}
         </a>
       </p>
-      <p className="f6 mt0 mb4 lh-copy ttu fw5 black-064">{'starting v57 (photon)'}</p>
+      <p className="white f6 mt0 mb5 lh-copy ttu fw5">{'starting v57 (photon)'}</p>
       {items}
     </nav>)
   }

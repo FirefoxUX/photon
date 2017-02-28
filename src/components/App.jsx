@@ -15,10 +15,8 @@ const App = React.createClass({
 
   render: function() {
     return (<div className="app">
-      <div className="content">
-        <TableOfContents/>
-        <Editor/>
-      </div>
+      <TableOfContents/>
+      <Editor/>
     </div>);
   }
 });
