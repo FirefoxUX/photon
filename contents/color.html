@@ -1,5 +1,5 @@
 <header>
-  <h1>Colors</h1>
+  <h1 id="colors">Colors</h1>
 
   <p>Short description (not mandatory)</p>
 
@@ -333,9 +333,12 @@
   <p>
     Firefox components usually have different states: active, hover, pressed, focused and disabled. Starting from the primary color set the hover state color one step darker in the color scale and the pressed state two steps darker.
   </p>
-  <img class="mw6" src="images/colors/buttons.png" alt="">
+  <figure>
+    <img src="images/colors/buttons.png" alt="">
+    <figcaption>Buttons on Windows 10 and macOS</figcaption>
+  </figure>
 
-  <h3>Validation States</h3>
+  <h3 id="validation-states">Validation States</h3>
   <p>
     When you design a component that features validation use the following colors for success, warning or error.
   </p>
@@ -410,7 +413,7 @@
     </p>
   </div>
 
-  <h3>Notification States</h3>
+  <h3 id="notification-states">Notification States</h3>
   <p>
     The notification color of choice is #xxxxxx. Use it for example in xx, yy, or zz.
   </p>
@@ -422,7 +425,7 @@
     Texts are set with an alpha channel so that they work on different backgrounds. 
   </p>
 
-  <h4 id="">Dark typography on light background</h4>
+  <h4 id="dark-typography-on-light-background">Dark typography on light background</h4>
   <div class="cf bg-grey-5 ph3">
     <p class="fl w-60">
       Active text
@@ -457,7 +460,7 @@
     </p>
   </div>
 
-  <h4 id="">Light typography on dark background</h4>
+  <h4 id="light-typography-on-dark-background">Light typography on dark background</h4>
   <div class="cf bg-black-082 ph3 white">
     <p class="fl w-60">
       Active text
@@ -492,9 +495,9 @@
     </p>
   </div>
 
-  <h3>Links</h3>
+  <h3 id="links">Links</h3>
 
-  <h4 id="">On light background</h4>
+  <h4 id="on-light-background">On light background</h4>
   <div class="cf bg-grey-5 ph3">
     <p class="fl w-60">
       <a class="blue-5 no-underline pointer" href="#!">Forgot your password?</a>
@@ -507,7 +510,7 @@
     </p>
   </div>
 
-  <h4 id="">On dark background</h4>
+  <h4 id="on-dark-background">On dark background</h4>
   <div class="cf bg-black-082 ph3">
     <p class="fl w-60">
       <a class="green-7 no-underline pointer" href="#!">Learn more about Firefox Accounts</a>
@@ -538,7 +541,7 @@
     As all other components icons usually have different states: active, hover, pressed, focused and disabled. Like text, icons are set with an alpha channel so that they work on different backgrounds.
   </p>
 
-  <h4 id="">Dark icons on light background</h4>
+  <h4 id="dark-icons-on-light-background">Dark icons on light background</h4>
   <div class="cf bg-grey-5 ph3">
     <p class="fl w-40 black o-60">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
@@ -604,7 +607,7 @@
     </p>
   </div>
 
-  <h4 id="">Light icons on dark background</h4>
+  <h4 id="light-icons-on-dark-background">Light icons on dark background</h4>
   <div class="cf bg-black-082 ph3">
     <p class="fl w-40">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
@@ -670,7 +673,7 @@
     </p>
   </div>
 
-  <h4 id="">Notification and validation</h4>
+  <h4 id="notification-and-validation">Notification and validation</h4>
   <div class="cf bg-grey-5 ph3">
     <p class="fl w-40 black o-60">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
@@ -743,22 +746,28 @@
     Currently the chrome bar has different color scheme treatments based on the operating systems. We are currently working on making this color palettes more cross-platform consistent.
   </p>
 
-  <h4 id="">Windows</h4>
-  <img src="images/colors/firefox-win-default.jpg" alt="">
+  <h4 id="windows">Windows</h4>
+  <figure>
+    <img src="images/colors/firefox-win-default.jpg" alt="">
+  </figure>
 
-  <h4 id="">macOS</h4>
-  <img src="images/colors/firefox-mac-default.jpg" alt="">
+  <h4 id="macos">macOS</h4>
+  <figure>
+    <img src="images/colors/firefox-mac-default.jpg" alt="">
+  </figure>
 
-  <h4 id="">Linux</h4>
-  <img src="images/colors/firefox-ubu-default.jpg" alt="">
+  <h4 id="linux">Linux</h4>
+  <figure>
+    <img src="images/colors/firefox-ubu-default.jpg" alt="">
+  </figure>
 
-  <h3>Themes</h3>
+  <h3 id="themes">Themes</h3>
   <p>
     Firefox supports custom themes. Ensure that changes that affect the chrome bar will continue to support a variety of background like images, light colors or dark colors. Moreover Windows 10 currently offers the ability to customize the app bar color. Ensure that changes to the chrome bar support this option as well.
   </p>
 
   <div class="pa3 bg-grey-5">
-    <p class="ma0 fw7">Resources</p>
+    <p><strong>Resources</strong></p>
     <ul>
       <li>
         Check out the <a class="blue-5 no-underline pointer" href="https://addons.mozilla.org/en-US/firefox/themes/?sort=popular">Most Popular Themes</a> on the Add-ons website.
@@ -770,25 +779,27 @@
 <section>
   <h2 id="accessibility">Accessibility</h2>
 
-  <h3>Color contrast</h3>
+  <h3 id="color-contrast">Color contrast</h3>
   <p>
     You are encourage to follow the <a class="blue-5 no-underline pointer" href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast. Bodies of text should have a contrast ratio of at least 4.5:1 and that large-scale text should have a contrast ratio of at least 3:1.
   </p>
 
-  <h3>Color blind</h3>
+  <h3 id="color-blind">Color blind</h3>
   <p>
     There are different types of color blindness. The most common form is reg-green color blindness, followed by blue-yellow color blindness and total color blindness. Red-green color blindness affects up to 8% of males and 0.5% of females. Ensure that adjacent color shades are blind-safe. In case of doubts use a color blindness analyzer.
   </p>
 
-  <h3>High contrast on Windows</h3>
+  <h3 id="high-contrast-on-windows">High contrast on Windows</h3>
   <p>
     Windows currently offers 4 high contrast modes: <em>High Contrast #1</em>, <em>High Contrast #2</em>, <em>High Contrast Black</em> and <em>High Contrast White</em>. Work closely with engineers to make sure that your palette is translated properly following the hierarchy that you defined in the default theme.
   </p>
 
-  <img class="mb3" src="images/colors/firefox-win-high-contrast-1.jpg" alt="">
+  <figure>
+    <img src="images/colors/firefox-win-high-contrast-1.jpg" alt="">
+  </figure>
 
   <div class="pa3 bg-grey-5">
-    <p class="ma0 fw7">Resources</p>
+    <p><strong>Resources</strong></p>
     <ul>
       <li>
         <a class="blue-5 no-underline pointer" href="https://www.paciellogroup.com/resources/contrastanalyser/">Color contrast and color blindness analyzer</a> app for Windows and macOS from The Paciello Group.
