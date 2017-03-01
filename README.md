@@ -11,6 +11,7 @@ To run (with hot-reloading!):
 $ npm install
 $ npm run serve
 ```
+Navigate to http://localhost:3000 to see it!
 
 To build:
 ```
