@@ -1,6 +1,7 @@
 article {
   header {
     font-family: "Fira Sans";
+    margin-bottom: 4rem;
 
     p {
       margin: 0 0 2rem;
@@ -24,12 +25,19 @@ article {
     }
   }
 
-  section:not(:last-child), header {
-    margin-bottom: 4rem;
-  }
-
   section {
     font-family: "Fira Sans";
+    
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--grey-6);
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+
+      @media screen and (min-width: 60em) {
+        margin-bottom: 4rem;
+        padding-bottom: 4rem;
+      }
+    }
 
     h2, h3, h4, strong {
       font-weight: 500;
