@@ -119,19 +119,36 @@ const TableOfContents = React.createClass({
     }
 
     let items = sources.map(getItem);
+    let navStyle = {width: '320px'};
 
     return (<nav 
-        className="bg-dark-gray fixed h-100 left-0 overflow-y-scroll pa3 pa4-ns top-0 w5-ns z-max"
+        className="bg-dark-gray fixed h-100 left-0 top-0 w5-ns z-max"
         id="nav"
+        style={navStyle}
             >
-      <p className="f4 fw5 lh-solid mt0 mb2">
-        <a className="white no-underline" 
-            href="/#/welcome"
-        >{'Firefox Design System'}
-        </a>
-      </p>
-      <p className="white f6 mt0 mb5 lh-copy ttu fw5">{'starting v57 (photon)'}</p>
-      {items}
+      <div className="flex flex-column h-100">
+        <div className="self-start pa3 pa4-ns">
+          <p className="f4 fw5 lh-solid mt0 mb2">
+            <a className="white no-underline" 
+                href="/#/welcome"
+            >{'Firefox Design System'}
+            </a>
+          </p>
+          <p className="white f6 ma0 lh-copy ttu fw5">{'starting v57 (photon)'}</p>
+        </div>
+        <div className="self-stretch overflow-y-scroll h-100 ph3 ph4-ns">
+          {items}
+        </div>
+        <div className="self-end pa3 pa4-ns">
+          <p className="white ma0 lh-copy">
+            {'Questions, doubts or feedback? '}
+            <a className="white" 
+                href="https://github.com/bwinton/StyleGuide/issues"
+            >{'Open an issue!'}
+            </a>
+          </p>
+        </div>
+      </div>
     </nav>)
   }
 });
