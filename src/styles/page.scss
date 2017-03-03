@@ -1,7 +1,11 @@
 article {
   header {
     font-family: "Fira Sans";
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: 60em) {
+      margin-bottom: 4rem;
+    }
 
     p {
       margin: 0 0 2rem;
