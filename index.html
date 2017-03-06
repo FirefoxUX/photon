@@ -12,13 +12,16 @@
     <link rel="stylesheet" type="text/css" href="static/style.css" />
   </head>
   <body>
-    <header id="header" class="fixed top-0 left-0 w-100 bg-white z-999 dn">
-      <div class="center mw7 pa3">
-        <span class="pointer" onclick="showNav()">MENU</span>
+    <header id="header" class="bg-dark-gray fixed top-0 left-0 w-100 white font-smoothing z-999 dn-l">
+      <div class="center mw7 pa3 cf">
+        <p class="ma0 fl w-50 fw5">Firefox Design System</p>
+        <p class="ma0 fl w-50 fw5 tr">
+          <a data-href="nav" class="white no-underline pointer">MENU</a>
+        </p>
       </div>
     </header>
-    <div id="overlay" class="fixed top-0 left-0 w-100 h-100 dn z-9999" onclick="hideNav()"></div>
     <div id="mount"></div>
+    <!--
     <footer id="footer">
       <div class="center mw7 pa3 mb6 cf">
         <p class="fl w-50-ns ma0">
@@ -29,6 +32,7 @@
         </p>
       </div>
     </footer>
+    -->
     <script src="static/bundle.js"></script>
     <script src="scripts/custom.js"></script>
   </body>

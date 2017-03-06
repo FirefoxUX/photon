@@ -14,9 +14,11 @@ const App = React.createClass({
   },
 
   render: function() {
-    return (<div className="app">
+    return (<div className="flex flex-column flex-row-l fixed-l w-100-l h-100-l">
       <TableOfContents/>
-      <Editor/>
+      <article className="order-0 order-1-l overflow-y-scroll-l w-100">
+        <Editor/>
+      </article>
     </div>);
   }
 });
