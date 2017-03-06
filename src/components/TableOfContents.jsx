@@ -73,7 +73,7 @@ const Page = connect(state => {
     const { item, i, page, pages } = this.props;
 
     const url = `/${item.file}`;
-    return (<Link activeClassName="active"
+    return (<Link activeClassName="fw5"
         className={'db no-underline gray fw4 pv2' + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
