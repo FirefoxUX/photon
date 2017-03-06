@@ -17,29 +17,31 @@ article {
     }
 
     ul {
-      border-top: 1px solid #eee;
-      border-bottom: 1px solid #eee;
       list-style-type: none;
-      padding: 1rem 0 0;
+      padding: 0;
     }
 
     li {
-      // display: inline-block;
-      padding: 0 1rem 1rem 0;
+      &:not(:last-child) {
+        padding: 0 0 1rem;
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
     }
   }
 
   section {
     font-family: "Fira Sans";
-    
-    &:not(:last-child) {
-      border-bottom: 1px solid #eee;
-      margin-bottom: 2rem;
-      padding-bottom: 2rem;
 
-      @media screen and (min-width: 60em) {
-        margin-bottom: 4rem;
-        padding-bottom: 4rem;
+    article {
+      &:first-of-type {
+        float: left;
+        width: 50%;
+      }
+      &:last-of-type {
+        float: left;
+        width: 50%;
       }
     }
 
@@ -51,8 +53,12 @@ article {
       margin: 0 0 2rem;
     }
 
-    h2, h3, h4 {
-      margin: 0 0 1rem;
+    h2 {
+      margin: 3rem 0 1rem;
+    }
+
+    h3, h4 {
+      margin: 2rem 0 1rem;
     }
 
     p, ul {
@@ -79,6 +85,10 @@ article {
       padding: 1rem 1rem 0.25rem 1rem;
       margin: 0 0 1rem;
 
+      h4 {
+        margin-top: 0;
+      }
+
       ul {
         list-style-type: none;
         padding-left: 0;
@@ -86,6 +96,10 @@ article {
 
       li {
         margin-bottom: 0.5rem;
+      }
+
+      @media screen and (min-width: 60em) {
+        width: 50%;
       }
     }
 
@@ -95,7 +109,7 @@ article {
       border-spacing: 0;
       font-size: small;
       margin-bottom: 1rem;
-      table-layout: auto;
+      // table-layout: auto;
       width: 100%;
 
       thead {
