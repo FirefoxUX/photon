@@ -42,7 +42,7 @@ const Editor = React.createClass({
       }
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
-    return (<div className={'center mb5 mw7 pb3 ph3 pt5 pt4-l' +
+    return (<div className={'center mb5 mw7 pb3 ph3 mt3 pt5 mt0-l pt4-l' +
       (this.props.url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}

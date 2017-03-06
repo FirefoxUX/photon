@@ -121,7 +121,7 @@ const TableOfContents = React.createClass({
     let items = sources.map(getItem);
 
     return (<nav 
-        className="bg-near-white near-black h-100 w-100 z-max order-1 order-0-l w-6-l"
+        className="bg-near-white h-100 w-100 z-max order-1 order-0-l w-6-l"
         id="nav"
             >
       <div className="flex flex-column h-100 center mw7 pa3 pa4-l">
