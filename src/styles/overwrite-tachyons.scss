@@ -1,6 +1,6 @@
 code, .code { font-family: "Fira Mono"; }
 
-.white {
+.font-smoothing {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -75,3 +75,8 @@ code, .code { font-family: "Fira Mono"; }
 .bg-black-082 { background-color: var(--black-082); }
 
 .bg-red-5 { background-color: var(--red-5); }
+
+@media screen and (min-width: 60em) {
+  .w-6-l { width: 32rem; }
+}
+
