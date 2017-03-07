@@ -89,7 +89,7 @@ module.exports = [{
   }
 }, {
   entry: {
-    all: './src/styles/all.scss'
+    all: './src/styles/main.scss'
   },
   output: {
     path: path.join(__dirname, 'dist', 'static'),
