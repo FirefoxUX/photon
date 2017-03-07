@@ -1,43 +1,21 @@
 [ {"title": "Overview",
     "pages": [
       {"title": "Welcome",
-        "file": "welcome"},
-      {"title": "Design Values",
-        "file": "designValues",
-        "url": "/DesignValues/embed.html"}
+        "file": "welcome"}
       ]
   },
   {"title": "Style",
     "pages": [
       {"title": "Color",
         "file": "color"},
-      {"title": "Icons",
-        "file": "icondesign"}
-      ]
-  },
-  {"title": "Copy",
-    "pages": [
-      {"title": "Introduction",
-        "file": "introduction"},
-      {"title": "Voice and Tone",
-        "file": "voice"},
-      {"title": "Writing for Users",
-        "file": "writing"},
-      {"title": "Localization",
-        "file": "localization"},
-      {"title": "Accessibility",
-        "file": "accessibility"},
-      {"title": "Copy Rules",
-        "file": "copyrules"}
+      {"title": "Iconography",
+        "file": "iconography"}
       ]
   },
   {"title": "Resources",
     "pages": [
       {"title": "Word List",
         "file": "wordlist"},
-      {"title": "Icons",
-        "file": "icons",
-        "url": "/firefox-svg-icons/viewer/embed.html"},
       {"title": "Templates",
         "file": "templates"}
       ]
