@@ -1,6 +1,10 @@
 language: node_js
 node_js:
 - 5.5.0
+# safelist
+branches:
+  only:
+  - master
 env:
   global:
   - secure: "qIgYx9quVapNxkx/iWcZ2iQ4di/u6+qt/z7o5h5VCOX8+Pmd6FGsjmtomiEzy/7QH6NIfDSxk7Rvd8U2CXbL6n/LI8/7EHWJgII5gWcURIakYMkUTkx9cUW/mikW5eF+GlN5lyecHj/PjcxAht5FMmpF8LzovkAKpDgP7RDcIfc9gnHr+p8fOI1vSvtcFUhnYGk6xEGn4IHJgX/Rfn4GPSzFAb0uaPtZZSIK8G6jP1pMaKzWVN4TzXzlO1uUL3APHpSjOaTZTtog6NHryotXiH2/f8UYuAhvO/fiTirhMfxo6L5vZLmwi3jKZiqe6iw8WEvcmQer5wICYogBN1gOXHjA72yNoBcx4lC3lM6P0+dTgCS5WKARlMexpieFoeZ4Xfx3MCtD95WnbmMWHQ99EDrF8j5CNMkGIvpPwzeY0hhsRhD5WY5OoCUjVjEuw0O1x4//53wWr95iAfplApvcLAFtU4kw45RpEHK6TGPdTdLqwjUcq1Dvg9IzhKcy6YyuT5PJAuMHaxidY/77166MKvEwbnwyCTGEUnkp4og+dLbtZWkaBZaxMA1tRCUv/k/WGZs87jb2ItCWRW0fIJI5eKkukKjGHHYYJ+wAszuVkEc/nTFbPu5YmkdAhUGoRJIx/0sswB6xbVFz48bQCoxBuvXOiqLzPpeoJpg5/RaYbzk="
