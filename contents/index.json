@@ -1,21 +1,21 @@
 [ {"title": "Overview",
     "pages": [
       {"title": "Welcome",
-        "file": "welcome"},
+        "file": "welcome.html"},
       {"title": "Getting started",
-        "file": "getting-started"}
+        "file": "getting-started.html"}
       ]
   },
   {"title": "Style",
     "pages": [
       {"title":"Grid",
-      "file": "grid"},
+      "file": "grid.html"},
       {"title": "Typography",
-      "file": "typography"},
+      "file": "typography.html"},
       {"title": "Color",
-        "file": "color"},
+        "file": "color.html"},
       {"title": "Iconography",
-        "file": "iconography"}
+        "file": "iconography.html"}
       ]
   },
   {"title": "Motion",
@@ -37,7 +37,7 @@
   {"title": "Resources",
     "pages": [
       {"title": "Templates",
-        "file": "templates"}
+        "file": "templates.html"}
       ]
   }
 ]

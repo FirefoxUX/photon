@@ -9,13 +9,18 @@
 function getContent(dispatch, file) {
   // Put something innocuous in the text to indicate we're loading.
   dispatch({type: 'TEXT', text: '&nbsp;', file: file});
-  return fetch(`contents/${file}.html`)
+  return fetch(`contents/${file}`)
     .then(response => {
       if (response.status < 200 || response.status >= 300) {
-        return `Error loading ${file}.html`;
+        return `Error loading ${file}`;
       }
       return response.text()
-    }).then(text => dispatch({type: 'TEXT', text: text || '', file: file}));
+    }).then(text => {
+      dispatch({type: 'TEXT', text: text || '', file: file});
+      if (window.location.hash) {
+        window.location.replace(window.location);
+      }
+    });
 }
 
 /**

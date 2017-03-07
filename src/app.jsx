@@ -12,7 +12,7 @@ const { createStore, applyMiddleware, combineReducers } = require('redux');
 const { Provider } = require('react-redux');
 const thunkMiddleware = require('redux-thunk');
 const createLogger = require('redux-logger');
-const { createHashHistory } = require('history');
+const { createHistory } = require('history');
 const { syncReduxAndRouter, routeReducer, pushPath } = require('redux-simple-router');
 
 const { getContent, loadUrl } = require('./components/actions.js');
@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === 'development') {
 
 var store = createStoreWithMiddleware(reducer);
 
-var history = createHashHistory({queryKey: false});
+var history = createHistory({queryKey: false});
 syncReduxAndRouter(history, store);
 
 
