@@ -30,20 +30,11 @@ article {
       }
     }
   }
+}
 
+article {
   section {
     font-family: "Fira Sans";
-
-    article {
-      &:first-of-type {
-        float: left;
-        width: 50%;
-      }
-      &:last-of-type {
-        float: left;
-        width: 50%;
-      }
-    }
 
     h2, h3, h4, strong {
       font-weight: 500;
@@ -140,5 +131,11 @@ article {
         font-size: initial;
       }
     }
+  }
+}
+
+article {
+  footer {
+    font-family: "Fira Sans";
   }
 }
