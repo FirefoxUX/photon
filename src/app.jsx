@@ -16,7 +16,7 @@ const { createHistory } = require('history');
 const { syncReduxAndRouter, routeReducer, pushPath } = require('redux-simple-router');
 
 const { getContent, loadUrl } = require('./components/actions.js');
-const { getPage } = require('./components/utilities.js');
+const { getPage, getUrl } = require('./components/utilities.js');
 const data = require('./components/store.js');
 const App = require('./components/App.jsx');
 const reducer = combineReducers(Object.assign({},
@@ -56,7 +56,7 @@ function onUpdate() {
 
   // If there's nothing, redirect to the first page.
   if (!page) {
-    let url = '/' + pages[0].file;
+    let url = getUrl(pages[0]);
     store.dispatch(pushPath(url));
     return;
   }

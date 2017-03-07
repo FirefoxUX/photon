@@ -1,7 +1,9 @@
+/* global process:false */
 'use strict';
+const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/StyleGuide';
 
 function parsePath(path) {
-  return path.replace(/#.*/, '').split('/').concat([null])[1];
+  return path.replace(PREFIX, '').replace(/#.*/, '').split('/').concat([null])[1];
 }
 
 function getPage(path, pages) {
@@ -10,4 +12,8 @@ function getPage(path, pages) {
   return page;
 }
 
-module.exports = {getPage, parsePath};
+function getUrl(page) {
+  return PREFIX + '/' + page.file;
+}
+
+module.exports = {getPage, parsePath, getUrl};

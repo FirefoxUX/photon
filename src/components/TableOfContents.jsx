@@ -6,7 +6,7 @@ const React = require('react');
 const { Link } = require('react-router');
 
 const { connect } = require('react-redux');
-const { getPage } = require('./utilities.js');
+const { getPage, getUrl } = require('./utilities.js');
 
 const ListItem = connect(state => {
   var {path} = state.routing;
@@ -72,7 +72,7 @@ const Page = connect(state => {
   render() {
     const { item, i, page, pages } = this.props;
 
-    const url = `/${item.file}`;
+    const url = getUrl(item);
     return (<Link activeClassName="fw5"
         className={'db no-underline gray fw4 pv2' + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
