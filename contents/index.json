@@ -14,8 +14,6 @@
   },
   {"title": "Resources",
     "pages": [
-      {"title": "Word List",
-        "file": "wordlist"},
       {"title": "Templates",
         "file": "templates"}
       ]
