@@ -1,43 +1,45 @@
 [ {"title": "Overview",
     "pages": [
       {"title": "Welcome",
-        "file": "welcome"},
-      {"title": "Getting started",
-        "file": "getting-started"}
+        "file": "welcome.html"},
+      {"title": "Design Values",
+        "file": "designvalues.html",
+        "url": "/DesignValues/embed.html"}
       ]
   },
   {"title": "Style",
     "pages": [
-      {"title":"Grid",
-      "file": "grid"},
-      {"title": "Typography",
-      "file": "typography"},
       {"title": "Color",
-        "file": "color"},
-      {"title": "Iconography",
-        "file": "iconography"}
-      ]
-  },
-  {"title": "Motion",
-    "pages": [
+        "file": "color.html"},
+      {"title": "Icons",
+        "file": "icondesign.html"}
       ]
   },
   {"title": "Copy",
     "pages": [
+      {"title": "Introduction",
+        "file": "introduction.html"},
+      {"title": "Voice and Tone",
+        "file": "voice.html"},
+      {"title": "Writing for Users",
+        "file": "writing.html"},
+      {"title": "Localization",
+        "file": "localization.html"},
+      {"title": "Accessibility",
+        "file": "accessibility.html"},
+      {"title": "Copy Rules",
+        "file": "copyrules.html"}
       ]
-  },
-  {"title": "Patterns",
-    "pages": [
-    ]
-  },
-  {"title": "Components",
-    "pages": [
-    ]
   },
   {"title": "Resources",
     "pages": [
+      {"title": "Word List",
+        "file": "wordlist.html"},
+      {"title": "Icons",
+        "file": "icons.html",
+        "url": "/firefox-svg-icons/viewer/embed.html"},
       {"title": "Templates",
-        "file": "templates"}
+        "file": "templates.html"}
       ]
   }
 ]

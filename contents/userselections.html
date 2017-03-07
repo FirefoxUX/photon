@@ -1,0 +1,185 @@
+<h2>User Selections</h2>
+
+<h3>Switches</h3>
+<p>Use the ON/OFF toggle switch to activate and indicate progress of a single function or setting.</p>
+
+<h4>Default States</h4>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div>
+      <div class="source">
+        <code>&lt;div class=&quot;switch&quot;&gt;&lt;input checked id=&quot;switch1&quot; type=&quot;checkbox&quot; class=&quot;visually-hidden&quot;&gt;&lt;label for=&quot;switch1&quot;&gt;&lt;/label&gt;&lt;/div&gt;</code>
+      </div>
+      Active - On
+    </div>
+
+    <div>
+      <div class="switch">
+        <input id="switch2" type="checkbox" class="visually-hidden">
+        <label for="switch2"></label>
+      </div>
+      Active - Off
+    </div>
+    <div>
+      <div class="switch">
+        <input disabled checked id="switch3" type="checkbox" class="visually-hidden">
+        <label for="switch3"></label>
+      </div>
+      Inactive - On
+    </div>
+    <div>
+      <div class="switch">
+        <input disabled id="switch4" type="checkbox" class="visually-hidden">
+        <label for="switch4"></label>
+      </div>
+      Inactive - Off
+    </div>
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+
+<h4>Progress States</h4>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div>
+      <div class="source">
+        <code>&lt;div class=&quot;switch installing&quot;&gt;&lt;input id=&quot;switch6&quot; type=&quot;checkbox&quot; class=&quot;visually-hidden&quot; disabled&gt;&lt;label for=&quot;switch6&quot;&gt;&lt;/label&gt;&lt;/div&gt;</code>
+      </div>
+      Installing
+    </div>
+    <div>
+      <div class="switch uninstalling">
+        <input id="switch5" type="checkbox" class="visually-hidden" disabled>
+        <label for="switch5"></label>
+      </div>
+      Uninstalling
+    </div>
+    <div class="switch hidden"></div>
+    <div class="switch hidden"></div>
+  </div>
+  <div class="row result"></div>
+</div>
+
+
+<h4>Download States</h4>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div>
+      <div class="source">
+        <code>&lt;div class=&quot;switch downloading&quot;&gt;&lt;input id=&quot;switch7&quot; type=&quot;checkbox&quot; class=&quot;visually-hidden&quot; disabled&gt;&lt;label for=&quot;switch7&quot;&gt;&lt;div class=&quot;progress twenty&quot;&gt;&lt;/div&gt;&lt;/label&gt;&lt;/div&gt;</code>
+      </div>
+      Downloading at 20%
+    </div>
+    <div>
+      <div class="switch downloading">
+        <input id="switch8" type="checkbox" class="visually-hidden" disabled>
+        <label for="switch8"><div class="progress sixty"></div></label>
+      </div>
+      Downloading at 60%
+    </div>
+    <div>
+      <div class="switch downloading">
+        <input id="switch9" type="checkbox" class="visually-hidden" disabled>
+        <label for="switch9"><div class="progress eighty"></div></label>
+      </div>
+      Downloading at 80%
+    </div>
+    <div>
+      <div class="switch success">
+        <input id="switch10" checked type="checkbox" class="visually-hidden" disabled>
+        <label for="switch10"></label>
+      </div>
+      Download Complete
+    </div>
+  </div>
+  <div class="row result"></div>
+</div>
+
+<hr>
+
+<h3>Check Boxes</h3>
+<p>Use checkboxes to allow users to select one or more than one list items.</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+
+    <div class="source column">
+        <code>&lt;div class="checkboxItem"&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checkboxExample01&quot; /&gt;&lt;label for=&quot;checkboxExample01&quot;&gt;Checkbox&lt;/label&gt;&lt;/div&gt;
+          &lt;div class="checkboxItem"&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checkboxExample02&quot; checked /&gt;&lt;label for=&quot;checkboxExample02&quot;&gt;Checked&lt;/label&gt;&lt;/div&gt;
+          &lt;div class="checkboxItem"&gt;&lt;input type=&quot;checkbox&quot; id=&quot;checkboxExample03&quot; /&gt;&lt;label for=&quot;checkboxExample03&quot;&gt;Checkbox&lt;/label&gt;&lt;/div&gt;</code>
+    </div>
+
+    <div class="column">
+      <div class="checkboxItem disabled"><input type="checkbox" name="checkboxDisabled" id="checkboxDisabled01" disabled /><label for="checkboxDisabled01">Disabled</label></div>
+      <div class="checkboxItem disabled"><input type="checkbox" name="checkboxDisabled" id="checkboxDisabled02" disabled checked /><label for="checkboxDisabled02">Disabled</label></div>
+      <div class="checkboxItem disabled"><input type="checkbox" name="checkboxDisabled" id="checkboxDisabled03" disabled /><label for="checkboxDisabled03">Disabled</label></div>
+    </div>
+    <div class="column">
+      <div class="checkboxItem focused"><input type="checkbox" name="checkboxFocused" id="checkboxFocused01" /><label for="checkboxFocused01">Focused</label></div>
+      <div class="checkboxItem focused"><input type="checkbox" name="checkboxFocused" id="checkboxFocused02" checked /><label for="checkboxFocused02">Focused</label></div>
+      <div class="checkboxItem focused"><input type="checkbox" name="checkboxFocused" id="checkboxFocused03" /><label for="checkboxFocused03">Focused</label></div>
+    </div>
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+<h3>OS X Checkbox States</h3>
+<p>Checkboxes on OS X and later platforms will adopt a 4px border
+  radius.</p>
+
+<div class="spec multi-row mac">
+  <div class="row">
+    <div class="column">
+      <div class="checkboxItem"><input type="checkbox" id="checkboxMac01" /><label for="checkboxMac01">Checkbox</label></div>
+      <div class="checkboxItem"><input type="checkbox" id="checkboxMac02" checked /><label for="checkboxMac02">Checked</label></div>
+      <div class="checkboxItem"><input type="checkbox" id="checkboxMac03" /><label for="checkboxMac03">Checkbox</label></div>
+    </div>
+
+    <div class="column">
+      <div class="checkboxItem disabled"><input type="checkbox" name="checkboxDisabled" id="checkboxDisabledMac01" disabled /><label for="checkboxDisabledMac01">Disabled</label></div>
+      <div class="checkboxItem disabled"><input type="checkbox" name="checkboxDisabled" id="checkboxDisabledMac02" disabled checked /><label for="checkboxDisabledMac02">Disabled</label></div>
+      <div class="checkboxItem disabled"><input type="checkbox" name="checkboxDisabled" id="checkboxDisabledMac03" disabled /><label for="checkboxDisabledMac03">Disabled</label></div>
+    </div>
+    <div class="column">
+      <div class="checkboxItem focused"><input type="checkbox" name="checkboxFocused" id="checkboxFocusedMac01" /><label for="checkboxFocusedMac01">Focused</label></div>
+      <div class="checkboxItem focused"><input type="checkbox" name="checkboxFocused" id="checkboxFocusedMac02" checked /><label for="checkboxFocusedMac02">Focused</label></div>
+      <div class="checkboxItem focused"><input type="checkbox" name="checkboxFocused" id="checkboxFocusedMac03" /><label for="checkboxFocusedMac03">Focused</label></div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<h3>Radio Buttons</h3>
+<p>Use radio buttons to limit users to a choice of one item in a list of options.</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source column">
+      <code>&lt;div class=&quot;radioItem&quot; &gt;&lt;input type=&quot;radio&quot; name=&quot;radioExample&quot; id=&quot;radioExample01&quot; /&gt;&lt;label for=&quot;radioExample01&quot;&gt;Radio&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&quot;radioItem&quot; &gt;&lt;input type=&quot;radio&quot; name=&quot;radioExample&quot; id=&quot;radioExample02&quot; checked /&gt;&lt;label for=&quot;radioExample02&quot;&gt;Checked&lt;/label&gt;&lt;/div&gt;
+        &lt;div class=&quot;radioItem&quot; &gt;&lt;input type=&quot;radio&quot; name=&quot;radioExample&quot; id=&quot;radioExample03&quot; /&gt;&lt;label for=&quot;radioExample03&quot;&gt;Radio&lt;/label&gt;&lt;/div&gt;</code>
+    </div>
+
+    <div class="column">
+      <div class="radioItem disabled"><input type="radio" name="radioDisabled" id="radioDisabled01" disabled /><label for="radioDisabled01">Disabled</label></div>
+      <div class="radioItem disabled"><input type="radio" name="radioDisabled" id="radioDisabled02" disabled checked /><label for="radioDisabled02">Disabled</label></div>
+      <div class="radioItem disabled"><input type="radio" name="radioDisabled" id="radioDisabled03" disabled /><label for="radioDisabled03">Disabled</label></div>
+    </div>
+    <div class="column">
+      <div class="radioItem focused"><input type="radio" name="radioFocused" id="radioFocused01" /><label for="radioFocused01">Focused</label></div>
+      <div class="radioItem focused"><input type="radio" name="radioFocused" id="radioFocused02" checked /><label for="radioFocused02">Focused</label></div>
+      <div class="radioItem focused"><input type="radio" name="radioFocused" id="radioFocused03" /><label for="radioFocused03">Focused</label></div>
+    </div>
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+<div class="spacer"></div>

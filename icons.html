@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Firefox Style Guide</title>
+    <meta name="description" content="The Firefox Style Guide contains all the styles to build Firefox-y looking applications and webpages.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+    <style>
+      :root {
+        --orange-5: #ffaa00;
+        --orange-6: #cc7700;
+        --orange-7: #994c00;
+        --orange-8: #662a00;
+        --orange-9: #270d00;
+
+        --magenta-5: #fe1bd9;
+        --magenta-6: #e001bb;
+        --magenta-7: #a9008c;
+        --magenta-8: #70005d;
+        --magenta-9: #2b0023;
+
+        --violet-5: #7e04ff;
+        --violet-6: #6503cc;
+        --violet-7: #4c0199;
+        --violet-8: #330166;
+        --violet-9: #140027;
+
+        --blue-5: #0087ff;
+        --blue-6: #0052cc;
+        --blue-7: #003399;
+        --blue-8: #002266;
+        --blue-9: #000f2b;
+
+        --aqua-5: #0cffff;
+        --aqua-6: #06d1e6;
+        --aqua-7: #039ec0;
+        --aqua-8: #004c66;
+        --aqua-9: #001a27;
+
+        --green-5: #37f709;
+        --green-6: #0bd000;
+        --green-7: #069b18;
+        --green-8: #026811;
+        --green-9: #001a04;
+
+        --yellow-5: #d9ff18;
+        --yellow-6: #96e100;
+        --yellow-7: #55a900;
+        --yellow-8: #397000;
+        --yellow-9: #0e1d00;
+
+        --red-5: #d92015;
+
+        --grey-5: #f0f0f0;
+        --grey-6: #d4d4d4;
+        --grey-7: #999999;
+        --grey-8: #6e6e6e;
+        --grey-9: #404040;
+
+        --black: #000000;
+        --black-01: rgba(0, 0, 0, .1);
+        --black-042: rgba(0, 0, 0, .42);
+        --black-064: rgba(0, 0, 0, .64);
+        --black-082: rgba(0, 0, 0, .82);
+      }
+
+      .fira { font-family: "Fira Sans"; }
+      .code { font-family: "Fira Mono"; }
+
+      .white {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .blue-5 { color: var(--blue-5); }
+
+      .black-042 { color: var(--black-042); }
+      .black-064 { color: var(--black-064); }
+      .black-082 { color: var(--black-082); }
+
+      .red-5 { color: var(--red-5); }
+
+      .green-7 { color: var(--green-7); }
+
+      .yellow-5 { color: var(--yellow-5); }
+
+      .orange-5 { color: var(--orange-5); }
+      .orange-6 { color: var(--orange-6); }
+
+      .bg-orange-5 { background-color: var(--orange-5); }
+      .bg-orange-6 { background-color: var(--orange-6); }
+      .bg-orange-7 { background-color: var(--orange-7); }
+      .bg-orange-8 { background-color: var(--orange-8); }
+      .bg-orange-9 { background-color: var(--orange-9); }
+
+      .bg-magenta-5 { background-color: var(--magenta-5); }
+      .bg-magenta-6 { background-color: var(--magenta-6); }
+      .bg-magenta-7 { background-color: var(--magenta-7); }
+      .bg-magenta-8 { background-color: var(--magenta-8); }
+      .bg-magenta-9 { background-color: var(--magenta-9); }
+
+      .bg-violet-5 { background-color: var(--violet-5); }
+      .bg-violet-6 { background-color: var(--violet-6); }
+      .bg-violet-7 { background-color: var(--violet-7); }
+      .bg-violet-8 { background-color: var(--violet-8); }
+      .bg-violet-9 { background-color: var(--violet-9); }
+
+      .bg-blue-5 { background-color: var(--blue-5); }
+      .bg-blue-6 { background-color: var(--blue-6); }
+      .bg-blue-7 { background-color: var(--blue-7); }
+      .bg-blue-8 { background-color: var(--blue-8); }
+      .bg-blue-9 { background-color: var(--blue-9); }
+
+      .bg-aqua-5 { background-color: var(--aqua-5); }
+      .bg-aqua-6 { background-color: var(--aqua-6); }
+      .bg-aqua-7 { background-color: var(--aqua-7); }
+      .bg-aqua-8 { background-color: var(--aqua-8); }
+      .bg-aqua-9 { background-color: var(--aqua-9); }
+
+      .bg-green-5 { background-color: var(--green-5); }
+      .bg-green-6 { background-color: var(--green-6); }
+      .bg-green-7 { background-color: var(--green-7); }
+      .bg-green-8 { background-color: var(--green-8); }
+      .bg-green-9 { background-color: var(--green-9); }
+
+      .bg-yellow-5 { background-color: var(--yellow-5); }
+      .bg-yellow-6 { background-color: var(--yellow-6); }
+      .bg-yellow-7 { background-color: var(--yellow-7); }
+      .bg-yellow-8 { background-color: var(--yellow-8); }
+      .bg-yellow-9 { background-color: var(--yellow-9); }
+
+      .bg-grey-5 { background-color: var(--grey-5); }
+      .bg-grey-6 { background-color: var(--grey-6); }
+      .bg-grey-7 { background-color: var(--grey-7); }
+      .bg-grey-8 { background-color: var(--grey-8); }
+      .bg-grey-9 { background-color: var(--grey-9); }
+
+      .bg-black { background-color: var(--black); }
+      .bg-black-01 { background-color: var(--black-01); }
+      .bg-black-042 { background-color: var(--black-042); }
+      .bg-black-064 { background-color: var(--black-064); }
+      .bg-black-082 { background-color: var(--black-082); }
+
+      .bg-red-5 { background-color: var(--red-5); }
+    </style>
+  </head>
+  <body>
+    <div id="mount"></div>
+    <div class="fixed bottom-0 w-100 tc bg-aqua-5 white black-082">
+      <p>
+        Questions, doubts or feedback? <a class="black-082" href="https://github.com/bwinton/StyleGuide/issues">Open an issue!</a>
+      </p>
+    </div>
+    <script src="static/bundle.js"></script>
+  </body>
+</html>

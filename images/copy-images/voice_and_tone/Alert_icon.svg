@@ -1,0 +1,31 @@
+<svg id="Alert_icon.svg" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c53b33;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+        font-family: "Fira Sans";
+        font-weight: 300;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <circle id="Rectangle_3_copy_5" data-name="Rectangle 3 copy 5" class="cls-1" cx="60" cy="60" r="60"/>
+  <text id="Alert" class="cls-2" x="45.156" y="96.021">Alert</text>
+  <path id="i" class="cls-3" d="M621.5,1598c11.322,0,20.5,9.63,20.5,21.5s-9.178,21.5-20.5,21.5-20.5-9.63-20.5-21.5S610.178,1598,621.5,1598Zm-3.857,16.88h7.714a0.637,0.637,0,0,1,.643.64v18.84a0.644,0.644,0,0,1-.643.64h-7.714a0.644,0.644,0,0,1-.643-0.64v-18.84A0.637,0.637,0,0,1,617.643,1614.88ZM621.5,1603a4.028,4.028,0,1,1-4.5,4A4.272,4.272,0,0,1,621.5,1603Z" transform="translate(-561 -1572)"/>
+  <path id="Ellipse_3_copy" data-name="Ellipse 3 copy" class="cls-4" d="M621.8,1599.91c10.5,0,19.017,8.92,19.017,19.91s-8.514,19.9-19.017,19.9-19.016-8.91-19.016-19.9S611.3,1599.91,621.8,1599.91Z" transform="translate(-561 -1572)"/>
+</svg>

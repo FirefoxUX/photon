@@ -1,0 +1,33 @@
+<h2>Input Fields</h2>
+
+<p>Use input fields to allow users to enter data or text. They can be displayed alone, with multiple text fields,  or in combination with a button.</p>
+
+<div class="spec multi-row other">
+  <div class="row">
+    <div class="source">
+      <code>&lt;input type=&quot;text&quot; placeholder=&quot;Text Field&quot; /&gt;</code>
+    </div>
+
+    <input type="text" placeholder="Hovered" class="hover" />
+    <input type="text" placeholder="Focused" class="focused" />
+  </div>
+  <div class="row">
+    <input type="text" value="Filled with Stuff!" class="focused" />
+    <input type="text" placeholder="Disabled" class="disabled" disabled />
+    <input type="text" placeholder="Focused" class="hidden" />
+  </div>
+
+  <div class="row result"></div>
+</div>
+
+<p>
+A note on creating error messages for input fields:
+<ul style="padding-left:0;">
+<li>Where possible, let the interface alert people to the error through state or high-contrast color change, so you don’t need to alert people to the mere fact of an error in the microcopy.</li>
+<li>Prioritize brevity over niceties. Don't say please. Just tell people what to do. "Choose a number that is less than . . . "</li>
+<li>Be as specific as possible in the message. "Choose a date" or "Choose a time" or "Enter an address” are all better than “Enter a value.”</li>Speak to users’ cognitive processes instead of their tactile ones where possible. Use words like “choose” or “select” instead of “type” or “key”.  We'd rather engage users' minds than their hands, and this also speaks more universally to users accessing the Web with touchscreens, speech-recognition software, or other user input devices.</li>
+<li>If there are programmatic rules governing valid choices, expose these in the messages where possible. Don't just tell someone that X is the nearest valid value, tell them that they must choose values in x increments. "Choose times in 30-minute increments from 8:00 am."
+</ul>
+</p>
+
+<div class="spacer"></div>

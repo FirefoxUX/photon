@@ -1,0 +1,19 @@
+<svg id="copy-hover.svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6a6a6a;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #2284e6;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1206,817v6h-5a1,1,0,0,1-1-1v-8a1,1,0,0,1,1-1h4.95c0.05,0,2.05,1.984,2.05,2.046V817h-2Zm-1-3v2h2Z" transform="translate(-1200 -813)"/>
+  <path id="copy_icon_copy" data-name="copy icon copy" class="cls-2" d="M1214,828h-6a1,1,0,0,1-1-1v-8a1,1,0,0,1,1-1h4.95c0.05,0,2.05,1.985,2.05,2.047V827A1,1,0,0,1,1214,828Zm-2-9v2h2Z" transform="translate(-1200 -813)"/>
+</svg>
