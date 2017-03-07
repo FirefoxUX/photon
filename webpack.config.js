@@ -89,10 +89,7 @@ module.exports = [{
   }
 }, {
   entry: {
-    all: './src/styles/all.scss',
-    controls: './src/styles/controls.scss',
-    inputs: './src/styles/inputs.scss',
-    panels: './src/styles/panels.scss'
+    all: './src/styles/main.scss'
   },
   output: {
     path: path.join(__dirname, 'dist', 'static'),

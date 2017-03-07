@@ -1,0 +1,9 @@
+article {
+  font-family: "Comic Sans MS" !important;
+
+  h1, h2, h3, h4 {
+    &:not([id]) {
+      font-family: "Comic Sans MS" !important;
+    }
+  }
+}

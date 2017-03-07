@@ -2,7 +2,7 @@
 
 'use strict';
 
-require('./styles/base.scss');
+require('./styles/main.scss');
 
 const React = require('react');
 const ReactDOM = require('react-dom');
@@ -79,7 +79,7 @@ ReactDOM.render((<Provider store={store}>
       />
     </Router>
   </Provider>),
-  document.querySelector('#mount'));
+  document.querySelector('#app'));
 
 window.addEventListener("message", function (event) {
   if (event.data === 'whimsy:enabled') {

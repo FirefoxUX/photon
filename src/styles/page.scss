@@ -1,0 +1,147 @@
+article {
+  header {
+    font-family: "Fira Sans";
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: 60em) {
+      margin-bottom: 4rem;
+    }
+
+    p {
+      margin: 0 0 2rem;
+    }
+
+    h1 {
+      font-weight: 500;
+      margin: 0 0 2rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      a {
+        color: var(--blue-5);
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      &:not(:last-child) {
+        padding: 0 0 1rem;
+      }
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+}
+
+article {
+  section {
+    font-family: "Fira Sans";
+
+    h2, h3, h4, strong {
+      font-weight: 500;
+    }
+
+    h1 {
+      margin: 0 0 2rem;
+    }
+
+    h2 {
+      margin: 3rem 0 1rem;
+    }
+
+    h3, h4 {
+      margin: 2rem 0 1rem;
+    }
+
+    p, ul {
+      margin: 0 0 1rem;
+      line-height: 1.4;
+    }
+
+    a {
+      color: var(--blue-5);
+      text-decoration: none;
+    }
+
+    figure {
+      margin: 0 0 1rem;
+
+      figcaption {
+        margin-top: 0.5rem;
+        font-size: small;
+      }
+    }
+
+    blockquote {
+      background-color: #f4f4f4;
+      padding: 1rem 1rem 0.25rem 1rem;
+      margin: 0 0 1rem;
+
+      h4 {
+        margin-top: 0;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      @media screen and (min-width: 60em) {
+        width: 50%;
+      }
+    }
+
+    table {
+      border: 1px solid #eee;
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: small;
+      margin-bottom: 1rem;
+      // table-layout: auto;
+      width: 100%;
+
+      thead {
+        background-color: #f4f4f4;
+      }
+
+      th {
+        border: 1px solid #eee;
+        font-weight: 500;
+        text-align: left;
+        padding: 0.5rem 0.75rem;
+
+        @media screen and (min-width: 30em) {
+          padding: 0.75rem 1rem;
+        }
+      }
+
+      td {
+        border: 1px solid #eee;
+        padding: 0.5rem 0.75rem;
+
+        @media screen and (min-width: 30em) {
+          padding: 0.75rem 1rem;
+        }
+      }
+
+      @media screen and (min-width: 30em) {
+        font-size: initial;
+      }
+    }
+  }
+}
+
+article {
+  footer {
+    font-family: "Fira Sans";
+  }
+}

@@ -1,0 +1,109 @@
+<header>
+  <h1 id="icons">Iconography</h1>
+  <p>Firefox icons are informative, fun and friendly.</p>
+  <ul>
+    <li>
+      <a class="mr2 blue-5 no-underline pointer" data-href="icon-construction">Icon Construction</a>
+    </li>
+    <li>
+      <a class="mr2 blue-5 no-underline pointer" data-href="placement">Placement</a>
+    </li>
+    <li>
+      <a class="mr2 blue-5 no-underline pointer" data-href="accessibility">Accessibility</a>
+    </li>
+  </ul>
+</header>
+
+<section>
+  <h2 id="icon-construction">Icon Construction</h2>
+  <p>
+    A good Firefox icon is simple but still representing the correct metaphor. Use universal imagery that people can easily recognize. Avoid focusing on a secondary or less familiar aspect of an element.
+  </p>
+  <h3 id="grid">Grid</h3>
+  <p>
+    Firefox icons live on a 16 x 16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintining relative aspect ratios.
+  </p>
+  <blockquote>
+    <h4 id="grid-tips">Tips</h4>
+    <p>Too many details can make an icon appear sloppy or unreadable. Strive for a design most people will interpret correctly and won’t find offensive.</p>
+  </blockquote>
+  <figure>
+    <img src="images/icon-design/grid.png" alt="icon design construction grid">
+    <figcaption>The grid</figcaption>
+  </figure>
+  <h3 id="shape">Shape</h4>
+  <p>
+    Use positive and negative space to create the shape of your icon. When your icon is primarily shaped using lines use a 2px stroke for the foundation and a 1px line for extra details. Rounded end-caps and rounded line joins keep the icon smooth and friendly.
+  </p>
+  <figure>
+    <img src="images/icon-design/shape.png" alt="icon design shape">
+    <figcaption>Shape details</figcaption>
+  </figure>
+  <h3 id="export">Export your icon</h4>
+  <p>
+    If you use icon fonts, prevent screen readers from reading the Unicode and apply ARIA labels. Before exporting, optimize file sizes and remove any unnecessary metadata.
+  </p>
+</section>
+
+<section>
+  <h2 id="placement">Placement</h2>
+  <p>
+    Give icons space according the <a href="#">the grid</a> to increase visibility and interactivity.
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Placement</th>
+        <th>Size</th>
+        <th>Color</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Toolbar</td>
+        <td>16x16</td>
+        <td>Light theme: Black with alpha channel. <br> On dark Theme: Full white</td>
+      </tr>
+      <tr>
+      <td>Panel</td>
+      <td>32x32</td>
+      <td>Grey <br> Validation color</td>
+    </tr>
+    <tr>
+      <td>In content</td>
+      <td>32x32</td>
+      <td>One color</td>
+    </tr>
+  </table>
+  <h3 id="toolbar">Toolbar</h3>
+  <p>
+    Make toolbar icons different, yet harmonious. Each icon should be easily distinguishable from the others, but at the same time, toolbar icons should harmonise as much as possible in their perspective, size, and visual weight.
+  </p>
+  <p>
+    In the toolbar icons are 16px per 16px. They have 16px margin left and right, center-aligned.
+  </p>
+  <figure>
+    <img src="images/icon-design/placement.png" alt="icon placement in the toolbar spec - 10px left/right">
+  </figure>
+  <h3 id="toolbar">Panel</h3>
+  <p>
+    Panel icons live in the top left of a panel. Their size is bigger than the icons that go on the chrome toolbar, therefore they can provide more detail.
+  </p>
+  <p>
+    In the toolbar icons are 16px per 16px. They have 16px margin right.
+  </p>
+  <figure>
+    <img src="images/icon-design/panels.png" alt="panels placeholder img">
+  </figure>
+  <h3 id="toolbar">In content</h3>
+  <p>
+    Preferences and administrator areas in Firefox usually include a dark sidebar navigation. Middle-align both icons and labels.
+  </p>
+</section> 
+
+<section>
+  <h3 id="accessibility">Accesibility</h3>
+  <p>
+    Avoid obscure metaphors, opting for text labels or annotations instead. Use symbols that are recognizable to your users and work for a global audience. If your icon affords interactivity, give it a text label. All icons should have a text-based equivalent for screen readers.
+  </p>
+</section>

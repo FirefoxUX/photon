@@ -2,8 +2,6 @@
 
 'use strict';
 
-require('../styles/toc.scss');
-
 const React = require('react');
 const { Link } = require('react-router');
 
@@ -39,12 +37,12 @@ const ListItem = connect(state => {
       this.props.handleClick(item);
     }
 
-    return (<div className={'section' + ((page && item.title === page.category) ? ' selected' : '') +
+    return (<div className={((page && item.title === page.category) ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
             >
-      <div className={'item'}
+      <p className="fw5 ma0 pv2"
           onClick={handleClick}
-      >{item.title}<span className={'arrow'}></span></div>
+      >{item.title}</p>
       {item.pages.map(this.getPage)}
     </div>
       );
@@ -75,11 +73,11 @@ const Page = connect(state => {
     const { item, i, page, pages } = this.props;
 
     const url = `/${item.file}`;
-    return (<Link activeClassName="active"
-        className={'subitem ' + ((item === page) ? ' selected' : '')}
+    return (<Link activeClassName="fw5"
+        className={'db no-underline gray fw4 pv2' + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
-            >{item.title}</Link>);
+            ><span className="pl3">{item.title}</span></Link>);
   }
 }));
 
@@ -122,16 +120,34 @@ const TableOfContents = React.createClass({
 
     let items = sources.map(getItem);
 
-    return (<div className="toc pa4">
-      <h1 className="mt0 mb2 fw5 lh-solid">
-        <a className="no-underline black-082" 
-            href="#/welcome"
-        >{'Firefox Design System'}
-        </a>
-      </h1>
-      <h2 className="mt0 mb4 f6 lh-copy ttu fw5 black-064">{'starting v57 (photon)'}</h2>
-      {items}
-    </div>)
+    return (<nav 
+        className="bg-near-white h-100 w-100 z-max order-1 order-0-l w-6-l"
+        id="nav"
+            >
+      <div className="flex flex-column h-100 center mw7 pa3 pa4-l">
+        <div className="self-start dn db-l">
+          <p className="f4 fw5 lh-solid ma0">
+            <a className="near-black no-underline" 
+                href="/#/welcome"
+            >{'Firefox Design System'}
+            </a>
+          </p>
+          <p className="f6 lh-copy ttu fw5 mt2 mb4">{'starting v57 (photon)'}</p>
+        </div>
+        <div className="self-stretch overflow-y-scroll h-100 mb5">
+          {items}
+        </div>
+        <div className="self-end w-100">
+          <p className="lh-copy ma0 fw4">
+            {'Questions, doubts or feedback? '}
+            <a className="near-black no-underline fw5" 
+                href="https://github.com/bwinton/StyleGuide/issues"
+            >{'Open an issue on GitHub!'}
+            </a>
+          </p>
+        </div>
+      </div>
+    </nav>)
   }
 });
 
