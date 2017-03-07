@@ -22,6 +22,12 @@ article {
     }
 
     li {
+      a {
+        color: var(--blue-5);
+        text-decoration: none;
+        cursor: pointer;
+      }
+
       &:not(:last-child) {
         padding: 0 0 1rem;
       }
