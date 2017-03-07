@@ -79,7 +79,7 @@ ReactDOM.render((<Provider store={store}>
       />
     </Router>
   </Provider>),
-  document.querySelector('#mount'));
+  document.querySelector('#app'));
 
 window.addEventListener("message", function (event) {
   if (event.data === 'whimsy:enabled') {
