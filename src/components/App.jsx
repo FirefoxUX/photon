@@ -18,12 +18,12 @@ const App = React.createClass({
       <TableOfContents/>
       <article className="order-0 order-1-l overflow-y-scroll-l w-100">
         <Editor/>
-        <footer className="mb5" 
+        <footer className="mb5"
             id="footer"
         >
           <div className="center mw7 ph3 pb3 cf">
             <p className="fl-ns w-50-ns tc tl-ns mt0">
-              <a className="no-underline black" 
+              <a className="no-underline black"
                   href="#!"
               >{'Previos Page Title'}</a>
             </p>

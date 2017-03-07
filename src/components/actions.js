@@ -15,7 +15,12 @@ function getContent(dispatch, file) {
         return `Error loading ${file}`;
       }
       return response.text()
-    }).then(text => dispatch({type: 'TEXT', text: text || '', file: file}));
+    }).then(text => {
+      dispatch({type: 'TEXT', text: text || '', file: file});
+      if (window.location.hash) {
+        window.location.replace(window.location);
+      }
+    });
 }
 
 /**
