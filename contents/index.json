@@ -1,21 +1,41 @@
 [ {"title": "Overview",
     "pages": [
       {"title": "Welcome",
-        "file": "welcome"}
+        "file": "welcome"},
+      {"title": "Getting started",
+        "file": "getting-started"}
       ]
   },
   {"title": "Style",
     "pages": [
+      {"title":"Grid",
+      "file": "grid"},
+      {"title": "Typography",
+      "file": "typography"},
       {"title": "Color",
         "file": "color"},
       {"title": "Iconography",
         "file": "iconography"}
       ]
   },
+  {"title": "Motion",
+    "pages": [
+      ]
+  },
+  {"title": "Copy",
+    "pages": [
+      ]
+  },
+  {"title": "Interactions Patterns",
+    "pages": [
+    ]
+  },
+  {"title": "UI Components",
+    "pages": [
+    ]
+  },
   {"title": "Resources",
     "pages": [
-      {"title": "Word List",
-        "file": "wordlist"},
       {"title": "Templates",
         "file": "templates"}
       ]

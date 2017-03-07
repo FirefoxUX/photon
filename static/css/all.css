@@ -315,6 +315,12 @@ article header ul {
   padding: 0;
 }
 
+article header li a {
+  color: var(--blue-5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
 article header li:not(:last-child) {
   padding: 0 0 1rem;
 }
