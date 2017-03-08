@@ -1,4 +1,9 @@
-/* stylelint-disable property-no-vendor-prefix */
+/*
+  Main
+*/
+/*
+  Variables
+*/
 :root {
   --orange-5: #ffaa00;
   --orange-6: #cc7700;
@@ -47,6 +52,9 @@
   --black-082: rgba(0, 0, 0, 0.82);
 }
 
+/*
+  Global
+*/
 * {
   box-sizing: border-box;
 }
@@ -55,6 +63,9 @@ body {
   font-family: "Fira Sans";
 }
 
+/*
+  Overwrite and add classes to Tachyons CSS
+*/
 code, .code {
   font-family: "Fira Mono";
 }
@@ -295,11 +306,11 @@ code, .code {
 }
 
 /*
- * For pages under /contents
- *
- * These styles are used for enabling content creators and editors to
- * write plain HTML without worrying about CSS classes.
- * */
+  For pages under /contents
+
+  These styles are used for enabling content creators and editors to
+  write plain HTML without worrying about CSS classes.
+*/
 /* Header */
 article header {
   font-family: "Fira Sans";
@@ -451,6 +462,13 @@ article section table td {
   }
 }
 
+/*
+  Content Linter
+
+  If an author or an editor doesn't follow the content specs defined in the wiki 
+  https://github.com/bwinton/StyleGuide/wiki/How-to-use the page set the 
+  typography in Comic Sans.
+*/
 article {
   font-family: "Comic Sans MS" !important;
 }
