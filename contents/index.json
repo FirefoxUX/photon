@@ -1,10 +1,8 @@
-[ {"title": "Overview",
-    "pages": [
-      {"title": "Welcome",
-        "file": "welcome.html"},
-      {"title": "Getting started",
-        "file": "getting-started.html"}
-      ]
+[ {"title": "Welcome",
+    "file": "welcome.html"
+  },
+  {"title": "Getting started",
+    "file": "getting-started.html"
   },
   {"title": "Style",
     "pages": [
