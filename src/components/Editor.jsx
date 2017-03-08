@@ -6,7 +6,18 @@
 require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');
+const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
+
+function addIds(node) {
+  let headings = Array.from(node.querySelectorAll('h1,h2,h3,h4'));
+
+  headings.forEach(e => {
+    if (!e.id) {
+      e.id = e.textContent.toLowerCase().replace(/ /g, '-');
+    }
+  });
+}
 
 const Editor = React.createClass({
   displayName: 'Editor',
@@ -31,6 +42,12 @@ const Editor = React.createClass({
       }
     }, false);
 
+  },
+
+  componentDidUpdate: function(prevProps) {
+    if (prevProps.text !== this.props.text) {
+      addIds(ReactDOM.findDOMNode(this));
+    }
   },
 
   render: function() {
