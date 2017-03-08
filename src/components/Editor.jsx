@@ -6,22 +6,12 @@
 require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');
-const ReactDOM = require('react-dom');
 const { connect } = require('react-redux');
-
-function addIds(node) {
-  let headings = Array.from(node.querySelectorAll('h1,h2,h3,h4'));
-
-  headings.forEach(e => {
-    if (!e.id) {
-      e.id = e.textContent.toLowerCase().replace(/ /g, '-');
-    }
-  });
-}
 
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
+    addIds: React.PropTypes.func,
     dispatch: React.PropTypes.func,
     text: React.PropTypes.string,
     url: React.PropTypes.string
@@ -46,7 +36,7 @@ const Editor = React.createClass({
 
   componentDidUpdate: function(prevProps) {
     if (prevProps.text !== this.props.text) {
-      addIds(ReactDOM.findDOMNode(this));
+      this.props.addIds(this)
     }
   },
 
@@ -59,11 +49,12 @@ const Editor = React.createClass({
       }
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
-    return (<div className={'center mb5 mw7 pb3 ph3 mt3 pt5 mt0-l pt4-l' +
+    return (<div className={'center mb5 mw7 pb3 ph3 mt3 mt0-l' +
       (this.props.url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}
-            ></div>)
+            >
+            </div>)
   }
 
 });
