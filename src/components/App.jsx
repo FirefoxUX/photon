@@ -18,7 +18,7 @@ const App = React.createClass({
       <TableOfContents/>
       <article className="order-0 order-1-l overflow-y-scroll-l w-100">
         <Editor/>
-        <footer className="mb5"
+        <footer className="mb5 fira"
             id="footer"
         >
           <div className="center mw7 ph3 pb3 cf">
