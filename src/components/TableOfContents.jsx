@@ -25,10 +25,13 @@ const ListItem = connect(state => {
   },
 
   getPage: (item, i) => {
-    return (<Page
-        i={i}
-        item={item}
-            />);
+    return (
+      <Page
+          i={i}
+          item={item}
+          key={i}
+      />
+    );
   },
 
   render() {
@@ -36,6 +39,7 @@ const ListItem = connect(state => {
     let handleClick = () => {
       this.props.handleClick(item);
     }
+    const pages = item.pages || [item];
 
     return (<div className={((page && item.title === page.category) ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
@@ -43,7 +47,7 @@ const ListItem = connect(state => {
       <p className="fw5 ma0 pv2"
           onClick={handleClick}
       >{item.title}</p>
-      {item.pages.map(this.getPage)}
+      {pages.map(this.getPage)}
     </div>
       );
   }
@@ -109,12 +113,22 @@ const TableOfContents = React.createClass({
     let expanded = this.state.expanded;
 
     let getItem = (item, i) => {
-      return ([].concat(
-        <ListItem expanded={item === expanded}
-            handleClick={handleClick}
+      if (item.pages) {
+        return (
+          <ListItem expanded={item === expanded}
+              handleClick={handleClick}
+              i={i}
+              item={item}
+              key={i}
+          />
+        );
+      }
+      return (
+        <Page
             i={i}
             item={item}
-        />)
+            key={i}
+        />
       );
     }
 

@@ -8,7 +8,7 @@ var failPlugin = require('webpack-fail-plugin');
 var DashboardPlugin = require('webpack-dashboard/plugin');
 
 var pages = require('./contents/index.json')
-  .map(x => x.pages)
+  .map(x => x.pages || [x])
   .reduce((acc, val) => acc.concat(val), [{ file: 'index' }])
   .map(x => {
     return { from: 'index.html', to: `../${x.file}` }

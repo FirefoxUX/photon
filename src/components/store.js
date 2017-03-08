@@ -7,7 +7,8 @@ const { parsePath } = require('./utilities.js');
 function mungeSources(sources) {
   let pages = []
   sources.forEach(source => {
-    source.pages.forEach(page => {
+    let sourcePages = source.pages || [source];
+    sourcePages.forEach(page => {
       pages.push(Object.assign({'category':source.title}, page));
     })
   })
