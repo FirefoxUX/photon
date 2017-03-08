@@ -5,7 +5,7 @@ var WebpackDevServer = require('webpack-dev-server');
 var frontendConfig = require('./webpack.config.js')[0];
 
 var pages = require('./contents/index.json')
-  .map(x => x.pages)
+  .map(x => x.pages || [x])
   .reduce((acc, val) => acc.concat(val), [])
   .map(x => {
     return `/${x.file}`
