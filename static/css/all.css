@@ -59,6 +59,10 @@ code, .code {
   font-family: "Fira Mono";
 }
 
+.fira {
+  font-family: "Fira Sans";
+}
+
 .font-smoothing {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -290,19 +294,16 @@ code, .code {
   }
 }
 
+/*
+ * For pages under /contents
+ *
+ * These styles are used for enabling content creators and editors to
+ * write plain HTML without worrying about CSS classes.
+ * */
+/* Header */
 article header {
   font-family: "Fira Sans";
   margin-bottom: 2rem;
-}
-
-@media screen and (min-width: 60em) {
-  article header {
-    margin-bottom: 4rem;
-  }
-}
-
-article header p {
-  margin: 0 0 2rem;
 }
 
 article header h1 {
@@ -310,15 +311,13 @@ article header h1 {
   margin: 0 0 2rem;
 }
 
+article header p {
+  margin: 0 0 2rem;
+}
+
 article header ul {
   list-style-type: none;
   padding: 0;
-}
-
-article header li a {
-  color: var(--blue-5);
-  text-decoration: none;
-  cursor: pointer;
 }
 
 article header li:not(:last-child) {
@@ -329,6 +328,19 @@ article header li:last-child {
   padding-bottom: 0;
 }
 
+article header a {
+  color: var(--blue-5);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 60em) {
+  article header {
+    margin-bottom: 4rem;
+  }
+}
+
+/* Section typography */
 article section {
   font-family: "Fira Sans";
 }
@@ -368,10 +380,17 @@ article section figure figcaption {
   font-size: small;
 }
 
+/* Section blockquote */
 article section blockquote {
   background-color: #f4f4f4;
   padding: 1rem 1rem 0.25rem 1rem;
   margin: 0 0 1rem;
+}
+
+@media screen and (min-width: 60em) {
+  article section blockquote {
+    width: 50%;
+  }
 }
 
 article section blockquote h4 {
@@ -387,19 +406,21 @@ article section blockquote li {
   margin-bottom: 0.5rem;
 }
 
-@media screen and (min-width: 60em) {
-  article section blockquote {
-    width: 50%;
-  }
-}
-
+/* Section table */
 article section table {
   border: 1px solid #eee;
   border-collapse: collapse;
   border-spacing: 0;
   font-size: small;
   margin-bottom: 1rem;
+  table-layout: auto;
   width: 100%;
+}
+
+@media screen and (min-width: 30em) {
+  article section table {
+    font-size: initial;
+  }
 }
 
 article section table thead {
@@ -428,16 +449,6 @@ article section table td {
   article section table td {
     padding: 0.75rem 1rem;
   }
-}
-
-@media screen and (min-width: 30em) {
-  article section table {
-    font-size: initial;
-  }
-}
-
-article footer {
-  font-family: "Fira Sans";
 }
 
 article {
