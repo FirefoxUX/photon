@@ -110,7 +110,8 @@ module.exports = [{
       ...pages,
       { from: 'index.html', to: '../' },
       { from: 'contents', to: '../contents' },
-      { from: 'images', to: '../images' }
+      { from: 'images', to: '../images' },
+      { from: '404.html', to: '../' }
     ])
   ]),
   sassLoader: {
