@@ -27,7 +27,7 @@ const Footer = connect(state => {
             <Link activeClassName="fw5"
                 className="no-underline black"
                 to={getUrl(this.props.previous_page)}
-            ><span className="pl3">{this.props.previous_page.title}</span>
+            >{this.props.previous_page.title}
             </Link>
           </p>
           <p className="fl-ns w-50-ns tc tr-ns mt0">
