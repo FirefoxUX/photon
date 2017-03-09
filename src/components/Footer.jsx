@@ -19,20 +19,21 @@ const Footer = connect(state => {
 
   render: function() {
     return(
-      <footer className="mb5 fira">
-        <div className="center mw7 ph3 pb3 cf">
-          <p className="fl-ns w-50-ns tc tl-ns mt0">
+      <footer className="fira">
+        <div className="center mw7 ph3 pb3-ns cf">
+          <p className="fl w-50 tl mt0">
+            <span className="pr2 code">&#8592;</span>
             <Link activeClassName="fw5"
                 className="no-underline black"
                 to={getUrl(this.props.previous_page)}
             >{this.props.previous_page.title}
             </Link>
           </p>
-          <p className="fl-ns w-50-ns tc tr-ns mt0">
+          <p className="fl w-50 tr mt0">
             <Link activeClassName="fw5"
                 className="no-underline black"
                 to={getUrl(this.props.next_page)}
-            ><span className="pl3">{this.props.next_page.title}</span>
+            >{this.props.next_page.title}<span className="pl2 code">&#8594;</span>
             </Link>
           </p>
         </div>
