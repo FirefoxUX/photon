@@ -27,6 +27,7 @@ const ListItem = connect(state => {
   getPage: (item, i) => {
     return (
       <Page
+          classes="db no-underline gray fw4 pv2 pl3"
           i={i}
           item={item}
           key={i}
@@ -63,6 +64,7 @@ const Page = connect(state => {
   displayName: 'Page',
 
   propTypes: {
+    classes: React.PropTypes.string,
     i: React.PropTypes.number,
     item: React.PropTypes.shape(),
     page: React.PropTypes.shape().isRequired,
@@ -74,14 +76,14 @@ const Page = connect(state => {
   },
 
   render() {
-    const { item, i, page, pages } = this.props;
+    const { item, i, page, pages, classes } = this.props;
 
     const url = getUrl(item);
     return (<Link activeClassName="fw5"
-        className={'db no-underline gray fw4 pv2' + ((item === page) ? ' selected' : '')}
+        className={classes + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
-            ><span className="pl3">{item.title}</span></Link>);
+            >{item.title}</Link>);
   }
 }));
 
@@ -115,7 +117,8 @@ const TableOfContents = React.createClass({
     let getItem = (item, i) => {
       if (item.pages) {
         return (
-          <ListItem expanded={item === expanded}
+          <ListItem
+              expanded={item === expanded}
               handleClick={handleClick}
               i={i}
               item={item}
@@ -125,6 +128,7 @@ const TableOfContents = React.createClass({
       }
       return (
         <Page
+            classes="db no-underline fw5 ma0 pv2 near-black"
             i={i}
             item={item}
             key={i}
