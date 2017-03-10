@@ -27,7 +27,7 @@ const ListItem = connect(state => {
   getPage: (item, i) => {
     return (
       <Page
-          classes="db no-underline gray fw4 pv2"
+          classes="db no-underline gray fw4 pv2 pl3"
           i={i}
           item={item}
           key={i}
@@ -83,7 +83,7 @@ const Page = connect(state => {
         className={classes + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
-            ><span className="pl3">{item.title}</span></Link>);
+            >{item.title}</Link>);
   }
 }));
 
@@ -117,7 +117,8 @@ const TableOfContents = React.createClass({
     let getItem = (item, i) => {
       if (item.pages) {
         return (
-          <ListItem expanded={item === expanded}
+          <ListItem
+              expanded={item === expanded}
               handleClick={handleClick}
               i={i}
               item={item}
