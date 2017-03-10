@@ -79,7 +79,7 @@ const Page = connect(state => {
     const { item, i, page, pages, classes } = this.props;
 
     const url = getUrl(item);
-    return (<Link activeClassName="fw5 blue-5"
+    return (<Link activeClassName="fw5 blue"
         className={classes + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
