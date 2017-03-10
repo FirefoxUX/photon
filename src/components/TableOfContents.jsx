@@ -79,7 +79,7 @@ const Page = connect(state => {
     const { item, i, page, pages, classes } = this.props;
 
     const url = getUrl(item);
-    return (<Link activeClassName="fw5"
+    return (<Link activeClassName="fw5 blue-5"
         className={classes + ((item === page) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
@@ -142,7 +142,7 @@ const TableOfContents = React.createClass({
         className="bg-near-white h-100 w-100 z-max order-1 order-0-l w-6-l"
         id="nav"
             >
-      <div className="flex flex-column h-100 center mw7 pa3 pa4-l">
+      <div className="flex flex-column h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-scroll">
         <div className="self-start dn db-l">
           <p className="f4 fw5 lh-solid ma0">
             <a className="near-black no-underline" 
@@ -152,10 +152,10 @@ const TableOfContents = React.createClass({
           </p>
           <p className="f6 lh-copy ttu fw5 mt2 mb4">{'starting v57 (photon)'}</p>
         </div>
-        <div className="self-stretch overflow-y-scroll h-100 mb5">
+        <div className="self-stretch h-100 mb5">
           {items}
         </div>
-        <div className="self-end w-100">
+        <div className="self-end w-100 pb3 pb4-l">
           <p className="lh-copy ma0 fw4">
             {'Questions, doubts or feedback? '}
             <a className="near-black no-underline fw5" 
