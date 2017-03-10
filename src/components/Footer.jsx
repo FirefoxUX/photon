@@ -20,7 +20,7 @@ const Footer = connect(state => {
   render: function() {
     return(
       <footer className="fira">
-        <div className="center mw7 ph3 pb3-ns cf">
+        <div className="center mw7 ph3 pb3-l cf">
           <p className="fl w-50 fw5 tl mt0">
             <span className="pr2 pr3-ns code fw6">&#8592;</span>
             <Link activeClassName="fw5"
