@@ -1,4 +1,4 @@
-# Firefox UX Style Guide  [![Build Status](https://travis-ci.org/FirefoxUX/StyleGuide.svg?branch=master)](https://travis-ci.org/FirefoxUX/StyleGuide)
+# Firefox Design System  [![Build Status](https://travis-ci.org/FirefoxUX/StyleGuide.svg?branch=master)](https://travis-ci.org/FirefoxUX/StyleGuide)
 
 Requires:
 * npm version: 3.5.3
