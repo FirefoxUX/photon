@@ -163,7 +163,8 @@ section div {
     clear: both;
   }
 
-  div {
+  div:not[style],
+  div:not[class] {
     @media screen and (min-width: 30em) {
       float: left;
       width: 50%;
