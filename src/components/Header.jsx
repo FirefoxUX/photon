@@ -10,36 +10,28 @@ const Header = React.createClass({
   },
 
   render: function() {
-    let links = this.props.header_links.map((link, i) => {
+    const {header_links, header, header_description} = this.props;
+    let links = header_links.map((link, i) => {
       return (<li
           key={i}
               ><a href={'#' + link.id}>
               {link.name}</a>
       </li>);
     });
+    let header_id = header.trim().toLowerCase().replace(/ /g, '-');
 
-    var header_id = this.props.header.toLowerCase().replace(/ /g, '-');
     return(
       <header className = "center mb5 mw7 ph3 mt3 mt0-l pt4-l">
-        <h1 id={header_id}>{this.props.header}</h1>
-        <p>{this.props.header_description}</p>
-        <ul>
-          {links}
-        </ul>
+        <h1 id={header_id}>{header}</h1>
+        <p>{header_description}</p>
+        <ul>{links}</ul>
       </header>)
   }
 });
 
-// module.exports = Header;
-
 function makeProps(state) {
-  var {header, header_description, header_links} = state.data;
-
-  return {
-    header: header,
-    header_description: header_description,
-    header_links: header_links
-  }
+  let {header, header_description, header_links} = state.data;
+  return {header, header_description, header_links};
 }
 
 module.exports = connect(makeProps)(Header);

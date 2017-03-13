@@ -42,7 +42,7 @@ function store(state, action) {
     return Object.assign({}, state, {text: action.text || '', file: action.file});
   case 'URL':
     return Object.assign({}, state, {url: action.url || ''});
-  case 'UPDATE_IDS':
+  case 'UPDATE_HEADER':
     return Object.assign({}, state, {header: action.header || '', header_description: action.header_description || '', header_links: action.header_links});
   default:
     return state;

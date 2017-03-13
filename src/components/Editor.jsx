@@ -8,6 +8,7 @@ require('../../node_modules/highlight.js/styles/color-brewer.css');
 const React = require('react');
 const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
+const { updateHeader } = require('./actions.js');
 
 const Editor = React.createClass({
   displayName: 'Editor',
@@ -43,27 +44,26 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     let headings = Array.from(node.querySelectorAll('h1,h2,h3,h4'));
     let header_links = [];
-    let header, header_description;
+    let header = '';
+    let header_description = '';
     if (node.querySelector('header')) {
-      header = node.querySelector('header h1').textContent;
-      header_description = node.querySelector('header p') ? node.querySelector('header p').textContent : '';
+      header = node.querySelector('header h1').textContent.trim();
+      header_description = node.querySelector('header p') ? node.querySelector('header p').textContent.trim() : '';
       node.removeChild(node.querySelector('header'));
     }
     headings.forEach(e => {
       if (!e.id) {
-        e.id = e.textContent.toLowerCase().replace(/ /g, '-');
+        e.id = e.textContent.trim().toLowerCase().replace(/ /g, '-');
       }
       if (e.tagName === 'H2') {
-        header_links.push({name: e.textContent, id: e.id})
+        header_links.push({name: e.textContent.trim(), id: e.id});
       }
     });
-
-    this.props.dispatch({type: 'UPDATE_IDS', header: header, header_description: header_description, header_links: header_links});
+    updateHeader(this.props.dispatch, {header: header, header_description: header_description, header_links: header_links});
   },
 
   render: function() {
-    let text = this.props.text;
-    let url = this.props.url;
+    let {text, url} = this.props;
     if (url) {
       if (process.env.NODE_ENV === 'development') {
         url = `https://firefoxux.github.io${url}`;
@@ -71,11 +71,10 @@ const Editor = React.createClass({
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
     return (<div className={'center mb5 mw7 pb3 ph3 mt3 mt0-l' +
-      (this.props.url ? ' url' : ' ')}
+      (url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}
-            >
-            </div>)
+            ></div>)
   }
 
 });
