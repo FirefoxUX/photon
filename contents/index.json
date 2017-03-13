@@ -18,6 +18,8 @@
   },
   {"title": "Motion",
     "pages": [
+        {"title": "Principles",
+          "file": "motion-principles.html"}
       ]
   },
   {"title": "Copy",
