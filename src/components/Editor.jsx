@@ -7,11 +7,11 @@ require('../../node_modules/highlight.js/styles/color-brewer.css');
 
 const React = require('react');
 const { connect } = require('react-redux');
+const ReactDOM = require('react-dom');
 
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
-    addIds: React.PropTypes.func,
     dispatch: React.PropTypes.func,
     text: React.PropTypes.string,
     url: React.PropTypes.string
@@ -31,13 +31,34 @@ const Editor = React.createClass({
         }
       }
     }, false);
-
   },
 
   componentDidUpdate: function(prevProps) {
     if (prevProps.text !== this.props.text) {
-      this.props.addIds(this)
+      this.addIds();
     }
+  },
+
+  addIds: function () {
+    let node = ReactDOM.findDOMNode(this);
+    let headings = Array.from(node.querySelectorAll('h1,h2,h3,h4'));
+    let header_links = [];
+    let header, header_description;
+    if (node.querySelector('header')) {
+      header = node.querySelector('header h1').textContent;
+      header_description = node.querySelector('header p') ? node.querySelector('header p').textContent : '';
+      node.removeChild(node.querySelector('header'));
+    }
+    headings.forEach(e => {
+      if (!e.id) {
+        e.id = e.textContent.toLowerCase().replace(/ /g, '-');
+      }
+      if (e.tagName === 'H2') {
+        header_links.push({name: e.textContent, id: e.id})
+      }
+    });
+
+    this.props.dispatch({type: 'UPDATE_IDS', header: header, header_description: header_description, header_links: header_links});
   },
 
   render: function() {

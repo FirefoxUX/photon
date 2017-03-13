@@ -1,4 +1,5 @@
 const React = require('react');
+const { connect } = require('react-redux');
 
 const Header = React.createClass({
   displayName: 'Header',
@@ -29,4 +30,16 @@ const Header = React.createClass({
   }
 });
 
-module.exports = Header;
+// module.exports = Header;
+
+function makeProps(state) {
+  var {header, header_description, header_links} = state.data;
+
+  return {
+    header: header,
+    header_description: header_description,
+    header_links: header_links
+  }
+}
+
+module.exports = connect(makeProps)(Header);
