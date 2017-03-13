@@ -152,7 +152,7 @@ article section table {
 
 /* Two-column layout */
 
-section div {
+section div:not([class]):not([style]) {
   &:before,
   &:after {
     content: " ";
@@ -163,8 +163,7 @@ section div {
     clear: both;
   }
 
-  div:not[style],
-  div:not[class] {
+  div:not([class]):not([style]) {
     @media screen and (min-width: 30em) {
       float: left;
       width: 50%;
