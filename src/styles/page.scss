@@ -149,3 +149,41 @@ article section table {
     }
   }
 }
+
+/* Two-column layout */
+
+section div {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+
+  div {
+    @media screen and (min-width: 30em) {
+      float: left;
+      width: 50%;
+  
+      &:first-of-type {
+        padding-right: 0.5rem;
+      }
+
+      &:last-of-type {
+        padding-left: 0.5rem;
+      }
+    }
+  }
+}
+
+section div + h2 {
+  margin-top: 2rem;
+}
+
+section div + h3,
+section div + h4 {
+  margin-top: 1rem;
+}
