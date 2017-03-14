@@ -138,14 +138,14 @@ const TableOfContents = React.createClass({
 
     let items = sources.map(getItem);
 
-    return (<nav 
+    return (<nav
         className="bg-near-white h-100 w-100 z-max order-1 order-0-l w-6-l"
         id="nav"
             >
       <div className="flex flex-column h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-scroll">
         <div className="self-start dn db-l">
           <p className="f4 fw5 lh-solid ma0">
-            <a className="near-black no-underline" 
+            <a className="near-black no-underline"
                 href="/StyleGuide/welcome.html"
             >{'Firefox Design System'}
             </a>
@@ -158,7 +158,7 @@ const TableOfContents = React.createClass({
         <div className="self-end w-100 pb3 pb4-l">
           <p className="lh-copy ma0 fw4">
             {'Questions, doubts or feedback? '}
-            <a className="near-black no-underline fw5" 
+            <a className="near-black no-underline fw5"
                 href="https://github.com/bwinton/StyleGuide/issues"
             >{'Open an issue on GitHub!'}
             </a>
