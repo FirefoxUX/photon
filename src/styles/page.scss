@@ -179,11 +179,11 @@ section div:not([class]):not([style]) {
   }
 }
 
-section div + h2 {
+section div:not([class]):not([style]) + h2 {
   margin-top: 2rem;
 }
 
-section div + h3,
-section div + h4 {
+section div:not([class]):not([style]) + h3,
+section div:not([class]):not([style]) + h4 {
   margin-top: 1rem;
 }
