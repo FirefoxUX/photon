@@ -1,28 +1,40 @@
-[ {"title": "Welcome",
+[
+  {
+    "title": "Welcome",
     "file": "welcome.html"
   },
-  {"title": "Getting started",
+  {
+    "title": "Getting started",
     "file": "getting-started.html"
   },
-  {"title": "Style",
+  {
+    "title": "Style",
     "pages": [
       {"title":"Grid",
-      "file": "grid.html"},
+      "file": "grid.html"
+      },
       {"title": "Typography",
-      "file": "typography.html"},
+      "file": "typography.html"
+      },
       {"title": "Color",
-        "file": "color.html"},
+        "file": "color.html"
+      },
       {"title": "Iconography",
         "file": "iconography.html"}
-      ]
+    ]
   },
-  {"title": "Motion",
+  {
+    "title": "Motion",
     "pages": [
-      ]
+      {
+        "title": "Principles",
+        "file": "motion-principles.html"
+      }
+    ]
   },
   {"title": "Copy",
     "pages": [
-      ]
+    ]
   },
   {"title": "Patterns",
     "pages": [
@@ -34,8 +46,10 @@
   },
   {"title": "Resources",
     "pages": [
-      {"title": "Templates",
-        "file": "templates.html"}
-      ]
+      {
+        "title": "Templates",
+        "file": "templates.html"
+      }
+    ]
   }
 ]
