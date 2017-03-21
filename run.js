@@ -2,7 +2,7 @@ var express = require('express');
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 
-var frontendConfig = require('./webpack.config.js')[0];
+var frontendConfig = require('./webpack.config.js');
 
 var pages = require('./contents/index.json')
   .map(x => x.pages || [x])
@@ -14,6 +14,7 @@ var pages = require('./contents/index.json')
 new WebpackDevServer(webpack(frontendConfig), {
   publicPath: frontendConfig.output.publicPath,
   hot: true,
+  contentBase: 'dist',
   proxy: [{
     context: pages,
     target: 'http://localhost:3000/index.html',

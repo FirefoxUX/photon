@@ -6,12 +6,25 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var failPlugin = require('webpack-fail-plugin');
 var DashboardPlugin = require('webpack-dashboard/plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var WriteFilePlugin = require('write-file-webpack-plugin');
 
 var pages = require('./contents/index.json')
   .map(x => x.pages || [x])
-  .reduce((acc, val) => acc.concat(val), [{ file: 'index' }])
+  .reduce((acc, val) => acc.concat(val), [])
   .map(x => {
     return { from: 'index.html', to: `../${x.file}` }
+  });
+var templates = require('./contents/index.json')
+  .map(x => x.pages || [x])
+  .reduce((acc, val) => acc.concat(val), [])
+  .map(x => {
+    return new HtmlWebpackPlugin({
+      filename: `../contents/${x.file}`,
+      template: `./contents/${x.file}`,
+      inject: false,
+      inlineSource: '\.css$'
+    });
   });
 
 var entry = [
@@ -21,7 +34,16 @@ var basePlugins = [
   new webpack.ProvidePlugin({
     'fetch': 'imports?this=>global!exports?global.fetch!whatwg-fetch'
   }),
-  failPlugin
+  failPlugin,
+  new CopyWebpackPlugin([
+    ...pages,
+    { from: 'index.html', to: '../' },
+    { from: 'contents/index.json', to: '../contents/index.json' },
+    { from: 'images', to: '../images' },
+    { from: '404.html', to: '../' }
+  ]),
+  ...templates,
+  new WriteFilePlugin()
 ];
 
 var jsLoaders = ['babel?presets[]=react,presets[]=es2015'];
@@ -60,7 +82,7 @@ if (process.env.NODE_ENV === 'production') {
   publicPath = '/static/';
 }
 
-module.exports = [{
+module.exports = {
   devtool: 'source-map',
   entry: entry,
   output: {
@@ -83,6 +105,9 @@ module.exports = [{
       exclude: /node_modules/
     }],
     loaders: [{
+      test: /\.html$/,
+      loader: 'ejs-compiled'
+    },{
       test: /\.(svg|png)$/,
       loader: 'file'
     },{
@@ -94,36 +119,4 @@ module.exports = [{
       exclude: /node_modules/
     }]
   }
-}, {
-  entry: {
-    all: './src/styles/main.scss'
-  },
-  output: {
-    path: path.join(__dirname, 'dist', 'static'),
-    filename: 'css/deleteme.js'
-  },
-  plugins: basePlugins.concat([
-    new ExtractTextPlugin('css/[name].css', {
-      allChunks: true
-    }),
-    new CopyWebpackPlugin([
-      ...pages,
-      { from: 'index.html', to: '../' },
-      { from: 'contents', to: '../contents' },
-      { from: 'images', to: '../images' },
-      { from: '404.html', to: '../' }
-    ])
-  ]),
-  sassLoader: {
-    outputStyle: 'expanded'
-  },
-  module: {
-    loaders: [{
-      test: /\.(svg|png)$/,
-      loader: 'url-loader'
-    },{
-      test: /\.s?css$/,
-      loader: ExtractTextPlugin.extract('style-loader', 'css-loader?-minimize!sass-loader')
-    }]
-  }
-}];
+};
