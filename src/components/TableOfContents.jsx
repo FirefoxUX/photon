@@ -142,7 +142,7 @@ const TableOfContents = React.createClass({
         className="bg-near-white h-100 w-100 z-max order-1 order-0-l w-6-l"
         id="nav"
             >
-      <div className="flex flex-column h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-scroll">
+      <div className="flex flex-column h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-auto">
         <div className="self-start dn db-l">
           <p className="f4 fw5 lh-solid ma0">
             <a className="near-black no-underline"
