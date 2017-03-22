@@ -1,6 +1,7 @@
 {
   "name": "workshop",
   "scripts": {
+    "serve-debug": "cross-env NODE_ENV=development node run.js",
     "serve": "cross-env NODE_ENV=development webpack-dashboard -- node run.js",
     "build": "cross-env NODE_ENV=production webpack --optimize-minimize"
   },

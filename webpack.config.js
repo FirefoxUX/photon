@@ -14,19 +14,22 @@ var pages = require('./contents/index.json')
   .map(x => x.pages || [x])
   .reduce((acc, val) => acc.concat(val), [])
   .map(x => {
-    return { from: 'index.html', to: `../${x.file}` }
-  });
-var templates = require('./contents/index.json')
-  .map(x => x.pages || [x])
-  .reduce((acc, val) => acc.concat(val), [])
-  .map(x => {
-    return new HtmlWebpackPlugin({
-      filename: `../contents/${x.file}`,
-      template: `./contents/${x.file}`,
-      inject: false,
-      inlineSource: '\.css$'
-    });
-  });
+    return [
+      new HtmlWebpackPlugin({
+        filename: `../${x.file}`,
+        template: `./index.html`,
+        inject: true,
+        inlineSource: '\.css$'
+      }),
+      new HtmlWebpackPlugin({
+        filename: `../contents/${x.file}`,
+        template: `./contents/${x.file}`,
+        inject: false,
+        inlineSource: '\.css$'
+      })
+    ];
+  })
+  .reduce((acc, val) => acc.concat(val), []);
 
 var entry = [
   './src/app.jsx'
@@ -37,13 +40,18 @@ var basePlugins = [
   }),
   failPlugin,
   new CopyWebpackPlugin([
-    ...pages,
     { from: 'index.html', to: '../' },
     { from: 'contents/index.json', to: '../contents/index.json' },
     { from: 'images', to: '../images' },
     { from: '404.html', to: '../' }
   ]),
-  ...templates,
+  new HtmlWebpackPlugin({
+    filename: `../index.html`,
+    template: `./index.html`,
+    inject: true,
+    inlineSource: '\.css$'
+  }),
+  ...pages,
   new WriteFilePlugin(),
   new StyleLintPlugin({
     configFile: path.join(__dirname, './.stylelintrc')
