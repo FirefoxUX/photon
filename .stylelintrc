@@ -1,16 +1,24 @@
 {
   "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-order"
+  ],
   "rules": {
+    "color-hex-length": "long",
     "comment-empty-line-before": ["always", {
-      ignore: ["stylelint-commands"]
+      "ignore": ["stylelint-commands"]
     }],
     "indentation": 2,
-    "rule-nested-empty-line-before": ["always", {
-      except: ["first-nested"],
-      ignore: ["after-comment"]
+    "rule-empty-line-before": ["always", {
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
     }],
     "declaration-block-no-duplicate-properties": true,
-    "declaration-block-properties-order": "alphabetical",
-    "number-leading-zero": "never"
+    "number-leading-zero": "never",
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-alphabetical-order": true
   }
 }
