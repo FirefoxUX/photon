@@ -8,6 +8,7 @@ var failPlugin = require('webpack-fail-plugin');
 var DashboardPlugin = require('webpack-dashboard/plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var WriteFilePlugin = require('write-file-webpack-plugin');
+var StyleLintPlugin = require('stylelint-webpack-plugin');
 
 var pages = require('./contents/index.json')
   .map(x => x.pages || [x])
@@ -43,7 +44,10 @@ var basePlugins = [
     { from: '404.html', to: '../' }
   ]),
   ...templates,
-  new WriteFilePlugin()
+  new WriteFilePlugin(),
+  new StyleLintPlugin({
+    configFile: path.join(__dirname, './.stylelintrc')
+  })
 ];
 
 var jsLoaders = ['babel?presets[]=react,presets[]=es2015'];
@@ -90,16 +94,9 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: publicPath
   },
-  stylelint: {
-    configFile: path.join(__dirname, './.stylelintrc')
-  },
   plugins: plugins,
   module: {
     preLoaders: [{
-      test: /\.s?css$/,
-      loader: 'stylelint',
-      exclude: /node_modules/
-    },{
       test: /\.jsx?$/,
       loader: 'eslint',
       exclude: /node_modules/

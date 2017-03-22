@@ -5,7 +5,6 @@
   write plain HTML without worrying about CSS classes.
 */
 
-
 /* Header */
 
 article header {
@@ -29,6 +28,7 @@ article header {
     &:not(:last-child) {
       padding: 0 0 1rem;
     }
+
     &:last-child {
       padding-bottom: 0;
     }
@@ -36,8 +36,8 @@ article header {
 
   a {
     color: var(--blue-5);
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
   }
 
   @media screen and (min-width: 60em) {
@@ -45,11 +45,13 @@ article header {
   }
 }
 
-
 /* Section typography */
 
 article section {
-  h2, h3, h4, strong {
+  h2,
+  h3,
+  h4,
+  strong {
     font-weight: 500;
   }
 
@@ -61,13 +63,15 @@ article section {
     margin: 3rem 0 1rem;
   }
 
-  h3, h4 {
+  h3,
+  h4 {
     margin: 2rem 0 1rem;
   }
 
-  p, ul {
-    margin: 0 0 1rem;
+  p,
+  ul {
     line-height: 1.4;
+    margin: 0 0 1rem;
   }
 
   a {
@@ -79,19 +83,18 @@ article section {
     margin: 0 0 1rem;
 
     figcaption {
-      margin-top: 0.5rem;
       font-size: small;
+      margin-top: .5rem;
     }
   }
 }
-
 
 /* Section blockquote */
 
 article section blockquote {
   background-color: #f4f4f4;
-  padding: 1rem 1rem 0.25rem 1rem;
   margin: 0 0 1rem;
+  padding: 1rem 1rem .25rem;
 
   @media screen and (min-width: 60em) {
     width: 50%;
@@ -107,15 +110,14 @@ article section blockquote {
   }
 
   li {
-    margin-bottom: 0.5rem;
+    margin-bottom: .5rem;
   }
 }
-
 
 /* Section table */
 
 article section table {
-  border: 1px solid #eee;
+  border: 1px solid #eeeeee;
   border-collapse: collapse;
   border-spacing: 0;
   font-size: small;
@@ -132,22 +134,22 @@ article section table {
   }
 
   th {
-    border: 1px solid #eee;
+    border: 1px solid #eeeeee;
     font-weight: 500;
+    padding: .5rem .75rem;
     text-align: left;
-    padding: 0.5rem 0.75rem;
 
     @media screen and (min-width: 30em) {
-      padding: 0.75rem 1rem;
+      padding: .75rem 1rem;
     }
   }
 
   td {
-    border: 1px solid #eee;
-    padding: 0.5rem 0.75rem;
+    border: 1px solid #eeeeee;
+    padding: .5rem .75rem;
 
     @media screen and (min-width: 30em) {
-      padding: 0.75rem 1rem;
+      padding: .75rem 1rem;
     }
   }
 }
