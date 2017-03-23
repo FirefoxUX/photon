@@ -8,6 +8,10 @@
     "file": "getting-started.html"
   },
   {
+    "title": "Principles",
+    "file": "principles.html"
+  },
+  {
     "title": "Style",
     "pages": [
       {"title":"Grid",
