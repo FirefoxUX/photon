@@ -16,6 +16,7 @@ article header {
   }
 
   p {
+    line-height: 1.4;
     margin: 0 0 2rem;
   }
 
@@ -48,6 +49,12 @@ article header {
 /* Section typography */
 
 article section {
+  margin-bottom: 2rem;
+
+  @media screen and (min-width: 60em) {
+    margin-bottom: 4rem;
+  }
+
   h2,
   h3,
   h4,
@@ -85,6 +92,21 @@ article section {
     figcaption {
       font-size: small;
       margin-top: .5rem;
+    }
+  }
+
+  button {
+    background-color: var(--blue-5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Fira Sans";
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+
+    a {
+      color: white;
     }
   }
 }
