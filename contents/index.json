@@ -39,7 +39,9 @@
   {"title": "Copy",
     "pages": [
       {"title": "Copy Rules",
-        "file": "copy-rules.html"}
+        "file": "copy-rules.html"},
+      {"title": "Word List",
+        "file": "word-list.html"}
     ]
   },
   {"title": "Patterns",
