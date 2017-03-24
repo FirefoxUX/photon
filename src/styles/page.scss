@@ -101,6 +101,8 @@ article section {
     color: white;
     cursor: pointer;
     font-family: "Fira Sans";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     font-weight: 500;
     padding: 1rem;
     text-transform: uppercase;
