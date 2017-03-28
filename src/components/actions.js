@@ -34,19 +34,7 @@ function loadUrl(dispatch, url) {
   dispatch({type: 'URL', url: url});
 }
 
-/**
- * Get header title, links and description, and notify the store.
- *
- * @param {function} dispatch - The Redux dispatcher.
- * @param {Object} header_content - An Object containing the header content.
- */
-
-function updateHeader(dispatch, header_content){
-  dispatch(Object.assign({}, {type: 'UPDATE_HEADER'}, header_content));
-}
-
 module.exports = {
   getContent: getContent,
-  loadUrl: loadUrl,
-  updateHeader: updateHeader
+  loadUrl: loadUrl
 };
