@@ -1,91 +1,10 @@
-/* eslint react/no-multi-comp:[0] */
-
 'use strict';
 
 const React = require('react');
-const { Link } = require('react-router');
-
 const { connect } = require('react-redux');
-const { getPage, getUrl } = require('./utilities.js');
-
-const ListItem = connect(state => {
-  var {path} = state.routing;
-  var {pages} = state.data;
-
-  var page = getPage(path, pages);
-  return {page};
-})(React.createClass({
-  displayName: 'ListItem',
-
-  propTypes: {
-    expanded: React.PropTypes.bool,
-    handleClick: React.PropTypes.func,
-    item: React.PropTypes.shape(),
-    page: React.PropTypes.shape()
-  },
-
-  getPage: (item, i) => {
-    return (
-      <Page
-          classes="db no-underline gray fw4 pv2 pl3"
-          i={i}
-          item={item}
-          key={i}
-      />
-    );
-  },
-
-  render() {
-    const { item, page } = this.props;
-    let handleClick = () => {
-      this.props.handleClick(item);
-    }
-    const pages = item.pages || [item];
-
-    return (<div className={((page && item.title === page.category) ? ' selected' : '') +
-              (this.props.expanded ? ' expanded' : '')}
-            >
-      <p className="fw5 ma0 pv2"
-          onClick={handleClick}
-      >{item.title}</p>
-      {pages.map(this.getPage)}
-    </div>
-      );
-  }
-}));
-
-const Page = connect(state => {
-  var {path} = state.routing;
-  var {pages} = state.data;
-
-  var page = getPage(path, pages);
-  return {pages, page};
-})(React.createClass({
-  displayName: 'Page',
-
-  propTypes: {
-    classes: React.PropTypes.string,
-    i: React.PropTypes.number,
-    item: React.PropTypes.shape(),
-    page: React.PropTypes.shape().isRequired,
-    pages: React.PropTypes.arrayOf(React.PropTypes.shape).isRequired
-  },
-
-  contextTypes: {
-    router: React.PropTypes.func
-  },
-
-  render() {
-    const { item, i, page, pages, classes } = this.props;
-
-    const url = getUrl(item);
-    return (<Link activeClassName="fw5 blue"
-        className={classes + ((item === page) ? ' selected' : '')}
-        key={pages.indexOf(page) + ':' + i}
-        to={url}
-            >{item.title}</Link>);
-  }
-}));
+const { getPage } = require('./utilities.js');
+const ListItem = require('./ListItem.jsx');
+const Page = require('./Page.jsx');
 
 
 const TableOfContents = React.createClass({
