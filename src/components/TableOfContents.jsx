@@ -65,7 +65,7 @@ const TableOfContents = React.createClass({
         <div className="self-start dn db-l">
           <p className="f4 fw5 lh-solid ma0">
             <a className="near-black no-underline"
-                href="/StyleGuide/welcome.html"
+                href="/DesignSystem/welcome.html"
             >{'Firefox Design System'}
             </a>
           </p>
@@ -78,7 +78,7 @@ const TableOfContents = React.createClass({
           <p className="lh-copy ma0 fw4">
             {'Questions, doubts or feedback? '}
             <a className="near-black no-underline fw5"
-                href="https://github.com/bwinton/StyleGuide/issues"
+                href="https://github.com/bwinton/DesignSystem/issues"
             >{'Open an issue on GitHub!'}
             </a>
           </p>

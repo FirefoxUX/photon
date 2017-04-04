@@ -1,6 +1,6 @@
 /* global process:false */
 'use strict';
-const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/StyleGuide';
+const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/DesignSystem';
 
 function parsePath(path) {
   return path.replace(PREFIX, '').replace(/#.*/, '').split('/').concat([null])[1];

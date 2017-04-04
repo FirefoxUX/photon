@@ -60,7 +60,7 @@ var basePlugins = [
 
 var jsLoaders = ['babel?presets[]=react,presets[]=es2015'];
 var cssLoader = ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader');
-var publicPath = '/StyleGuide/static/';
+var publicPath = '/DesignSystem/static/';
 var plugins = [];
 
 if (process.env.NODE_ENV === 'production') {
