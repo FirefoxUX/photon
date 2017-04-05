@@ -31,13 +31,17 @@
     "title": "Motion",
     "pages": [
       {
-        "title": "Principles",
+        "title": "Motion Principles",
         "file": "motion-principles.html"
       }
     ]
   },
   {"title": "Copy",
     "pages": [
+      {"title": "Copy Rules",
+        "file": "copy-rules.html"},
+      {"title": "Word List",
+        "file": "word-list.html"}
     ]
   },
   {"title": "Patterns",
@@ -50,10 +54,8 @@
   },
   {"title": "Resources",
     "pages": [
-      {
-        "title": "Templates",
-        "file": "templates.html"
-      }
+      {"title": "Templates",
+        "file": "templates.html"}
     ]
   }
 ]
