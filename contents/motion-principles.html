@@ -28,10 +28,27 @@
   <h3>Photon curve</h3> <!--   What's the name of this curve? Photon curve? Standart curve? --> 
   <p>
     In Firefox we use this curve for the majority of animations.  Acceleration and deceleration occur asymmetrically to feel natural.
-    </p>
+  </p>
   <p>
     We quickly accelerate at the beginning of the animation and slowly decelerate by the end. 
   </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Protocol</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CSS</td>
+        <td><code>cubic-bezier(.07,.95,0,1);</code></td>
+      </tr>
+      <tr>
+        <td>After Effects</td>
+        <td>Outgoing Velocity: XX% <br> Incoming Velocity: XX%</td>
+    </tr>
+  </table>
   <figure>
     <img src="../images/motion/curve.jpg" alt="">
   </figure>
