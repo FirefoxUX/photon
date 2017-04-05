@@ -25,14 +25,14 @@
   <p>
     A rigidly linear movement looks unnatural to the human eye. Accelerate and decelerate smoothly helps your animation to feel more natural.
   </p>
-  <h3>Photon curve</h3> <!--   What's the name of this curve? Photon curve? Standart curve? Are we going to have more than one? --> 
+  <h3>Animation curve</h3> <!--   What's the name of this curve? Photon curve? Standart curve? Are we going to have more than one? --> 
   <p>
     In Firefox we use this curve for the majority of animations.  Acceleration and deceleration occur asymmetrically to feel natural.
   </p>
   <p>
     We quickly accelerate at the beginning of the animation and slowly decelerate by the end. 
   </p>
-<!--   Nice to have: table and img next to each other -->  
+<!--   Nice to have: table and tips next to each other -->  
 <table>
     <thead>
       <tr>
@@ -47,11 +47,18 @@
       </tr>
       <tr>
         <td>After Effects</td>
-        <td>Outgoing Velocity: XX% <br> Incoming Velocity: XX%</td>
+        <td>Outgoing Velocity: 0% <br> Incoming Velocity: 70%</td>
     </tr>
   </table>
+  <blockquote>
+    <h4>Tips</h4>
+    <p>
+      Check it out the curve in action on <a href=" http://cubic-bezier.com/#.07,.95,0,1 ">Cubic-bezier.com</a> 
+    </p>
+  </blockquote>
   <figure>
     <img src="../images/motion/curve.jpg" alt="">
   </figure>
+
   <!-- More curves? -->
 </section>
