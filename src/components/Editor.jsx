@@ -52,8 +52,9 @@ const Editor = React.createClass({
       }
     });
 
-    if (node.querySelector('header')) {
+    if (node.querySelector('header') && !node.querySelector('header').querySelector('.toc')) {
       let header_list = document.createElement('ul');
+      header_list.classList.add('toc');
       header_list.innerHTML = header_links.join('\n');
       node.querySelector('header').appendChild(header_list);
     }
