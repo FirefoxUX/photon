@@ -1,7 +1,8 @@
 [
   {
     "title": "Welcome",
-    "file": "welcome.html"
+    "file": "welcome.html",
+    "hidden": true
   },
   {
     "title": "Getting started",
