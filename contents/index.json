@@ -12,7 +12,7 @@
     "file": "principles.html"
   },
   {
-    "title": "Style",
+    "title": "Visual",
     "pages": [
       {"title":"Grid",
       "file": "grid.html"
@@ -31,7 +31,7 @@
     "title": "Motion",
     "pages": [
       {
-        "title": "Motion Principles",
+        "title": "Principles",
         "file": "motion-principles.html"
       }
     ]
@@ -49,6 +49,10 @@
     ]
   },
   {"title": "Components",
+    "pages": [
+    ]
+  },
+  {"title": "Inclusion",
     "pages": [
     ]
   },
