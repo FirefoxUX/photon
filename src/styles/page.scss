@@ -134,6 +134,10 @@ article section blockquote {
   }
 }
 
+article section div[class] blockquote {
+  width: auto;
+}
+
 /* Section table */
 
 article section table {
@@ -162,11 +166,20 @@ article section table {
     @media screen and (min-width: 30em) {
       padding: .75rem 1rem;
     }
+
+    p {
+      margin: 0;
+    }
   }
 
   td {
     border: 1px solid #eeeeee;
     padding: .5rem .75rem;
+    vertical-align: top;
+
+    p {
+      margin: 0;
+    }
 
     @media screen and (min-width: 30em) {
       padding: .75rem 1rem;
