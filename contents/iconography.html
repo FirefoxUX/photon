@@ -22,7 +22,7 @@
     <img src="images/icon-design/grid.png" alt="icon design construction grid">
     <figcaption>The grid</figcaption>
   </figure>
-  <h3>Shape</h4>
+  <h3>Shape</h3>
   <p>
     Use positive and negative space to create the shape of your icon. When your icon is primarily shaped using lines use a 2px stroke for the foundation and a 1px line for extra details. Rounded end-caps and rounded line joins keep the icon smooth and friendly.
   </p>
@@ -30,13 +30,44 @@
     <img src="images/icon-design/shape.png" alt="icon design shape">
     <figcaption>Shape details</figcaption>
   </figure>
-  <h3>Export your icon</h4>
-  <p>
-    If you use icon fonts, prevent screen readers from reading the Unicode and apply ARIA labels. Before exporting, optimize file sizes and remove any unnecessary metadata.
-  </p>
 </section>
 
 <section>
+  <h2>Export your icon</h2>
+  
+  <h3>Flatten</h3>
+  <p>
+    Before exporting your icons, be sure to expand all the shapes and strokes overlapping each other. Remember to remove unnecessary anchor points to keep the icon as simple as possible.
+  </p>
+  <p>
+    In Sketch you can expand all your paths by selecting <code>  Layer > Paths > Vectorize Stroke</code> in the menu. In Illustrator you find this option under <code>Object > Expand...</code>.
+  </p>
+
+  <h3>Naming</h3>
+  <p>
+    Do not forget to name the artboard with the icon name. The name should describe the action of the icon, and not the icon itself. For example, we are using a star as a metaphor for bookmarking  The name of the icon is <em>bookmark</em>, and not <em>star</em>. 
+  </p>
+  <p>    
+    Add an <code>-</code> hyphen to underline variation in the icon.
+  </p>
+  <figure>
+    <img src="images/icon-design/naming.png" alt="how to name your icon">
+  </figure>
+  
+  <h3>Save as SVG</h3>
+  <p>
+    In Illustrator to save your artwork artwork as SVG, choose <code>File > Export > SVG (svg)</code>. If you are saving more then one icons check <code>Use Artboards</code> to export the contents of your artboards as individual SVG files. Click <code>Export</code> to open the SVG Options dialog.
+    In Sketch simply select the artboard, click <code>Make it exportable</code> in the sidebar and select <code>SVG</code> from the format menu.
+  </p>
+  <blockquote>
+    <h4>Tip</h4>
+    <p>
+      If you are using Sketch, be sure to have the <a href="https://github.com/BohemianCoding/svgo-compressor">SVGO Compressor plugin by Bohemian Coding</a> installed. This small plugin fixs most of the SVG issues in Sketch.
+    </p>
+  </blockquote>
+</section>
+
+<!-- <section>
   <h2>Placement</h2>
   <p>
     Give icons space according the <a href="grid.html">the grid</a> to increase visibility and interactivity.
@@ -84,10 +115,10 @@
   <p>
     Preferences and administrator areas in Firefox usually include a dark sidebar navigation. Middle-align both icons and labels.
   </p>
-</section>
+</section> -->
 
 <section>
-  <h3>Accesibility</h3>
+  <h2>Accesibility</h2>
   <p>
     Avoid obscure metaphors, opting for text labels or annotations instead. Use symbols that are recognizable to your users and work for a global audience. If your icon affords interactivity, give it a text label. All icons should have a text-based equivalent for screen readers.
   </p>
