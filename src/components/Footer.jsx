@@ -1,3 +1,5 @@
+'use strict';
+
 const React = require('react');
 const { getPage, getSiblingPages, getUrl } = require('./utilities.js');
 const { connect } = require('react-redux');

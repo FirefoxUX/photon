@@ -1,9 +1,10 @@
+'use strict';
+
 const React = require('react');
 
 const TableOfContents = React.createFactory(require('./TableOfContents.jsx'));
 const Editor = React.createFactory(require('./Editor.jsx'));
 const Footer = React.createFactory(require('./Footer.jsx'));
-const Header = React.createFactory(require('./Header.jsx'));
 
 const { connect } = require('react-redux');
 const { getPage } = require('./utilities.js');
@@ -19,7 +20,6 @@ const App = React.createClass({
     return (<div className="flex flex-column flex-row-l fixed-l w-100-l h-100-l mt5 mt0-l">
       <TableOfContents/>
       <article className="order-0 order-1-l overflow-y-scroll-l w-100">
-        <Header/>
         <Editor/>
         <Footer/>
       </article>

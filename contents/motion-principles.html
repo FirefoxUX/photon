@@ -5,18 +5,56 @@
 <section>
   <h2>Story</h2>
   <p>
-    Quick, supportive, and whimsical are the three principles that guide the motion design language of Firefox. Following these principles, we aim to achieve a cohesive, enjoyable, and consistent experience within the family of Firefox browsers.
+    Quick, supportive, and whimsical are the three principles that guide the motion design language of Firefox products. Following these principles, we aim to achieve a cohesive, enjoyable, and consistent experience within the family of Firefox products.
   </p>
   <h3>Quick</h3>
   <p>
-    Animations should be fast and nimble and never keep the user waiting longer than they need to. The aim is to prioritise user perceived performance over over technical benchmarks.
+    Animations should be fast and nimble and never keep the user waiting longer than they need to. The aim is to prioritise user perceived performance over technical benchmarks.
+  </p>
+  <h3>Supportive</h3>
+  <p>
+    Motion should help ease the user through the experience. It should aid the flow of actions, giving clear guidance for user orientation: spatial or temporal. 
   </p>
   <h3>Whimsical</h3>
   <p>
     Animations should have a playful and Delightful personality when appropriate.
   </p>
-  <h3>Supportive</h3>
+</section>
+<section>
+  <h2>Curve</h2>
   <p>
-    Motion should help ease the user through the experience. It should aid the flow of actions, giving clear guidance for user orientation: spatial or temporal.
+    A rigidly linear movement looks unnatural to the human eye. Accelerate and decelerate smoothly helps your animation to feel more natural.
+  </p>
+  <h3>Animation curve</h3>
+  <% include contents/components/motion-curve.html %>
+  <table>
+    <thead>
+      <tr>
+        <th><p>Platform</p></th>
+        <th><p>Protocol</p></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>CSS</p></td>
+        <td><p><code>cubic-bezier(.07,.95,0,1);</code></p></td>
+      </tr>
+      <tr>
+        <td><p>After Effects</p></td>
+        <td>
+          <p>Outgoing Velocity: 0%</p>
+          <p>Incoming Velocity: 70%</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <figure>
+    <img src="images/motion/curve.jpg" alt="">
+  </figure>
+</section>
+<section>
+  <h2>Durations</h2>
+  <p>
+    Animations should last from 150ms up to 250ms. They have to feel faster and responsive. Shorter animations are easy to be compiled by machines which help to achieve a more rapid feeling.
   </p>
 </section>

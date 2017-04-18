@@ -16,6 +16,7 @@ article header {
   }
 
   p {
+    line-height: 1.4;
     margin: 0 0 2rem;
   }
 
@@ -48,6 +49,12 @@ article header {
 /* Section typography */
 
 article section {
+  margin-bottom: 2rem;
+
+  @media screen and (min-width: 60em) {
+    margin-bottom: 4rem;
+  }
+
   h2,
   h3,
   h4,
@@ -87,6 +94,19 @@ article section {
       margin-top: .5rem;
     }
   }
+
+  button {
+    background-color: var(--blue-5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "Fira Sans";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 500;
+    padding: 1rem;
+    text-transform: uppercase;
+  }
 }
 
 /* Section blockquote */
@@ -112,6 +132,10 @@ article section blockquote {
   li {
     margin-bottom: .5rem;
   }
+}
+
+article section div[class] blockquote {
+  width: auto;
 }
 
 /* Section table */
@@ -142,11 +166,20 @@ article section table {
     @media screen and (min-width: 30em) {
       padding: .75rem 1rem;
     }
+
+    p {
+      margin: 0;
+    }
   }
 
   td {
     border: 1px solid #eeeeee;
     padding: .5rem .75rem;
+    vertical-align: top;
+
+    p {
+      margin: 0;
+    }
 
     @media screen and (min-width: 30em) {
       padding: .75rem 1rem;

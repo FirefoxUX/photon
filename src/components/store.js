@@ -22,10 +22,7 @@ function store(state, action) {
       pages: pages,
       text: '',
       file: '',
-      url: '',
-      header: '',
-      header_description: '',
-      header_links: [] };
+      url: ''};
   }
   switch (action.type) {
   case "@@router/INIT_PATH":
@@ -42,8 +39,6 @@ function store(state, action) {
     return Object.assign({}, state, {text: action.text || '', file: action.file});
   case 'URL':
     return Object.assign({}, state, {url: action.url || ''});
-  case 'UPDATE_HEADER':
-    return Object.assign({}, state, {header: action.header || '', header_description: action.header_description || '', header_links: action.header_links});
   default:
     return state;
   }
