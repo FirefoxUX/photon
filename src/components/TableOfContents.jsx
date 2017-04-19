@@ -55,7 +55,7 @@ const TableOfContents = React.createClass({
       );
     }
 
-    let items = sources.map(getItem);
+    let items = sources.filter(item => !item.hidden).map(getItem);
 
     return (<nav
         className="bg-near-white h-100 w-100 z-max order-1 order-0-l w-6-l"
