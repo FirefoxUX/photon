@@ -6,37 +6,74 @@
 <section>
   <h2>Icon Construction</h2>
   <p>
-    A good Firefox icon is simple but still representing the correct metaphor. Use universal imagery that people can easily recognize. Avoid focusing on a secondary or less familiar aspect of an element.
+    A good Firefox icon is simple but still representing the right metaphor. Use universal metaphors that everyone around the world can quickly identify. Aim for a design most people can interpret correctly and won’t find offensive. Do not focus on a secondary or obscure aspect of an element. Remember that too many details can make an icon appear sloppy or unreadable. 
   </p>
   <h3>Grid</h3>
   <p>
-    Firefox icons live on a 16 x 16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintining relative aspect ratios.
+    Firefox icons live on a 16x16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on help the icons not appear fuzzy in production.
   </p>
-  <blockquote>
-    <h4>Tip</h4>
-    <p>
-      Too many details can make an icon appear sloppy or unreadable. Strive for a design most people will interpret correctly and won’t find offensive.
-    </p>
-  </blockquote>
+  <p>
+    In Illustrator can turn on the pixel grid from the Transform Panel: in the options menu just tick on <code>Align new objects</code> to pixel grid feature.
+  </p>
+  <p>
+    In Sketch, select the shape and then select <code>Layer &#8594; Round to Nearest Pixel Edge</code>. Sketch will automatically align the edges with the pixel grid. It works for both the Position and Size values. 
+  </p>
+
   <figure>
     <img src="images/icon-design/grid.png" alt="icon design construction grid">
     <figcaption>The grid</figcaption>
   </figure>
-  <h3>Shape</h4>
+  <h3>Shape</h3>
   <p>
-    Use positive and negative space to create the shape of your icon. When your icon is primarily shaped using lines use a 2px stroke for the foundation and a 1px line for extra details. Rounded end-caps and rounded line joins keep the icon smooth and friendly.
+    Use positive and negative space to create the shape of your icon. When lines principally shape your icon use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly.
+  </p>
+  <p>
+    When you have two rounded corners running parallel, the outer corner has a larger radius (usually 3px) than the one on the inside (usually 1px).
   </p>
   <figure>
     <img src="images/icon-design/shape.png" alt="icon design shape">
     <figcaption>Shape details</figcaption>
   </figure>
-  <h3>Export your icon</h4>
-  <p>
-    If you use icon fonts, prevent screen readers from reading the Unicode and apply ARIA labels. Before exporting, optimize file sizes and remove any unnecessary metadata.
-  </p>
 </section>
 
 <section>
+  <h2>Export your icon</h2>
+  
+  <h3>Flatten</h3>
+  <p>
+    Before exporting your icons, be sure to expand all the shapes and strokes overlapping each other. Remember to remove unnecessary anchor points to keep the icon as simple as possible.
+  </p>
+  <p>
+    In Sketch, you can expand all your paths by selecting <code>Layer &#8594; Paths &#8594; Vectorize Stroke</code> in the menu. In Illustrator you find this option under <code>Object &#8594; Expand</code>.
+  </p>
+
+  <h3>Naming</h3>
+  <p>
+    Do not forget to name the artboard with the icon name. The name should describe the action of the icon, and not the icon itself. For example, we are using a star as a metaphor for bookmarking  The name of the icon is <em>bookmark</em>, and not <em>star</em>. 
+  </p>
+  <p>    
+    Add an <code>-</code> hyphen to underline variation in the icon.
+  </p>
+  <figure>
+    <img src="images/icon-design/naming.png" alt="how to name your icon">
+  </figure>
+  
+  <h3>Save as SVG</h3>
+  <p>
+    In Illustrator to save your artwork as SVG, choose <code>File &#8594; Export &#8594; SVG (svg)</code>. If you are saving more than one icons, check <code>Use Artboards</code> to export the contents of your artboards as individual SVG files. Click <code>Export</code> to open the SVG Options panel.
+  </p>
+  <p>
+    In Sketch simply select the artboard, click <code>Make it exportable</code> in the sidebar and select <code>SVG</code> from the format menu.
+  </p>
+  <blockquote>
+    <h4>Tip</h4>
+    <p>
+      If you are using Sketch, be sure to have the <a href="https://github.com/BohemianCoding/svgo-compressor">SVGO Compressor plugin by Bohemian Coding</a> installed. This small plugin fixes most of the SVG issues in Sketch.
+    </p>
+  </blockquote>
+</section>
+
+<!-- <section>
   <h2>Placement</h2>
   <p>
     Give icons space according the <a href="grid.html">the grid</a> to increase visibility and interactivity.
@@ -44,32 +81,26 @@
   <table>
     <thead>
       <tr>
-        <th><p>Placement</p></th>
-        <th><p>Size</p></th>
-        <th><p>Color</p></th>
+        <th>Placement</th>
+        <th>Size</th>
+        <th>Color</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><p>Toolbar</p></td>
-        <td><p>16x16</p></td>
-        <td>
-          <p>Light theme: Black with alpha channel.</p>
-          <p>On dark Theme: Full white</p>
-        </td>
+        <td>Toolbar</td>
+        <td>16x16</td>
+        <td>Light theme: Black with alpha channel. <br> On dark Theme: Full white</td>
       </tr>
       <tr>
-      <td><p>Panel</p></td>
-      <td><p>32x32</p></td>
-      <td>
-        <p>Grey</p>
-        <p>Validation color</p>
-      </td>
+      <td>Panel</td>
+      <td>32x32</td>
+      <td>Grey <br> Validation color</td>
     </tr>
     <tr>
-      <td><p>In content</p></td>
-      <td><p>32x32</p></td>
-      <td><p>One color</p></td>
+      <td>In content</td>
+      <td>32x32</td>
+      <td>One color</td>
     </tr>
   </table>
   <h3>Toolbar</h3>
@@ -90,11 +121,11 @@
   <p>
     Preferences and administrator areas in Firefox usually include a dark sidebar navigation. Middle-align both icons and labels.
   </p>
-</section>
+</section> -->
 
 <section>
-  <h3>Accesibility</h3>
+  <h2>Accessibility</h2>
   <p>
-    Avoid obscure metaphors, opting for text labels or annotations instead. Use symbols that are recognizable to your users and work for a global audience. If your icon affords interactivity, give it a text label. All icons should have a text-based equivalent for screen readers.
+    All icons should have a text-based equivalent for screen readers. If your icon allows interactivity, give it a text label. 
   </p>
 </section>
