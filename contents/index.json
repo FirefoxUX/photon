@@ -1,7 +1,8 @@
 [
   {
     "title": "Welcome",
-    "file": "welcome.html"
+    "file": "welcome.html",
+    "hidden": true
   },
   {
     "title": "Getting started",
@@ -12,7 +13,7 @@
     "file": "principles.html"
   },
   {
-    "title": "Style",
+    "title": "Visual",
     "pages": [
       {"title":"Grid",
       "file": "grid.html"
@@ -38,6 +39,10 @@
   },
   {"title": "Copy",
     "pages": [
+      {"title": "Copy Rules",
+        "file": "copy-rules.html"},
+      {"title": "Word List",
+        "file": "word-list.html"}
     ]
   },
   {"title": "Patterns",
@@ -48,12 +53,14 @@
     "pages": [
     ]
   },
+  {"title": "Inclusion",
+    "pages": [
+    ]
+  },
   {"title": "Resources",
     "pages": [
-      {
-        "title": "Templates",
-        "file": "templates.html"
-      }
+      {"title": "Templates",
+        "file": "templates.html"}
     ]
   }
 ]

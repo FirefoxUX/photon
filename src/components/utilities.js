@@ -17,9 +17,10 @@ function getUrl(page) {
 }
 
 function getSiblingPages(page, pages) {
-  var current_index = pages.indexOf(page);
-  var previous_page = pages[current_index - 1] || pages[pages.length - 1];
-  var next_page = pages[current_index + 1] || pages[0];
+  const shown_pages = pages.filter(page => !page.hidden);
+  var current_index = shown_pages.indexOf(page);
+  var previous_page = shown_pages[current_index - 1] || shown_pages[shown_pages.length - 1];
+  var next_page = shown_pages[current_index + 1] || shown_pages[0];
   return { previous_page, next_page }
 }
 
