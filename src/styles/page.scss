@@ -75,6 +75,11 @@ article section {
     margin: 2rem 0 1rem;
   }
 
+  h3 + h4,
+  h4 + h4 {
+    margin-top: 0;
+  }
+
   p,
   ul {
     line-height: 1.4;
