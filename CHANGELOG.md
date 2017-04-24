@@ -1,10 +1,6 @@
-# Change Log
-All notable changes to this project will be documented in this file.
+# Firefox Design System Releases
 
-The format is based on [http://keepachangelog.com/](http://keepachangelog.com/)
-and this project adheres to [Semantic Versioning](http://semver.org/).
-
-## UNRELEASED [0.2.0] - 2017-04-24
+## [0.2.0] - 2017-04-24
 ### Added
 - Section [Copy - Copy Rules](https://bwinton.github.io/DesignSystem/copy-rules.html) with content
 - Section [Copy - Word List](https://bwinton.github.io/DesignSystem/word-list.html) with content and custom table of content
