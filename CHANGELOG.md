@@ -8,7 +8,7 @@
 - Section [Visual - Typography](https://bwinton.github.io/DesignSystem/typography.html) with content on [Typefaces](https://bwinton.github.io/DesignSystem/typography.html#typefaces)
 -  Content on [Export your icon](https://bwinton.github.io/DesignSystem/iconography.html#export-your-icon) to section [Visual - Iconography](https://bwinton.github.io/DesignSystem/iconography.html)
 - Top level menu item [Inclusion](https://bwinton.github.io/DesignSystem/) (without content)
-- This [Change Log](https://github.com/bwinton/DesignSystem/CHANGELOG.md) to document all notable changes
+- This [Change Log](https://github.com/bwinton/DesignSystem/blob/master/CHANGELOG.md) to document all notable changes
 
 ### Change
 - Renamed to [DesignSystem](https://bwinton.github.io/DesignSystem/) (from StyleGuide)
