@@ -8,11 +8,13 @@ require('../../node_modules/highlight.js/styles/color-brewer.css');
 const React = require('react');
 const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
+const { getPage } = require('./utilities.js');
 
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
     dispatch: React.PropTypes.func,
+    page: React.PropTypes.shape(),
     text: React.PropTypes.string,
     url: React.PropTypes.string
   },
@@ -36,6 +38,12 @@ const Editor = React.createClass({
   componentDidUpdate: function(prevProps) {
     if (prevProps.text !== this.props.text) {
       this.addIds();
+      const page = this.props.page;
+      let title = `${page.title} | Firefox Design System`;
+      if(page.category !== page.title) {
+        title = `${page.title} · ${page.category} | Firefox Design System`;
+      }
+      document.title = title;
     }
   },
 
@@ -72,15 +80,18 @@ const Editor = React.createClass({
       (url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}
-            ></div>)
+            ></div>);
   }
 
 });
 
 function makeProps(state) {
-  var {text, url} = state.data;
+  var {path} = state.routing;
+  var {pages, text, url} = state.data;
+  var page = getPage(path, pages);
 
   return {
+    page: page,
     text: text,
     url: url
   }
