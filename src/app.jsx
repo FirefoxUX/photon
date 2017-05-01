@@ -7,6 +7,9 @@ require('./styles/main.scss');
 const React = require('react');
 const ReactDOM = require('react-dom');
 const { Router, Route } = require('react-router');
+const ReactGA = require('react-ga');
+ReactGA.initialize('UA-98252211-1');
+ReactGA.set({'appVersion': '0.1'});
 
 const { createStore, applyMiddleware, combineReducers } = require('redux');
 const { Provider } = require('react-redux');
@@ -47,6 +50,7 @@ function onUpdate() {
   var {pages, text} = store.getState().data;
   var {path} = store.getState().routing;
 
+
   if( text ) {
     // We're already loading the content, so skip this update…
     return;
@@ -57,6 +61,8 @@ function onUpdate() {
   // If there's nothing, redirect to the first page.
   if (!page) {
     let url = getUrl(pages[0]);
+    ReactGA.set({ hash: ''});
+    ReactGA.pageview(url);
     store.dispatch(pushPath(url));
     return;
   }
@@ -64,8 +70,12 @@ function onUpdate() {
   // If we got a page, load its content.
   let data = page;
   if (data.url) {
+    ReactGA.set({ hash: window.location.hash});
+    ReactGA.pageview(data.url);
     loadUrl(store.dispatch, data.url);
   } else {
+    ReactGA.set({ hash: window.location.hash});
+    ReactGA.pageview(data.file);
     getContent(store.dispatch, data.file);
   }
 }

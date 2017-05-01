@@ -9,6 +9,7 @@ const React = require('react');
 const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
 const { getPage } = require('./utilities.js');
+const ReactGA = require('react-ga');
 
 const Editor = React.createClass({
   displayName: 'Editor',
@@ -62,6 +63,15 @@ const Editor = React.createClass({
 
     if (node.querySelector('header') && !node.querySelector('header[toc-none]')) {
       let header_list = document.createElement('ul');
+      header_list.addEventListener('click', (e) => {
+        if (e.target.tagName === "A") {
+          ReactGA.event({
+            category: 'Click',
+            action: 'Clicked on the header',
+            value: e.target.getAttribute('href')
+          });
+        }
+      });
       header_list.classList.add('toc');
       header_list.innerHTML = header_links.join('\n');
       node.querySelector('header').appendChild(header_list);
