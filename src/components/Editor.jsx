@@ -10,6 +10,8 @@ const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
 const { getPage } = require('./utilities.js');
 const ReactGA = require('react-ga');
+ReactGA.initialize('UA-98252211-1');
+ReactGA.set({'appVersion': '0.1'});
 
 const Editor = React.createClass({
   displayName: 'Editor',
