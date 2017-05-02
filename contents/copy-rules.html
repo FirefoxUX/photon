@@ -1,23 +1,51 @@
 <header>
   <h1>Copy Rules</h1>
+  <p>
+    These guidelines are for Firefox in-products content intended for a general audience.
+  </p>
 </header>
+
+<section>
+  <h2>Design Patterns</h2>
+
+  <h3>More vs Learn more</h3>
+  <p>
+    Use <em>More</em> to indicate an expanding text area, use <em>Learn more</em> to indicate a link to another screen or webpage.
+  </p>
+
+  <h3>Buttons vs links</h3>
+  <p>
+    Use hyperlinked system text to indicate links to another screen or page, use buttons only to indicate a user action that updates the current screen or transmits information to the application, e.g., Submit, Update Preferences.
+  </p>
+
+  <h3>Touch-screen gestures</h3>
+  <p>
+    When designing for Android, use the preferred Android terms touch, swipe, drag, pinch in, pinch out. View more in the <a href="https://www.google.com/design/spec/patterns/gestures.html">Android style guide</a>.
+  </p>
+  <p>
+    When designing for iOS, use the preferred Apple terms tap, swipe, drag, pinch. View more in the <a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/InteractivityInput.html">Apple style guide</a>.
+  </p>
+</section>
 
 <section>
   <h2>Point of view</h2>
   <p>
     In general, use the second person (you) to address the user in Firefox products. Firefox is a user agent, and this point of view reinforces the message that “Firefox works for you.”
   </p>
+  <figure>
+    <img src="images/_temp/point-of-view.png" alt="">
+  </figure>
   <p>
     Avoid using the first person (my, I) in the interface, as it can create confusion about who is being addressed. 
   </p>
 </section>
 
 <section>
-  <h2>Capitalisation</h2>
+  <h2>Capitalisation on Firefox for desktop</h2>
 
   <h3>Title Case</h3>
   <p>
-    Title case is a capitalization style that includes the following rules: 
+    Title case is a capitalization style that includes the following rules:
   </p>
   <ul>
     <li>
@@ -36,25 +64,147 @@
       Do not capitalize articles, prepositions of three or fewer letters, and conjunctions of three or fewer letters (but not <em>if</em>)
     </li>
     <li>
-      A note about hyphens: Capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word according to title case rules. So, capitalize the <em>S</em> in <em>Quick-Search Options</em>, lowercase the <em>o</em> in <em>Add-on Choices</em>. 
+      A note about hyphens: Capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word according to title case rules. So, capitalize the <em>S</em> in <em>Quick-Search Options</em>, lowercase the <em>o</em> in <em>Add-on Choices</em>.
     </li>
   </ul>
 
-  <h3>When to use Title Case</h3>
-  <% include contents/components/copy-rules-title-case.html %>
+  <h4>Use title case for</h4>
 
-  <h3>Sentence Case</h3>
+  <h4>Labels for items in the menu</h4>
+  <figure>
+    <img src="images/_temp/labels-for-items-in-the-menu.png" alt="">
+  </figure>
+
+  <h4>Navigation and section headers</h4>
+  <figure>
+    <img src="images/_temp/navigation-and-section-headers.png" alt="">
+  </figure>
+
+  <h4>Page titles</h4>
+  <figure>
+    <img src="images/_temp/page-titles.png" alt="">
+  </figure>
+
+  <h4>Buttons</h4>
+  <figure>
+    <img src="images/_temp/buttons.png" alt="">
+  </figure>
+
+  <h3>Sentence case</h3>
   <p>
-    Sentence case is a capitalization style where the first word of the text element is capitalized as well as any words that are normally capitalized. 
+    Sentence case is a capitalization style where the first word of the text element is capitalized as well as any words that are normally capitalized.
   </p>
 
-  <h3>When to use Sentence Case</h3>
-  <% include contents/components/copy-rules-sentence-case.html %>
+  <h4>Use sentence case for</h4>
 
-  <h3>Small Caps</h3>
+  <h4>Headlines</h4>
   <p>
-    Small caps is a style where the initial letter of every word is capitalized with a full-scale letter (following title case style) and the following letters in every word are capitalized with a smaller version of the typeface. Do not use this style in Firefox in any platform.
+    Which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages.
   </p>
+  <figure>
+    <img src="images/_temp/headlines.png" alt="">
+  </figure>
+
+  <h4>Text links</h4>
+  <p>
+    Without terminal punctuation unless the phrase is a question or exclamation or if the link is embedded in running text. (Note, include the terminal punctuation in hyperlink if the entire phrase is linked, and do not include the terminal punctuation in the hyperlink if the link is within running text.
+  </p>
+  <figure>
+    <img src="images/_temp/text-links.png" alt="">
+  </figure>
+
+  <h4>Small Caps</h4>
+  <p>
+    Small caps is a style where the initial letter of every word is capitalized with a full-scale letter (following Title case style) and the following letters in every word are capitalized with a smaller version of the typeface. Do not use this style in Firefox in any platform.
+  </p>
+</section>
+
+<section>
+  <h2>Capitalisation on Firefox for Android</h2>
+  <p>
+    Google maintains an <a href="https://www.google.com/design/spec/style/writing.html#writing-capitalization-punctuation">Android style guide</a>, and Firefox for Android should adhere to these unless noted as an exception below.  The rules for capitalization presented here otherwise conform with Google’s.
+  </p>
+
+  <h3>Sentence case</h3>
+  <p>
+    Sentence case is a capitalization style where the first word of the text element is capitalized as well as any words (like product names or features) that are normally capitalized.
+  </p>
+  <p>
+    Use sentence case in almost all instances – for screen titles, navigation, labels – except for buttons.
+  </p>
+  <figure>
+    <img src="images/_temp/sentence-case-android.png" alt="">
+  </figure>
+
+  <h3>All caps</h3>
+  <p>
+    All Caps is a style where every letter is capitalized. Use these for all buttons that contain text. 
+  </p>
+  <figure>
+    <img src="images/_temp/all-caps-android.png" alt="">
+  </figure>
+</section>
+
+<section>
+  <h2>Capitalisation on Firefox for iOS</h2>
+  <p>
+    Apple maintains an <a href="https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html">iOS style guide for developers</a>, and Firefox should adhere to these unless noted as an exception below.  The rules for capitalization presented here otherwise conform with Apple’s.
+  </p>
+
+  <h3>Title case</h3>
+  <p>Title case is a capitalization style that includes the following rules:</p>
+  <ul>
+    <li>
+      Always capitalize the first and last word in the text element , regardless of part of speech or other rules below
+    </li>
+    <li>
+      For words in between the first and last, capitaliize all nouns, verbs, adverbs and pronouns
+    </li>
+    <li>
+      Capitalize conjunctions of four or more letters, but also capitalize <em>if</em>
+    </li>
+    <li>
+      Capitalize prepositions for four or more letters
+    </li>
+    <li>
+      Do not capitalize articles, prepositions of three or fewer letters, and conjunctions of three or fewer letters (but not <em>if</em>)
+    </li>
+    <li>
+      A note about hyphens: Capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word according to title case rules. So, capitalize the <em>S</em> in <em>Quick-Search Options</em>, lowercase the <em>o</em> in <em>Add-on Choices</em>.
+    </li>
+  </ul>
+
+  <h4>Use title case for</h4>
+  <h4>Screen titles</h4>
+  <figure>
+    <img src="images/_temp/screen-titles-ios.png" alt="">
+  </figure>
+
+  <h4>Navigation and section headers</h4>
+  <figure>
+    <img src="images/_temp/navigation-and-section-headers-ios.png" alt="">
+  </figure>
+
+  <h4>Labels</h4>
+  <figure>
+    <img src="images/_temp/labels-ios.png" alt="">
+  </figure>
+
+  <h4>Buttons</h4>
+  <figure>
+    <img src="images/_temp/buttons-ios.png" alt="">
+  </figure>
+
+  <h3>Sentence case</h3>
+  <p>
+    Sentence case is a capitalization style where the first word of the text element is capitalized as well as any words that are normally capitalized.
+  </p>
+  <p>
+    Use sentence case for <strong>headlines</strong>, which are the more conversational titles and subtitles that appear in instructional text screens, tours and form pages. 
+  </p>
+  <figure>
+    <img src="images/_temp/sentence-case-ios.png" alt="">
+  </figure>
 </section>
 
 <section>
