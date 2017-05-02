@@ -8,12 +8,13 @@ require('../../node_modules/highlight.js/styles/color-brewer.css');
 const React = require('react');
 const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
-const { updateHeader } = require('./actions.js');
+const { getPage } = require('./utilities.js');
 
 const Editor = React.createClass({
   displayName: 'Editor',
   propTypes: {
     dispatch: React.PropTypes.func,
+    page: React.PropTypes.shape(),
     text: React.PropTypes.string,
     url: React.PropTypes.string
   },
@@ -37,6 +38,12 @@ const Editor = React.createClass({
   componentDidUpdate: function(prevProps) {
     if (prevProps.text !== this.props.text) {
       this.addIds();
+      const page = this.props.page;
+      let title = `${page.title} | Firefox Design System`;
+      if(page.category !== page.title) {
+        title = `${page.title} · ${page.category} | Firefox Design System`;
+      }
+      document.title = title;
     }
   },
 
@@ -44,22 +51,21 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     let headings = Array.from(node.querySelectorAll('h1,h2,h3,h4'));
     let header_links = [];
-    let header = '';
-    let header_description = '';
-    if (node.querySelector('header')) {
-      header = node.querySelector('header h1').textContent.trim();
-      header_description = node.querySelector('header p') ? node.querySelector('header p').textContent.trim() : '';
-      node.removeChild(node.querySelector('header'));
-    }
     headings.forEach(e => {
       if (!e.id) {
         e.id = e.textContent.trim().toLowerCase().replace(/ /g, '-');
       }
       if (e.tagName === 'H2') {
-        header_links.push({name: e.textContent.trim(), id: e.id});
+        header_links.push(`<li><a href="#${e.id}">${e.textContent.trim()}</a></li>`);
       }
     });
-    updateHeader(this.props.dispatch, {header: header, header_description: header_description, header_links: header_links});
+
+    if (node.querySelector('header') && !node.querySelector('header[toc-none]')) {
+      let header_list = document.createElement('ul');
+      header_list.classList.add('toc');
+      header_list.innerHTML = header_links.join('\n');
+      node.querySelector('header').appendChild(header_list);
+    }
   },
 
   render: function() {
@@ -70,19 +76,22 @@ const Editor = React.createClass({
       }
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
-    return (<div className={'center mb5 mw7 pb3 ph3 mt3 mt0-l' +
+    return (<div className={'center mb5 mw7 pb3 ph3 mt3 mt4-l' +
       (url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}
-            ></div>)
+            ></div>);
   }
 
 });
 
 function makeProps(state) {
-  var {text, url} = state.data;
+  var {path} = state.routing;
+  var {pages, text, url} = state.data;
+  var page = getPage(path, pages);
 
   return {
+    page: page,
     text: text,
     url: url
   }
