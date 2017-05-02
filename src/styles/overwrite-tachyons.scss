@@ -1,13 +1,11 @@
 /*
-  Overwrite and add classes to Tachyons CSS
+  Overwrites and new classes on top of Tachyons CSS
 */
 
 code,
 .code { font-family: "Fira Mono"; }
 
 .fira { font-family: "Fira Sans"; }
-
-.blue { color: var(--blue-5); }
 
 .font-smoothing {
   -moz-osx-font-smoothing: grayscale;
@@ -18,3 +16,34 @@ code,
   .w-6-l { width: 32rem; }
 }
 
+.outline--black-01 {
+  outline-color: rgba(0, 0, 0, .1);
+}
+
+.outline-offset--1 {
+  outline-offset: -1px;
+}
+
+.green-70 {
+  color: var(--green-70);
+}
+
+.red-70 {
+  color: var(--red-70);
+}
+
+.bg-green-50 {
+  background-color: var(--green-50);
+}
+
+.bg-red-50 {
+  background-color: var(--red-50);
+}
+
+.b--green-50 {
+  border-color: var(--green-50);
+}
+
+.b--red-50 {
+  border-color: var(--red-50);
+}
