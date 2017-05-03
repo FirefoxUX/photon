@@ -156,7 +156,7 @@ article section div[class] blockquote {
 /* Section table */
 
 article section table {
-  border: 1px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
   border-collapse: collapse;
   border-spacing: 0;
   font-size: small;
@@ -169,11 +169,10 @@ article section table {
   }
 
   thead {
-    background-color: #f4f4f4;
+    background-color: #eeeeee;
   }
 
   th {
-    border: 1px solid #eeeeee;
     font-weight: 500;
     padding: .5rem .75rem;
     text-align: left;
@@ -188,7 +187,7 @@ article section table {
   }
 
   td {
-    border: 1px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
     padding: .5rem .75rem;
     vertical-align: top;
 
