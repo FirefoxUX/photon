@@ -1,5 +1,9 @@
 /* global process:false */
 'use strict';
+const ReactGA = require('react-ga');
+ReactGA.initialize('UA-98252211-1');
+ReactGA.set({'appVersion': '0.1'});
+
 const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/DesignSystem';
 
 function parsePath(path) {
@@ -24,4 +28,17 @@ function getSiblingPages(page, pages) {
   return { previous_page, next_page }
 }
 
-module.exports = {getPage, parsePath, getUrl, getSiblingPages};
+function sendPageview(url, hash) {
+  ReactGA.set({ hash: hash });
+  ReactGA.pageview(url);
+}
+
+function sendClick(category, targetId) {
+  ReactGA.event({
+    action: 'click',
+    category: category,
+    label: targetId
+  });
+}
+
+module.exports = {getPage, parsePath, getUrl, getSiblingPages, sendPageview, sendClick};

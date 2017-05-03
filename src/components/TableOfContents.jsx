@@ -82,6 +82,11 @@ const TableOfContents = React.createClass({
             >{'Open an issue on GitHub!'}
             </a>
           </p>
+          <p><a className="near-black no-underline fw5"
+              href="https://www.mozilla.org/privacy/websites/"
+             >{'Privacy Policy'}
+             </a>
+          </p>
         </div>
       </div>
     </nav>)
