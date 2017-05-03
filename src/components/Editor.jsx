@@ -8,10 +8,7 @@ require('../../node_modules/highlight.js/styles/color-brewer.css');
 const React = require('react');
 const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
-const { getPage } = require('./utilities.js');
-const ReactGA = require('react-ga');
-ReactGA.initialize('UA-98252211-1');
-ReactGA.set({'appVersion': '0.1'});
+const { getPage, sendClick } = require('./utilities.js');
 
 const Editor = React.createClass({
   displayName: 'Editor',
@@ -67,11 +64,7 @@ const Editor = React.createClass({
       let header_list = document.createElement('ul');
       header_list.addEventListener('click', (e) => {
         if (e.target.tagName === "A") {
-          ReactGA.event({
-            category: 'Click',
-            action: 'Clicked on the header',
-            value: e.target.getAttribute('href')
-          });
+          sendClick('header-click', e.target.getAttribute('href').substring(1))
         }
       });
       header_list.classList.add('toc');
