@@ -7,6 +7,45 @@
 
 /* Header */
 
+code,
+.code {
+  cursor: pointer;
+  position: relative;
+
+  &::after {
+    background-color: #333333;
+    border-radius: 2px;
+    color: white;
+    content: "Click to copy";
+    display: block;
+    font-family: "Fira Sans";
+    font-size: .75rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+    left: 50%;
+    line-height: 1;
+    opacity: 0;
+    padding: .25rem;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    transform: translateX(-50%);
+    transition: top .3s cubic-bezier(.07, .95, 0, 1), opacity .3s cubic-bezier(.07, .95, 0, 1);
+    width: 5.1rem;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+      top: -1.4rem;
+    }
+  }
+}
+
+/* Header */
+
 article header {
   margin-bottom: 2rem;
 
@@ -120,7 +159,7 @@ article section {
     background-color: #eeeeee;
     border-radius: 3px;
     margin: 0 1px;
-    padding: 2px 4px 1px;
+    padding: 4px;
   }
 }
 
@@ -159,6 +198,7 @@ article section table {
   border-bottom: 2px solid #eeeeee;
   border-collapse: collapse;
   border-spacing: 0;
+  border-top: 2px solid #eeeeee;
   font-size: small;
   margin-bottom: 1rem;
   table-layout: auto;
@@ -189,7 +229,6 @@ article section table {
   td {
     border-bottom: 2px solid #eeeeee;
     padding: .5rem .75rem;
-    vertical-align: top;
 
     p {
       margin: 0;
