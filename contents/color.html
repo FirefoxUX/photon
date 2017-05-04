@@ -1,55 +1,57 @@
 <header>
   <h1>Colors</h1>
-  <p>Short description (not mandatory)</p>
+  <p>
+    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and bringing attention to important piece of interface.
+  </p>
 </header>
 
 <section>
   <h2>Palettes</h2>
   <p>
-    <strong>AA Large</strong> (contrast ≥ 3.0), <strong>AA</strong> (contrast ≥ 4.5), <strong>AAA</strong> (contrast ≥ 7.0).
+    When you use the following colors as background color use white typography when the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or AA for everything else. Otherwise set the typography with the darkest shade–90–of the same color.
   </p>
-  <h3>Primary colors</h3>
-  <% include contents/components/color-primary-palette.html %>
-  <h3>Secondary colors</h3>
-  <% include contents/components/color-secondary-palette.html %>
-</section>
+  <p>
+    You can set the following colors as typography color if the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or better.
+  </p>
 
-<section>
-  <h2>Color usage</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Color</th>
-        <th>Usage</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Blue</td>
-        <td>Accent</td>
-      </tr>
-      <tr>
-        <td>Teal</td>
-        <td>Attention</td>
-      </tr>
-      <tr>
-        <td>Green</td>
-        <td>Success</td>
-      </tr>
-      <tr>
-        <td>Yellow</td>
-        <td>Warning</td>
-      </tr>
-      <tr>
-        <td>Red</td>
-        <td>Error</td>
-      </tr>
-      <tr>
-        <td>Purple</td>
-        <td>Private</td>
-      </tr>
-    </tbody>
-  </table>
+  <h3>Blue</h3>
+  <p>
+    Firefox Blue is one of our primary colors. We use blue as accent color for highliting buttons, links and active states like the current tab in Firefox for desktop. 
+  </p>
+  <% include contents/components/color-blue.html %>
+
+  <h3>Teal</h3>
+  <p>
+    Firefox Teal is one of our primary colors. We use teal as attention color. 
+  </p>
+  <% include contents/components/color-teal.html %>
+
+  <h3>Magenta</h3>
+  <% include contents/components/color-magenta.html %>
+
+  <h3>Green</h3>
+  <p>
+    Firefox green is commonly used for success validation messagges and scenarios.
+  </p>
+  <% include contents/components/color-green.html %>
+
+  <h3>Yellow</h3>
+  <p>
+    Firefox yellow is commonly used for warning validation messagges and scenarios.
+  </p>
+  <% include contents/components/color-yellow.html %>
+
+  <h3>Red</h3>
+  <p>
+    Firefox red is commonly used for error validation messagges and scenarios.
+  </p>
+  <% include contents/components/color-red.html %>
+
+  <h3>Purple</h3>
+  <p>
+    Firefox purple is commonly used for private navigation.
+  </p>
+  <% include contents/components/color-purple.html %>
 </section>
 
 <section>

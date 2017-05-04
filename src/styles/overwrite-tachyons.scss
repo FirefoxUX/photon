@@ -2,8 +2,14 @@
   Overwrites and new classes on top of Tachyons CSS
 */
 
+// Code
+
 code,
-.code { font-family: "Fira Mono"; }
+.code {
+  font-family: "Fira Mono";
+}
+
+// Font
 
 .fira { font-family: "Fira Sans"; }
 
@@ -12,9 +18,13 @@ code,
   -webkit-font-smoothing: antialiased;
 }
 
+// Withs
+
 @media screen and (min-width: 60em) {
   .w-6-l { width: 32rem; }
 }
+
+// Outline
 
 .outline--black-01 {
   outline-color: rgba(0, 0, 0, .1);
@@ -24,21 +34,319 @@ code,
   outline-offset: -1px;
 }
 
+// Colors
+
+// Blue
+
+.blue-50 {
+  color: var(--blue-50);
+}
+
+.blue-60 {
+  color: var(--blue-60);
+}
+
+.blue-70 {
+  color: var(--blue-70);
+}
+
+.blue-80 {
+  color: var(--blue-80);
+}
+
+.blue-90 {
+  color: var(--blue-90);
+}
+
+// Teal
+
+.teal-50 {
+  color: var(--teal-50);
+}
+
+.teal-60 {
+  color: var(--teal-60);
+}
+
+.teal-70 {
+  color: var(--teal-70);
+}
+
+.teal-80 {
+  color: var(--teal-80);
+}
+
+.teal-90 {
+  color: var(--teal-90);
+}
+
+// Magenta
+
+.magenta-50 {
+  color: var(--magenta-50);
+}
+
+.magenta-60 {
+  color: var(--magenta-60);
+}
+
+.magenta-70 {
+  color: var(--magenta-70);
+}
+
+.magenta-80 {
+  color: var(--magenta-80);
+}
+
+.magenta-90 {
+  color: var(--magenta-90);
+}
+
+// Green
+
+.green-50 {
+  color: var(--green-50);
+}
+
+.green-60 {
+  color: var(--green-60);
+}
+
 .green-70 {
   color: var(--green-70);
+}
+
+.green-80 {
+  color: var(--green-80);
+}
+
+.green-90 {
+  color: var(--green-90);
+}
+
+// Yellow
+
+.yellow-50 {
+  color: var(--yellow-50);
+}
+
+.yellow-60 {
+  color: var(--yellow-60);
+}
+
+.yellow-70 {
+  color: var(--yellow-70);
+}
+
+.yellow-80 {
+  color: var(--yellow-80);
+}
+
+.yellow-90 {
+  color: var(--yellow-90);
+}
+
+// Red
+
+.red-50 {
+  color: var(--red-50);
+}
+
+.red-60 {
+  color: var(--red-60);
 }
 
 .red-70 {
   color: var(--red-70);
 }
 
+.red-80 {
+  color: var(--red-80);
+}
+
+.red-90 {
+  color: var(--red-90);
+}
+
+// Purple
+
+.purple-50 {
+  color: var(--purple-50);
+}
+
+.purple-60 {
+  color: var(--purple-60);
+}
+
+.purple-70 {
+  color: var(--purple-70);
+}
+
+.purple-80 {
+  color: var(--purple-80);
+}
+
+.purple-90 {
+  color: var(--purple-90);
+}
+
+// Background colors
+
+// Blue
+
+.bg-blue-50 {
+  background-color: var(--blue-50);
+}
+
+.bg-blue-60 {
+  background-color: var(--blue-60);
+}
+
+.bg-blue-70 {
+  background-color: var(--blue-70);
+}
+
+.bg-blue-80 {
+  background-color: var(--blue-80);
+}
+
+.bg-blue-90 {
+  background-color: var(--blue-90);
+}
+
+// Teal
+
+.bg-teal-50 {
+  background-color: var(--teal-50);
+}
+
+.bg-teal-60 {
+  background-color: var(--teal-60);
+}
+
+.bg-teal-70 {
+  background-color: var(--teal-70);
+}
+
+.bg-teal-80 {
+  background-color: var(--teal-80);
+}
+
+.bg-teal-90 {
+  background-color: var(--teal-90);
+}
+
+// Magenta
+
+.bg-magenta-50 {
+  background-color: var(--magenta-50);
+}
+
+.bg-magenta-60 {
+  background-color: var(--magenta-60);
+}
+
+.bg-magenta-70 {
+  background-color: var(--magenta-70);
+}
+
+.bg-magenta-80 {
+  background-color: var(--magenta-80);
+}
+
+.bg-magenta-90 {
+  background-color: var(--magenta-90);
+}
+
+// Green
+
 .bg-green-50 {
   background-color: var(--green-50);
 }
 
+.bg-green-60 {
+  background-color: var(--green-60);
+}
+
+.bg-green-70 {
+  background-color: var(--green-70);
+}
+
+.bg-green-80 {
+  background-color: var(--green-80);
+}
+
+.bg-green-90 {
+  background-color: var(--green-90);
+}
+
+// Yellow
+
+.bg-yellow-50 {
+  background-color: var(--yellow-50);
+}
+
+.bg-yellow-60 {
+  background-color: var(--yellow-60);
+}
+
+.bg-yellow-70 {
+  background-color: var(--yellow-70);
+}
+
+.bg-yellow-80 {
+  background-color: var(--yellow-80);
+}
+
+.bg-yellow-90 {
+  background-color: var(--yellow-90);
+}
+
+// Red
+
 .bg-red-50 {
   background-color: var(--red-50);
 }
+
+.bg-red-60 {
+  background-color: var(--red-60);
+}
+
+.bg-red-70 {
+  background-color: var(--red-70);
+}
+
+.bg-red-80 {
+  background-color: var(--red-80);
+}
+
+.bg-red-90 {
+  background-color: var(--red-90);
+}
+
+// Purple
+
+.bg-purple-50 {
+  background-color: var(--purple-50);
+}
+
+.bg-purple-60 {
+  background-color: var(--purple-60);
+}
+
+.bg-purple-70 {
+  background-color: var(--purple-70);
+}
+
+.bg-purple-80 {
+  background-color: var(--purple-80);
+}
+
+.bg-purple-90 {
+  background-color: var(--purple-90);
+}
+
+// Border colors
 
 .b--green-50 {
   border-color: var(--green-50);
