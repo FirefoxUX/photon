@@ -57,7 +57,7 @@ function onUpdate() {
   // If there's nothing, redirect to the first page.
   if (!page) {
     let url = getUrl(pages[0]);
-    sendPageview(url, '');
+    sendPageview(url);
     store.dispatch(pushPath(url));
     return;
   }
