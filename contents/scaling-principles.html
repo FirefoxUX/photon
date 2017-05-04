@@ -1,0 +1,147 @@
+<header>
+  <h1>Scaling Principles</h1>
+  <p>
+    Those principles guide us in deciding where it is important for us to express our own language. They are a starting point to where we apply our own design and where we follow platform conventions. To some extent they will also help us decide what is worth standardizing in our system and what we leave to platform conventions.
+  </p>
+  <p>
+    Platforms: Android, iOS, Linux, macOS, Web, Windows
+  </p>
+  <p>
+    Check your work with the top principle before considering the next. Listed in prioritized order.
+  </p>
+</header>
+
+<section>
+  <h2>1. Re-use What’s There</h2>
+  <p>
+    When building something new, try to reuse what we already have built and documented in the Design System. This will make it feel familiar to our existing users, and will be implemented quicker. Do not force it though. If it doesn’t fit, it doesn’t fit.
+  </p>
+
+  <h2>2. Prioritize Higher Visibility Work</h2>
+  <p>
+    When I'm prioritizing how to ship the first iteration of a feature like "Bookmarks Management on Mobile". For example, the first step in the process is pressing the "Star". The final steps here are when the user edits the title, url, etc… before they save their changes. We're using system full-page dialogs in Android for the final steps because it's easier, more aligned with the Android platform, and it’s lower visibility. But we use our own menu, icons, colors, and copy (and hopefully animations soon too) for the Bookmark star.
+  </p>
+
+  <figure>
+    <table>
+      <thead>
+        <tr>
+          <th><p>Visibility</p></th>
+          <th><p>high</p></th>
+          <th><p></p></th>
+          <th><p>low</p></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Firefox Design</th>
+          <th>most</th>
+          <th></th>
+          <th>little</th>
+        </tr>
+        <tr>
+          <th>Platform</th>
+          <th>little</th>
+          <th></th>
+          <th>most</th>
+        </tr>
+        <tr>
+          <th>Examples</th>
+          <td>Browser Toolbar, Home Page</td>
+          <td>Application Menu, Library Menu, Preferences</td>
+          <td>Page Info, Library</td>
+        </tr>
+      </tbody>
+    </table>
+    <figcaption>Relation of feature visibility, Firefox Design and Platform Guidelines</figcaption>
+  </figure>
+
+  <blockquote>
+    <h4>Example</h4>
+    <p>
+      When I'm prioritizing how to ship the first iteration of a feature like "Bookmarks Management on Mobile". For example, the first step in the process is pressing the "Star". The final steps here are when the user edits the title, url, etc… before they save their changes. We're using system full-page dialogs in Android for the final steps because it's easier, more aligned with the Android platform, and it’s lower visibility. But we use our own menu, icons, colors, and copy (and hopefully animations soon too) for the Bookmark star.
+    </p>
+  </blockquote>
+
+  <h2>3. Ballance Firefox Style and Platform Conventions</h2>
+  <p>
+    Do balance between adapting to much platform and too little. Especially stay clear of the Uncanny Valley.
+  </p>
+  <figure>
+    <img src="images/scaling-principles/uncanny_valley_UI.png" alt="Illustration to explain that one should not use too much nor too little platform UI in additon to Firefox Design System UI.">
+    <figcaption>Uncanny Valley of UI development</figcaption>
+  </figure>
+
+  <h2>4. Use Firefox Style for Visuals and Platform for Interaction</h2>
+  <p>
+    Use our styles for visual appearance and tone, and use platform conventions for any pattern that is well established on a given platform. This will make the feature feel familiar to new users and still convey our style.
+  </p>
+  <!--
+  <blockquote>
+    <h4>Example</h4>
+    <p>
+      When...
+    </p>
+  </blockquote>
+  -->
+
+  <h2>5. Use Platform When Possible</h2>
+  <p>
+    Us platform whenever it is possible to do so without impacting our own style too much. Pay special attention to reusing platform when performance is a high priority.
+  </p>
+  <!--
+  <blockquote>
+    <h4>Example</h4>
+    <p>
+      When...
+    </p>
+  </blockquote>
+  -->
+</section>
+
+<section>
+  <h2>Related Platform Guidelines</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th><p>Platform</p></th>
+        <th><p>Guidline</p></th>
+        <th><p>Notes</p></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Android</p></td>
+        <td><p><a href="https://material.io/guidelines/">Material Design</a></p></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><p>iOS</p></td>
+        <td><p><a href="https://developer.apple.com/ios/human-interface-guidelines/">iOS Human Interface Guidelines</a></p></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><p>Linux</p></td>
+        <td><p><a href="https://design.ubuntu.com/apps">Ubuntu App Design Guides</a></p></td>
+        <td><p>And others depending on distribution.</p></td>
+      </tr>
+      <tr>
+        <td><p>macOS</p></td>
+        <td><p><a href="https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/OSXHIGuidelines/">macOS Human Interface Guidelines</a></p></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><p>Web</p></td>
+        <td><p><a href=""></a></p></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><p>Windows</p></td>
+        <td><p><a href="https://developer.microsoft.com/en-us/windows/desktop/design">Windows Desktop Applications Design</a></p></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</section>

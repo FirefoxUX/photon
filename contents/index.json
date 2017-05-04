@@ -10,7 +10,14 @@
   },
   {
     "title": "Principles",
-    "file": "principles.html"
+    "pages": [
+      {"title": "Visual",
+        "file": "visual-principles.html"
+      },
+      {"title": "Scaling",
+        "file": "scaling-principles.html"
+      }
+    ]
   },
   {
     "title": "Visual",
