@@ -5,17 +5,16 @@
     "hidden": true
   },
   {
-    "title": "Getting started",
-    "file": "getting-started.html"
-  },
-  {
-    "title": "Principles",
+    "title": "Firefox Design System",
     "pages": [
-      {"title": "Visual",
-        "file": "visual-principles.html"
+      {"title": "Getting started",
+        "file": "getting-started.html"
       },
-      {"title": "Scaling",
-        "file": "scaling-principles.html"
+      {"title": "Principles",
+        "file": "principles.html"
+      },
+      {"title": "Design for scale",
+        "file": "design-for-scale.html"
       }
     ]
   },
