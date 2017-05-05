@@ -41,6 +41,10 @@ code {
       top: -1.4rem;
     }
   }
+
+  &.copied::after {
+    content: "Copied!";
+  }
 }
 
 /* Header */
