@@ -7,7 +7,7 @@
 
 /* Header */
 
-article header {
+main header {
   margin-bottom: 2rem;
 
   h1 {
@@ -48,7 +48,7 @@ article header {
 
 /* Section typography */
 
-article section {
+main section {
   margin-bottom: 2rem;
 
   @media screen and (min-width: 60em) {
@@ -121,8 +121,9 @@ article section {
 
 /* Section blockquote */
 
-article section blockquote {
+main section blockquote {
   background-color: #f4f4f4;
+  border-radius: 4px;
   margin: 0 0 1rem;
   padding: 1rem 1rem .25rem;
 
@@ -144,13 +145,13 @@ article section blockquote {
   }
 }
 
-article section div[class] blockquote {
+main section div[class] blockquote {
   width: auto;
 }
 
 /* Section table */
 
-article section table {
+main section table {
   border: 1px solid #eeeeee;
   border-collapse: collapse;
   border-spacing: 0;
@@ -194,5 +195,22 @@ article section table {
     @media screen and (min-width: 30em) {
       padding: .75rem 1rem;
     }
+  }
+}
+
+main section article {
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 4px;
+  width: 75%;
+
+  h4 {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin: 0;
+    padding: 1rem;
+  }
+
+  p {
+    margin: 0;
+    padding: 1rem;
   }
 }
