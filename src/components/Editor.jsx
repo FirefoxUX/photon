@@ -33,6 +33,7 @@ const Editor = React.createClass({
         }
       }
     }, false);
+    this.addClickToCopy();
   },
 
   componentDidUpdate: function(prevProps) {
@@ -71,6 +72,24 @@ const Editor = React.createClass({
       header_list.innerHTML = header_links.join('\n');
       node.querySelector('header').appendChild(header_list);
     }
+  },
+
+  addClickToCopy: function () {
+    let node = ReactDOM.findDOMNode(this);
+    node.addEventListener('click', e => {
+      if (e.target.tagName === 'CODE') {
+        let text = e.target.textContent;
+        let copyElement = document.createElement('input');
+        copyElement.setAttribute('type', 'text');
+        copyElement.setAttribute('value', text);
+        copyElement = document.body.appendChild(copyElement);
+        copyElement.select();
+        document.execCommand('copy');
+        copyElement.remove();
+        e.target.classList.add('copied');
+        setTimeout(() => {e.target.classList.remove('copied')}, 2000);
+      }
+    });
   },
 
   render: function() {
