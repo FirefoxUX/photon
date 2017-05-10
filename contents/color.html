@@ -14,7 +14,7 @@
 <section>
   <h2>Palettes</h2>
   <p>
-    When you use the following colors as background color use white typography when the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or AA for everything else. Otherwise set the typography with the darkest shade–90–of the same color.
+    When you use the following colors as background color use white <code>#ffffff</code> typography when the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or AA for everything else. Otherwise set the typography with the darkest shade–90–of the same color.
   </p>
   <p>
     You can set the following colors as typography color if the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or better.
@@ -70,6 +70,32 @@
     Firefox grey is commonly used for interfaces. Like Firefox for desktop with light theme enabled.
   </p>
   <% include contents/components/color-grey.html %>
+
+  <h3>White</h3>
+  <p>
+    We use white for the background of doorhangers or in-content menus.
+  </p>
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <div class="dib w2 h2 v-mid mr2 br2 bg-white ba b--black-10"></div>
+          <p class="dib v-mid">White</p>
+        </td>
+        <td>
+          <code>#ffffff</code>
+        </td>
+        <td>
+          <p>
+            <span class="pa1 br1 bg-white ba b--black-10 grey-90 font-smoothing">AAA</span>
+          </p>
+        </td>
+        <td>
+          <p class="grey-10">Fails</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
 <section>
