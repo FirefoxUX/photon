@@ -1,61 +1,84 @@
 <header>
   <h1>Colors</h1>
-  <p>Short description (not mandatory)</p>
+  <p>
+    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and bringing attention to important piece of interface.
+  </p>
 </header>
 
 <section>
-  <h2>Palettes</h2>
-  <p>
-    <strong>AA Large</strong> (contrast ≥ 3.0), <strong>AA</strong> (contrast ≥ 4.5), <strong>AAA</strong> (contrast ≥ 7.0).
-  </p>
-  <h3>Primary colors</h3>
+  <h2>Primary and Secondary</h2>
   <% include contents/components/color-primary-palette.html %>
-  <h3>Secondary colors</h3>
   <% include contents/components/color-secondary-palette.html %>
 </section>
 
 <section>
-  <h2>Color usage</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Color</th>
-        <th>Usage</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Blue</td>
-        <td>Accent</td>
-      </tr>
-      <tr>
-        <td>Teal</td>
-        <td>Attention</td>
-      </tr>
-      <tr>
-        <td>Green</td>
-        <td>Success</td>
-      </tr>
-      <tr>
-        <td>Yellow</td>
-        <td>Warning</td>
-      </tr>
-      <tr>
-        <td>Red</td>
-        <td>Error</td>
-      </tr>
-      <tr>
-        <td>Purple</td>
-        <td>Private</td>
-      </tr>
-    </tbody>
-  </table>
+  <h2>Palettes</h2>
+  <p>
+    When you use the following colors as background color use white typography when the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or AA for everything else. Otherwise set the typography with the darkest shade–90–of the same color.
+  </p>
+  <p>
+    You can set the following colors as typography color if the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or better.
+  </p>
+
+  <h3>Blue</h3>
+  <p>
+    Firefox Blue is one of our primary colors. We use blue as accent color for highliting buttons, links and active states like the current tab in Firefox for desktop. 
+  </p>
+  <% include contents/components/color-blue.html %>
+
+  <h3>Teal</h3>
+  <p>
+    Firefox Teal is one of our primary colors. We use teal as attention color. 
+  </p>
+  <% include contents/components/color-teal.html %>
+
+  <h3>Magenta</h3>
+  <% include contents/components/color-magenta.html %>
+
+  <h3>Green</h3>
+  <p>
+    Firefox green is commonly used for success validation messagges and scenarios.
+  </p>
+  <% include contents/components/color-green.html %>
+
+  <h3>Yellow</h3>
+  <p>
+    Firefox yellow is commonly used for warning validation messagges and scenarios.
+  </p>
+  <% include contents/components/color-yellow.html %>
+
+  <h3>Red</h3>
+  <p>
+    Firefox red is commonly used for error validation messagges and scenarios.
+  </p>
+  <% include contents/components/color-red.html %>
+
+  <h3>Purple</h3>
+  <p>
+    Firefox purple is commonly used for private navigation.
+  </p>
+  <% include contents/components/color-purple.html %>
+
+  <h3>Ink</h3>
+  <p>
+    Firefox ink is commonly used for interfaces. Like Firefox for desktop with dark theme enabled.
+  </p>
+  <% include contents/components/color-ink.html %>
+
+  <h3>Grey</h3>
+  <p>
+    Firefox grey is commonly used for interfaces. Like Firefox for desktop with light theme enabled.
+  </p>
+  <% include contents/components/color-grey.html %>
 </section>
 
 <section>
   <h2>Validations and notifications</h2>
   <h3>Validation</h3>
   <p>
+    We are currently in the process of defying these colors.
+  </p>
+<!--   <p>
     When you design a component that features validation use the following colors for success, warning or error. Only use a text color with the accompanying background color.
   </p>
   <table>
@@ -83,9 +106,12 @@
         <td><code>#ff0039</code></td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
   <h3>Notification</h3>
   <p>
+    We are currently in the process of defying these colors.
+  </p>
+<!--   <p>
     When you have to display a notification use one of the following palette: only use a text color with the accompanying background color.
   </p>
   <table>
@@ -109,7 +135,7 @@
         <td><code>#ff1ad9</code></td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
 </section>
 
 <section>
@@ -145,7 +171,10 @@
     We are currently in the process of defying these colors.
   </p>
   <h3>Validations and notifications icons</h3>
-  <table>
+  <p>
+    We are currently in the process of defying these colors.
+  </p>
+  <!-- <table>
     <thead>
       <tr>
         <th>State</th>
@@ -170,7 +199,7 @@
         <td><code>#0a84ff</code></td>
       </tr>
     </tbody>
-  </table>
+  </table> -->
 </section>
 
 <section>
@@ -194,7 +223,7 @@
 
   <h3>Color contrast</h3>
   <p>
-    You are encourage to follow the <a class="blue-5 no-underline pointer" href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast. Bodies of text should have a contrast ratio of at least 4.5:1 and that large-scale text should have a contrast ratio of at least 3:1.
+    You are encourage to follow the <a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast. Bodies of text should have a contrast ratio of at least 4.5:1 and that large-scale text should have a contrast ratio of at least 3:1.
   </p>
 
   <h3>Color blind</h3>

@@ -5,6 +5,49 @@
   write plain HTML without worrying about CSS classes.
 */
 
+/* Click to copy tooltip */
+
+code {
+  cursor: pointer;
+  position: relative;
+
+  &::after {
+    background-color: #333333;
+    border-radius: 2px;
+    color: white;
+    content: "Click to copy";
+    display: block;
+    font-family: "Fira Sans";
+    font-size: .75rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+    left: 50%;
+    line-height: 1;
+    opacity: 0;
+    padding: .25rem;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    transform: translateX(-50%);
+    transition: top .3s cubic-bezier(.07, .95, 0, 1), opacity .3s cubic-bezier(.07, .95, 0, 1);
+    width: 5.2rem;
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+      top: -1.4rem;
+    }
+  }
+
+  &.copied::after {
+    content: "Copied!";
+    width: 2.8rem;
+  }
+}
+
 /* Header */
 
 main header {
@@ -78,6 +121,11 @@ main section {
     margin: 1rem 0 .5rem;
   }
 
+  h3 + h4,
+  h4 + h4 {
+    margin-top: 0;
+  }
+
   p,
   ul {
     line-height: 1.4;
@@ -94,7 +142,7 @@ main section {
 
     figcaption {
       font-size: small;
-      margin-top: .5rem;
+      padding-top: .5rem;
     }
   }
 
@@ -115,7 +163,7 @@ main section {
     background-color: #eeeeee;
     border-radius: 3px;
     margin: 0 1px;
-    padding: 2px 4px 1px;
+    padding: 4px;
   }
 }
 
@@ -152,9 +200,10 @@ main section div[class] blockquote {
 /* Section table */
 
 main section table {
-  border: 1px solid #eeeeee;
+  border-bottom: 2px solid #eeeeee;
   border-collapse: collapse;
   border-spacing: 0;
+  border-top: 2px solid #eeeeee;
   font-size: small;
   margin-bottom: 1rem;
   table-layout: auto;
@@ -165,11 +214,10 @@ main section table {
   }
 
   thead {
-    background-color: #f4f4f4;
+    background-color: #eeeeee;
   }
 
   th {
-    border: 1px solid #eeeeee;
     font-weight: 500;
     padding: .5rem .75rem;
     text-align: left;
@@ -184,9 +232,8 @@ main section table {
   }
 
   td {
-    border: 1px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
     padding: .5rem .75rem;
-    vertical-align: top;
 
     p {
       margin: 0;

@@ -9,14 +9,14 @@
     "express": "4.15.2",
     "highlight.js": "9.10.0",
     "history": "1.17.0",
+    "react": "0.14.8",
     "react-dom": "0.14.8",
     "react-redux": "4.4.6",
     "react-router": "1.0.3",
-    "react": "0.14.8",
+    "redux": "3.6.0",
     "redux-logger": "2.10.2",
     "redux-simple-router": "1.0.2",
     "redux-thunk": "1.0.3",
-    "redux": "3.6.0",
     "whatwg-fetch": "0.10.1"
   },
   "devDependencies": {

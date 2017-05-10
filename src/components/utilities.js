@@ -1,6 +1,17 @@
-/* global process:false */
+/* global process:false, ga:false */
 'use strict';
+
 const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/DesignSystem';
+
+// GA Tracking code
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+// This GA tracking code is linked to ewright@mozilla.com,
+// contact them to request access to the GA data
+ga('create', 'UA-98252211-1', 'auto');
 
 function parsePath(path) {
   return path.replace(PREFIX, '').replace(/#.*/, '').split('/').concat([null])[1];
@@ -24,4 +35,15 @@ function getSiblingPages(page, pages) {
   return { previous_page, next_page }
 }
 
-module.exports = {getPage, parsePath, getUrl, getSiblingPages};
+function sendPageview(url, hash) {
+  ga('send', 'pageview', url);
+  if (hash) {
+    sendEvent('load-hash', hash, url);
+  }
+}
+
+function sendEvent(category, hash, url) {
+  ga('send', 'event', category, hash.substring(1), url);
+}
+
+module.exports = {getPage, parsePath, getUrl, getSiblingPages, sendPageview, sendEvent};
