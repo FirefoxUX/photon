@@ -31,7 +31,7 @@ const Page = connect(state => {
 
     const url = getUrl(item);
     return (<Link activeClassName="fw5 blue"
-        className={classes + ((item === page) ? ' selected' : '')}
+        className={classes + ((item.title === page.file) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
             >{item.title}</Link>);

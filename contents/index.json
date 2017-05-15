@@ -20,6 +20,7 @@
   },
   {
     "title": "Visual",
+    "directory": "visual",
     "pages": [
       {"title":"Grid",
       "file": "grid.html"
@@ -40,6 +41,7 @@
   },
   {
     "title": "Motion",
+    "directory": "motion",
     "pages": [
       {
         "title": "Principles",
@@ -48,6 +50,7 @@
     ]
   },
   {"title": "Copy",
+    "directory": "copy",
     "pages": [
       {"title": "Copy Rules",
         "file": "copy-rules.html"},
@@ -68,6 +71,7 @@
     ]
   },
   {"title": "Resources",
+    "directory": "resources",
     "pages": [
       {"title": "Templates",
         "file": "templates.html"}
