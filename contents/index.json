@@ -6,7 +6,7 @@
   },
   {
     "title": "Firefox Design System",
-    "directory": "introduction",
+    "directory": "intro",
     "pages": [
       {"title": "Getting started",
         "file": "getting-started.html"
