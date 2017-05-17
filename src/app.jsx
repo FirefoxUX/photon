@@ -69,7 +69,7 @@ function onUpdate() {
     loadUrl(store.dispatch, data.url);
   } else {
     sendPageview(data.file, window.location.hash)
-    getContent(store.dispatch, data.file);
+    getContent(store.dispatch, data);
   }
 }
 

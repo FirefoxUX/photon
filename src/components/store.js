@@ -9,7 +9,9 @@ function mungeSources(sources) {
   sources.forEach(source => {
     let sourcePages = source.pages || [source];
     sourcePages.forEach(page => {
-      pages.push(Object.assign({'category':source.title}, page));
+      page.category = source.title;
+      page.directory = source.directory || '';
+      pages.push(page);
     })
   })
   return {sources, pages};
@@ -27,7 +29,7 @@ function store(state, action) {
   switch (action.type) {
   case "@@router/INIT_PATH":
   case UPDATE_PATH:
-    if (state.file === parsePath(action.payload.path)) {
+    if (state.file === parsePath(action.payload.path)[1]) {
       return Object.assign({}, state);
     }
     return Object.assign({}, state, {text: '', file: '', url: ''});
