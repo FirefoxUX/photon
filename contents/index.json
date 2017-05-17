@@ -71,10 +71,6 @@
     ]
   },
   {"title": "Resources",
-    "directory": "resources",
-    "pages": [
-      {"title": "Templates",
-        "file": "templates.html"}
-    ]
+    "file": "resources.html"
   }
 ]
