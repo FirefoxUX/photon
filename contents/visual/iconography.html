@@ -10,9 +10,19 @@
   </p>
   <h3>Grid</h3>
   <p>
-    Firefox icons live on a 16x16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on help the icons not appear fuzzy in production.
+    Firefox icons live on a 16&times;16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps you ensure that the icons will not appear fuzzy in production.
   </p>
   <% include contents/includes/iconography/grid-2columns.html %>
+  <p>
+    In Sketch, select the shape and then select <em>Layer &#8594; Round to Nearest Pixel Edge</em>. Sketch will automatically align the edges with the pixel grid. It works for both the Position and Size values.
+  </p>
+  <p>
+    In Adobe Illustrator, use <em>View &#8594; Pixel Preview</em> to see your design on a pixel grid. Select a shape and use <em>Object &#8594; Make Pixel Perfect</em> to set position and size to the nearest full pixel. Or click the <em>Snap to Pixel</em> icon in the Control panel to turn on snapping permanently.
+  </p>
+  <figure>
+    <img src="images/icon-design/grid.png" alt="icon design construction grid">
+    <figcaption>The Grid</figcaption>
+  </figure>
   <h3>Shape</h3>
   <p>
     Use positive and negative space to create the shape of your icon. When lines principally shape your icon use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly.
@@ -27,22 +37,24 @@
 </section>
 
 <section>
-  <h2>Export your icon</h2>
+  <h2>Export Your Icon</h2>
 
   <h3>Flatten</h3>
   <p>
     Before exporting your icons, be sure to expand all the shapes and strokes overlapping each other. Remember to remove unnecessary anchor points to keep the icon as simple as possible.
   </p>
   <p>
-    In Sketch, you can expand all your paths by selecting <code>Layer &#8594; Paths &#8594; Vectorize Stroke</code> in the menu. In Illustrator you find this option under <code>Object &#8594; Expand</code>.
+    In Sketch, you can expand all your paths by selecting <em>Layer &#8594; Paths &#8594; Vectorize Stroke</em> in the menu.
+  <p>
+    In Adobe Illustrator you find this option under <em>Object &#8594; Expand</em>.
   </p>
 
-  <h3>Naming</h3>
+  <h3>Name</h3>
   <p>
-    Do not forget to name the artboard with the icon name. The name should describe the action of the icon, and not the icon itself. For example, we are using a star as a metaphor for bookmarking  The name of the icon is <em>bookmark</em>, and not <em>star</em>.
+    Name the artboard with the icon name. The name should describe the action of the icon, and not the icon itself. For example, when using a star as a metaphor for bookmarking, use <em>bookmark</em>, and not <em>star</em> as the name.
   </p>
   <p>
-    Add an <code>-</code> hyphen to underline variation in the icon.
+    Add a hyphen (<code>-</code>) to underline variations in the icon.
   </p>
   <figure>
     <img src="../images/iconography/naming.png" alt="how to name your icon">
@@ -50,15 +62,15 @@
 
   <h3>Save as SVG</h3>
   <p>
-    In Illustrator to save your artwork as SVG, choose <code>File &#8594; Export &#8594; SVG (svg)</code>. If you are saving more than one icons, check <code>Use Artboards</code> to export the contents of your artboards as individual SVG files. Click <code>Export</code> to open the SVG Options panel.
+    In Adobe Illustrator to save your artwork as SVG, choose <em>File &#8594; Export &#8594; SVG (svg)</em>. If you are saving more than one icon, check <em>Use Artboards</em> to export the contents of your artboards as individual SVG files. Click <em>Export</em> to open the SVG Options panel.
   </p>
   <p>
-    In Sketch simply select the artboard, click <code>Make it exportable</code> in the sidebar and select <code>SVG</code> from the format menu.
+    In Sketch select the artboard, click <em>Make Exportable</em> in the sidebar and select <em>SVG</em> as format.
   </p>
   <blockquote>
     <h4>Tip</h4>
     <p>
-      If you are using Sketch, be sure to have the <a href="https://github.com/BohemianCoding/svgo-compressor">SVGO Compressor plugin by Bohemian Coding</a> installed. This small plugin fixes most of the SVG issues in Sketch.
+      If you are using Sketch, be sure to install the <a href="https://github.com/BohemianCoding/svgo-compressor">SVGO Compressor by Bohemian Coding</a>.
     </p>
   </blockquote>
 </section>
