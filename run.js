@@ -1,14 +1,17 @@
+'use strict';
+
 var express = require('express');
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 
 var frontendConfig = require('./webpack.config.js');
 
-var pages = require('./contents/index.json')
-  .map(x => x.pages || [x])
-  .reduce((acc, val) => acc.concat(val), [])
+var pages = frontendConfig.pages
   .map(x => {
-    return `/${x.file}`
+    if (x.directory) {
+      return `/${x.directory}/${x.file}`;
+    }
+    return `/${x.file}`;
   });
 
 new WebpackDevServer(webpack(frontendConfig), {

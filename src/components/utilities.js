@@ -13,18 +13,27 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 // contact them to request access to the GA data
 ga('create', 'UA-98252211-1', 'auto');
 
+function splitPath(path) {
+  return path.replace(PREFIX, '').replace(/#.*/, '').split('/');
+}
 function parsePath(path) {
-  return path.replace(PREFIX, '').replace(/#.*/, '').split('/').concat([null])[1];
+  let rv = splitPath(path);
+  return rv.splice(rv.length - 2);
 }
 
 function getPage(path, pages) {
-  var page = parsePath(path);
-  page = pages.find(item => item.file === page);
+  var page, directory;
+  [directory, page] = parsePath(path);
+  page = pages.find(item => item.file === page && item.directory === directory);
   return page;
 }
 
 function getUrl(page) {
-  return PREFIX + '/' + page.file;
+  let url = PREFIX + '/';
+  if (page.directory) {
+    url += page.directory + '/';
+  }
+  return url + page.file;
 }
 
 function getSiblingPages(page, pages) {
@@ -46,4 +55,4 @@ function sendEvent(category, hash, url) {
   ga('send', 'event', category, hash.substring(1), url);
 }
 
-module.exports = {getPage, parsePath, getUrl, getSiblingPages, sendPageview, sendEvent};
+module.exports = {PREFIX, getPage, parsePath, getUrl, getSiblingPages, sendPageview, sendEvent};

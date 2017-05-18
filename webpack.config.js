@@ -1,3 +1,5 @@
+'use strict';
+
 /* eslint-env node */
 var path = require('path');
 var webpack = require('webpack');
@@ -10,26 +12,40 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var WriteFilePlugin = require('write-file-webpack-plugin');
 var StyleLintPlugin = require('stylelint-webpack-plugin');
 
-var pages = require('./contents/index.json')
-  .map(x => x.pages || [x])
-  .reduce((acc, val) => acc.concat(val), [])
-  .map(x => {
-    return [
-      new HtmlWebpackPlugin({
-        filename: `../${x.file}`,
-        template: `./index.html`,
-        inject: true,
-        inlineSource: '\.css$'
-      }),
-      new HtmlWebpackPlugin({
-        filename: `../contents/${x.file}`,
-        template: `./contents/${x.file}`,
-        inject: false,
-        inlineSource: '\.css$'
-      })
-    ];
+function mungeSources(sources) {
+  let pages = []
+  sources.forEach(source => {
+    let sourcePages = source.pages || [source];
+    sourcePages.forEach(page => {
+      pages.push(Object.assign({'directory':source.directory}, page));
+    })
   })
-  .reduce((acc, val) => acc.concat(val), []);
+  return pages;
+}
+
+var pages = mungeSources(require('./contents/index.json'));
+
+var pagePlugins = pages.map(x => {
+  let filename = `${x.file}`;
+  if (x.directory) {
+    filename = `${x.directory}/${x.file}`
+  }
+  return [
+    new HtmlWebpackPlugin({
+      filename: `../${filename}`,
+      template: `./index.html`,
+      inject: true,
+      inlineSource: '\.css$'
+    }),
+    new HtmlWebpackPlugin({
+      filename: `../contents/${filename}`,
+      template: `./contents/${filename}`,
+      inject: false,
+      inlineSource: '\.css$'
+    })
+  ];
+})
+.reduce((acc, val) => acc.concat(val), []);
 
 var entry = [
   './src/app.jsx'
@@ -51,7 +67,7 @@ var basePlugins = [
     inject: true,
     inlineSource: '\.css$'
   }),
-  ...pages,
+  ...pagePlugins,
   new WriteFilePlugin(),
   new StyleLintPlugin({
     configFile: path.join(__dirname, './.stylelintrc')
@@ -102,6 +118,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: publicPath
   },
+  pages: pages,
   plugins: plugins,
   module: {
     preLoaders: [{

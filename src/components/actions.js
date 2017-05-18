@@ -1,15 +1,21 @@
 'use strict';
 
+const { PREFIX } = require('./utilities.js');
+
 /**
  * Get new content, and notify the store.
  *
  * @param {function} dispatch - The Redux dispatcher.
  * @param {string} file - The name of the file we’re getting.
  */
-function getContent(dispatch, file) {
+function getContent(dispatch, page) {
+  let file = page.file;
+  if (page.directory !== '') {
+    file = `${page.directory}/${page.file}`;
+  }
   // Put something innocuous in the text to indicate we're loading.
   dispatch({type: 'TEXT', text: '&nbsp;', file: file});
-  return fetch(`contents/${file}`)
+  return fetch(`${PREFIX}/contents/${file}`)
     .then(response => {
       if (response.status < 200 || response.status >= 300) {
         return `Error loading ${file}`;
