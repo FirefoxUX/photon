@@ -26,20 +26,20 @@ function mungeSources(sources) {
 var pages = mungeSources(require('./contents/index.json'));
 
 var pagePlugins = pages.map(x => {
-  let filename = `../${x.file}`;
+  let filename = `${x.file}`;
   if (x.directory) {
-    filename = `../${x.directory}/${x.file}`
+    filename = `${x.directory}/${x.file}`
   }
   return [
     new HtmlWebpackPlugin({
-      filename: filename,
+      filename: `../${filename}`,
       template: `./index.html`,
       inject: true,
       inlineSource: '\.css$'
     }),
     new HtmlWebpackPlugin({
-      filename: `../contents/${x.file}`,
-      template: `./contents/${x.file}`,
+      filename: `../contents/${filename}`,
+      template: `./contents/${filename}`,
       inject: false,
       inlineSource: '\.css$'
     })
