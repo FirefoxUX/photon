@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="100px" viewBox="0 0 300 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>shape-stroke</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape-stroke">
+            <g id="Group-2">
+                <g id="grid">
+                    <g id="BG" fill-rule="nonzero" fill="#25003E" opacity="0.05">
+                        <rect id="Rectangle-path" x="0" y="0" width="100" height="100"></rect>
+                    </g>
+                    <g id="Grid" transform="translate(10.000000, 10.000000)">
+                        <rect id="bg-white" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="80" height="80"></rect>
+                        <g id="Layer_1_copy_3">
+                            <g id="Group">
+                                <g opacity="0.5" id="Shape" fill-rule="nonzero" fill="#00FEFF">
+                                    <path d="M75,5 L75,75 L5,75 L5,5 L75,5 L75,5 Z M80,0 L0,0 L0,80 L80,80 L80,0 L80,0 Z"></path>
+                                </g>
+                                <g transform="translate(5.000000, 4.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M65,70.9 L5,70.9 C2.3,70.9 0,68.6 0,65.9 L0,5.9 C0,3.2 2.3,0.9 5,0.9 L65,0.9 C67.7,0.9 70,3.2 70,5.9 L70,65.9 C70,68.7 67.8,70.9 65,70.9 Z" opacity="0.1"></path>
+                                    <g opacity="0.5" transform="translate(0.000000, 1.000000)">
+                                        <path d="M65,0.2 C67.6,0.2 69.7,2.3 69.7,4.9 L69.7,64.9 C69.7,67.5 67.6,69.6 65,69.6 L5,69.6 C2.4,69.6 0.3,67.5 0.3,64.9 L0.3,4.9 C0.3,2.3 2.4,0.2 5,0.2 L65,0.2 L65,0.2 Z M65,0 L5,0 C2.3,0 0,2.3 0,5 L0,65 C0,67.7 2.3,70 5,70 L65,70 C67.7,70 70,67.7 70,65 L70,5 C70,2.2 67.8,0 65,0 L65,0 Z"></path>
+                                    </g>
+                                </g>
+                                <g transform="translate(0.000000, 9.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M75,61 L5,61 C2.3,61 0,58.7 0,56 L0,5.9 C0,3.2 2.3,0.9 5,0.9 L75,0.9 C77.7,0.9 80,3.2 80,5.9 L80,55.9 C80,58.7 77.7,61 75,61 Z" opacity="0.1"></path>
+                                    <g opacity="0.5">
+                                        <path d="M75,1.2 C77.6,1.2 79.7,3.3 79.7,5.9 L79.7,55.9 C79.7,58.5 77.6,60.6 75,60.6 L5,60.6 C2.4,60.6 0.3,58.5 0.3,55.9 L0.3,5.9 C0.3,3.3 2.4,1.2 5,1.2 L75,1.2 L75,1.2 Z M75,0.9 L5,0.9 C2.3,0.9 0,3.2 0,5.9 L0,55.9 C0,58.6 2.3,60.9 5,60.9 L75,60.9 C77.7,60.9 80,58.6 80,55.9 L80,5.9 C80,3.2 77.7,0.9 75,0.9 L75,0.9 Z"></path>
+                                    </g>
+                                </g>
+                                <g transform="translate(10.000000, 0.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M55,79.9 L5,79.9 C2.3,79.9 0,77.6 0,74.9 L0,5 C0,2.3 2.3,0 5,0 L55,0 C57.7,0 60,2.3 60,5 L60,75 C60,77.7 57.7,79.9 55,79.9 Z" opacity="0.1"></path>
+                                    <g opacity="0.5">
+                                        <path d="M55,0.2 C57.6,0.2 59.7,2.3 59.7,4.9 L59.7,74.9 C59.7,77.5 57.6,79.6 55,79.6 L5,79.6 C2.4,79.6 0.3,77.5 0.3,74.9 L0.3,5 C0.3,2.4 2.4,0.3 5,0.3 L55,0.3 L55,0.2 Z M55,0 L5,0 C2.3,0 0,2.3 0,5 L0,75 C0,77.7 2.3,80 5,80 L55,80 C57.7,80 60,77.7 60,75 L60,5 C60,2.1 57.7,0 55,0 L55,0 Z"></path>
+                                    </g>
+                                </g>
+                                <rect id="Rectangle-path" fill="#FF00FF" fill-rule="nonzero" opacity="0.5" x="10" y="9.9" width="60" height="60"></rect>
+                                <g opacity="0.4" stroke="#000F40" stroke-width="0.1">
+                                    <g opacity="0.2" id="Rectangle-path">
+                                        <rect x="0.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="25" y="0.2" width="5" height="5"></rect>
+                                        <rect x="30" y="0.2" width="5" height="5"></rect>
+                                        <rect x="35" y="0.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="45" y="0.2" width="5" height="5"></rect>
+                                        <rect x="50" y="0.2" width="5" height="5"></rect>
+                                        <rect x="55" y="0.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="0.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="0.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="0.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="0.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="25" y="5.2" width="5" height="5"></rect>
+                                        <rect x="30" y="5.2" width="5" height="5"></rect>
+                                        <rect x="35" y="5.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="45" y="5.2" width="5" height="5"></rect>
+                                        <rect x="50" y="5.2" width="5" height="5"></rect>
+                                        <rect x="55" y="5.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="5.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="5.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="5.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="5.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="25" y="10.2" width="5" height="5"></rect>
+                                        <rect x="30" y="10.2" width="5" height="5"></rect>
+                                        <rect x="35" y="10.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="45" y="10.2" width="5" height="5"></rect>
+                                        <rect x="50" y="10.2" width="5" height="5"></rect>
+                                        <rect x="55" y="10.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="10.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="10.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="10.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="10.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="5.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="10.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="15.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="20.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="25" y="15.1" width="5" height="5"></rect>
+                                        <rect x="30" y="15.1" width="5" height="5"></rect>
+                                        <rect x="35" y="15.1" width="5" height="5"></rect>
+                                        <rect x="40.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="45" y="15.1" width="5" height="5"></rect>
+                                        <rect x="50" y="15.1" width="5" height="5"></rect>
+                                        <rect x="55" y="15.1" width="5" height="5"></rect>
+                                        <rect x="59.9" y="15.1" width="5" height="5"></rect>
+                                        <rect x="64.9" y="15.1" width="5" height="5"></rect>
+                                        <rect x="69.8" y="15.1" width="5" height="5"></rect>
+                                        <rect x="74.8" y="15.1" width="5" height="5"></rect>
+                                        <rect x="0.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="5.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="10.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="15.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="20.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="25" y="20.1" width="5" height="5"></rect>
+                                        <rect x="30" y="20.1" width="5" height="5"></rect>
+                                        <rect x="35" y="20.1" width="5" height="5"></rect>
+                                        <rect x="40.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="45" y="20.1" width="5" height="5"></rect>
+                                        <rect x="50" y="20.1" width="5" height="5"></rect>
+                                        <rect x="55" y="20.1" width="5" height="5"></rect>
+                                        <rect x="59.9" y="20.1" width="5" height="5"></rect>
+                                        <rect x="64.9" y="20.1" width="5" height="5"></rect>
+                                        <rect x="69.8" y="20.1" width="5" height="5"></rect>
+                                        <rect x="74.8" y="20.1" width="5" height="5"></rect>
+                                        <rect x="0.2" y="25" width="5" height="5"></rect>
+                                        <rect x="5.2" y="25" width="5" height="5"></rect>
+                                        <rect x="10.2" y="25" width="5" height="5"></rect>
+                                        <rect x="15.1" y="25" width="5" height="5"></rect>
+                                        <rect x="20.1" y="25" width="5" height="5"></rect>
+                                        <rect x="25" y="25" width="5" height="5"></rect>
+                                        <rect x="30" y="25" width="5" height="5"></rect>
+                                        <rect x="35" y="25" width="5" height="5"></rect>
+                                        <rect x="40.1" y="25" width="5" height="5"></rect>
+                                        <rect x="45" y="25" width="5" height="5"></rect>
+                                        <rect x="50" y="25" width="5" height="5"></rect>
+                                        <rect x="55" y="25" width="5" height="5"></rect>
+                                        <rect x="59.9" y="25" width="5" height="5"></rect>
+                                        <rect x="64.9" y="25" width="5" height="5"></rect>
+                                        <rect x="69.8" y="25" width="5" height="5"></rect>
+                                        <rect x="74.8" y="25" width="5" height="5"></rect>
+                                        <rect x="0.2" y="30" width="5" height="5"></rect>
+                                        <rect x="5.2" y="30" width="5" height="5"></rect>
+                                        <rect x="10.2" y="30" width="5" height="5"></rect>
+                                        <rect x="15.1" y="30" width="5" height="5"></rect>
+                                        <rect x="20.1" y="30" width="5" height="5"></rect>
+                                        <rect x="25" y="30" width="5" height="5"></rect>
+                                        <rect x="30" y="30" width="5" height="5"></rect>
+                                        <rect x="35" y="30" width="5" height="5"></rect>
+                                        <rect x="40.1" y="30" width="5" height="5"></rect>
+                                        <rect x="45" y="30" width="5" height="5"></rect>
+                                        <rect x="50" y="30" width="5" height="5"></rect>
+                                        <rect x="55" y="30" width="5" height="5"></rect>
+                                        <rect x="59.9" y="30" width="5" height="5"></rect>
+                                        <rect x="64.9" y="30" width="5" height="5"></rect>
+                                        <rect x="69.8" y="30" width="5" height="5"></rect>
+                                        <rect x="74.8" y="30" width="5" height="5"></rect>
+                                        <rect x="0.2" y="35" width="5" height="5"></rect>
+                                        <rect x="5.2" y="35" width="5" height="5"></rect>
+                                        <rect x="10.2" y="35" width="5" height="5"></rect>
+                                        <rect x="15.1" y="35" width="5" height="5"></rect>
+                                        <rect x="20.1" y="35" width="5" height="5"></rect>
+                                        <rect x="25" y="35" width="5" height="5"></rect>
+                                        <rect x="30" y="35" width="5" height="5"></rect>
+                                        <rect x="35" y="35" width="5" height="5"></rect>
+                                        <rect x="40.1" y="35" width="5" height="5"></rect>
+                                        <rect x="45" y="35" width="5" height="5"></rect>
+                                        <rect x="50" y="35" width="5" height="5"></rect>
+                                        <rect x="55" y="35" width="5" height="5"></rect>
+                                        <rect x="59.9" y="35" width="5" height="5"></rect>
+                                        <rect x="64.9" y="35" width="5" height="5"></rect>
+                                        <rect x="69.8" y="35" width="5" height="5"></rect>
+                                        <rect x="74.8" y="35" width="5" height="5"></rect>
+                                        <rect x="0.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="25" y="39.9" width="5" height="5"></rect>
+                                        <rect x="30" y="39.9" width="5" height="5"></rect>
+                                        <rect x="35" y="39.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="45" y="39.9" width="5" height="5"></rect>
+                                        <rect x="50" y="39.9" width="5" height="5"></rect>
+                                        <rect x="55" y="39.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="39.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="39.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="39.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="39.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="25" y="44.9" width="5" height="5"></rect>
+                                        <rect x="30" y="44.9" width="5" height="5"></rect>
+                                        <rect x="35" y="44.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="45" y="44.9" width="5" height="5"></rect>
+                                        <rect x="50" y="44.9" width="5" height="5"></rect>
+                                        <rect x="55" y="44.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="44.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="44.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="44.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="44.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="25" y="49.9" width="5" height="5"></rect>
+                                        <rect x="30" y="49.9" width="5" height="5"></rect>
+                                        <rect x="35" y="49.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="45" y="49.9" width="5" height="5"></rect>
+                                        <rect x="50" y="49.9" width="5" height="5"></rect>
+                                        <rect x="55" y="49.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="49.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="49.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="49.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="49.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="25" y="54.8" width="5" height="5"></rect>
+                                        <rect x="30" y="54.8" width="5" height="5"></rect>
+                                        <rect x="35" y="54.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="45" y="54.8" width="5" height="5"></rect>
+                                        <rect x="50" y="54.8" width="5" height="5"></rect>
+                                        <rect x="55" y="54.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="54.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="54.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="54.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="54.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="25" y="59.8" width="5" height="5"></rect>
+                                        <rect x="30" y="59.8" width="5" height="5"></rect>
+                                        <rect x="35" y="59.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="45" y="59.8" width="5" height="5"></rect>
+                                        <rect x="50" y="59.8" width="5" height="5"></rect>
+                                        <rect x="55" y="59.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="59.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="59.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="59.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="59.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="25" y="64.8" width="5" height="5"></rect>
+                                        <rect x="30" y="64.8" width="5" height="5"></rect>
+                                        <rect x="35" y="64.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="45" y="64.8" width="5" height="5"></rect>
+                                        <rect x="50" y="64.8" width="5" height="5"></rect>
+                                        <rect x="55" y="64.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="64.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="64.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="64.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="64.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="5.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="10.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="15.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="20.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="25" y="69.7" width="5" height="5"></rect>
+                                        <rect x="30" y="69.7" width="5" height="5"></rect>
+                                        <rect x="35" y="69.7" width="5" height="5"></rect>
+                                        <rect x="40.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="45" y="69.7" width="5" height="5"></rect>
+                                        <rect x="50" y="69.7" width="5" height="5"></rect>
+                                        <rect x="55" y="69.7" width="5" height="5"></rect>
+                                        <rect x="59.9" y="69.7" width="5" height="5"></rect>
+                                        <rect x="64.9" y="69.7" width="5" height="5"></rect>
+                                        <rect x="69.8" y="69.7" width="5" height="5"></rect>
+                                        <rect x="74.8" y="69.7" width="5" height="5"></rect>
+                                        <rect x="0.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="5.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="10.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="15.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="20.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="25" y="74.7" width="5" height="5"></rect>
+                                        <rect x="30" y="74.7" width="5" height="5"></rect>
+                                        <rect x="35" y="74.7" width="5" height="5"></rect>
+                                        <rect x="40.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="45" y="74.7" width="5" height="5"></rect>
+                                        <rect x="50" y="74.7" width="5" height="5"></rect>
+                                        <rect x="55" y="74.7" width="5" height="5"></rect>
+                                        <rect x="59.9" y="74.7" width="5" height="5"></rect>
+                                        <rect x="64.9" y="74.7" width="5" height="5"></rect>
+                                        <rect x="69.8" y="74.7" width="5" height="5"></rect>
+                                        <rect x="74.8" y="74.7" width="5" height="5"></rect>
+                                    </g>
+                                    <g opacity="0.3" id="Shape">
+                                        <polygon points="5.2 0.2 0.2 0.2 0.2 5.2 0.2 10.2 5.2 10.2 10.2 10.2 10.2 5.2 10.2 0.2"></polygon>
+                                        <polygon points="15.1 0.2 10.2 0.2 10.2 5.2 10.2 10.2 15.1 10.2 20.1 10.2 20.1 5.2 20.1 0.2"></polygon>
+                                        <polygon points="25 0.2 20.1 0.2 20.1 5.2 20.1 10.2 25 10.2 30 10.2 30 5.2 30 0.2"></polygon>
+                                        <polygon points="35 0.2 30 0.2 30 5.2 30 10.2 35 10.2 40.1 10.2 40.1 5.2 40.1 0.2"></polygon>
+                                        <polygon points="45 0.2 40.1 0.2 40.1 5.2 40.1 10.2 45 10.2 50 10.2 50 5.2 50 0.2"></polygon>
+                                        <polygon points="55 0.2 50 0.2 50 5.2 50 10.2 55 10.2 59.9 10.2 59.9 5.2 59.9 0.2"></polygon>
+                                        <polygon points="64.9 0.2 59.9 0.2 59.9 5.2 59.9 10.2 64.9 10.2 69.8 10.2 69.8 5.2 69.8 0.2"></polygon>
+                                        <polygon points="74.8 0.2 69.8 0.2 69.8 5.2 69.8 10.2 74.8 10.2 79.8 10.2 79.8 5.2 79.8 0.2"></polygon>
+                                        <polygon points="5.2 10.2 0.2 10.2 0.2 15.1 0.2 20.1 5.2 20.1 10.2 20.1 10.2 15.1 10.2 10.2"></polygon>
+                                        <polygon points="15.1 10.2 10.2 10.2 10.2 15.1 10.2 20.1 15.1 20.1 20.1 20.1 20.1 15.1 20.1 10.2"></polygon>
+                                        <polygon points="25 10.2 20.1 10.2 20.1 15.1 20.1 20.1 25 20.1 30 20.1 30 15.1 30 10.2"></polygon>
+                                        <polygon points="35 10.2 30 10.2 30 15.1 30 20.1 35 20.1 40.1 20.1 40.1 15.1 40.1 10.2"></polygon>
+                                        <polygon points="45 10.2 40.1 10.2 40.1 15.1 40.1 20.1 45 20.1 50 20.1 50 15.1 50 10.2"></polygon>
+                                        <polygon points="55 10.2 50 10.2 50 15.1 50 20.1 55 20.1 59.9 20.1 59.9 15.1 59.9 10.2"></polygon>
+                                        <polygon points="64.9 10.2 59.9 10.2 59.9 15.1 59.9 20.1 64.9 20.1 69.8 20.1 69.8 15.1 69.8 10.2"></polygon>
+                                        <polygon points="74.8 10.2 69.8 10.2 69.8 15.1 69.8 20.1 74.8 20.1 79.8 20.1 79.8 15.1 79.8 10.2"></polygon>
+                                        <polygon points="5.2 20.1 0.2 20.1 0.2 25 0.2 30 5.2 30 10.2 30 10.2 25 10.2 20.1"></polygon>
+                                        <polygon points="15.1 20.1 10.2 20.1 10.2 25 10.2 30 15.1 30 20.1 30 20.1 25 20.1 20.1"></polygon>
+                                        <polygon points="25 20.1 20.1 20.1 20.1 25 20.1 30 25 30 30 30 30 25 30 20.1"></polygon>
+                                        <polygon points="35 20.1 30 20.1 30 25 30 30 35 30 40.1 30 40.1 25 40.1 20.1"></polygon>
+                                        <polygon points="45 20.1 40.1 20.1 40.1 25 40.1 30 45 30 50 30 50 25 50 20.1"></polygon>
+                                        <polygon points="55 20.1 50 20.1 50 25 50 30 55 30 59.9 30 59.9 25 59.9 20.1"></polygon>
+                                        <polygon points="64.9 20.1 59.9 20.1 59.9 25 59.9 30 64.9 30 69.8 30 69.8 25 69.8 20.1"></polygon>
+                                        <polygon points="74.8 20.1 69.8 20.1 69.8 25 69.8 30 74.8 30 79.8 30 79.8 25 79.8 20.1"></polygon>
+                                        <polygon points="5.2 30 0.2 30 0.2 35 0.2 39.9 5.2 39.9 10.2 39.9 10.2 35 10.2 30"></polygon>
+                                        <polygon points="15.1 30 10.2 30 10.2 35 10.2 39.9 15.1 39.9 20.1 39.9 20.1 35 20.1 30"></polygon>
+                                        <polygon points="25 30 20.1 30 20.1 35 20.1 39.9 25 39.9 30 39.9 30 35 30 30"></polygon>
+                                        <polygon points="35 30 30 30 30 35 30 39.9 35 39.9 40.1 39.9 40.1 35 40.1 30"></polygon>
+                                        <polygon points="45 30 40.1 30 40.1 35 40.1 39.9 45 39.9 50 39.9 50 35 50 30"></polygon>
+                                        <polygon points="55 30 50 30 50 35 50 39.9 55 39.9 59.9 39.9 59.9 35 59.9 30"></polygon>
+                                        <polygon points="64.9 30 59.9 30 59.9 35 59.9 39.9 64.9 39.9 69.8 39.9 69.8 35 69.8 30"></polygon>
+                                        <polygon points="74.8 30 69.8 30 69.8 35 69.8 39.9 74.8 39.9 79.8 39.9 79.8 35 79.8 30"></polygon>
+                                        <polygon points="5.2 39.9 0.2 39.9 0.2 44.9 0.2 49.9 5.2 49.9 10.2 49.9 10.2 44.9 10.2 39.9"></polygon>
+                                        <polygon points="15.1 39.9 10.2 39.9 10.2 44.9 10.2 49.9 15.1 49.9 20.1 49.9 20.1 44.9 20.1 39.9"></polygon>
+                                        <polygon points="25 39.9 20.1 39.9 20.1 44.9 20.1 49.9 25 49.9 30 49.9 30 44.9 30 39.9"></polygon>
+                                        <polygon points="35 39.9 30 39.9 30 44.9 30 49.9 35 49.9 40.1 49.9 40.1 44.9 40.1 39.9"></polygon>
+                                        <polygon points="45 39.9 40.1 39.9 40.1 44.9 40.1 49.9 45 49.9 50 49.9 50 44.9 50 39.9"></polygon>
+                                        <polygon points="55 39.9 50 39.9 50 44.9 50 49.9 55 49.9 59.9 49.9 59.9 44.9 59.9 39.9"></polygon>
+                                        <polygon points="64.9 39.9 59.9 39.9 59.9 44.9 59.9 49.9 64.9 49.9 69.8 49.9 69.8 44.9 69.8 39.9"></polygon>
+                                        <polygon points="74.8 39.9 69.8 39.9 69.8 44.9 69.8 49.9 74.8 49.9 79.8 49.9 79.8 44.9 79.8 39.9"></polygon>
+                                        <polygon points="5.2 49.9 0.2 49.9 0.2 54.8 0.2 59.8 5.2 59.8 10.2 59.8 10.2 54.8 10.2 49.9"></polygon>
+                                        <polygon points="15.1 49.9 10.2 49.9 10.2 54.8 10.2 59.8 15.1 59.8 20.1 59.8 20.1 54.8 20.1 49.9"></polygon>
+                                        <polygon points="25 49.9 20.1 49.9 20.1 54.8 20.1 59.8 25 59.8 30 59.8 30 54.8 30 49.9"></polygon>
+                                        <polygon points="35 49.9 30 49.9 30 54.8 30 59.8 35 59.8 40.1 59.8 40.1 54.8 40.1 49.9"></polygon>
+                                        <polygon points="45 49.9 40.1 49.9 40.1 54.8 40.1 59.8 45 59.8 50 59.8 50 54.8 50 49.9"></polygon>
+                                        <polygon points="55 49.9 50 49.9 50 54.8 50 59.8 55 59.8 59.9 59.8 59.9 54.8 59.9 49.9"></polygon>
+                                        <polygon points="64.9 49.9 59.9 49.9 59.9 54.8 59.9 59.8 64.9 59.8 69.8 59.8 69.8 54.8 69.8 49.9"></polygon>
+                                        <polygon points="74.8 49.9 69.8 49.9 69.8 54.8 69.8 59.8 74.8 59.8 79.8 59.8 79.8 54.8 79.8 49.9"></polygon>
+                                        <polygon points="5.2 59.8 0.2 59.8 0.2 64.8 0.2 69.7 5.2 69.7 10.2 69.7 10.2 64.8 10.2 59.8"></polygon>
+                                        <polygon points="15.1 59.8 10.2 59.8 10.2 64.8 10.2 69.7 15.1 69.7 20.1 69.7 20.1 64.8 20.1 59.8"></polygon>
+                                        <polygon points="25 59.8 20.1 59.8 20.1 64.8 20.1 69.7 25 69.7 30 69.7 30 64.8 30 59.8"></polygon>
+                                        <polygon points="35 59.8 30 59.8 30 64.8 30 69.7 35 69.7 40.1 69.7 40.1 64.8 40.1 59.8"></polygon>
+                                        <polygon points="45 59.8 40.1 59.8 40.1 64.8 40.1 69.7 45 69.7 50 69.7 50 64.8 50 59.8"></polygon>
+                                        <polygon points="55 59.8 50 59.8 50 64.8 50 69.7 55 69.7 59.9 69.7 59.9 64.8 59.9 59.8"></polygon>
+                                        <polygon points="64.9 59.8 59.9 59.8 59.9 64.8 59.9 69.7 64.9 69.7 69.8 69.7 69.8 64.8 69.8 59.8"></polygon>
+                                        <polygon points="74.8 59.8 69.8 59.8 69.8 64.8 69.8 69.7 74.8 69.7 79.8 69.7 79.8 64.8 79.8 59.8"></polygon>
+                                        <polygon points="5.2 69.7 0.2 69.7 0.2 74.7 0.2 79.7 5.2 79.7 10.2 79.7 10.2 74.7 10.2 69.7"></polygon>
+                                        <polygon points="15.1 69.7 10.2 69.7 10.2 74.7 10.2 79.7 15.1 79.7 20.1 79.7 20.1 74.7 20.1 69.7"></polygon>
+                                        <polygon points="25 69.7 20.1 69.7 20.1 74.7 20.1 79.7 25 79.7 30 79.7 30 74.7 30 69.7"></polygon>
+                                        <polygon points="35 69.7 30 69.7 30 74.7 30 79.7 35 79.7 40.1 79.7 40.1 74.7 40.1 69.7"></polygon>
+                                        <polygon points="45 69.7 40.1 69.7 40.1 74.7 40.1 79.7 45 79.7 50 79.7 50 74.7 50 69.7"></polygon>
+                                        <polygon points="55 69.7 50 69.7 50 74.7 50 79.7 55 79.7 59.9 79.7 59.9 74.7 59.9 69.7"></polygon>
+                                        <polygon points="64.9 69.7 59.9 69.7 59.9 74.7 59.9 79.7 64.9 79.7 69.8 79.7 69.8 74.7 69.8 69.7"></polygon>
+                                        <polygon points="74.8 69.7 69.8 69.7 69.8 74.7 69.8 79.7 74.8 79.7 79.8 79.7 79.8 74.7 79.8 69.7"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M34,20.5 L34,79.5" id="Line" stroke="#0C0C0D" stroke-width="10" stroke-linecap="round"></path>
+                <path d="M62.5,20.5 L62.5,79.5" id="Line-Copy" stroke="#0C0C0D" stroke-width="5" stroke-linecap="round"></path>
+            </g>
+            <g id="Group-2-Copy" transform="translate(110.000000, 0.000000)">
+                <g id="grid">
+                    <g id="BG" fill-rule="nonzero" fill="#25003E" opacity="0.05">
+                        <rect id="Rectangle-path" x="0" y="0" width="190" height="100"></rect>
+                    </g>
+                    <g id="Grid" transform="translate(10.000000, 10.000000)">
+                        <rect id="bg-white" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="80" height="80"></rect>
+                        <g id="Layer_1_copy_3">
+                            <g id="Group">
+                                <g opacity="0.5" id="Shape" fill-rule="nonzero" fill="#00FEFF">
+                                    <path d="M75,5 L75,75 L5,75 L5,5 L75,5 L75,5 Z M80,0 L0,0 L0,80 L80,80 L80,0 L80,0 Z"></path>
+                                </g>
+                                <g transform="translate(5.000000, 4.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M65,70.9 L5,70.9 C2.3,70.9 0,68.6 0,65.9 L0,5.9 C0,3.2 2.3,0.9 5,0.9 L65,0.9 C67.7,0.9 70,3.2 70,5.9 L70,65.9 C70,68.7 67.8,70.9 65,70.9 Z" opacity="0.1"></path>
+                                    <g opacity="0.5" transform="translate(0.000000, 1.000000)">
+                                        <path d="M65,0.2 C67.6,0.2 69.7,2.3 69.7,4.9 L69.7,64.9 C69.7,67.5 67.6,69.6 65,69.6 L5,69.6 C2.4,69.6 0.3,67.5 0.3,64.9 L0.3,4.9 C0.3,2.3 2.4,0.2 5,0.2 L65,0.2 L65,0.2 Z M65,0 L5,0 C2.3,0 0,2.3 0,5 L0,65 C0,67.7 2.3,70 5,70 L65,70 C67.7,70 70,67.7 70,65 L70,5 C70,2.2 67.8,0 65,0 L65,0 Z"></path>
+                                    </g>
+                                </g>
+                                <g transform="translate(0.000000, 9.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M75,61 L5,61 C2.3,61 0,58.7 0,56 L0,5.9 C0,3.2 2.3,0.9 5,0.9 L75,0.9 C77.7,0.9 80,3.2 80,5.9 L80,55.9 C80,58.7 77.7,61 75,61 Z" opacity="0.1"></path>
+                                    <g opacity="0.5">
+                                        <path d="M75,1.2 C77.6,1.2 79.7,3.3 79.7,5.9 L79.7,55.9 C79.7,58.5 77.6,60.6 75,60.6 L5,60.6 C2.4,60.6 0.3,58.5 0.3,55.9 L0.3,5.9 C0.3,3.3 2.4,1.2 5,1.2 L75,1.2 L75,1.2 Z M75,0.9 L5,0.9 C2.3,0.9 0,3.2 0,5.9 L0,55.9 C0,58.6 2.3,60.9 5,60.9 L75,60.9 C77.7,60.9 80,58.6 80,55.9 L80,5.9 C80,3.2 77.7,0.9 75,0.9 L75,0.9 Z"></path>
+                                    </g>
+                                </g>
+                                <g transform="translate(10.000000, 0.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M55,79.9 L5,79.9 C2.3,79.9 0,77.6 0,74.9 L0,5 C0,2.3 2.3,0 5,0 L55,0 C57.7,0 60,2.3 60,5 L60,75 C60,77.7 57.7,79.9 55,79.9 Z" opacity="0.1"></path>
+                                    <g opacity="0.5">
+                                        <path d="M55,0.2 C57.6,0.2 59.7,2.3 59.7,4.9 L59.7,74.9 C59.7,77.5 57.6,79.6 55,79.6 L5,79.6 C2.4,79.6 0.3,77.5 0.3,74.9 L0.3,5 C0.3,2.4 2.4,0.3 5,0.3 L55,0.3 L55,0.2 Z M55,0 L5,0 C2.3,0 0,2.3 0,5 L0,75 C0,77.7 2.3,80 5,80 L55,80 C57.7,80 60,77.7 60,75 L60,5 C60,2.1 57.7,0 55,0 L55,0 Z"></path>
+                                    </g>
+                                </g>
+                                <rect id="Rectangle-path" fill="#FF00FF" fill-rule="nonzero" opacity="0.5" x="10" y="9.9" width="60" height="60"></rect>
+                                <g opacity="0.4" stroke="#000F40" stroke-width="0.1">
+                                    <g opacity="0.2" id="Rectangle-path">
+                                        <rect x="0.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="25" y="0.2" width="5" height="5"></rect>
+                                        <rect x="30" y="0.2" width="5" height="5"></rect>
+                                        <rect x="35" y="0.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="45" y="0.2" width="5" height="5"></rect>
+                                        <rect x="50" y="0.2" width="5" height="5"></rect>
+                                        <rect x="55" y="0.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="0.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="0.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="0.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="0.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="25" y="5.2" width="5" height="5"></rect>
+                                        <rect x="30" y="5.2" width="5" height="5"></rect>
+                                        <rect x="35" y="5.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="45" y="5.2" width="5" height="5"></rect>
+                                        <rect x="50" y="5.2" width="5" height="5"></rect>
+                                        <rect x="55" y="5.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="5.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="5.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="5.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="5.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="25" y="10.2" width="5" height="5"></rect>
+                                        <rect x="30" y="10.2" width="5" height="5"></rect>
+                                        <rect x="35" y="10.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="45" y="10.2" width="5" height="5"></rect>
+                                        <rect x="50" y="10.2" width="5" height="5"></rect>
+                                        <rect x="55" y="10.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="10.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="10.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="10.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="10.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="5.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="10.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="15.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="20.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="25" y="15.1" width="5" height="5"></rect>
+                                        <rect x="30" y="15.1" width="5" height="5"></rect>
+                                        <rect x="35" y="15.1" width="5" height="5"></rect>
+                                        <rect x="40.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="45" y="15.1" width="5" height="5"></rect>
+                                        <rect x="50" y="15.1" width="5" height="5"></rect>
+                                        <rect x="55" y="15.1" width="5" height="5"></rect>
+                                        <rect x="59.9" y="15.1" width="5" height="5"></rect>
+                                        <rect x="64.9" y="15.1" width="5" height="5"></rect>
+                                        <rect x="69.8" y="15.1" width="5" height="5"></rect>
+                                        <rect x="74.8" y="15.1" width="5" height="5"></rect>
+                                        <rect x="0.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="5.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="10.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="15.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="20.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="25" y="20.1" width="5" height="5"></rect>
+                                        <rect x="30" y="20.1" width="5" height="5"></rect>
+                                        <rect x="35" y="20.1" width="5" height="5"></rect>
+                                        <rect x="40.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="45" y="20.1" width="5" height="5"></rect>
+                                        <rect x="50" y="20.1" width="5" height="5"></rect>
+                                        <rect x="55" y="20.1" width="5" height="5"></rect>
+                                        <rect x="59.9" y="20.1" width="5" height="5"></rect>
+                                        <rect x="64.9" y="20.1" width="5" height="5"></rect>
+                                        <rect x="69.8" y="20.1" width="5" height="5"></rect>
+                                        <rect x="74.8" y="20.1" width="5" height="5"></rect>
+                                        <rect x="0.2" y="25" width="5" height="5"></rect>
+                                        <rect x="5.2" y="25" width="5" height="5"></rect>
+                                        <rect x="10.2" y="25" width="5" height="5"></rect>
+                                        <rect x="15.1" y="25" width="5" height="5"></rect>
+                                        <rect x="20.1" y="25" width="5" height="5"></rect>
+                                        <rect x="25" y="25" width="5" height="5"></rect>
+                                        <rect x="30" y="25" width="5" height="5"></rect>
+                                        <rect x="35" y="25" width="5" height="5"></rect>
+                                        <rect x="40.1" y="25" width="5" height="5"></rect>
+                                        <rect x="45" y="25" width="5" height="5"></rect>
+                                        <rect x="50" y="25" width="5" height="5"></rect>
+                                        <rect x="55" y="25" width="5" height="5"></rect>
+                                        <rect x="59.9" y="25" width="5" height="5"></rect>
+                                        <rect x="64.9" y="25" width="5" height="5"></rect>
+                                        <rect x="69.8" y="25" width="5" height="5"></rect>
+                                        <rect x="74.8" y="25" width="5" height="5"></rect>
+                                        <rect x="0.2" y="30" width="5" height="5"></rect>
+                                        <rect x="5.2" y="30" width="5" height="5"></rect>
+                                        <rect x="10.2" y="30" width="5" height="5"></rect>
+                                        <rect x="15.1" y="30" width="5" height="5"></rect>
+                                        <rect x="20.1" y="30" width="5" height="5"></rect>
+                                        <rect x="25" y="30" width="5" height="5"></rect>
+                                        <rect x="30" y="30" width="5" height="5"></rect>
+                                        <rect x="35" y="30" width="5" height="5"></rect>
+                                        <rect x="40.1" y="30" width="5" height="5"></rect>
+                                        <rect x="45" y="30" width="5" height="5"></rect>
+                                        <rect x="50" y="30" width="5" height="5"></rect>
+                                        <rect x="55" y="30" width="5" height="5"></rect>
+                                        <rect x="59.9" y="30" width="5" height="5"></rect>
+                                        <rect x="64.9" y="30" width="5" height="5"></rect>
+                                        <rect x="69.8" y="30" width="5" height="5"></rect>
+                                        <rect x="74.8" y="30" width="5" height="5"></rect>
+                                        <rect x="0.2" y="35" width="5" height="5"></rect>
+                                        <rect x="5.2" y="35" width="5" height="5"></rect>
+                                        <rect x="10.2" y="35" width="5" height="5"></rect>
+                                        <rect x="15.1" y="35" width="5" height="5"></rect>
+                                        <rect x="20.1" y="35" width="5" height="5"></rect>
+                                        <rect x="25" y="35" width="5" height="5"></rect>
+                                        <rect x="30" y="35" width="5" height="5"></rect>
+                                        <rect x="35" y="35" width="5" height="5"></rect>
+                                        <rect x="40.1" y="35" width="5" height="5"></rect>
+                                        <rect x="45" y="35" width="5" height="5"></rect>
+                                        <rect x="50" y="35" width="5" height="5"></rect>
+                                        <rect x="55" y="35" width="5" height="5"></rect>
+                                        <rect x="59.9" y="35" width="5" height="5"></rect>
+                                        <rect x="64.9" y="35" width="5" height="5"></rect>
+                                        <rect x="69.8" y="35" width="5" height="5"></rect>
+                                        <rect x="74.8" y="35" width="5" height="5"></rect>
+                                        <rect x="0.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="25" y="39.9" width="5" height="5"></rect>
+                                        <rect x="30" y="39.9" width="5" height="5"></rect>
+                                        <rect x="35" y="39.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="45" y="39.9" width="5" height="5"></rect>
+                                        <rect x="50" y="39.9" width="5" height="5"></rect>
+                                        <rect x="55" y="39.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="39.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="39.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="39.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="39.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="25" y="44.9" width="5" height="5"></rect>
+                                        <rect x="30" y="44.9" width="5" height="5"></rect>
+                                        <rect x="35" y="44.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="45" y="44.9" width="5" height="5"></rect>
+                                        <rect x="50" y="44.9" width="5" height="5"></rect>
+                                        <rect x="55" y="44.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="44.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="44.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="44.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="44.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="25" y="49.9" width="5" height="5"></rect>
+                                        <rect x="30" y="49.9" width="5" height="5"></rect>
+                                        <rect x="35" y="49.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="45" y="49.9" width="5" height="5"></rect>
+                                        <rect x="50" y="49.9" width="5" height="5"></rect>
+                                        <rect x="55" y="49.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="49.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="49.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="49.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="49.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="25" y="54.8" width="5" height="5"></rect>
+                                        <rect x="30" y="54.8" width="5" height="5"></rect>
+                                        <rect x="35" y="54.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="45" y="54.8" width="5" height="5"></rect>
+                                        <rect x="50" y="54.8" width="5" height="5"></rect>
+                                        <rect x="55" y="54.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="54.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="54.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="54.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="54.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="25" y="59.8" width="5" height="5"></rect>
+                                        <rect x="30" y="59.8" width="5" height="5"></rect>
+                                        <rect x="35" y="59.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="45" y="59.8" width="5" height="5"></rect>
+                                        <rect x="50" y="59.8" width="5" height="5"></rect>
+                                        <rect x="55" y="59.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="59.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="59.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="59.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="59.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="25" y="64.8" width="5" height="5"></rect>
+                                        <rect x="30" y="64.8" width="5" height="5"></rect>
+                                        <rect x="35" y="64.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="45" y="64.8" width="5" height="5"></rect>
+                                        <rect x="50" y="64.8" width="5" height="5"></rect>
+                                        <rect x="55" y="64.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="64.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="64.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="64.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="64.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="5.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="10.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="15.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="20.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="25" y="69.7" width="5" height="5"></rect>
+                                        <rect x="30" y="69.7" width="5" height="5"></rect>
+                                        <rect x="35" y="69.7" width="5" height="5"></rect>
+                                        <rect x="40.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="45" y="69.7" width="5" height="5"></rect>
+                                        <rect x="50" y="69.7" width="5" height="5"></rect>
+                                        <rect x="55" y="69.7" width="5" height="5"></rect>
+                                        <rect x="59.9" y="69.7" width="5" height="5"></rect>
+                                        <rect x="64.9" y="69.7" width="5" height="5"></rect>
+                                        <rect x="69.8" y="69.7" width="5" height="5"></rect>
+                                        <rect x="74.8" y="69.7" width="5" height="5"></rect>
+                                        <rect x="0.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="5.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="10.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="15.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="20.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="25" y="74.7" width="5" height="5"></rect>
+                                        <rect x="30" y="74.7" width="5" height="5"></rect>
+                                        <rect x="35" y="74.7" width="5" height="5"></rect>
+                                        <rect x="40.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="45" y="74.7" width="5" height="5"></rect>
+                                        <rect x="50" y="74.7" width="5" height="5"></rect>
+                                        <rect x="55" y="74.7" width="5" height="5"></rect>
+                                        <rect x="59.9" y="74.7" width="5" height="5"></rect>
+                                        <rect x="64.9" y="74.7" width="5" height="5"></rect>
+                                        <rect x="69.8" y="74.7" width="5" height="5"></rect>
+                                        <rect x="74.8" y="74.7" width="5" height="5"></rect>
+                                    </g>
+                                    <g opacity="0.3" id="Shape">
+                                        <polygon points="5.2 0.2 0.2 0.2 0.2 5.2 0.2 10.2 5.2 10.2 10.2 10.2 10.2 5.2 10.2 0.2"></polygon>
+                                        <polygon points="15.1 0.2 10.2 0.2 10.2 5.2 10.2 10.2 15.1 10.2 20.1 10.2 20.1 5.2 20.1 0.2"></polygon>
+                                        <polygon points="25 0.2 20.1 0.2 20.1 5.2 20.1 10.2 25 10.2 30 10.2 30 5.2 30 0.2"></polygon>
+                                        <polygon points="35 0.2 30 0.2 30 5.2 30 10.2 35 10.2 40.1 10.2 40.1 5.2 40.1 0.2"></polygon>
+                                        <polygon points="45 0.2 40.1 0.2 40.1 5.2 40.1 10.2 45 10.2 50 10.2 50 5.2 50 0.2"></polygon>
+                                        <polygon points="55 0.2 50 0.2 50 5.2 50 10.2 55 10.2 59.9 10.2 59.9 5.2 59.9 0.2"></polygon>
+                                        <polygon points="64.9 0.2 59.9 0.2 59.9 5.2 59.9 10.2 64.9 10.2 69.8 10.2 69.8 5.2 69.8 0.2"></polygon>
+                                        <polygon points="74.8 0.2 69.8 0.2 69.8 5.2 69.8 10.2 74.8 10.2 79.8 10.2 79.8 5.2 79.8 0.2"></polygon>
+                                        <polygon points="5.2 10.2 0.2 10.2 0.2 15.1 0.2 20.1 5.2 20.1 10.2 20.1 10.2 15.1 10.2 10.2"></polygon>
+                                        <polygon points="15.1 10.2 10.2 10.2 10.2 15.1 10.2 20.1 15.1 20.1 20.1 20.1 20.1 15.1 20.1 10.2"></polygon>
+                                        <polygon points="25 10.2 20.1 10.2 20.1 15.1 20.1 20.1 25 20.1 30 20.1 30 15.1 30 10.2"></polygon>
+                                        <polygon points="35 10.2 30 10.2 30 15.1 30 20.1 35 20.1 40.1 20.1 40.1 15.1 40.1 10.2"></polygon>
+                                        <polygon points="45 10.2 40.1 10.2 40.1 15.1 40.1 20.1 45 20.1 50 20.1 50 15.1 50 10.2"></polygon>
+                                        <polygon points="55 10.2 50 10.2 50 15.1 50 20.1 55 20.1 59.9 20.1 59.9 15.1 59.9 10.2"></polygon>
+                                        <polygon points="64.9 10.2 59.9 10.2 59.9 15.1 59.9 20.1 64.9 20.1 69.8 20.1 69.8 15.1 69.8 10.2"></polygon>
+                                        <polygon points="74.8 10.2 69.8 10.2 69.8 15.1 69.8 20.1 74.8 20.1 79.8 20.1 79.8 15.1 79.8 10.2"></polygon>
+                                        <polygon points="5.2 20.1 0.2 20.1 0.2 25 0.2 30 5.2 30 10.2 30 10.2 25 10.2 20.1"></polygon>
+                                        <polygon points="15.1 20.1 10.2 20.1 10.2 25 10.2 30 15.1 30 20.1 30 20.1 25 20.1 20.1"></polygon>
+                                        <polygon points="25 20.1 20.1 20.1 20.1 25 20.1 30 25 30 30 30 30 25 30 20.1"></polygon>
+                                        <polygon points="35 20.1 30 20.1 30 25 30 30 35 30 40.1 30 40.1 25 40.1 20.1"></polygon>
+                                        <polygon points="45 20.1 40.1 20.1 40.1 25 40.1 30 45 30 50 30 50 25 50 20.1"></polygon>
+                                        <polygon points="55 20.1 50 20.1 50 25 50 30 55 30 59.9 30 59.9 25 59.9 20.1"></polygon>
+                                        <polygon points="64.9 20.1 59.9 20.1 59.9 25 59.9 30 64.9 30 69.8 30 69.8 25 69.8 20.1"></polygon>
+                                        <polygon points="74.8 20.1 69.8 20.1 69.8 25 69.8 30 74.8 30 79.8 30 79.8 25 79.8 20.1"></polygon>
+                                        <polygon points="5.2 30 0.2 30 0.2 35 0.2 39.9 5.2 39.9 10.2 39.9 10.2 35 10.2 30"></polygon>
+                                        <polygon points="15.1 30 10.2 30 10.2 35 10.2 39.9 15.1 39.9 20.1 39.9 20.1 35 20.1 30"></polygon>
+                                        <polygon points="25 30 20.1 30 20.1 35 20.1 39.9 25 39.9 30 39.9 30 35 30 30"></polygon>
+                                        <polygon points="35 30 30 30 30 35 30 39.9 35 39.9 40.1 39.9 40.1 35 40.1 30"></polygon>
+                                        <polygon points="45 30 40.1 30 40.1 35 40.1 39.9 45 39.9 50 39.9 50 35 50 30"></polygon>
+                                        <polygon points="55 30 50 30 50 35 50 39.9 55 39.9 59.9 39.9 59.9 35 59.9 30"></polygon>
+                                        <polygon points="64.9 30 59.9 30 59.9 35 59.9 39.9 64.9 39.9 69.8 39.9 69.8 35 69.8 30"></polygon>
+                                        <polygon points="74.8 30 69.8 30 69.8 35 69.8 39.9 74.8 39.9 79.8 39.9 79.8 35 79.8 30"></polygon>
+                                        <polygon points="5.2 39.9 0.2 39.9 0.2 44.9 0.2 49.9 5.2 49.9 10.2 49.9 10.2 44.9 10.2 39.9"></polygon>
+                                        <polygon points="15.1 39.9 10.2 39.9 10.2 44.9 10.2 49.9 15.1 49.9 20.1 49.9 20.1 44.9 20.1 39.9"></polygon>
+                                        <polygon points="25 39.9 20.1 39.9 20.1 44.9 20.1 49.9 25 49.9 30 49.9 30 44.9 30 39.9"></polygon>
+                                        <polygon points="35 39.9 30 39.9 30 44.9 30 49.9 35 49.9 40.1 49.9 40.1 44.9 40.1 39.9"></polygon>
+                                        <polygon points="45 39.9 40.1 39.9 40.1 44.9 40.1 49.9 45 49.9 50 49.9 50 44.9 50 39.9"></polygon>
+                                        <polygon points="55 39.9 50 39.9 50 44.9 50 49.9 55 49.9 59.9 49.9 59.9 44.9 59.9 39.9"></polygon>
+                                        <polygon points="64.9 39.9 59.9 39.9 59.9 44.9 59.9 49.9 64.9 49.9 69.8 49.9 69.8 44.9 69.8 39.9"></polygon>
+                                        <polygon points="74.8 39.9 69.8 39.9 69.8 44.9 69.8 49.9 74.8 49.9 79.8 49.9 79.8 44.9 79.8 39.9"></polygon>
+                                        <polygon points="5.2 49.9 0.2 49.9 0.2 54.8 0.2 59.8 5.2 59.8 10.2 59.8 10.2 54.8 10.2 49.9"></polygon>
+                                        <polygon points="15.1 49.9 10.2 49.9 10.2 54.8 10.2 59.8 15.1 59.8 20.1 59.8 20.1 54.8 20.1 49.9"></polygon>
+                                        <polygon points="25 49.9 20.1 49.9 20.1 54.8 20.1 59.8 25 59.8 30 59.8 30 54.8 30 49.9"></polygon>
+                                        <polygon points="35 49.9 30 49.9 30 54.8 30 59.8 35 59.8 40.1 59.8 40.1 54.8 40.1 49.9"></polygon>
+                                        <polygon points="45 49.9 40.1 49.9 40.1 54.8 40.1 59.8 45 59.8 50 59.8 50 54.8 50 49.9"></polygon>
+                                        <polygon points="55 49.9 50 49.9 50 54.8 50 59.8 55 59.8 59.9 59.8 59.9 54.8 59.9 49.9"></polygon>
+                                        <polygon points="64.9 49.9 59.9 49.9 59.9 54.8 59.9 59.8 64.9 59.8 69.8 59.8 69.8 54.8 69.8 49.9"></polygon>
+                                        <polygon points="74.8 49.9 69.8 49.9 69.8 54.8 69.8 59.8 74.8 59.8 79.8 59.8 79.8 54.8 79.8 49.9"></polygon>
+                                        <polygon points="5.2 59.8 0.2 59.8 0.2 64.8 0.2 69.7 5.2 69.7 10.2 69.7 10.2 64.8 10.2 59.8"></polygon>
+                                        <polygon points="15.1 59.8 10.2 59.8 10.2 64.8 10.2 69.7 15.1 69.7 20.1 69.7 20.1 64.8 20.1 59.8"></polygon>
+                                        <polygon points="25 59.8 20.1 59.8 20.1 64.8 20.1 69.7 25 69.7 30 69.7 30 64.8 30 59.8"></polygon>
+                                        <polygon points="35 59.8 30 59.8 30 64.8 30 69.7 35 69.7 40.1 69.7 40.1 64.8 40.1 59.8"></polygon>
+                                        <polygon points="45 59.8 40.1 59.8 40.1 64.8 40.1 69.7 45 69.7 50 69.7 50 64.8 50 59.8"></polygon>
+                                        <polygon points="55 59.8 50 59.8 50 64.8 50 69.7 55 69.7 59.9 69.7 59.9 64.8 59.9 59.8"></polygon>
+                                        <polygon points="64.9 59.8 59.9 59.8 59.9 64.8 59.9 69.7 64.9 69.7 69.8 69.7 69.8 64.8 69.8 59.8"></polygon>
+                                        <polygon points="74.8 59.8 69.8 59.8 69.8 64.8 69.8 69.7 74.8 69.7 79.8 69.7 79.8 64.8 79.8 59.8"></polygon>
+                                        <polygon points="5.2 69.7 0.2 69.7 0.2 74.7 0.2 79.7 5.2 79.7 10.2 79.7 10.2 74.7 10.2 69.7"></polygon>
+                                        <polygon points="15.1 69.7 10.2 69.7 10.2 74.7 10.2 79.7 15.1 79.7 20.1 79.7 20.1 74.7 20.1 69.7"></polygon>
+                                        <polygon points="25 69.7 20.1 69.7 20.1 74.7 20.1 79.7 25 79.7 30 79.7 30 74.7 30 69.7"></polygon>
+                                        <polygon points="35 69.7 30 69.7 30 74.7 30 79.7 35 79.7 40.1 79.7 40.1 74.7 40.1 69.7"></polygon>
+                                        <polygon points="45 69.7 40.1 69.7 40.1 74.7 40.1 79.7 45 79.7 50 79.7 50 74.7 50 69.7"></polygon>
+                                        <polygon points="55 69.7 50 69.7 50 74.7 50 79.7 55 79.7 59.9 79.7 59.9 74.7 59.9 69.7"></polygon>
+                                        <polygon points="64.9 69.7 59.9 69.7 59.9 74.7 59.9 79.7 64.9 79.7 69.8 79.7 69.8 74.7 69.8 69.7"></polygon>
+                                        <polygon points="74.8 69.7 69.8 69.7 69.8 74.7 69.8 79.7 74.8 79.7 79.8 79.7 79.8 74.7 79.8 69.7"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M34.9918112,24.9869892 C32.2315181,24.9869892 29.9938584,27.2226528 29.9938584,29.9804838 L29.9938584,79.9154296 C29.9938584,82.6732605 32.2315181,84.9089242 34.9918112,84.9089242 C37.7521043,84.9089242 39.989764,82.6732605 39.989764,79.9154296 L39.989764,29.9804838 C39.989764,27.2226528 37.7521043,24.9869892 34.9918112,24.9869892 Z M49.9856695,19.9934946 C47.2253764,19.9934946 44.9877167,22.2291583 44.9877167,24.9869892 L44.9877167,79.9154296 C44.9877167,82.6732605 47.2253764,84.9089242 49.9856695,84.9089242 C52.7459626,84.9089242 54.9836223,82.6732605 54.9836223,79.9154296 L54.9836223,24.9869892 C54.9836223,22.2291583 52.7459626,19.9934946 49.9856695,19.9934946 Z M89.6644167,78.2076545 L69.6726056,23.279214 C69.0869778,21.5694805 67.6224942,20.3092699 65.8433306,19.9840643 C64.0641671,19.6588587 62.2479689,20.3194076 61.0944062,21.711242 C59.9408434,23.1030764 59.629934,25.0089951 60.2814523,26.6947643 L80.2732634,81.6232048 C80.8588912,83.3329383 82.3233748,84.5931488 84.1025384,84.9183545 C85.881702,85.2435601 87.6979001,84.5830112 88.8514628,83.1911768 C90.0050256,81.7993424 90.315935,79.8934237 89.6644167,78.2076545 L89.6644167,78.2076545 Z M19.9979528,15 C17.2376597,15 15,17.2356637 15,19.9934946 L15,79.9154296 C15,82.6732605 17.2376597,84.9089242 19.9979528,84.9089242 C22.7582459,84.9089242 24.9959056,82.6732605 24.9959056,79.9154296 L24.9959056,19.9934946 C24.9959056,17.2356637 22.7582459,15 19.9979528,15 Z" id="Shape" fill="#0C0C0D" fill-rule="nonzero"></path>
+            </g>
+            <g id="Group-2-Copy-2" transform="translate(210.000000, 10.000000)">
+                <g id="grid">
+                    <g id="Grid">
+                        <rect id="bg-white" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="80" height="80"></rect>
+                        <g id="Layer_1_copy_3">
+                            <g id="Group">
+                                <g opacity="0.5" id="Shape" fill-rule="nonzero" fill="#00FEFF">
+                                    <path d="M75,5 L75,75 L5,75 L5,5 L75,5 L75,5 Z M80,0 L0,0 L0,80 L80,80 L80,0 L80,0 Z"></path>
+                                </g>
+                                <g transform="translate(5.000000, 4.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M65,70.9 L5,70.9 C2.3,70.9 0,68.6 0,65.9 L0,5.9 C0,3.2 2.3,0.9 5,0.9 L65,0.9 C67.7,0.9 70,3.2 70,5.9 L70,65.9 C70,68.7 67.8,70.9 65,70.9 Z" opacity="0.1"></path>
+                                    <g opacity="0.5" transform="translate(0.000000, 1.000000)">
+                                        <path d="M65,0.2 C67.6,0.2 69.7,2.3 69.7,4.9 L69.7,64.9 C69.7,67.5 67.6,69.6 65,69.6 L5,69.6 C2.4,69.6 0.3,67.5 0.3,64.9 L0.3,4.9 C0.3,2.3 2.4,0.2 5,0.2 L65,0.2 L65,0.2 Z M65,0 L5,0 C2.3,0 0,2.3 0,5 L0,65 C0,67.7 2.3,70 5,70 L65,70 C67.7,70 70,67.7 70,65 L70,5 C70,2.2 67.8,0 65,0 L65,0 Z"></path>
+                                    </g>
+                                </g>
+                                <g transform="translate(0.000000, 9.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M75,61 L5,61 C2.3,61 0,58.7 0,56 L0,5.9 C0,3.2 2.3,0.9 5,0.9 L75,0.9 C77.7,0.9 80,3.2 80,5.9 L80,55.9 C80,58.7 77.7,61 75,61 Z" opacity="0.1"></path>
+                                    <g opacity="0.5">
+                                        <path d="M75,1.2 C77.6,1.2 79.7,3.3 79.7,5.9 L79.7,55.9 C79.7,58.5 77.6,60.6 75,60.6 L5,60.6 C2.4,60.6 0.3,58.5 0.3,55.9 L0.3,5.9 C0.3,3.3 2.4,1.2 5,1.2 L75,1.2 L75,1.2 Z M75,0.9 L5,0.9 C2.3,0.9 0,3.2 0,5.9 L0,55.9 C0,58.6 2.3,60.9 5,60.9 L75,60.9 C77.7,60.9 80,58.6 80,55.9 L80,5.9 C80,3.2 77.7,0.9 75,0.9 L75,0.9 Z"></path>
+                                    </g>
+                                </g>
+                                <g transform="translate(10.000000, 0.000000)" id="Shape" fill-rule="nonzero" fill="#FF00FF">
+                                    <path d="M55,79.9 L5,79.9 C2.3,79.9 0,77.6 0,74.9 L0,5 C0,2.3 2.3,0 5,0 L55,0 C57.7,0 60,2.3 60,5 L60,75 C60,77.7 57.7,79.9 55,79.9 Z" opacity="0.1"></path>
+                                    <g opacity="0.5">
+                                        <path d="M55,0.2 C57.6,0.2 59.7,2.3 59.7,4.9 L59.7,74.9 C59.7,77.5 57.6,79.6 55,79.6 L5,79.6 C2.4,79.6 0.3,77.5 0.3,74.9 L0.3,5 C0.3,2.4 2.4,0.3 5,0.3 L55,0.3 L55,0.2 Z M55,0 L5,0 C2.3,0 0,2.3 0,5 L0,75 C0,77.7 2.3,80 5,80 L55,80 C57.7,80 60,77.7 60,75 L60,5 C60,2.1 57.7,0 55,0 L55,0 Z"></path>
+                                    </g>
+                                </g>
+                                <rect id="Rectangle-path" fill="#FF00FF" fill-rule="nonzero" opacity="0.5" x="10" y="9.9" width="60" height="60"></rect>
+                                <g opacity="0.4" stroke="#000F40" stroke-width="0.1">
+                                    <g opacity="0.2" id="Rectangle-path">
+                                        <rect x="0.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="0.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="25" y="0.2" width="5" height="5"></rect>
+                                        <rect x="30" y="0.2" width="5" height="5"></rect>
+                                        <rect x="35" y="0.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="0.2" width="5" height="5"></rect>
+                                        <rect x="45" y="0.2" width="5" height="5"></rect>
+                                        <rect x="50" y="0.2" width="5" height="5"></rect>
+                                        <rect x="55" y="0.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="0.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="0.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="0.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="0.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="5.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="25" y="5.2" width="5" height="5"></rect>
+                                        <rect x="30" y="5.2" width="5" height="5"></rect>
+                                        <rect x="35" y="5.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="5.2" width="5" height="5"></rect>
+                                        <rect x="45" y="5.2" width="5" height="5"></rect>
+                                        <rect x="50" y="5.2" width="5" height="5"></rect>
+                                        <rect x="55" y="5.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="5.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="5.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="5.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="5.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="5.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="10.2" y="10.2" width="5" height="5"></rect>
+                                        <rect x="15.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="20.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="25" y="10.2" width="5" height="5"></rect>
+                                        <rect x="30" y="10.2" width="5" height="5"></rect>
+                                        <rect x="35" y="10.2" width="5" height="5"></rect>
+                                        <rect x="40.1" y="10.2" width="5" height="5"></rect>
+                                        <rect x="45" y="10.2" width="5" height="5"></rect>
+                                        <rect x="50" y="10.2" width="5" height="5"></rect>
+                                        <rect x="55" y="10.2" width="5" height="5"></rect>
+                                        <rect x="59.9" y="10.2" width="5" height="5"></rect>
+                                        <rect x="64.9" y="10.2" width="5" height="5"></rect>
+                                        <rect x="69.8" y="10.2" width="5" height="5"></rect>
+                                        <rect x="74.8" y="10.2" width="5" height="5"></rect>
+                                        <rect x="0.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="5.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="10.2" y="15.1" width="5" height="5"></rect>
+                                        <rect x="15.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="20.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="25" y="15.1" width="5" height="5"></rect>
+                                        <rect x="30" y="15.1" width="5" height="5"></rect>
+                                        <rect x="35" y="15.1" width="5" height="5"></rect>
+                                        <rect x="40.1" y="15.1" width="5" height="5"></rect>
+                                        <rect x="45" y="15.1" width="5" height="5"></rect>
+                                        <rect x="50" y="15.1" width="5" height="5"></rect>
+                                        <rect x="55" y="15.1" width="5" height="5"></rect>
+                                        <rect x="59.9" y="15.1" width="5" height="5"></rect>
+                                        <rect x="64.9" y="15.1" width="5" height="5"></rect>
+                                        <rect x="69.8" y="15.1" width="5" height="5"></rect>
+                                        <rect x="74.8" y="15.1" width="5" height="5"></rect>
+                                        <rect x="0.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="5.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="10.2" y="20.1" width="5" height="5"></rect>
+                                        <rect x="15.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="20.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="25" y="20.1" width="5" height="5"></rect>
+                                        <rect x="30" y="20.1" width="5" height="5"></rect>
+                                        <rect x="35" y="20.1" width="5" height="5"></rect>
+                                        <rect x="40.1" y="20.1" width="5" height="5"></rect>
+                                        <rect x="45" y="20.1" width="5" height="5"></rect>
+                                        <rect x="50" y="20.1" width="5" height="5"></rect>
+                                        <rect x="55" y="20.1" width="5" height="5"></rect>
+                                        <rect x="59.9" y="20.1" width="5" height="5"></rect>
+                                        <rect x="64.9" y="20.1" width="5" height="5"></rect>
+                                        <rect x="69.8" y="20.1" width="5" height="5"></rect>
+                                        <rect x="74.8" y="20.1" width="5" height="5"></rect>
+                                        <rect x="0.2" y="25" width="5" height="5"></rect>
+                                        <rect x="5.2" y="25" width="5" height="5"></rect>
+                                        <rect x="10.2" y="25" width="5" height="5"></rect>
+                                        <rect x="15.1" y="25" width="5" height="5"></rect>
+                                        <rect x="20.1" y="25" width="5" height="5"></rect>
+                                        <rect x="25" y="25" width="5" height="5"></rect>
+                                        <rect x="30" y="25" width="5" height="5"></rect>
+                                        <rect x="35" y="25" width="5" height="5"></rect>
+                                        <rect x="40.1" y="25" width="5" height="5"></rect>
+                                        <rect x="45" y="25" width="5" height="5"></rect>
+                                        <rect x="50" y="25" width="5" height="5"></rect>
+                                        <rect x="55" y="25" width="5" height="5"></rect>
+                                        <rect x="59.9" y="25" width="5" height="5"></rect>
+                                        <rect x="64.9" y="25" width="5" height="5"></rect>
+                                        <rect x="69.8" y="25" width="5" height="5"></rect>
+                                        <rect x="74.8" y="25" width="5" height="5"></rect>
+                                        <rect x="0.2" y="30" width="5" height="5"></rect>
+                                        <rect x="5.2" y="30" width="5" height="5"></rect>
+                                        <rect x="10.2" y="30" width="5" height="5"></rect>
+                                        <rect x="15.1" y="30" width="5" height="5"></rect>
+                                        <rect x="20.1" y="30" width="5" height="5"></rect>
+                                        <rect x="25" y="30" width="5" height="5"></rect>
+                                        <rect x="30" y="30" width="5" height="5"></rect>
+                                        <rect x="35" y="30" width="5" height="5"></rect>
+                                        <rect x="40.1" y="30" width="5" height="5"></rect>
+                                        <rect x="45" y="30" width="5" height="5"></rect>
+                                        <rect x="50" y="30" width="5" height="5"></rect>
+                                        <rect x="55" y="30" width="5" height="5"></rect>
+                                        <rect x="59.9" y="30" width="5" height="5"></rect>
+                                        <rect x="64.9" y="30" width="5" height="5"></rect>
+                                        <rect x="69.8" y="30" width="5" height="5"></rect>
+                                        <rect x="74.8" y="30" width="5" height="5"></rect>
+                                        <rect x="0.2" y="35" width="5" height="5"></rect>
+                                        <rect x="5.2" y="35" width="5" height="5"></rect>
+                                        <rect x="10.2" y="35" width="5" height="5"></rect>
+                                        <rect x="15.1" y="35" width="5" height="5"></rect>
+                                        <rect x="20.1" y="35" width="5" height="5"></rect>
+                                        <rect x="25" y="35" width="5" height="5"></rect>
+                                        <rect x="30" y="35" width="5" height="5"></rect>
+                                        <rect x="35" y="35" width="5" height="5"></rect>
+                                        <rect x="40.1" y="35" width="5" height="5"></rect>
+                                        <rect x="45" y="35" width="5" height="5"></rect>
+                                        <rect x="50" y="35" width="5" height="5"></rect>
+                                        <rect x="55" y="35" width="5" height="5"></rect>
+                                        <rect x="59.9" y="35" width="5" height="5"></rect>
+                                        <rect x="64.9" y="35" width="5" height="5"></rect>
+                                        <rect x="69.8" y="35" width="5" height="5"></rect>
+                                        <rect x="74.8" y="35" width="5" height="5"></rect>
+                                        <rect x="0.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="39.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="25" y="39.9" width="5" height="5"></rect>
+                                        <rect x="30" y="39.9" width="5" height="5"></rect>
+                                        <rect x="35" y="39.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="39.9" width="5" height="5"></rect>
+                                        <rect x="45" y="39.9" width="5" height="5"></rect>
+                                        <rect x="50" y="39.9" width="5" height="5"></rect>
+                                        <rect x="55" y="39.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="39.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="39.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="39.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="39.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="44.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="25" y="44.9" width="5" height="5"></rect>
+                                        <rect x="30" y="44.9" width="5" height="5"></rect>
+                                        <rect x="35" y="44.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="44.9" width="5" height="5"></rect>
+                                        <rect x="45" y="44.9" width="5" height="5"></rect>
+                                        <rect x="50" y="44.9" width="5" height="5"></rect>
+                                        <rect x="55" y="44.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="44.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="44.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="44.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="44.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="5.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="10.2" y="49.9" width="5" height="5"></rect>
+                                        <rect x="15.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="20.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="25" y="49.9" width="5" height="5"></rect>
+                                        <rect x="30" y="49.9" width="5" height="5"></rect>
+                                        <rect x="35" y="49.9" width="5" height="5"></rect>
+                                        <rect x="40.1" y="49.9" width="5" height="5"></rect>
+                                        <rect x="45" y="49.9" width="5" height="5"></rect>
+                                        <rect x="50" y="49.9" width="5" height="5"></rect>
+                                        <rect x="55" y="49.9" width="5" height="5"></rect>
+                                        <rect x="59.9" y="49.9" width="5" height="5"></rect>
+                                        <rect x="64.9" y="49.9" width="5" height="5"></rect>
+                                        <rect x="69.8" y="49.9" width="5" height="5"></rect>
+                                        <rect x="74.8" y="49.9" width="5" height="5"></rect>
+                                        <rect x="0.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="54.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="25" y="54.8" width="5" height="5"></rect>
+                                        <rect x="30" y="54.8" width="5" height="5"></rect>
+                                        <rect x="35" y="54.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="54.8" width="5" height="5"></rect>
+                                        <rect x="45" y="54.8" width="5" height="5"></rect>
+                                        <rect x="50" y="54.8" width="5" height="5"></rect>
+                                        <rect x="55" y="54.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="54.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="54.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="54.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="54.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="59.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="25" y="59.8" width="5" height="5"></rect>
+                                        <rect x="30" y="59.8" width="5" height="5"></rect>
+                                        <rect x="35" y="59.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="59.8" width="5" height="5"></rect>
+                                        <rect x="45" y="59.8" width="5" height="5"></rect>
+                                        <rect x="50" y="59.8" width="5" height="5"></rect>
+                                        <rect x="55" y="59.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="59.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="59.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="59.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="59.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="5.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="10.2" y="64.8" width="5" height="5"></rect>
+                                        <rect x="15.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="20.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="25" y="64.8" width="5" height="5"></rect>
+                                        <rect x="30" y="64.8" width="5" height="5"></rect>
+                                        <rect x="35" y="64.8" width="5" height="5"></rect>
+                                        <rect x="40.1" y="64.8" width="5" height="5"></rect>
+                                        <rect x="45" y="64.8" width="5" height="5"></rect>
+                                        <rect x="50" y="64.8" width="5" height="5"></rect>
+                                        <rect x="55" y="64.8" width="5" height="5"></rect>
+                                        <rect x="59.9" y="64.8" width="5" height="5"></rect>
+                                        <rect x="64.9" y="64.8" width="5" height="5"></rect>
+                                        <rect x="69.8" y="64.8" width="5" height="5"></rect>
+                                        <rect x="74.8" y="64.8" width="5" height="5"></rect>
+                                        <rect x="0.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="5.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="10.2" y="69.7" width="5" height="5"></rect>
+                                        <rect x="15.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="20.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="25" y="69.7" width="5" height="5"></rect>
+                                        <rect x="30" y="69.7" width="5" height="5"></rect>
+                                        <rect x="35" y="69.7" width="5" height="5"></rect>
+                                        <rect x="40.1" y="69.7" width="5" height="5"></rect>
+                                        <rect x="45" y="69.7" width="5" height="5"></rect>
+                                        <rect x="50" y="69.7" width="5" height="5"></rect>
+                                        <rect x="55" y="69.7" width="5" height="5"></rect>
+                                        <rect x="59.9" y="69.7" width="5" height="5"></rect>
+                                        <rect x="64.9" y="69.7" width="5" height="5"></rect>
+                                        <rect x="69.8" y="69.7" width="5" height="5"></rect>
+                                        <rect x="74.8" y="69.7" width="5" height="5"></rect>
+                                        <rect x="0.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="5.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="10.2" y="74.7" width="5" height="5"></rect>
+                                        <rect x="15.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="20.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="25" y="74.7" width="5" height="5"></rect>
+                                        <rect x="30" y="74.7" width="5" height="5"></rect>
+                                        <rect x="35" y="74.7" width="5" height="5"></rect>
+                                        <rect x="40.1" y="74.7" width="5" height="5"></rect>
+                                        <rect x="45" y="74.7" width="5" height="5"></rect>
+                                        <rect x="50" y="74.7" width="5" height="5"></rect>
+                                        <rect x="55" y="74.7" width="5" height="5"></rect>
+                                        <rect x="59.9" y="74.7" width="5" height="5"></rect>
+                                        <rect x="64.9" y="74.7" width="5" height="5"></rect>
+                                        <rect x="69.8" y="74.7" width="5" height="5"></rect>
+                                        <rect x="74.8" y="74.7" width="5" height="5"></rect>
+                                    </g>
+                                    <g opacity="0.3" id="Shape">
+                                        <polygon points="5.2 0.2 0.2 0.2 0.2 5.2 0.2 10.2 5.2 10.2 10.2 10.2 10.2 5.2 10.2 0.2"></polygon>
+                                        <polygon points="15.1 0.2 10.2 0.2 10.2 5.2 10.2 10.2 15.1 10.2 20.1 10.2 20.1 5.2 20.1 0.2"></polygon>
+                                        <polygon points="25 0.2 20.1 0.2 20.1 5.2 20.1 10.2 25 10.2 30 10.2 30 5.2 30 0.2"></polygon>
+                                        <polygon points="35 0.2 30 0.2 30 5.2 30 10.2 35 10.2 40.1 10.2 40.1 5.2 40.1 0.2"></polygon>
+                                        <polygon points="45 0.2 40.1 0.2 40.1 5.2 40.1 10.2 45 10.2 50 10.2 50 5.2 50 0.2"></polygon>
+                                        <polygon points="55 0.2 50 0.2 50 5.2 50 10.2 55 10.2 59.9 10.2 59.9 5.2 59.9 0.2"></polygon>
+                                        <polygon points="64.9 0.2 59.9 0.2 59.9 5.2 59.9 10.2 64.9 10.2 69.8 10.2 69.8 5.2 69.8 0.2"></polygon>
+                                        <polygon points="74.8 0.2 69.8 0.2 69.8 5.2 69.8 10.2 74.8 10.2 79.8 10.2 79.8 5.2 79.8 0.2"></polygon>
+                                        <polygon points="5.2 10.2 0.2 10.2 0.2 15.1 0.2 20.1 5.2 20.1 10.2 20.1 10.2 15.1 10.2 10.2"></polygon>
+                                        <polygon points="15.1 10.2 10.2 10.2 10.2 15.1 10.2 20.1 15.1 20.1 20.1 20.1 20.1 15.1 20.1 10.2"></polygon>
+                                        <polygon points="25 10.2 20.1 10.2 20.1 15.1 20.1 20.1 25 20.1 30 20.1 30 15.1 30 10.2"></polygon>
+                                        <polygon points="35 10.2 30 10.2 30 15.1 30 20.1 35 20.1 40.1 20.1 40.1 15.1 40.1 10.2"></polygon>
+                                        <polygon points="45 10.2 40.1 10.2 40.1 15.1 40.1 20.1 45 20.1 50 20.1 50 15.1 50 10.2"></polygon>
+                                        <polygon points="55 10.2 50 10.2 50 15.1 50 20.1 55 20.1 59.9 20.1 59.9 15.1 59.9 10.2"></polygon>
+                                        <polygon points="64.9 10.2 59.9 10.2 59.9 15.1 59.9 20.1 64.9 20.1 69.8 20.1 69.8 15.1 69.8 10.2"></polygon>
+                                        <polygon points="74.8 10.2 69.8 10.2 69.8 15.1 69.8 20.1 74.8 20.1 79.8 20.1 79.8 15.1 79.8 10.2"></polygon>
+                                        <polygon points="5.2 20.1 0.2 20.1 0.2 25 0.2 30 5.2 30 10.2 30 10.2 25 10.2 20.1"></polygon>
+                                        <polygon points="15.1 20.1 10.2 20.1 10.2 25 10.2 30 15.1 30 20.1 30 20.1 25 20.1 20.1"></polygon>
+                                        <polygon points="25 20.1 20.1 20.1 20.1 25 20.1 30 25 30 30 30 30 25 30 20.1"></polygon>
+                                        <polygon points="35 20.1 30 20.1 30 25 30 30 35 30 40.1 30 40.1 25 40.1 20.1"></polygon>
+                                        <polygon points="45 20.1 40.1 20.1 40.1 25 40.1 30 45 30 50 30 50 25 50 20.1"></polygon>
+                                        <polygon points="55 20.1 50 20.1 50 25 50 30 55 30 59.9 30 59.9 25 59.9 20.1"></polygon>
+                                        <polygon points="64.9 20.1 59.9 20.1 59.9 25 59.9 30 64.9 30 69.8 30 69.8 25 69.8 20.1"></polygon>
+                                        <polygon points="74.8 20.1 69.8 20.1 69.8 25 69.8 30 74.8 30 79.8 30 79.8 25 79.8 20.1"></polygon>
+                                        <polygon points="5.2 30 0.2 30 0.2 35 0.2 39.9 5.2 39.9 10.2 39.9 10.2 35 10.2 30"></polygon>
+                                        <polygon points="15.1 30 10.2 30 10.2 35 10.2 39.9 15.1 39.9 20.1 39.9 20.1 35 20.1 30"></polygon>
+                                        <polygon points="25 30 20.1 30 20.1 35 20.1 39.9 25 39.9 30 39.9 30 35 30 30"></polygon>
+                                        <polygon points="35 30 30 30 30 35 30 39.9 35 39.9 40.1 39.9 40.1 35 40.1 30"></polygon>
+                                        <polygon points="45 30 40.1 30 40.1 35 40.1 39.9 45 39.9 50 39.9 50 35 50 30"></polygon>
+                                        <polygon points="55 30 50 30 50 35 50 39.9 55 39.9 59.9 39.9 59.9 35 59.9 30"></polygon>
+                                        <polygon points="64.9 30 59.9 30 59.9 35 59.9 39.9 64.9 39.9 69.8 39.9 69.8 35 69.8 30"></polygon>
+                                        <polygon points="74.8 30 69.8 30 69.8 35 69.8 39.9 74.8 39.9 79.8 39.9 79.8 35 79.8 30"></polygon>
+                                        <polygon points="5.2 39.9 0.2 39.9 0.2 44.9 0.2 49.9 5.2 49.9 10.2 49.9 10.2 44.9 10.2 39.9"></polygon>
+                                        <polygon points="15.1 39.9 10.2 39.9 10.2 44.9 10.2 49.9 15.1 49.9 20.1 49.9 20.1 44.9 20.1 39.9"></polygon>
+                                        <polygon points="25 39.9 20.1 39.9 20.1 44.9 20.1 49.9 25 49.9 30 49.9 30 44.9 30 39.9"></polygon>
+                                        <polygon points="35 39.9 30 39.9 30 44.9 30 49.9 35 49.9 40.1 49.9 40.1 44.9 40.1 39.9"></polygon>
+                                        <polygon points="45 39.9 40.1 39.9 40.1 44.9 40.1 49.9 45 49.9 50 49.9 50 44.9 50 39.9"></polygon>
+                                        <polygon points="55 39.9 50 39.9 50 44.9 50 49.9 55 49.9 59.9 49.9 59.9 44.9 59.9 39.9"></polygon>
+                                        <polygon points="64.9 39.9 59.9 39.9 59.9 44.9 59.9 49.9 64.9 49.9 69.8 49.9 69.8 44.9 69.8 39.9"></polygon>
+                                        <polygon points="74.8 39.9 69.8 39.9 69.8 44.9 69.8 49.9 74.8 49.9 79.8 49.9 79.8 44.9 79.8 39.9"></polygon>
+                                        <polygon points="5.2 49.9 0.2 49.9 0.2 54.8 0.2 59.8 5.2 59.8 10.2 59.8 10.2 54.8 10.2 49.9"></polygon>
+                                        <polygon points="15.1 49.9 10.2 49.9 10.2 54.8 10.2 59.8 15.1 59.8 20.1 59.8 20.1 54.8 20.1 49.9"></polygon>
+                                        <polygon points="25 49.9 20.1 49.9 20.1 54.8 20.1 59.8 25 59.8 30 59.8 30 54.8 30 49.9"></polygon>
+                                        <polygon points="35 49.9 30 49.9 30 54.8 30 59.8 35 59.8 40.1 59.8 40.1 54.8 40.1 49.9"></polygon>
+                                        <polygon points="45 49.9 40.1 49.9 40.1 54.8 40.1 59.8 45 59.8 50 59.8 50 54.8 50 49.9"></polygon>
+                                        <polygon points="55 49.9 50 49.9 50 54.8 50 59.8 55 59.8 59.9 59.8 59.9 54.8 59.9 49.9"></polygon>
+                                        <polygon points="64.9 49.9 59.9 49.9 59.9 54.8 59.9 59.8 64.9 59.8 69.8 59.8 69.8 54.8 69.8 49.9"></polygon>
+                                        <polygon points="74.8 49.9 69.8 49.9 69.8 54.8 69.8 59.8 74.8 59.8 79.8 59.8 79.8 54.8 79.8 49.9"></polygon>
+                                        <polygon points="5.2 59.8 0.2 59.8 0.2 64.8 0.2 69.7 5.2 69.7 10.2 69.7 10.2 64.8 10.2 59.8"></polygon>
+                                        <polygon points="15.1 59.8 10.2 59.8 10.2 64.8 10.2 69.7 15.1 69.7 20.1 69.7 20.1 64.8 20.1 59.8"></polygon>
+                                        <polygon points="25 59.8 20.1 59.8 20.1 64.8 20.1 69.7 25 69.7 30 69.7 30 64.8 30 59.8"></polygon>
+                                        <polygon points="35 59.8 30 59.8 30 64.8 30 69.7 35 69.7 40.1 69.7 40.1 64.8 40.1 59.8"></polygon>
+                                        <polygon points="45 59.8 40.1 59.8 40.1 64.8 40.1 69.7 45 69.7 50 69.7 50 64.8 50 59.8"></polygon>
+                                        <polygon points="55 59.8 50 59.8 50 64.8 50 69.7 55 69.7 59.9 69.7 59.9 64.8 59.9 59.8"></polygon>
+                                        <polygon points="64.9 59.8 59.9 59.8 59.9 64.8 59.9 69.7 64.9 69.7 69.8 69.7 69.8 64.8 69.8 59.8"></polygon>
+                                        <polygon points="74.8 59.8 69.8 59.8 69.8 64.8 69.8 69.7 74.8 69.7 79.8 69.7 79.8 64.8 79.8 59.8"></polygon>
+                                        <polygon points="5.2 69.7 0.2 69.7 0.2 74.7 0.2 79.7 5.2 79.7 10.2 79.7 10.2 74.7 10.2 69.7"></polygon>
+                                        <polygon points="15.1 69.7 10.2 69.7 10.2 74.7 10.2 79.7 15.1 79.7 20.1 79.7 20.1 74.7 20.1 69.7"></polygon>
+                                        <polygon points="25 69.7 20.1 69.7 20.1 74.7 20.1 79.7 25 79.7 30 79.7 30 74.7 30 69.7"></polygon>
+                                        <polygon points="35 69.7 30 69.7 30 74.7 30 79.7 35 79.7 40.1 79.7 40.1 74.7 40.1 69.7"></polygon>
+                                        <polygon points="45 69.7 40.1 69.7 40.1 74.7 40.1 79.7 45 79.7 50 79.7 50 74.7 50 69.7"></polygon>
+                                        <polygon points="55 69.7 50 69.7 50 74.7 50 79.7 55 79.7 59.9 79.7 59.9 74.7 59.9 69.7"></polygon>
+                                        <polygon points="64.9 69.7 59.9 69.7 59.9 74.7 59.9 79.7 64.9 79.7 69.8 79.7 69.8 74.7 69.8 69.7"></polygon>
+                                        <polygon points="74.8 69.7 69.8 69.7 69.8 74.7 69.8 79.7 74.8 79.7 79.8 79.7 79.8 74.7 79.8 69.7"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Page-1" transform="translate(215.000000, 10.000000)" fill="#000000">
+                <path d="M60,65 C60,67.76 57.765,70 55,70 L15,70 C12.235,70 10,67.76 10,65 L10,15 C10,12.24 12.235,10 15,10 L55,10 C57.765,10 60,12.24 60,15 L60,65 Z M54.99,0 L15.01,0 C6.72,0 0,6.72 0,15.01 L0,64.99 C0,73.28 6.72,80 15.01,80 L54.99,80 C63.28,80 70,73.28 70,64.99 L70,15.01 C70,6.72 63.28,0 54.99,0 L54.99,0 Z" id="Fill-1"></path>
+                <path d="M47.5,25 L22.5,25 C21.12,25 20,23.88 20,22.5 C20,21.12 21.12,20 22.5,20 L47.5,20 C48.88,20 50,21.12 50,22.5 C50,23.88 48.88,25 47.5,25" id="Fill-3"></path>
+                <path d="M47.5,35 L22.5,35 C21.12,35 20,33.88 20,32.5 C20,31.12 21.12,30 22.5,30 L47.5,30 C48.88,30 50,31.12 50,32.5 C50,33.88 48.88,35 47.5,35" id="Fill-5"></path>
+                <path d="M47.5,45 L22.5,45 C21.12,45 20,43.88 20,42.5 C20,41.12 21.12,40 22.5,40 L47.5,40 C48.88,40 50,41.12 50,42.5 C50,43.88 48.88,45 47.5,45" id="Fill-7"></path>
+                <path d="M32.5,55 L22.5,55 C21.12,55 20,53.88 20,52.5 C20,51.12 21.12,50 22.5,50 L32.5,50 C33.88,50 35,51.12 35,52.5 C35,53.88 33.88,55 32.5,55" id="Fill-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>
