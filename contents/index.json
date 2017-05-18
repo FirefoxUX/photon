@@ -6,6 +6,7 @@
   },
   {
     "title": "Firefox Design System",
+    "directory": "intro",
     "pages": [
       {"title": "Getting started",
         "file": "getting-started.html"
@@ -45,7 +46,7 @@
     "pages": [
       {
         "title": "Principles",
-        "file": "motion-principles.html"
+        "file": "principles.html"
       }
     ]
   },
@@ -71,6 +72,7 @@
     ]
   },
   {"title": "Resources",
+    "directory": "resources",
     "file": "resources.html"
   }
 ]

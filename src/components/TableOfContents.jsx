@@ -68,7 +68,7 @@ const TableOfContents = React.createClass({
         <div className="self-start dn db-l">
           <p className="f4 fw5 lh-solid ma0">
             <a className="near-black no-underline"
-                href="/DesignSystem/welcome.html"
+                href="/DesignSystem/index.html"
             >{'Firefox Design System'}
             </a>
           </p>
