@@ -30,8 +30,8 @@
         <td><p><a href="https://developer.apple.com/fonts/">San Francisco</a></p></td>
       </tr>
       <tr>
-        <td><p>Ubuntu</p></td>
-        <td><p><a href="http://font.ubuntu.com/">Ubuntu</a></p></td>
+        <td><p>Linux</p></td>
+        <td><p><a href="http://font.ubuntu.com/">Ubuntu</a>. Fallback to distribution system font if not avaiable</p></td>
       </tr>
       <tr>
         <td><p>Web</p></td>
@@ -54,10 +54,13 @@
 
 <section>
   <h2>Styles</h2>
+  <p>
+    The following styles are for desktop products only.
+  </p>
   <table>
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Category</th>
         <th>Size</th>
         <th>Weight</th>
       </tr>
@@ -69,21 +72,25 @@
         <td>Light 300</td>
       </tr>
       <tr>
-        <td rowspan="2">Title</td>
-        <td>17px</td>
-        <td>Medium 500</td>
-      </tr>
-      <tr>
+        <td rowspan="3">Title</td>
         <td>22px</td>
         <td>Light 300</td>
       </tr>
       <tr>
-        <td rowspan="2">Body</td>
+        <td>17px</td>
+        <td>Medium 500</td>
+      </tr>
+      <tr>
         <td>13px</td>
+        <td>Normal 400, Bold 700</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Body</td>
+        <td>15px</td>
         <td>Normal 400, Medium 500</td>
       </tr>
       <tr>
-        <td>15px</td>
+        <td>13px</td>
         <td>Normal 400, Medium 500</td>
       </tr>
       <tr>
@@ -106,8 +113,8 @@
       </tr>
       <tr>
         <td>Links</td>
-        <td>13px</td>
-        <td>Normal 400</td>
+        <td>15px</td>
+        <td>Medium 500</td>
       </tr>
     </tbody>
   </table>
@@ -115,6 +122,9 @@
 
 <section>
   <h2>Color</h2>
+  <p>
+    Choose text color based on purpose. Primary for titles, buttons and most important bodies of text. Secondary for accompaingn text that gives further information, details or features to the primary content.
+  </p>
   <h3>Dark typography on light background</h3>
   <% include contents/includes/typography/typography-color-text-dark.html %>
   <h3>Light typography on dark background</h3>
