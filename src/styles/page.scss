@@ -203,7 +203,8 @@ main section blockquote {
     padding-left: 0;
   }
 
-  li {
+  li,
+  p:last-of-type {
     margin-bottom: .5rem;
   }
 }
