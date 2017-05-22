@@ -4,21 +4,27 @@
 </header>
 
 <section>
-  <blockquote>
-    <h4>Icon library</h4>
-    <p>
-      Looking for icons? Check out all the existing <a href="https://firefoxux.github.io/firefox-icons/viewer/#">Firefox icons</a>.
-    </p>
-  </blockquote>
   <h2>Icon Construction</h2>
-  <p>
-    A good Firefox icon is simple but still representing the right metaphor. Use universal metaphors that everyone around the world can quickly identify. Aim for a design most people can interpret correctly and won’t find offensive. Do not focus on a secondary or obscure aspect of an element. Remember that too many details can make an icon appear sloppy or unreadable.
-  </p>
+  <div class="cf nr3 nl3">
+    <div class="w-50-ns fl-ns ph3 mb3">
+      <p>
+        A good Firefox icon is simple but still representing the right metaphor. Use universal metaphors that everyone around the world can quickly identify. Aim for a design most people can interpret correctly and won’t find offensive. Do not focus on a secondary or obscure aspect of an element. Remember that too many details can make an icon appear sloppy or unreadable.
+      </p>
+    </div>
+    <div class="w-50-ns fl-ns ph2 mb3">
+      <blockquote>
+        <h4>Icon Library</h4>
+        <p>
+          Looking for icons? Check out all the existing <a href="https://firefoxux.github.io/firefox-icons/viewer/">Firefox Icons</a>.
+        </p>
+      </blockquote>
+    </div>
+  </div>
   <h3>Grid</h3>
   <p>
     Firefox icons live on a 16&times;16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps you ensure that the icons will not appear fuzzy in production.
   </p>
-  <% include contents/includes/iconography/grid-2columns.html %>
+  <% include contents/includes/iconography/icon-grid.html %>
   <h3>Shape</h3>
   <p>
     Use positive and negative space to create the shape of your icon. When lines principally shape your icon use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly.
@@ -60,10 +66,16 @@
   <% include contents/includes/iconography/icon-color-background.html %>
   <% include contents/includes/iconography/icon-color-examples.html %>
   <h3>State</h3>
-  <p>To better guide the user's eye, treats icons differently to create a better visual hierarchy.</p>
-  <p><strong>Primary icons</strong> are the main, and more frequent, actions on the page. From the interaction standpoint, a primary icon doesn't change its color: it usually comes within a button.</p>
+  <p>
+    To better guide the user's eye, treats icons differently to create a better visual hierarchy.
+  </p>
+  <p>
+    <strong>Primary icons</strong> are the main, and more frequent, actions on the page. From the interaction standpoint, a primary icon doesn't change its color: it usually comes within a button.
+  </p>
   <!-- Be sure the add a link to a btn or some elements as soon as we have it -->
-  <p><strong>Secondary icons</strong> are the subsdiary, and less frequent, actions on the page. For this reason, the secondary icon changes its presentation when the user interacts with it. </p>
+  <p>
+    <strong>Secondary icons</strong> are the subsdiary, and less frequent, actions on the page. For this reason, the secondary icon changes its presentation when the user interacts with it.
+  </p>
   <% include contents/includes/iconography/icon-state.html %>
 </section>
 
