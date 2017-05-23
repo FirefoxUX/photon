@@ -5,8 +5,8 @@
     "hidden": true
   },
   {
-    "title": "Firefox Design System",
-    "directory": "intro",
+    "title": "Introduction",
+    "directory": "introduction",
     "pages": [
       {"title": "Getting started",
         "file": "getting-started.html"
