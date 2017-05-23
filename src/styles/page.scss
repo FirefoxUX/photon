@@ -152,6 +152,7 @@ main section {
 
     figcaption {
       font-size: small;
+      line-height: 1.3;
       padding-top: .5rem;
     }
   }
@@ -231,6 +232,9 @@ main section table {
 
   thead {
     background-color: #eeeeee;
+    font-size: small;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   th {
