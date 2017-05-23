@@ -79,19 +79,20 @@ const TableOfContents = React.createClass({
         </div>
         <div className="self-end w-100 pb3 pb4-l">
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="near-black no-underline gray"
+            <a className="near-black no-underline near-black"
                 href="https://github.com/bwinton/DesignSystem/issues/new"
             >{'Site Feedback'}
             </a>
           </p>
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="near-black no-underline gray"
+            <a className="dib no-underline near-black mr2"
                 href="https://github.com/bwinton/DesignSystem/releases"
             >{'Changelog'}
             </a>
+            <span className="grey-50">{'Beta v0.3'}</span>
           </p>
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="near-black no-underline gray"
+            <a className="near-black no-underline near-black"
                 href="https://www.mozilla.org/privacy/websites/"
             >{'Privacy Policy'}
             </a>

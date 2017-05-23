@@ -24,7 +24,7 @@ const ListItem = connect(state => {
   getPage: (item, i) => {
     return (
       <Page
-          classes="db no-underline gray fw4 pv2 pl3"
+          classes="db no-underline near-black fw4 pv2 pl3"
           i={i}
           item={item}
           key={i}
