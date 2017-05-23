@@ -137,7 +137,7 @@ main section {
     text-decoration: none;
 
     &[href*="//"]::after {
-      background-image: url('/images/global/open-new-tab.svg');
+      background-image: url('../../images/global/open-new-tab.svg');
       background-size: 12px 12px;
       content: "";
       display: inline-block;
