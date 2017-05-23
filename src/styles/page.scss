@@ -13,7 +13,7 @@ code {
 
   &::after {
     background-color: #333333;
-    border-radius: 2px;
+    border-radius: 4px;
     color: white;
     content: "Click to copy";
     display: block;
@@ -135,6 +135,16 @@ main section {
   a {
     color: var(--blue-50);
     text-decoration: none;
+
+    &[href*="//"]::after {
+      background-image: url('/images/global/open-new-tab.svg');
+      background-size: 12px 12px;
+      content: "";
+      display: inline-block;
+      height: 12px;
+      margin: 0 .15rem 0 .25rem;
+      width: 12px;
+    }
   }
 
   figure {
@@ -142,6 +152,7 @@ main section {
 
     figcaption {
       font-size: small;
+      line-height: 1.3;
       padding-top: .5rem;
     }
   }
@@ -170,25 +181,21 @@ main section {
 /* Section blockquote */
 
 main section blockquote {
-  background-color: #f4f4f4;
+  background-color: #eeeeee;
   border-radius: 4px;
+  font-size: small;
   margin: 0 0 1rem;
   padding: 1rem 1rem .25rem;
+
+  @media screen and (min-width: 30em) {
+    font-size: initial;
+  }
 
   @media screen and (min-width: 60em) {
     width: 50%;
   }
 
-  h4 {
-    margin-top: 0;
-  }
-
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-
-  li {
+  p:last-of-type {
     margin-bottom: .5rem;
   }
 }
@@ -205,7 +212,7 @@ main section table {
   border-spacing: 0;
   border-top: 2px solid #eeeeee;
   font-size: small;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
   table-layout: auto;
   width: 100%;
 
@@ -215,6 +222,9 @@ main section table {
 
   thead {
     background-color: #eeeeee;
+    font-size: small;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   th {
@@ -248,7 +258,11 @@ main section table {
 main section article {
   border: 1px solid rgba(0, 0, 0, .1);
   border-radius: 4px;
-  width: 75%;
+  margin-bottom: 1rem;
+
+  @media screen and (min-width: 30em) {
+    width: 75%;
+  }
 
   h4 {
     border-bottom: 1px solid rgba(0, 0, 0, .1);

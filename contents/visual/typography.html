@@ -16,30 +16,30 @@
   <table>
     <thead>
       <tr>
-        <th><p>Typeface</p></th>
         <th><p>Platform</p></th>
+        <th><p>Typeface</p></th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><p><a href="https://fonts.google.com/specimen/Roboto">Roboto</a> / <a href="https://fonts.google.com/specimen/Noto+Sans">Noto</a></p></td>
-        <td><p>Android. Noto for all languages not covered by Roboto</p></td>
+        <td><p>Android</p></td>
+        <td><p><a href="https://fonts.google.com/specimen/Roboto">Roboto</a><br><a href="https://fonts.google.com/specimen/Noto+Sans">Noto</a> for all languages not covered by Roboto</p></td>
       </tr>
       <tr>
-        <td><p><a href="https://developer.apple.com/fonts/">San Francisco</a></p></td>
         <td><p>iOS, macOS</p></td>
+        <td><p><a href="https://developer.apple.com/fonts/">San Francisco</a></p></td>
       </tr>
       <tr>
-        <td><p><a href="http://font.ubuntu.com/">Ubuntu</a></p></td>
-        <td><p>Linux. Fallback to distribution system font if not avaiable</p></td>
+        <td><p>Linux</p></td>
+        <td><p><a href="http://font.ubuntu.com/">Ubuntu</a>. Fallback to distribution system font if not avaiable</p></td>
       </tr>
       <tr>
-        <td><p><a href="https://mozilla.github.io/Fira/">Fira Sans</a></p></td>
         <td><p>Web</p></td>
+        <td><p><a href="https://mozilla.github.io/Fira/">Fira Sans</a></p></td>
       </tr>
       <tr>
-        <td><p><a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a></p></td>
         <td><p>Windows</p></td>
+        <td><p><a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a></p></td>
       </tr>
     </tbody>
   </table>
@@ -52,4 +52,68 @@
   </p>
 </section>
 
+<section>
+  <h2>Styles</h2>
+  <% include contents/includes/typography/typography-scale.html %>
+  <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Size</th>
+        <th>Weight</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Display</td>
+        <td>33px</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Title</td>
+        <td>22px</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>17px</td>
+        <td>600</td>
+      </tr>
+      <tr>
+        <td>13px</td>
+        <td>700</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Body</td>
+        <td>15px</td>
+        <td>400</td>
+      </tr>
+      <tr>
+        <td>13px</td>
+        <td>400</td>
+      </tr>
+      <tr>
+        <td>Caption</td>
+        <td>11px</td>
+        <td>400</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3>Emphasis</h3>
+  <p>
+    The type scale enables you to set the hierarchy of your content. If two texts feature the same scale use a bolder font weight <code>500</code> to emphises the most important information.
+  </p>
+</section>
+
+<section>
+  <h2>Color</h2>
+  <p>
+    Choose text color based on purpose. Primary for titles, buttons and most important bodies of text. Secondary for accompaingn text that gives further information, details or features to the primary content such as caption texts.
+  </p>
+  <h3>Dark typography on light background</h3>
+  <% include contents/includes/typography/typography-color-text-dark.html %>
+  <h3>Light typography on dark background</h3>
+  <% include contents/includes/typography/typography-color-text-light.html %>
+  <h3>Links</h3>
+  <% include contents/includes/typography/typography-color-text-link.html %>
+</section>
   

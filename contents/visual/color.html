@@ -1,256 +1,178 @@
 <header>
   <h1>Colors</h1>
   <p>
-    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and bringing attention to important piece of interface.
+    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and bring attention to important interface elements.
   </p>
 </header>
 
 <section>
-  <h2>Primary and Secondary</h2>
-  <% include contents/includes/color/color-primary-palette.html %>
-  <% include contents/includes/color/color-secondary-palette.html %>
+  <h2>Firefox Colors</h2>
+  <% include contents/includes/color/color-palette-primary.html %>
+  <% include contents/includes/color/color-palette-secondary.html %>
 </section>
 
 <section>
   <h2>Palettes</h2>
   <p>
-    When you use the following colors as background color use white typography when the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or AA for everything else. Otherwise set the typography with the darkest shade–90–of the same color.
+    Find details on each of our colors below, indicating color name, hex value, and contrast ratings for usage with text.
   </p>
   <p>
-    You can set the following colors as typography color if the color contrast is at least AA Large (for texts bigger than 18pt or set in bold above 14pt) or better.
+    When using colors with text, always opt to have either white typography or white background. <code>#ffffff</code> Only use a combination, if it reaches an adequate color contrast, to ensure accessibility. This means it should have a rating of AA, or AAA in the table below. If your text is at least 18pt or set in bold with at least 14pt, a rating of AA Large is acceptable too.
+  </p>
+  <p>
+    Combinations of text on colorful background that fail the contrast rating, should use the darkest shade–90–of the same color for the typography. Visible on the contrast ratings below.
   </p>
 
   <h3>Blue</h3>
   <p>
-    Firefox Blue is one of our primary colors. We use blue as accent color for highliting buttons, links and active states like the current tab in Firefox for desktop. 
+    Firefox Blue is one of our primary colors. We use blue as accent color for highlighting buttons, links and active states like the current tab in Firefox for desktop.
   </p>
   <% include contents/includes/color/color-blue.html %>
 
   <h3>Teal</h3>
   <p>
-    Firefox Teal is one of our primary colors. We use teal as attention color. 
+    Firefox Teal is one of our primary colors. We use teal as attention color.
   </p>
   <% include contents/includes/color/color-teal.html %>
 
   <h3>Magenta</h3>
+  <p>
+    Firefox Magenta is one of our primary colors. We currently have no common usage for it.
+  </p>
   <% include contents/includes/color/color-magenta.html %>
 
   <h3>Green</h3>
   <p>
-    Firefox green is commonly used for success validation messagges and scenarios.
+    Firefox Green is commonly used to indicate success.
   </p>
   <% include contents/includes/color/color-green.html %>
 
   <h3>Yellow</h3>
   <p>
-    Firefox yellow is commonly used for warning validation messagges and scenarios.
+    Firefox Yellow is commonly used for warnings.
   </p>
   <% include contents/includes/color/color-yellow.html %>
 
   <h3>Red</h3>
   <p>
-    Firefox red is commonly used for error validation messagges and scenarios.
+    Firefox Red is commonly used for errors.
   </p>
   <% include contents/includes/color/color-red.html %>
 
   <h3>Purple</h3>
   <p>
-    Firefox purple is commonly used for private navigation.
+    Firefox Purple is commonly used to indicate privacy.
   </p>
   <% include contents/includes/color/color-purple.html %>
 
   <h3>Ink</h3>
   <p>
-    Firefox ink is commonly used for interfaces. Like Firefox for desktop with dark theme enabled.
+    Firefox Ink is commonly used for interfaces, e.g. in Firefox for desktops dark theme.
   </p>
   <% include contents/includes/color/color-ink.html %>
 
   <h3>Grey</h3>
   <p>
-    Firefox grey is commonly used for interfaces. Like Firefox for desktop with light theme enabled.
+    Firefox Grey is commonly used for interfaces, e.g. in Firefox for desktops light theme.
   </p>
   <% include contents/includes/color/color-grey.html %>
+
+  <h3>White</h3>
+  <p>
+    We use white for the background of doorhangers or in-content menus.
+  </p>
+  <% include contents/includes/color/color-white.html %>
 </section>
 
 <section>
-  <h2>Validations and notifications</h2>
-  <h3>Validation</h3>
+  <h2>Text and Background Colors</h2>
   <p>
-    We are currently in the process of defying these colors.
+    For more information on typography colors make sure to check <a href="/visual/typography.html">Typography</a>.
   </p>
-<!--   <p>
-    When you design a component that features validation use the following colors for success, warning or error. Only use a text color with the accompanying background color.
-  </p>
-  <table>
-    <thead>
-      <tr>
-        <th>Content</th>
-        <th>Text color</th>
-        <th>Background color</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Success</td>
-        <td><code>#33f70c</code></td>
-        <td><code>#003f07</code></td>
-      </tr>
-      <tr>
-        <td>Warning</td>
-        <td><code>#3e2800</code></td>
-        <td><code>#ffe900</code></td>
-      </tr>
-      <tr>
-        <td>Error</td>
-        <td><code>#3e0200</code></td>
-        <td><code>#ff0039</code></td>
-      </tr>
-    </tbody>
-  </table> -->
-  <h3>Notification</h3>
+  <h3>Dark Text on Light Background</h3>
   <p>
-    We are currently in the process of defying these colors.
+    On light backgrounds the typography is set in Grey 90 <code>#0c0c0d</code> for primary text and Grey 50 <code>#737373</code> for secondary text.
   </p>
-<!--   <p>
-    When you have to display a notification use one of the following palette: only use a text color with the accompanying background color.
-  </p>
-  <table>
-    <thead>
-      <tr>
-        <th>Text color</th>
-        <th>Background color</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><code>#000f40</code></td>
-        <td><code>#0a84ff</code></td>
-      </tr>
-      <tr>
-        <td><code>#001a27</code></td>
-        <td><code>#00feff</code></td>
-      </tr>
-      <tr>
-        <td><code>#440027</code></td>
-        <td><code>#ff1ad9</code></td>
-      </tr>
-    </tbody>
-  </table> -->
-</section>
-
-<section>
-  <h2>Text and background colors</h2>
+  <h3>Light Text on Dark Background</h3>
   <p>
-    We are currently in the process of defying these colors.
-  </p>
-  <h3>Dark text on light background</h3>
-  <p>
-    We are currently in the process of defying these colors.
-  </p>
-  <h3>Light text on dark background</h3>
-  <p>
-    We are currently in the process of defying these colors.
+    On dark backgrounds the typography is set in White <code>#ffffff</code> for primary text and Grey 10 <code>#f9f9fa</code> for secondary text.
   </p>
   <h3>Links</h3>
   <p>
-    We are currently in the process of defying these colors.
+    With the default themes enabled links are set in Blue 50 <code>#0a84ff</code>.
   </p>
 </section>
 
 <section>
-  <h2>Icons</h2>
+  <h2>Icons and Other Elements</h2>
   <p>
-    As all other components icons usually have different states: active, hover, pressed, focused and disabled.
+    Make sure to check <a href="/visual/iconography/html">Iconography</a> in order to understand how to set the opacity level for primary and secondary icons.
   </p>
-  <h3>Dark icons on light background</h3>
+  <h3>Dark Icons and Other Elements</h3>
   <p>
-    We are currently in the process of defying these colors.
+    On light backgrounds dark icons are set in Grey 90 <code>#0c0c0d</code>. 
   </p>
-  <h3>Light icons on dark background</h3>
+  <h3>Light Icons and Other Elements</h3>
   <p>
-    We are currently in the process of defying these colors.
+    On light backgrounds dark icons are set in Grey 10 <code>#f9f9fa</code>.
   </p>
-  <h3>Validations and notifications icons</h3>
-  <p>
-    We are currently in the process of defying these colors.
-  </p>
-  <!-- <table>
-    <thead>
-      <tr>
-        <th>State</th>
-        <th>Fill color</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Success</td>
-        <td><code>#33f70c</code></td>
-      </tr>
-      <tr>
-        <td>Warning</td>
-        <td><code>#ffe900</code></td>
-      </tr>
-      <tr>
-        <td>Error</td>
-        <td><code>#ff0039</code></td>
-      </tr>
-      <tr>
-        <td>Notification</td>
-        <td><code>#0a84ff</code></td>
-      </tr>
-    </tbody>
-  </table> -->
 </section>
 
 <section>
   <h2>Themes</h2>
   <p>
-    Firefox supports custom themes. Ensure that changes that affect the chrome bar will continue to support a variety of background like images, light colors or dark colors. Moreover Windows 10 currently offers the ability to customize the app bar color. Ensure that changes to the chrome bar support this option as well.
+    Firefox features default themes and supports custom themes. Ensure that changes that affect the interface will continue to support a variety of backgrounds like images and, light or dark colors.
   </p>
-
+  <h3>Light Theme</h3>
+  <% include contents/includes/color/color-theme-light.html %>
+  <h3>Dark Theme</h3>
+  <% include contents/includes/color/color-theme-dark.html %>
   <blockquote>
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="https://addons.mozilla.org/en-US/firefox/themes/?sort=popular">Most Popular Themes</a> on the Add-ons website.
-      </li>
-    </ul>
+    <p>
+      <a href="https://addons.mozilla.org/firefox/themes/?sort=popular">Most Popular Firefox Themes</a>
+    </p>
+    <p>
+      <a href="https://docs.microsoft.com/windows/uwp/style/color">Windows 10 Accent Colors</a> (used like themes)
+    </p>
   </blockquote>
 </section>
 
 <section>
   <h2>Accessibility</h2>
 
-  <h3>Color contrast</h3>
+  <h3>Color Contrast</h3>
   <p>
-    You are encourage to follow the <a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast. Bodies of text should have a contrast ratio of at least 4.5:1 and that large-scale text should have a contrast ratio of at least 3:1.
-  </p>
-
-  <h3>Color blind</h3>
-  <p>
-    There are different types of color blindness. The most common form is reg-green color blindness, followed by blue-yellow color blindness and total color blindness. Red-green color blindness affects up to 8% of males and 0.5% of females. Ensure that adjacent color shades are blind-safe. In case of doubts use a color blindness analyzer.
-  </p>
-
-  <h3>High contrast on Windows</h3>
-  <p>
-    Windows currently offers 4 high contrast modes: <em>High Contrast #1</em>, <em>High Contrast #2</em>, <em>High Contrast Black</em> and <em>High Contrast White</em>. Work closely with engineers to make sure that your palette is translated properly following the hierarchy that you defined in the default theme.
+    Follow the <a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast. Bodies of text should have a contrast ratio of at least 4.5:1 and large-scale text should have a contrast ratio of at least 3:1.
   </p>
 
   <blockquote>
-    <h4>Resources</h4>
-    <ul>
-      <li>
-        <a href="https://www.paciellogroup.com/resources/contrastanalyser/">Color contrast and color blindness analyzer</a> app for Windows and macOS from The Paciello Group.
-      </li>
-      <li>
-        Open source <a href="https://michelf.ca/projects/sim-daltonism/">color blindness simulator</a> for iOS and macOS.
-      </li>
-      <li>
-        <a href="http://leaverou.github.io/contrast-ratio/">Color contrast</a> web analyzer from Lea Verou.
-      </li>
-      <li>
-        <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh404233(v=vs.85).aspx">Supporting High Contrast Themes</a> on Windows Dev Center.
-      </li>
-    </ul>
+    <p>
+      <a href="https://www.paciellogroup.com/resources/contrastanalyser/">Colour Contrast Analyser</a> contrast and color blindness analyzer (Windows and macOS) by The Paciello Group.
+    </p>
+    <p>
+      <a href="http://leaverou.github.io/contrast-ratio/">Contrast Ratio</a> contrast ratio calculator (Web) by Lea Verou.
+    </p>
+  </blockquote>
+
+  <h3>Color Blind</h3>
+  <p>
+    There are different types of color blindness. The most common form is reg-green color blindness, followed by blue-yellow color blindness and total color blindness. Red-green color blindness affects up to 8% of males and 0.5% of females. Ensure that adjacent color shades are distinguishable for color blind people. In case of doubts use a color blindness analyzer.
+  </p>
+
+  <blockquote>
+    <p>
+      <a href="https://michelf.ca/projects/sim-daltonism/">Sim Daltonism</a> color blindness simulator (iOS and macOS) by Michel Fortin.
+    </p>
+  </blockquote>
+
+  <h3>High Contrast on Windows</h3>
+  <p>
+    Windows currently offers multiple high contrast modes. Ensure that colors are translated properly, following the hierarchy defined for the default theme.
+  </p>
+
+  <blockquote>
+    <p>
+      <a href="https://msdn.microsoft.com/library/windows/desktop/hh404233(v=vs.85).aspx">Supporting High Contrast Themes on Windows</a> guidelines by Windows Dev Center.
+    </p>
   </blockquote>
 </section>
