@@ -1,7 +1,7 @@
 /* global process:false, ga:false */
 'use strict';
 
-const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/DesignSystem';
+const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/photon';
 
 // GA Tracking code
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
