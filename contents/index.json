@@ -1,14 +1,27 @@
 [
   {
     "title": "Welcome",
-    "file": "welcome.html"
+    "file": "welcome.html",
+    "hidden": true
   },
   {
-    "title": "Getting started",
-    "file": "getting-started.html"
+    "title": "Introduction",
+    "directory": "introduction",
+    "pages": [
+      {"title": "Getting started",
+        "file": "getting-started.html"
+      },
+      {"title": "Principles",
+        "file": "principles.html"
+      },
+      {"title": "Design for scale",
+        "file": "design-for-scale.html"
+      }
+    ]
   },
   {
-    "title": "Style",
+    "title": "Visual",
+    "directory": "visual",
     "pages": [
       {"title":"Grid",
       "file": "grid.html"
@@ -20,20 +33,25 @@
         "file": "color.html"
       },
       {"title": "Iconography",
-        "file": "iconography.html"}
+        "file": "iconography.html"
+      },
+      {"title": "Illustration",
+        "file": "illustration.html"
+      }
     ]
   },
   {
     "title": "Motion",
-    "pages": [
-      {
-        "title": "Principles",
-        "file": "motion-principles.html"
-      }
-    ]
+    "directory": "motion",
+    "file": "motion.html"
   },
   {"title": "Copy",
+    "directory": "copy",
     "pages": [
+      {"title": "Copy Rules",
+        "file": "copy-rules.html"},
+      {"title": "Word List",
+        "file": "word-list.html"}
     ]
   },
   {"title": "Patterns",
@@ -44,12 +62,12 @@
     "pages": [
     ]
   },
-  {"title": "Resources",
+  {"title": "Inclusion",
     "pages": [
-      {
-        "title": "Templates",
-        "file": "templates.html"
-      }
     ]
+  },
+  {"title": "Resources",
+    "directory": "resources",
+    "file": "resources.html"
   }
 ]
