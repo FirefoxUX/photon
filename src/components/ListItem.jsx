@@ -42,7 +42,7 @@ const ListItem = connect(state => {
     return (<div className={((page && item.title === page.category) ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
             >
-      <p className="fw5 ma0 pv2"
+      <p className={'fw5 ma0 pv2' + (item.pages.length ? '' : ' grey-50')}
           onClick={handleClick}
       >{item.title}</p>
       {pages.map(this.getPage)}
