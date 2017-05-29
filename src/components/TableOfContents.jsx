@@ -66,14 +66,13 @@ const TableOfContents = React.createClass({
         id="nav"
             >
       <div className="flex flex-column h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-auto">
-        <div className="self-start dn db-l">
+        <div className="self-start dn db-l mb4">
           <p className="f4 fw5 lh-solid ma0">
             <a className="near-black no-underline"
                 href={`${PREFIX}/index.html`}
-            >{'Firefox Design System'}
+            >{'Photon Design System'}
             </a>
           </p>
-          <p className="f6 lh-copy ttu fw5 mt2 mb4">{'starting v57 (photon)'}</p>
         </div>
         <div className="self-stretch h-100 mb5">
           {items}
