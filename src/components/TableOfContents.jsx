@@ -5,6 +5,7 @@ const { connect } = require('react-redux');
 const { getPage } = require('./utilities.js');
 const ListItem = require('./ListItem.jsx');
 const Page = require('./Page.jsx');
+const { PREFIX } = require('./utilities.js');
 
 
 const TableOfContents = React.createClass({
@@ -68,7 +69,7 @@ const TableOfContents = React.createClass({
         <div className="self-start dn db-l">
           <p className="f4 fw5 lh-solid ma0">
             <a className="near-black no-underline"
-                href="/photon/index.html"
+                href={`${PREFIX}/index.html`}
             >{'Firefox Design System'}
             </a>
           </p>
