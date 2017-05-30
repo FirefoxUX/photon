@@ -51,11 +51,22 @@ const Editor = React.createClass({
   addIds: function () {
     let node = ReactDOM.findDOMNode(this);
     let headings = Array.from(node.querySelectorAll('h1,h2,h3,h4'));
+    let ids = new Set();
     let header_links = [];
     headings.forEach(e => {
       if (!e.id) {
-        e.id = e.textContent.trim().toLowerCase().replace(/ /g, '-');
+        let newId = e.textContent.trim().toLowerCase().replace(/ /g, '-');
+        let counter = 1;
+        while (ids.has(newId)) {
+          counter++;
+          newId = `${e.textContent.trim().toLowerCase().replace(/ /g, '-')}-${counter}`;
+        }
+        e.id = newId;
       }
+      if (ids.has(e.id)) {
+        console.error(`Duplicate id found: ${e.id}`); // eslint-disable-line no-console
+      }
+      ids.add(e.id);
       if (e.tagName === 'H2') {
         header_links.push(`<li><a href="#${e.id}">${e.textContent.trim()}</a></li>`);
       }
