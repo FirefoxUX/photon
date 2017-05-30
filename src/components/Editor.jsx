@@ -40,9 +40,9 @@ const Editor = React.createClass({
     if (prevProps.text !== this.props.text) {
       this.addIds();
       const page = this.props.page;
-      let title = `${page.title} | Firefox Design System`;
+      let title = `${page.title} | Photon Design System`;
       if(page.category !== page.title) {
-        title = `${page.title} · ${page.category} | Firefox Design System`;
+        title = `${page.title} · ${page.category} | Photon Design System`;
       }
       document.title = title;
     }
