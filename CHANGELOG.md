@@ -1,4 +1,4 @@
-# Firefox Design System Releases
+# Photon Design System Releases
 
 ## [0.2.0] - 2017-04-24
 ### Add
@@ -12,7 +12,7 @@
 
 ### Change
 - Renamed to [DesignSystem](https://bwinton.github.io/DesignSystem/) (from StyleGuide)
-- Renamed "Style" to “[Visual](https://bwinton.github.io/DesignSystem/)” in top level menu 
+- Renamed "Style" to “[Visual](https://bwinton.github.io/DesignSystem/)” in top level menu
 - Content in section [Visual - Iconography](https://bwinton.github.io/DesignSystem/iconography.html) to align with Photon changes
 - Color values and content in section [Visual - Color](https://bwinton.github.io/DesignSystem/color.html) to align with Photon changes
 
