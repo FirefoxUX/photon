@@ -1,5 +1,30 @@
 # Photon Design System Releases
 
+## [[0.3.0] - 2017-05-30](https://github.com/bwinton/DesignSystem/releases/tag/v0.3.0)
+### Add
+- Section [Visual - Illustration](https://firefoxux.github.io/photon/visual/illustration.html) with content
+- Top level menu item [Introduction](https://firefoxux.github.io/photon/)
+- Section [Introduction - Design for Scale](https://firefoxux.github.io/photon/introduction/design-for-scale.html) with content
+- Content on [platform specific copy](https://firefoxux.github.io/photon/copy/copy-rules.html#capitalisation-on-firefox-for-desktop) to section [Copy - Copy Rules](https://firefoxux.github.io/photon/copy/copy-rules.html)
+- Content on [colors in text, icons and other UI elements](https://firefoxux.github.io/photon/visual/color.html#text-and-background-colors) to section [Visual - Color](https://firefoxux.github.io/photon/visual/color.html)
+- Content on [font styles for desktop](https://firefoxux.github.io/photon/visual/typography.html#styles) and on [colors](https://firefoxux.github.io/photon/visual/typography.html#color) to section [Visual - Typography](https://firefoxux.github.io/photon/visual/typography.html)
+- Content on [icon color and state](https://firefoxux.github.io/photon/visual/iconography.html#color) to section [Visual - Iconography](https://firefoxux.github.io/photon/visual/iconography.html)
+- Resources for [Icons](https://firefoxux.github.io/photon/resources/resources.html#firefox-icons) to section [Resources](https://firefoxux.github.io/photon/resources/resources.html)
+- Visuals to sections [Visual - Grid](https://firefoxux.github.io/photon/visual/grid.html), [Visual - Color - Themes](https://firefoxux.github.io/photon/visual/color.html#themes) and [Copy - Copy Rules](https://firefoxux.github.io/photon/copy/copy-rules.html)
+- Web analytics via Google Analytics
+
+### Change
+- Name to **Photon Design System**
+- Menu items [Getting Started](https://firefoxux.github.io/photon/introduction/getting-started.html) and [Principles](https://firefoxux.github.io/photon/introduction/principles.html) to be organized under [Introduction](https://firefoxux.github.io/photon/)
+- Folder structure for content pages to reflect top level sections
+
+### Fix
+- Mark external URLs with an icon [#88](https://github.com/bwinton/DesignSystem/issues/88)
+- Firefox colors link to colors tables [#87](https://github.com/bwinton/DesignSystem/issues/87)
+
+### Remove
+- Placeholder content and empty structures from all pages
+
 ## [0.2.0] - 2017-04-24
 ### Add
 - Section [Copy - Copy Rules](https://bwinton.github.io/DesignSystem/copy-rules.html) with content
