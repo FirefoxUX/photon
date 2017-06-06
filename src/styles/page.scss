@@ -78,6 +78,11 @@ main header {
     }
   }
 
+  li ul {
+    padding-left: 1rem;
+    padding-top: 1rem;
+  }
+
   a {
     color: var(--blue-50);
     cursor: pointer;
