@@ -58,9 +58,14 @@ main header {
     margin: 0 0 2rem;
   }
 
-  p {
+  p:not(:last-of-type) {
     line-height: 1.4;
-    margin: 0 0 2rem;
+    margin: 0 0 1rem;
+  }
+
+  p:last-of-type {
+    line-height: 1.4;
+    margin-bottom: 2rem;
   }
 
   ul {
