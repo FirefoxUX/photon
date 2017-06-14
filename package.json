@@ -3,7 +3,8 @@
   "scripts": {
     "serve-debug": "cross-env NODE_ENV=development node run.js",
     "serve": "cross-env NODE_ENV=development webpack-dashboard -- node run.js",
-    "build": "cross-env NODE_ENV=production webpack --optimize-minimize"
+    "build": "cross-env NODE_ENV=production webpack --optimize-minimize",
+    "deploy-build": "cross-env NODE_ENV=production webpack --optimize-minimize --no-color --display-error-details"
   },
   "dependencies": {
     "express": "4.15.2",
@@ -27,7 +28,7 @@
     "copy-webpack-plugin": "1.1.1",
     "cross-env": "3.2.4",
     "css-loader": "0.23.1",
-    "ejs-compiled-loader": "1.1.0",
+    "ejs-render-loader": "1.0.0",
     "eslint-loader": "1.6.3",
     "eslint-plugin-react": "3.16.1",
     "eslint": "1.10.3",
