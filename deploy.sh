@@ -11,7 +11,7 @@ rm -rf *
 cd ..
 
 # run our compile script, discussed above
-npm run build
+npm run deploy-build
 
 # inside the gh-pages repo we'll pretend to be a new user
 cd dist

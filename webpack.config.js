@@ -128,7 +128,7 @@ module.exports = {
     }],
     loaders: [{
       test: /\.html$/,
-      loader: 'ejs-compiled'
+      loader: 'ejs-render'
     },{
       test: /\.(svg|png)$/,
       loader: 'file'
