@@ -61,58 +61,95 @@
         <th>Category</th>
         <th>Size</th>
         <th>Weight</th>
+        <th>Emphasized Weight</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Display</td>
         <td>33px</td>
-        <td>300</td>
+        <td>100</td>
+        <td></td>
       </tr>
       <tr>
         <td rowspan="3">Title</td>
         <td>22px</td>
         <td>300</td>
+        <td></td>
       </tr>
       <tr>
         <td>17px</td>
         <td>600</td>
+        <td></td>
       </tr>
       <tr>
         <td>13px</td>
         <td>700</td>
+        <td></td>
       </tr>
       <tr>
         <td rowspan="2">Body</td>
         <td>15px</td>
         <td>400</td>
+        <td>600</td>
       </tr>
       <tr>
         <td>13px</td>
         <td>400</td>
+        <td>600</td>
       </tr>
       <tr>
-        <td>Caption</td>
+        <td rowspan="2">Caption</td>
+        <td>13px</td>
+        <td>400</td>
+		<td>600</td>
+		</tr>
+     	<tr>
         <td>11px</td>
         <td>400</td>
+        <td>600</td>
       </tr>
     </tbody>
   </table>
-  <h3>Emphasis</h3>
-  <p>
-    The type scale enables you to set the hierarchy of your content. If two texts feature the same scale use a bolder font weight <code>500</code> to emphises the most important information.
-  </p>
+  <!-- <h3>Emphasis</h3> -->
+  <!-- <p> -->
+    <!-- The type scale enables you to set the hierarchy of your content. If two texts feature the same scale use a bolder font weight <code>500</code> to emphises the most important information. -->
+  <!-- </p> -->
+  
+</section>
+
+<section>
+	<h3>Style Usage</h3>
+  	<% include ../includes/typography/typography-UI-examples.html %>
+</section>
+
+<section>
+	<h3>Font Pairing</h3>
+  	<% include ../includes/typography/typography-pairing.html %>
+</section>
+
+<section>
+	<h3>Font Size Scaling</h3>
+  	<% include ../includes/typography/typography-scaling.html %>
 </section>
 
 <section>
   <h2>Color</h2>
   <p>
-    Choose text color based on purpose. Primary for titles, buttons and most important bodies of text. Secondary for accompaingn text that gives further information, details or features to the primary content such as caption texts.
+    Choose text color based on purpose. Primary for titles and body text. Secondary for accompanying text that gives further information, details or features to the primary content such as caption text and subtitle of menus.
   </p>
   <h3>Dark typography on light background</h3>
   <% include ../includes/typography/typography-color-text-dark.html %>
-  <h3>Light typography on dark background</h3>
+  <h3>Light typography on colored background</h3>
   <% include ../includes/typography/typography-color-text-light.html %>
-  <h3>Links</h3>
+</section>
+
+<section>
+  <h2>Components</h2>
+  <h3>Button</h3>
+  <% include ../includes/typography/typography-color-text-button.html %>
+  <h3>Link</h3>
   <% include ../includes/typography/typography-color-text-link.html %>
 </section>
+
+
