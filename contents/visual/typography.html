@@ -8,148 +8,189 @@
 <section>
   <h2>Typefaces</h2>
 
-  <h3>Cross-Platform Options</h3>
   <p>
     In Firefox products we use the standard typeface for each platform.
   </p>
+  
+  <div class="cf nr2 nl2">
+    <div class="fl w-40 ph2"> 
+      <h3>Android</h3>
+      <p>
+        <a href="">Roboto</a> is the standard typeface on Android. Noto is the standard typeface for all languages on Chrome and Android for all languages not covered by Roboto.
+      </p>
+    </div>
+    <div class="fl w-60 ph2">
+      <img class="w-100 outline outline--black-01 outline-offset--1" src="../images/typography/typeface-roboto.svg" alt="">
+    </div>
+  </div>
 
-  <table>
-    <thead>
-      <tr>
-        <th><p>Platform</p></th>
-        <th><p>Typeface</p></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><p>Android</p></td>
-        <td><p><a href="https://fonts.google.com/specimen/Roboto">Roboto</a><br><a href="https://fonts.google.com/specimen/Noto+Sans">Noto</a> for all languages not covered by Roboto</p></td>
-      </tr>
-      <tr>
-        <td><p>iOS, macOS</p></td>
-        <td><p><a href="https://developer.apple.com/fonts/">San Francisco</a></p></td>
-      </tr>
-      <tr>
-        <td><p>Linux</p></td>
-        <td><p><a href="http://font.ubuntu.com/">Ubuntu</a>. Fallback to distribution system font if not avaiable</p></td>
-      </tr>
-      <tr>
-        <td><p>Web</p></td>
-        <td><p><a href="https://mozilla.github.io/Fira/">Fira Sans</a></p></td>
-      </tr>
-      <tr>
-        <td><p>Windows</p></td>
-        <td><p><a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a></p></td>
-      </tr>
-    </tbody>
-  </table>
+    <div class="cf nr2 nl2">
+      <div class="fl w-40 ph2"> 
+      <h3>iOS, macOS</h3>
+      <p>
+        <a href="">San Francisco</a> is the standard typeface on the Apples products.
+      </p>
+      </div>
+      <div class="fl w-60 ph2">
+        <img class="w-100 outline outline--black-01 outline-offset--1" src="../images/typography/type-scale-san-francisco.svg" alt="">
+    </div>
+    </div>
+    <div class="cf nr2 nl2">
+      <div class="fl w-40 ph2"> 
+        <h3>Linux</h3>
+        <p>
+          <a href="">Ubuntu</a> is the typeface used in the most common Linux distro, Ubuntu.
+        </p>
+      </div>
+      <div class="fl w-60 ph2">
+        <img class="w-100 outline outline--black-01 outline-offset--1" src="../images/typography/type-scale-ubuntu.svg" alt="">
+      </div> 
+    </div>
 
-  <h3>Other Typefaces</h3>
+    <div class="cf nr2 nl2">
+      <div class="fl w-40 ph2"> 
+        <h3>Web products</h3>
+        <p>
+          <a href="">FiraSans</a> is the typeface used on the Firefox products on the web.</p>
+          <p>Despite <strong>Open Sans</strong> being use on some Mozilla web properties it is currently not recommended to be used in Firefox products.</p>
+      </div>
+      <div class="fl w-60 ph2">
+        <img class="w-100 outline outline--black-01 outline-offset--1" src="../images/typography/type-scale-fira.svg" alt="">
+      </div>
+    </div>
 
-  <h4>Open Sans</h4>
-  <p>
-    Despite Open Sans being use on some Mozilla web properties it is currently not recommended to be used in Firefox products.
+    <div class="cf nr2 nl2">
+      <div class="fl w-40 ph2"> 
+        <h3>Windows</h3>
+        <p>
+          <a href="">Segoe UI</a> is the typeface used on the Windows platform.</p>
+      </div>
+      <div class="fl w-60 ph2">
+        <img class="w-100 outline outline--black-01 outline-offset--1" src="../images/typography/type-scale-Segoe.svg" alt="">
+      </div> 
+    </div>
+
+   
   </p>
 </section>
 
 <section>
   <h2>Styles</h2>
-  <% include ../includes/typography/typography-scale.html %>
+  <h3>Scale</h3>
+  <p>The type scale enables you to set the hierarchy of your content.</p>
   <table>
     <thead>
       <tr>
-        <th>Category</th>
+        <th>Name</th>
         <th>Size</th>
         <th>Weight</th>
-        <th>Emphasized Weight</th>
+        <th>Emphasized</th>
+        <th>Primary</th>
+        <th>Secondary</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Display</td>
-        <td>33px</td>
-        <td>100</td>
-        <td></td>
+        <td><a href="">Display</a></td>
+        <td><code>33px</code></td>
+        <td>Light <code>300</code></td>
+        <td>&#10005;</td>
+        <td>&#10003;</td>
+        <td>&#10005;</td>
       </tr>
       <tr>
-        <td rowspan="3">Title</td>
-        <td>22px</td>
-        <td>300</td>
-        <td></td>
+        <td><a href="">Title 10</a></td>
+        <td><code>22px</code></td>
+        <td>Light <code>300</code></td>
+        <td>&#10005;</td>
+        <td>&#10003;</td>
+        <td>&#10005;</td>
       </tr>
       <tr>
-        <td>17px</td>
-        <td>600</td>
-        <td></td>
+        <td><a href="">Title 20</a></td>
+        <td><code>17px</code></td>
+        <td>Semibold <code>600</code></td>
+        <td>&#10005;</td>
+        <td>&#10003;</td>
+        <td>&#10005;</td>
       </tr>
       <tr>
-        <td>13px</td>
-        <td>700</td>
-        <td></td>
+        <td><a href="">Title 30</a></td>
+        <td><code>13px</code></td>
+        <td>Bold <code>700</code></td>
+        <td>&#10005;</td>
+        <td>&#10003;</td>
+        <td>&#10005;</td>
       </tr>
       <tr>
-        <td rowspan="2">Body</td>
-        <td>15px</td>
-        <td>400</td>
-        <td>600</td>
+        <td><a href="">Body 10</a></td>
+        <td><code>15px</code></td>
+        <td>Regular <code>400</code></td>
+        <td>Semibold <code>500</code></td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
       </tr>
       <tr>
-        <td>13px</td>
-        <td>400</td>
-        <td>600</td>
+        <td><a href="">Body 20</a></td>
+        <td><code>13px</code></td>
+        <td>Regular <code>400</code></td>
+        <td>Semibold <code>500</code></td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
       </tr>
       <tr>
-        <td rowspan="2">Caption</td>
-        <td>13px</td>
-        <td>400</td>
-		<td>600</td>
+        <td><a href="">Caption 10</a></td>
+        <td><code>13px</code></td>
+        <td>Regular <code>400</code></td>
+        <td>Semibold <code>500</code></td>
+        <td>&#10005;</td>
+        <td>&#10003;</td>
 		</tr>
      	<tr>
-        <td>11px</td>
-        <td>400</td>
-        <td>600</td>
+        <td><a href="">Caption 20</a></td>
+        <td><code>11px</code></td>
+        <td>Regular <code>400</code></td>
+        <td>Semibold <code>500</code></td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
       </tr>
     </tbody>
   </table>
-  <!-- <h3>Emphasis</h3> -->
-  <!-- <p> -->
-    <!-- The type scale enables you to set the hierarchy of your content. If two texts feature the same scale use a bolder font weight <code>500</code> to emphises the most important information. -->
-  <!-- </p> -->
-  
+  <h3>Emphasis</h3>
+  <p>
+    If two texts feature the same scale use a bolder font weight <code>500</code> to emphises the most important information.</p>
+  <figure>
+    <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/typography/emphasis.png" alt="Emphasis example">
+    <figcaption>Emphasis example in Firefox Preferences on Desktop</figcaption>
+  </figure>
+
+  <h3>Color</h3>
+  <p>
+     Choose text color based on purpose. Primary ( <span class="dib w1 h1 v-mid mr2 br2 bg-grey-90"></span> Grey 90 on light background, <span class="dib w1 h1 v-mid mr1 br1 bg-white ba b--black-10"></span> White on dark background) for titles and body text. Secondary for accompanying text that gives further information, details or features to the primary content such as caption text and subtitle of menus. 
+
+     Use the secondary color ( <span class="dib w1 h1 v-mid mr2 br2 bg-grey-50"></span> Grey 50 on light background,  <span class="dib w1 h1 v-mid mr2 br2 bg-grey-10 b--black-10"></span> Grey 10 on dark background) for accompanying text that gives further information, details or features to the primary content such as caption text and subtitle of menus.
+  </p>
+
 </section>
 
 <section>
-	<h3>Style Usage</h3>
-  	<% include ../includes/typography/typography-UI-examples.html %>
+	<h2>Titles and text</h2>
+  <h3>Display</h3>
+  <p>Display style is recommeded to be used on in-content pages for delivering primary messages to users.</p>
+  <figure>
+    <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/typography/display.svg" alt="display example">
+    <figcaption>Display 33px Light - Example in an error page</figcaption>
+  </figure>
+  <h3>Title 10</h3>
+  <p>Title style is used on top as a summary of the following content. A good pair of titles can improve visual readibility of a long content</p>
+  <figure>
+    <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/typography/title2.svg" alt="Title example">
+    <figcaption>Title 10 pairing with Title 20 in the Firefox Preferences on Desktop</figcaption>
+  </figure>
 </section>
 
 <section>
-	<h3>Font Pairing</h3>
+	<h2>Font Pairing</h2>
   	<% include ../includes/typography/typography-pairing.html %>
 </section>
-
-<section>
-	<h3>Font Size Scaling</h3>
-  	<% include ../includes/typography/typography-scaling.html %>
-</section>
-
-<section>
-  <h2>Color</h2>
-  <p>
-    Choose text color based on purpose. Primary for titles and body text. Secondary for accompanying text that gives further information, details or features to the primary content such as caption text and subtitle of menus.
-  </p>
-  <h3>Dark typography on light background</h3>
-  <% include ../includes/typography/typography-color-text-dark.html %>
-  <h3>Light typography on colored background</h3>
-  <% include ../includes/typography/typography-color-text-light.html %>
-</section>
-
-<section>
-  <h2>Components</h2>
-  <h3>Button</h3>
-  <% include ../includes/typography/typography-color-text-button.html %>
-  <h3>Link</h3>
-  <% include ../includes/typography/typography-color-text-link.html %>
-</section>
-
 
