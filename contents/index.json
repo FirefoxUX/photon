@@ -59,12 +59,7 @@
     ]
   },
   {"title": "Components",
-    "directory": "components",
     "pages": [
-      {"title": "Button",
-        "file": "button.html"},
-      {"title": "Link",
-        "file": "link.html"}
     ]
   },
   {"title": "Inclusion",
