@@ -68,6 +68,10 @@ const Editor = React.createClass({
       }
       ids.add(e.id);
       if (e.tagName === 'H2') {
+        let linkTo = document.createElement('a');
+        linkTo.innerHTML = `<img src="../images/global/link-16.svg" />`;
+        linkTo.href = `#${e.id}`;
+        e.appendChild(linkTo);
         header_links.push(`<li><a href="#${e.id}">${e.textContent.trim()}</a></li>`);
       }
     });

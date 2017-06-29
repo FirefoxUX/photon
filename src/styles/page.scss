@@ -120,7 +120,16 @@ main section {
   }
 
   h2 {
-    margin: 3rem 0 1rem;
+    margin: 3rem 0;
+
+    a {
+      margin-left: .5rem;
+      visibility: collapse;
+    }
+
+    &:hover a {
+      visibility: visible;
+    }
   }
 
   h3 {
