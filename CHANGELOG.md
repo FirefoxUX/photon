@@ -1,6 +1,25 @@
 # Photon Design System Releases
 
-## [[0.3.0] - 2017-05-30](https://github.com/bwinton/DesignSystem/releases/tag/v0.3.0)
+## [[0.3.1] - 2017-06-22](https://github.com/firefoxux/photon/releases/tag/v0.3.1)
+### Add
+- Typography: Font Usage
+- Typography: Font Pairing
+
+### Change
+- Color: Update green palette
+- Copy Rules: New visuals
+- Iconography: New visuals
+- Word List: Internet and web are now lowercase
+- Typography: Styles
+- General: Style of dos and donts
+
+### Fix
+- [#10](https://github.com/FirefoxUX/photon/issues/10) Word List: move to lowercase 'web' and 'internet' 
+- [#14](https://github.com/FirefoxUX/photon/issues/14) No title case in copy rule example on page title 
+- [#32](https://github.com/FirefoxUX/photon/pull/32) i18n and l10n are not internal abbreviations
+- [#34](https://github.com/FirefoxUX/photon/pull/34) Small typo on design for scale
+
+## [[0.3.0] - 2017-05-30](https://github.com/firefoxux/photon/releases/tag/v0.3.0)
 ### Add
 - Section [Visual - Illustration](https://firefoxux.github.io/photon/visual/illustration.html) with content
 - Top level menu item [Introduction](https://firefoxux.github.io/photon/)
