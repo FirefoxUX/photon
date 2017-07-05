@@ -121,15 +121,6 @@ main section {
 
   h2 {
     margin: 3rem 0;
-
-    a {
-      margin-left: .5rem;
-      visibility: collapse;
-    }
-
-    &:hover a {
-      visibility: visible;
-    }
   }
 
   h3 {
@@ -143,6 +134,19 @@ main section {
   h3 + h4,
   h4 + h4 {
     margin-top: 0;
+  }
+
+  h2,
+  h3,
+  h4 {
+    a {
+      margin-left: .5rem;
+      visibility: collapse;
+    }
+
+    &:hover a {
+      visibility: visible;
+    }
   }
 
   p,
