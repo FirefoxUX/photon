@@ -55,6 +55,9 @@ const Editor = React.createClass({
     let element = document.getElementById(decodeURIComponent(window.location.hash.replace(/#/g,'')));
     if (element) {
       element.classList.add('blue-50');
+      setTimeout(function(){
+        element.classList.remove('blue-50');
+      }, 1000);
     }
   },
 
