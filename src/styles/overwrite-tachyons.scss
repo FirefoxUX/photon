@@ -18,6 +18,11 @@ code,
   -webkit-font-smoothing: antialiased;
 }
 
+.small,
+small {
+  font-size: small;
+}
+
 // Withs
 
 @media screen and (min-width: 60em) {
@@ -144,6 +149,28 @@ code,
 
 .yellow-90 {
   color: var(--yellow-90);
+}
+
+// Orange
+
+.orange-50 {
+  color: var(--orange-50);
+}
+
+.orange-60 {
+  color: var(--orange-60);
+}
+
+.orange-70 {
+  color: var(--orange-70);
+}
+
+.orange-80 {
+  color: var(--orange-80);
+}
+
+.orange-90 {
+  color: var(--orange-90);
 }
 
 // Red
@@ -336,6 +363,28 @@ code,
 
 .bg-yellow-90 {
   background-color: var(--yellow-90);
+}
+
+// Orange
+
+.bg-orange-50 {
+  background-color: var(--orange-50);
+}
+
+.bg-orange-60 {
+  background-color: var(--orange-60);
+}
+
+.bg-orange-70 {
+  background-color: var(--orange-70);
+}
+
+.bg-orange-80 {
+  background-color: var(--orange-80);
+}
+
+.bg-orange-90 {
+  background-color: var(--orange-90);
 }
 
 // Red
