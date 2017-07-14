@@ -217,14 +217,17 @@ main section div[class] blockquote {
 /* Section table */
 
 main section table {
-  border-bottom: 2px solid #eeeeee;
   border-collapse: collapse;
   border-spacing: 0;
   border-top: 2px solid #eeeeee;
+  display: inline-block;
   font-size: small;
   margin-bottom: 1.4rem;
-  table-layout: auto;
-  width: 100%;
+  max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  vertical-align: top;
+  white-space: nowrap;
 
   @media screen and (min-width: 30em) {
     font-size: initial;
@@ -232,7 +235,6 @@ main section table {
 
   thead {
     background-color: #eeeeee;
-    font-size: small;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
