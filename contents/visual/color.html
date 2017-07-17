@@ -1,5 +1,5 @@
 <header>
-  <h1>Colors</h1>
+  <h1>Color</h1>
   <p>
     Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and bring attention to important interface elements.
   </p>
@@ -905,6 +905,79 @@
 </section>
 
 <section>
+  <h2>Opacity</h2>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <p>
+      If necessary you can use opacity combined with Grey 90 <code>#0c0c0d</code>. For example when you want to display a shadow while hovering a button you can use Grey 90 with a 10% alpha channel.
+    </p>
+  </div>
+  <div class="fl-ns w-two-thirds-ns ph2 mb3">
+    <div class="pa3 bg-grey-90">
+      <div class="cf">
+        <p class="fl ma0 w-40 white font-smoothing">100%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, 1)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .9)">
+      <div class="cf">
+        <p class="fl ma0 w-40 white font-smoothing">90%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .9)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .8)">
+      <div class="cf">
+        <p class="fl ma0 w-40 white font-smoothing">80%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .8)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .7)">
+      <div class="cf">
+        <p class="fl ma0 w-40 white font-smoothing">70%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .7)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .6)">
+      <div class="cf">
+        <p class="fl ma0 w-40 white font-smoothing">60%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .6)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .5)">
+      <div class="cf">
+        <p class="fl ma0 w-40">50%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .5)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .4)">
+      <div class="cf">
+        <p class="fl ma0 w-40">40%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .4)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .3)">
+      <div class="cf">
+        <p class="fl ma0 w-40">30%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .3)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .2)">
+      <div class="cf">
+        <p class="fl ma0 w-40">20%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .2)</code></p>
+      </div>
+    </div>
+    <div class="pa3" style="background-color: rgba(12, 12, 13, .1)">
+      <div class="cf">
+        <p class="fl ma0 w-40">10%</p>
+        <p class="fl ma0 w-60 tr"><code>rgba(12, 12, 13, .1)</code></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
   <h2>Text and Background Colors</h2>
   <p>
     For more information on typography colors make sure to check <a href="typography.html">Typography</a>.
@@ -921,21 +994,48 @@
   <p>
     With the default themes enabled links are set in Blue 50 <code>#0a84ff</code>.
   </p>
+  <table>
+  <tbody>
+    <tr>
+      <td>
+        <div class="dib w2 h2 v-mid mr2 br2 bg-white ba b--black-10"></div>
+        <p class="dib v-mid">White</p>
+      </td>
+      <td>
+        <code>#ffffff</code>
+      </td>
+      <td>
+        <p>
+          <span class="pa1 br1 bg-white ba b--black-10 grey-90 font-smoothing">AAA</span>
+        </p>
+      </td>
+      <td>
+        <p class="grey-90">n/a</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 </section>
 
 <section>
   <h2>Icons and Other Elements</h2>
   <p>
-    Make sure to check <a href="iconography.html">Iconography</a> in order to understand how to set the opacity level for primary and secondary icons.
+    Make sure to check <a href="icons.html">Icons</a> in order to understand how to set the alpha channel for primary and secondary icons.
   </p>
-  <h3>Dark Icons and Other Elements</h3>
-  <p>
-    On light backgrounds dark icons are set in Grey 90 <code>#0c0c0d</code>.
-  </p>
-  <h3>Light Icons and Other Elements</h3>
-  <p>
-    On light backgrounds dark icons are set in Grey 10 <code>#f9f9fa</code>.
-  </p>
+  <div class="cf nr3 nl3">
+  <div class="fl w-50-ns ph3">
+   <figure>
+      <img src="../images/icons/icons-light.png" alt="Icons on the toolbar with a light theme">
+      <figcaption>Use Grey 90 <code>#0c0c0d</code> fill on light background</figcaption>
+    </figure> 
+  </div>
+  <div class="fl w-50-ns ph3">
+    <figure>
+      <img src="../images/icons/icons-dark.png" alt="Icons on the toolbar with a dark theme">
+      <figcaption>Use Grey 10 <code>#f9f9fa</code> fill on dark background</figcaption>
+    </figure>
+  </div>
+</div>
 </section>
 
 <section>
@@ -949,7 +1049,7 @@
     <img src="../images/color/color-theme-light.jpg" alt="">
   </div>
   <div class="fl-ns w-50-m w-third-l ph2 mb3">
-    <div class="ba br2 b--black-10 overflow-hidden">
+    <div class="ba b--black-10">
       <div class="bg-white">
         <div class="cf pa3">
           <p class="fl ma0 w-50">White</p>
@@ -978,24 +1078,22 @@
     <img src="../images/color/color-theme-dark.jpg" alt="">
   </div>
   <div class="fl-ns w-50-m w-third-l ph2 mb3">
-    <div class="ba br2 b--black-10 overflow-hidden">
-      <div class="bg-grey-50">
-        <div class="cf pa3">
-          <p class="fl ma0 w-50 white font-smoothing">Grey 50</p>
-          <p class="fl ma0 w-50 tr"><code>#737373</code></p>
-        </div>
+    <div class="bg-grey-50">
+      <div class="cf pa3">
+        <p class="fl ma0 w-50 white font-smoothing">Grey 50</p>
+        <p class="fl ma0 w-50 tr"><code>#737373</code></p>
       </div>
-      <div class="bg-grey-70">
-        <div class="cf pa3">
-          <p class="fl ma0 w-50 white font-smoothing">Grey 70</p>
-          <p class="fl ma0 w-50 tr"><code>#4a4a4f</code></p>
-        </div>
+    </div>
+    <div class="bg-grey-70">
+      <div class="cf pa3">
+        <p class="fl ma0 w-50 white font-smoothing">Grey 70</p>
+        <p class="fl ma0 w-50 tr"><code>#4a4a4f</code></p>
       </div>
-      <div class="bg-grey-90">
-        <div class="cf pa3">
-          <p class="fl ma0 w-50 white font-smoothing">Grey 90</p>
-          <p class="fl ma0 w-50 tr"><code>#0c0c0d</code></p>
-        </div>
+    </div>
+    <div class="bg-grey-90">
+      <div class="cf pa3">
+        <p class="fl ma0 w-50 white font-smoothing">Grey 90</p>
+        <p class="fl ma0 w-50 tr"><code>#0c0c0d</code></p>
       </div>
     </div>
   </div>
