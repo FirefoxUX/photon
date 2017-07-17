@@ -136,6 +136,19 @@ main section {
     margin-top: 0;
   }
 
+  h2,
+  h3,
+  h4 {
+    a {
+      margin-left: .5rem;
+      visibility: collapse;
+    }
+
+    &:hover a {
+      visibility: visible;
+    }
+  }
+
   p,
   ul {
     line-height: 1.4;
@@ -284,4 +297,11 @@ main section article {
     margin: 0;
     padding: 1rem;
   }
+}
+
+.link-image {
+  background-image: url("../../images/global/link-16.svg");
+  display: inline-block;
+  height: 16px;
+  width: 16px;
 }
