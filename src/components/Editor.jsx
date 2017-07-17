@@ -77,7 +77,7 @@ const Editor = React.createClass({
         e.id = newId;
         if (e.tagName != 'H1') {
           let linkTo = document.createElement('a');
-          linkTo.innerHTML = `<img src="../images/global/link-16.svg" />`;
+          linkTo.innerHTML = `<img src="/images/global/link-16.svg" />`;
           linkTo.href = `#${e.id}`;
           e.appendChild(linkTo);
         }
