@@ -1,0 +1,343 @@
+<style>
+  div[data-tabs] input[type="radio"]:checked + label {
+    color: var(--blue-50);
+    background-color: var(--grey-10);
+    padding: .5rem;
+  }
+  div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
+    display: block;
+  }
+  div[data-tabs] input[type="radio"] + label:hover {
+  background-color: var(--grey-10)
+  } 
+</style>
+<div class="flex flex-wrap" data-tabs>
+  <input class="dn" type="radio" name="tabs" id="overview-win" checked="checked">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-win">Windows</label>
+  <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+          <th>Primary</th>
+          <th>Secondary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="">Display</a></td>
+          <td><code>33px</code></td>
+          <td>Light <code>200</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 10</a></td>
+          <td><code>22px</code></td>
+          <td>Semilight <code>300</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 20</a></td>
+          <td><code>17px</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 30</a></td>
+          <td><code>13px</code></td>
+          <td>Bold <code>700</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 10</a></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 20</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Caption 10</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+      </tr>
+        <tr>
+          <td><a href="">Caption 20</a></td>
+          <td><code>11px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input class="dn" type="radio" name="tabs" id="overview-mac-os">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-mac-os">macOS</label>
+  <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+          <th>Primary</th>
+          <th>Secondary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="">Display</a></td>
+          <td><code>33px</code></td>
+          <td>Thin <code>100</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 10</a></td>
+          <td><code>22px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 20</a></td>
+          <td><code>17px</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 30</a></td>
+          <td><code>13px</code></td>
+          <td>Bold <code>700</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 10</a></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 20</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Caption 10</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+      </tr>
+        <tr>
+          <td><a href="">Caption 20</a></td>
+          <td><code>11px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input class="dn" type="radio" name="tabs" id="overview-ubuntu">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-ubuntu">Ubuntu</label>
+  <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+          <th>Primary</th>
+          <th>Secondary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="">Display</a></td>
+          <td><code>33px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 10</a></td>
+          <td><code>22px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 20</a></td>
+          <td><code>17px</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 30</a></td>
+          <td><code>13px</code></td>
+          <td>Bold <code>700</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 10</a></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 20</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Caption 10</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+      </tr>
+        <tr>
+          <td><a href="">Caption 20</a></td>
+          <td><code>11px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input class="dn" type="radio" name="tabs" id="overview-web">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-web">Web</label>
+  <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+          <th>Primary</th>
+          <th>Secondary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="">Display</a></td>
+          <td><code>33px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 10</a></td>
+          <td><code>22px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 20</a></td>
+          <td><code>17px</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Title 30</a></td>
+          <td><code>13px</code></td>
+          <td>Bold <code>700</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 10</a></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Body 20</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><a href="">Caption 10</a></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+      </tr>
+        <tr>
+          <td><a href="">Caption 20</a></td>
+          <td><code>11px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

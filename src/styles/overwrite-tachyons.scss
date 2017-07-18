@@ -2,6 +2,12 @@
   Overwrites and new classes on top of Tachyons CSS
 */
 
+// Figure
+
+figure {
+  box-sizing: border-box;
+}
+
 // Code
 
 code,
@@ -37,6 +43,12 @@ small {
 
 .outline-offset--1 {
   outline-offset: -1px;
+}
+
+// Flex
+
+.flex-grow-1 {
+  flex-grow: 1;
 }
 
 // Colors
