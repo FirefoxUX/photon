@@ -199,6 +199,17 @@ main section {
     margin: 0 1px;
     padding: 4px;
   }
+
+  details {
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    line-height: 1.4;
+    padding: 1rem 1rem 0;
+
+    summary {
+      padding-bottom: 1rem;
+    }
+  }
 }
 
 /* Section blockquote */
