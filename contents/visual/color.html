@@ -1,7 +1,7 @@
 <header>
   <h1>Color</h1>
   <p>
-    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and bring attention to important interface elements.
+    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and by bringing attention to primary actions.
   </p>
 </header>
 
@@ -14,14 +14,13 @@
 <section>
   <h2>Palettes</h2>
   <p>
-    Find details on each of our colors below, indicating color name, hex value, and contrast ratings for usage with text.
+    The color palette includes primary and secondary colors that can be used for interfaces and illustrations.
   </p>
+  <h3>Color System</h3>
+  <% include ../includes/color/color-system.html %>
   <p>
-    When using colors with text, always opt to have either white typography or white background. <code>#ffffff</code> Only use a combination, if it reaches an adequate color contrast, to ensure accessibility. This means it should have a rating of AA, or AAA in the table below. If your text is at least 18pt or set in bold with at least 14pt, a rating of AA Large is acceptable too.
-  </p>
-  <p>
-    Combinations of text on colorful background that fail the contrast rating, should use the darkest shade–90–of the same color for the typography. Visible on the contrast ratings below.
-  </p>
+  <h3>Color Contrast Ratio</h3>
+  <% include ../includes/color/color-palette.html %>
 
   <h3>Blue</h3>
   <p>
@@ -65,6 +64,15 @@
   </p>
   <% include ../includes/color/color-purple.html %>
 
+  <h3>Orange</h3>
+  <p>
+    Firefox Orange is only used for branding. Do not use it otherwise.
+  </p>
+  <details>
+    <summary>Are you designing a new Firefox product logo?</summary>
+    <% include ../includes/color/color-orange.html %>
+  </details>
+
   <h3>Ink</h3>
   <p>
     Firefox Ink is commonly used for interfaces, e.g. in Firefox for desktops dark theme.
@@ -106,7 +114,6 @@
   <p>
     With the default themes enabled links are set in Blue 50 <code>#0a84ff</code>.
   </p>
-  <% include ../includes/color/color-white.html %>
 </section>
 
 <section>

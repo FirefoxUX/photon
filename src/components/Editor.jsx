@@ -45,6 +45,19 @@ const Editor = React.createClass({
         title = `${page.title} · ${page.category} | Photon Design System`;
       }
       document.title = title;
+      if (window.location.hash) {
+        this.highlightSelectedTitle();
+      }
+    }
+  },
+
+  highlightSelectedTitle: function() {
+    let element = document.getElementById(decodeURIComponent(window.location.hash.replace(/#/g,'')));
+    if (element) {
+      element.classList.add('blue-50');
+      setTimeout(function(){
+        element.classList.remove('blue-50');
+      }, 1000);
     }
   },
 
@@ -62,6 +75,12 @@ const Editor = React.createClass({
           newId = `${e.textContent.trim().toLowerCase().replace(/ /g, '-')}-${counter}`;
         }
         e.id = newId;
+        if (e.tagName != 'H1') {
+          let linkTo = document.createElement('a');
+          linkTo.innerHTML = `<div class="link-image"></div>`;
+          linkTo.href = `#${e.id}`;
+          e.appendChild(linkTo);
+        }
       }
       if (ids.has(e.id)) {
         console.error(`Duplicate id found: ${e.id}`); // eslint-disable-line no-console

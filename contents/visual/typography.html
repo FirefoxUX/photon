@@ -7,143 +7,160 @@
 
 <section>
   <h2>Typefaces</h2>
-
-  <h3>Cross-Platform Options</h3>
   <p>
     In Firefox products we use the standard typeface for each platform.
   </p>
 
-  <table>
-    <thead>
-      <tr>
-        <th><p>Platform</p></th>
-        <th><p>Typeface</p></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><p>Android</p></td>
-        <td><p><a href="https://fonts.google.com/specimen/Roboto">Roboto</a><br><a href="https://fonts.google.com/specimen/Noto+Sans">Noto</a> for all languages not covered by Roboto</p></td>
-      </tr>
-      <tr>
-        <td><p>iOS, macOS</p></td>
-        <td><p><a href="https://developer.apple.com/fonts/">San Francisco</a></p></td>
-      </tr>
-      <tr>
-        <td><p>Linux</p></td>
-        <td><p><a href="http://font.ubuntu.com/">Ubuntu</a>. Fallback to distribution system font if not available</p></td>
-      </tr>
-      <tr>
-        <td><p>Web</p></td>
-        <td><p><a href="https://mozilla.github.io/Fira/">Fira Sans</a></p></td>
-      </tr>
-      <tr>
-        <td><p>Windows</p></td>
-        <td><p><a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a></p></td>
-      </tr>
-    </tbody>
-  </table>
+  <h3>Windows</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-40-ns ph2"> 
+      <p>
+        <a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a> is the typeface used on the Windows platform.
+      </p>
+    </div>
+    <div class="fl-ns w-60-ns ph2">
+      <img class="w-100" src="../images/typography/typeface-segoe.svg" alt="">
+    </div>
+    </div>
+  </div>
 
-  <h3>Other Typefaces</h3>
+  <h3>macOS</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-40-ns ph2">  
+      <p>
+        <a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on the Apples products.
+      </p>
+    </div>
+    <div class="fl-ns w-60-ns ph2">
+      <img class="w-100" src="../images/typography/typeface-sf.svg" alt="">
+    </div>
+  </div>
 
-  <h4>Open Sans</h4>
-  <p>
-    Despite Open Sans being use on some Mozilla web properties it is currently not recommended to be used in Firefox products.
-  </p>
+  <h3>Linux</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-40-ns ph2"> 
+      <p>
+        <a href="http://font.ubuntu.com/">Ubuntu</a> is the typeface used in the most common Linux distro, Ubuntu.
+      </p>
+    </div>
+    <div class="fl-ns w-60-ns ph2">
+      <img class="w-100" src="../images/typography/typeface-ubuntu.svg" alt="">
+    </div> 
+  </div>
+
+  <h3>Web products</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-40-ns ph2"> 
+      <p>
+        <a href="https://mozilla.github.io/Fira/">Fira Sans</a> is the typeface used on the Firefox products on the web.
+      </p>
+      <p>
+        Despite <strong>Open Sans</strong> being use on some Mozilla web properties it is currently not recommended to be used in Firefox products.
+      </p>
+    </div>
+    <div class="fl-ns w-60-ns ph2">
+      <img class="w-100" src="../images/typography/typeface-fira.svg" alt="">
+    </div>
+  </div>
+
+  <h3>Android</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-40-ns ph2">
+      <p>
+        <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> is the standard typeface on Android. Noto is the standard typeface for all languages on Chrome and Android for all languages not covered by Roboto.
+      </p>
+    </div>
+    <div class="fl-ns w-60-ns ph2">
+      <img class="w-100" src="../images/typography/typeface-roboto.svg" alt="">
+    </div>
+  </div>
+
+  <h3>iOS</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-40-ns ph2">  
+      <p>
+        <a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on the Apples products.
+      </p>
+    </div>
+    <div class="fl-ns w-60-ns ph2">
+      <img class="w-100" src="../images/typography/typeface-sf.svg" alt="">
+    </div>
+  </div>
 </section>
 
 <section>
   <h2>Styles</h2>
-  <% include ../includes/typography/typography-scale.html %>
-  <table>
-    <thead>
-      <tr>
-        <th>Category</th>
-        <th>Size</th>
-        <th>Weight</th>
-        <th>Emphasized Weight</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Display</td>
-        <td>33px</td>
-        <td>Light 300*</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td rowspan="3">Title</td>
-        <td>22px</td>
-        <td>Light 300</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>17px</td>
-        <td>Semibold 600</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>13px</td>
-        <td>Bold 700</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td rowspan="2">Body</td>
-        <td>15px</td>
-        <td>Regular 400</td>
-        <td>Semibold 600</td>
-      </tr>
-      <tr>
-        <td>13px</td>
-        <td>Regular 400</td>
-        <td>Semibold 600</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Caption</td>
-        <td>13px</td>
-        <td>Regular 400</td>
-        <td>Semibold 600</td>
-      </tr>
-      <tr>
-        <td>11px</td>
-        <td>Regular 400</td>
-        <td>Semibold 600</td>
-      </tr>
-    </tbody>
-  </table>
-  <p>*Thin 100 on macOS</p>
-  <!-- 
+
+  <h3>Scale</h3>
+  <p>
+    The type scale enables you to set the hierarchy of your content. These sizes and styles are designed to balance content density and increase readibility.
+  </p>
+
+  <h4>Desktop</h4>
+  <div class="cf nr2 nl2 mb2">
+    <figure class="fl-ns w-50-ns ph2">
+      <img class="w-100" src="../images/typography/type-scale-segoe.svg" alt="">
+      <figcaption>The scale in Segoe UI on Windows</figcaption>
+    </figure>
+    <figure class="fl-ns w-50-ns ph2">
+      <img class="w-100" src="../images/typography/type-scale-san-francisco.svg" alt="">
+      <figcaption>The scale in San Francisco on MacOS</figcaption>
+    </figure>
+  </div>
+  <div class="cf nr2 nl2">
+    <figure class="fl-ns w-50-ns ph2">
+      <img class="w-100" src="../images/typography/type-scale-ubuntu.svg" alt="">
+      <figcaption>The scale in Ubuntu on Ubuntu</figcaption>
+    </figure>
+    <figure class="fl-ns w-50-ns ph2 mb2">
+      <img class="w-100" src="../images/typography/type-scale-fira.svg" alt="">
+      <figcaption>The scale in Fira Sans for web products</figcaption>
+    </figure>
+  </div>
+
   <h3>Emphasis</h3>
   <p>
-    The type scale enables you to set the hierarchy of your content. If two texts feature the same scale use a bolder font weight <code>500</code> to emphises the most important information.
-  </p> 
-  -->
+    If two texts feature the same scale use a bolder font weight <code>600</code> to emphasize the most important information.
+  </p>
+  <figure>
+    <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/typography/emphasis.png" alt="Emphasis example">
+    <figcaption>Emphasis example in Firefox Preferences on Desktop</figcaption>
+  </figure>
+
+  <h3>Color</h3>
+  <p>
+    Choose text color based on purpose. <strong>Primary color</strong> is for main titles and body text. 
+  </p>
+  <% include ../includes/typography/typography-primary-color.html %>
+  <p>
+    Use the <strong>secondary color</strong> for accompanying text that gives further information, details or features to the primary content such as caption text and subtitle of menus. 
+  </p>
+  <% include ../includes/typography/typography-secondary-color.html %>
+
+  <h3>Overview</h3>
+  <% include ../includes/typography/typography-table-overview.html %>
 </section>
 
 <section>
-  <h3>Style Usage</h3>
-  <% include ../includes/typography/typography-user-interface-examples.html %>
-</section>
+  <h2>Usage</h2>
+  <h3>Display</h3>
+  <p>
+    Display style is recommeded to be used on in-content pages for delivering primary messages to users.
+  </p>
+  <figure>
+    <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/typography/display.png" alt="display example">
+    <figcaption>Display 33px Light - Example in an error page</figcaption>
+  </figure>
+  <h3>Title</h3>
+  <p>
+    Title style is used on top as a summary of the following content. A good pair of titles can improve visual readibility of a long content.
+  </p>
+  <figure>
+    <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/typography/title2.png" alt="Title example">
+    <figcaption>Title 10 pairing with Title 20 in the Firefox Preferences on Desktop</figcaption>
+  </figure>
 
-<section>
   <h3>Font Pairing</h3>
   <% include ../includes/typography/typography-pairing.html %>
 </section>
 
-<!-- 
-<section>
-  <h3>Font Size Scaling</h3>
-    <% include ../includes/typography/typography-scaling.html %>
-</section> 
--->
-
-<section>
-  <h2>Color</h2>
-  <p>
-    Choose text color based on purpose. Primary for titles and body text. Secondary for accompanying text that gives further information, details or features to the primary content such as caption text and subtitle of menus.
-  </p>
-  <h3>Dark typography on light background</h3>
-  <% include ../includes/typography/typography-color-text-dark.html %>
-  <h3>Light typography on colored background</h3>
-  <% include ../includes/typography/typography-color-text-light.html %>
-</section>
