@@ -1,0 +1,56 @@
+<header>
+  <h1>Design for Performance</h1>
+  <p>
+    Firefox products should look and feel fast!
+  </p>
+</header>
+
+<section>
+  <h2>Elements of Performance</h2>
+  <p>
+    The perception of performance is largely determined by four factors: <br/> <em>Duration</em>, <em>Responsiveness</em>, <em>Fluency</em> and <em>Tolerance</em>.
+  </p>
+
+  <h3>Duration</h3>
+  <p>
+    Duration is the actual duration that a process takes. This is the element that is often referred to as “performance” in technical discussions. Different magnitudes of duration require different treatments to achieve an optimal perceived performance.
+  </p>
+  <table>
+    <tr>
+      <th>Terminology</th>
+      <th>Duration <br/><i>[Milliseconds]</i></th>
+      <th>Response</th>
+    </tr>
+    <tr>
+      <th>Instantaneous</th>
+      <td>up to 100ms</td>
+      <td>Acknowledge user input within this time frame. Ideally, a visible process towards the completion of the task begins within this time span. (e.g. ???)</td>
+    </tr>
+    <tr>
+      <th>Immediate</th>
+      <td>500–1000ms</td>
+      <td>Answers to simple requests must be completed within this time frame (e.g. opening a new window)</td>
+    </tr>
+    <tr>
+      <th>Continuous</th>
+      <td>2000–5000ms</td>
+      <td>Answers to complex questions must be completed within this time frame (e.g. loading a web page)</td>
+    </tr>
+    <tr>
+      <th>Captive</th>
+      <td>7000–10000ms</td>
+      <td>Users will begin switching tasks at this point. If a process takes longer than this, it should be segmented.</td>
+    </tr>
+  </table>
+
+  <h3>Responsiveness</h3>
+  <p>
+    Responsiveness is the user perceived time it takes the system to respond to user input.
+  </p>
+  <p>
+    Example: An empty dialog appearing immediately after a click and then taking a second to populate with content feels faster than the same dialog appearing with a second delay, but fully populated.
+  </p>
+
+  <p data-height="265" data-theme-id="0" data-slug-hash="eRwydJ" data-default-tab="result" data-user="designakt" data-embed-version="2" data-pen-title="Perceived Performance Do" class="codepen">See the Pen <a href="https://codepen.io/designakt/pen/eRwydJ/">Perceived Performance Do</a> by Markus Jaritz (<a href="https://codepen.io/designakt">@designakt</a>) on <a href="https://codepen.io">CodePen</a>.</p><script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+</section>
