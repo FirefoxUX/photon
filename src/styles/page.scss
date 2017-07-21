@@ -217,6 +217,7 @@ main section {
 main section blockquote {
   background-color: #eeeeee;
   border-radius: 4px;
+  box-sizing: border-box;
   font-size: 13px;
   margin: 0 0 1rem;
   padding: 1rem 1rem .25rem;
@@ -226,7 +227,7 @@ main section blockquote {
   }
 
   @media screen and (min-width: 60em) {
-    width: 50%;
+    max-width: 360px;
   }
 
   p:last-of-type {

@@ -16,11 +16,7 @@
   <p>
     The color palette includes primary and secondary colors that can be used for interfaces and illustrations.
   </p>
-  <h3>Color System</h3>
-  <% include ../includes/color/color-system.html %>
   <p>
-  <h3>Color Contrast Ratio</h3>
-  <% include ../includes/color/color-palette.html %>
 
   <h3>Blue</h3>
   <p>
@@ -68,10 +64,7 @@
   <p>
     Firefox Orange is only used for branding. Do not use it otherwise.
   </p>
-  <details>
-    <summary>Are you designing a new Firefox product logo?</summary>
-    <% include ../includes/color/color-orange.html %>
-  </details>
+  <% include ../includes/color/color-orange.html %>
 
   <h3>Ink</h3>
   <p>
@@ -100,28 +93,22 @@
 <section>
   <h2>Text and Background Colors</h2>
   <p>
-    For more information on typography colors make sure to check <a href="typography.html">Typography</a>.
+    For more information on the color of text check <a href="typography.html">Typography</a>.
   </p>
   <h3>Dark Text on Light Background</h3>
-  <p>
-    On light backgrounds the typography is set in Grey 90 <code>#0c0c0d</code> for primary text and Grey 50 <code>#737373</code> for secondary text.
-  </p>
+  <% include ../includes/color/color-dark-text-light-background.html %>
   <h3>Light Text on Dark Background</h3>
-  <p>
-    On dark backgrounds the typography is set in White <code>#ffffff</code> for primary text and Grey 10 <code>#f9f9fa</code> for secondary text.
-  </p>
-  <h3>Links</h3>
-  <p>
-    With the default themes enabled links are set in Blue 50 <code>#0a84ff</code>.
-  </p>
+  <% include ../includes/color/color-light-text-dark-background.html %>
+  <h3>Color Combinations</h3>
+  <% include ../includes/color/color-system.html %>
 </section>
 
 <section>
   <h2>Icons and Other Elements</h2>
   <p>
-    Make sure to check <a href="icons.html">Icons</a> in order to understand how to set the alpha channel for primary and secondary icons.
+    For more information on the color of icons check <a href="icons.html">Icons</a>.
   </p>
-  <% include ../includes/icons/icons-icon-color-examples.html %>
+  <% include ../includes/color/color-icons.html %>
 </section>
 
 <section>
