@@ -245,14 +245,15 @@ main section table {
   border-collapse: collapse;
   border-spacing: 0;
   border-top: 2px solid #eeeeee;
-  display: inline-block;
+  // display: inline-block;
   font-size: 13px;
   margin-bottom: 1.4rem;
-  max-width: 100%;
+  // max-width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
   vertical-align: top;
   white-space: nowrap;
+  width: 100%;
 
   @media screen and (min-width: 30em) {
     font-size: initial;
