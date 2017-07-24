@@ -1,0 +1,124 @@
+<header>
+  <h1>Design for Performance</h1>
+  <p>
+    Firefox products should look and feel fast!
+  </p>
+</header>
+
+<section>
+  <h2>Elements of Performance</h2>
+  <p>
+    The perception of performance is largely determined by four factors: <br/> <em>Duration</em>, <em>Responsiveness</em>, <em>Fluency</em> and <em>Tolerance</em>.
+  </p>
+
+  <h3>Duration</h3>
+  <p>
+    Duration is the actual duration that a process takes. This is the element that is often referred to as “performance” in technical discussions. Different magnitudes of duration require different treatments to achieve an optimal perceived performance.
+  </p>
+  <table>
+    <tr>
+      <th>Terminology</th>
+      <th>Duration <br/><i>[Milliseconds]</i></th>
+      <th>Response</th>
+    </tr>
+    <tr>
+      <th>Instantaneous</th>
+      <td>up to 100ms</td>
+      <td>Acknowledge user input within this time frame. Ideally, a visible process towards the completion of the task begins within this time span. (e.g. ???)</td>
+    </tr>
+    <tr>
+      <th>Immediate</th>
+      <td>500–1000ms</td>
+      <td>Answers to simple requests must be completed within this time frame (e.g. opening a new window)</td>
+    </tr>
+    <tr>
+      <th>Continuous</th>
+      <td>2000–5000ms</td>
+      <td>Answers to complex questions must be completed within this time frame (e.g. loading a web page)</td>
+    </tr>
+    <tr>
+      <th>Captive</th>
+      <td>7000–10000ms</td>
+      <td>Users will begin switching tasks at this point. If a process takes longer than this, it should be segmented.</td>
+    </tr>
+  </table>
+
+  <h3>Responsiveness</h3>
+  <p>
+    Responsiveness is the user perceived time it takes the system to respond to user input.
+  </p>
+  <p>
+    Example: An empty dialog appearing immediately after a click and then taking a second to populate with content feels faster than the same dialog appearing with a second delay, but fully populated.
+  </p>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2 mb3">
+      <a class="jsbin-embed" href="https://jsbin.com/rotavoz/1/embed">view on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+      <% include ../includes/global/do.html %>
+    </div>
+    <div class="fl-ns w-50-ns ph2 mb3">
+      <a class="jsbin-embed" href="https://jsbin.com/jofefim/1/embed">view on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+      <% include ../includes/global/dont.html %>
+    </div>
+  </div>
+
+  <h3>Fluency</h3>
+  <p>
+    Fluency is the user perceived smoothness of a process. It could also be described as a measure for how hard the machine appears to be working. Aim for constant 60 frames per second.
+  </p>
+  <p>
+    Example: A stuttering progress indicator gives the impression of lower performance, regardless of the actual duration of the process.
+  </p>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-third-l ph2 mb3">
+      <a class="jsbin-embed" href="https://jsbin.com/koyobu/1/embed">view on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+      <% include ../includes/global/do.html %>
+    </div>
+    <div class="fl-ns w-third-l ph2 mb3">
+      <a class="jsbin-embed" href="https://jsbin.com/denare/1/embed">view on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+      <% include ../includes/global/dont.html %>
+    </div>
+    <div class="fl-ns w-third-l ph2 mb3">
+      <a class="jsbin-embed" href="https://jsbin.com/cozina/1/embed">view on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.0.4"></script>
+      <% include ../includes/global/do.html %>
+    </div>
+  </div>
+
+  <h3>Tolerance</h3>
+  <p>
+    Tolerance is a measure of how long the user expects a process to take and at what point they will abandon or cancel the process.
+  </p>
+  <p>
+    Example: The tolerated duration for loading a web page is much longer than for saving a bookmark.
+  </p>
+</section>
+
+<section>
+  <h2>Other Influencing Factors</h2>
+  <p>
+    These factors can also influence the perception of performance:
+  </p>
+  <ul>
+    <li>Perceived task complexity</li>
+    <li>Emotional state</li>
+    <li>UI complexity and visual noise</li>
+    <li>Bias</li>
+    <li>Priming</li>
+    <li>Trends</li>
+    <li>Task frequency, attempts, failures</li>
+  </ul>
+</section>
+
+<section>
+  <h2>More on the Topic</h2>
+  <p>
+    Literature to detail the concepts explained above.
+  </p>
+  <ul>
+    <li><a href="https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/">Why Perceived Performance Matters, Part 1: The Perception Of Time by Denys Mishunov - Smashing Magazin</a></li>
+    <li><a href="https://www.smashingmagazine.com/2015/11/why-performance-matters-part-2-perception-management/">Why Performance Matters, Part 2: Perception Management by Denys Mishunov - Smashing Magazin</a></li>
+    <li><a href="https://www.smashingmagazine.com/2015/12/performance-matters-part-3-tolerance-management/">Why Performance Matters, Part 3: Tolerance Management by Denys Mishunov - Smashing Magazin</a></li>
+    <li><a href="https://www.safaribooksonline.com/library/view/designing-and-engineering/9780321562944/">Designing and Engineering Time: The Psychology of Time Perception in Software by Steven C. Seow Ph.D. - Addison-Wesley Professional</a></li>
+    <li>Thinking Fast and Slow</li>
+    <li>Designing with the Mind in Mind</li>
+  </ul>
+</section>
