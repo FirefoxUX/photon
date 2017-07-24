@@ -159,7 +159,7 @@ main section {
     color: var(--blue-50);
     text-decoration: none;
 
-    &[href*="//"]::after {
+    &:not([class])[href*="//"]::after {
       background-image: url('../../images/global/open-new-tab.svg');
       background-size: 12px 12px;
       content: "";

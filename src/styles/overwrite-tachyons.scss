@@ -34,7 +34,19 @@ code,
   outline-offset: -1px;
 }
 
+// Flex
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
 // Colors
+
+// White
+
+.hover-white:hover {
+  color: white;
+}
 
 // Blue
 
@@ -326,7 +338,8 @@ code,
   background-color: var(--yellow-60);
 }
 
-.bg-yellow-70 {
+.bg-yellow-70,
+.hover-bg-yellow-70:hover {
   background-color: var(--yellow-70);
 }
 
