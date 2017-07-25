@@ -120,7 +120,7 @@ main section {
   }
 
   h2 {
-    margin: 3rem 0;
+    margin: 3rem 0 1rem;
   }
 
   h3 {
@@ -174,7 +174,7 @@ main section {
     margin: 0 0 1rem;
 
     figcaption {
-      font-size: small;
+      font-size: 13px;
       line-height: 1.3;
       padding-top: .5rem;
     }
@@ -199,6 +199,17 @@ main section {
     margin: 0 1px;
     padding: 4px;
   }
+
+  details {
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    line-height: 1.4;
+    padding: 1rem 1rem 0;
+
+    summary {
+      padding-bottom: 1rem;
+    }
+  }
 }
 
 /* Section blockquote */
@@ -206,7 +217,8 @@ main section {
 main section blockquote {
   background-color: #eeeeee;
   border-radius: 4px;
-  font-size: small;
+  box-sizing: border-box;
+  font-size: 13px;
   margin: 0 0 1rem;
   padding: 1rem 1rem .25rem;
 
@@ -215,7 +227,7 @@ main section blockquote {
   }
 
   @media screen and (min-width: 60em) {
-    width: 50%;
+    max-width: 360px;
   }
 
   p:last-of-type {
@@ -230,13 +242,17 @@ main section div[class] blockquote {
 /* Section table */
 
 main section table {
-  border-bottom: 2px solid #eeeeee;
   border-collapse: collapse;
   border-spacing: 0;
   border-top: 2px solid #eeeeee;
-  font-size: small;
+  // display: inline-block;
+  font-size: 13px;
   margin-bottom: 1.4rem;
-  table-layout: auto;
+  // max-width: 100%;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  vertical-align: top;
+  white-space: nowrap;
   width: 100%;
 
   @media screen and (min-width: 30em) {
@@ -245,7 +261,6 @@ main section table {
 
   thead {
     background-color: #eeeeee;
-    font-size: small;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
@@ -297,4 +312,11 @@ main section article {
     margin: 0;
     padding: 1rem;
   }
+}
+
+.link-image {
+  background-image: url("../../images/global/link-16.svg");
+  display: inline-block;
+  height: 16px;
+  width: 16px;
 }

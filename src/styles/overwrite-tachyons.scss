@@ -2,6 +2,12 @@
   Overwrites and new classes on top of Tachyons CSS
 */
 
+// Figure
+
+figure {
+  box-sizing: border-box;
+}
+
 // Code
 
 code,
@@ -16,6 +22,11 @@ code,
 .font-smoothing {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+}
+
+.small,
+small {
+  font-size: small;
 }
 
 // Withs
@@ -34,9 +45,19 @@ code,
   outline-offset: -1px;
 }
 
+// Flex
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
 // Colors
 
 // Blue
+
+.blue-40 {
+  color: var(--blue-40);
+}
 
 .blue-50 {
   color: var(--blue-50);
@@ -146,6 +167,28 @@ code,
   color: var(--yellow-90);
 }
 
+// Orange
+
+.orange-50 {
+  color: var(--orange-50);
+}
+
+.orange-60 {
+  color: var(--orange-60);
+}
+
+.orange-70 {
+  color: var(--orange-70);
+}
+
+.orange-80 {
+  color: var(--orange-80);
+}
+
+.orange-90 {
+  color: var(--orange-90);
+}
+
 // Red
 
 .red-50 {
@@ -229,6 +272,10 @@ code,
 // Background colors
 
 // Blue
+
+.bg-blue-40 {
+  background-color: var(--blue-40);
+}
 
 .bg-blue-50 {
   background-color: var(--blue-50);
@@ -336,6 +383,28 @@ code,
 
 .bg-yellow-90 {
   background-color: var(--yellow-90);
+}
+
+// Orange
+
+.bg-orange-50 {
+  background-color: var(--orange-50);
+}
+
+.bg-orange-60 {
+  background-color: var(--orange-60);
+}
+
+.bg-orange-70 {
+  background-color: var(--orange-70);
+}
+
+.bg-orange-80 {
+  background-color: var(--orange-80);
+}
+
+.bg-orange-90 {
+  background-color: var(--orange-90);
 }
 
 // Red
