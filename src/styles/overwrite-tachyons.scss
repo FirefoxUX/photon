@@ -53,6 +53,12 @@ small {
 
 // Colors
 
+// White
+
+.hover-white:hover {
+  color: white;
+}
+
 // Blue
 
 .blue-40 {
@@ -373,7 +379,8 @@ small {
   background-color: var(--yellow-60);
 }
 
-.bg-yellow-70 {
+.bg-yellow-70,
+.hover-bg-yellow-70:hover {
   background-color: var(--yellow-70);
 }
 
