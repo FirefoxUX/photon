@@ -5,6 +5,14 @@
   write plain HTML without worrying about CSS classes.
 */
 
+/* Defaults */
+
+a {
+  color: var(--blue-50);
+  cursor: pointer;
+  text-decoration: none;
+}
+
 /* Click to copy tooltip */
 
 code {
@@ -86,12 +94,6 @@ main header {
   li ul {
     padding-left: 1rem;
     padding-top: 1rem;
-  }
-
-  a {
-    color: var(--blue-50);
-    cursor: pointer;
-    text-decoration: none;
   }
 
   @media screen and (min-width: 60em) {

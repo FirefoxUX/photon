@@ -95,7 +95,7 @@ const Editor = React.createClass({
       let header_list = document.createElement('ul');
       header_list.addEventListener('click', (e) => {
         if (e.target.tagName === "A") {
-          sendEvent('header-click', e.target.getAttribute('href'), window.location.pathname)
+          sendEvent('header-click', e.target.getAttribute('href').substring(1), window.location.pathname)
         }
       });
       header_list.classList.add('toc');
