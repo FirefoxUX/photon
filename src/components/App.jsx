@@ -22,7 +22,7 @@ const App = React.createClass({
       <TableOfContents/>
       <main className="order-0 order-1-l overflow-y-scroll-l w-100">
         <Editor/>
-         <Feedback/>
+        <Feedback/>
         <Footer/>
       </main>
     </div>);
