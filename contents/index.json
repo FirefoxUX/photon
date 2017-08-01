@@ -62,7 +62,10 @@
     ]
   },
   {"title": "Components",
-    "pages": [
+    "directory": "components",
+    "pages": [ 
+       {"title": "Message bar",
+        "file": "message-bar.html"}
     ]
   },
   {"title": "Inclusion",
