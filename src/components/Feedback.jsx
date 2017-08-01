@@ -5,6 +5,10 @@ const { sendEvent } = require('./utilities.js');
 const { connect } = require('react-redux');
 const { changeFeedbackMessage } = require('./actions.js');
 
+const feedbackStyle = {
+  height: '50px'
+};
+
 const Feedback = connect(state => {
   var {feedback_ask} = state.data;
   return {feedback_ask};
@@ -30,7 +34,9 @@ const Feedback = connect(state => {
   render: function() {
     return(
       <div className="center mw7 ph3 mb4 mb5-l">
-        <div className="w-100 ba b--light-gray br2 ph3 pb1 flex-ns justify-between-ns items-center-ns">
+        <div className="w-100 ba b--light-gray br2 ph3 pb1 flex-ns justify-between-ns items-center-ns"
+            style={feedbackStyle}
+        >
           {this.props.feedback_ask &&
             <div className="w-100 flex-ns justify-between-ns items-center-ns">
               <p className="mt0 mb3 mb0-ns lh-copy pt2-ns"
@@ -51,7 +57,7 @@ const Feedback = connect(state => {
           </div>
         ||
         <div className="w-100 tc flex-ns items-center-ns">
-          <span className="flex-auto b mt0 mb3 mb0-ns lh-copy pt2-ns"
+          <span className="flex-auto mt0 mb3 mb0-ns lh-copy pt2-ns"
               id="feedback-text"
           >{'Thank you for the feedback!'}</span>
           <a className="close-feedback"
