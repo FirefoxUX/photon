@@ -5,6 +5,14 @@
   write plain HTML without worrying about CSS classes.
 */
 
+/* Defaults */
+
+a {
+  color: var(--blue-50);
+  cursor: pointer;
+  text-decoration: none;
+}
+
 /* Click to copy tooltip */
 
 code {
@@ -86,12 +94,6 @@ main header {
   li ul {
     padding-left: 1rem;
     padding-top: 1rem;
-  }
-
-  a {
-    color: var(--blue-50);
-    cursor: pointer;
-    text-decoration: none;
   }
 
   @media screen and (min-width: 60em) {
@@ -303,5 +305,14 @@ main section article {
   background-image: url("../../images/global/link-16.svg");
   display: inline-block;
   height: 16px;
+  width: 16px;
+}
+
+.close-feedback {
+  background-image: url("../../images/global/stop-16.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
+  margin-top: 4px;
   width: 16px;
 }
