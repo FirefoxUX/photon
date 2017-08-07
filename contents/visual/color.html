@@ -1,7 +1,7 @@
 <header>
   <h1>Color</h1>
   <p>
-    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and bring attention to important interface elements.
+    Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and by bringing attention to primary actions.
   </p>
 </header>
 
@@ -14,14 +14,9 @@
 <section>
   <h2>Palettes</h2>
   <p>
-    Find details on each of our colors below, indicating color name, hex value, and contrast ratings for usage with text.
+    The color palette includes primary and secondary colors that can be used for interfaces and illustrations.
   </p>
   <p>
-    When using colors with text, always opt to have either white typography or white background. <code>#ffffff</code> Only use a combination, if it reaches an adequate color contrast, to ensure accessibility. This means it should have a rating of AA, or AAA in the table below. If your text is at least 18pt or set in bold with at least 14pt, a rating of AA Large is acceptable too.
-  </p>
-  <p>
-    Combinations of text on colorful background that fail the contrast rating, should use the darkest shade–90–of the same color for the typography. Visible on the contrast ratings below.
-  </p>
 
   <h3>Blue</h3>
   <p>
@@ -65,6 +60,12 @@
   </p>
   <% include ../includes/color/color-purple.html %>
 
+  <h3>Orange</h3>
+  <p>
+    Firefox Orange is only used for branding. Do not use it otherwise.
+  </p>
+  <% include ../includes/color/color-orange.html %>
+
   <h3>Ink</h3>
   <p>
     Firefox Ink is commonly used for interfaces, e.g. in Firefox for desktops dark theme.
@@ -92,29 +93,22 @@
 <section>
   <h2>Text and Background Colors</h2>
   <p>
-    For more information on typography colors make sure to check <a href="typography.html">Typography</a>.
+    For more information on the color of text check <a href="typography.html">Typography</a>.
   </p>
   <h3>Dark Text on Light Background</h3>
-  <p>
-    On light backgrounds the typography is set in Grey 90 <code>#0c0c0d</code> for primary text and Grey 50 <code>#737373</code> for secondary text.
-  </p>
+  <% include ../includes/color/color-dark-text-light-background.html %>
   <h3>Light Text on Dark Background</h3>
-  <p>
-    On dark backgrounds the typography is set in White <code>#ffffff</code> for primary text and Grey 10 <code>#f9f9fa</code> for secondary text.
-  </p>
-  <h3>Links</h3>
-  <p>
-    With the default themes enabled links are set in Blue 50 <code>#0a84ff</code>.
-  </p>
-  <% include ../includes/color/color-white.html %>
+  <% include ../includes/color/color-light-text-dark-background.html %>
+  <h3>Color Combinations</h3>
+  <% include ../includes/color/color-system.html %>
 </section>
 
 <section>
   <h2>Icons and Other Elements</h2>
   <p>
-    Make sure to check <a href="icons.html">Icons</a> in order to understand how to set the alpha channel for primary and secondary icons.
+    For more information on the color of icons check <a href="icons.html">Icons</a>.
   </p>
-  <% include ../includes/icons/icons-icon-color-examples.html %>
+  <% include ../includes/color/color-icons.html %>
 </section>
 
 <section>
@@ -141,8 +135,23 @@
 
   <h3>Color Contrast</h3>
   <p>
-    Follow the <a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast. Bodies of text should have a contrast ratio of at least 4.5:1 and large-scale text should have a contrast ratio of at least 3:1.
+    Follow the <a href="https://www.w3.org/TR/WCAG/#visual-audio-contrast">WCAG 2.0</a> Level AA guidelines to ensure proper color contrast.
   </p>
+
+  <h4>Color Contrast Values</h4>
+  <ul>
+    <li>
+      <strong>Fail</strong> – Your text doesn't have enough contrast with the background
+    <li>
+      <strong>AA Large</strong> – Acceptable contrast for type sizes >= 18px
+    </li>
+    <li>
+      <strong>AA</strong> – Acceptable contrast for text sizes below 18px
+    </li>
+    <li>
+      <strong>AAA</strong> – Enhanced contrast.
+    </li>
+  </ul>
 
   <blockquote>
     <p>

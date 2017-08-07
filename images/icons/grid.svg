@@ -1,1 +1,265 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#fff" viewBox="0 0 300 300"><defs><polygon id="a" points="0 0 209 0 209 209 0 209"/><polygon id="c" points="0 0 209 0 209 208.791 0 208.791"/><polygon id="e" points="0 0 209 0 209 209 0 209"/><rect id="g" width="209" height="157" y="26" rx="23.44"/><rect id="h" width="209" height="157" y="26" rx="23.44"/><rect id="i" width="183" height="183" x="13" y="13" rx="23.44"/><rect id="j" width="1" height="9" y="7"/><rect id="k" width="1" height="9" x="208" y="7"/><rect id="l" width="209" height="1" y="11"/><rect id="m" width="32" height="22" x="89" rx="2"/><rect id="n" width="9" height="1" x="11"/><rect id="o" width="9" height="1" x="11" y="208"/><rect id="p" width="1" height="209" x="15"/><rect id="q" width="32" height="22" y="94" rx="2"/></defs><g fill="none" fill-rule="evenodd"><g transform="translate(46 46)"><mask id="b" fill="white"><use xlink:href="#a"/></mask><g mask="url(#b)"><mask id="d" fill="white"><use xlink:href="#c"/></mask><rect width="209" height="1" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="13" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="26" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="39" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="52" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="65" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="78" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="91" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="104" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="117" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="130" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="143" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="156" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="169" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="182" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="195" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="208" fill="#D7D7DB" mask="url(#d)"/></g><mask id="f" fill="white"><use xlink:href="#e"/></mask><rect width="1" height="209" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="13" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="26" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="39" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="52" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="65" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="78" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="91" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="104" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="117" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="130" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="143" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="156" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="169" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="182" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="195" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="208" fill="#D7D7DB" mask="url(#f)"/><rect width="195" height="195" x="7" y="7" stroke="#000000" stroke-width="14" opacity=".1"/><g><use fill="#0A84FF" fill-opacity=".15" xlink:href="#g"/><rect width="208" height="156" x=".5" y="26.5" stroke="#0A84FF" stroke-opacity=".8" rx="23.44"/></g><g transform="rotate(90 104.5 104.5)"><use fill="#0A84FF" fill-opacity=".15" xlink:href="#h"/><rect width="208" height="156" x=".5" y="26.5" stroke="#0A84FF" stroke-opacity=".8" rx="23.44"/></g><g transform="rotate(90 104.5 104.5)"><use fill="#0A84FF" fill-opacity=".15" xlink:href="#i"/><rect width="182" height="182" x="13.5" y="13.5" stroke="#0A84FF" stroke-opacity=".8" rx="23.44"/></g></g><g transform="translate(46 259)"><use fill="#FFFFFF" xlink:href="#j"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#j"/><use fill="#FFFFFF" xlink:href="#k"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#k"/><use fill="#FFFFFF" xlink:href="#l"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#l"/><g><use fill="#FFFFFF" xlink:href="#m"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#m"/></g><path fill="#FFFFFF" d="M96.23 15h-1.1V8.15l-1.88 1.14-.48-.78 2.48-1.54h.98V15zm6.13-5c.33.2.6.49.8.87.2.39.3.85.3 1.4a3.2 3.2 0 0 1-.34 1.51 2.43 2.43 0 0 1-2.21 1.36c-.94 0-1.62-.34-2.06-1.03a5.41 5.41 0 0 1-.64-2.88c0-.87.12-1.64.36-2.3.25-.66.6-1.17 1.05-1.53.46-.37 1-.55 1.62-.55.61 0 1.16.17 1.66.5l-.43.73a2.3 2.3 0 0 0-1.24-.35c-.58 0-1.03.27-1.37.83-.33.55-.52 1.29-.55 2.22.5-.7 1.14-1.06 1.93-1.06.41 0 .78.1 1.12.29zm-.39 3.74c.25-.35.38-.83.38-1.43 0-1.14-.44-1.71-1.3-1.71-.35 0-.68.1-.97.29-.3.2-.55.47-.76.81.03.88.16 1.53.42 1.94.25.42.64.63 1.17.63.46 0 .82-.18 1.06-.53zm7.8-4.34c.37.57.56 1.38.56 2.43 0 1-.22 1.8-.65 2.4-.43.61-1.05.91-1.84.91-.7 0-1.25-.24-1.65-.72v3l-1.1.14V8.68h.94l.08.85c.24-.32.52-.57.84-.74a2.2 2.2 0 0 1 1.04-.26c.8 0 1.4.29 1.77.87zm-.63 2.43c0-1.61-.48-2.42-1.43-2.42-.31 0-.6.09-.85.27-.26.19-.48.42-.67.71v3.09a1.62 1.62 0 0 0 1.4.77c1.03 0 1.55-.81 1.55-2.42zm7.45 3.17h-1.33l-1.55-2.68-1.57 2.68h-1.25l2.2-3.34-1.95-2.98h1.3l1.32 2.31 1.33-2.31h1.25l-1.95 2.94 2.2 3.38z"/></g><g transform="translate(259 46)"><use fill="#FFFFFF" xlink:href="#n"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#n"/><use fill="#FFFFFF" xlink:href="#o"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#o"/><use fill="#FFFFFF" xlink:href="#p"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#p"/><g><use fill="#FFFFFF" xlink:href="#q"/><use fill="#0A84FF" fill-opacity=".8" xlink:href="#q"/></g><path fill="#FFFFFF" d="M7.23 109h-1.1v-6.85l-1.88 1.14-.48-.78 2.48-1.54h.98V109zm6.13-5c.33.2.6.49.8.87.2.39.3.85.3 1.4a3.2 3.2 0 0 1-.34 1.51 2.43 2.43 0 0 1-2.21 1.36c-.94 0-1.62-.34-2.06-1.03a5.41 5.41 0 0 1-.64-2.88c0-.87.12-1.64.36-2.3.25-.66.6-1.17 1.05-1.53.46-.37 1-.55 1.62-.55.61 0 1.16.17 1.66.5l-.43.73a2.3 2.3 0 0 0-1.24-.35c-.58 0-1.03.27-1.37.83-.33.55-.52 1.29-.55 2.22.5-.7 1.14-1.06 1.93-1.06.41 0 .78.1 1.12.29zm-.39 3.74c.25-.35.38-.83.38-1.43 0-1.14-.44-1.71-1.3-1.71-.35 0-.68.1-.97.29-.3.2-.55.47-.76.81.03.88.16 1.53.42 1.94.25.42.64.63 1.17.63.46 0 .82-.18 1.06-.53zm7.8-4.34c.37.57.56 1.38.56 2.43 0 1-.22 1.8-.65 2.4-.43.61-1.05.91-1.84.91-.7 0-1.25-.24-1.65-.72v3l-1.1.14v-8.88h.94l.08.85c.24-.32.52-.57.84-.74a2.2 2.2 0 0 1 1.04-.26c.8 0 1.4.29 1.77.87zm-.63 2.43c0-1.61-.48-2.42-1.43-2.42-.31 0-.6.09-.85.27-.26.19-.48.42-.67.71v3.09a1.62 1.62 0 0 0 1.4.77c1.03 0 1.55-.81 1.55-2.42zm7.45 3.17h-1.33l-1.55-2.68-1.57 2.68h-1.25l2.2-3.34-1.95-2.98h1.3l1.32 2.31 1.33-2.31h1.25l-1.95 2.94 2.2 3.38z"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 268">
+  <defs>
+    <polygon id="grid-a" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-c" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-e" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-g" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-i" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-k" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-m" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-o" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-q" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-s" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-u" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-w" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-y" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-A" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-C" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-E" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-G" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-I" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="grid-K" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-M" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-O" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-Q" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-S" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-U" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-W" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-Y" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-aa" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-ac" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-ae" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-ag" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-ai" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-ak" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-am" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-ao" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-aq" points="0 0 209 0 209 209 0 209"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(35 16)">
+    <g transform="translate(.5 .5)">
+      <mask id="grid-b" fill="#fff">
+        <use xlink:href="#grid-a"/>
+      </mask>
+      <g mask="url(#grid-b)">
+        <mask id="grid-d" fill="#fff">
+          <use xlink:href="#grid-c"/>
+        </mask>
+        <rect width="209" height="1" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-d)"/>
+        <mask id="grid-f" fill="#fff">
+          <use xlink:href="#grid-e"/>
+        </mask>
+        <rect width="209" height="1" y="13" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-f)"/>
+        <mask id="grid-h" fill="#fff">
+          <use xlink:href="#grid-g"/>
+        </mask>
+        <rect width="209" height="1" y="26" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-h)"/>
+        <mask id="grid-j" fill="#fff">
+          <use xlink:href="#grid-i"/>
+        </mask>
+        <rect width="209" height="1" y="39" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-j)"/>
+        <mask id="grid-l" fill="#fff">
+          <use xlink:href="#grid-k"/>
+        </mask>
+        <rect width="209" height="1" y="52" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-l)"/>
+        <mask id="grid-n" fill="#fff">
+          <use xlink:href="#grid-m"/>
+        </mask>
+        <rect width="209" height="1" y="65" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-n)"/>
+        <g>
+          <mask id="grid-p" fill="#fff">
+            <use xlink:href="#grid-o"/>
+          </mask>
+          <rect width="209" height="1" y="78" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-p)"/>
+        </g>
+        <g>
+          <mask id="grid-r" fill="#fff">
+            <use xlink:href="#grid-q"/>
+          </mask>
+          <rect width="209" height="1" y="91" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-r)"/>
+        </g>
+        <g>
+          <mask id="grid-t" fill="#fff">
+            <use xlink:href="#grid-s"/>
+          </mask>
+          <rect width="209" height="1" y="104" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-t)"/>
+        </g>
+        <g>
+          <mask id="grid-v" fill="#fff">
+            <use xlink:href="#grid-u"/>
+          </mask>
+          <rect width="209" height="1" y="117" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-v)"/>
+        </g>
+        <g>
+          <mask id="grid-x" fill="#fff">
+            <use xlink:href="#grid-w"/>
+          </mask>
+          <rect width="209" height="1" y="130" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-x)"/>
+        </g>
+        <g>
+          <mask id="grid-z" fill="#fff">
+            <use xlink:href="#grid-y"/>
+          </mask>
+          <rect width="209" height="1" y="143" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-z)"/>
+        </g>
+        <g>
+          <mask id="grid-B" fill="#fff">
+            <use xlink:href="#grid-A"/>
+          </mask>
+          <rect width="209" height="1" y="156" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-B)"/>
+        </g>
+        <g>
+          <mask id="grid-D" fill="#fff">
+            <use xlink:href="#grid-C"/>
+          </mask>
+          <rect width="209" height="1" y="169" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-D)"/>
+        </g>
+        <g>
+          <mask id="grid-F" fill="#fff">
+            <use xlink:href="#grid-E"/>
+          </mask>
+          <rect width="209" height="1" y="182" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-F)"/>
+        </g>
+        <g>
+          <mask id="grid-H" fill="#fff">
+            <use xlink:href="#grid-G"/>
+          </mask>
+          <rect width="209" height="1" y="195" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-H)"/>
+        </g>
+        <g>
+          <mask id="grid-J" fill="#fff">
+            <use xlink:href="#grid-I"/>
+          </mask>
+          <rect width="209" height="1" y="208" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-J)"/>
+        </g>
+      </g>
+      <mask id="grid-L" fill="#fff">
+        <use xlink:href="#grid-K"/>
+      </mask>
+      <rect width="1" height="209" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-L)"/>
+      <mask id="grid-N" fill="#fff">
+        <use xlink:href="#grid-M"/>
+      </mask>
+      <rect width="1" height="209" x="13" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-N)"/>
+      <mask id="grid-P" fill="#fff">
+        <use xlink:href="#grid-O"/>
+      </mask>
+      <rect width="1" height="209" x="26" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-P)"/>
+      <mask id="grid-R" fill="#fff">
+        <use xlink:href="#grid-Q"/>
+      </mask>
+      <rect width="1" height="209" x="39" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-R)"/>
+      <mask id="grid-T" fill="#fff">
+        <use xlink:href="#grid-S"/>
+      </mask>
+      <rect width="1" height="209" x="52" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-T)"/>
+      <mask id="grid-V" fill="#fff">
+        <use xlink:href="#grid-U"/>
+      </mask>
+      <rect width="1" height="209" x="65" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-V)"/>
+      <mask id="grid-X" fill="#fff">
+        <use xlink:href="#grid-W"/>
+      </mask>
+      <rect width="1" height="209" x="78" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-X)"/>
+      <g>
+        <mask id="grid-Z" fill="#fff">
+          <use xlink:href="#grid-Y"/>
+        </mask>
+        <rect width="1" height="209" x="91" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-Z)"/>
+      </g>
+      <g>
+        <mask id="grid-ab" fill="#fff">
+          <use xlink:href="#grid-aa"/>
+        </mask>
+        <rect width="1" height="209" x="104" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ab)"/>
+      </g>
+      <g>
+        <mask id="grid-ad" fill="#fff">
+          <use xlink:href="#grid-ac"/>
+        </mask>
+        <rect width="1" height="209" x="117" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ad)"/>
+      </g>
+      <g>
+        <mask id="grid-af" fill="#fff">
+          <use xlink:href="#grid-ae"/>
+        </mask>
+        <rect width="1" height="209" x="130" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-af)"/>
+      </g>
+      <g>
+        <mask id="grid-ah" fill="#fff">
+          <use xlink:href="#grid-ag"/>
+        </mask>
+        <rect width="1" height="209" x="143" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ah)"/>
+      </g>
+      <g>
+        <mask id="grid-aj" fill="#fff">
+          <use xlink:href="#grid-ai"/>
+        </mask>
+        <rect width="1" height="209" x="156" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-aj)"/>
+      </g>
+      <g>
+        <mask id="grid-al" fill="#fff">
+          <use xlink:href="#grid-ak"/>
+        </mask>
+        <rect width="1" height="209" x="169" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-al)"/>
+      </g>
+      <g>
+        <mask id="grid-an" fill="#fff">
+          <use xlink:href="#grid-am"/>
+        </mask>
+        <rect width="1" height="209" x="182" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-an)"/>
+      </g>
+      <g>
+        <mask id="grid-ap" fill="#fff">
+          <use xlink:href="#grid-ao"/>
+        </mask>
+        <rect width="1" height="209" x="195" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ap)"/>
+      </g>
+      <g>
+        <mask id="grid-ar" fill="#fff">
+          <use xlink:href="#grid-aq"/>
+        </mask>
+        <rect width="1" height="209" x="208" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ar)"/>
+      </g>
+      <rect width="195" height="195" x="7" y="7" stroke="#00FEFF" stroke-width="14" opacity=".5"/>
+      <g transform="translate(0 26)">
+        <rect width="209" height="157" fill="#FF1AD9" fill-opacity=".15" fill-rule="nonzero" rx="23.44"/>
+        <rect width="208" height="156" x=".5" y=".5" stroke="#FF1AD9" stroke-opacity=".8" rx="23.44"/>
+      </g>
+      <g transform="rotate(90 91.5 91.5)">
+        <rect width="209" height="157" fill="#FF1AD9" fill-opacity=".15" fill-rule="nonzero" rx="23.44"/>
+        <rect width="208" height="156" x=".5" y=".5" stroke="#FF1AD9" stroke-opacity=".8" rx="23.44"/>
+      </g>
+      <g transform="rotate(90 91.5 104.5)">
+        <rect width="183" height="183" fill="#FF1AD9" fill-opacity=".15" fill-rule="nonzero" rx="23.44"/>
+        <rect width="182" height="182" x=".5" y=".5" stroke="#FF1AD9" stroke-opacity=".8" rx="23.44"/>
+      </g>
+    </g>
+    <g fill-rule="nonzero" transform="translate(.5 213.5)">
+      <rect width="1" height="9" fill="#FFF" transform="translate(0 7)"/>
+      <rect width="1" height="9" fill="#0A84FF" fill-opacity=".8" transform="translate(0 7)"/>
+      <rect width="1" height="9" fill="#FFF" transform="translate(208 7)"/>
+      <rect width="1" height="9" fill="#0A84FF" fill-opacity=".8" transform="translate(208 7)"/>
+      <rect width="209" height="1" fill="#FFF" transform="translate(0 11)"/>
+      <rect width="209" height="1" fill="#0A84FF" fill-opacity=".8" transform="translate(0 11)"/>
+      <g transform="translate(89)">
+        <rect width="32" height="22" fill="#FFF" rx="2"/>
+        <rect width="32" height="22" fill="#0A84FF" fill-opacity=".8" rx="2"/>
+      </g>
+      <path fill="#FFF" d="M96.23,15 L95.13,15 L95.13,8.15 L93.25,9.29 L92.77,8.51 L95.25,6.97 L96.23,6.97 L96.23,15 L96.23,15 Z M102.36,10 C102.69,10.2 102.96,10.49 103.16,10.87 C103.36,11.26 103.46,11.72 103.46,12.27 C103.471937,12.7935721 103.355188,13.3120719 103.12,13.78 C102.707307,14.6216453 101.847318,15.1508695 100.91,15.14 C99.97,15.14 99.29,14.8 98.85,14.11 C98.3739714,13.2278314 98.1523984,12.2307531 98.21,11.23 C98.21,10.36 98.33,9.59 98.57,8.93 C98.82,8.27 99.17,7.76 99.62,7.4 C100.08,7.03 100.62,6.85 101.24,6.85 C101.85,6.85 102.4,7.02 102.9,7.35 L102.47,8.08 C102.098454,7.84757792 101.668237,7.72614589 101.23,7.73 C100.65,7.73 100.2,8 99.86,8.56 C99.53,9.11 99.34,9.85 99.31,10.78 C99.81,10.08 100.45,9.72 101.24,9.72 C101.65,9.72 102.02,9.82 102.36,10.01 L102.36,10 Z M101.97,13.74 C102.22,13.39 102.35,12.91 102.35,12.31 C102.35,11.17 101.91,10.6 101.05,10.6 C100.7,10.6 100.37,10.7 100.08,10.89 C99.78,11.09 99.53,11.36 99.32,11.7 C99.35,12.58 99.48,13.23 99.74,13.64 C99.99,14.06 100.38,14.27 100.91,14.27 C101.37,14.27 101.73,14.09 101.97,13.74 L101.97,13.74 Z M109.77,9.4 C110.14,9.97 110.33,10.78 110.33,11.83 C110.33,12.83 110.11,13.63 109.68,14.23 C109.25,14.84 108.63,15.14 107.84,15.14 C107.14,15.14 106.59,14.9 106.19,14.42 L106.19,17.42 L105.09,17.56 L105.09,8.68 L106.03,8.68 L106.11,9.53 C106.35,9.21 106.63,8.96 106.95,8.79 C107.269925,8.61890588 107.627198,8.52958767 107.99,8.53 C108.79,8.53 109.39,8.82 109.76,9.4 L109.77,9.4 Z M109.14,11.83 C109.14,10.22 108.66,9.41 107.71,9.41 C107.4,9.41 107.11,9.5 106.86,9.68 C106.6,9.87 106.38,10.1 106.19,10.39 L106.19,13.48 C106.488835,13.9649542 107.020413,14.2573221 107.59,14.25 C108.62,14.25 109.14,13.44 109.14,11.83 L109.14,11.83 Z M116.59,15 L115.26,15 L113.71,12.32 L112.14,15 L110.89,15 L113.09,11.66 L111.14,8.68 L112.44,8.68 L113.76,10.99 L115.09,8.68 L116.34,8.68 L114.39,11.62 L116.59,15 Z"/>
+    </g>
+    <g fill-rule="nonzero" transform="translate(213.5 .5)">
+      <rect width="9" height="1" fill="#FFF" transform="translate(11)"/>
+      <rect width="9" height="1" fill="#0A84FF" fill-opacity=".8" transform="translate(11)"/>
+      <rect width="9" height="1" fill="#FFF" transform="translate(11 208)"/>
+      <rect width="9" height="1" fill="#0A84FF" fill-opacity=".8" transform="translate(11 208)"/>
+      <rect width="1" height="209" fill="#FFF" transform="translate(15)"/>
+      <rect width="1" height="209" fill="#0A84FF" fill-opacity=".8" transform="translate(15)"/>
+      <g transform="translate(0 94)">
+        <rect width="32" height="22" fill="#FFF" rx="2"/>
+        <rect width="32" height="22" fill="#0A84FF" fill-opacity=".8" rx="2"/>
+      </g>
+      <path fill="#FFF" d="M7.23,109 L6.13,109 L6.13,102.15 L4.25,103.29 L3.77,102.51 L6.25,100.97 L7.23,100.97 L7.23,109 Z M13.36,104 C13.69,104.2 13.96,104.49 14.16,104.87 C14.36,105.26 14.46,105.72 14.46,106.27 C14.4719365,106.793572 14.3551882,107.312072 14.12,107.78 C13.7073069,108.621645 12.8473176,109.15087 11.91,109.14 C10.97,109.14 10.29,108.8 9.85,108.11 C9.37397139,107.227831 9.15239844,106.230753 9.21,105.23 C9.21,104.36 9.33,103.59 9.57,102.93 C9.82,102.27 10.17,101.76 10.62,101.4 C11.08,101.03 11.62,100.85 12.24,100.85 C12.85,100.85 13.4,101.02 13.9,101.35 L13.47,102.08 C13.0984536,101.847578 12.6682373,101.726146 12.23,101.73 C11.65,101.73 11.2,102 10.86,102.56 C10.53,103.11 10.34,103.85 10.31,104.78 C10.81,104.08 11.45,103.72 12.24,103.72 C12.65,103.72 13.02,103.82 13.36,104.01 L13.36,104 Z M12.97,107.74 C13.22,107.39 13.35,106.91 13.35,106.31 C13.35,105.17 12.91,104.6 12.05,104.6 C11.7,104.6 11.37,104.7 11.08,104.89 C10.78,105.09 10.53,105.36 10.32,105.7 C10.35,106.58 10.48,107.23 10.74,107.64 C10.99,108.06 11.38,108.27 11.91,108.27 C12.37,108.27 12.73,108.09 12.97,107.74 Z M20.77,103.4 C21.14,103.97 21.33,104.78 21.33,105.83 C21.33,106.83 21.11,107.63 20.68,108.23 C20.25,108.84 19.63,109.14 18.84,109.14 C18.14,109.14 17.59,108.9 17.19,108.42 L17.19,111.42 L16.09,111.56 L16.09,102.68 L17.03,102.68 L17.11,103.53 C17.35,103.21 17.63,102.96 17.95,102.79 C18.2699253,102.618906 18.6271981,102.529588 18.99,102.53 C19.79,102.53 20.39,102.82 20.76,103.4 L20.77,103.4 Z M20.14,105.83 C20.14,104.22 19.66,103.41 18.71,103.41 C18.4,103.41 18.11,103.5 17.86,103.68 C17.6,103.87 17.38,104.1 17.19,104.39 L17.19,107.48 C17.488835,107.964954 18.0204131,108.257322 18.59,108.25 C19.62,108.25 20.14,107.44 20.14,105.83 L20.14,105.83 Z M27.59,109 L26.26,109 L24.71,106.32 L23.14,109 L21.89,109 L24.09,105.66 L22.14,102.68 L23.44,102.68 L24.76,104.99 L26.09,102.68 L27.34,102.68 L25.39,105.62 L27.59,109 L27.59,109 Z"/>
+    </g>
+  </g>
+</svg>

@@ -9,19 +9,31 @@
 
   <h3>Grid</h3>
   <p>
-    Firefox icons live on a 16&times;16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps you ensure that the icons will not appear fuzzy in production.
+    Most of Firefox Desktop icons live on a <strong>16&times;16 pixel</strong> grid. Some specific small icons, used in rare cases, live on <strong>12&times;12 pixel</strong> grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps you ensure that the icons will not appear fuzzy in production. 
   </p>
   <% include ../includes/icons/icons-icon-grid.html %>
+  <p>
+    On Android icons are <strong>20&times;20</strong> with a bouding box of 24&times;24, according to the Material Design specs. On iOs icons live on <strong>24&times;24</strong> grid.
+  </p>
+  <% include ../includes/icons/icons-icon-grid-mobile.html %>
+
 
   <h3>Shape</h3>
   <p>
-    Use positive and negative space to create the shape of your icon. When lines principally shape your icon use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly.
+    Use positive and negative space to create the shape of your icon. When lines principally shape your icon use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly. On the <strong>12&times;12</strong> icons, take in consideration to use just 1px stroke or going solid.
   </p>
   <% include ../includes/icons/icons-icon-shape.html %>
   <p>
     When you have two rounded corners running parallel, the outer corner has a larger radius, set on 3px, than the one on the inside, set on 1px.
   </p>
   <% include ../includes/icons/icons-icon-border.html %>
+  <p>
+    To keep the same look and feel across platforms, on <strong>iOS</strong> it's suggested to use a 3px strokes for the foundation and a 2px strokes for the details. Align the icons in north west corner when required. 
+  </p>
+  <figure>
+    <img src="../images/icons/example-multiple-platform.png" alt="example with difference sizes for difference platforms">
+    <figcaption>How the shape changes according to the platform</figcaption>
+  </figure>
 </section>
 
 <section>
