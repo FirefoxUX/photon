@@ -1,5 +1,19 @@
 # Photon Design System Releases
 
+## [[0.3.3] - 2017-07-07](https://github.com/firefoxux/photon/releases/tag/v0.3.3)
+### Add
+- Introduction: Design for performance
+- Color: Orange palette
+- Color: Extended grey palette
+- Color: Color contrast values explanation
+
+### Change
+- Color: Color Text and Background Colors
+- General: Tables layout on mobile
+
+### Fix
+- [#59](https://github.com/FirefoxUX/photon/issues/59) Add oranges to design system 
+
 ## [[0.3.1] - 2017-06-22](https://github.com/firefoxux/photon/releases/tag/v0.3.1)
 ### Add
 - Typography: Font Usage
