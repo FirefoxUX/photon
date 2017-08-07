@@ -16,6 +16,9 @@
       },
       {"title": "Design for Scale",
         "file": "design-for-scale.html"
+      },
+      {"title": "Design for Performance",
+        "file": "design-for-performance.html"
       }
     ]
   },

@@ -17,29 +17,30 @@
         Looking for icons? Check out all the existing <a href="http://design.firefox.com/icons/">Firefox Icons</a>.
       </p>
     </blockquote>
+    <blockquote>
+      <p>
+        Check the <a href="../resources/resources.html#icons-templates">Firefox Icons Template</a>.
+      </p>
+    </blockquote>
   </div>
 </div>
 
 
   <h3>Grid</h3>
   <p>
-    Firefox icons live on a 16&times;16 pixel grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps you ensure that the icons will not appear fuzzy in production.
+    Most of Firefox Desktop icons live on a <strong>16&times;16 pixel</strong> grid. Some specific small icons, used in rare cases, live on <strong>12&times;12 pixel</strong> grid. Keep your shape weighted towards the middle area of the grid reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps you ensure that the icons will not appear fuzzy in production. 
   </p>
   <div class="cf nr3 nl3">
   <div class="fl-ns w-50-ns ph3">
     <figure>
       <img src="../images/icons/grid.svg" alt="icons grid">
+      <figcaption> 16&times;16 is the most common icon size on Firefox Desktop. In the image the blue area indicates the max size for round icons, magenta one is for square icons.</figcaption>
     </figure>
   </div>
   <div class="fl-ns w-50-ns ph3">
     <blockquote>
-      <p>
-        Check the <a href="../resources/resources.html#icons-templates">Firefox Icons Template</a>.
-      </p>
-    </blockquote>
-    <blockquote>
        <p>
-          In Sketch, select the shape and then select <em>Layer &#8594; Round to Nearest Pixel Edge</em>. Sketch will automatically align the edges with the pixel grid. It works for both the Position and Size values.
+          In Sketch, select the shape and then select <em>Layer &#8594; Round to Nearest Pixel Edge</em>. Sketch will automatically align the edges with the pixel grid.
       </p>
       <p>
          In Adobe Illustrator, use <em>View &#8594; Pixel Preview</em> to see your design on a pixel grid. Select a shape and use <em>Object &#8594; Make Pixel Perfect</em> to set position and size to the nearest full pixel. Or click the <em>Snap to Pixel</em> icon in the Control panel to turn on snapping permanently.
@@ -49,10 +50,30 @@
 </div>
 
 
+  <p>
+    On Android icons are <strong>20&times;20</strong> with a bouding box of 24&times;24, according to the Material Design specs. On iOs icons live on <strong>24&times;24</strong> grid.
+  </p>
+  <div class="cf nr3 nl3">
+  <div class="fl-ns w-50-ns ph3">
+    <figure>
+      <img src="../images/icons/grid-android.svg" alt="icons grid">
+      <figcaption>Icons grid for Android, 20&times;20 with a bouding box of 24&times;24</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-50-ns ph3">
+    <figure>
+      <img src="../images/icons/grid-ios.svg" alt="icons grid">
+      <figcaption>Icons grid for iOS, 24&times;24 </figcaption>
+    </figure>
+  </div>
+</div>
+
+
+
 
   <h3>Shape</h3>
   <p>
-    Use positive and negative space to create the shape of your icon. When lines principally shape your icon use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly.
+    Use positive and negative space to create the shape of your icon. When lines principally shape your icon use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly. On the <strong>12&times;12</strong> icons, take in consideration to use just 1px stroke or going solid.
   </p>
   <div class="cf nr2 nl2">
   <div class="fl-ns w-third-ns ph2 mb3">
@@ -79,7 +100,7 @@
   <div class="fl-ns w-third-ns ph2 mb3">
     <figure>
       <img class="db w-100-ns" src="../images/icons/border-do.svg" alt="border 3px outside 1px inside">
-      <figcaption class="flex bt bw2 b--green-60">
+      <figcaption class="flex bt bw2 b--green-60 pt1">
   <img class="mr2" src="../images/global/check.svg" alt="">
   <span class="green-70" style="margin-top: 2px">Do</span>
 </figcaption>
@@ -88,7 +109,7 @@
   <div class="fl-ns w-third-ns ph2 mb3">
     <figure>
       <img class="db w-100-ns" src="../images/icons/border-dont2.svg" alt="border 3px outside 3px inside">
-      <figcaption class="flex bt bw2 b--red-60">
+      <figcaption class="flex bt bw2 b--red-60 pt1">
   <img class="mr2" src="../images/global/stop.svg" alt="">
   <span class="red-60" style="margin-top: 2px">Don't</span>
 </figcaption>
@@ -97,7 +118,7 @@
   <div class="fl-ns w-third-ns ph2 mb3">
     <figure>
       <img class="db w-100-ns" src="../images/icons/border-dont1.svg" alt="border 1px outside 1px inside">
-      <figcaption class="flex bt bw2 b--red-60">
+      <figcaption class="flex bt bw2 b--red-60 pt1">
   <img class="mr2" src="../images/global/stop.svg" alt="">
   <span class="red-60" style="margin-top: 2px">Don't</span>
 </figcaption>
@@ -105,6 +126,13 @@
   </div>
 </div>
 
+  <p>
+    To keep the same look and feel across platforms, on <strong>iOS</strong> it's suggested to use a 3px strokes for the foundation and a 2px strokes for the details. Align the icons in north west corner when required. 
+  </p>
+  <figure>
+    <img src="../images/icons/example-multiple-platform.png" alt="example with difference sizes for difference platforms">
+    <figcaption>How the shape changes according to the platform</figcaption>
+  </figure>
 </section>
 
 <section>
@@ -119,7 +147,7 @@
   <div class="fl-ns w-third-ns ph2 mb3">
     <figure>
       <img class="db w-100-ns" src="../images/icons/naming-do1.svg" alt="naming does">
-      <figcaption class="flex bt bw2 b--green-60">
+      <figcaption class="flex bt bw2 b--green-60 pt1">
   <img class="mr2" src="../images/global/check.svg" alt="">
   <span class="green-70" style="margin-top: 2px">Do</span>
 </figcaption>
@@ -128,7 +156,7 @@
   <div class="fl-ns w-third-ns ph2 mb3">
     <figure>
       <img class="db w-100-ns" src="../images/icons/naming-do2.svg" alt="naming does">
-      <figcaption class="flex bt bw2 b--green-60">
+      <figcaption class="flex bt bw2 b--green-60 pt1">
   <img class="mr2" src="../images/global/check.svg" alt="">
   <span class="green-70" style="margin-top: 2px">Do</span>
 </figcaption>
@@ -137,7 +165,7 @@
   <div class="fl-ns w-third-ns ph2 mb3">
     <figure>
       <img class="db w-100-ns" src="../images/icons/naming-dont.svg" alt="naming doesnt">
-      <figcaption class="flex bt bw2 b--red-60">
+      <figcaption class="flex bt bw2 b--red-60 pt1">
   <img class="mr2" src="../images/global/stop.svg" alt="">
   <span class="red-60" style="margin-top: 2px">Don't</span>
 </figcaption>

@@ -1,0 +1,170 @@
+<header>
+  <h1>Design for Performance</h1>
+  <p>
+    Firefox products should look and feel fast!
+  </p>
+</header>
+
+<section>
+  <h2>Elements of Performance</h2>
+  <p>
+    The perception of performance is largely determined by four factors: <em>Duration</em>, <em>Responsiveness</em>, <em>Fluency</em> and <em>Tolerance</em>.
+  </p>
+
+  <h3>Duration</h3>
+  <p>
+    Duration is the actual duration that a process takes. This is the element that is often referred to as “performance” in technical discussions. Different magnitudes of duration require different treatments to achieve an optimal perceived performance.
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Terminology</th>
+        <th>Duration <br/><i>[Milliseconds]</i></th>
+        <th>Response</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Instantaneous</strong></td>
+        <td>up to 100ms</td>
+        <td>Acknowledge user input within this time frame. Ideally, a visible process towards the completion of the task begins within this time span.</td>
+      </tr>
+      <tr>
+        <td><strong>Immediate</strong></td>
+        <td>500–1000ms</td>
+        <td>Answers to simple requests must be completed within this time frame. (e.g. opening a new window)</td>
+      </tr>
+      <tr>
+        <td><strong>Continuous</strong></td>
+        <td>2000–5000ms</td>
+        <td>Answers to complex questions must be completed within this time frame. (e.g. loading a web page)</td>
+      </tr>
+      <tr>
+        <td><strong>Captive</strong></td>
+        <td>7000–10000ms</td>
+        <td>Users will begin switching tasks at this point. If a process takes longer than this, it should be segmented.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Responsiveness</h3>
+  <p>
+    Responsiveness is the user perceived time it takes the system to respond to user input.
+  </p>
+  <p>
+    Example: An empty dialog appearing immediately after a click and then taking a second to populate with content feels faster than the same dialog appearing with a second delay, but fully populated.
+  </p>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2 mb3">
+      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Responsiveness/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt1">
+  <img class="mr2" src="../images/global/check.svg" alt="">
+  <span class="green-70" style="margin-top: 2px">Do</span>
+</figcaption>
+    </div>
+    <div class="fl-ns w-50-ns ph2 mb3">
+      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Responsiveness/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--red-60 pt1">
+  <img class="mr2" src="../images/global/stop.svg" alt="">
+  <span class="red-60" style="margin-top: 2px">Don't</span>
+</figcaption>
+    </div>
+  </div>
+
+  <h3>Fluency</h3>
+  <p>
+    Fluency is the user perceived smoothness of a process. It could also be described as a measure for how hard the machine appears to be working. Aim for constant 60 frames per second.
+  </p>
+  <p>
+    Example: A stuttering progress indicator gives the impression of lower performance, regardless of the actual duration of the process.
+  </p>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-100-m w-third-ns ph2 mb3">
+      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Fluency/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt1">
+  <img class="mr2" src="../images/global/check.svg" alt="">
+  <span class="green-70" style="margin-top: 2px">Do</span>
+</figcaption>
+    </div>
+    <div class="fl-ns w-100-m w-third-ns ph2 mb3">
+      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Fluency/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--red-60 pt1">
+  <img class="mr2" src="../images/global/stop.svg" alt="">
+  <span class="red-60" style="margin-top: 2px">Don't</span>
+</figcaption>
+    </div>
+    <div class="fl-ns w-100-m w-third-ns ph2 mb3">
+      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Fluency/example-fallback.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt1">
+  <img class="mr2" src="../images/global/check.svg" alt="">
+  <span class="green-70" style="margin-top: 2px">Do</span>
+</figcaption>
+    </div>
+  </div>
+
+  <h3>Tolerance</h3>
+  <p>
+    Tolerance is a measure of how long the user expects a process to take and at what point they will abandon or cancel the process.
+  </p>
+  <p>
+    Example: The tolerated duration for loading a web page is much longer than for saving a bookmark.
+  </p>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2 mb3">
+      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Tolerance/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt1">
+  <img class="mr2" src="../images/global/check.svg" alt="">
+  <span class="green-70" style="margin-top: 2px">Do</span>
+</figcaption>
+    </div>
+    <div class="fl-ns w-50-ns ph2 mb3">
+      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Tolerance/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--red-60 pt1">
+  <img class="mr2" src="../images/global/stop.svg" alt="">
+  <span class="red-60" style="margin-top: 2px">Don't</span>
+</figcaption>
+    </div>
+  </div>
+
+  <h3>Bias and Priming</h3>
+  <p>
+    A user’s preconception about the speed of something – based on brand or prior knowledge – influences the perception of time.
+  </p>
+  <p>
+    Example: Users perceived a browser as being faster after reading an article about that browser having improved performance recently.
+  </p>
+</section>
+
+<section>
+  <h2>Other Influencing Factors</h2>
+  <p>
+    These factors can also influence the perception of performance:
+  </p>
+  <ul>
+    <li>Perceived task complexity</li>
+    <li>Emotional state</li>
+    <li>UI complexity and visual noise</li>
+    <li>Trends</li>
+    <li>Task frequency, attempts, failures</li>
+  </ul>
+</section>
+
+<section>
+  <h2>More on the Topic</h2>
+  <p>
+    Literature to detail the concepts explained above.
+  </p>
+  <ul>
+    <li>
+      <p>Why Performance Matters by Denys Mishunov - Smashing Magazine</p>
+      <ul>
+        <li><a href="https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/">Part 1: The Perception Of Time</a></li>
+        <li><a href="https://www.smashingmagazine.com/2015/11/why-performance-matters-part-2-perception-management/">Part 2: Perception Management</a></li>
+        <li><a href="https://www.smashingmagazine.com/2015/12/performance-matters-part-3-tolerance-management/">Part 3: Tolerance Management</a></li>
+      </ul>
+    </li>
+    <li><a href="https://www.safaribooksonline.com/library/view/designing-and-engineering/9780321562944/">Designing and Engineering Time:<br/>The Psychology of Time Perception in Software</a><br/>by Steven C. Seow Ph.D.</li>
+    <li><a href="https://openlibrary.org/works/OL15992072W">Thinking, fast and slow</a><br/>by Daniel Kahneman</li>
+    <li><a href="https://openlibrary.org/works/OL15570641W">Designing with the mind in mind</a><br/>by Johnson, Jeff Ph. D.</li>
+  </ul>
+</section>
