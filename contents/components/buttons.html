@@ -1,6 +1,6 @@
 <header>
   <h1>Buttons</h1>
-  <p>A short introduction about buttons if necessary</p>
+  <p>Buttons let users understand what action will occur when they click or tap them.</p>
 </header>
 <section>
   <h2>Types</h2>
@@ -29,38 +29,21 @@
 <section>
   <h2>Styles</h2>
   <h3>Text, Icons and Background Colors</h3>
-  <p>Text is set Grey 90</p>
-  <p>Standalone icons are Grey 60</p>
-  <p>Primary background color is blue 50</p>
-  <p>Default background color is </p>
+  <% include ../includes/buttons/buttons-styles-default.html %>
+  <% include ../includes/buttons/buttons-styles-primary.html %>
   <h3>Corner Radius</h3>
-  <div class="cf nr2 nl2">
-    <div class="w-50-ns ph2"></div>
-    <div class="w-50-ns ph2"></div>
-  </div>
-  <p>We use <code>2px</code> corner radius for all buttons.</p>
+  <% include ../includes/buttons/buttons-styles-radius.html %>
 </section>
 <section>
   <h2>Densities</h2>
-  <h4>Micro</h4>
-  <img src="https://screenshots.firefoxusercontent.com/images/12461070-462d-4f9c-8809-1abc08cd8c1a.png" alt="" style="max-width: 100px;">
-  <h4>Default</h4>
-  <img src="https://screenshots.firefoxusercontent.com/images/4f5b4be2-f721-4234-bd01-765d8297cafe.png" alt="" style="max-width: 150px;">
-  <h4>Puffy</h4>
-  <img src="https://screenshots.firefoxusercontent.com/images/627bb24b-0e14-4ec5-a91d-948b47858b9c.png" alt="" style="max-width: 300px;">
-</section>
-<section>
-  <h2>States</h2>
+  <h3>Micro</h3>
+  <% include ../includes/buttons/buttons-densities-micro.html %>
   <h3>Default</h3>
-  <h3>Focus</h3>
-  <h3>Pressed</h3>
-  <h3>Hover</h3>
-  <h3>Disabled</h3>
-  <h3>Progress</h3>
-  <img src="https://screenshots.firefoxusercontent.com/images/7ac5b17b-e2b7-4cbe-8a3d-5c0764af6713.png" alt="" style="max-width: 150px;">
+  <% include ../includes/buttons/buttons-densities-default.html %>
+  <h3>Puffy</h3>
+  <% include ../includes/buttons/buttons-densities-puffy.html %>
 </section>
 <section>
-  <blockquote>
-    <p>Buttons ≠ Links. Explain when to use a button and when to use a link. Maybe 'Usage' chapter.</p>
-  </blockquote>
+  <h2>Behaviour</h2>
+  <% include ../includes/buttons/buttons-behaviour.html %>
 </section>
