@@ -1,5 +1,33 @@
 # Photon Design System Releases
 
+## [[0.3.3] - 2017-07-07](https://github.com/firefoxux/photon/releases/tag/v0.3.3)
+### Add
+- Introduction: Design for performance
+- Color: Orange palette
+- Color: Extended grey palette
+- Color: Color contrast values explanation
+
+### Change
+- Color: Color Text and Background Colors
+- General: Tables layout on mobile
+
+### Fix
+- [#59](https://github.com/FirefoxUX/photon/issues/59) Add oranges to design system 
+
+## [[0.3.2] - 2017-07-17](https://github.com/firefoxux/photon/releases/tag/v0.3.2)
+### Add
+- Color: Opacity
+
+### Fix
+-[#37](https://github.com/FirefoxUX/photon/issues/37) "Iconography" is a much broader subject than just "icons", that happens to also cover "Illustrations". 
+-[#39](https://github.com/FirefoxUX/photon/issues/39) Incorrect links on Resources page 
+-[#40](https://github.com/FirefoxUX/photon/issues/40) Redundant links on Resources page 
+-[#45](https://github.com/FirefoxUX/photon/issues/45) Color uses singular in the menu, and plural in the page title 
+
+### Change
+- Resources: icons template
+
+
 ## [[0.3.1] - 2017-06-22](https://github.com/firefoxux/photon/releases/tag/v0.3.1)
 ### Add
 - Typography: Font Usage
