@@ -8,53 +8,111 @@
 </header>
 
 <section>
+
+  <h2>
+    Types
+  </h2>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <h3>
+        General
+      </h3>
+      <p>
+        Message bars contain a concise and scannable text directly related to the action performed or to be performed. They may contain a text action. They always contain a icon before the message.
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+      <img class="w-100-ns" src="../images/message-bars/general.svg" alt="pairing example">
+    </div>
+  </div>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <h3>
+        Dismissable
+      </h3>   
+      <p>
+        Unless they contain critical information, message bars are dismissible by clicking on the ghost button.
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+      <img class="w-100-ns" src="../images/message-bars/dismissable.svg" alt="pairing example">
+    </div>
+  </div>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <h3>
+        With buttons
+      </h3>
+      <p>
+        Add one or two buttons in the Messabe bar when you want users to  take an action after reading the message. 
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/message-bars/action.svg" alt="pairing example">
+    </div>
+  </div>
+
+</section>
+
+<section>
   <h2>
     Usage
   </h2>
   <p>
-    A message bars contain a single action, neither of which may be <strong>Dismiss</strong> or <strong>Cancel</strong>.
+    A message bars contain a one or more actions, neither of which may be <strong>Dismiss</strong> or <strong>Cancel</strong>.
   </p>
 </section>
 
 <section>
   <h2>
-    Style
-  </h2>
-
-  <h3>
     Anatomy
-  </h3>
-    <% include ../includes/components/message-bar-skeleton.html %>
-    <h4>
-      Size
-    </h4>
-    <p>
-      Message bars have a fixed width and height may vary depending on the content. It cannot grow more than its parent container.
-    </p>
+  </h2>
+    <div class="cf nr2 nl2">
+      <div class="fl-ns w-50-ns ph2"> 
+      <h3>
+        Size
+      </h3>
+      <p>
+        Message bars have a fixed width and height may vary depending on the content. It cannot grow more than its parent container.
+      </p>
 
-    <h4>
-      Title
-    </h4>
-    <p>
-      In case the message you're trying to comunicate it's really complex, you can use a title. When possible, communicate the main message using just the title. 
-    </p>
+      <h3>
+       Title
+      </h3>
+      <p>
+        In case the message you're trying to comunicate it's really complex, you can use a title. When possible, communicate the main message using just the title. 
+      </p>
 
-    <h4>
-      Message
-    </h4>
-    <p>
-      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
-    </p>
+      <h3>
+        Message
+      </h3>
+      <p>
+        The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
+      </p>
 
-    <h4>
-      Dismissal
-    </h4>
-    <p>
-      All notifications can be dismiss. Typically, it is a small “x” in the right corner.
-    </p>
-
-    <p>
-      Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
-    </p>
+      <h3>
+        Dismissal
+      </h3>
+      <p>
+        All notifications can be dismiss. Typically, it is a small “x” in the right corner.
+      </p>
+    </div>
+    <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <% include ../includes/components/message-bar-skeleton.html %>
+    </div>
+  </div>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <h3>
+        Icons
+      </h3>
+      <p>
+       Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
+       </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/message-bars/action.svg" alt="pairing example">
+    </div>
 
 </section>
