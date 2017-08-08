@@ -40,7 +40,13 @@ function loadUrl(dispatch, url) {
   dispatch({type: 'URL', url: url});
 }
 
+function changeFeedbackMessage(dispatch, feedback_ask) {
+  // Put something innocuous in the text to indicate we're loading.
+  dispatch({type: 'FEEDBACK', feedback_ask: feedback_ask});
+}
+
 module.exports = {
   getContent: getContent,
-  loadUrl: loadUrl
+  loadUrl: loadUrl,
+  changeFeedbackMessage: changeFeedbackMessage
 };

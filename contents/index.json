@@ -64,6 +64,8 @@
   {"title": "Components",
     "directory": "components",
     "pages": [ 
+      {"title": "Buttons",
+        "file": "buttons.html"},
        {"title": "Message bar",
         "file": "message-bar.html"}
     ]
