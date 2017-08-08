@@ -62,7 +62,10 @@
     ]
   },
   {"title": "Components",
+    "directory": "components",
     "pages": [
+      {"title": "Buttons",
+        "file": "buttons.html"}
     ]
   },
   {"title": "Inclusion",
