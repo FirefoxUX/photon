@@ -63,9 +63,11 @@
   },
   {"title": "Components",
     "directory": "components",
-    "pages": [
+    "pages": [ 
       {"title": "Buttons",
-        "file": "buttons.html"}
+        "file": "buttons.html"},
+       {"title": "Message bar",
+        "file": "message-bar.html"}
     ]
   },
   {"title": "Inclusion",
