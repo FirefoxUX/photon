@@ -58,7 +58,10 @@
     ]
   },
   {"title": "Patterns",
+    "directory": "patterns",
     "pages": [
+      {"title": "Inactive",
+        "file": "inactive.html"}
     ]
   },
   {"title": "Components",
