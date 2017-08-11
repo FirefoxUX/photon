@@ -1,5 +1,14 @@
 # Photon Design System Releases
 
+## [[0.3.4] - 2017-??-??](https://github.com/firefoxux/photon/releases/tag/v0.3.4)
+### Add
+
+### Fix
+-[#64](https://github.com/FirefoxUX/photon/issues/64)Feedback component broken on mobile
+-[#65](https://github.com/FirefoxUX/photon/issues/65) Wrong color code listed for one of the grays in dark theme 
+
+### Change
+
 ## [[0.3.3] - 2017-07-07](https://github.com/firefoxux/photon/releases/tag/v0.3.3)
 ### Add
 - Introduction: Design for performance
