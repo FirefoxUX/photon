@@ -1,5 +1,14 @@
 # Photon Design System Releases
 
+## [[0.3.4] - 2017-??-??](https://github.com/firefoxux/photon/releases/tag/v0.3.4)
+### Add
+
+### Fix
+- [#64](https://github.com/FirefoxUX/photon/issues/64) Feedback component broken on mobile
+- [#65](https://github.com/FirefoxUX/photon/issues/65) Wrong color code listed for one of the grays in dark theme 
+
+### Change
+
 ## [[0.3.3] - 2017-07-07](https://github.com/firefoxux/photon/releases/tag/v0.3.3)
 ### Add
 - Introduction: Design for performance
@@ -19,10 +28,10 @@
 - Color: Opacity
 
 ### Fix
--[#37](https://github.com/FirefoxUX/photon/issues/37) "Iconography" is a much broader subject than just "icons", that happens to also cover "Illustrations".
--[#39](https://github.com/FirefoxUX/photon/issues/39) Incorrect links on Resources page
--[#40](https://github.com/FirefoxUX/photon/issues/40) Redundant links on Resources page
--[#45](https://github.com/FirefoxUX/photon/issues/45) Color uses singular in the menu, and plural in the page title
+- [#37](https://github.com/FirefoxUX/photon/issues/37) "Iconography" is a much broader subject than just "icons", that happens to also cover "Illustrations".
+- [#39](https://github.com/FirefoxUX/photon/issues/39) Incorrect links on Resources page
+- [#40](https://github.com/FirefoxUX/photon/issues/40) Redundant links on Resources page
+- [#45](https://github.com/FirefoxUX/photon/issues/45) Color uses singular in the menu, and plural in the page title
 
 ### Change
 - Resources: icons template
@@ -33,10 +42,10 @@
 - Color: Opacity
 
 ### Fix
--[#37](https://github.com/FirefoxUX/photon/issues/37) "Iconography" is a much broader subject than just "icons", that happens to also cover "Illustrations". 
--[#39](https://github.com/FirefoxUX/photon/issues/39) Incorrect links on Resources page 
--[#40](https://github.com/FirefoxUX/photon/issues/40) Redundant links on Resources page 
--[#45](https://github.com/FirefoxUX/photon/issues/45) Color uses singular in the menu, and plural in the page title 
+- [#37](https://github.com/FirefoxUX/photon/issues/37) "Iconography" is a much broader subject than just "icons", that happens to also cover "Illustrations". 
+- [#39](https://github.com/FirefoxUX/photon/issues/39) Incorrect links on Resources page 
+- [#40](https://github.com/FirefoxUX/photon/issues/40) Redundant links on Resources page 
+- [#45](https://github.com/FirefoxUX/photon/issues/45) Color uses singular in the menu, and plural in the page title 
 
 ### Change
 - Resources: icons template

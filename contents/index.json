@@ -58,7 +58,12 @@
     ]
   },
   {"title": "Patterns",
+    "directory": "patterns",
     "pages": [
+      {"title": "Inactive",
+        "file": "inactive.html"},
+      {"title": "Shadows",
+        "file": "shadows.html"}
     ]
   },
   {"title": "Components",
