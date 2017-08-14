@@ -63,7 +63,9 @@
       {"title": "Inactive",
         "file": "inactive.html"},
       {"title": "Shadows",
-        "file": "shadows.html"}
+        "file": "shadows.html"},
+        {"title": "Warnings",
+        "file": "warnings.html"}
     ]
   },
   {"title": "Components",
@@ -71,8 +73,8 @@
     "pages": [ 
       {"title": "Buttons",
         "file": "buttons.html"},
-       {"title": "Message bar",
-        "file": "message-bar.html"}
+       {"title": "Message bars",
+        "file": "message-bars.html"}
     ]
   },
   {"title": "Inclusion",
