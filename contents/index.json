@@ -60,6 +60,8 @@
   {"title": "Patterns",
     "directory": "patterns",
     "pages": [
+      {"title": "Errors",
+        "file": "errors.html"},
       {"title": "Inactive",
         "file": "inactive.html"},
       {"title": "Shadows",
