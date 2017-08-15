@@ -8,48 +8,156 @@
 </header>
 
 <section>
+  <h3>
+    Types
+  </h3>
+  <h3>
+    Generic
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+        Convey general information or actions that aren’t critical. Default banners contain lower priority information and should always be dismissible.
+      </p>
+      <h5>STYLE</h5>
+      <p><strong>Background:</strong> Grey-20</p>
+      <p><strong>Content: </strong> Grey-90 </p>
+      <p><strong>Icon:</strong> Info icon </p>
+      <p><strong>Button type:</strong> Micro with uppercase text, Blue-50</p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+      <img class="w-100-ns" src="../images/message-bars/generic.svg" alt="generic message bar example">
+    </div>
+  </div>
+  <h3>
+    Attention
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+        Use to update users about a change or give them advice.
+      </p>
+      <h5>STYLE</h5>
+      <p><strong>Background:</strong> Teal-50</p>
+      <p><strong>Content: </strong> Teal-90 </p>
+      <p><strong>Icon:</strong> Attention icon, Teal-90</p>
+      <p><strong>Button type:</strong> Micro with uppercase text, Teal-60</p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+      <img class="w-100-ns" src="../images/message-bars/attention.svg" alt="attention message bar example">
+    </div>
+  </div>
+   <h3>
+    Success
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+       Inform users when actions are successfully completed
+      </p>
+      <h5>STYLE</h5>
+      <p><strong>Background:</strong> Green-50</p>
+      <p><strong>Content: </strong> Green-90 </p>
+      <p><strong>Icon:</strong> Check icon </p>
+      <p><strong>Button type:</strong> Micro with uppercase text, Green-60</p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+    <img class="w-100-ns" src="../images/message-bars/success.svg" alt="success message bar example"> 
+    </div>
+  </div>
+  <h3>
+    Warnings
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+       Display warning that needs attention or that the merchant needs to take action on. Seeing these banners can be stressful for merchants so be cautious about using them.
+      </p>
+      <h5>STYLE</h5>
+      <p><strong>Background:</strong> Yellow-50</p>
+      <p><strong>Content: </strong> Yellow-90 </p>
+      <p><strong>Icon:</strong> Warning icon </p>
+      <p><strong>Button type:</strong> Micro with uppercase text, Yellow-60</p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+     <img class="w-100-ns" src="../images/message-bars/warning.svg" alt="warning message bar example">
+    </div>
+  </div>
+  <h3>Errors</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+       Communicate problems that have to be resolved immediately for the users to complete a task. Seeing these banners can be stressful for the users, so be cautious about using them.
+      </p>
+      <h5>STYLE</h5>
+      <p><strong>Background:</strong> Red-50</p>
+      <p><strong>Content: </strong> White </p>
+      <p><strong>Icon:</strong> info icon </p>
+      <p><strong>Button type:</strong> Micro with uppercase text, Red-60</p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+      <img class="w-100-ns" src="../images/message-bars/error.svg" alt="error message bar example">
+    </div>
+  </div>
+</section>
+
+<section>
   <h2>
     Usage
   </h2>
   <p>
-    A message bars contain a one or more actions, neither of which may be <strong>Dismiss</strong> or <strong>Cancel</strong>.
+    Message bars contain a concise and scannable text directly related to the action performed or to be performed. They may contain contain a one or more actions, neither of which may be <strong>Dismiss</strong> or <strong>Cancel</strong>. They always contain a icon before the message.
+  </p>
+  <p>
+    Message bars can be used to display different kinds of information such as success messages, updates, warnings and problems.
   </p>
 </section>
 
 <section>
   <h2>
-    Types
+    Structure
   </h2>
   <h3>
-    General
+    Icons
   </h3>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-        Message bars contain a concise and scannable text directly related to the action performed or to be performed. They may contain a text action. They always contain a icon before the message.
+       Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
       </p>
     </div>
-    <div class="fl-ns w-50-ns ph2"> 
-      <img class="w-100-ns" src="../images/message-bars/general.svg" alt="pairing example">
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/message-bars/icons.svg" alt="pairing example">
     </div>
   </div>
-
   <h3>
-    Dismissable
-  </h3> 
+    Title
+  </h3>
   <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">   
+    <div class="fl-ns w-50-ns ph2">
       <p>
-        Unless they contain critical information, message bars are dismissible by clicking on the ghost button.
+         In case the message you're trying to comunicate it's really complex, you can use a title. When possible, communicate the main message using just the title. 
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2"> 
-      <img class="w-100-ns" src="../images/message-bars/dismissable.svg" alt="pairing example">
+        <img class="w-100-ns" src="../images/message-bars/title.svg" alt="pairing example">
     </div>
   </div>
-
   <h3>
-    With buttons
+    Message
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2">
+      <p>
+        The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+      <img class="w-100-ns" src="../images/message-bars/title.svg" alt="pairing example">
+    </div>
+  </div>
+  <h3>
+  Actions
   </h3>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
@@ -61,6 +169,21 @@
       <img class="w-100-ns" src="../images/message-bars/action.svg" alt="pairing example">
     </div>
   </div>
+  <h3>
+    Dismissable
+  </h3> 
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2">   
+      <p>
+        Unless they contain critical information, message bars are dismissible by clicking on the ghost button, placed always on the right corner.
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+      <img class="w-100-ns" src="../images/message-bars/ghost-btn.svg" alt="pairing example">
+    </div>
+  </div>
+
+  
 </section>
 
 <section>
@@ -80,64 +203,11 @@
         <img class="w-100-ns" src="../images/message-bars/height.svg" alt="pairing example">
       </div>
     </div>
-    
-    <h3>
-      Title
-    </h3>
-    <div class="cf nr2 nl2">
-      <div class="fl-ns w-50-ns ph2">
-        <p>
-         In case the message you're trying to comunicate it's really complex, you can use a title. When possible, communicate the main message using just the title. 
-        </p>
-      </div>
-      <div class="fl-ns w-50-ns ph2"> 
-        <img class="w-100-ns" src="../images/message-bars/title.svg" alt="pairing example">
-      </div>
-    </div>
-    
-    <h3>
-      Message
-    </h3>
-    <div class="cf nr2 nl2">
-      <div class="fl-ns w-50-ns ph2">
-      <p>
-        The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
-      </p>
-      </div>
-      <div class="fl-ns w-50-ns ph2"> 
-        <img class="w-100-ns" src="../images/message-bars/title.svg" alt="pairing example">
-      </div>
-    </div>
-    
-    <h3>
-      Dismissal
-    </h3>
-    <div class="cf nr2 nl2">
-      <div class="fl-ns w-50-ns ph2">
-      <p>
-        Message bars can be dismiss with a ghost button, placed always on the right corner.
-      </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2">  
-      <img class="w-100-ns" src="../images/message-bars/ghost-btn.svg" alt="pairing example">
-    </div>
-  </div>
 
-  <h3>
-    Icons
-  </h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
-      <p>
-       Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
-       </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/message-bars/icons.svg" alt="pairing example">
-    </div>
+  
 </section>
 
 <section>
-  <h2>Example</h2>
-  <% include ../includes/components/message-bars/message-bar-skeleton.html %>
+  
+  
 </section>
