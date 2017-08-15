@@ -2,18 +2,47 @@
   <h1>Shadows</h1>
 </header>
 <section>
+  <h2>Usage</h2>
   <p>
-    When you place a component above another element you can use shadows to highlight elevation.
+    When you need to highlight the difference in elevantion between two componetns you can use shadows.
   </p>
+  <h2>Style</h2>
+  <% include ../includes/patterns/shadows/elevation.html %>
   <table>
+    <thead>
+      <tr>
+        <th>Shadow</th>
+        <th>X</th>
+        <th>Y</th>
+        <th>Blur</th>
+        <th>Color</th>
+        <th>Opacity</th>
+      </tr>
+    </thead>
     <tbody>
       <tr>
-        <td>Shadow 10</td>
-        <td><code>box-shadow: 0 1px 4px rgba(12, 12, 13, .1);</code></td>
+        <td>10</td>
+        <td>0</td>
+        <td>1px</td>
+        <td>4px</td>
+        <td>#0c0c0d</td>
+        <td>10%</td>
       </tr>
       <tr>
-        <td>Shadow 20</td>
-        <td><code>box-shadow: 0 2px 8px rgba(12, 12, 13, .1);</code></td>
+        <td>20</td>
+        <td>0</td>
+        <td>2px</td>
+        <td>8px</td>
+        <td>#0c0c0d</td>
+        <td>10%</td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>0</td>
+        <td>4px</td>
+        <td>16px</td>
+        <td>#0c0c0d</td>
+        <td>10%</td>
       </tr>
     </tbody>
   </table>
