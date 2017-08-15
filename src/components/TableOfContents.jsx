@@ -65,8 +65,8 @@ const TableOfContents = React.createClass({
         className="bg-light-gray h-100 w-100 z-max order-1 order-0-l w-6-l"
         id="nav"
             >
-      <div className="flex flex-column h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-auto">
-        <div className="self-start dn db-l mb4">
+      <div className="h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-auto">
+        <div className="dn db-l mb4">
           <p className="f4 fw5 lh-solid ma0">
             <a className="near-black no-underline"
                 href={`${PREFIX}/index.html`}
@@ -74,10 +74,10 @@ const TableOfContents = React.createClass({
             </a>
           </p>
         </div>
-        <div className="self-stretch h-100 mb5">
+        <div className="mb5">
           {items}
         </div>
-        <div className="self-end w-100 pb3 pb4-l">
+        <div className="pb3 pb4-l">
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
             <a className="near-black no-underline near-black"
                 href="https://github.com/FirefoxUX/photon/issues/new"
