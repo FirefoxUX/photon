@@ -329,7 +329,8 @@ small {
   background-color: var(--teal-60);
 }
 
-.bg-teal-70 {
+.bg-teal-70,
+.hover-bg-teal-70:hover {
   background-color: var(--teal-70);
 }
 
@@ -440,7 +441,8 @@ small {
   background-color: var(--red-60);
 }
 
-.bg-red-70 {
+.bg-red-70,
+.hover-bg-red-70:hover {
   background-color: var(--red-70);
 }
 
