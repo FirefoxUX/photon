@@ -75,7 +75,9 @@
     "pages": [ 
       {"title": "Buttons",
         "file": "buttons.html"},
-       {"title": "Message bars",
+      {"title": "Link",
+        "file": "link.html"},  
+      {"title": "Message bars",
         "file": "message-bars.html"}
     ]
   },
