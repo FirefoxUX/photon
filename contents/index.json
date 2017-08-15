@@ -60,13 +60,13 @@
   {"title": "Patterns",
     "directory": "patterns",
     "pages": [
-      {"title": "Errors",
+      {"title": "Errors (draft)",
         "file": "errors.html"},
       {"title": "Inactive",
         "file": "inactive.html"},
       {"title": "Shadows",
         "file": "shadows.html"},
-        {"title": "Warnings",
+        {"title": "Warnings (draft)",
         "file": "warnings.html"}
     ]
   },
@@ -77,7 +77,7 @@
         "file": "buttons.html"},
       {"title": "Link",
         "file": "link.html"},  
-      {"title": "Message bars",
+      {"title": "Message bars (draft)",
         "file": "message-bars.html"}
     ]
   },
