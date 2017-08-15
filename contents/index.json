@@ -73,7 +73,7 @@
   {"title": "Components",
     "directory": "components",
     "pages": [ 
-      {"title": "Buttons",
+      {"title": "Buttons (draft)",
         "file": "buttons.html"},
       {"title": "Link",
         "file": "link.html"},  
