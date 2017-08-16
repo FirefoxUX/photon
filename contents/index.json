@@ -75,6 +75,8 @@
     "pages": [ 
       {"title": "Buttons (draft)",
         "file": "buttons.html"},
+      {"title": "Dropdown Buttons (draft)",
+        "file": "dropdown-buttons.html"},
       {"title": "Link (draft)",
         "file": "link.html"},  
       {"title": "Message bars (draft)",
