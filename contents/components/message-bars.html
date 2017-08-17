@@ -32,11 +32,7 @@
       <p>
         Convey general information or actions that aren’t critical. Default banners contain lower priority information and should always be dismissible.
       </p>
-      <h5>STYLE</h5>
-      <p><strong>Background:</strong> Grey-20 <code>#ededf0</code></p>
-      <p><strong>Content: </strong> Grey-90 <code>#0c0c0d</code></p>
-      <p><strong>Icon:</strong> Info icon </p>
-      <p><strong>Button type:</strong> Micro with uppercase text, Blue-50 <code>#0a84ff</code></p>
+      
     </div>
     <div class="fl-ns w-50-ns ph2"> 
       <img class="w-100-ns" src="../images/message-bars/generic.svg" alt="generic message bar example">
@@ -50,11 +46,7 @@
       <p>
         Use to update users about a change or give them advice.
       </p>
-      <h5>STYLE</h5>
-      <p><strong>Background:</strong> Teal-50 <code>#00feff</code></p>
-      <p><strong>Content: </strong> Teal-90 <code>#002d3e</code> </p>
-      <p><strong>Icon:</strong> Attention icon</p>
-      <p><strong>Button type:</strong> Micro with uppercase text, Teal-60 <code>#00c8d7</code></p>
+
     </div>
     <div class="fl-ns w-50-ns ph2"> 
       <img class="w-100-ns" src="../images/message-bars/attention.svg" alt="attention message bar example">
@@ -69,10 +61,8 @@
        Inform users when actions are successfully completed
       </p>
       <h5>STYLE</h5>
-      <p><strong>Background:</strong> Green-50 <code>#30e60b</code></p>
-      <p><strong>Content: </strong> Green-90 <code>#003706</code></p>
-      <p><strong>Icon:</strong> Check icon </p>
-      <p><strong>Button type:</strong> Micro with uppercase text, Green-60 <code>#12bc00</code></p>
+      
+      
     </div>
     <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/success.svg" alt="success message bar example"> 
@@ -86,11 +76,6 @@
       <p>
        Display warning that needs attention or that the merchant needs to take action on. Seeing these banners can be stressful for merchants so be cautious about using them.
       </p>
-      <h5>STYLE</h5>
-      <p><strong>Background:</strong> Yellow-50 <code>#ffe900</code></p>
-      <p><strong>Content: </strong> Yellow-90 <code>#3e2800</code> </p>
-      <p><strong>Icon:</strong> Warning icon </p>
-      <p><strong>Button type:</strong> Micro with uppercase text, Yellow-60 <code>#d7b600</code></p>
     </div>
     <div class="fl-ns w-50-ns ph2"> 
      <img class="w-100-ns" src="../images/message-bars/warning.svg" alt="warning message bar example">
@@ -103,9 +88,8 @@
        Communicate problems that have to be resolved immediately for the users to complete a task. Seeing these banners can be stressful for the users, so be cautious about using them.
       </p>
       <h5>STYLE</h5>
-      <p><strong>Background:</strong> Red-50 <code>#ff0039</code></p>
-      <p><strong>Content: </strong> White <code>#ffffff</code> </p>
-      <p><strong>Icon:</strong> Warning icon </p>
+      
+      
       <p><strong>Button type:</strong> Micro with uppercase text, Red-60 <code>#d70022</code></p>
     </div>
     <div class="fl-ns w-50-ns ph2"> 
@@ -118,8 +102,10 @@
   <h2>
     Style
   </h2>
-  <h3>
-    Dimensions
+
+  <% include ../includes/components/message-bars/style-tabs-structure.html %>
+   <!-- <h3>
+    Sizes and grid
   </h3>
    <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">  
@@ -132,6 +118,38 @@
     </div>
   </div>
   <h3>
+    Color
+  </h3>
+   <div class="cf nr2 nl2">
+
+    <div class="fl-ns w-50-ns ph2">
+      <p>The color scheme of the component is related of its type.</p>
+      <h5>GENERIC</h5>
+      <p><strong>Background:</strong> Grey-20 <code>#ededf0</code></p>
+      <p><strong>Content:</strong> Grey-90 <code>#0c0c0d</code></p>
+    
+      <h5>ATTENTION</h5>
+      <p><strong>Background:</strong> Teal-50 <code>#00feff</code></p>
+      <p><strong>Content: </strong> Teal-90 <code>#002d3e</code> </p>
+      
+      <h5>SUCCESS</h5>
+      <p><strong>Background:</strong> Green-50 <code>#30e60b</code></p>
+      <p><strong>Content: </strong> Green-90 <code>#003706</code></p>
+
+      <h5>WARNING</h5>
+      <p><strong>Background:</strong> Yellow-50 <code>#ffe900</code></p>
+      <p><strong>Content: </strong> Yellow-90 <code>#3e2800</code> </p>
+
+      <h5>ERROR</h5>
+      <p><strong>Background:</strong> Red-50 <code>#ff0039</code></p>
+      <p><strong>Content: </strong> White <code>#ffffff</code> </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2"> 
+       <img class="w-100-ns" src="../images/message-bars/sizes-one-line.svg" alt="pairing example">
+    </div>
+  </div>
+  
+  <h3>
     Icons
   </h3>
   <div class="cf nr2 nl2">
@@ -141,7 +159,21 @@
       </p>
       <p>
         Icons always have a <code>4px</code> padding all around.
-     </p>
+      </p>
+      <h5>GENERIC</h5>
+      <p><strong>Icon:</strong> Info icon </p>
+    
+      <h5>ATTENTION</h5>
+      <p><strong>Icon:</strong> Attention icon</p>
+
+      <h5>SUCCESS</h5>
+      <p><strong>Icon:</strong> Check icon </p>      
+
+      <h5>WARNING</h5>
+      <p><strong>Icon:</strong> Warning icon </p>
+    
+      <h5>ERROR</h5>
+      <p><strong>Icon:</strong> Warning icon </p>
     </div>
     <div class="fl-ns w-50-ns ph2">
       <img class="w-100-ns" src="../images/message-bars/icons.svg" alt="pairing example">
@@ -149,7 +181,7 @@
   </div>
   
   <h3>
-    Message
+    Typography
   </h3>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">
@@ -163,23 +195,13 @@
     <div class="fl-ns w-50-ns ph2"> 
       <img class="w-100-ns" src="../images/message-bars/title.svg" alt="pairing example">
     </div>
-  </div>
+  </div> -->
+</section>
+
+<section>
+  <h2>Behaviour</h2>
   <h3>
-  Actions
-  </h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
-      <p>
-        Add one or two buttons in the Messabe bar when you want users to  take an action after reading the message. 
-      </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/message-bars/action-1.svg" alt="pairing example">
-      <img class="w-100-ns" src="../images/message-bars/action-2.svg" alt="pairing example">
-    </div>
-  </div>
-  <h3>
-    Dismissable
+  Dismissable
   </h3> 
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">   
@@ -190,5 +212,19 @@
     <div class="fl-ns w-50-ns ph2"> 
       <img class="w-100-ns" src="../images/message-bars/ghost-btn.svg" alt="pairing example">
     </div>
-  </div>
+  </div> 
+  <h3>
+  Call to action
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+        Add one or two buttons in the message bar when you want users to take an action after reading the message. 
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/message-bars/action-1.svg" alt="pairing example">
+      <img class="w-100-ns" src="../images/message-bars/action-2.svg" alt="pairing example">
+    </div>
+  </div> 
 </section>

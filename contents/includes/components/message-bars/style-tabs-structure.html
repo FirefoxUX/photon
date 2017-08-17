@@ -1,0 +1,50 @@
+<style>
+  div[data-tabs] input[type="radio"]:checked + label {
+    color: var(--blue-50);
+    background-color: var(--grey-10);
+    padding: .5rem;
+  }
+  div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
+    display: block;
+  }
+  div[data-tabs] input[type="radio"] + label:hover {
+  background-color: var(--grey-10)
+  }
+</style>
+<div class="flex flex-wrap" data-tabs>
+  <input class="dn" type="radio" name="tabs" id="overview-win" checked="checked">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-win">Generic</label>
+  <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+    
+
+    <% include ./message-bar-generic.html %>
+
+  </div>
+  <input class="dn" type="radio" name="tabs" id="overview-mac-os">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-mac-os">Attention</label>
+  <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+    <% include ./message-bar-attention.html %>
+  </div>
+
+  <input class="dn" type="radio" name="tabs" id="overview-ubuntu">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-ubuntu">Success</label>
+    <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+
+  <% include ./message-bar-success.html %>
+  </div>
+
+  <input class="dn" type="radio" name="tabs" id="overview-web">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-web">Warning</label>
+  <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+
+  <% include ./message-bar-warning.html %>
+  </div>
+
+  <input class="dn" type="radio" name="tabs" id="overview-android">
+  <label class="f6 pa2 f5-ns order-1-m db mb3 mr3 pointer bg-light-grey" for="overview-android">Errors</label>
+      <div class="order-last w-100 dn bg-white flex-grow-1" data-tab>
+
+      <% include ./message-bar-error.html %>
+
+  </div>
+</div>
