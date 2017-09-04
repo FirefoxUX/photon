@@ -336,3 +336,22 @@ main section article {
   height: 16px;
   width: 16px;
 }
+
+/* Tabs */
+
+div[data-tabs] input[type="radio"] + label {
+  border-top: 2px solid transparent;
+}
+
+div[data-tabs] input[type="radio"]:checked + label {
+  border-color: var(--blue-50);
+  color: var(--blue-60);
+}
+
+div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
+  display: block;
+}
+
+div[data-tabs] input[type="radio"] + label:hover {
+  color: var(--blue-60);
+}
