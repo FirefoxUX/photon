@@ -89,6 +89,10 @@
     "pages": [
     ]
   },
+  {"title": "Brand",
+    "directory": "brand",
+    "file": "brand.html"
+  },
   {"title": "Resources",
     "directory": "resources",
     "file": "resources.html"
