@@ -24,13 +24,13 @@ code {
   position: relative;
 
   &::after {
-    background-color: #333333;
+    background-color: var(--grey-70);
     border-radius: 4px;
     color: white;
     content: "Click to copy";
     display: block;
     font-family: "Fira Sans";
-    font-size: .75rem;
+    font-size: 11px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 500;
@@ -205,7 +205,7 @@ main section {
   }
 
   code {
-    background-color: #eeeeee;
+    background-color: var(--grey-20);
     border-radius: 3px;
     margin: 0 1px;
     padding: 4px;
@@ -215,8 +215,9 @@ main section {
 /* Section blockquote */
 
 main section blockquote {
-  background-color: #eeeeee;
+  background-color: white;
   border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(12, 12, 13, .1);
   box-sizing: border-box;
   font-size: 13px;
   margin: 0 0 1rem;
@@ -244,7 +245,8 @@ main section div[class] blockquote {
 main section table {
   border-collapse: collapse;
   border-spacing: 0;
-  border-top: 2px solid #eeeeee;
+  border-top: 1px solid var(--grey-20);
+  background-color: white;
   display: inline-block;
   font-size: 13px;
   margin-bottom: 1.4rem;
@@ -260,7 +262,7 @@ main section table {
   }
 
   thead {
-    background-color: #eeeeee;
+    background-color: var(--grey-20);
   }
 
   th {
@@ -277,8 +279,11 @@ main section table {
     }
   }
 
+  tr:not(:last-child) {
+    border-bottom: 1px solid var(--grey-20);
+  }
+
   td {
-    border-bottom: 2px solid #eeeeee;
     padding: .5rem .75rem;
 
     p {
@@ -333,6 +338,11 @@ div[data-tabs] input[type="radio"] + label {
   border-top: 2px solid transparent;
 }
 
+div[data-tabs] input[type="radio"] + label:hover {
+  background-color: var(--grey-20);
+  border-color: var(--grey-30);
+}
+
 div[data-tabs] input[type="radio"]:checked + label {
   border-color: var(--blue-50);
   color: var(--blue-60);
@@ -342,6 +352,3 @@ div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
   display: block;
 }
 
-div[data-tabs] input[type="radio"] + label:hover {
-  color: var(--blue-60);
-}
