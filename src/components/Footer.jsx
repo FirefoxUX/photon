@@ -24,19 +24,23 @@ const Footer = connect(state => {
     return(
       <footer className="fira">
         <div className="center mw7 ph3 pb3-l cf">
-          <p className="fl w-50 fw5 tl mt0">
-            <span className="pr2 pr3-ns code fw6">&#8592;</span>
-            <Link activeClassName="fw5"
-                className="no-underline black"
+          <p className="fl w-50 tl mt0">
+            <Link
+                className="no-underline blue-60"
                 to={getUrl(this.props.previous_page)}
-            >{this.props.previous_page.title}
+            ><img className="dib pr2 v-mid" 
+                src={"../../images/global/back-16.svg"}
+             />{this.props.previous_page.title}
             </Link>
           </p>
-          <p className="fl w-50 fw5 tr mt0">
-            <Link activeClassName="fw5"
-                className="no-underline black"
+          <p className="fl w-50 tr mt0">
+            <Link
+                className="no-underline blue-60"
                 to={getUrl(this.props.next_page)}
-            >{this.props.next_page.title}<span className="pl2 pl3-ns code fw6">&#8594;</span>
+            >{this.props.next_page.title}
+              <img className="dib pl2 v-mid" 
+                  src={"../../images/global/forward-16.svg"} 
+              />
             </Link>
           </p>
         </div>
