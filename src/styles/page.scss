@@ -8,9 +8,13 @@
 /* Defaults */
 
 a {
-  color: var(--blue-50);
+  color: var(--blue-60);
   cursor: pointer;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Click to copy tooltip */
@@ -158,17 +162,16 @@ main section {
   }
 
   a {
-    color: var(--blue-50);
-    text-decoration: none;
-
     &:not([class])[href*="//"]::after {
-      background-image: url('../../images/global/open-new-tab.svg');
-      background-size: 12px 12px;
+      background-image: url('../../images/global/open-in-new.svg');
+      background-size: 16px 16px;
+      background-repeat: no-repeat;
       content: "";
       display: inline-block;
-      height: 12px;
-      margin: 0 .15rem 0 .25rem;
-      width: 12px;
+      height: 16px;
+      margin: -.3rem .15rem 0 .25rem;
+      width: 16px;
+      vertical-align: middle;
     }
   }
 
