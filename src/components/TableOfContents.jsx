@@ -48,7 +48,7 @@ const TableOfContents = React.createClass({
       }
       return (
         <Page
-            classes="db no-underline fw5 ma0 pv2 near-black"
+            classes="db no-underline hover-no-underline fw5 ma0 pv2 near-black"
             i={i}
             item={item}
             key={i}

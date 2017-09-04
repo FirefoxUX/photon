@@ -45,6 +45,12 @@ small {
   outline-offset: -1px;
 }
 
+// Text Decoration
+
+.hover-no-underline:hover {
+  text-decoration: none;
+}
+
 // Flex
 
 .flex-grow-1 {
