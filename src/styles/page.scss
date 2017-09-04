@@ -297,23 +297,22 @@ main section table {
 }
 
 main section article {
-  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: white;
   border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(12, 12, 13, .1);
   margin-bottom: 1.5rem;
+  padding: 1rem;
 
   @media screen and (min-width: 30em) {
     width: 75%;
   }
 
-  h4 {
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    margin: 0;
-    padding: 1rem;
+  h3 {
+    margin: 0 0 1rem;
   }
 
   p {
     margin: 0;
-    padding: 1rem;
   }
 }
 
