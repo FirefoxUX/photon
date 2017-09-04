@@ -2,6 +2,14 @@
   Overwrites and new classes on top of Tachyons CSS
 */
 
+// Global
+
+html,
+body {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 // Figure
 
 figure {
@@ -26,7 +34,7 @@ code,
 
 .small,
 small {
-  font-size: small;
+  font-size: 11px;
 }
 
 // Withs
