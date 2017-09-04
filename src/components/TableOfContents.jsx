@@ -68,7 +68,7 @@ const TableOfContents = React.createClass({
       <div className="h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-auto">
         <div className="dn db-l mb4">
           <p className="f3 fw5 lh-solid ma0">
-            <a className="grey-90 no-underline"
+            <a className="grey-90 no-underline hover-no-underline"
                 href={`${PREFIX}/index.html`}
             >{'Photon Design System'}
             </a>

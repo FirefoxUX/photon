@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:not([class]):hover {
   text-decoration: underline;
 }
 
@@ -244,16 +244,15 @@ main section div[class] blockquote {
 
 main section table {
   background-color: white;
+  border: 1px solid var(--grey-20);
   border-collapse: collapse;
   border-spacing: 0;
-  border-top: 1px solid var(--grey-20);
   display: inline-block;
   font-size: 13px;
   margin-bottom: 1.4rem;
   max-width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
-  vertical-align: top;
   white-space: nowrap;
 
   @media screen and (min-width: 30em) {
