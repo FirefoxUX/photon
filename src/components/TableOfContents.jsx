@@ -48,7 +48,7 @@ const TableOfContents = React.createClass({
       }
       return (
         <Page
-            classes="db no-underline hover-no-underline fw5 ma0 pv2 near-black"
+            classes="db no-underline hover-no-underline fw5 ma0 pv2 grey-90 lh-solid"
             i={i}
             item={item}
             key={i}
@@ -62,13 +62,13 @@ const TableOfContents = React.createClass({
     }
 
     return (<nav
-        className="bg-light-gray h-100 w-100 z-max order-1 order-0-l w-6-l"
+        className="bg-white shadow-1 h-100 w-100 z-max order-1 order-0-l w-6-l"
         id="nav"
             >
       <div className="h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-auto">
         <div className="dn db-l mb4">
-          <p className="f4 fw5 lh-solid ma0">
-            <a className="near-black no-underline"
+          <p className="f3 fw5 lh-solid ma0">
+            <a className="grey-90 no-underline"
                 href={`${PREFIX}/index.html`}
             >{'Photon Design System'}
             </a>
@@ -79,20 +79,20 @@ const TableOfContents = React.createClass({
         </div>
         <div className="pb3 pb4-l">
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="near-black no-underline near-black"
+            <a className="blue-60 no-underline"
                 href="https://github.com/FirefoxUX/photon/issues/new"
             >{'Site Feedback'}
             </a>
           </p>
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="dib no-underline near-black mr2"
+            <a className="dib no-underline blue-60 mr2"
                 href="https://github.com/FirefoxUX/photon/releases"
             >{'Changelog'}
             </a>
             <span className="grey-50">{'Beta v0.3.3'}</span>
           </p>
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="near-black no-underline near-black"
+            <a className="blue-60 no-underline"
                 href="https://www.mozilla.org/privacy/websites/"
             >{'Privacy Policy'}
             </a>

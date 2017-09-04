@@ -6,6 +6,7 @@
 
 html,
 body {
+  color: var(--grey-90);
   font-size: 15px;
   line-height: 1.5;
 }
@@ -34,6 +35,22 @@ code,
 
 .small,
 small {
+  font-size: 13px;
+}
+
+.f1 {
+  font-size: 33px;
+}
+
+.f2 {
+  font-size: 22px;
+}
+
+.f3 {
+  font-size: 17px;
+}
+
+.f4 {
   font-size: 13px;
 }
 
@@ -71,32 +88,6 @@ small {
 
 .hover-white:hover {
   color: white;
-}
-
-// Blue
-
-.blue-40 {
-  color: var(--blue-40);
-}
-
-.blue-50 {
-  color: var(--blue-50);
-}
-
-.blue-60 {
-  color: var(--blue-60);
-}
-
-.blue-70 {
-  color: var(--blue-70);
-}
-
-.blue-80 {
-  color: var(--blue-80);
-}
-
-.blue-90 {
-  color: var(--blue-90);
 }
 
 // Teal
@@ -305,33 +296,33 @@ small {
   color: var(--grey-90);
 }
 
-// Background colors
-
 // Blue
 
-.bg-blue-40 {
-  background-color: var(--blue-40);
+.blue-40 {
+  color: var(--blue-40);
 }
 
-.bg-blue-50 {
-  background-color: var(--blue-50);
+.blue-50 {
+  color: var(--blue-50);
 }
 
-.bg-blue-60 {
-  background-color: var(--blue-60);
+.blue-60 {
+  color: var(--blue-60);
 }
 
-.bg-blue-70 {
-  background-color: var(--blue-70);
+.blue-70 {
+  color: var(--blue-70);
 }
 
-.bg-blue-80 {
-  background-color: var(--blue-80);
+.blue-80 {
+  color: var(--blue-80);
 }
 
-.bg-blue-90 {
-  background-color: var(--blue-90);
+.blue-90 {
+  color: var(--blue-90);
 }
+
+// Background colors
 
 // Teal
 
@@ -540,6 +531,32 @@ small {
 
 .bg-grey-90 {
   background-color: var(--grey-90);
+}
+
+// Blue
+
+.bg-blue-40 {
+  background-color: var(--blue-40);
+}
+
+.bg-blue-50 {
+  background-color: var(--blue-50);
+}
+
+.bg-blue-60 {
+  background-color: var(--blue-60);
+}
+
+.bg-blue-70 {
+  background-color: var(--blue-70);
+}
+
+.bg-blue-80 {
+  background-color: var(--blue-80);
+}
+
+.bg-blue-90 {
+  background-color: var(--blue-90);
 }
 
 // Border colors

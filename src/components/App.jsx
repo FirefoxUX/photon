@@ -20,7 +20,7 @@ const App = React.createClass({
   render: function() {
     return (<div className="flex flex-column flex-row-l fixed-l w-100-l h-100-l mt5 mt0-l">
       <TableOfContents/>
-      <main className="order-0 order-1-l overflow-y-scroll-l w-100">
+      <main className="order-0 order-1-l overflow-y-scroll-l w-100 bg-grey-10">
         <Editor/>
         <Feedback/>
         <Footer/>
