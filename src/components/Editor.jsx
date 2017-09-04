@@ -54,9 +54,9 @@ const Editor = React.createClass({
   highlightSelectedTitle: function() {
     let element = document.getElementById(decodeURIComponent(window.location.hash.replace(/#/g,'')));
     if (element) {
-      element.classList.add('blue-50');
+      element.classList.add('blue-60');
       setTimeout(function(){
-        element.classList.remove('blue-50');
+        element.classList.remove('blue-60');
       }, 1000);
     }
   },
