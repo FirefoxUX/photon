@@ -31,7 +31,7 @@ const Feedback = connect(state => {
     return(
       <div className="center mw7 ph3 mb4 mb5-l">
         {this.props.feedback_ask &&
-          <div className="w-100 ba b--light-gray br2 pt3 ph3 pb2 pt2-ns pb1-ns flex-ns justify-between-ns items-center-ns">
+          <div className="w-100 bg-white shadow-1 br2 pt3 ph3 pb2 pt2-ns pb1-ns flex-ns justify-between-ns items-center-ns">
             <p className="mt0 mb3 mb0-ns lh-copy tc"
                 id="feedback-text"
             >{'Tell us, was the content of this page helpful?'}</p>

@@ -54,7 +54,13 @@ small {
   font-size: 13px;
 }
 
-// Withs
+// Shadow
+
+.shadow-1 {
+  box-shadow: 0 1px 4px rgba(12, 12, 13, .1);
+}
+
+// Width
 
 @media screen and (min-width: 60em) {
   .w-6-l { width: 24rem; }
