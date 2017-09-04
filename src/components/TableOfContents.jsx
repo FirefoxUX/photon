@@ -80,7 +80,7 @@ const TableOfContents = React.createClass({
         <div className="pb3 pb4-l">
           <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
             <a className="blue-60 no-underline"
-                href="https://github.com/FirefoxUX/photon/issues/new"
+                href="https://github.com/FirefoxUX/photon/issues/"
             >{'Site Feedback'}
             </a>
           </p>
