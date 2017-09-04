@@ -66,8 +66,8 @@ main header {
   margin-bottom: 2rem;
 
   h1 {
-    font-weight: 200;
     font-size: 33px;
+    font-weight: 200;
     margin: 0 0 2rem;
   }
 
@@ -167,7 +167,7 @@ main section {
 
   a {
     &:not([class])[href*="//"]::after {
-      background-image: url('../../images/global/open-in-new.svg');
+      background-image: url('../../images/global/open-in-new-16.svg');
       background-repeat: no-repeat;
       background-size: 16px 16px;
       content: "";
