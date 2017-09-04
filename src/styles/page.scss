@@ -60,6 +60,13 @@ code {
   }
 }
 
+/* Tables are set with overflow:hidden. If the `table` has no `thead` but it has `code` in the first `tr` when you hover `code` the pseudo element is cut off. This hack solve this issue. */
+
+tr:first-child > td > code:hover::after {
+  opacity: 1;
+  top: 2rem;
+}
+
 /* Header */
 
 main header {
