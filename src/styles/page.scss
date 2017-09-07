@@ -45,6 +45,7 @@ code {
     transform: translateX(-50%);
     transition: top .3s cubic-bezier(.07, .95, 0, 1), opacity .3s cubic-bezier(.07, .95, 0, 1);
     width: 5.2rem;
+    z-index: 1;
   }
 
   &:hover {
@@ -64,7 +65,7 @@ code {
 
 tr:first-child > td > code:hover::after {
   opacity: 1;
-  top: 2rem;
+  top: 1.8rem;
 }
 
 /* Header */
@@ -250,39 +251,36 @@ main section div[class] blockquote {
 /* Section table */
 
 main section table {
-  background-color: white;
+  background: linear-gradient(to right, rgba(12, 12, 13, .1) -32px, white 32px, white calc(100% - 32px), rgba(12, 12, 13, .1) calc(100% + 32px));
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: 100%;
   border: 1px solid var(--grey-20);
   border-collapse: collapse;
   border-spacing: 0;
   display: inline-block;
-  font-size: 13px;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1rem;
   max-width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
+  vertical-align: top;
   white-space: nowrap;
 
-  @media screen and (min-width: 30em) {
-    font-size: 15px;
-    white-space: normal;
+  @media screen and (min-width: 60em) {
+    display: inline-table;
+    width: 100%;
   }
 
-  thead {
-    background-color: var(--grey-20);
+  th,
+  td {
+    padding: 8px;
   }
 
   th {
+    background-color: var(--grey-20);
+    font-size: 13px;
     font-weight: 500;
-    padding: .5rem .75rem;
     text-align: left;
-
-    @media screen and (min-width: 30em) {
-      padding: .75rem 1rem;
-    }
-
-    p {
-      margin: 0;
-    }
   }
 
   tr:not(:last-child) {
@@ -290,15 +288,22 @@ main section table {
   }
 
   td {
-    padding: .5rem .75rem;
-
     p {
       margin: 0;
     }
+  }
 
-    @media screen and (min-width: 30em) {
-      padding: .75rem 1rem;
-    }
+  td:first-child {
+    background-image: linear-gradient(to right, white 0, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 64px 100%;
+  }
+
+  td:last-child {
+    background-image: linear-gradient(to left, white 0, transparent 100%);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 64px 100%;
   }
 }
 
