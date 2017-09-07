@@ -60,27 +60,33 @@
   {"title": "Patterns",
     "directory": "patterns",
     "pages": [
-      {"title": "Errors (draft)",
-        "file": "errors.html"},
+      {"title": "Errors",
+        "file": "errors.html",
+        "draft": "true"},
       {"title": "Inactive",
         "file": "inactive.html"},
       {"title": "Shadows",
         "file": "shadows.html"},
-        {"title": "Warnings (draft)",
-        "file": "warnings.html"}
+        {"title": "Warnings",
+        "file": "warnings.html",
+        "draft": "true"}
     ]
   },
   {"title": "Components",
     "directory": "components",
     "pages": [ 
-      {"title": "Buttons (draft)",
-        "file": "buttons.html"},
-      {"title": "Input Fields (draft)",
-      "file": "input-fields.html"},
-      {"title": "Link (draft)",
-        "file": "link.html"},  
-      {"title": "Message bars (draft)",
-        "file": "message-bars.html"}
+      {"title": "Buttons",
+        "file": "buttons.html",
+        "draft": "true"},
+      {"title": "Input Fields",
+        "file": "input-fields.html",
+        "draft": "true"},
+      {"title": "Link",
+        "file": "link.html",
+        "draft": "true"},
+      {"title": "Message bars",
+        "file": "message-bars.html",
+        "draft": "true"}
     ]
   },
   {"title": "Inclusion",
