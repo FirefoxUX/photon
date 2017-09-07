@@ -266,6 +266,11 @@ main section table {
   vertical-align: top;
   white-space: nowrap;
 
+  @media screen and (min-width: 60em) {
+    display: inline-table;
+    width: 100%;
+  }
+
   th,
   td {
     padding: 8px;
