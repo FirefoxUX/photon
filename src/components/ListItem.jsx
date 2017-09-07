@@ -38,9 +38,12 @@ const ListItem = connect(state => {
       this.props.handleClick(item);
     }
     const pages = item.pages || [item];
+    const selected = (page && item.title === page.category);
+    const expanded = selected || this.props.expanded;
 
-    return (<div className={((page && item.title === page.category) ? ' selected' : '') +
+    return (<div className={'listitem' + (selected ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
+        style={{height: (2 + expanded * 2 * pages.length) + 'em'}}
             >
       <p className={'fw5 ma0 pv2 lh-solid' + (item.pages.length ? '' : ' grey-50')}
           onClick={handleClick}
