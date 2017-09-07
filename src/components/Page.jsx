@@ -28,13 +28,17 @@ const Page = connect(state => {
 
   render() {
     const { item, i, page, pages, classes } = this.props;
+    let draft = '';
+    if (item.draft) {
+      draft = <span className="f4 fw5 bg-grey-20 grey-90 br2 ml2 pa1 lh-solid">{'DRAFT'}</span>;
+    }
 
     const url = getUrl(item);
     return (<Link activeClassName="blue-60"
         className={classes + ((item.title === page.file) ? ' selected' : '')}
         key={pages.indexOf(page) + ':' + i}
         to={url}
-            >{item.title}</Link>);
+            >{item.title}{draft}</Link>);
   }
 }));
 
