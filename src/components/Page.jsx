@@ -30,7 +30,7 @@ const Page = connect(state => {
     const { item, i, page, pages, classes } = this.props;
     let draft = '';
     if (item.draft) {
-      draft = <span className="f4 fw5 bg-grey-20 grey-90 br2 ml2 pa1 lh-solid">{'DRAFT'}</span>;
+      draft = <span className="f4 fw5 bg-yellow-50 yellow-90 br2 ml2 pa1 lh-solid">{'DRAFT'}</span>;
     }
 
     const url = getUrl(item);
