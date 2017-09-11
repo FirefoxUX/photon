@@ -41,7 +41,7 @@ const ListItem = connect(state => {
     const selected = (page && item.title === page.category);
     const expanded = selected || this.props.expanded;
 
-    return (<div className={'listitem' + (selected ? ' selected' : '') +
+    return (<div className={'overflow-hidden height-animate pointer' + (selected ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
         style={{height: (2 + expanded * 2 * pages.length) + 'em'}}
             >

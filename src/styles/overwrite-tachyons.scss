@@ -94,6 +94,12 @@ small {
   flex-grow: 1;
 }
 
+// Transitions
+
+.height-animate {
+  transition: height 300ms cubic-bezier(.07,.95,0,1);
+}
+
 // Colors
 
 // White
