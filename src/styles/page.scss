@@ -364,6 +364,7 @@ div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
 }
 
 .listitem {
+  cursor: pointer;
   overflow: hidden;
   transition: height 300ms ease-in-out;
 }
