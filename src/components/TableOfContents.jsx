@@ -16,7 +16,7 @@ const TableOfContents = React.createClass({
   },
 
   getInitialState : function() {
-    return {expanded: null};
+    return {expanded: new Set()};
   },
 
   render: function() {
@@ -24,11 +24,14 @@ const TableOfContents = React.createClass({
 
     let setState = this.setState.bind(this);
     let handleClick = (item) => {
-      if (expanded === item) {
-        item = null;
+      let expanded = new Set(this.state.expanded);
+      if (expanded.has(item)) {
+        expanded.delete(item);
+      } else {
+        expanded.add(item);
       }
       setState({
-        expanded: item
+        expanded: expanded
       });
     }
 
@@ -38,7 +41,7 @@ const TableOfContents = React.createClass({
       if (item.pages) {
         return (
           <ListItem
-              expanded={item === expanded}
+              expanded={expanded.has(item)}
               handleClick={handleClick}
               i={i}
               item={item}
