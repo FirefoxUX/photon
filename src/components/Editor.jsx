@@ -76,7 +76,7 @@ const Editor = React.createClass({
         e.id = newId;
         if (e.tagName != 'H1') {
           let linkTo = document.createElement('a');
-          linkTo.innerHTML = `<div class="link-image"></div>`;
+          linkTo.innerHTML = `<div class="link-image" title="Link to this section"></div>`;
           linkTo.href = `#${e.id}`;
           e.appendChild(linkTo);
         }
