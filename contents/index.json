@@ -5,25 +5,23 @@
     "hidden": true
   },
   {
-    "title": "Introduction",
+    "title": "Photon Design",
     "directory": "introduction",
     "pages": [
-      {"title": "Getting started",
-        "file": "getting-started.html"
-      },
-      {"title": "Principles",
-        "file": "principles.html"
-      },
       {"title": "Design for Scale",
         "file": "design-for-scale.html"
       },
       {"title": "Design for Performance",
         "file": "design-for-performance.html"
+      },
+      {"title": "Design for Inclusion",
+        "file": "design-for-inclusion.html",
+        "draft": "true"
       }
     ]
   },
   {
-    "title": "Visual",
+    "title": "Visuals",
     "directory": "visual",
     "pages": [
       {"title":"Grid",
@@ -51,8 +49,12 @@
   {"title": "Copy",
     "directory": "copy",
     "pages": [
-      {"title": "Copy Rules",
-        "file": "copy-rules.html"},
+      {"title": "Voice and Tone",
+        "file": "voice-and-tone.html"},
+      {"title": "Writing for Users",
+        "file": "writing-for-users.html"},
+      {"title": "Capitalization and Punctuation",
+        "file": "capitalization-and-punctuation.html"},
       {"title": "Word List",
         "file": "word-list.html"}
     ]
@@ -89,16 +91,22 @@
         "draft": "true"}
     ]
   },
-  {"title": "Inclusion",
-    "pages": [
-    ]
-  },
-  {"title": "Branding",
+  {"title": "Product Identity Stytem",
     "directory": "branding",
     "file": "firefox-branding.html"
   },
   {"title": "Resources",
     "directory": "resources",
-    "file": "resources.html"
+    "pages": [ 
+      {"title": "Icons",
+        "file": "icons.html",
+        "draft": "true"},
+      {"title": "Fonts",
+        "file": "fonts.html",
+        "draft": "true"},
+      {"title": "Tokens",
+        "file": "tokens.html",
+        "draft": "true"}
+    ]
   }
 ]
