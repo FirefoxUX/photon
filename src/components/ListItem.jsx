@@ -24,7 +24,7 @@ const ListItem = connect(state => {
   getPage: (item, i) => {
     return (
       <Page
-          classes="db no-underline hover-no-underline grey-90 fw4 pv2 pl3 lh-solid"
+          classes="db no-underline hover-no-underline hover-blue-60 grey-90 fw4 pv2 pl3 lh-solid"
           i={i}
           item={item}
           key={i}
@@ -45,7 +45,7 @@ const ListItem = connect(state => {
               (this.props.expanded ? ' expanded' : '')}
         style={{height: (2 + expanded * 2 * pages.length) + 'em'}}
             >
-      <p className={'fw5 ma0 pv2 lh-solid' + (item.pages.length ? '' : ' grey-50')}
+      <p className={'fw5 ma0 pv2 lh-solid hover-blue-60' + (item.pages.length ? '' : ' grey-50')}
           onClick={handleClick}
       >{item.title}</p>
       {pages.map(this.getPage)}
