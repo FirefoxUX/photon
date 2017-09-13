@@ -8,6 +8,12 @@
     "title": "Photon Design",
     "directory": "introduction",
     "pages": [
+      {"title": "Principles",
+        "file": "principles.html"
+      },
+      {"title": "Getting Started",
+        "file": "getting-started.html"
+      },
       {"title": "Design for Scale",
         "file": "design-for-scale.html"
       },
@@ -44,7 +50,12 @@
   {
     "title": "Motion",
     "directory": "motion",
-    "file": "motion.html"
+    "pages": [
+      {"title": "Principles",
+        "file": "principles.html"},
+      {"title": "Duration and Easing",
+        "file": "duration-and-easing.html"}
+    ]
   },
   {"title": "Copy",
     "directory": "copy",
@@ -91,9 +102,12 @@
         "draft": "true"}
     ]
   },
-  {"title": "Product Identity Stytem",
+  {"title": "Product Identity System",
     "directory": "branding",
-    "file": "firefox-branding.html"
+    "pages": [
+      {"title": "Product Identity System",
+        "file": "firefox-branding.html"}
+    ]
   },
   {"title": "Resources",
     "directory": "resources",
