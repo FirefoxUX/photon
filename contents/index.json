@@ -44,7 +44,9 @@
       },
       {"title": "Illustration",
         "file": "illustration.html"
-      }
+      },
+      {"title": "Product Identity Assets",
+        "file": "product-identity-assets.html"}
     ]
   },
   {
@@ -100,13 +102,6 @@
       {"title": "Message bars",
         "file": "message-bars.html",
         "draft": "true"}
-    ]
-  },
-  {"title": "Product Identity System",
-    "directory": "branding",
-    "pages": [
-      {"title": "Product Identity System",
-        "file": "firefox-branding.html"}
     ]
   },
   {"title": "Resources",
