@@ -64,45 +64,49 @@ const TableOfContents = React.createClass({
       items = [];
     }
 
-    return (<nav
-        className="bg-white shadow-1 h-100 w-100 z-max order-1 order-0-l w-6-l"
-        id="nav"
-            >
-      <div className="h-100 center mw7 pt3 ph3 pt4-l ph4-l overflow-y-auto">
-        <div className="dn db-l mb4">
-          <p className="f3 fw5 lh-solid ma0">
-            <a className="grey-90 no-underline hover-no-underline"
-                href={`${PREFIX}/index.html`}
-            >{'Photon Design System'}
-            </a>
-          </p>
+    return (<div>
+        <nav
+            className="fixed top-0 relative-l bg-white shadow-1 h-100 z-max order-0-l w-18r w-20r-l flex-shrink-0 left-animate"
+            id="nav"
+        >
+        <div className="h-100 center mw7 pt3 pt4-l ph3 ph4-l overflow-y-auto">
+          <div className="dn db-l mb4">
+            <p className="f3 fw5 lh-solid ma0">
+              <a className="grey-90 no-underline hover-no-underline"
+                  href={`${PREFIX}/index.html`}
+              >{'Photon Design System'}
+              </a>
+            </p>
+          </div>
+          <div className="mb5">
+            {items}
+          </div>
+          <div className="pb3 pb4-l">
+            <p className="lh-copy mt0 mb1 fw4 f6">
+              <a className="blue-60 no-underline"
+                  href="https://github.com/FirefoxUX/photon/issues/"
+              >{'Site Feedback'}
+              </a>
+            </p>
+            <p className="lh-copy mt0 mb1 fw4 f6">
+              <a className="dib no-underline blue-60 mr2"
+                  href="https://github.com/FirefoxUX/photon/releases"
+              >{'Changelog'}
+              </a>
+              <span className="grey-50">{'Beta v0.3.3'}</span>
+            </p>
+            <p className="lh-copy mt0 mb1 fw4 f6">
+              <a className="blue-60 no-underline"
+                  href="https://www.mozilla.org/privacy/websites/"
+              >{'Privacy Policy'}
+              </a>
+            </p>
+          </div>
         </div>
-        <div className="mb5">
-          {items}
-        </div>
-        <div className="pb3 pb4-l">
-          <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="blue-60 no-underline"
-                href="https://github.com/FirefoxUX/photon/issues/"
-            >{'Site Feedback'}
-            </a>
-          </p>
-          <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="dib no-underline blue-60 mr2"
-                href="https://github.com/FirefoxUX/photon/releases"
-            >{'Changelog'}
-            </a>
-            <span className="grey-50">{'Beta v0.3.3'}</span>
-          </p>
-          <p className="lh-copy mt0 mb1 fw4 f6 dib-m mr4-m">
-            <a className="blue-60 no-underline"
-                href="https://www.mozilla.org/privacy/websites/"
-            >{'Privacy Policy'}
-            </a>
-          </p>
-        </div>
+      </nav>
+      <div className="fixed w-100 h-100 top-0 left-0 bg-black-40 z-999 o-0 opacity-animate">
       </div>
-    </nav>)
+    </div>)
   }
 });
 

@@ -62,8 +62,12 @@ small {
 
 // Width
 
+// This is very ugly, we need a more elegant solution.
+
+.w-18r { width: 18rem; }
+
 @media screen and (min-width: 60em) {
-  .w-6-l { width: 28rem; }
+  .w-20r-l { width: 20rem; }
 }
 
 // Outline
@@ -94,13 +98,31 @@ small {
   flex-grow: 1;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
 // Transitions
 
 .height-animate {
   transition: height 300ms cubic-bezier(.07, .95, 0, 1);
 }
 
+.left-animation {
+  transition: left 300ms cubic-bezier(.07, .95, 0, 1);
+}
+
+.opacity-animate {
+  transition: opacity 300ms cubic-bezier(.07, .95, 0, 1);
+}
+
 // Colors
+
+// Opacity
+
+.bg-black-40 {
+  background-color: rgba(12, 12, 13, .4);
+}
 
 // White
 
