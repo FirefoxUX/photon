@@ -28,7 +28,7 @@
   },
   {
     "title": "Visuals",
-    "directory": "visual",
+    "directory": "visuals",
     "pages": [
       {"title":"Grid",
       "file": "grid.html"
