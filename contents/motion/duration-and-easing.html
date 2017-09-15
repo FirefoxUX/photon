@@ -1,11 +1,19 @@
 <header>
   <h1>Duration and Easing</h1>
-  <p>A rigidly linear movement looks unnatural to the human eye. Accelerate and decelerate smoothly to help your animation feel more natural.</p>
+  <p>
+    A rigidly linear movement looks unnatural to the human eye. Accelerate and decelerate smoothly to help your animation feel more natural.
+  </p>
 </header>
 
-<section>  
+<section>
+  <h2>Duration</h2>
+  <p>
+    Animations should last from 150ms up to 250ms and should feel quick and responsive. Shorter animations are also more easily compiled by machines, helps to achieve the sensation of quick responsiveness.
   </p>
-  <h2>Animation Curve</h2>
+</section>
+
+<section>
+  <h2>Easing</h2>
   <% include ../includes/motion/motion-curve.html %>
   <table>
     <thead>
@@ -17,7 +25,7 @@
     <tbody>
       <tr>
         <td><p>CSS</p></td>
-        <td><p><code>cubic-bezier(.07,.95,0,1);</code></p></td>
+        <td><p><code>cubic-bezier(.07,.95,0,1)</code></p></td>
       </tr>
       <tr>
         <td><p>After Effects</p></td>
@@ -31,10 +39,4 @@
   <figure>
     <img src="../images/motion/curve.jpg" alt="">
   </figure>
-</section>
-<section>
-  <h2>Durations</h2>
-  <p>
-    Animations should last from 150ms up to 250ms and have to feel quick and responsive. Shorter animations are also more easily compiled by machines, which helps to achieve this feeling.
-  </p>
 </section>
