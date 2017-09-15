@@ -66,7 +66,11 @@ small {
 
 .w-18r { width: 18rem; }
 
+.l-0r { left: 0; }
+
 .l-18r { left: -18rem; }
+
+.z-min { z-index: -1; }
 
 @media screen and (min-width: 60em) {
   .w-20r-l { width: 20rem; }

@@ -69,11 +69,13 @@ const TableOfContents = React.createClass({
     if (!page) {
       items = [];
     }
-    let navClass = "fixed top-0 relative-l bg-white shadow-1 h-100 z-max order-0-l w-18r w-20r-l flex-shrink-0 left-animate l-0-l";
-    let overlayClass = "fixed w-100 h-100 top-0 left-0 bg-black-40 z-999 o-0 opacity-animate";
+    let navClass = "fixed top-0 relative-l bg-white shadow-1 h-100 z-max order-0-l w-18r l-0r w-20r-l flex-shrink-0 left-animate l-0-l";
+    let overlayClass = "fixed w-100 h-100 top-0 left-0 bg-black-40 opacity-animate";
     if (!nav) {
       navClass += " l-18r";
-      overlayClass += " dn";
+      overlayClass += " z-min o-0";
+    } else {
+      overlayClass += " z-999 o-100";
     }
 
     return (<div>
