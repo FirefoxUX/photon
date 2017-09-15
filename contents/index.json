@@ -21,8 +21,7 @@
         "file": "design-for-performance.html"
       },
       {"title": "Design for Inclusion",
-        "file": "design-for-inclusion.html",
-        "draft": "true"
+        "file": "design-for-inclusion.html"
       }
     ]
   },
@@ -66,8 +65,10 @@
         "file": "voice-and-tone.html"},
       {"title": "Writing for Users",
         "file": "writing-for-users.html"},
-      {"title": "Capitalization and Punctuation",
+      {"title": "Capitalization",
         "file": "capitalization-and-punctuation.html"},
+      {"title": "Punctuation",
+        "file": "punctuation.html"},
       {"title": "Word List",
         "file": "word-list.html"}
     ]
