@@ -291,6 +291,10 @@ main section table {
     font-size: 13px;
     font-weight: 500;
     text-align: left;
+
+    p {
+      margin: 0;
+    }
   }
 
   tr:not(:last-child) {
