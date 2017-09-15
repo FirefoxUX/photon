@@ -12,7 +12,7 @@ const Feedback = connect(state => {
   displayName: 'Feedback',
   propTypes: {
     dispatch: React.PropTypes.func,
-    feedback_ask: React.PropTypes.string
+    feedback_ask: React.PropTypes.bool
   },
 
   handleClick: function (e) {

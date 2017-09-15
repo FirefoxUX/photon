@@ -66,8 +66,12 @@ small {
 
 .w-18r { width: 18rem; }
 
+.l-18r { left: -18rem; }
+
 @media screen and (min-width: 60em) {
   .w-20r-l { width: 20rem; }
+
+  .l-0-l { left: 0; }
 }
 
 // Outline

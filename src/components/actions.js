@@ -45,8 +45,13 @@ function changeFeedbackMessage(dispatch, feedback_ask) {
   dispatch({type: 'FEEDBACK', feedback_ask: feedback_ask});
 }
 
+function changeNav(dispatch, nav) {
+  dispatch({type: 'NAV', nav: nav});
+}
+
 module.exports = {
-  getContent: getContent,
-  loadUrl: loadUrl,
-  changeFeedbackMessage: changeFeedbackMessage
+  getContent,
+  loadUrl,
+  changeFeedbackMessage,
+  changeNav
 };
