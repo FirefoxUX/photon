@@ -213,6 +213,11 @@ main section {
     }
   }
 
+  figcaption img {
+    background-color: transparent;
+    outline: none;
+  }
+
   button {
     background-color: var(--blue-60);
     border: none;
