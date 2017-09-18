@@ -6,7 +6,7 @@
     <rect id="s-war-f" width="64" height="24" rx="3"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <rect width="381" height="180" fill="#F9F9FA"/>
+    <rect width="380" height="180" fill="none"/>
     <g transform="translate(4.5 50)">
       <g transform="translate(8 23)">
         <use fill="#FFE900" xlink:href="#s-war-a"/>
