@@ -4,7 +4,7 @@
     <rect id="height-c" width="60" height="24" rx="3"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <rect width="350" height="180" fill="#F9F9FA"/>
+    <rect width="350" height="180" fill="none"/>
     <g transform="translate(72 74)">
       <g transform="translate(45)">
         <rect width="161" height="32" fill="#D7D7DB" rx="3"/>
