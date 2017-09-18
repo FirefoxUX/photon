@@ -38,8 +38,8 @@
       {"title": "Color",
         "file": "color.html"
       },
-      {"title": "Icons",
-        "file": "icons.html"
+      {"title": "Iconography",
+        "file": "iconography.html"
       },
       {"title": "Illustration",
         "file": "illustration.html"
@@ -66,7 +66,7 @@
       {"title": "Writing for Users",
         "file": "writing-for-users.html"},
       {"title": "Capitalization",
-        "file": "capitalization-and-punctuation.html"},
+        "file": "capitalization.html"},
       {"title": "Punctuation",
         "file": "punctuation.html"},
       {"title": "Word List",
