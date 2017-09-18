@@ -20,7 +20,6 @@ const Footer = connect(state => {
   },
 
   render: function() {
-    /* eslint-disable react/jsx-no-literals */
     return(
       <footer className="fira">
         <div className="center mw7 ph3 pb3-l cf">
@@ -45,7 +44,6 @@ const Footer = connect(state => {
           </p>
         </div>
       </footer>)
-    /* eslint-enable react/jsx-no-literals */
   }
 }));
 
