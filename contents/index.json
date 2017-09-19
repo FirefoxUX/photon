@@ -106,14 +106,14 @@
     "directory": "resources",
     "pages": [ 
       {"title": "Icons",
-        "file": "icons.html",
-        "draft": "true"},
+        "file": "icons.html"
+      },
       {"title": "Fonts",
-        "file": "fonts.html",
-        "draft": "true"},
+        "file": "fonts.html"
+      },
       {"title": "Design Tokens",
-        "file": "design-tokens.html",
-        "draft": "true"}
+        "file": "design-tokens.html"
+      }
     ]
   }
 ]
