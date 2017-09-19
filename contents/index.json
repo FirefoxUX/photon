@@ -111,8 +111,8 @@
       {"title": "Fonts",
         "file": "fonts.html",
         "draft": "true"},
-      {"title": "Tokens",
-        "file": "tokens.html",
+      {"title": "Design Tokens",
+        "file": "design-tokens.html",
         "draft": "true"}
     ]
   }
