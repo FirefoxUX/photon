@@ -34,7 +34,7 @@ const Feedback = connect(state => {
           <div className="w-100 bg-white shadow-1 br2 pa3 flex-ns justify-between-ns items-center-ns">
             <p className="mt0 mb3 mb0-ns lh-copy tc"
                 id="feedback-text"
-            >{'Tell us, was the content of this page helpful?'}</p>
+            >{'Tell us, is the content of this page helpful?'}</p>
             <p className="ma0 flex justify-around">
               <a className="mr4-ns no-underline f3 lh-copy dib"
                   id="thumbs-up"

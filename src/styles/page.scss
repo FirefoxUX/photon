@@ -214,7 +214,7 @@ main section {
   }
 
   figcaption img {
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0);
     outline: none;
   }
 
@@ -271,10 +271,12 @@ main section div[class] blockquote {
 /* Section table */
 
 main section table {
-  background: linear-gradient(to right, rgba(12, 12, 13, .1) -32px, white 32px, white calc(100% - 32px), rgba(12, 12, 13, .1) calc(100% + 32px));
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: 100%;
+  // There is a bug on iOS and for the time beign we hide the table gradients
+  //
+  // background: linear-gradient(to right, rgba(12, 12, 13, .1) -32px, white 32px, white calc(100% - 32px), rgba(12, 12, 13, .1) calc(100% + 32px));
+  // background-attachment: scroll;
+  // background-repeat: no-repeat;
+  // background-size: 100%;
   border: 1px solid var(--grey-20);
   border-collapse: collapse;
   border-spacing: 0;
@@ -318,18 +320,20 @@ main section table {
     }
   }
 
-  td:first-child {
-    background-image: linear-gradient(to right, white 0, transparent 100%);
-    background-repeat: no-repeat;
-    background-size: 64px 100%;
-  }
+  // There is a bug on iOS and for the time beign we hide the table gradients
+  //
+  // td:first-child {
+  //   background-image: linear-gradient(to right, white 0, rgba(255, 255, 255, 0) 100%);
+  //   background-repeat: no-repeat;
+  //   background-size: 64px 100%;
+  // }
 
-  td:last-child {
-    background-image: linear-gradient(to left, white 0, transparent 100%);
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    background-size: 64px 100%;
-  }
+  // td:last-child {
+  //   background-image: linear-gradient(to left, white 0, rgba(255, 255, 255, 0) 100%);
+  //   background-position: 100% 0;
+  //   background-repeat: no-repeat;
+  //   background-size: 64px 100%;
+  // }
 }
 
 main section article {
@@ -370,7 +374,7 @@ main section article {
 /* Tabs */
 
 div[data-tabs] input[type="radio"] + label {
-  border-top: 2px solid transparent;
+  border-top: 2px solid rgba(255, 255, 255, 0);
 }
 
 div[data-tabs] input[type="radio"] + label:hover {
