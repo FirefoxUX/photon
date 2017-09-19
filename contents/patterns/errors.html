@@ -13,23 +13,26 @@
   </p>
   <p>
     It's important to distinguished two different kind of error:
-  <ul>
-    <li>
-      User input errors, which occurs when Firefox doesn't understand user inputs (e.g. trying to send a form without filling all mandatory input fields, trying to load uncompatible files, etc. etc.).
-    </li>
-    <li>
-      System errors, which occurs when Firefox fails for some reasons.
-    </li>
-    <% include ../includes/patterns/errors/system-errors.html %>
-  </ul>
-   
+    <ul>
+      <li>
+        User input errors
+      </li>
+      <li>
+        System errors
+      </li>
+    </ul>  
   </p>
-   <p>
+  <p>
+    <strong>User input error</strong> occur when Firefox doesn't understand user inputs.
+    <% include ../includes/patterns/errors/user-input-errors.html %>
+  </p>
+  <p> 
+    <strong>System errors occurs</strong> when Firefox fails for some reasons most likely not related to the user. 
+    <% include ../includes/patterns/errors/system-errors.html %>
+  <p>
     Errors are usually place close to the context.
   </p>
 </section>
-
-
 
 <section>
   <h2>
