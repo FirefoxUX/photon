@@ -4,7 +4,7 @@
     Message bar
   </h1>
   <p>
-    Message bars are used to communicate information to the user. The message bars show at the top of the page or section they apply to.
+     Message bars communicate specific information to a user. Display message bars at the top of the page or the section they apply to.
   </p>
 </header>
 
@@ -13,10 +13,10 @@
     Usage
   </h2>
   <p>
-    Message bars contain a concise and scannable text directly related to the action performed or to be performed. They may contain contain a one or more actions, neither of which may be <strong>Dismiss</strong> or <strong>Cancel</strong>. They always contain a icon before the message.
+     Message bars contain concise and scannable text that is directly related to an action that has been completed or is about to be performed. They may include a single message or multiple messages. They should not be used to <strong>Dismiss</strong> or <strong>Cancel</strong>. An icon always precedes the message(s).
   </p>
   <p>
-    Message bars can be used to display different kinds of information such as success messages, updates, warnings and problems.
+    Common uses for message bars include: success messages, updates, warnings, and problems or errors. 
   </p>
 </section>
 
@@ -30,7 +30,7 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-        Convey general information or actions that aren’t critical. Default banners contain lower priority information and should always be dismissible.
+        Convey general information or actions that aren’t critical. Include lower priority information and should always be dismissible.
       </p>
       
     </div>
@@ -44,7 +44,7 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-        Use to update users about a change or give them advice.
+         Update users about a change or give them advice. 
       </p>
 
     </div>
@@ -58,7 +58,7 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-       Inform users when actions are successfully completed
+       Inform users when actions are successfully completed.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2">
@@ -66,23 +66,23 @@
     </div>
   </div>
   <h3>
-    Warnings
+    Warning
   </h3>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-       Display warning that needs attention or that the merchant needs to take action on. Seeing these banners can be stressful for merchants so be cautious about using them.
+       Display exceptions or information the user needs to act on.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2"> 
      <img class="w-100-ns" src="../images/message-bars/warning.svg" alt="warning message bar example">
     </div>
   </div>
-  <h3>Errors</h3>
+  <h3>Error</h3>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-       Communicate problems that have to be resolved immediately for the users to complete a task. Seeing these banners can be stressful for the users, so be cautious about using them.
+       Communicate problems that must be addressed before a user can complete a task.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2"> 
@@ -97,109 +97,17 @@
   </h2>
 
   <% include ../includes/components/message-bars/style-tabs-structure.html %>
-   <!-- <h3>
-    Sizes and grid
-  </h3>
-   <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">  
-    <p>
-      Message bars have a fixed min-height and width may vary depending on the content. It cannot grow more than its parent container.
-    </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2"> 
-       <img class="w-100-ns" src="../images/message-bars/sizes-one-line.svg" alt="pairing example">
-    </div>
-  </div>
-  <h3>
-    Color
-  </h3>
-   <div class="cf nr2 nl2">
-
-    <div class="fl-ns w-50-ns ph2">
-      <p>The color scheme of the component is related of its type.</p>
-      <h5>GENERIC</h5>
-      <p><strong>Background:</strong> Grey-20 <code>#ededf0</code></p>
-      <p><strong>Content:</strong> Grey-90 <code>#0c0c0d</code></p>
-    
-      <h5>ATTENTION</h5>
-      <p><strong>Background:</strong> Teal-50 <code>#00feff</code></p>
-      <p><strong>Content: </strong> Teal-90 <code>#002d3e</code> </p>
-      
-      <h5>SUCCESS</h5>
-      <p><strong>Background:</strong> Green-50 <code>#30e60b</code></p>
-      <p><strong>Content: </strong> Green-90 <code>#003706</code></p>
-
-      <h5>WARNING</h5>
-      <p><strong>Background:</strong> Yellow-50 <code>#ffe900</code></p>
-      <p><strong>Content: </strong> Yellow-90 <code>#3e2800</code> </p>
-
-      <h5>ERROR</h5>
-      <p><strong>Background:</strong> Red-50 <code>#ff0039</code></p>
-      <p><strong>Content: </strong> White <code>#ffffff</code> </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2"> 
-       <img class="w-100-ns" src="../images/message-bars/sizes-one-line.svg" alt="pairing example">
-    </div>
-  </div>
-  
-  <h3>
-    Icons
-  </h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
-      <p>
-       Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
-      </p>
-      <p>
-        Icons always have a <code>4px</code> padding all around.
-      </p>
-      <h5>GENERIC</h5>
-      <p><strong>Icon:</strong> Info icon </p>
-    
-      <h5>ATTENTION</h5>
-      <p><strong>Icon:</strong> Attention icon</p>
-
-      <h5>SUCCESS</h5>
-      <p><strong>Icon:</strong> Check icon </p>      
-
-      <h5>WARNING</h5>
-      <p><strong>Icon:</strong> Warning icon </p>
-    
-      <h5>ERROR</h5>
-      <p><strong>Icon:</strong> Warning icon </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/message-bars/icons.svg" alt="pairing example">
-    </div>
-  </div>
-  
-  <h3>
-    Typography
-  </h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
-      </p>
-      <p>
-       Message bars use <code>Body-10</code> for the message. 
-      </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2"> 
-      <img class="w-100-ns" src="../images/message-bars/title.svg" alt="pairing example">
-    </div>
-  </div> -->
 </section>
 
 <section>
-  <h2>Behaviour</h2>
+  <h2>Behavior</h2>
   <h3>
-  Dismissable
+    Dismissable
   </h3> 
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">   
       <p>
-        Unless they contain critical information, message bars are dismissible by clicking on the ghost button, placed always on the right corner.
+        Unless they contain critical information, message bars should be dismissible by clicking or tapping the ghost button, placed always on the right corner.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2"> 
