@@ -71,7 +71,9 @@ tr:first-child > td > code:hover::after {
 /* Header */
 
 main header {
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 48rem;
+  padding: 0 1rem;
 
   h1 {
     font-size: 33px;
@@ -116,7 +118,9 @@ main header {
 /* Section typography */
 
 main section {
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 48rem;
+  padding: 0 1rem;
 
   @media screen and (min-width: 60em) {
     margin-bottom: 4rem;
