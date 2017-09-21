@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-  <g fill="none" fill-rule="evenodd" transform="translate(32 32)">
-    <circle cx="96" cy="96" r="96" stroke="#D7B600" stroke-width="32"/>
-    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M159,141.75 C159,115.240332 130.793939,93.75 96,93.75 C61.2060608,93.75 33,115.240332 33,141.75" transform="rotate(-180 96 117.75)"/>
-    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M85.5,76.5 C85.5,65.7304474 76.7695526,57 66,57 C55.2304474,57 46.5,65.7304474 46.5,76.5" transform="rotate(-180 66 66.75)"/>
-    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M145.5,76.5 C145.5,65.7304474 136.769553,57 126,57 C115.230447,57 106.5,65.7304474 106.5,76.5" transform="rotate(-180 126 66.75)"/>
-    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M109.5,99.75 C109.5,92.2941559 103.455844,86.25 96,86.25 C88.5441559,86.25 82.5,92.2941559 82.5,99.75"/>
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="128" cy="128" r="96" stroke="#D7B600" stroke-width="24"/>
+    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M191,174 C191,147.490332 162.793939,126 128,126 C93.2060608,126 65,147.490332 65,174" transform="rotate(-180 128 150)"/>
+    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M118,108 C118,97.5065898 109.269553,89 98.5,89 C87.7304474,89 79,97.5065898 79,108" transform="rotate(-180 98.5 98.5)"/>
+    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M178,108 C178,97.5065898 169.269553,89 158.5,89 C147.730447,89 139,97.5065898 139,108" transform="rotate(-180 158.5 98.5)"/>
+    <path stroke="#A47F00" stroke-linecap="round" stroke-linejoin="round" stroke-width="16" d="M142,131 C142,123.820298 135.955844,118 128.5,118 C121.044156,118 115,123.820298 115,131"/>
   </g>
 </svg>
