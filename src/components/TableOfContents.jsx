@@ -18,7 +18,10 @@ const TableOfContents = React.createClass({
   },
 
   getInitialState : function() {
-    return {expanded: new Set()};
+    const {sources, page} = this.props;
+    const directory = page && page.directory;
+    const selected = sources.filter(item => item.directory === directory);
+    return {expanded: new Set(selected)};
   },
 
   handleClick: function() {
@@ -31,6 +34,9 @@ const TableOfContents = React.createClass({
     let setState = this.setState.bind(this);
     let handleClick = (item) => {
       let expanded = new Set(this.state.expanded);
+      if (item.directory === page.directory) {
+        return;
+      }
       if (expanded.has(item)) {
         expanded.delete(item);
       } else {
