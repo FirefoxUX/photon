@@ -82,12 +82,12 @@ main header {
     margin: 0 0 2rem;
   }
 
-  p:not(:last-of-type) {
+  p:not([class]):not(:last-of-type) {
     line-height: 1.5;
     margin: 0 0 1rem;
   }
 
-  p:last-of-type {
+  p:not([class]):last-of-type {
     line-height: 1.5;
     margin-bottom: 2rem;
   }
