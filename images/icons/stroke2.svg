@@ -1,82 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
-  <defs>
-    <polygon id="stroke2-a" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="stroke2-c" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="stroke2-e" points="0 0 209 0 209 209 0 209"/>
-    <path id="stroke2-g" d="M52.478709,26.4756347 C45.3019469,26.4756347 39.4840318,32.2904786 39.4840318,39.4634521 L39.4840318,169.341626 C39.4840318,176.514599 45.3019469,182.329443 52.478709,182.329443 C59.6554711,182.329443 65.4733863,176.514599 65.4733863,169.341626 L65.4733863,39.4634521 C65.4733863,32.2904786 59.6554711,26.4756347 52.478709,26.4756347 Z M91.4627408,13.4878174 C84.2859787,13.4878174 78.4680635,19.3026613 78.4680635,26.4756347 L78.4680635,169.341626 C78.4680635,176.514599 84.2859787,182.329443 91.4627408,182.329443 C98.6395029,182.329443 104.457418,176.514599 104.457418,169.341626 L104.457418,26.4756347 C104.457418,19.3026613 98.6395029,13.4878174 91.4627408,13.4878174 Z M194.627484,164.899792 L142.648774,22.0338012 C141.126142,17.586874 137.318485,14.3091325 132.69266,13.4632897 C128.066834,12.6174469 123.344719,14.3355 120.345456,17.9555882 C117.346193,21.5756764 116.537828,26.532871 118.231776,30.9174683 L170.210485,173.783459 C171.733117,178.230386 175.540775,181.508128 180.1666,182.353971 C184.792425,183.199814 189.51454,181.481761 192.513803,177.861672 C195.513067,174.241584 196.321431,169.28439 194.627484,164.899792 L194.627484,164.899792 Z M13.4946773,0.5 C6.31791518,0.5 0.5,6.3148439 0.5,13.4878174 L0.5,169.341626 C0.5,176.514599 6.31791518,182.329443 13.4946773,182.329443 C20.6714393,182.329443 26.4893545,176.514599 26.4893545,169.341626 L26.4893545,13.4878174 C26.4893545,6.3148439 20.6714393,0.5 13.4946773,0.5 Z"/>
-    <rect id="stroke2-h" width="27" height="209" x="98" y="32"/>
-    <filter id="stroke2-i" width="103.7%" height="100.5%" x="-1.9%" y="-.2%" filterUnits="objectBoundingBox">
-      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/>
-      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
-      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.0392156863   0 0 0 0 0.517647059   0 0 0 0 1  0 0 0 1 0"/>
-      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
-      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
-      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.0392156863   0 0 0 0 0.517647059   0 0 0 0 1  0 0 0 1 0"/>
-      <feMerge>
-        <feMergeNode in="shadowMatrixInner1"/>
-        <feMergeNode in="shadowMatrixInner2"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <g transform="translate(46 46)">
-      <mask id="stroke2-b" fill="#fff">
-        <use xlink:href="#stroke2-a"/>
-      </mask>
-      <g mask="url(#stroke2-b)">
-        <mask id="stroke2-d" fill="#fff">
-          <use xlink:href="#stroke2-c"/>
-        </mask>
-        <rect width="209" height="1" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="13" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="26" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="39" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="52" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="65" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="78" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="91" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="104" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="117" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="130" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="143" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="156" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="169" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="182" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="195" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-        <rect width="209" height="1" y="208" fill="#D7D7DB" mask="url(#stroke2-d)"/>
-      </g>
-      <g>
-        <mask id="stroke2-f" fill="#fff">
-          <use xlink:href="#stroke2-e"/>
-        </mask>
-        <rect width="1" height="209" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="13" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="26" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="39" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="52" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="65" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="78" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="91" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="104" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="117" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="130" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="143" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="156" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="169" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="182" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="195" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-        <rect width="1" height="209" x="208" fill="#D7D7DB" mask="url(#stroke2-f)"/>
-      </g>
-      <rect width="195" height="195" x="7" y="7" stroke="#000" stroke-width="14" opacity=".1"/>
-    </g>
-    <g fill-rule="nonzero" transform="translate(59 59)">
-      <use fill="#FFF" fill-rule="evenodd" xlink:href="#stroke2-g"/>
-      <use fill="#000" fill-opacity=".8" fill-rule="evenodd" xlink:href="#stroke2-g"/>
-    </g>
-    <use fill="#0A84FF" fill-opacity=".25" xlink:href="#stroke2-h"/>
-    <use fill="#000" filter="url(#stroke2-i)" xlink:href="#stroke2-h"/>
-    <text fill="#0A84FF" font-family="FiraMono-Medium, Fira Mono" font-size="11" font-weight="400">
-      <tspan x="102" y="26">2px</tspan>
-    </text>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill:#FFFFFF;}
+	.st2{mask:url(#b);}
+	.st3{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st4{mask:url(#d);fill:#D7D7DB;}
+	.st5{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st6{mask:url(#f);fill:#D7D7DB;}
+	.st7{opacity:0.1;fill:none;stroke:#000000;stroke-width:14;enable-background:new    ;}
+	.st8{fill-opacity:0.8;}
+	.st9{fill:#0A84FF;fill-opacity:0.25;}
+	.st10{enable-background:new    ;}
+	.st11{fill:#0A84FF;}
+</style>
+<g>
+	<g transform="translate(46 46)">
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="209" height="209">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="209" height="209" id="b">
+			<g class="st0">
+				<path id="a" class="st1" d="M0,0h209v209H0V0z"/>
+			</g>
+		</mask>
+		<g class="st2">
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0" y="0" width="209" height="209">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="0" y="0" width="209" height="209" id="d">
+				<g class="st3">
+					<path id="c" class="st1" d="M0,0h209v208.8H0V0z"/>
+				</g>
+			</mask>
+			<path class="st4" d="M0,0h209v1H0V0z M0,13h209v1H0V13z M0,26h209v1H0V26z M0,39h209v1H0V39z M0,52h209v1H0V52z M0,65h209v1H0V65
+				z M0,78h209v1H0V78z M0,91h209v1H0V91z M0,104h209v1H0V104z M0,117h209v1H0V117z M0,130h209v1H0V130z M0,143h209v1H0V143z M0,156
+				h209v1H0V156z M0,169h209v1H0V169z M0,182h209v1H0V182z M0,195h209v1H0V195z M0,208h209v1H0V208z"/>
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="0" y="0" width="209" height="209">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="209" height="209" id="f">
+			<g class="st5">
+				<path id="e" class="st1" d="M0,0h209v209H0V0z"/>
+			</g>
+		</mask>
+		<path class="st6" d="M0,0h1v209H0V0z M13,0h1v209h-1V0z M26,0h1v209h-1V0z M39,0h1v209h-1V0z M52,0h1v209h-1V0z M65,0h1v209h-1V0z
+			 M78,0h1v209h-1V0z M91,0h1v209h-1V0z M104,0h1v209h-1V0z M117,0h1v209h-1V0z M130,0h1v209h-1V0z M143,0h1v209h-1V0z M156,0h1v209
+			h-1V0z M169,0h1v209h-1V0z M182,0h1v209h-1V0z M195,0h1v209h-1V0z M208,0h1v209h-1V0z"/>
+		<path class="st7" d="M7,7h195v195H7V7z"/>
+	</g>
+	<g transform="translate(59 59)">
+		<g>
+			<path id="g" class="st1" d="M52.5,26.5c-7.2,0-13,5.8-13,13v129.9c0,7.2,5.8,13,13,13s13-5.8,13-13V39.5
+				C65.5,32.3,59.7,26.5,52.5,26.5z M91.5,13.5c-7.2,0-13,5.8-13,13v142.9c0,7.2,5.8,13,13,13c7.2,0,13-5.8,13-13V26.5
+				C104.5,19.3,98.6,13.5,91.5,13.5z M194.6,164.9L142.6,22c-1.5-4.4-5.3-7.7-10-8.6c-4.6-0.8-9.3,0.9-12.3,4.5
+				c-3,3.6-3.8,8.6-2.1,13l52,142.9c1.5,4.4,5.3,7.7,10,8.6s9.3-0.9,12.3-4.5C195.5,174.2,196.3,169.3,194.6,164.9L194.6,164.9z
+				 M13.5,0.5c-7.2,0-13,5.8-13,13v155.9c0,7.2,5.8,13,13,13s13-5.8,13-13V13.5C26.5,6.3,20.7,0.5,13.5,0.5z"/>
+		</g>
+		<g>
+			<path id="g_1_" class="st8" d="M52.5,26.5c-7.2,0-13,5.8-13,13v129.9c0,7.2,5.8,13,13,13s13-5.8,13-13V39.5
+				C65.5,32.3,59.7,26.5,52.5,26.5z M91.5,13.5c-7.2,0-13,5.8-13,13v142.9c0,7.2,5.8,13,13,13c7.2,0,13-5.8,13-13V26.5
+				C104.5,19.3,98.6,13.5,91.5,13.5z M194.6,164.9L142.6,22c-1.5-4.4-5.3-7.7-10-8.6c-4.6-0.8-9.3,0.9-12.3,4.5
+				c-3,3.6-3.8,8.6-2.1,13l52,142.9c1.5,4.4,5.3,7.7,10,8.6s9.3-0.9,12.3-4.5C195.5,174.2,196.3,169.3,194.6,164.9L194.6,164.9z
+				 M13.5,0.5c-7.2,0-13,5.8-13,13v155.9c0,7.2,5.8,13,13,13s13-5.8,13-13V13.5C26.5,6.3,20.7,0.5,13.5,0.5z"/>
+		</g>
+	</g>
+	<g>
+		<path id="h" class="st9" d="M98,32h27v209H98V32z"/>
+	</g>
+	<g class="st10">
+		<path class="st11" d="M107.4,20.4c0,1.3-0.8,2.4-3.3,4.6h3.4l-0.1,1h-4.7v-0.9c2.7-2.6,3.4-3.5,3.4-4.6c0-0.8-0.5-1.2-1.2-1.2
+			c-0.7,0-1.1,0.2-1.5,0.8l-0.8-0.6c0.6-0.7,1.3-1.2,2.4-1.2C106.5,18.3,107.4,19.2,107.4,20.4z"/>
+		<path class="st11" d="M114.5,23.1c0,1.8-0.8,3.1-2.2,3.1c-0.6,0-1.1-0.2-1.5-0.6v2.7l-1.2,0.1v-8.2h1.1l0.1,0.7
+			c0.4-0.6,1-0.9,1.7-0.9C113.9,20,114.5,21.2,114.5,23.1z M110.8,21.8v2.7c0.3,0.4,0.7,0.6,1.1,0.6c0.8,0,1.3-0.6,1.3-2.1
+			c0-1.5-0.4-2.1-1.2-2.1C111.5,21,111.1,21.4,110.8,21.8z"/>
+		<path class="st11" d="M115.7,26l2.1-3.1l-1.9-2.8h1.4l1.2,2l1.2-2h1.4l-1.8,2.7l2.1,3.1h-1.4l-1.4-2.4L117,26H115.7z"/>
+	</g>
+</g>
 </svg>
