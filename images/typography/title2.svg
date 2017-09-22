@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="752" height="147" style="background:#fafafc" viewBox="0 0 752 147">
+  <defs>
+    <rect id="title2-a" width="20" height="20"/>
+    <rect id="title2-b" width="20" height="20"/>
+    <rect id="title2-c" width="392" height="30" rx="2"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(237 18)">
+      <text fill="#0C0C0D" font-family="SegoeUI-Semilight, Segoe UI" font-size="22" font-weight="300">
+        <tspan x="0" y="24">Files and Applications</tspan>
+      </text>
+      <g transform="translate(0 50)">
+        <text fill="#0C0C0D" font-family="SegoeUI-Semibold, Segoe UI" font-size="17" font-weight="500">
+          <tspan x="0" y="18">Downloads</tspan>
+        </text>
+        <g transform="translate(0 33)">
+          <text fill="#0C0C0D" font-family="SegoeUI, Segoe UI" font-size="15">
+            <tspan x="28" y="16">Save files to</tspan>
+          </text>
+          <g transform="translate(0 2)">
+            <use fill="#FFF" xlink:href="#title2-a"/>
+            <rect width="19" height="19" x=".5" y=".5" stroke="#0C0C0D" stroke-opacity=".3"/>
+          </g>
+        </g>
+        <g transform="translate(0 67)">
+          <text fill="#0C0C0D" font-family="SegoeUI, Segoe UI" font-size="15">
+            <tspan x="28" y="16">Always ask you where to save files</tspan>
+          </text>
+          <g transform="translate(0 2)">
+            <use fill="#FFF" xlink:href="#title2-b"/>
+            <rect width="19" height="19" x=".5" y=".5" stroke="#0C0C0D" stroke-opacity=".3"/>
+          </g>
+        </g>
+        <g transform="translate(115 30)">
+          <use fill="#FFF" xlink:href="#title2-c"/>
+          <rect width="391" height="29" x=".5" y=".5" stroke="#0C0C0D" stroke-opacity=".3" rx="2"/>
+          <text fill="#0C0C0D" font-family="SegoeUI, Segoe UI" font-size="15" opacity=".4">
+            <tspan x="11" y="20"> Downloads</tspan>
+          </text>
+        </g>
+        <g transform="translate(124 37)">
+          <polygon fill="#FCB912" points=".667 2 .667 14 15.333 14 15.333 2.666 8.667 2.666 8 2"/>
+          <polygon fill="#FAEE5C" points="8.667 3.333 8 4.667 1.333 4.667 1.333 13.333 14.667 13.333 14.667 3.333"/>
+          <polygon fill="#80D2EB" points="9.667 14.333 9.667 11 6.333 11 6.333 14.333 3.667 14.333 3.667 8.333 12.333 8.333 12.333 14.333"/>
+          <path fill="#00BFE7" d="M3.33306667,7.9998 L3.33306667,14.6664667 L6.6664,14.6664667 L6.6664,11.3331333 L9.33306667,11.3331333 L9.33306667,14.6664667 L12.6664,14.6664667 L12.6664,7.9998 L3.33306667,7.9998 Z M4.0004,8.66646667 L12.0004,8.66646667 L12.0004,13.9998 L10.0004,13.9998 L10.0004,11.3331333 L10.0004,10.6671333 L9.33306667,10.6671333 L6.6664,10.6671333 L6.0004,10.6671333 L6.0004,11.3331333 L6.0004,13.9998 L4.0004,13.9998 L4.0004,8.66646667 Z"/>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(157 68)">
+      <rect width="67" height="22" fill="#0A84FF" rx="2"/>
+      <polygon fill="#0A84FF" points="63 11 67 7 71 11 67 15"/>
+      <text fill="#FFF" font-family="FiraMono-Medium, Fira Mono" font-size="12" font-weight="400">
+        <tspan x="4.7" y="15">Title 20</tspan>
+      </text>
+    </g>
+    <g transform="translate(157 21)">
+      <rect width="67" height="22" fill="#0A84FF" rx="2"/>
+      <polygon fill="#0A84FF" points="63 11 67 7 71 11 67 15"/>
+      <text fill="#FFF" font-family="FiraMono-Medium, Fira Mono" font-size="12" font-weight="400">
+        <tspan x="4.7" y="15">Title 30</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
