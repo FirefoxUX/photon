@@ -75,10 +75,10 @@ const TableOfContents = React.createClass({
     if (!page) {
       items = [];
     }
-    let navClass = "fixed top-0 relative-l bg-white shadow-2 h-100 z-max order-0-l w-18r l-0r w-20r-l flex-shrink-0 left-animate l-0-l";
+    let navClass = "fixed top-0 relative-l bg-white shadow-2 h-100 z-max order-0-l w-18r l-0r flex-shrink-0 left-animate l-0-l";
     let overlayClass = "fixed w-100 h-100 top-0 left-0 bg-black-40 opacity-animate";
     if (!nav) {
-      navClass += " l-18r";
+      navClass += " l-20r";
       overlayClass += " z-min o-0";
     } else {
       overlayClass += " z-999 o-100";
@@ -88,7 +88,7 @@ const TableOfContents = React.createClass({
         <nav className={navClass}
             id="nav"
         >
-        <div className="h-100 center mw7 pt3 pt4-l ph3 ph4-l overflow-y-auto">
+        <div className="h-100 center mw7 pt4 ph4 overflow-y-auto">
           <div className="dn db-l mb4">
             <p className="f3 fw5 lh-solid ma0">
               <a className="grey-90 no-underline hover-no-underline"
