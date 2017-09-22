@@ -1,1 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:#fff" viewBox="0 0 300 300"><defs><polygon id="a" points="0 0 209 0 209 209 0 209"/><polygon id="c" points="0 0 209 0 209 208.791 0 208.791"/><polygon id="e" points="0 0 209 0 209 209 0 209"/><path id="g" d="M176.79 227.83h13.14a12 12 0 0 0 12-12v-86.52L150.5 77.88l-51.43 51.43v86.52a12 12 0 0 0 12 12h13.14v-64.71c0-7.18 5.88-13 13.15-13h26.28c7.27 0 13.15 5.82 13.15 13v64.71zM72.4 155.98l-3.7 3.71a12.99 12.99 0 0 1-18.39 0 12.99 12.99 0 0 1 0-18.38l91-91a12.99 12.99 0 0 1 18.38 0l91 91a12.99 12.99 0 0 1-9.2 22.19c-3.32 0-6.65-1.27-9.18-3.8l-3.71-3.72v86.52a12 12 0 0 1-12 12H88.4a16 16 0 0 1-16-16v-82.52zM157 202.5a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13"/><rect id="h" width="13.5" height="52" x="176.5" y="216"/><filter id="i" width="107.4%" height="101.9%" x="-3.7%" y="-1%" filterUnits="objectBoundingBox"><feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/><feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.0392156863 0 0 0 0 0.517647059 0 0 0 0 1 0 0 0 1 0"/><feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/><feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/><feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.0392156863 0 0 0 0 0.517647059 0 0 0 0 1 0 0 0 1 0"/><feMerge><feMergeNode in="shadowMatrixInner1"/><feMergeNode in="shadowMatrixInner2"/></feMerge></filter><rect id="j" width="13" height="27" x="216" y="241"/><filter id="k" width="107.7%" height="103.7%" x="-3.8%" y="-1.9%" filterUnits="objectBoundingBox"><feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/><feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/><feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.0392156863 0 0 0 0 0.517647059 0 0 0 0 1 0 0 0 1 0"/><feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/><feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/><feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.0392156863 0 0 0 0 0.517647059 0 0 0 0 1 0 0 0 1 0"/><feMerge><feMergeNode in="shadowMatrixInner1"/><feMergeNode in="shadowMatrixInner2"/></feMerge></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(46 46)"><mask id="b" fill="white"><use xlink:href="#a"/></mask><g mask="url(#b)"><mask id="d" fill="white"><use xlink:href="#c"/></mask><rect width="209" height="1" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="13" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="26" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="39" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="52" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="65" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="78" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="91" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="104" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="117" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="130" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="143" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="156" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="169" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="182" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="195" fill="#D7D7DB" mask="url(#d)"/><rect width="209" height="1" y="208" fill="#D7D7DB" mask="url(#d)"/></g><g><mask id="f" fill="white"><use xlink:href="#e"/></mask><rect width="1" height="209" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="13" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="26" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="39" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="52" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="65" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="78" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="91" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="104" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="117" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="130" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="143" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="156" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="169" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="182" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="195" fill="#D7D7DB" mask="url(#f)"/><rect width="1" height="209" x="208" fill="#D7D7DB" mask="url(#f)"/></g><rect width="195" height="195" x="7" y="7" stroke="#000000" stroke-width="14" opacity=".1"/></g><use fill="#FFFFFF" xlink:href="#g"/><use fill="#0C0C0D" fill-opacity=".8" xlink:href="#g"/><rect width="24" height="24" x="177.5" y="204" stroke="#0A84FF" stroke-width="2" rx="12"/><rect width="24" height="24" x="204" y="230" stroke="#0A84FF" stroke-width="2" rx="12"/><path fill="#0A84FF" fill-opacity=".8" d="M176.92 282h-1.1v-6.85l-1.87 1.14-.48-.78 2.48-1.54h.97V282zm7.14-5.6c.38.57.57 1.38.57 2.43 0 1-.22 1.8-.65 2.4-.43.61-1.04.91-1.84.91-.7 0-1.25-.24-1.65-.72v3l-1.1.14v-8.88h.94l.09.85c.23-.32.5-.57.84-.74a2.2 2.2 0 0 1 1.03-.26c.8 0 1.4.29 1.77.87zm-.62 2.43c0-1.61-.48-2.42-1.43-2.42-.31 0-.6.09-.85.27-.26.19-.48.42-.67.71v3.09a1.62 1.62 0 0 0 1.4.77c1.03 0 1.55-.81 1.55-2.42zm7.45 3.17h-1.33l-1.55-2.68-1.57 2.68h-1.25l2.21-3.34-1.96-2.98h1.3l1.32 2.31 1.33-2.31h1.25l-1.94 2.94 2.2 3.38zm26.03 0h-1.1v-6.85l-1.87 1.14-.48-.78 2.48-1.54h.97V282zm7.14-5.6c.38.57.57 1.38.57 2.43 0 1-.22 1.8-.65 2.4-.43.61-1.04.91-1.84.91-.7 0-1.25-.24-1.65-.72v3l-1.1.14v-8.88h.94l.09.85c.23-.32.5-.57.84-.74a2.2 2.2 0 0 1 1.03-.26c.8 0 1.4.29 1.77.87zm-.62 2.43c0-1.61-.48-2.42-1.43-2.42-.31 0-.6.09-.85.27-.26.19-.48.42-.67.71v3.09a1.62 1.62 0 0 0 1.4.77c1.03 0 1.55-.81 1.55-2.42zm7.45 3.17h-1.33l-1.55-2.68-1.57 2.68h-1.25l2.21-3.34-1.96-2.98h1.3l1.32 2.31 1.33-2.31h1.25l-1.94 2.94 2.2 3.38z"/><use fill="#0A84FF" fill-opacity=".25" xlink:href="#h"/><use fill="black" filter="url(#i)" xlink:href="#h"/><g><use fill="#0A84FF" fill-opacity=".25" xlink:href="#j"/><use fill="black" filter="url(#k)" xlink:href="#j"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <polygon id="border-dont2-a" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="border-dont2-c" points="0 0 209 0 209 208.791 0 208.791"/>
+    <polygon id="border-dont2-e" points="0 0 209 0 209 209 0 209"/>
+    <path id="border-dont2-g" d="M176.785714,227.833333 L189.928571,227.833333 C196.555988,227.833333 201.928571,222.46075 201.928571,215.833333 L201.928571,129.312841 L150.5,77.8842692 L99.0714286,129.312841 L99.0714286,215.833333 C99.0714286,222.46075 104.444012,227.833333 111.071429,227.833333 L124.214286,227.833333 L124.214286,163.118641 C124.214286,155.942866 130.089143,150.119048 137.357143,150.119048 L163.642857,150.119048 C170.910857,150.119048 176.785714,155.942866 176.785714,163.118641 L176.785714,227.833333 Z M72.4047619,155.979507 L68.6935565,159.690713 C63.6107153,164.773554 55.394972,164.773554 50.3121309,159.690713 C45.2292897,154.607872 45.2292897,146.392128 50.3121309,141.309287 L141.309287,50.3121309 C146.392128,45.2292897 154.607872,45.2292897 159.690713,50.3121309 L250.687869,141.309287 C255.77071,146.392128 255.77071,154.607872 250.687869,159.690713 C248.152948,162.225634 244.825052,163.499594 241.497156,163.499594 C238.16926,163.499594 234.841364,162.225634 232.306444,159.690713 L228.595238,155.979507 L228.595238,242.5 C228.595238,249.127417 223.222655,254.5 216.595238,254.5 L88.4047619,254.5 C79.5682059,254.5 72.4047619,247.336556 72.4047619,238.5 L72.4047619,155.979507 Z M156.999797,202.498375 C153.411909,202.498375 150.5,199.586466 150.5,195.998578 C150.5,192.41069 153.411909,189.498781 156.999797,189.498781 C160.587685,189.498781 163.499594,192.41069 163.499594,195.998578 C163.499594,199.586466 160.587685,202.498375 156.999797,202.498375"/>
+    <rect id="border-dont2-h" width="13.5" height="52" x="176.5" y="216"/>
+    <filter id="border-dont2-i" width="107.4%" height="101.9%" x="-3.7%" y="-1%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.0392156863   0 0 0 0 0.517647059   0 0 0 0 1  0 0 0 1 0"/>
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.0392156863   0 0 0 0 0.517647059   0 0 0 0 1  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <rect id="border-dont2-j" width="13" height="27" x="216" y="241"/>
+    <filter id="border-dont2-k" width="107.7%" height="103.7%" x="-3.8%" y="-1.9%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.0392156863   0 0 0 0 0.517647059   0 0 0 0 1  0 0 0 1 0"/>
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.0392156863   0 0 0 0 0.517647059   0 0 0 0 1  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(46 46)">
+      <mask id="border-dont2-b" fill="#fff">
+        <use xlink:href="#border-dont2-a"/>
+      </mask>
+      <g mask="url(#border-dont2-b)">
+        <mask id="border-dont2-d" fill="#fff">
+          <use xlink:href="#border-dont2-c"/>
+        </mask>
+        <rect width="209" height="1" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="13" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="26" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="39" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="52" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="65" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="78" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="91" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="104" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="117" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="130" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="143" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="156" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="169" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="182" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="195" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+        <rect width="209" height="1" y="208" fill="#D7D7DB" mask="url(#border-dont2-d)"/>
+      </g>
+      <g>
+        <mask id="border-dont2-f" fill="#fff">
+          <use xlink:href="#border-dont2-e"/>
+        </mask>
+        <rect width="1" height="209" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="13" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="26" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="39" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="52" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="65" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="78" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="91" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="104" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="117" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="130" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="143" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="156" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="169" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="182" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="195" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+        <rect width="1" height="209" x="208" fill="#D7D7DB" mask="url(#border-dont2-f)"/>
+      </g>
+      <rect width="195" height="195" x="7" y="7" stroke="#000" stroke-width="14" opacity=".1"/>
+    </g>
+    <use fill="#FFF" xlink:href="#border-dont2-g"/>
+    <use fill="#0C0C0D" fill-opacity=".8" xlink:href="#border-dont2-g"/>
+    <rect width="24" height="24" x="177.5" y="204" stroke="#0A84FF" stroke-width="2" rx="12"/>
+    <rect width="24" height="24" x="204" y="230" stroke="#0A84FF" stroke-width="2" rx="12"/>
+    <use fill="#0A84FF" fill-opacity=".25" xlink:href="#border-dont2-h"/>
+    <use fill="#000" filter="url(#border-dont2-i)" xlink:href="#border-dont2-h"/>
+    <use fill="#0A84FF" fill-opacity=".25" xlink:href="#border-dont2-j"/>
+    <use fill="#000" filter="url(#border-dont2-k)" xlink:href="#border-dont2-j"/>
+    <text fill="#0A84FF" font-family="FiraMono-Medium, Fira Mono" font-size="11" font-weight="400">
+      <tspan x="173" y="280">1px</tspan>
+    </text>
+    <text fill="#0A84FF" font-family="FiraMono-Medium, Fira Mono" font-size="11" font-weight="400">
+      <tspan x="213" y="280">1px</tspan>
+    </text>
+  </g>
+</svg>

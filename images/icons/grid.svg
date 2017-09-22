@@ -1,271 +1,108 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="268" viewBox="0 0 300 268">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
   <defs>
     <polygon id="grid-a" points="0 0 209 0 209 209 0 209"/>
     <polygon id="grid-c" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-e" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-g" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-i" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-k" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-m" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-o" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-q" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-s" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-u" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-w" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-y" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-A" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-C" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-E" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-G" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-I" points="0 0 209 0 209 208.791 0 208.791"/>
-    <polygon id="grid-K" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-M" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-O" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-Q" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-S" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-U" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-W" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-Y" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-aa" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-ac" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-ae" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-ag" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-ai" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-ak" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-am" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-ao" points="0 0 209 0 209 209 0 209"/>
-    <polygon id="grid-aq" points="0 0 209 0 209 209 0 209"/>
+    <polygon id="grid-e" points="0 0 209 0 209 209 0 209"/>
+    <rect id="grid-g" width="209" height="157" x="46" y="72" rx="23.443"/>
+    <rect id="grid-h" width="209" height="157" x="46" y="72" rx="23.443"/>
+    <rect id="grid-i" width="183" height="183" x="59" y="59" rx="23.443"/>
+    <rect id="grid-j" width="1" height="9" x="46" y="266"/>
+    <rect id="grid-k" width="1" height="9" x="254" y="266"/>
+    <rect id="grid-l" width="209" height="1" x="46" y="270"/>
+    <rect id="grid-m" width="32" height="22" x="135" y="259" rx="2"/>
+    <rect id="grid-n" width="9" height="1" x="270" y="46"/>
+    <rect id="grid-o" width="9" height="1" x="270" y="254"/>
+    <rect id="grid-p" width="1" height="209" x="274" y="46"/>
+    <rect id="grid-q" width="32" height="22" x="259" y="140" rx="2"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <g transform="translate(35 16)">
-      <g transform="translate(.5 .5)">
-        <mask id="grid-b" fill="#fff">
-          <use xlink:href="#grid-a"/>
+    <g transform="translate(46 46)">
+      <mask id="grid-b" fill="#fff">
+        <use xlink:href="#grid-a"/>
+      </mask>
+      <g mask="url(#grid-b)">
+        <mask id="grid-d" fill="#fff">
+          <use xlink:href="#grid-c"/>
         </mask>
-        <g mask="url(#grid-b)">
-          <mask id="grid-d" fill="#fff">
-            <use xlink:href="#grid-c"/>
-          </mask>
-          <rect width="209" height="1" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-d)"/>
-          <mask id="grid-f" fill="#fff">
-            <use xlink:href="#grid-e"/>
-          </mask>
-          <rect width="209" height="1" y="13" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-f)"/>
-          <mask id="grid-h" fill="#fff">
-            <use xlink:href="#grid-g"/>
-          </mask>
-          <rect width="209" height="1" y="26" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-h)"/>
-          <mask id="grid-j" fill="#fff">
-            <use xlink:href="#grid-i"/>
-          </mask>
-          <rect width="209" height="1" y="39" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-j)"/>
-          <mask id="grid-l" fill="#fff">
-            <use xlink:href="#grid-k"/>
-          </mask>
-          <rect width="209" height="1" y="52" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-l)"/>
-          <mask id="grid-n" fill="#fff">
-            <use xlink:href="#grid-m"/>
-          </mask>
-          <rect width="209" height="1" y="65" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-n)"/>
-          <g>
-            <mask id="grid-p" fill="#fff">
-              <use xlink:href="#grid-o"/>
-            </mask>
-            <rect width="209" height="1" y="78" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-p)"/>
-          </g>
-          <g>
-            <mask id="grid-r" fill="#fff">
-              <use xlink:href="#grid-q"/>
-            </mask>
-            <rect width="209" height="1" y="91" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-r)"/>
-          </g>
-          <g>
-            <mask id="grid-t" fill="#fff">
-              <use xlink:href="#grid-s"/>
-            </mask>
-            <rect width="209" height="1" y="104" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-t)"/>
-          </g>
-          <g>
-            <mask id="grid-v" fill="#fff">
-              <use xlink:href="#grid-u"/>
-            </mask>
-            <rect width="209" height="1" y="117" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-v)"/>
-          </g>
-          <g>
-            <mask id="grid-x" fill="#fff">
-              <use xlink:href="#grid-w"/>
-            </mask>
-            <rect width="209" height="1" y="130" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-x)"/>
-          </g>
-          <g>
-            <mask id="grid-z" fill="#fff">
-              <use xlink:href="#grid-y"/>
-            </mask>
-            <rect width="209" height="1" y="143" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-z)"/>
-          </g>
-          <g>
-            <mask id="grid-B" fill="#fff">
-              <use xlink:href="#grid-A"/>
-            </mask>
-            <rect width="209" height="1" y="156" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-B)"/>
-          </g>
-          <g>
-            <mask id="grid-D" fill="#fff">
-              <use xlink:href="#grid-C"/>
-            </mask>
-            <rect width="209" height="1" y="169" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-D)"/>
-          </g>
-          <g>
-            <mask id="grid-F" fill="#fff">
-              <use xlink:href="#grid-E"/>
-            </mask>
-            <rect width="209" height="1" y="182" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-F)"/>
-          </g>
-          <g>
-            <mask id="grid-H" fill="#fff">
-              <use xlink:href="#grid-G"/>
-            </mask>
-            <rect width="209" height="1" y="195" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-H)"/>
-          </g>
-          <g>
-            <mask id="grid-J" fill="#fff">
-              <use xlink:href="#grid-I"/>
-            </mask>
-            <rect width="209" height="1" y="208" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-J)"/>
-          </g>
-        </g>
-        <mask id="grid-L" fill="#fff">
-          <use xlink:href="#grid-K"/>
-        </mask>
-        <rect width="1" height="209" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-L)"/>
-        <mask id="grid-N" fill="#fff">
-          <use xlink:href="#grid-M"/>
-        </mask>
-        <rect width="1" height="209" x="13" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-N)"/>
-        <mask id="grid-P" fill="#fff">
-          <use xlink:href="#grid-O"/>
-        </mask>
-        <rect width="1" height="209" x="26" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-P)"/>
-        <mask id="grid-R" fill="#fff">
-          <use xlink:href="#grid-Q"/>
-        </mask>
-        <rect width="1" height="209" x="39" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-R)"/>
-        <mask id="grid-T" fill="#fff">
-          <use xlink:href="#grid-S"/>
-        </mask>
-        <rect width="1" height="209" x="52" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-T)"/>
-        <mask id="grid-V" fill="#fff">
-          <use xlink:href="#grid-U"/>
-        </mask>
-        <rect width="1" height="209" x="65" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-V)"/>
-        <mask id="grid-X" fill="#fff">
-          <use xlink:href="#grid-W"/>
-        </mask>
-        <rect width="1" height="209" x="78" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-X)"/>
-        <g>
-          <mask id="grid-Z" fill="#fff">
-            <use xlink:href="#grid-Y"/>
-          </mask>
-          <rect width="1" height="209" x="91" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-Z)"/>
-        </g>
-        <g>
-          <mask id="grid-ab" fill="#fff">
-            <use xlink:href="#grid-aa"/>
-          </mask>
-          <rect width="1" height="209" x="104" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ab)"/>
-        </g>
-        <g>
-          <mask id="grid-ad" fill="#fff">
-            <use xlink:href="#grid-ac"/>
-          </mask>
-          <rect width="1" height="209" x="117" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ad)"/>
-        </g>
-        <g>
-          <mask id="grid-af" fill="#fff">
-            <use xlink:href="#grid-ae"/>
-          </mask>
-          <rect width="1" height="209" x="130" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-af)"/>
-        </g>
-        <g>
-          <mask id="grid-ah" fill="#fff">
-            <use xlink:href="#grid-ag"/>
-          </mask>
-          <rect width="1" height="209" x="143" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ah)"/>
-        </g>
-        <g>
-          <mask id="grid-aj" fill="#fff">
-            <use xlink:href="#grid-ai"/>
-          </mask>
-          <rect width="1" height="209" x="156" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-aj)"/>
-        </g>
-        <g>
-          <mask id="grid-al" fill="#fff">
-            <use xlink:href="#grid-ak"/>
-          </mask>
-          <rect width="1" height="209" x="169" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-al)"/>
-        </g>
-        <g>
-          <mask id="grid-an" fill="#fff">
-            <use xlink:href="#grid-am"/>
-          </mask>
-          <rect width="1" height="209" x="182" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-an)"/>
-        </g>
-        <g>
-          <mask id="grid-ap" fill="#fff">
-            <use xlink:href="#grid-ao"/>
-          </mask>
-          <rect width="1" height="209" x="195" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ap)"/>
-        </g>
-        <g>
-          <mask id="grid-ar" fill="#fff">
-            <use xlink:href="#grid-aq"/>
-          </mask>
-          <rect width="1" height="209" x="208" fill="#D7D7DB" fill-rule="nonzero" mask="url(#grid-ar)"/>
-        </g>
-        <rect width="195" height="195" x="7" y="7" stroke="#00FEFF" stroke-width="14" opacity=".5"/>
-        <g transform="translate(0 26)">
-          <rect width="209" height="157" fill="#FF1AD9" fill-opacity=".15" fill-rule="nonzero" rx="23.44"/>
-          <rect width="208" height="156" x=".5" y=".5" stroke="#FF1AD9" stroke-opacity=".8" rx="23.44"/>
-        </g>
-        <g transform="rotate(90 91.5 91.5)">
-          <rect width="209" height="157" fill="#FF1AD9" fill-opacity=".15" fill-rule="nonzero" rx="23.44"/>
-          <rect width="208" height="156" x=".5" y=".5" stroke="#FF1AD9" stroke-opacity=".8" rx="23.44"/>
-        </g>
-        <g transform="rotate(90 91.5 104.5)">
-          <rect width="183" height="183" fill="#FF1AD9" fill-opacity=".15" fill-rule="nonzero" rx="23.44"/>
-          <rect width="182" height="182" x=".5" y=".5" stroke="#FF1AD9" stroke-opacity=".8" rx="23.44"/>
-        </g>
-      </g>
-      <g fill-rule="nonzero" transform="translate(.5 98.5)">
-        <rect width="1" height="9" fill="#FFF" transform="translate(0 122)"/>
-        <rect width="1" height="9" y="122" fill="#30E60B" fill-opacity=".8"/>
-        <rect width="1" height="9" fill="#FFF" transform="translate(208 122)"/>
-        <rect width="1" height="9" fill="#30E60B" fill-opacity=".8" transform="translate(208 122)"/>
-        <rect width="209" height="1" fill="#FFF" transform="translate(0 126)"/>
-        <rect width="209" height="1" fill="#30E60B" fill-opacity=".8" transform="translate(0 126)"/>
-        <g transform="translate(89 115)">
-          <rect width="32" height="22" fill="#FFF" rx="2"/>
-          <rect width="32" height="22" fill="#30E60B" fill-opacity=".8" rx="2"/>
-        </g>
-      </g>
-      <g fill-rule="nonzero" transform="translate(213.5 .5)">
-        <rect width="9" height="1" fill="#FFF" transform="translate(11)"/>
-        <rect width="9" height="1" fill="#30E60B" fill-opacity=".8" transform="translate(11)"/>
-        <rect width="9" height="1" fill="#FFF" transform="translate(11 208)"/>
-        <rect width="9" height="1" fill="#30E60B" fill-opacity=".8" transform="translate(11 208)"/>
-        <rect width="1" height="209" fill="#FFF" transform="translate(15)"/>
-        <rect width="1" height="209" fill="#30E60B" fill-opacity=".8" transform="translate(15)"/>
-        <g transform="translate(0 94)">
-          <rect width="32" height="22" fill="#FFF" rx="2"/>
-          <rect width="32" height="22" fill="#30E60B" fill-opacity=".8" rx="2"/>
-        </g>
+        <rect width="209" height="1" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="13" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="26" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="39" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="52" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="65" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="78" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="91" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="104" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="117" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="130" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="143" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="156" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="169" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="182" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="195" fill="#D7D7DB" mask="url(#grid-d)"/>
+        <rect width="209" height="1" y="208" fill="#D7D7DB" mask="url(#grid-d)"/>
       </g>
     </g>
+    <g transform="translate(46 46)">
+      <mask id="grid-f" fill="#fff">
+        <use xlink:href="#grid-e"/>
+      </mask>
+      <rect width="1" height="209" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="13" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="26" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="39" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="52" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="65" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="78" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="91" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="104" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="117" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="130" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="143" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="156" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="169" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="182" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="195" fill="#D7D7DB" mask="url(#grid-f)"/>
+      <rect width="1" height="209" x="208" fill="#D7D7DB" mask="url(#grid-f)"/>
+    </g>
+    <rect width="195" height="195" x="53" y="53" stroke="#000" stroke-width="14" opacity=".1"/>
+    <use fill="#0A84FF" fill-opacity=".15" xlink:href="#grid-g"/>
+    <rect width="208" height="156" x="46.5" y="72.5" stroke="#0A84FF" stroke-opacity=".8" rx="23.443"/>
+    <g transform="rotate(90 150.5 150.5)">
+      <use fill="#0A84FF" fill-opacity=".15" xlink:href="#grid-h"/>
+      <rect width="208" height="156" x="46.5" y="72.5" stroke="#0A84FF" stroke-opacity=".8" rx="23.443"/>
+    </g>
+    <g transform="rotate(90 150.5 150.5)">
+      <use fill="#0A84FF" fill-opacity=".15" xlink:href="#grid-i"/>
+      <rect width="182" height="182" x="59.5" y="59.5" stroke="#0A84FF" stroke-opacity=".8" rx="23.443"/>
+    </g>
+    <use fill="#FFF" xlink:href="#grid-j"/>
+    <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-j"/>
+    <use fill="#FFF" xlink:href="#grid-k"/>
+    <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-k"/>
+    <use fill="#FFF" xlink:href="#grid-l"/>
+    <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-l"/>
+    <use fill="#FFF" xlink:href="#grid-m"/>
+    <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-m"/>
+    <use fill="#FFF" xlink:href="#grid-n"/>
+    <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-n"/>
+    <g>
+      <use fill="#FFF" xlink:href="#grid-o"/>
+      <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-o"/>
+    </g>
+    <g>
+      <use fill="#FFF" xlink:href="#grid-p"/>
+      <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-p"/>
+    </g>
+    <g>
+      <use fill="#FFF" xlink:href="#grid-q"/>
+      <use fill="#30E60B" fill-opacity=".8" xlink:href="#grid-q"/>
+    </g>
     <text fill="#000" font-family="FiraMono-Medium, Fira Mono" font-size="11" font-weight="400">
-      <tspan x="251.6" y="125">16px</tspan>
+      <tspan x="262" y="155">16px</tspan>
     </text>
     <text fill="#000" font-family="FiraMono-Medium, Fira Mono" font-size="11" font-weight="400">
-      <tspan x="127.6" y="244">16px</tspan>
+      <tspan x="138" y="274">16px</tspan>
     </text>
   </g>
 </svg>
