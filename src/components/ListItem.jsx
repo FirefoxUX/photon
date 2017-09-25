@@ -24,7 +24,7 @@ const ListItem = connect(state => {
   getPage: (item, i) => {
     return (
       <Page
-          classes="db no-underline near-black fw4 pv2 pl3"
+          classes="db no-underline hover-no-underline hover-blue-60 grey-90 fw4 pv2 pl3 lh-solid"
           i={i}
           item={item}
           key={i}
@@ -38,11 +38,14 @@ const ListItem = connect(state => {
       this.props.handleClick(item);
     }
     const pages = item.pages || [item];
+    const selected = (page && item.title === page.category);
+    const expanded = selected || this.props.expanded;
 
-    return (<div className={((page && item.title === page.category) ? ' selected' : '') +
+    return (<div className={'overflow-hidden height-animate pointer' + (selected ? ' selected' : '') +
               (this.props.expanded ? ' expanded' : '')}
+        style={{height: (2 + expanded * 2 * pages.length) + 'em'}}
             >
-      <p className={'fw5 ma0 pv2' + (item.pages.length ? '' : ' grey-50')}
+      <p className={'fw5 ma0 pv2 lh-solid hover-blue-60' + (item.pages.length ? '' : ' grey-50')}
           onClick={handleClick}
       >{item.title}</p>
       {pages.map(this.getPage)}

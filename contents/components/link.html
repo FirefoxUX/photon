@@ -1,44 +1,102 @@
 <header>
+  <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report issue'}); %>
   <h1>Link</h1>
+  <p>
+    Link is text that users can click or tap to access websites or subsequent pages.
+  </p>
 </header>
+
 <section>
-  <table>
-    <thead>
-      <tr>
-        <th>Link Status</th>
-        <th>Font Weight</th>
-        <th>Font Color</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Default</td>
-        <td>SemiBold</td>
-        <td>
-          <div class="dib w2 h2 v-mid mr2 br2 bg-blue-50"></div>
-          <p class="dib v-mid">Grey 90</p>
-        </td>
-        <td><code>#0a84ff</code></td>
-      </tr>
-      <tr>
-        <td>Hovered</td>
-        <td>SemiBold</td>
-        <td>
-          <div class="dib w2 h2 v-mid mr2 br2 bg-blue-60"></div>
-          <p class="dib v-mid">Blue 60</p>
-        </td>
-        <td><code>#0060df</code></td>
-      </tr>
-      <tr>
-        <td>Pressed</td>
-        <td>SemiBold</td>
-        <td>
-          <div class="dib w2 h2 v-mid mr2 br2 bg-blue-70"></div>
-          <p class="dib v-mid">Blue 70</p>
-        </td>
-        <td><code>#003eaa</code></td>
-      </tr>
-    </tbody>
-  </table>
+  <h2>Usage</h2>
+  <p>
+    Use text links to guide users to a new page or to anchor users to a section within a page. For an action that results in an immediate change, use a button instead.
+    <a href="buttons.html">See buttons</a> 
+  </p>
+</section>
+
+<section>
+  <h2>Types</h2>
+ 
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100" src="../images/link/Internal-link.svg" alt="">
+      <h3>Internal link</h3>
+      <p>
+        An internal link directs users to a page inside the Mozilla properties (e.g., SUMO, Pocket) or anchors users to a specific section on the same page.
+      </p>
+    </div>
+    
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100" src="../images/link/External-link.svg" alt="">
+      <h3>External link</h3>
+      <p>
+        An external link directs users to a page not produced by or affiliated with Mozilla.
+      </p> 
+      <p>
+        An <a href="http://design.firefox.com/icons/viewer/#open">Open In New</a>  icon should be paired with the external link.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Styles</h2>
+  <h3>Behaviors</h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-70-ns ph2">
+      <img class="w-100" src="../images/link/link-normal.svg" alt="">
+    </div>
+    <div class="fl-ns w-30-ns ph2">
+      <p>Font weight: Normal<br/>Color: Blue 60 <code>#0060df</code></p>
+    </div>
+  </div>
+
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-70-ns ph2">
+      <img class="w-100" src="../images/link/link-hover.svg" alt="">
+    </div>
+    <div class="fl-ns w-30-ns ph2">
+      <p>Font weight: Normal<br/>Color: Blue 60 <code>#0060df</code></p>
+    </div>
+  </div>
+
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-70-ns ph2">
+      <img class="w-100" src="../images/link/link-pressed.svg" alt="">
+    </div>
+    <div class="fl-ns w-30-ns ph2">
+      <p>Font weight: Normal<br/>Color: Blue 70 <code>#003eaa</code></p>
+    </div>
+  </div>
+
+  <div class="cf nr2 nl2">
+   <div class="fl-ns w-70-ns ph2">
+      <img class="w-100" src="../images/link/link-focused.svg" alt="">
+    </div>
+    <div class="fl-ns w-30-ns ph2">
+      <p>Font weight: Normal<br/>Color: Blue 60 <code>#0060df</code><br/>With focused square</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Examples</h2>
+  <p>
+    A link may stand alone after a sentence or an option. To highlight the relationship, place the link next to the sentence or option.
+  </p>  
+  
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2">
+      <figure>
+        <img class="db w-100-ns" src="../images/link/position-do.svg" alt="border 3px outside 1px inside">
+        <% include ../includes/global/do.html %>
+      </figure>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <figure>
+        <img class="db w-100-ns" src="../images/link/position-dont.svg" alt="border 3px outside 3px inside">
+        <% include ../includes/global/dont.html %>
+      </figure>
+    </div>
+  </div>
 </section>

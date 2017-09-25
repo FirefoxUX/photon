@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="200" viewBox="0 0 430 200">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="203" height="184" x="8" y="8" fill="#D7D7DB"/>
+    <rect width="203" height="184" x="219" y="8" fill="#0C0C0D"/>
+    <text fill="#0C0C0D" font-family="FiraSans-Regular, Fira Sans" font-size="72">
+      <tspan x="69" y="118.44">Aa</tspan>
+    </text>
+    <text fill="#FFF" font-family="FiraSans-Regular, Fira Sans" font-size="72">
+      <tspan x="280" y="118.44">Aa</tspan>
+    </text>
+  </g>
+</svg>

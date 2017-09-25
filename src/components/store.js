@@ -21,12 +21,14 @@ function mungeSources(sources) {
 function store(state, action) {
   if (!state) {
     state = {
-      sources: sources,
-      pages: pages,
-      text: '',
+      feedback_ask: default_feedback_ask,
       file: '',
-      url: '',
-      feedback_ask: default_feedback_ask};
+      pages: pages,
+      nav: false,
+      sources: sources,
+      text: '',
+      url: ''
+    };
   }
   switch (action.type) {
   case "@@router/INIT_PATH":
@@ -34,7 +36,7 @@ function store(state, action) {
     if (state.file === parsePath(action.payload.path)[1]) {
       return Object.assign({}, state);
     }
-    return Object.assign({}, state, {text: '', file: '', url: ''});
+    return Object.assign({}, state, {text: '', file: '', url: '', nav: false});
   case 'TEXT':
     if (action.text !== '&nbsp;' && action.file !== state.file) {
       // Previous fetch completed, ignore it.
@@ -45,6 +47,8 @@ function store(state, action) {
     return Object.assign({}, state, {url: action.url || ''});
   case 'FEEDBACK':
     return Object.assign({}, state, {feedback_ask: action.feedback_ask});
+  case 'NAV':
+    return Object.assign({}, state, {nav: action.nav});
   default:
     return state;
   }

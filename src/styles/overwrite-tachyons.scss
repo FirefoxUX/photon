@@ -2,6 +2,15 @@
   Overwrites and new classes on top of Tachyons CSS
 */
 
+// Global
+
+html,
+body {
+  color: var(--grey-90);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
 // Figure
 
 figure {
@@ -26,23 +35,77 @@ code,
 
 .small,
 small {
-  font-size: small;
+  font-size: 13px;
 }
 
-// Withs
+.f1 {
+  font-size: 33px;
+}
+
+.f2 {
+  font-size: 22px;
+}
+
+.f3 {
+  font-size: 17px;
+}
+
+.f4 {
+  font-size: 13px;
+}
+
+// Shadow
+
+.shadow-1 {
+  box-shadow: 0 1px 4px rgba(12, 12, 13, .1);
+}
+
+.shadow-2 {
+  box-shadow: 0 2px 8px rgba(12, 12, 13, .1);
+}
+
+.shadow-3 {
+  box-shadow: 0 4px 16px rgba(12, 12, 13, .1);
+}
+
+// Width
+
+// This is very ugly, we need a more elegant solution.
+
+.w-18r { width: 18rem; }
+
+.l-0r { left: 0; }
+
+.l-20r { left: -20rem; }
+
+.z-min { z-index: -1; }
 
 @media screen and (min-width: 60em) {
-  .w-6-l { width: 24rem; }
+  .w-20r-l { width: 20rem; }
+
+  .l-0-l { left: 0; }
 }
 
 // Outline
 
 .outline--black-01 {
-  outline-color: rgba(0, 0, 0, .1);
+  outline-color: rgba(12, 12, 13, .1);
 }
 
 .outline-offset--1 {
   outline-offset: -1px;
+}
+
+// Line Height
+
+.lh-title {
+  line-height: 1.3;
+}
+
+// Text Decoration
+
+.hover-no-underline:hover {
+  text-decoration: none;
 }
 
 // Flex
@@ -51,38 +114,36 @@ small {
   flex-grow: 1;
 }
 
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+// Transitions
+
+.height-animate {
+  transition: height 300ms cubic-bezier(.07, .95, 0, 1);
+}
+
+.left-animate {
+  transition: left 300ms cubic-bezier(.07, .95, 0, 1);
+}
+
+.opacity-animate {
+  transition: opacity 300ms cubic-bezier(.07, .95, 0, 1);
+}
+
 // Colors
+
+// Opacity
+
+.bg-black-40 {
+  background-color: rgba(12, 12, 13, .4);
+}
 
 // White
 
 .hover-white:hover {
   color: white;
-}
-
-// Blue
-
-.blue-40 {
-  color: var(--blue-40);
-}
-
-.blue-50 {
-  color: var(--blue-50);
-}
-
-.blue-60 {
-  color: var(--blue-60);
-}
-
-.blue-70 {
-  color: var(--blue-70);
-}
-
-.blue-80 {
-  color: var(--blue-80);
-}
-
-.blue-90 {
-  color: var(--blue-90);
 }
 
 // Teal
@@ -291,33 +352,34 @@ small {
   color: var(--grey-90);
 }
 
-// Background colors
-
 // Blue
 
-.bg-blue-40 {
-  background-color: var(--blue-40);
+.blue-40 {
+  color: var(--blue-40);
 }
 
-.bg-blue-50 {
-  background-color: var(--blue-50);
+.blue-50 {
+  color: var(--blue-50);
 }
 
-.bg-blue-60 {
-  background-color: var(--blue-60);
+.blue-60,
+.hover-blue-60:hover {
+  color: var(--blue-60);
 }
 
-.bg-blue-70 {
-  background-color: var(--blue-70);
+.blue-70 {
+  color: var(--blue-70);
 }
 
-.bg-blue-80 {
-  background-color: var(--blue-80);
+.blue-80 {
+  color: var(--blue-80);
 }
 
-.bg-blue-90 {
-  background-color: var(--blue-90);
+.blue-90 {
+  color: var(--blue-90);
 }
+
+// Background colors
 
 // Teal
 
@@ -329,7 +391,8 @@ small {
   background-color: var(--teal-60);
 }
 
-.bg-teal-70 {
+.bg-teal-70,
+.hover-bg-teal-70:hover {
   background-color: var(--teal-70);
 }
 
@@ -440,7 +503,8 @@ small {
   background-color: var(--red-60);
 }
 
-.bg-red-70 {
+.bg-red-70,
+.hover-bg-red-70:hover {
   background-color: var(--red-70);
 }
 
@@ -524,6 +588,32 @@ small {
 
 .bg-grey-90 {
   background-color: var(--grey-90);
+}
+
+// Blue
+
+.bg-blue-40 {
+  background-color: var(--blue-40);
+}
+
+.bg-blue-50 {
+  background-color: var(--blue-50);
+}
+
+.bg-blue-60 {
+  background-color: var(--blue-60);
+}
+
+.bg-blue-70 {
+  background-color: var(--blue-70);
+}
+
+.bg-blue-80 {
+  background-color: var(--blue-80);
+}
+
+.bg-blue-90 {
+  background-color: var(--blue-90);
 }
 
 // Border colors

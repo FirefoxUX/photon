@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="180" style="background:none" viewBox="0 0 350 180">
+  <g fill="none" fill-rule="evenodd" transform="translate(100 73)">
+    <g transform="translate(0 .5)">
+      <rect width="32" height="32" x=".356" y=".045" fill="#00FEFF" rx="3"/>
+      <g transform="translate(4.356 4.045)">
+        <rect width="24" height="24"/>
+        <path fill="#0C0C0D" fill-opacity=".8" d="M8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 C4.13400675,15 1,11.8659932 1,8 C1,4.13400675 4.13400675,1 8,1 Z M8,4 C8.55228475,4 9,4.44771525 9,5 C9,5.55228475 8.55228475,6 8,6 C7.44771525,6 7,5.55228475 7,5 C7,4.44771525 7.44771525,4 8,4 Z M8,7 C8.55228475,7 9,7.44771525 9,8 L9,11 C9,11.5522847 8.55228475,12 8,12 C7.44771525,12 7,11.5522847 7,11 L7,8 C7,7.44771525 7.44771525,7 8,7 Z" transform="matrix(1 0 0 -1 4 20)"/>
+      </g>
+    </g>
+    <g transform="translate(80.672 1)">
+      <rect width="32" height="32" x=".356" y=".045" fill="#00FEFF" rx="3"/>
+      <g transform="translate(4.356 4.045)">
+        <rect width="20" height="20" x="2.002" y="2" stroke="#FFF" stroke-opacity=".8" stroke-width="4"/>
+        <rect width="20" height="20" x="2.002" y="2" stroke="#00FEFF" stroke-opacity=".2" stroke-width="4"/>
+        <path fill="#0C0C0D" fill-opacity=".8" d="M8,1 C11.8659932,1 15,4.13400675 15,8 C15,11.8659932 11.8659932,15 8,15 C4.13400675,15 1,11.8659932 1,8 C1,4.13400675 4.13400675,1 8,1 Z M8,4 C8.55228475,4 9,4.44771525 9,5 C9,5.55228475 8.55228475,6 8,6 C7.44771525,6 7,5.55228475 7,5 C7,4.44771525 7.44771525,4 8,4 Z M8,7 C8.55228475,7 9,7.44771525 9,8 L9,11 C9,11.5522847 8.55228475,12 8,12 C7.44771525,12 7,11.5522847 7,11 L7,8 C7,7.44771525 7.44771525,7 8,7 Z" transform="matrix(1 0 0 -1 4 20)"/>
+      </g>
+    </g>
+    <g transform="translate(75 24)">
+      <rect width="1" height="5" x="10" fill="#00FEFF" fill-opacity=".5"/>
+      <rect width="1" height="5" x="13" fill="#00FEFF" fill-opacity=".5"/>
+      <rect width="4" height="1" x="10" y="2" fill="#00FEFF" fill-opacity=".5"/>
+      <polygon fill="#00FEFF" fill-opacity=".5" points="8 9 12 5 16 9 12 13"/>
+      <rect width="24" height="23" y="9" fill="#00FEFF" fill-opacity=".5" rx="2"/>
+      <text fill="#002D3E" font-family="FiraSans-Regular, Fira Sans" font-size="10">
+        <tspan x="4.045" y="24">4px</tspan>
+      </text>
+    </g>
+    <g transform="translate(106 6)">
+      <rect width="5" height="1" y="3" fill="#FF1AD9"/>
+      <rect width="5" height="1" y="18" fill="#FF1AD9"/>
+      <rect width="1" height="16" x="2" y="3" fill="#FF1AD9"/>
+      <polygon fill="#FF1AD9" points="5 11 9 7 13 11 9 15"/>
+      <rect width="35" height="22" x="9" fill="#FF1AD9" rx="2"/>
+      <text fill="#FFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12">
+        <tspan x="13.162" y="15">16px</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<header>
+  <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report issue'}); %>
+  <h1>Errors</h1>
+  <p>Errors (or error condition) occur when an the software fails to complete an expected action. Every error becomes a point of friction for the user. </p>
+</header>
+
+
+<section>
+  <h2>Usage</h2>
+  <p>
+    Error messages provide short and relevant information that adds context when a user encounters a problem or issue. Whenever possible, provide the user with an action that helps them address the error. 
+  </p>
+  <p>
+    It's important to distinguished two different kind of error:
+    <ul>
+      <li>
+        User input errors
+      </li>
+      <li>
+        System errors
+      </li>
+    </ul>  
+  </p>
+  <p>
+    <strong>User input error</strong> occur when Firefox doesn't understand user inputs.
+    <% include ../includes/patterns/errors/user-input-errors.html %>
+  </p>
+  <p> 
+    <strong>System errors occurs</strong> when Firefox fails for some reasons most likely not related to the user. 
+    <% include ../includes/patterns/errors/system-errors.html %>
+  <p>
+    Errors are usually place close to the context.
+  </p>
+</section>
+
+<section>
+  <h2>
+    Style
+  </h2>
+  <h3>
+    Icon
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+        The icon used for indicate errors is <a href="http://design.firefox.com/icons/viewer/#warning">an exclamation mark enclosed within a triangle</a>, usually white on a red background, or red.
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/errors/error-icon.svg" alt="pairing example">
+    </div>
+  </div>
+
+  <h3>
+    Colors
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2"> 
+      <p>
+        <a href="../visuals/color.html#red">Red</a> is the dedicated color for errors states. Warning text should be legible, with noticeable contrast against its background color.
+      </p>
+      <h4>Background</h4>
+      <p>
+        Red 50 <code>#ff0039</code>, or trasparent
+      </p>
+      <h4>Content</h4>
+      <p>
+        White <code>#ffffff</code>, or Red 60 <code>#d70022</code>
+      </p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/errors/error-message-bar.svg" alt="Errors colors example">
+    </div>
+  </div>
+</section>
+
+<!-- <section>
+  <h3>
+    Copy Rules
+  </h3>
+  <p>
+    <ul>
+      <li>Don't say please. Just tell people what to do. "Choose a number that is less than ... “</li>
+      <li>Be as specific as possible in the message. "Choose a date" or "Choose a time" or "Enter an address” are all better than “Enter a value.”</li>
+      <li>Use words like “choose” or “select” instead of “type” or “key”. We'd rather engage users' minds than their hands, and this also speaks more universally to users accessing the Web with touchscreens, speech-recognition software, or other user input devices.</li>
+      <li>If there are programmatic rules governing valid choices, expose these in the messages where possible. Don't just tell someone that “X” is the nearest valid value, tell them that they must choose values in “X” increments. </li>
+   </ul>
+  </p>
+</section> -->

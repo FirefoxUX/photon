@@ -8,9 +8,13 @@
 /* Defaults */
 
 a {
-  color: var(--blue-50);
+  color: var(--blue-60);
   cursor: pointer;
   text-decoration: none;
+}
+
+a:not([class]):hover {
+  text-decoration: underline;
 }
 
 /* Click to copy tooltip */
@@ -20,13 +24,13 @@ code {
   position: relative;
 
   &::after {
-    background-color: #333333;
+    background-color: var(--grey-70);
     border-radius: 4px;
     color: white;
     content: "Click to copy";
     display: block;
     font-family: "Fira Sans";
-    font-size: .75rem;
+    font-size: 11px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 500;
@@ -41,6 +45,7 @@ code {
     transform: translateX(-50%);
     transition: top .3s cubic-bezier(.07, .95, 0, 1), opacity .3s cubic-bezier(.07, .95, 0, 1);
     width: 5.2rem;
+    z-index: 1;
   }
 
   &:hover {
@@ -56,23 +61,34 @@ code {
   }
 }
 
+/* Tables are set with overflow:hidden. If the `table` has no `thead` but it has `code` in the first `tr` when you hover `code` the pseudo element is cut off. This hack solve this issue. */
+
+tr:first-child > td > code:hover::after {
+  opacity: 1;
+  top: 1.8rem;
+}
+
 /* Header */
 
 main header {
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 48rem;
+  padding: 0 1rem;
 
   h1 {
-    font-weight: 500;
+    font-size: 33px;
+    font-weight: 200;
+    line-height: 1.2;
     margin: 0 0 2rem;
   }
 
-  p:not(:last-of-type) {
-    line-height: 1.4;
+  p:not([class]):not(:last-of-type) {
+    line-height: 1.5;
     margin: 0 0 1rem;
   }
 
-  p:last-of-type {
-    line-height: 1.4;
+  p:not([class]):last-of-type {
+    line-height: 1.5;
     margin-bottom: 2rem;
   }
 
@@ -83,7 +99,7 @@ main header {
 
   li {
     &:not(:last-child) {
-      padding: 0 0 1rem;
+      padding: 0 0 .5rem;
     }
 
     &:last-child {
@@ -92,8 +108,7 @@ main header {
   }
 
   li ul {
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding: .5rem 0 0 1rem;
   }
 
   @media screen and (min-width: 60em) {
@@ -104,32 +119,47 @@ main header {
 /* Section typography */
 
 main section {
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem;
+  max-width: 48rem;
+  padding: 0 1rem;
 
   @media screen and (min-width: 60em) {
     margin-bottom: 4rem;
   }
 
-  h2,
-  h3,
-  h4,
-  strong {
-    font-weight: 500;
-  }
-
-  h1 {
-    margin: 0 0 2rem;
+  img,
+  iframe {
+    background-color: var(--grey-10);
+    outline: 1px solid rgba(12, 12, 13, .1);
+    outline-offset: -1px;
   }
 
   h2 {
+    font-size: 22px;
+    font-weight: 300;
     margin: 3rem 0 1rem;
   }
 
   h3 {
+    font-size: 17px;
+    font-weight: 500;
     margin: 2rem 0 1rem;
   }
 
   h4 {
+    font-size: 13px;
+    font-weight: 500;
+    margin: 1rem 0 .5rem;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 1rem;
+  }
+
+  strong {
+    font-weight: 700;
     margin: 1rem 0 .5rem;
   }
 
@@ -151,24 +181,31 @@ main section {
     }
   }
 
-  p,
   ul {
-    line-height: 1.4;
-    margin: 0 0 1rem;
+    line-height: 1.5;
   }
 
   a {
-    color: var(--blue-50);
-    text-decoration: none;
+    &:not([class])[href*="//"] {
+      &::after {
+        background-image: url('../../images/global/open-in-new-16.svg');
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+        content: "";
+        display: inline-block;
+        height: 16px;
+        margin: -.3rem .15rem 0 .25rem;
+        vertical-align: middle;
+        width: 16px;
+      }
+    }
 
-    &:not([class])[href*="//"]::after {
-      background-image: url('../../images/global/open-new-tab.svg');
-      background-size: 12px 12px;
-      content: "";
-      display: inline-block;
-      height: 12px;
-      margin: 0 .15rem 0 .25rem;
-      width: 12px;
+    &:visited {
+      color: var(--blue-70);
+
+      &:not([class])[href*="//"]::after {
+        background-image: url('../../images/global/open-in-new-16-visited.svg');
+      }
     }
   }
 
@@ -176,49 +213,50 @@ main section {
     margin: 0 0 1rem;
 
     figcaption {
+      color: var(--grey-50);
       font-size: 13px;
       line-height: 1.3;
       padding-top: .5rem;
+
+      a {
+        color: var(--grey-50);
+        text-decoration: underline;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
   }
 
   button {
-    background-color: var(--blue-50);
+    background-color: var(--blue-60);
     border: none;
+    border-radius: 4px;
     color: white;
     cursor: pointer;
     font-family: "Fira Sans";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-weight: 500;
-    padding: 1rem;
-    text-transform: uppercase;
+    min-width: 132px;
+    padding: 16px;
   }
 
   code {
-    background-color: #eeeeee;
+    background-color: var(--grey-20);
     border-radius: 3px;
     margin: 0 1px;
     padding: 4px;
-  }
-
-  details {
-    border: 1px solid #eeeeee;
-    border-radius: 4px;
-    line-height: 1.4;
-    padding: 1rem 1rem 0;
-
-    summary {
-      padding-bottom: 1rem;
-    }
   }
 }
 
 /* Section blockquote */
 
 main section blockquote {
-  background-color: #eeeeee;
+  background-color: white;
   border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(12, 12, 13, .1);
   box-sizing: border-box;
   font-size: 13px;
   margin: 0 0 1rem;
@@ -244,78 +282,88 @@ main section div[class] blockquote {
 /* Section table */
 
 main section table {
+  // There is a bug on iOS and for the time beign we hide the table gradients
+  //
+  // background: linear-gradient(to right, rgba(12, 12, 13, .1) -32px, white 32px, white calc(100% - 32px), rgba(12, 12, 13, .1) calc(100% + 32px));
+  // background-attachment: scroll;
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  border: 1px solid var(--grey-20);
   border-collapse: collapse;
   border-spacing: 0;
-  border-top: 2px solid #eeeeee;
   display: inline-block;
-  font-size: 13px;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1rem;
   max-width: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
   vertical-align: top;
   white-space: nowrap;
 
-  @media screen and (min-width: 30em) {
-    font-size: initial;
+  @media screen and (min-width: 60em) {
+    display: inline-table;
+    white-space: initial;
+    width: 100%;
   }
 
-  @media screen and (min-width: 30em) {
-    white-space: normal;
-  }
-
-  thead {
-    background-color: #eeeeee;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+  th,
+  td {
+    padding: 8px;
   }
 
   th {
+    background-color: var(--grey-20);
+    font-size: 13px;
     font-weight: 500;
-    padding: .5rem .75rem;
     text-align: left;
-
-    @media screen and (min-width: 30em) {
-      padding: .75rem 1rem;
-    }
 
     p {
       margin: 0;
     }
+  }
+
+  tr:not(:last-child) {
+    border-bottom: 1px solid var(--grey-20);
   }
 
   td {
-    border-bottom: 2px solid #eeeeee;
-    padding: .5rem .75rem;
-
     p {
       margin: 0;
     }
-
-    @media screen and (min-width: 30em) {
-      padding: .75rem 1rem;
-    }
   }
+
+  // There is a bug on iOS and for the time beign we hide the table gradients
+  //
+  // td:first-child {
+  //   background-image: linear-gradient(to right, white 0, rgba(255, 255, 255, 0) 100%);
+  //   background-repeat: no-repeat;
+  //   background-size: 64px 100%;
+  // }
+
+  // td:last-child {
+  //   background-image: linear-gradient(to left, white 0, rgba(255, 255, 255, 0) 100%);
+  //   background-position: 100% 0;
+  //   background-repeat: no-repeat;
+  //   background-size: 64px 100%;
+  // }
 }
 
 main section article {
-  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: white;
   border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(12, 12, 13, .1);
   margin-bottom: 1.5rem;
+  padding: 1rem;
 
   @media screen and (min-width: 30em) {
     width: 75%;
   }
 
-  h4 {
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
-    margin: 0;
-    padding: 1rem;
+  h3 {
+    margin: 0 0 1rem;
   }
 
   p {
     margin: 0;
-    padding: 1rem;
   }
 }
 
@@ -331,6 +379,25 @@ main section article {
   background-repeat: no-repeat;
   display: inline-block;
   height: 16px;
-  margin-top: 4px;
   width: 16px;
+}
+
+/* Tabs */
+
+div[data-tabs] input[type="radio"] + label {
+  border-top: 2px solid rgba(255, 255, 255, 0);
+}
+
+div[data-tabs] input[type="radio"] + label:hover {
+  background-color: var(--grey-20);
+  border-color: var(--grey-30);
+}
+
+div[data-tabs] input[type="radio"]:checked + label {
+  border-color: var(--blue-50);
+  color: var(--blue-60);
+}
+
+div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
+  display: block;
 }

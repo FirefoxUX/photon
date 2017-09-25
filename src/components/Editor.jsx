@@ -8,7 +8,7 @@ require('../../node_modules/highlight.js/styles/color-brewer.css');
 const React = require('react');
 const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
-const { getPage, sendEvent } = require('./utilities.js');
+const { getPage } = require('./utilities.js');
 
 const Editor = React.createClass({
   displayName: 'Editor',
@@ -54,9 +54,9 @@ const Editor = React.createClass({
   highlightSelectedTitle: function() {
     let element = document.getElementById(decodeURIComponent(window.location.hash.replace(/#/g,'')));
     if (element) {
-      element.classList.add('blue-50');
+      element.classList.add('blue-60');
       setTimeout(function(){
-        element.classList.remove('blue-50');
+        element.classList.remove('blue-60');
       }, 1000);
     }
   },
@@ -65,7 +65,6 @@ const Editor = React.createClass({
     let node = ReactDOM.findDOMNode(this);
     let headings = Array.from(node.querySelectorAll('h1,h2,h3,h4'));
     let ids = new Set();
-    let header_links = [];
     headings.forEach(e => {
       if (!e.id) {
         let newId = e.textContent.trim().toLowerCase().replace(/ /g, '-');
@@ -77,7 +76,7 @@ const Editor = React.createClass({
         e.id = newId;
         if (e.tagName != 'H1') {
           let linkTo = document.createElement('a');
-          linkTo.innerHTML = `<div class="link-image"></div>`;
+          linkTo.innerHTML = `<div class="link-image" title="Link to this section"></div>`;
           linkTo.href = `#${e.id}`;
           e.appendChild(linkTo);
         }
@@ -86,22 +85,7 @@ const Editor = React.createClass({
         console.error(`Duplicate id found: ${e.id}`); // eslint-disable-line no-console
       }
       ids.add(e.id);
-      if (e.tagName === 'H2') {
-        header_links.push(`<li><a href="#${e.id}">${e.textContent.trim()}</a></li>`);
-      }
     });
-
-    if (node.querySelector('header') && !node.querySelector('header[toc-none]')) {
-      let header_list = document.createElement('ul');
-      header_list.addEventListener('click', (e) => {
-        if (e.target.tagName === "A") {
-          sendEvent('header-click', e.target.getAttribute('href').substring(1), window.location.pathname)
-        }
-      });
-      header_list.classList.add('toc');
-      header_list.innerHTML = header_links.join('\n');
-      node.querySelector('header').appendChild(header_list);
-    }
   },
 
   addClickToCopy: function () {
@@ -130,7 +114,7 @@ const Editor = React.createClass({
       }
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }
-    return (<div className={'center mb5 mw7 pb3 ph3 mt3 mt4-l' +
+    return (<div className={'pt3 pt4-l' +
       (url ? ' url' : ' ')}
         dangerouslySetInnerHTML={{__html:
           '<div class="popup"></div>' + text}}
