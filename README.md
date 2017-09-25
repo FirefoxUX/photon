@@ -1,4 +1,4 @@
-# Photon Design System  [![Build Status](https://travis-ci.org/FirefoxUX/StyleGuide.svg?branch=master)](https://travis-ci.org/FirefoxUX/StyleGuide)
+# Photon Design System  [![Build Status](https://travis-ci.org/FirefoxUX/photon.svg?branch=master)](https://travis-ci.org/FirefoxUX/photon)
 
 Requires:
 * npm version: 4.1.2
