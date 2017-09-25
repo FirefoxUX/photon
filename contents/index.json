@@ -49,7 +49,7 @@
     "title": "Motion",
     "directory": "motion",
     "pages": [
-      {"title": "Principles",
+      {"title": "Motion Principles",
         "file": "principles.html"},
       {"title": "Duration and Easing",
         "file": "duration-and-easing.html"}
