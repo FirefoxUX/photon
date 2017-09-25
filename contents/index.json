@@ -40,6 +40,9 @@
       },
       {"title": "Illustration",
         "file": "illustration.html"
+      },
+      {"title": "Product Identity Assets",
+        "file": "product-identity-assets.html"
       }
     ]
   },
