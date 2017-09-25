@@ -60,6 +60,14 @@ small {
   box-shadow: 0 1px 4px rgba(12, 12, 13, .1);
 }
 
+.shadow-2 {
+  box-shadow: 0 2px 8px rgba(12, 12, 13, .1);
+}
+
+.shadow-3 {
+  box-shadow: 0 4px 16px rgba(12, 12, 13, .1);
+}
+
 // Width
 
 // This is very ugly, we need a more elegant solution.
