@@ -1,13 +1,44 @@
 # Photon Design System Releases
 
-## [[0.3.4] - 2017-??-??](https://github.com/firefoxux/photon/releases/tag/v0.3.4)
+## [[0.4.0] - 2017-09-25](https://github.com/firefoxux/photon/releases/tag/v0.4.0)
 ### Add
+New addition to the family 🙌
+- Photon Design: Design for Inclusion
+- Visual: Product Indentity Assets
+- Copy: Voice and Tone
+- Copy: Writing for Users
+- Copy: Capitalization
+- Copy: Punctuation
+- Patterns: Errors (Draft)
+- Patterns: Inactive
+- Patterns: Shadows
+- Patterns: Warnings (Draft)
+- Components: Buttons (Draft)
+- Components: Input Fields (Draft)
+- Components: Link (Draft)
+- Components: Message Bars (Draft)
+- Resources: Design Tokens
 
 ### Fix
+Fix stuff 💪
+- [#7](https://github.com/FirefoxUX/photon/issues/7) Improve tables layout on mobile
+- [#8](https://github.com/FirefoxUX/photon/issues/8) Better i.a. for generic pages
+- [#21](https://github.com/FirefoxUX/photon/issues/21) Expected to be able to close the menu on mobile
+- [#47](https://github.com/FirefoxUX/photon/issues/47) Examples Section
+- [#48](https://github.com/FirefoxUX/photon/issues/48) Style the photon design system website with the photon design system
+- [#56](https://github.com/FirefoxUX/photon/issues/56) Overlapping elements on the bottom of the sidebar
 - [#64](https://github.com/FirefoxUX/photon/issues/64) Feedback component broken on mobile
-- [#65](https://github.com/FirefoxUX/photon/issues/65) Wrong color code listed for one of the grays in dark theme 
+- [#65](https://github.com/FirefoxUX/photon/issues/65) Wrong color code listed for one of the grays in dark theme
+- [#71](https://github.com/FirefoxUX/photon/issues/71) Improve interaction of main navigation aka sidebar
+- [#78](https://github.com/FirefoxUX/photon/issues/78) Make ~photon-colors/colors.css available
 
 ### Change
+- New Home 🔥
+- New Favicon ✨
+- Split Motion in two pages: Principles and Duration & Easing
+- Split Resources in three pages: Icons, Fonts and Design Tokens
+- Edit and proofread all pages (Thank you Michelle and Brian 👏)
+- Add new and fancy visual assets (Thank you Philip 👏)
 
 ## [[0.3.3] - 2017-07-07](https://github.com/firefoxux/photon/releases/tag/v0.3.3)
 ### Add
