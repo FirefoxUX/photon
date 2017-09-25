@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="180" style="background:none" viewBox="0 0 350 180">
+  <defs>
+    <path id="i-success-a" d="M3.99375545,11.9989024 C3.72815873,11.9988457 3.47346086,11.8933935 3.28568398,11.7057404 L0.281137443,8.70408197 C-0.0984091032,8.31148617 -0.0929810538,7.68743549 0.293337329,7.30148846 C0.679655711,6.91554142 1.30430684,6.91011859 1.69728038,7.2893003 L3.85754934,9.44749271 L10.1831213,0.419504703 C10.5022164,-0.0272991976 11.1220373,-0.13387488 11.5722906,0.180642683 C12.0225439,0.495160246 12.1351219,1.11334196 11.8246052,1.56613822 L4.81399665,11.5716663 C4.645093,11.8155968 4.376564,11.9720882 4.0808873,11.9989024 C4.05186182,12.0003659 4.02278092,12.0003659 3.99375545,11.9989024 Z"/>
+    <path id="i-success-c" d="M3.99375545,11.9989024 C3.72815873,11.9988457 3.47346086,11.8933935 3.28568398,11.7057404 L0.281137443,8.70408197 C-0.0984091032,8.31148617 -0.0929810538,7.68743549 0.293337329,7.30148846 C0.679655711,6.91554142 1.30430684,6.91011859 1.69728038,7.2893003 L3.85754934,9.44749271 L10.1831213,0.419504703 C10.5022164,-0.0272991976 11.1220373,-0.13387488 11.5722906,0.180642683 C12.0225439,0.495160246 12.1351219,1.11334196 11.8246052,1.56613822 L4.81399665,11.5716663 C4.645093,11.8155968 4.376564,11.9720882 4.0808873,11.9989024 C4.05186182,12.0003659 4.02278092,12.0003659 3.99375545,11.9989024 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(100 73)">
+    <g transform="translate(0 .5)">
+      <rect width="32" height="32" x=".356" y=".045" fill="#30E60B" rx="3"/>
+      <g transform="translate(4.356 4.045)">
+        <rect width="24" height="24"/>
+        <g transform="translate(6 6)">
+          <mask id="i-success-b" fill="#fff">
+            <use xlink:href="#i-success-a"/>
+          </mask>
+          <use fill="#0C0C0D" fill-opacity=".8" fill-rule="nonzero" xlink:href="#i-success-a"/>
+          <g fill="#003706" mask="url(#i-success-b)">
+            <rect width="200" height="200" transform="translate(-91 -92)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(80.672 1)">
+      <rect width="32" height="32" x=".356" y=".045" fill="#30E60B" rx="3"/>
+      <g transform="translate(4.356 4.045)">
+        <rect width="20" height="20" x="2.002" y="2" stroke="#FFF" stroke-opacity=".8" stroke-width="4"/>
+        <rect width="20" height="20" x="2.002" y="2" stroke="#00FEFF" stroke-opacity=".2" stroke-width="4"/>
+        <g transform="translate(6 6)">
+          <mask id="i-success-d" fill="#fff">
+            <use xlink:href="#i-success-c"/>
+          </mask>
+          <use fill="#0C0C0D" fill-opacity=".8" fill-rule="nonzero" xlink:href="#i-success-c"/>
+          <g fill="#003706" mask="url(#i-success-d)">
+            <rect width="200" height="200" transform="translate(-91 -92)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(75 24)">
+      <rect width="1" height="5" x="10" fill="#00FEFF" fill-opacity=".5"/>
+      <rect width="1" height="5" x="13" fill="#00FEFF" fill-opacity=".5"/>
+      <rect width="4" height="1" x="10" y="2" fill="#00FEFF" fill-opacity=".5"/>
+      <polygon fill="#00FEFF" fill-opacity=".5" points="8 9 12 5 16 9 12 13"/>
+      <rect width="24" height="23" y="9" fill="#00FEFF" fill-opacity=".5" rx="2"/>
+      <text fill="#002D3E" font-family="FiraSans-Regular, Fira Sans" font-size="10">
+        <tspan x="4.045" y="24">4px</tspan>
+      </text>
+    </g>
+    <g transform="translate(106 6)">
+      <rect width="5" height="1" y="3" fill="#FF1AD9"/>
+      <rect width="5" height="1" y="18" fill="#FF1AD9"/>
+      <rect width="1" height="16" x="2" y="3" fill="#FF1AD9"/>
+      <polygon fill="#FF1AD9" points="5 11 9 7 13 11 9 15"/>
+      <rect width="35" height="22" x="9" fill="#FF1AD9" rx="2"/>
+      <text fill="#FFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12">
+        <tspan x="13.162" y="15">16px</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

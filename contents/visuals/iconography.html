@@ -1,0 +1,299 @@
+<header>
+  <h1>Iconography</h1>
+  <p>Firefox icons are informative, fun and friendly.</p>
+</header>
+
+<section>
+  <h2>Icon Construction</h2>
+  <div class="cf nr3 nl3">
+  <div class="w-50-ns fl-ns ph3 mb3">
+    <p>
+      Use universal metaphors that everyone around the world can quickly identify. Aim for a design most people can interpret correctly and won’t find offensive. Do not focus on a secondary or obscure aspect of an element. Remember that too many details can make an icon appear sloppy or unreadable.
+    </p>
+  </div>
+  <div class="w-50-ns fl-ns ph2 mb3">
+    <blockquote>
+      <p>
+        Looking for icons? Check out all the existing <a href="http://design.firefox.com/icons/">Firefox Icons</a>.
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        Check the <a href="../resources/resources.html#icons-templates">Firefox Icons Template</a>.
+      </p>
+    </blockquote>
+  </div>
+</div>
+
+
+  <h3>Grid</h3>
+  <p> 
+    Most Firefox for desktop icons live on a <strong>16×16</strong> pixel grid. Some specific small icons, used in rare cases, live on a <strong>12×12</strong> pixel grid. Keep icon shape weighted towards the middle area of the grid, reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps ensure that icons will not appear fuzzy in production.
+  </p>
+  <div class="cf nr3 nl3">
+  <div class="fl-ns w-50-ns ph3">
+    <figure>
+      <img src="../images/icons/grid.svg" alt="icons grid">
+      <figcaption> 16&times;16 is the most common icon size on Firefox Desktop. In the image the blue area indicates the max size for round icons, magenta one is for square icons.</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-50-ns ph3">
+    <blockquote>
+       <p>
+          In Sketch, select the shape and then select <em>Layer &#8594; Round to Nearest Pixel Edge</em>. Sketch will automatically align the edges with the pixel grid.
+      </p>
+      <p>
+         In Adobe Illustrator, use <em>View &#8594; Pixel Preview</em> to see your design on a pixel grid. Select a shape and use <em>Object &#8594; Make Pixel Perfect</em> to set position and size to the nearest full pixel. Or click the <em>Snap to Pixel</em> icon in the Control panel to turn on snapping permanently.
+      </p>
+    </blockquote>
+  </div>
+</div>
+
+
+  <p>
+    Firefox for Android icons are <strong> 20×20</strong>, with a bounding box of 24×24, according to Material Design specs. Firefox for iOs icons live on a <strong>24×24</strong> grid.
+  </p>
+  <div class="cf nr3 nl3">
+  <div class="fl-ns w-50-ns ph3">
+    <figure>
+      <img src="../images/icons/grid-android.svg" alt="icons grid">
+      <figcaption>20x20 grid for Android, with a bounding box of 24×24</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-50-ns ph3">
+    <figure>
+      <img src="../images/icons/grid-ios.svg" alt="icons grid">
+      <figcaption>24x24 grid for iOS</figcaption>
+    </figure>
+  </div>
+</div>
+
+
+
+  <h3>Shape</h3>
+  <p>
+    Use positive and negative space to create the icon shape. When lines principally shape your icon, use a 2px stroke for the foundation and a 1px line for extra details. Rounded end caps and rounded line joins keep the icon smooth and friendly. On <strong>12×12</strong> icons, consider whether to use a 1px stroke or to go solid.
+  </p>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/stroke1.svg" alt="">
+    </figure>
+  </div>
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/stroke2.svg" alt="">
+    </figure>
+  </div>
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/stroke3.svg" alt="">
+    </figure>
+  </div>
+</div>
+
+  <p>
+    When you have two rounded corners running parallel, the outer corner has a larger radius, set on 3px, than the one on the inside, set on 1px.
+  </p>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/border-do.svg" alt="border 3px outside 1px inside">
+      <figcaption class="flex bt bw2 b--green-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/check.svg" alt="">
+  <span class="green-70" style="margin-top: 2px">Do</span>
+</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/border-dont2.svg" alt="border 3px outside 3px inside">
+      <figcaption class="flex bt bw2 b--red-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/stop.svg" alt="">
+  <span class="red-60" style="margin-top: 2px">Don't</span>
+</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/border-dont1.svg" alt="border 1px outside 1px inside">
+      <figcaption class="flex bt bw2 b--red-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/stop.svg" alt="">
+  <span class="red-60" style="margin-top: 2px">Don't</span>
+</figcaption>
+    </figure>
+  </div>
+</div>
+
+  <p>
+    <strong>On iOS</strong>, use 3px strokes for the foundation and 2px strokes for the details to keep a consistent look and feel across platforms. Align icons in the northwest corner when required.
+  </p>
+  <figure>
+    <img src="../images/icons/example-multiple-platform.png" alt="example with difference sizes for difference platforms">
+    <figcaption>How the shape changes according to the platform</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>Export Your Icon</h2>
+  <p>
+    Before exporting your icons, be sure to expand all the shapes and strokes overlapping each other. Remember to remove unnecessary anchor points to keep the icon as simple as possible.
+  </p>
+  <p>
+    Name the artboard with the icon name. The name should describe the action of the icon, and not the icon itself. For example, when using a star as a metaphor for bookmarking, use <em>bookmark</em>, and not <em>star</em> as the name. Add a hyphen (<code>-</code>) to underline variations in the icon.
+  </p>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/naming-do1.svg" alt="naming does">
+      <figcaption class="flex bt bw2 b--green-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/check.svg" alt="">
+  <span class="green-70" style="margin-top: 2px">Do</span>
+</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/naming-do2.svg" alt="naming does">
+      <figcaption class="flex bt bw2 b--green-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/check.svg" alt="">
+  <span class="green-70" style="margin-top: 2px">Do</span>
+</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-third-ns ph2 mb3">
+    <figure>
+      <img class="db w-100-ns" src="../images/icons/naming-dont.svg" alt="naming doesnt">
+      <figcaption class="flex bt bw2 b--red-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/stop.svg" alt="">
+  <span class="red-60" style="margin-top: 2px">Don't</span>
+</figcaption>
+    </figure>
+  </div>
+</div>
+
+  <p>
+    Finally, save your icon as SVG (and .png if you're working on mobile).
+  </p>
+  <blockquote>
+    <p>
+      If you are using Sketch, be sure to install the <a href="https://github.com/BohemianCoding/svgo-compressor">SVGO Compressor by Bohemian Coding</a>.
+    </p>
+  </blockquote>
+</section>
+
+<section>
+  <h2>Color</h2>
+  <p>
+    Adapt your icon color according to your background.
+  </p>
+  <table>
+  <thead>
+    <tr>
+      <th><p>Background</p></th>
+      <th colspan="2"><p>Icon Color</p></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p>Light</p>
+      </td>
+      <td>
+        <div class="dib w2 h2 v-mid mr2 br2 bg-grey-90"></div>
+        <p class="dib v-mid">Grey 90</p>
+      </td>
+      <td>
+        <code>#0c0c0d</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Dark</p>
+      </td>
+      <td>
+        <div class="dib w2 h2 v-mid mr2 br2 bg-grey-10 ba b--black-10"></div>
+        <p class="dib v-mid">Grey 10</p>
+      </td>
+      <td>
+        <code>#f9f9fa</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  <div class="cf nr3 nl3">
+  <div class="fl w-50-ns ph3">
+   <figure>
+      <img src="../images/color/color-icons-light.png" alt="Icons on the toolbar with a light theme">
+      <figcaption>Use Grey 90 <code>#0c0c0d</code> fill on light background</figcaption>
+    </figure> 
+  </div>
+  <div class="fl w-50-ns ph3">
+    <figure>
+      <img src="../images/color/color-icons-dark.png" alt="Icons on the toolbar with a dark theme">
+      <figcaption>Use Grey 10 <code>#f9f9fa</code> fill on dark background</figcaption>
+    </figure>
+  </div>
+</div>
+  <h3>State</h3>
+  <p>
+     Treat primary and secondary icons differently to create an obvious visual hierarchy. 
+  </p>
+  <p>
+    Use <strong>primary icons</strong> for the main, most frequent actions on the page. A primary icon doesn't change color and usually lives within a button. 
+  </p>
+  <p>
+    Use <strong>secondary icons</strong> for subsidiary, less frequent actions on the page. Note that a secondary icon changes presentation when the user interacts with it. 
+  </p>
+  <table>
+  <thead>
+    <tr>
+      <th><p>Icons state</p></th>
+      <th><p>Opacity Primary Icons</p></th>
+      <th><p>Opacity Secondary Icons</p></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <p>Active</p>
+      </td>
+      <td>
+        <p>80%</p>
+      </td>
+      <td>
+        <p>60%</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Hover</p>
+      </td>
+      <td>
+        <p>80%</p>
+      </td>
+       <td>
+        <p>80%</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Inactive</p>
+      </td>
+      <td>
+        <p>25%</p>
+      </td>
+      <td>
+        <p>25%</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</section>
+
+<section>
+  <h2>Accessibility</h2>
+  <p>
+    All icons should have a text-based equivalent for screen readers. If your icon allows interactivity, give it a text label.
+  </p>
+</section>

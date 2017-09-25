@@ -16,14 +16,14 @@
     Duration is the actual duration that a process takes. This is the element that is often referred to as “performance” in technical discussions. Different magnitudes of duration require different treatments to achieve an optimal perceived performance.
   </p>
   <table>
-    <thead>
+    <thead style="vertical-align: top;">
       <tr>
         <th>Terminology</th>
-        <th>Duration <br/><i>[Milliseconds]</i></th>
+        <th>Duration</th>
         <th>Response</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody style="vertical-align: top;">
       <tr>
         <td><strong>Instantaneous</strong></td>
         <td>up to 100ms</td>
@@ -32,12 +32,12 @@
       <tr>
         <td><strong>Immediate</strong></td>
         <td>500–1000ms</td>
-        <td>Answers to simple requests must be completed within this time frame. (e.g. opening a new window)</td>
+        <td>Answers to simple requests must be completed within this time frame (e.g., opening a new window).</td>
       </tr>
       <tr>
         <td><strong>Continuous</strong></td>
         <td>2000–5000ms</td>
-        <td>Answers to complex questions must be completed within this time frame. (e.g. loading a web page)</td>
+        <td>Answers to complex questions must be completed within this time frame (e.g., loading a web page).</td>
       </tr>
       <tr>
         <td><strong>Captive</strong></td>
@@ -46,26 +46,31 @@
       </tr>
     </tbody>
   </table>
+    <blockquote>
+    <p>
+      Why Performance Matters by Denys Mishunov <a href="https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/">Part 1</a>, <a href="https://www.smashingmagazine.com/2015/11/why-performance-matters-part-2-perception-management/">Part 2</a>, <a href="https://www.smashingmagazine.com/2015/12/performance-matters-part-3-tolerance-management/">Part 3</a>.
+    </p>
+  </blockquote>
 
   <h3>Responsiveness</h3>
   <p>
-    Responsiveness is the user perceived time it takes the system to respond to user input.
+    Responsiveness is the perceived time it takes the system to respond to user input.
   </p>
   <p>
     Example: An empty dialog appearing immediately after a click and then taking a second to populate with content feels faster than the same dialog appearing with a second delay, but fully populated.
   </p>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2 mb3">
-      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Responsiveness/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <figcaption class="flex bt bw2 b--green-60 pt1">
-  <img class="mr2" src="../images/global/check.svg" alt="">
+      <iframe class="db w-100" height="180" src="http://aminalhazwani.com/photon-demos/responsiveness/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/check.svg" alt="">
   <span class="green-70" style="margin-top: 2px">Do</span>
 </figcaption>
     </div>
     <div class="fl-ns w-50-ns ph2 mb3">
-      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Responsiveness/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <figcaption class="flex bt bw2 b--red-60 pt1">
-  <img class="mr2" src="../images/global/stop.svg" alt="">
+      <iframe class="db w-100" height="180" src="http://aminalhazwani.com/photon-demos/responsiveness/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--red-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/stop.svg" alt="">
   <span class="red-60" style="margin-top: 2px">Don't</span>
 </figcaption>
     </div>
@@ -73,30 +78,30 @@
 
   <h3>Fluency</h3>
   <p>
-    Fluency is the user perceived smoothness of a process. It could also be described as a measure for how hard the machine appears to be working. Aim for constant 60 frames per second.
+    Fluency is the perceived smoothness of a process. It could also be described as a measure for how hard the machine appears to be working. Aim for constant 60 frames per second.
   </p>
   <p>
     Example: A stuttering progress indicator gives the impression of lower performance, regardless of the actual duration of the process.
   </p>
   <div class="cf nr2 nl2">
-    <div class="fl-ns w-100-m w-third-ns ph2 mb3">
-      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Fluency/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <figcaption class="flex bt bw2 b--green-60 pt1">
-  <img class="mr2" src="../images/global/check.svg" alt="">
+    <div class="fl-ns w-100 w-third-ns ph2 mb3">
+      <iframe class="db w-100" height="180" src="http://aminalhazwani.com/photon-demos/fluency/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/check.svg" alt="">
   <span class="green-70" style="margin-top: 2px">Do</span>
 </figcaption>
     </div>
-    <div class="fl-ns w-100-m w-third-ns ph2 mb3">
-      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Fluency/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <figcaption class="flex bt bw2 b--red-60 pt1">
-  <img class="mr2" src="../images/global/stop.svg" alt="">
+    <div class="fl-ns w-100 w-third-ns ph2 mb3">
+      <iframe class="db w-100" height="180" src="http://aminalhazwani.com/photon-demos/fluency/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--red-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/stop.svg" alt="">
   <span class="red-60" style="margin-top: 2px">Don't</span>
 </figcaption>
     </div>
-    <div class="fl-ns w-100-m w-third-ns ph2 mb3">
-      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Fluency/example-fallback.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <figcaption class="flex bt bw2 b--green-60 pt1">
-  <img class="mr2" src="../images/global/check.svg" alt="">
+    <div class="fl-ns w-100 w-third-ns ph2 mb3">
+      <iframe class="db w-100" height="180" src="http://aminalhazwani.com/photon-demos/fluency/example-fallback.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/check.svg" alt="">
   <span class="green-70" style="margin-top: 2px">Do</span>
 </figcaption>
     </div>
@@ -111,16 +116,16 @@
   </p>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2 mb3">
-      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Tolerance/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <figcaption class="flex bt bw2 b--green-60 pt1">
-  <img class="mr2" src="../images/global/check.svg" alt="">
+      <iframe class="db w-100" height="180" src="http://aminalhazwani.com/photon-demos/tolerance/example-do.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--green-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/check.svg" alt="">
   <span class="green-70" style="margin-top: 2px">Do</span>
 </figcaption>
     </div>
     <div class="fl-ns w-50-ns ph2 mb3">
-      <iframe width="100%" height="260" src="https://designakt.github.io/PerceivedPerformance/Tolerance/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <figcaption class="flex bt bw2 b--red-60 pt1">
-  <img class="mr2" src="../images/global/stop.svg" alt="">
+      <iframe class="db w-100" height="180" src="http://aminalhazwani.com/photon-demos/tolerance/example-dont.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      <figcaption class="flex bt bw2 b--red-60 pt2 mb1">
+  <img class="mr2 bg-white outline-0" src="../images/global/stop.svg" alt="">
   <span class="red-60" style="margin-top: 2px">Don't</span>
 </figcaption>
     </div>
@@ -147,24 +152,22 @@
     <li>Trends</li>
     <li>Task frequency, attempts, failures</li>
   </ul>
+
+  <blockquote>
+    <p>
+      Literature to detail the concepts explained above.
+    </p>
+    <p>
+      <a href="https://www.safaribooksonline.com/library/view/designing-and-engineering/9780321562944/">Designing and Engineering Time: The Psychology of Time Perception in Software</a> by Steven C. Seow Ph.D.
+    </p>
+    <p>
+      <a href="https://openlibrary.org/works/OL15992072W">Thinking, fast and slow</a> by Daniel Kahneman.
+    </p>
+    <p>
+      <a href="https://openlibrary.org/works/OL15570641W">Designing with the mind in mind</a> by Jeff Johnson.
+    </p>
+  </blockquote>
+
 </section>
 
-<section>
-  <h2>More on the Topic</h2>
-  <p>
-    Literature to detail the concepts explained above.
-  </p>
-  <ul>
-    <li>
-      <p>Why Performance Matters by Denys Mishunov - Smashing Magazine</p>
-      <ul>
-        <li><a href="https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/">Part 1: The Perception Of Time</a></li>
-        <li><a href="https://www.smashingmagazine.com/2015/11/why-performance-matters-part-2-perception-management/">Part 2: Perception Management</a></li>
-        <li><a href="https://www.smashingmagazine.com/2015/12/performance-matters-part-3-tolerance-management/">Part 3: Tolerance Management</a></li>
-      </ul>
-    </li>
-    <li><a href="https://www.safaribooksonline.com/library/view/designing-and-engineering/9780321562944/">Designing and Engineering Time:<br/>The Psychology of Time Perception in Software</a><br/>by Steven C. Seow Ph.D.</li>
-    <li><a href="https://openlibrary.org/works/OL15992072W">Thinking, fast and slow</a><br/>by Daniel Kahneman</li>
-    <li><a href="https://openlibrary.org/works/OL15570641W">Designing with the mind in mind</a><br/>by Johnson, Jeff Ph. D.</li>
-  </ul>
-</section>
+

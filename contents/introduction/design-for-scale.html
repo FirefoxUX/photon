@@ -1,33 +1,11 @@
-<header toc-none>
+<header>
   <h1>Design for Scale</h1>
   <p>
-    Those guidelines help you decide where it is important for your product or feature to use Firefox design language and where it is acceptable to follow platform conventions.
+    These guidelines help you decide when it is important for your product or feature to use Firefox design language and when it is preferable to follow platform conventions. 
   </p>
   <p>
-    Align your work with the higher guideline before considering the next as they are listed in prioritized order.
+    Note that the guidelines below are prioritized. So align your work with the higher guideline before considering the next one.
   </p>
-  <ul class="toc">
-    <li>
-      <a href="#reuse-what’s-there">Reuse What’s There</a>
-    </li>
-    <li>
-      <a href="#prioritize-higher-visibility-work">Prioritize Higher Visibility Work</a>
-    </li>
-    <li>
-      <a href="#balance-firefox-style-and-platform-conventions">Balance Firefox Style and Platform Conventions</a>
-      <ul>
-        <li>
-          <a href="#when-to-use-platform-patterns">When to use Platform Patterns</a>
-        </li>
-        <li>
-          <a href="#when-to-deviate-from-platform-patterns">When to <em>deviate</em> from Platform Patterns</a>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <a href="#related-platform-guidelines">Related Platform Guidelines</a>
-    </li>
-  </ul>
 </header>
 
 <section>
@@ -45,33 +23,55 @@
   <p>
     Do not consider tradeoffs in very high visibility areas and loop in other designers working on that product or feature across platforms.
   </p>
-  <article>
-    <h4>Example</h4>
-    <p>
-      Imagine you're prioritizing how to ship the first iteration of "Bookmarks Management on Mobile" feature. The first step is to tap the "Star" icon. The optional final steps are when the user edits the Name, Location and Keywords before they save their changes.<br>For the first step of tapping the "Star" (which has high visibility), you'll want to align every aspect with the Photon Design System. But for the final steps (which are lower visibility), you can use a full-page system dialog in Android because it's easier to implement and still aligned with the Android platform.
-    </p>
-  </article>
-  <div class="cf w-75-l">
+  
+  <div class="cf w-100-l">
   <div class="fl-ns w-50-ns pr2-ns mb3">
+    <p>
+      <em>Imagine you're prioritizing how to ship the first iteration of "Bookmarks Management on Mobile" feature. The first step is to tap the "Star" icon. The optional final steps are when the user edits the Name, Location and Keywords before they save their changes. </em> 
+    </p>
+    <p>
+      <em>For the first step of tapping the "Star" (which has high visibility), you'll want to align every aspect with the Photon Design System. But for the final steps (which are lower visibility), you can use a full-page system dialog in Android because it's easier to implement and still aligned with the Android platform.</em>
+    </p>
+    
+  </div>
+  <div class="fl-ns w-25-ns pl2-ns mb3">
     <figure>
-      <img src="../images/scaling-principles/firefox-android-bookmark-add.png" alt="">
+      <img src="../images/scaling-principles/firefox-android-bookmark-add.jpg" alt="">
       <figcaption>High Visibility: Align with Photon Design System</figcaption>
     </figure>
   </div>
-  <div class="fl-ns w-50-ns pl2-ns mb3">
+  <div class="fl-ns w-25-ns pl2-ns mb3">
     <figure>
-      <img src="../images/scaling-principles/firefox-android-bookmark-edit.png" alt="">
+      <img src="../images/scaling-principles/firefox-android-bookmark-edit.jpg" alt="">
       <figcaption>Lower Visibility: Can use Platform Components</figcaption>
     </figure>
   </div>
 </div>
 
+
+
+
+<!-- <div class="cf w-75-l">
+  <div class="fl-ns w-50-ns pr2-ns mb3">
+    <figure>
+      <img src="../images/scaling-principles/firefox-android-bookmark-add.jpg" alt="">
+      <figcaption>High Visibility: Align with Photon Design System</figcaption>
+    </figure>
+  </div>
+  <div class="fl-ns w-50-ns pl2-ns mb3">
+    <figure>
+      <img src="../images/scaling-principles/firefox-android-bookmark-edit.jpg" alt="">
+      <figcaption>Lower Visibility: Can use Platform Components</figcaption>
+    </figure>
+  </div>
+</div>
+ -->
 </section>
 
  <section>
   <h2>Balance Firefox Style and Platform Conventions</h2>
   <p>
-    Do balance between adapting to much platform and too little. Especially stay clear of the Uncanny Valley.
+    Do strike a balance between adapting too much platform and too little. It is especially important to stay clear of the Uncanny Valley.
   </p>
   <p>
     Use our styles for visual appearance and tone, and use platform conventions for any pattern that is well established on a given platform. This will make the product or feature feel familiar to new users and still convey our style.
@@ -81,22 +81,22 @@
 </figure>
 <div class="cf nr2 nl2">
   <div class="fl-ns w-50-m w-25-l ph2">
-    <p class="f6">
+    <p class="small lh-title">
       <strong>1. Bad Usability</strong><br>So much Firefox UX that people do not feel familiar with the product
     </p>
   </div>
   <div class="fl-ns w-50-m w-25-l ph2">
-    <p class="f6">
+    <p class="small lh-title">
       <strong>2. Sweet Spot</strong><br>People feel familiar with the product, and recognize that it has its own identity
     </p>
   </div>
   <div class="fl-ns w-50-m w-25-l ph2">
-    <p class="f6">
-      <strong>3. Uncanny Valley</strong><br>So much platform that people do not feel the product, but not enough for it to feel it full native
+    <p class="small lh-title">
+      <strong>3. Uncanny Valley</strong><br>So much platform that people do not feel the product, but not enough for it to feel it fully native
     </p>
   </div>
   <div class="fl-ns w-50-m w-25-l ph2">
-    <p class="f6">
+    <p class="small lh-title">
       <strong>4. No Brand</strong><br>So much platform that people do not feel the product
     </p>
   </div>
@@ -106,18 +106,26 @@
   <ul>
     <li>
       <p>
-        When you don't want to break expectations about high level common platform functionality.<br><em>E.g. Using a platforms system font creates platform cohesion and familiarity. Using a different font like Comic Sans would make things feel foreign and off-putting.</em>
+        When you don't want to break expectations about high level common platform functionality.
+      </p>
+      <p>
+        <em>Using a platform system font creates platform cohesion and familiarity. Using a different font (like Comic Sans) would make the experience feel foreign and potentially off-putting.</em>
       </p>
     </li>
     <li>
       <p>
-        When a UI pattern, appearance or metaphor is so common deviating would cause user confusion or discomfort.<br><em>E.g. If window controls like Close, Minimize and Maximize are always on the left, moving these to the right would cause significant user confusion.</em>
+        When a UI pattern, appearance, or metaphor is so common deviating would cause user confusion or discomfort.
+      </p>
+      <p>
+        <em>If window controls like Close, Minimize and Maximize are always on the left, moving these to the right would cause significant user confusion.</em>
       </p>
     </li>
     <li>
       <p>
-        When a non-essential UI pattern, appearance or metaphor enhances your product and helps close any uncanny valley gaps. (strategic use of platform “flavor”)<br><em>E.g. Using Windows system colors or macOS / iOS blur effects conforms to a common platform pattern and reinforces nativeness.</em>
+        When a non-essential UI pattern, appearance, or metaphor enhances your product and helps close any uncanny valley gaps (strategic use of platform “flavor”).
       </p>
+      <p>
+        <em>Using Windows system colors or macOS / iOS blur effects conforms to a common platform pattern and reinforces nativeness.</em></p>
     </li>
   </ul>
 
@@ -125,12 +133,21 @@
   <ul>
     <li>
       <p>
-        When a UI pattern is common on other platforms or the web and is unlikely to cause discomfort or confusion.<br><em>E.g. While a Hamburger or Meatball menu is not always a native element of a platform, it has a strong presence on other common platforms and doesn’t conflict with other strong platform conventions.</em>
+        When a UI pattern is common on other platforms or the web and is unlikely to cause discomfort or confusion.
+      </p>
+      <p>
+        <em>While a hamburger or meatball menu is not always a native element of a platform, it has a strong presence on other common platforms and doesn’t conflict with other strong platform conventions.</em>
       </p>
     </li>
     <li>
       <p>
-        When a UI pattern, appearance or metaphor doesn’t break any firm platform conventions but does enhance your UI or further other product goals<br><em>E.g. In Content UI Surfaces (Preferences, Add-ons, etc.) are not a common UI pattern on many platforms, but do fit within Firefox’s UI and are an improvement for keeping all of our UI contained to one window.</em><br><em>E.g. Using Custom UI Colors deviates from common platform colors but is unlikely to cause confusion and further reinforces our custom brand and character.</em>
+        When a UI pattern, appearance or metaphor doesn’t break any firm platform conventions but does enhance your UI or further other product goals.
+      </p>
+      <p>
+        <em>In Content UI Surfaces (Preferences, Add-ons, etc.) are not a common UI pattern on many platforms, but do fit within Firefox’s UI and are an improvement for keeping all of our UI contained to one window.</em>
+      </p>
+      <p>
+        <em>Using Custom UI Colors deviates from common platform colors but is unlikely to cause confusion and further reinforces our custom brand and character.</em>
       </p>
     </li>
   </ul>
