@@ -1,7 +1,7 @@
 'use strict';
 
 const React = require('react');
-const { getPage, getSiblingPages, getUrl } = require('./utilities.js');
+const { getPage, getSiblingPages, getUrl, PREFIX } = require('./utilities.js');
 const { connect } = require('react-redux');
 const { Link } = require('react-router');
 
@@ -27,8 +27,8 @@ const Footer = connect(state => {
             <Link
                 className="no-underline blue-60"
                 to={getUrl(this.props.previous_page)}
-            ><img className="dib pr2 v-mid" 
-                src={"images/global/back-16.svg"}
+            ><img className="dib pr2 v-mid"
+                src={`${PREFIX}/images/global/back-16.svg`}
              />{this.props.previous_page.title}
             </Link>
           </p>
@@ -38,7 +38,7 @@ const Footer = connect(state => {
                 to={getUrl(this.props.next_page)}
             >{this.props.next_page.title}
               <img className="dib pl2 v-mid" 
-                  src={"images/global/forward-16.svg"} 
+                  src={`${PREFIX}/images/global/forward-16.svg`}
               />
             </Link>
           </p>
