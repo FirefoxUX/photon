@@ -198,16 +198,14 @@ main section {
         vertical-align: middle;
         width: 16px;
       }
-
-      &:visited {
-        &::after {
-          background-image: url('../../images/global/open-in-new-16-visited.svg');
-        }
-      }
     }
 
     &:visited {
       color: var(--blue-70);
+
+      &:not([class])[href*="//"]::after {
+        background-image: url('../../images/global/open-in-new-16-visited.svg');
+      }
     }
   }
 
@@ -258,7 +256,7 @@ main section {
 main section blockquote {
   background-color: white;
   border-radius: 4px;
-  box-shadow: 0 1px 4px rgba(12, 12, 13, .1);
+  box-shadow: 0 2px 8px rgba(12, 12, 13, .1);
   box-sizing: border-box;
   font-size: 13px;
   margin: 0 0 1rem;
