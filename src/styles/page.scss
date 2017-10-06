@@ -130,6 +130,7 @@ main section {
   img,
   iframe {
     background-color: var(--grey-10);
+    display: block;
     outline: 1px solid rgba(12, 12, 13, .1);
     outline-offset: -1px;
   }
@@ -200,7 +201,7 @@ main section {
       }
 
       &:visited {
-        color: var(--blue-70);
+        color: var(--blue-60);
 
         &:not([class])[href*="//"]::after {
           background-image: url('../../images/global/open-in-new-16-visited.svg');
@@ -272,6 +273,11 @@ main section blockquote {
 
   p:last-of-type {
     margin-bottom: .5rem;
+  }
+
+  img {
+    background-color: transparent;
+    outline: none;
   }
 }
 
