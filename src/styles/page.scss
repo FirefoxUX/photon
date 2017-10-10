@@ -131,6 +131,7 @@ main section {
   iframe {
     background-color: var(--grey-10);
     display: block;
+    margin: 0 auto;
     outline: 1px solid rgba(12, 12, 13, .1);
     outline-offset: -1px;
   }
