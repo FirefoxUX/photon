@@ -1,5 +1,16 @@
 # Photon Design System Releases
 
+## [[0.4.1] - 2017-XX-XX](https://github.com/firefoxux/photon/releases/tag/v0.4.1)
+### Add
+
+### Fix
+- [#96](https://github.com/FirefoxUX/photon/issues/96) Add see also for add-on related entries in word list
+- [#93](https://github.com/FirefoxUX/photon/issues/93) Wrong screenshot icon in homepage hero
+- [#86](https://github.com/FirefoxUX/photon/issues/86) Let users see a high version of a product identity asset
+- [#82](https://github.com/FirefoxUX/photon/issues/82) z-index issue with mobile header
+
+### Change
+
 ## [[0.4.0] - 2017-09-25](https://github.com/firefoxux/photon/releases/tag/v0.4.0)
 ### Add
 New addition to the family 🙌
