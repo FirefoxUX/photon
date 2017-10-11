@@ -21,7 +21,9 @@ const App = React.createClass({
   render: function() {
     return (<div>
       <Header/>
-      <div className="flex-l flex-column-l flex-row-l fixed-l w-100-l h-100-l mt5 mt0-l">
+      <div className="flex-l flex-column-l flex-row-l fixed-l w-100-l h-100-l"
+          id="content"
+      >
         <TableOfContents/>
         <main className="order-1-l overflow-y-scroll-l w-100">
           <Editor/>

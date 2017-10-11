@@ -7,6 +7,17 @@
 
 /* Defaults */
 
+body {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 60em) {
+  #content {
+    height: calc(100vh - 70px);
+    overflow: auto;
+  }
+}
+
 a {
   color: var(--blue-60);
   cursor: pointer;

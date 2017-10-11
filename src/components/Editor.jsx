@@ -57,7 +57,6 @@ const Editor = React.createClass({
       element.classList.add('blue-60');
       setTimeout(function(){
         element.classList.remove('blue-60');
-        window.scrollBy(0, -70);
       }, 1000);
     }
   },
