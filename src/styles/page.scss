@@ -15,6 +15,7 @@ body {
   #content {
     height: calc(100vh - 70px);
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
