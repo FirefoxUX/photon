@@ -17,6 +17,10 @@ body {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
   }
+
+  #header {
+    position: relative;
+  }
 }
 
 a {

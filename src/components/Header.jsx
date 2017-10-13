@@ -21,7 +21,7 @@ const Header = connect(state => {
 
   render: function() {
     return(
-      <header className="bg-white grey-90 top-0 left-0 w-100 z-9999 dn-l shadow-1"
+      <header className="bg-white grey-90 top-0 left-0 w-100 z-999 dn-l shadow-1"
           id="header"
       >
         <div className="flex align-center center mw7 pa3 relative">

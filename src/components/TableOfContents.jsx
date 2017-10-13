@@ -81,7 +81,7 @@ const TableOfContents = React.createClass({
       navClass += " l-20r";
       overlayClass += " z-min o-0";
     } else {
-      overlayClass += " z-999 o-100";
+      overlayClass += " z-9999 o-100";
     }
 
     return (<div>
