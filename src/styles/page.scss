@@ -215,14 +215,6 @@ main section {
         vertical-align: middle;
         width: 16px;
       }
-
-      &:visited {
-        color: var(--blue-60);
-
-        &:not([class])[href*="//"]::after {
-          background-image: url('../../images/global/open-in-new-16-visited.svg');
-        }
-      }
     }
   }
 
