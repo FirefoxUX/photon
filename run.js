@@ -23,7 +23,7 @@ new WebpackDevServer(webpack(frontendConfig), {
     target: 'http://localhost:3000/index.html',
     pathRewrite: {'/.*\.html' : ''}
   }]
-}).listen(3000, 'localhost', function () {});
+}).listen(3000, '0.0.0.0', function () {});
 
 var app = express();
 

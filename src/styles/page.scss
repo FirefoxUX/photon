@@ -12,14 +12,9 @@ body {
 }
 
 @media screen and (max-width: 60em) {
-  #content {
-    height: calc(100vh - 52.5px);
-    overflow: auto;
+  body {
     -webkit-overflow-scrolling: touch;
-  }
-
-  #header {
-    position: relative;
+    overflow-y: auto;
   }
 }
 
