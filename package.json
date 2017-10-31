@@ -4,7 +4,8 @@
     "serve-debug": "cross-env NODE_ENV=development node run.js",
     "serve": "cross-env NODE_ENV=development webpack-dashboard -- node run.js",
     "build": "cross-env NODE_ENV=production webpack --optimize-minimize",
-    "deploy-build": "cross-env NODE_ENV=production webpack --optimize-minimize --no-color --display-error-details"
+    "deploy-build": "cross-env NODE_ENV=production webpack --optimize-minimize --no-color --display-error-details",
+    "deploy-staging": "cross-env NODE_ENV=staging webpack --optimize-minimize --no-color --display-error-details"
   },
   "dependencies": {
     "express": "4.15.2",

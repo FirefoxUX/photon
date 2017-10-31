@@ -110,7 +110,7 @@ const Editor = React.createClass({
     let {text, url} = this.props;
     if (url) {
       if (process.env.NODE_ENV === 'development') {
-        url = `https://firefoxux.github.io${url}`;
+        url = `https://design.firefox.com${url}`;
       }
       text = `<iframe src=${url} id="editor-iframe" frameborder="0"></iframe>`;
     }

@@ -94,6 +94,22 @@ if (process.env.NODE_ENV === 'production') {
       }
     })
   ]);
+} else if (process.env.NODE_ENV === 'staging') {
+  plugins = basePlugins.concat([
+    new ExtractTextPlugin('style.css', {
+      allChunks: true
+    }),
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.DefinePlugin({
+      process: {env: {NODE_ENV: '"staging"'}}
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compressor: {
+        warnings: false
+      }
+    })
+  ]);
+  publicPath = '/photon-staging/static/';
 } else {
   entry = ['webpack-dev-server/client?http://0.0.0.0:3000',
     'webpack/hot/only-dev-server'].concat(entry);
