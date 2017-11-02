@@ -1,17 +1,17 @@
 <header>
 <!--   <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report issue'}); %> -->
   <h1>Errors</h1>
-  <p>Errors (or error condition) occur when an the software fails to complete an expected action. Every error becomes a point of friction for the user. </p>
+  <p>Errors (or error conditions) occur when the software fails to complete an expected action. Every error becomes a point of friction for the user. </p>
 </header>
 
 
 <section>
   <h2>Usage</h2>
   <p>
-    Error messages provide short and relevant information that adds context when a user encounters a problem or issue. Whenever possible, provide the user with an action that helps them address the error. Errors are usually place close to the context.
+    Error messages should provide essential information to help users understand and address issues, so they can recover quickly. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). 
   </p>
   <p>
-    It's important to distinguished two different kind of error:
+    We distinguish between two different categories of error:
     <ul>
       <li>
         User input errors
@@ -71,17 +71,19 @@
 <section>
   <h2>Copy rules</h2>
   <p>
-     In case of an error, the following principles can help you to write helpful content which empowers users to recover quickly. 
+     The best error messages are those that help users recover quickly. Remember that "recover" can mean more than "move to the next state of the application." It can also mean "gain confidence by understanding why an issue occurred" or "gain reassurance that the error doesn't indicate a bigger issue or may continue to happen." 
   </p>
     <ul>
       <li>
-        Clearly explain what went wrong and how to fix it.
+        When the issue is a result of a user input error, simply offer a quick solution. There is no need to call out a user's mistake or assign a cause. 
+          </li>
+      <li>When the issue is the result of system error, provide copy that explains the impact to the user, then explain the cause in clear terms, and finally explain how to resolve the issue. Note that while we do want to be accurate about errors, it is better to be "not wrong" than "completely technically accurate" so that we are helpful to the majority of users while not misspeaking to highly knowledgible users. Name the product in system errors to signal to users that errors are a software issue, not a user issue, i.e., Firefox cannot reach that page, but don't personify Firefox. 
       </li>
       <li>
-        Be short and concise, no more than a single sentence.
+        Be brief, but not terse. Include signals to reassure users if appropriate. 
       </li>
       <li>
-        Use passive voice. You don't want to blame the users for the error.
+        Guide users with the imperative voice (Enter a valid email) or the active voice (Firefox is not responding) where possible. 
       </li>
     </ul>
 </section>
