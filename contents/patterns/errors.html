@@ -1,5 +1,5 @@
 <header>
-  <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report issue'}); %>
+<!--   <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report issue'}); %> -->
   <h1>Errors</h1>
   <p>Errors (or error condition) occur when an the software fails to complete an expected action. Every error becomes a point of friction for the user. </p>
 </header>
@@ -8,7 +8,7 @@
 <section>
   <h2>Usage</h2>
   <p>
-    Error messages provide short and relevant information that adds context when a user encounters a problem or issue. Whenever possible, provide the user with an action that helps them address the error. 
+    Error messages provide short and relevant information that adds context when a user encounters a problem or issue. Whenever possible, provide the user with an action that helps them address the error. Errors are usually place close to the context.
   </p>
   <p>
     It's important to distinguished two different kind of error:
@@ -21,16 +21,10 @@
       </li>
     </ul>  
   </p>
-  <p>
-    <strong>User input error</strong> occur when Firefox doesn't understand user inputs.
-    <% include ../includes/patterns/errors/user-input-errors.html %>
-  </p>
-  <p> 
-    <strong>System errors occurs</strong> when Firefox fails for some reasons most likely not related to the user. 
-    <% include ../includes/patterns/errors/system-errors.html %>
-  <p>
-    Errors are usually place close to the context.
-  </p>
+  <h3>User input errors</h3>
+  <% include ../includes/patterns/errors/user-input-errors.html %>
+  <h3>System errors</h3>
+  <% include ../includes/patterns/errors/system-errors.html %>
 </section>
 
 <section>
@@ -74,4 +68,21 @@
   </div>
 </section>
 
+<section>
+  <h2>Copy rules</h2>
+  <p>
+     In case of an error, the following principles can help you to write helpful content which empowers users to recover quickly. 
+  </p>
+    <ul>
+      <li>
+        Clearly explain what went wrong and how to fix it.
+      </li>
+      <li>
+        Be short and concise, no more than a single sentence.
+      </li>
+      <li>
+        Use passive voice. You don't want to blame the users for the error.
+      </li>
+    </ul>
+</section>
 
