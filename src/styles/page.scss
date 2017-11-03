@@ -142,8 +142,10 @@ main section {
   iframe {
     background-color: var(--grey-10);
     display: block;
+    margin-bottom: 1rem;
     outline: 1px solid rgba(12, 12, 13, .1);
     outline-offset: -1px;
+    width: 100%;
   }
 
   h2 {
@@ -159,7 +161,7 @@ main section {
   }
 
   h4 {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     margin: 1rem 0 .5rem;
   }
