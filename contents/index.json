@@ -75,8 +75,7 @@
     "directory": "patterns",
     "pages": [
       {"title": "Errors",
-        "file": "errors.html",
-        "draft": "true"},
+        "file": "errors.html"},
       {"title": "Inactive",
         "file": "inactive.html"},
       {"title": "Shadows",
