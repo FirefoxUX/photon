@@ -89,8 +89,7 @@
     "directory": "components",
     "pages": [ 
       {"title": "Buttons",
-        "file": "buttons.html",
-        "draft": "true"},
+        "file": "buttons.html"},
       {"title": "Input Fields",
         "file": "input-fields.html",
         "draft": "true"},
