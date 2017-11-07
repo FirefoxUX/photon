@@ -99,8 +99,7 @@
         "file": "link.html",
         "draft": "true"},
       {"title": "Message bars",
-        "file": "message-bars.html",
-        "draft": "true"}
+        "file": "message-bars.html"}
     ]
   },
   {"title": "Resources",
