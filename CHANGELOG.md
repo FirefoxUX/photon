@@ -1,15 +1,41 @@
 # Photon Design System Releases
 
-## [[0.4.1] - 2017-XX-XX](https://github.com/firefoxux/photon/releases/tag/v0.4.1)
+## [[0.5.0] - 2017-11-08](https://github.com/firefoxux/photon/releases/tag/v0.5.0)
 ### Add
+- Product Identity Assets: Add Firefox Beta App Icon and Firefox Glyph
+- Patterns: Errors, add system errors and copy rules for errors 
+- Components: Buttons, add example under sizes section
+- Components: Input fields, add variants and copy rules
+- Components: Add example under behavior section
 
 ### Fix
+- [#139](https://github.com/FirefoxUX/photon/issues/139) Doorhanger component: Understand
+- [#138](https://github.com/FirefoxUX/photon/issues/138) Message bar, component: add specs in the visuals
+- [#136](https://github.com/FirefoxUX/photon/issues/136) Visual: Update Illustrations Assets
+- [#135](https://github.com/FirefoxUX/photon/issues/135) Visual: Update Iconography Assets
+- [#134](https://github.com/FirefoxUX/photon/issues/134) Input field component: simplify content architecture and add rules for mobile
+- [#133](https://github.com/FirefoxUX/photon/issues/133) Buttons component: simplify information architecture
+- [#132](https://github.com/FirefoxUX/photon/issues/132) Errors, patterns: refine
+- [#128](https://github.com/FirefoxUX/photon/issues/128) Duplicate example
+- [#123](https://github.com/FirefoxUX/photon/issues/123) Are icons in message bars optional or required?
+- [#122](https://github.com/FirefoxUX/photon/issues/122) Size of buttons?
+- [#114](https://github.com/FirefoxUX/photon/issues/114) Add Firefox Beta to Product Identity Assets page
+- [#111](https://github.com/FirefoxUX/photon/issues/111) Back button breaks when navigating from home to Photon Design System
+- [#105](https://github.com/FirefoxUX/photon/issues/105) add flat Firefox icon to the product identy assets page
 - [#96](https://github.com/FirefoxUX/photon/issues/96) Add see also for add-on related entries in word list
+- [#95](https://github.com/FirefoxUX/photon/issues/95) Related platform guidelines: GNOME
 - [#93](https://github.com/FirefoxUX/photon/issues/93) Wrong screenshot icon in homepage hero
+- [#89](https://github.com/FirefoxUX/photon/issues/89) Visual glitch in screenshot
+- [#87](Inform users about Segoe) Let users see a high version of a product identity asset
 - [#86](https://github.com/FirefoxUX/photon/issues/86) Let users see a high version of a product identity asset
+- [#83](https://github.com/FirefoxUX/photon/issues/83) Hamburger icons missing on mobile header
 - [#82](https://github.com/FirefoxUX/photon/issues/82) z-index issue with mobile header
 
 ### Change
+- Visual: Iconography visual assets
+- Visual: Illustration visual assets
+- Components: Buttons, new information architecture
+- Components: Message Bars, edit visual assets add examples under behavior section
 
 ## [[0.4.0] - 2017-09-25](https://github.com/firefoxux/photon/releases/tag/v0.4.0)
 ### Add
