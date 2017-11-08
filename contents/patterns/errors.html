@@ -1,5 +1,5 @@
 <header>
-  <div class="dib">
+<!--   <div class="dib">
   
   <div class="flex items-center bg-yellow-50 yellow-90 br2 pa1 mb3">
     <img class="pv1 ph2" src="../images/global/warning-16.svg" alt="">
@@ -13,19 +13,19 @@
   
 
   
-</div>
+</div> -->
   <h1>Errors</h1>
-  <p>Errors (or error condition) occur when an the software fails to complete an expected action. Every error becomes a point of friction for the user. </p>
+  <p>Errors (or error conditions) occur when the software fails to complete an expected action. Every error becomes a point of friction for the user. </p>
 </header>
 
 
 <section>
   <h2>Usage</h2>
   <p>
-    Error messages provide short and relevant information that adds context when a user encounters a problem or issue. Whenever possible, provide the user with an action that helps them address the error. 
+    Error messages should provide essential information to help users understand and address issues, so they can recover quickly. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). 
   </p>
   <p>
-    It's important to distinguished two different kind of error:
+    We distinguish between two different categories of error:
     <ul>
       <li>
         User input errors
@@ -35,39 +35,69 @@
       </li>
     </ul>  
   </p>
-  <p>
-    <strong>User input error</strong> occur when Firefox doesn't understand user inputs.
-    <div class="cf nr2 nl2">
+  <h3>User input errors</h3>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2">
+    <p>
+      System errors occurs when Firefox fails for some reasons most likely not related to the user.
+    </p>
+    <p>The most common cases are:</p>
+    <ul>
+      <li>
+        Incomplete form
+      </li>
+      <li>
+        Over/under character or word count
+      </li>
+      <li>
+        Incompatible values
+      </li>
+    </ul>
+  </div>
   <div class="fl-ns w-50-ns ph2">
     <figure>
       <img src="../images/patterns/errors/userr-input-error-example-1.png" alt="User Input Error Example from Firefox Account, invalid email">
       <figcaption>
-        User input error during the creation of a Firefox Account.
+        Incompatible values error. 
       </figcaption>
     </figure>
-  </div>
-  <div class="fl-ns w-50-ns ph2">
     <figure>
-      <img src="../images/patterns/errors/userr-input-error-example-2.png" alt="User Input Error Example from Firefox Account, invalid password">
+      <img src="../images/patterns/errors/userr-input-error-example-2.png" alt="User Input Error Example from Firefox Account, invalid email">
       <figcaption>
-        User input error during the creation of a Firefox Account.
+        Under character error. 
       </figcaption>
     </figure>
   </div>
 </div>
-  </p>
-  <p> 
-    <strong>System errors occurs</strong> when Firefox fails for some reasons most likely not related to the user. 
+  <h3>System errors</h3>
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2">
+    <p>
+      User input error occurs when Firefox doesn't understand user inputs.
+    </p>
+    <p>The most common cases are:
+      <ul>
+      <li>
+          Misspelled errors
+        </li>
+        <li>
+          Connettivity issues
+        </li>
+        <li>
+          Failure to load
+        </li>
+      </ul>
+    </p>
+  </div>
+  <div class="fl-ns w-50-ns ph2">
     <figure>
-  <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/patterns/errors/system-error-example.png" alt="System Error Example">
-  <figcaption>
-    Firefox inability to connect to a website it's an example of a system error.
-  </figcaption>
-</figure>
-
-  <p>
-    Errors are usually place close to the context.
-  </p>
+      <img class="w-100-ns outline outline--black-01 outline-offset--1" src="../images/patterns/errors/error-tab-crashed.jpg" alt="System Error Example">
+      <figcaption>
+        Tab crash.
+      </figcaption>
+    </figure>
+  </div>
+</div>
 </section>
 
 <section>
@@ -80,7 +110,7 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-        The icon used for indicate errors is <a href="http://design.firefox.com/icons/viewer/#warning">an exclamation mark enclosed within a triangle</a>, usually white on a red background, or red.
+        The icon used for indicate errors is an exclamation mark enclosed within a circle, usually white on a <a href="/visuals/color.html#red">Red-50</a> background, or <a href="/visuals/color.html#red">Red-60</a>.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2">
@@ -111,16 +141,24 @@
   </div>
 </section>
 
-<!-- <section>
-  <h3>
-    Copy Rules
-  </h3>
+<section>
+  <h2>Copy rules</h2>
   <p>
-    <ul>
-      <li>Don't say please. Just tell people what to do. "Choose a number that is less than ... “</li>
-      <li>Be as specific as possible in the message. "Choose a date" or "Choose a time" or "Enter an address” are all better than “Enter a value.”</li>
-      <li>Use words like “choose” or “select” instead of “type” or “key”. We'd rather engage users' minds than their hands, and this also speaks more universally to users accessing the Web with touchscreens, speech-recognition software, or other user input devices.</li>
-      <li>If there are programmatic rules governing valid choices, expose these in the messages where possible. Don't just tell someone that “X” is the nearest valid value, tell them that they must choose values in “X” increments. </li>
-   </ul>
+     The best error messages are those that help users recover quickly. Remember that <strong>recover</strong> can mean more than <strong>move to the next state of the application</strong>. It can also mean <strong>gain confidence by understanding why an issue occurred</strong> or <strong>gain reassurance that the error doesn't indicate a bigger issue or may continue to happen</strong>. 
   </p>
-</section> -->
+    <ul>
+      <li>
+        When the issue is a result of a user input error, simply offer a quick solution. There is no need to call out a user's mistake or assign a cause. 
+      </li>
+      <li>
+        When the issue is the result of system error, provide copy that explains the impact to the user, then explain the cause in clear terms, and finally explain how to resolve the issue. Note that while we do want to be accurate about errors, it is better to be <strong>not wrong</strong> than <strong>completely technically accurate</strong> so that we are helpful to the majority of users while not misspeaking to highly knowledgible users. Name the product in system errors to signal to users that errors are a software issue, not a user issue, i.e., Firefox cannot reach that page, but don't personify Firefox. 
+      </li>
+      <li>
+        Be brief, but not terse. Include signals to reassure users if appropriate. 
+      </li>
+      <li>
+        Guide users with the imperative voice (<em>Enter a valid email</em>) or the active voice (<em>Firefox is not responding</em>) where possible. 
+      </li>
+    </ul>
+</section>
+

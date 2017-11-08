@@ -75,8 +75,7 @@
     "directory": "patterns",
     "pages": [
       {"title": "Errors",
-        "file": "errors.html",
-        "draft": "true"},
+        "file": "errors.html"},
       {"title": "Inactive",
         "file": "inactive.html"},
       {"title": "Shadows",
@@ -93,14 +92,12 @@
         "file": "buttons.html",
         "draft": "true"},
       {"title": "Input Fields",
-        "file": "input-fields.html",
-        "draft": "true"},
+        "file": "input-fields.html"},
       {"title": "Link",
         "file": "link.html",
         "draft": "true"},
       {"title": "Message bars",
-        "file": "message-bars.html",
-        "draft": "true"}
+        "file": "message-bars.html"}
     ]
   },
   {"title": "Resources",
