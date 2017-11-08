@@ -49,8 +49,8 @@
           </g>
         </g>
       </g>
-      <rect width="24" height="24" x="247" y="4" fill="#0C0C0D" fill-opacity=".2" rx="3"/>
-      <g transform="translate(247 4)">
+      <rect width="24" height="24" x="245" y="4" fill="#0C0C0D" fill-opacity=".2" rx="3"/>
+      <g transform="translate(245 4)">
         <rect width="24" height="24"/>
         <g transform="translate(6 6)">
           <mask id="ghost-btn-h" fill="#fff">
