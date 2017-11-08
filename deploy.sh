@@ -16,7 +16,12 @@ rm -rf *
 cd ..
 
 # run our compile script, discussed above
-npm run deploy-build
+if [ "${TRAVIS_BRANCH}" == "staging" ]; then
+  npm run deploy-staging
+else
+  npm run deploy-build
+fi
+
 
 # inside the gh-pages repo we'll pretend to be a new user
 cd dist

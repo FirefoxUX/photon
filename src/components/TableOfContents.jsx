@@ -81,7 +81,7 @@ const TableOfContents = React.createClass({
       navClass += " l-20r";
       overlayClass += " z-min o-0";
     } else {
-      overlayClass += " z-999 o-100";
+      overlayClass += " z-9999 o-100";
     }
 
     return (<div>
@@ -112,7 +112,7 @@ const TableOfContents = React.createClass({
                   href="https://github.com/FirefoxUX/photon/releases"
               >{'Changelog'}
               </a>
-              <span className="grey-50">{'Beta v0.4.0'}</span>
+              <span className="grey-50">{'Beta v0.5.0'}</span>
             </p>
             <p className="lh-copy mt0 mb1 fw4 f6">
               <a className="blue-60 no-underline"

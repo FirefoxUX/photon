@@ -1,5 +1,4 @@
 <header>
-  <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report issue'}); %>
   <h1>
     Message bar
   </h1>
@@ -13,7 +12,7 @@
     Usage
   </h2>
   <p>
-     Message bars contain concise and scannable text that is directly related to an action that has been completed or is about to be performed. They may include a single message or multiple messages. They should not be used to <strong>Dismiss</strong> or <strong>Cancel</strong>. An icon always precedes the message(s).
+     Message bars contain concise and scannable text that is directly related to an action that has been completed or is about to be performed. They may include a single message or multiple messages. They should not be used to <strong>Dismiss</strong> or <strong>Cancel</strong>. It's <strong>required</strong> to have an icon always to precedes the message(s).
   </p>
   <p>
     Common uses for message bars include: success messages, updates, warnings, and problems or errors.
@@ -30,26 +29,12 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-        Convey general information or actions that aren’t critical. Include lower priority information and should always be dismissible.
+        Convey general information or actions that aren’t critical. Update users about a change or give them advice. Include lower priority information and should always be dismissible.
       </p>
       
     </div>
     <div class="fl-ns w-50-ns ph2"> 
       <img class="w-100-ns" src="../images/message-bars/generic.svg" alt="generic message bar example">
-    </div>
-  </div>
-  <h3>
-    Attention
-  </h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
-      <p>
-         Update users about a change or give them advice. 
-      </p>
-
-    </div>
-    <div class="fl-ns w-50-ns ph2"> 
-      <img class="w-100-ns" src="../images/message-bars/attention.svg" alt="attention message bar example">
     </div>
   </div>
    <h3>
@@ -95,7 +80,6 @@
   <h2>
     Style
   </h2>
-
   <% include ../includes/components/message-bars/style-tabs-structure.html %>
 </section>
 
@@ -110,8 +94,8 @@
         Unless they contain critical information, message bars should be dismissible by clicking or tapping the ghost button, placed always on the right corner.
       </p>
     </div>
-    <div class="fl-ns w-50-ns ph2"> 
-      <img class="w-100-ns" src="../images/message-bars/ghost-btn.svg" alt="pairing example">
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/message-bars/ghost-btn.svg" alt="Dismissable behavior">
     </div>
   </div> 
   <h3>
@@ -120,12 +104,13 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-        Add one or two buttons in the message bar when you want users to take an action after reading the message. 
+        Add one or two <a href="http://localhost:3000/components/buttons.html#micro">micro-buttons</a> in the message bar when you want users to take an action after reading the message. 
       </p>
     </div>
+
     <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/message-bars/action-1.svg" alt="pairing example">
-      <img class="w-100-ns" src="../images/message-bars/action-2.svg" alt="pairing example">
+      <img class="w-100-ns" src="../images/message-bars/mb-action-example.jpg" alt="message bar in action">
     </div>
-  </div> 
+  </div>
+  <% include ../includes/components/message-bars/behavior-tabs-structure.html %> 
 </section>

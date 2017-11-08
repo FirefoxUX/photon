@@ -7,6 +7,17 @@
 
 /* Defaults */
 
+body {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 60em) {
+  body {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+  }
+}
+
 a {
   color: var(--blue-60);
   cursor: pointer;
@@ -127,11 +138,24 @@ main section {
     margin-bottom: 4rem;
   }
 
-  img,
+  img {
+    background-color: var(--grey-10);
+    display: block;
+    margin-bottom: 1rem;
+    outline: 1px solid rgba(12, 12, 13, .1);
+    outline-offset: -1px;
+    width: 100%;
+  }
+
+  figure > img {
+    margin-bottom: 0;
+  }
+
   iframe {
     background-color: var(--grey-10);
     outline: 1px solid rgba(12, 12, 13, .1);
     outline-offset: -1px;
+    width: 100%;
   }
 
   h2 {
@@ -147,7 +171,7 @@ main section {
   }
 
   h4 {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     margin: 1rem 0 .5rem;
   }
@@ -197,14 +221,6 @@ main section {
         margin: -.3rem .15rem 0 .25rem;
         vertical-align: middle;
         width: 16px;
-      }
-    }
-
-    &:visited {
-      color: var(--blue-70);
-
-      &:not([class])[href*="//"]::after {
-        background-image: url('../../images/global/open-in-new-16-visited.svg');
       }
     }
   }
@@ -272,6 +288,11 @@ main section blockquote {
 
   p:last-of-type {
     margin-bottom: .5rem;
+  }
+
+  img {
+    background-color: transparent;
+    outline: none;
   }
 }
 

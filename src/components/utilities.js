@@ -1,7 +1,12 @@
 /* global process:false, ga:false */
 'use strict';
 
-const PREFIX = (process.env.NODE_ENV === 'development') ? '' : '/photon';
+let PREFIX = '/photon';
+if (process.env.NODE_ENV === 'development') {
+  PREFIX = '';
+} else if (process.env.NODE_ENV === 'staging') {
+  PREFIX = '/photon-staging';
+}
 
 // GA Tracking code
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

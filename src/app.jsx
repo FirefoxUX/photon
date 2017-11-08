@@ -13,7 +13,7 @@ const { Provider } = require('react-redux');
 const thunkMiddleware = require('redux-thunk');
 const createLogger = require('redux-logger');
 const { createHistory } = require('history');
-const { syncReduxAndRouter, routeReducer, pushPath } = require('redux-simple-router');
+const { syncReduxAndRouter, routeReducer, replacePath } = require('redux-simple-router');
 
 const { getContent, loadUrl } = require('./components/actions.js');
 const { getPage, getUrl, sendPageview } = require('./components/utilities.js');
@@ -58,7 +58,7 @@ function onUpdate() {
   if (!page) {
     let url = getUrl(pages[0]);
     sendPageview(url);
-    store.dispatch(pushPath(url));
+    store.dispatch(replacePath(url));
     return;
   }
 
