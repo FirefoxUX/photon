@@ -26,7 +26,7 @@
 - [#95](https://github.com/FirefoxUX/photon/issues/95) Related platform guidelines: GNOME
 - [#93](https://github.com/FirefoxUX/photon/issues/93) Wrong screenshot icon in homepage hero
 - [#89](https://github.com/FirefoxUX/photon/issues/89) Visual glitch in screenshot
-- [#87](Inform users about Segoe) Let users see a high version of a product identity asset
+- [#87](Ihttps://github.com/FirefoxUX/photon/issues/87) Inform users about Segoe
 - [#86](https://github.com/FirefoxUX/photon/issues/86) Let users see a high version of a product identity asset
 - [#83](https://github.com/FirefoxUX/photon/issues/83) Hamburger icons missing on mobile header
 - [#82](https://github.com/FirefoxUX/photon/issues/82) z-index issue with mobile header
