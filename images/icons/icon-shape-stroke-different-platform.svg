@@ -1,0 +1,265 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1170" height="360" viewBox="0 0 1170 360">
+  <defs>
+    <polygon id="icon-shape-stroke-different-platform-a" points="0 0 133 0 133 133 0 133"/>
+    <polygon id="icon-shape-stroke-different-platform-c" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-different-platform-e" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-different-platform-g" points="0 0 177 0 177 177 0 177"/>
+    <polygon id="icon-shape-stroke-different-platform-i" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-different-platform-k" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-different-platform-m" points="0 0 265 0 265 265 0 265"/>
+    <polygon id="icon-shape-stroke-different-platform-o" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-different-platform-q" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-different-platform-s" points="0 0 265 0 265 265 0 265"/>
+    <polygon id="icon-shape-stroke-different-platform-u" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-different-platform-w" points="0 0 265 0 265 265 0 265"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(60 114)">
+      <mask id="icon-shape-stroke-different-platform-b" fill="#fff">
+        <use xlink:href="#icon-shape-stroke-different-platform-a"/>
+      </mask>
+      <g mask="url(#icon-shape-stroke-different-platform-b)">
+        <g transform="translate(-22 -22)">
+          <mask id="icon-shape-stroke-different-platform-d" fill="#fff">
+            <use xlink:href="#icon-shape-stroke-different-platform-c"/>
+          </mask>
+          <rect width="338" height="1" x="-1" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)"/>
+          <rect width="338" height="1" x="-1" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)"/>
+          <rect width="338" height="1" x="-1" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)"/>
+          <rect width="338" height="1" x="-1" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)"/>
+          <rect width="338" height="1" x="-1" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)" opacity=".3"/>
+          <rect width="338" height="1" x="-1" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-d)"/>
+        </g>
+      </g>
+      <g mask="url(#icon-shape-stroke-different-platform-b)">
+        <g transform="rotate(-90 110.5 132.5)">
+          <mask id="icon-shape-stroke-different-platform-f" fill="#fff">
+            <use xlink:href="#icon-shape-stroke-different-platform-e"/>
+          </mask>
+          <rect width="338" height="1" x="-73" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)"/>
+          <rect width="338" height="1" x="-73" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)"/>
+          <rect width="338" height="1" x="-73" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)"/>
+          <rect width="338" height="1" x="-73" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)"/>
+          <rect width="338" height="1" x="-73" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-f)"/>
+        </g>
+      </g>
+      <rect width="121" height="121" x="6" y="6" stroke="#0C0C0D" stroke-opacity=".1" stroke-width="12"/>
+      <path fill="#000" fill-rule="nonzero" d="M66.5,-5.68434189e-14 C29.7730641,-5.90922951e-14 -5.23456664e-14,29.7730641 -5.68434189e-14,66.5 C-6.13411713e-14,103.226936 29.7730641,133 66.5,133 C103.226936,133 133,103.226936 133,66.5 C132.958771,29.7901553 103.209845,0.0412290403 66.5,-5.68434189e-14 Z M66.46875,121.9375 C35.8342053,121.9375 11,97.1032947 11,66.46875 C11,35.8342053 35.8342053,11 66.46875,11 C97.1032947,11 121.9375,35.8342053 121.9375,66.46875 C121.901839,97.0885114 97.0885114,121.901839 66.46875,121.9375 Z M94.71875,66 L67,66 L67,38.28125 C67,35.226425 64.523575,32.75 61.46875,32.75 C58.413925,32.75 55.9375,35.226425 55.9375,38.28125 L55.9375,71.53125 C55.9375,74.586075 58.413925,77.0625 61.46875,77.0625 L94.71875,77.0625 C97.773575,77.0625 100.25,74.586075 100.25,71.53125 C100.25,68.476425 97.773575,66 94.71875,66 Z"/>
+    </g>
+    <g transform="translate(263 92)">
+      <mask id="icon-shape-stroke-different-platform-h" fill="#fff">
+        <use xlink:href="#icon-shape-stroke-different-platform-g"/>
+      </mask>
+      <g mask="url(#icon-shape-stroke-different-platform-h)">
+        <mask id="icon-shape-stroke-different-platform-j" fill="#fff">
+          <use xlink:href="#icon-shape-stroke-different-platform-i"/>
+        </mask>
+        <rect width="338" height="1" x="-1" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)"/>
+        <rect width="338" height="1" x="-1" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)"/>
+        <rect width="338" height="1" x="-1" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)"/>
+        <rect width="338" height="1" x="-1" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)"/>
+        <rect width="338" height="1" x="-1" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-j)"/>
+      </g>
+      <g mask="url(#icon-shape-stroke-different-platform-h)">
+        <g transform="matrix(0 -1 1 0 0 265)">
+          <mask id="icon-shape-stroke-different-platform-l" fill="#fff">
+            <use xlink:href="#icon-shape-stroke-different-platform-k"/>
+          </mask>
+          <rect width="338" height="1" x="-73" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)"/>
+          <rect width="338" height="1" x="-73" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)"/>
+          <rect width="338" height="1" x="-73" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)"/>
+          <rect width="338" height="1" x="-73" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)"/>
+          <rect width="338" height="1" x="-73" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-l)"/>
+        </g>
+      </g>
+      <rect width="165" height="165" x="6" y="6" stroke="#0C0C0D" stroke-opacity=".1" stroke-width="12"/>
+      <path fill="#000" fill-rule="nonzero" d="M88.5,0 C39.6227996,-2.99286535e-15 5.9857307e-15,39.6227996 0,88.5 C-5.9857307e-15,137.3772 39.6227996,177 88.5,177 C137.3772,177 177,137.3772 177,88.5 C176.945131,39.6455451 137.354455,0.0548687228 88.5,0 Z M88.5,154.875 C51.8420997,154.875 22.125,125.1579 22.125,88.5 C22.125,51.8420997 51.8420997,22.125 88.5,22.125 C125.1579,22.125 154.875,51.8420997 154.875,88.5 C154.832328,125.14021 125.14021,154.832328 88.5,154.875 Z M127.21875,88.5 L88.5,88.5 L88.5,49.78125 C88.5,46.726425 86.023575,44.25 82.96875,44.25 C79.913925,44.25 77.4375,46.726425 77.4375,49.78125 L77.4375,94.03125 C77.4375,97.086075 79.913925,99.5625 82.96875,99.5625 L127.21875,99.5625 C130.273575,99.5625 132.75,97.086075 132.75,94.03125 C132.75,90.976425 130.273575,88.5 127.21875,88.5 Z"/>
+    </g>
+    <g transform="translate(510 48)">
+      <mask id="icon-shape-stroke-different-platform-n" fill="#fff">
+        <use xlink:href="#icon-shape-stroke-different-platform-m"/>
+      </mask>
+      <g mask="url(#icon-shape-stroke-different-platform-n)">
+        <mask id="icon-shape-stroke-different-platform-p" fill="#fff">
+          <use xlink:href="#icon-shape-stroke-different-platform-o"/>
+        </mask>
+        <rect width="338" height="1" x="-1" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)"/>
+        <rect width="338" height="1" x="-1" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)"/>
+        <rect width="338" height="1" x="-1" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)"/>
+        <rect width="338" height="1" x="-1" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)"/>
+        <rect width="338" height="1" x="-1" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)"/>
+        <rect width="338" height="1" x="-1" y="187" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="198" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="209" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="220" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)"/>
+        <rect width="338" height="1" x="-1" y="231" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="242" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="253" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="264" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-p)"/>
+      </g>
+      <g mask="url(#icon-shape-stroke-different-platform-n)">
+        <g transform="matrix(0 -1 1 0 0 265)">
+          <mask id="icon-shape-stroke-different-platform-r" fill="#fff">
+            <use xlink:href="#icon-shape-stroke-different-platform-q"/>
+          </mask>
+          <rect width="338" height="1" x="-73" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)"/>
+          <rect width="338" height="1" x="-73" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)"/>
+          <rect width="338" height="1" x="-73" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)"/>
+          <rect width="338" height="1" x="-73" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)"/>
+          <rect width="338" height="1" x="-73" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)"/>
+          <rect width="338" height="1" x="-73" y="187" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="198" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="209" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="220" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)"/>
+          <rect width="338" height="1" x="-73" y="231" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="242" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="253" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="264" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-r)"/>
+        </g>
+      </g>
+      <rect width="209" height="209" x="28" y="28" stroke="#0C0C0D" stroke-opacity=".1" stroke-width="12"/>
+      <path fill="#000" fill-rule="nonzero" d="M132.5,22 C71.4725351,22 22,71.4725351 22,132.5 C22,193.527465 71.4725351,243 132.5,243 C193.527465,243 243,193.527465 243,132.5 C242.931492,71.5009348 193.499065,22.0685084 132.5,22 Z M132.5,220.1875 C84.071531,220.1875 44.8125,180.928469 44.8125,132.5 C44.8125,84.071531 84.071531,44.8125 132.5,44.8125 C180.928469,44.8125 220.1875,84.071531 220.1875,132.5 C220.131126,180.905099 180.905099,220.131126 132.5,220.1875 Z M180.84375,132.5 L132.5,132.5 L132.5,84.15625 C132.5,80.3420334 129.407967,77.25 125.59375,77.25 C121.779533,77.25 118.6875,80.3420334 118.6875,84.15625 L118.6875,139.40625 C118.6875,143.220467 121.779533,146.3125 125.59375,146.3125 L180.84375,146.3125 C184.657967,146.3125 187.75,143.220467 187.75,139.40625 C187.75,135.592033 184.657967,132.5 180.84375,132.5 Z"/>
+    </g>
+    <g transform="translate(845 47)">
+      <mask id="icon-shape-stroke-different-platform-t" fill="#fff">
+        <use xlink:href="#icon-shape-stroke-different-platform-s"/>
+      </mask>
+      <g mask="url(#icon-shape-stroke-different-platform-t)">
+        <mask id="icon-shape-stroke-different-platform-v" fill="#fff">
+          <use xlink:href="#icon-shape-stroke-different-platform-u"/>
+        </mask>
+        <rect width="338" height="1" x="-1" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)"/>
+        <rect width="338" height="1" x="-1" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)"/>
+        <rect width="338" height="1" x="-1" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)"/>
+        <rect width="338" height="1" x="-1" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)"/>
+        <rect width="338" height="1" x="-1" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)"/>
+        <rect width="338" height="1" x="-1" y="187" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="198" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="209" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="220" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)"/>
+        <rect width="338" height="1" x="-1" y="231" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="242" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="253" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="264" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-v)"/>
+      </g>
+      <g mask="url(#icon-shape-stroke-different-platform-t)">
+        <g transform="matrix(0 -1 1 0 0 265)">
+          <mask id="icon-shape-stroke-different-platform-x" fill="#fff">
+            <use xlink:href="#icon-shape-stroke-different-platform-w"/>
+          </mask>
+          <rect width="338" height="1" x="-73" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)"/>
+          <rect width="338" height="1" x="-73" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)"/>
+          <rect width="338" height="1" x="-73" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)"/>
+          <rect width="338" height="1" x="-73" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)"/>
+          <rect width="338" height="1" x="-73" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)"/>
+          <rect width="338" height="1" x="-73" y="187" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="198" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="209" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="220" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)"/>
+          <rect width="338" height="1" x="-73" y="231" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="242" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="253" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="264" fill="#D7D7DB" mask="url(#icon-shape-stroke-different-platform-x)"/>
+        </g>
+      </g>
+      <rect width="253" height="253" x="6" y="6" stroke="#0C0C0D" stroke-opacity=".1" stroke-width="12"/>
+      <path fill="#000" fill-rule="nonzero" d="M132.5,0 C59.3222706,-4.4808436e-15 8.9616872e-15,59.3222706 0,132.5 C-8.9616872e-15,205.677729 59.3222706,265 132.5,265 C205.677729,265 265,205.677729 265,132.5 C264.917852,59.3563245 205.643675,0.0821480878 132.5,0 Z M132.5,231.875 C77.616703,231.875 33.125,187.383297 33.125,132.5 C33.125,77.616703 77.616703,33.125 132.5,33.125 C187.383297,33.125 231.875,77.616703 231.875,132.5 C231.811112,187.356812 187.356812,231.811112 132.5,231.875 Z M190.46875,132.5 L132.5,132.5 L132.5,74.53125 C132.5,69.9576419 128.792358,66.25 124.21875,66.25 C119.645142,66.25 115.9375,69.9576419 115.9375,74.53125 L115.9375,140.78125 C115.9375,145.354858 119.645142,149.0625 124.21875,149.0625 L190.46875,149.0625 C195.042358,149.0625 198.75,145.354858 198.75,140.78125 C198.75,136.207642 195.042358,132.5 190.46875,132.5 Z"/>
+    </g>
+    <path fill="#0C0C0D" d="M115.71 329.968C115.457999 330.344002 115.094002 330.635999 114.618 330.844 114.141998 331.052001 113.576003 331.156 112.92 331.156 111.639994 331.156 110.624004 330.788004 109.872 330.052L110.64 329.2C111.264003 329.776003 112.023996 330.064 112.92 330.064 113.416002 330.064 113.825998 329.948001 114.15 329.716 114.474002 329.483999 114.636 329.156002 114.636 328.732 114.636 328.483999 114.586 328.276001 114.486 328.108 114.385999 327.939999 114.216001 327.790001 113.976 327.658 113.735999 327.525999 113.392002 327.392001 112.944 327.256 112.023995 326.983999 111.348002 326.660002 110.916 326.284 110.483998 325.907998 110.268 325.412003 110.268 324.796 110.268 324.355998 110.389999 323.966002 110.634 323.626 110.878001 323.285998 111.215998 323.022001 111.648 322.834 112.080002 322.645999 112.567997 322.552 113.112 322.552 114.224006 322.552 115.147996 322.883997 115.884 323.548L115.152 324.376C114.583997 323.887998 113.932004 323.644 113.196 323.644 112.747998 323.644 112.386001 323.735999 112.11 323.92 111.833999 324.104001 111.696 324.367998 111.696 324.712 111.696 324.928001 111.753999 325.111999 111.87 325.264 111.986001 325.416001 112.181999 325.553999 112.458 325.678 112.734001 325.802001 113.123997 325.939999 113.628 326.092 114.428004 326.332001 115.037998 326.639998 115.458 327.016 115.878002 327.392002 116.088 327.939996 116.088 328.66 116.088 329.156002 115.962001 329.591998 115.71 329.968zM123.06 324.904C123.284001 325.176001 123.396 325.639997 123.396 326.296L123.396 331 122.208 331 122.208 326.476C122.208 326.123998 122.182 325.880001 122.13 325.744 122.078 325.607999 121.964001 325.54 121.788 325.54 121.451998 325.54 121.140001 325.751998 120.852 326.176L120.852 331 119.76 331 119.76 326.476C119.76 326.123998 119.734 325.880001 119.682 325.744 119.63 325.607999 119.516001 325.54 119.34 325.54 119.003998 325.54 118.692001 325.751998 118.404 326.176L118.404 331 117.204 331 117.204 324.664 118.212 324.664 118.308 325.348C118.508001 325.067999 118.711999 324.856001 118.92 324.712 119.128001 324.567999 119.375999 324.496 119.664 324.496 120.224003 324.496 120.583999 324.763997 120.744 325.3 120.936001 325.043999 121.143999 324.846001 121.368 324.706 121.592001 324.565999 121.847999 324.496 122.136 324.496 122.528002 324.496 122.835999 324.631999 123.06 324.904zM129.924 329.986C129.996 330.102001 130.119999 330.188 130.296 330.244L129.984 331.156C129.319997 331.076 128.884001 330.784003 128.676 330.28 128.443999 330.568001 128.154002 330.785999 127.806 330.934 127.457998 331.082001 127.076002 331.156 126.66 331.156 126.019997 331.156 125.512002 330.976002 125.136 330.616 124.759998 330.255998 124.572 329.780003 124.572 329.188 124.572 328.523997 124.833997 328.012002 125.358 327.652 125.882003 327.291998 126.623995 327.112 127.584 327.112L128.484 327.112 128.484 326.704C128.484 326.303998 128.364001 326.012001 128.124 325.828 127.883999 325.643999 127.536002 325.552 127.08 325.552 126.855999 325.552 126.596001 325.58 126.3 325.636 126.003999 325.692 125.704002 325.771999 125.4 325.876L125.064 324.928C125.824004 324.639999 126.563996 324.496 127.284 324.496 128.124004 324.496 128.755998 324.679998 129.18 325.048 129.604002 325.416002 129.816 325.939997 129.816 326.62L129.816 329.452C129.816 329.692001 129.852 329.869999 129.924 329.986zM127.866 329.956C128.126001 329.811999 128.331999 329.612001 128.484 329.356L128.484 327.952 127.74 327.952C127.131997 327.952 126.688001 328.053999 126.408 328.258 126.127999 328.462001 125.988 328.755998 125.988 329.14 125.988 329.476002 126.077999 329.731999 126.258 329.908 126.438001 330.084001 126.703998 330.172 127.056 330.172 127.336001 330.172 127.605999 330.100001 127.866 329.956zM134.952 329.272C134.952 329.808003 135.271997 330.076 135.912 330.076 136.232002 330.076 136.567998 330.004001 136.92 329.86L137.256 330.796C136.815998 331.036001 136.272003 331.156 135.624 331.156 134.991997 331.156 134.498002 330.978002 134.142 330.622 133.785998 330.265998 133.608 329.776003 133.608 329.152L133.608 323.104 131.7 323.104 131.7 322.12 134.952 322.12 134.952 329.272zM142.152 329.272C142.152 329.808003 142.471997 330.076 143.112 330.076 143.432002 330.076 143.767998 330.004001 144.12 329.86L144.456 330.796C144.015998 331.036001 143.472003 331.156 142.824 331.156 142.191997 331.156 141.698002 330.978002 141.342 330.622 140.985998 330.265998 140.808 329.776003 140.808 329.152L140.808 323.104 138.9 323.104 138.9 322.12 142.152 322.12 142.152 329.272zM347.736 331L346.104 331 345.288 324.868 344.436 331 342.78 331 341.724 322.72 343.068 322.72 343.716 329.656 344.604 323.68 346.032 323.68 346.86 329.656 347.628 322.72 348.876 322.72 347.736 331zM351.618 329.65C351.934002 329.958002 352.331998 330.112 352.812 330.112 353.108001 330.112 353.389999 330.066 353.658 329.974 353.926001 329.882 354.199999 329.744001 354.48 329.56L355.056 330.376C354.759999 330.624001 354.412002 330.815999 354.012 330.952 353.611998 331.088001 353.192002 331.156 352.752 331.156 351.783995 331.156 351.032003 330.854003 350.496 330.25 349.959997 329.645997 349.692 328.840005 349.692 327.832 349.692 327.199997 349.807999 326.630003 350.04 326.122 350.272001 325.613997 350.607998 325.216001 351.048 324.928 351.488002 324.639999 351.999997 324.496 352.584 324.496 353.424004 324.496 354.089998 324.777997 354.582 325.342 355.074002 325.906003 355.32 326.679995 355.32 327.664 355.32 327.904001 355.308 328.103999 355.284 328.264L351.084 328.264C351.124 328.880003 351.301998 329.341998 351.618 329.65zM351.54 325.96C351.267999 326.272002 351.112 326.735997 351.072 327.352L354.012 327.352C353.996 326.751997 353.868001 326.292002 353.628 325.972 353.387999 325.651998 353.044002 325.492 352.596 325.492 352.163998 325.492 351.812001 325.647998 351.54 325.96zM359.286 324.736C359.586002 324.575999 359.907998 324.496 360.252 324.496 361.060004 324.496 361.655998 324.787997 362.04 325.372 362.424002 325.956003 362.616 326.771995 362.616 327.82 362.616 328.812005 362.394002 329.615997 361.95 330.232 361.505998 330.848003 360.884004 331.156 360.084 331.156 359.379996 331.156 358.828002 330.896003 358.428 330.376L358.356 331 357.168 331 357.168 322.12 358.512 321.964 358.512 325.42C358.728001 325.123999 358.985998 324.896001 359.286 324.736zM360.822 329.566C361.066001 329.185998 361.188 328.608004 361.188 327.832 361.188 327.031996 361.078001 326.448002 360.858 326.08 360.637999 325.711998 360.312002 325.528 359.88 325.528 359.607999 325.528 359.354001 325.611999 359.118 325.78 358.881999 325.948001 358.680001 326.167999 358.512 326.44L358.512 329.404C358.832002 329.892002 359.247997 330.136 359.76 330.136 360.224002 330.136 360.577999 329.946002 360.822 329.566zM619.4 329.008L618.824 331 617.396 331 620.036 322.72 621.764 322.72 624.404 331 622.928 331 622.352 329.008 619.4 329.008zM622.064 327.928L620.876 323.8 619.688 327.928 622.064 327.928zM625.568 324.664L626.732 324.664 626.828 325.492C627.092001 325.171998 627.401998 324.926001 627.758 324.754 628.114002 324.581999 628.487998 324.496 628.88 324.496 629.464003 324.496 629.903999 324.659998 630.2 324.988 630.496001 325.316002 630.644 325.779997 630.644 326.38L630.644 331 629.3 331 629.3 327.052C629.3 326.659998 629.278 326.358001 629.234 326.146 629.19 325.933999 629.104001 325.778001 628.976 325.678 628.847999 325.577999 628.656001 325.528 628.4 325.528 628.111999 325.528 627.838001 325.615999 627.578 325.792 627.317999 325.968001 627.096001 326.187999 626.912 326.452L626.912 331 625.568 331 625.568 324.664zM637.832 322.12L637.832 331 636.644 331 636.548 330.22C636.339999 330.524002 636.084002 330.755999 635.78 330.916 635.475998 331.076001 635.140002 331.156 634.772 331.156 633.979996 331.156 633.384002 330.860003 632.984 330.268 632.583998 329.675997 632.384 328.864005 632.384 327.832 632.384 327.183997 632.485999 326.608003 632.69 326.104 632.894001 325.599997 633.183998 325.206001 633.56 324.922 633.936002 324.637999 634.379997 324.496 634.892 324.496 635.540003 324.496 636.071998 324.727998 636.488 325.192L636.488 321.964 637.832 322.12zM634.178 326.098C633.933999 326.478002 633.812 327.055996 633.812 327.832 633.812 329.368008 634.251996 330.136 635.132 330.136 635.660003 330.136 636.111998 329.832003 636.488 329.224L636.488 326.236C636.159998 325.763998 635.744003 325.528 635.24 325.528 634.775998 325.528 634.422001 325.717998 634.178 326.098zM645.416 324.664L645.188 327.004 644.228 327.004 644.228 325.708C643.787998 325.716 643.406002 325.891998 643.082 326.236 642.757998 326.580002 642.500001 327.063997 642.308 327.688L642.308 330.04 643.58 330.04 643.58 331 640.028 331 640.028 330.04 640.964 330.04 640.964 325.624 640.028 325.624 640.028 324.664 641.984 324.664 642.224 326.128C642.472001 325.583997 642.773998 325.178001 643.13 324.91 643.486002 324.641999 643.927997 324.508 644.456 324.508 644.784002 324.508 645.103998 324.559999 645.416 324.664zM651.824 325.39C652.320002 325.986003 652.568 326.795995 652.568 327.82 652.568 328.844005 652.316003 329.655997 651.812 330.256 651.307997 330.856003 650.604005 331.156 649.7 331.156 648.787995 331.156 648.082003 330.862003 647.582 330.274 647.081997 329.685997 646.832 328.872005 646.832 327.832 646.832 326.823995 647.085997 326.016003 647.594 325.408 648.102003 324.799997 648.807995 324.496 649.712 324.496 650.624005 324.496 651.327998 324.793997 651.824 325.39zM648.614 326.104C648.369999 326.480002 648.248 327.055996 648.248 327.832 648.248 328.616004 648.367999 329.193998 648.608 329.566 648.848001 329.938002 649.211998 330.124 649.7 330.124 650.188002 330.124 650.551999 329.936002 650.792 329.56 651.032001 329.183998 651.152 328.604004 651.152 327.82 651.152 327.043996 651.032001 326.470002 650.792 326.098 650.551999 325.725998 650.192002 325.54 649.712 325.54 649.223998 325.54 648.858001 325.727998 648.614 326.104zM657.53 321.802C657.694001 321.966001 657.776 322.167999 657.776 322.408 657.776 322.648001 657.694001 322.847999 657.53 323.008 657.365999 323.168001 657.156001 323.248 656.9 323.248 656.635999 323.248 656.424001 323.168001 656.264 323.008 656.103999 322.847999 656.024 322.648001 656.024 322.408 656.024 322.159999 656.105999 321.956001 656.27 321.796 656.434001 321.635999 656.643999 321.556 656.9 321.556 657.156001 321.556 657.365999 321.637999 657.53 321.802zM657.824 330.016L659.552 330.016 659.552 331 654.596 331 654.596 330.016 656.48 330.016 656.48 325.648 654.656 325.648 654.656 324.664 657.824 324.664 657.824 330.016zM666.632 322.12L666.632 331 665.444 331 665.348 330.22C665.139999 330.524002 664.884002 330.755999 664.58 330.916 664.275998 331.076001 663.940002 331.156 663.572 331.156 662.779996 331.156 662.184002 330.860003 661.784 330.268 661.383998 329.675997 661.184 328.864005 661.184 327.832 661.184 327.183997 661.285999 326.608003 661.49 326.104 661.694001 325.599997 661.983998 325.206001 662.36 324.922 662.736002 324.637999 663.179997 324.496 663.692 324.496 664.340003 324.496 664.871998 324.727998 665.288 325.192L665.288 321.964 666.632 322.12zM662.978 326.098C662.733999 326.478002 662.612 327.055996 662.612 327.832 662.612 329.368008 663.051996 330.136 663.932 330.136 664.460003 330.136 664.911998 329.832003 665.288 329.224L665.288 326.236C664.959998 325.763998 664.544003 325.528 664.04 325.528 663.575998 325.528 663.222001 325.717998 662.978 326.098zM971.93 321.802C972.094001 321.966001 972.176 322.167999 972.176 322.408 972.176 322.648001 972.094001 322.847999 971.93 323.008 971.765999 323.168001 971.556001 323.248 971.3 323.248 971.035999 323.248 970.824001 323.168001 970.664 323.008 970.503999 322.847999 970.424 322.648001 970.424 322.408 970.424 322.159999 970.505999 321.956001 970.67 321.796 970.834001 321.635999 971.043999 321.556 971.3 321.556 971.556001 321.556 971.765999 321.637999 971.93 321.802zM972.224 330.016L973.952 330.016 973.952 331 968.996 331 968.996 330.016 970.88 330.016 970.88 325.648 969.056 325.648 969.056 324.664 972.224 324.664 972.224 330.016zM980.834 329.992C980.293997 330.768004 979.516005 331.156 978.5 331.156 977.483995 331.156 976.706003 330.774004 976.166 330.01 975.625997 329.245996 975.356 328.200007 975.356 326.872 975.356 325.559993 975.625997 324.512004 976.166 323.728 976.706003 322.943996 977.483995 322.552 978.5 322.552 979.516005 322.552 980.293997 322.937996 980.834 323.71 981.374003 324.482004 981.644 325.531993 981.644 326.86 981.644 328.172007 981.374003 329.215996 980.834 329.992zM979.808 324.436C979.535999 323.907997 979.100003 323.644 978.5 323.644 977.899997 323.644 977.464001 323.907997 977.192 324.436 976.919999 324.964003 976.784 325.775995 976.784 326.872 976.784 327.952005 976.921999 328.755997 977.198 329.284 977.474001 329.812003 977.907997 330.076 978.5 330.076 979.100003 330.076 979.535999 329.812003 979.808 329.284 980.080001 328.755997 980.216 327.948005 980.216 326.86 980.216 325.771995 980.080001 324.964003 979.808 324.436zM988.31 329.968C988.057999 330.344002 987.694002 330.635999 987.218 330.844 986.741998 331.052001 986.176003 331.156 985.52 331.156 984.239994 331.156 983.224004 330.788004 982.472 330.052L983.24 329.2C983.864003 329.776003 984.623996 330.064 985.52 330.064 986.016002 330.064 986.425998 329.948001 986.75 329.716 987.074002 329.483999 987.236 329.156002 987.236 328.732 987.236 328.483999 987.186 328.276001 987.086 328.108 986.986 327.939999 986.816001 327.790001 986.576 327.658 986.335999 327.525999 985.992002 327.392001 985.544 327.256 984.623995 326.983999 983.948002 326.660002 983.516 326.284 983.083998 325.907998 982.868 325.412003 982.868 324.796 982.868 324.355998 982.989999 323.966002 983.234 323.626 983.478001 323.285998 983.815998 323.022001 984.248 322.834 984.680002 322.645999 985.167997 322.552 985.712 322.552 986.824006 322.552 987.747996 322.883997 988.484 323.548L987.752 324.376C987.183997 323.887998 986.532004 323.644 985.796 323.644 985.347998 323.644 984.986001 323.735999 984.71 323.92 984.433999 324.104001 984.296 324.367998 984.296 324.712 984.296 324.928001 984.353999 325.111999 984.47 325.264 984.586001 325.416001 984.781999 325.553999 985.058 325.678 985.334001 325.802001 985.723997 325.939999 986.228 326.092 987.028004 326.332001 987.637998 326.639998 988.058 327.016 988.478002 327.392002 988.688 327.939996 988.688 328.66 988.688 329.156002 988.562001 329.591998 988.31 329.968z" opacity=".8"/>
+  </g>
+</svg>
