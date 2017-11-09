@@ -87,7 +87,7 @@
   },
   {"title": "Components",
     "directory": "components",
-    "pages": [ 
+    "pages": [
       {"title": "Buttons",
         "file": "buttons.html",
         "draft": "true"},
@@ -97,12 +97,15 @@
         "file": "link.html",
         "draft": "true"},
       {"title": "Message bars",
-        "file": "message-bars.html"}
+        "file": "message-bars.html"},
+      {"title": "Checkboxes",
+        "file": "checkboxes.html",
+        "draft": "true"}
     ]
   },
   {"title": "Resources",
     "directory": "resources",
-    "pages": [ 
+    "pages": [
       {"title": "Icons",
         "file": "icons.html"
       },
