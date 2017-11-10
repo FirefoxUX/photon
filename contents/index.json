@@ -87,9 +87,12 @@
   },
   {"title": "Components",
     "directory": "components",
-    "pages": [ 
+    "pages": [
       {"title": "Buttons",
         "file": "buttons.html",
+        "draft": "true"},
+      {"title": "Checkboxes",
+        "file": "checkboxes.html",
         "draft": "true"},
       {"title": "Input Fields",
         "file": "input-fields.html"},
@@ -102,7 +105,7 @@
   },
   {"title": "Resources",
     "directory": "resources",
-    "pages": [ 
+    "pages": [
       {"title": "Icons",
         "file": "icons.html"
       },
