@@ -87,22 +87,24 @@
   },
   {"title": "Components",
     "directory": "components",
-    "pages": [ 
+    "pages": [
       {"title": "Buttons",
         "file": "buttons.html",
+        "draft": "true"},
+      {"title": "Checkboxes",
+        "file": "checkboxes.html",
         "draft": "true"},
       {"title": "Input Fields",
         "file": "input-fields.html"},
       {"title": "Link",
-        "file": "link.html",
-        "draft": "true"},
+        "file": "link.html"},
       {"title": "Message bars",
         "file": "message-bars.html"}
     ]
   },
   {"title": "Resources",
     "directory": "resources",
-    "pages": [ 
+    "pages": [
       {"title": "Icons",
         "file": "icons.html"
       },
