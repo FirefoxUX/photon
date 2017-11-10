@@ -6,11 +6,22 @@
 <section>
   <h2>Usage</h2>
   <p>
-    Warnings provide short and relevant information when users are about to do something that could be damaging or harmful. 
+    Warnings provide short and relevant information when users are about to do something that could be damaging or harmful, without restrict them to move forward with their action. 
   </p>
   <p>
-    Whenever possible, provide the user with an action that helps them address the warning. We can help the users with the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear).
+    We can help the users with the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear).
   </p>
+  <p>
+    We distinguish between two different categories of warnings:
+  </p>
+  <ul>
+    <li>Generic warnings</li>
+    <li>High visibility warnings</li>
+  </ul>
+  <h2>Generic warnings</h2>
+  <% include ../includes/patterns/warnings/generic-warnings.html %>
+  <h2>High visibility warnings</h2>
+  <% include ../includes/patterns/warnings/high-visibility-warnings.html %>
 </section>
 
 <section>
@@ -23,7 +34,7 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-         <a href="http://design.firefox.com/icons/viewer/#warning">An exclamation mark </a> enclosed inside a triangle indicates a warning. The icon is typically paired with warning text.
+         The icon used for indicate errors is <a href="http://design.firefox.com/icons/viewer/#warning">an exclamation mark enclosed within a triangle</a>.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2">
@@ -39,37 +50,31 @@
       <p>
         <a href="../visuals/color.html#yellow">Yellow</a> is the dedicated color for warning states. Warning text should be highly legible, with noticeable contrast against its background color.
       </p>
-      <h4>Background</h4>
       <p>
-        Yellow 50 <code>#ffe900</code>
-      </p>
-      <h4>Content</h4>
-      <p>
-        Yellow 90 <code>#3e2800</code>
+        In the rare case of an high visibility warning, use <a href="../visuals/color.html#red">red</a> to indicate the seriousness of the warning.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2">
       <img class="w-100-ns" src="../images/message-bars/action.svg" alt="Yellow Warning">
     </div>
   </div>
-<!--   <h4>High Alert Warnings</h4>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
-      <p>
-        In the rare case of a high alert, use <a href="../visuals/color.html#red">red</a> to indicate the seriousness of the warning.
-      </p>
-      <h4>Background</h4>
-       <p>
-        Red 50 <code>#ff0039</code>, or trasparent
-      </p>
-      <h4>Content</h4>
-      <p>
-        White <code>#ffffff</code>, or Red 60 <code>#d70022</code>
-      </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/warnings/warning-high-level.png" alt="High alert case in the Safe Browsing page">
-    </div>
-  </div> -->
   
+</section>
+
+<section>
+  <h3>
+    Copy Rules
+  </h3>
+  <p>A good warning message is immediately pertinent, actionable, not obvious, and infrequent.</p>
+  <ul>
+    <li>
+      Make the users aware of a situation or possible issue, although the may not have to act on anything now.
+    </li>
+    <li>
+      Make the users aware of information that might prevent an immediate issue as well as a future issue.
+    </li>
+    <li>
+      Avoid terms like <strong>warning</strong> or <strong>caution</strong> in the copy. When used correctly, the warning icon is enough to communicate that users have to proceed with caution. 
+    </li>
+  </ul>
 </section>
