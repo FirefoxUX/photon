@@ -91,16 +91,16 @@
       {"title": "Buttons",
         "file": "buttons.html",
         "draft": "true"},
+      {"title": "Checkboxes",
+        "file": "checkboxes.html",
+        "draft": "true"},
       {"title": "Input Fields",
         "file": "input-fields.html"},
       {"title": "Link",
         "file": "link.html",
         "draft": "true"},
       {"title": "Message bars",
-        "file": "message-bars.html"},
-      {"title": "Checkboxes",
-        "file": "checkboxes.html",
-        "draft": "true"}
+        "file": "message-bars.html"}
     ]
   },
   {"title": "Resources",
