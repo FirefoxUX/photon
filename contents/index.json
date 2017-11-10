@@ -97,8 +97,7 @@
       {"title": "Input Fields",
         "file": "input-fields.html"},
       {"title": "Link",
-        "file": "link.html",
-        "draft": "true"},
+        "file": "link.html"},
       {"title": "Message bars",
         "file": "message-bars.html"}
     ]
