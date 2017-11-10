@@ -1,5 +1,5 @@
 <header>
-  <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'REPORT ISSUE'}); %>
+  <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report Issue'}); %>
   <h1>
     Buttons
   </h1>
@@ -27,6 +27,8 @@
   <% include ../includes/components/buttons/buttons-styles-primary.html %>
   <h4>Default</h4>
   <% include ../includes/components/buttons/buttons-styles-default.html %>
+  <h4>Ghost</h4>
+  <% include ../includes/components/buttons/buttons-styles-ghost.html %>
   <h3>Sizes</h3>
   <h4>Micro</h4>
   <% include ../includes/components/buttons/buttons-densities-micro.html %>
@@ -37,6 +39,10 @@
 </section>
 <section>
   <h2>Behaviours</h2>
+  <h3>Primary</h3>
   <% include ../includes/components/buttons/buttons-behaviors-primary.html %>
+  <h3>Default</h3>
   <% include ../includes/components/buttons/buttons-behaviors-default.html %>
+  <h3>Ghost</h3>
+  <% include ../includes/components/buttons/buttons-behaviors-ghost.html %>
 </section>
