@@ -59,9 +59,6 @@
   </div>
 </section>
 
-
-
-
 <section>
   <h2>Elements</h2>
   <p>
@@ -74,7 +71,6 @@
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p>Use the Indicator to show whether the checkbox is checked (“on”) or not (“off”).</p>
-      <p>Use the label to make the action clear and convey that it is a binary choice.</p>
     </div>
   </div>
 
@@ -85,107 +81,81 @@
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p>A checkbox can be toggled by clicking on the area of its checkbox as well as its label. Usually the clicktarget extends to the same width for each element in a collection of checkboxes. This results in a click target that extends beyond the label, for all elements shorter than the longest.</p>
+      <p>Clicking a checkbox triggers the action on release of the click. If, during the click, the mouse is moved off of the checkbox, no action is triggered.</p>
     </div>
   </div>
 </section>
-
-
-
 
 <section>
   <h2>Style</h2>
-  <h3>Size and Color</h3>
-  <!--
-
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/text-field-spec.svg" alt="">
+  <h3>Dimensions</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/checkboxes/checkbox-size.png" alt="Illustration of the Size of a Checkbox.">
     </div>
-    <div class="fl-ns w-30-ns ph2">
-      <p>Label: Body 10, Grey 90
-      <br>Hint: Body 20, Grey 90, 40%
-      <br>Field height: 30px</p>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Corner Radius: <code>2px</code></p>
+      <p class="mb2">Height: <code>16px</code></p>
+      <p class="mb1">Width: <code>16px</code></p>
+      <p class="mb2">Horizontal Padding: <code>4px</code></p>
+    </div>
+  </div>
+
+  <h3>Text and Color</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/checkboxes/checkbox-checked.png" alt="Illustration a Checked Checkbox.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Check Background Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-60"></span> Blue 60 <code>#0060df</code></p>
+      <p class="mb2">Font: <a href="./../visuals/typography.html#scale">Body 10</a></p>
+      <p class="mb2">Text Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90"></span> Grey 90 <code>#0c0c0d</code></p>
+    </div>
+  </div>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/checkboxes/checkbox-unchecked.png" alt="Illustration an Unchecked Checkbox.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Uncheck Background Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-10"></span> Grey 90 10% <code>rgba(12, 12, 13, .1)</code></p>
+      <p class="mb2">Uncheck Border Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-30"></span> Grey 90 30% <code>rgba(12, 12, 13, .3)</code></p>
     </div>
   </div>
 
-   <div class="cf nr2 nl2">
-    <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/search-field-spec.svg" alt="">
-    </div>
-    <div class="fl-ns w-30-ns ph2">
-      <p>Label: Body 10, Grey 90
-      <br>Hint: Body 20, Grey 90, 40%
-      <br>Field height: 30px
-      <br>Icon: 16×16px, Gray 90, 40%</p>
-    </div>
-  </div>
--->
   <h3>Behaviors</h3>
-  <!--
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/input-normal.svg" alt="">
+  <h4>Checked</h4>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/checkboxes/checkbox-behaviour-checked.png" alt="Illustration of all apperances a Checkbox can show when interacted with.">
     </div>
-    <div class="fl-ns w-30-ns ph2">
-      <p><br/>Border color: <br>Grey 90 <code>#0c0c0d</code> 30%</p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/input-hover.svg" alt="">
-    </div>
-    <div class="fl-ns w-30-ns ph2">
-      <p><br/>Border color: <br>Grey 90 <code>#0c0c0d</code> 50%</p>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Background Color:</p>
+      <p class="mb2">Default: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-60"></span> Blue 60 <code>#0060df</code></p>
+      <p class="mb2">Hover:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-70"></span> Blue 70 <code>#003eaa</code></p>
+      <p class="mb2">Pressed:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-80"></span> Blue 80 <code>#002275</code></p>
     </div>
   </div>
-
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/input-press.svg" alt="">
+  <h4>Unchecked</h4>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/checkboxes/checkbox-behaviour-unchecked.png" alt="Illustration of all apperances a Checkbox can show when interacted with.">
     </div>
-    <div class="fl-ns w-30-ns ph2">
-    <p><br/>Border color: <br>Focused square</p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2">
-   <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/input-type.svg" alt="">
-    </div>
-    <div class="fl-ns w-30-ns ph2">
-    <p><br/>Border color: <br>Focused square</p>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Background Color:</p>
+      <p class="mb2">Default: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-10"></span> Grey 90 10% <code>rgba(12, 12, 13, .1)</code></p>
+      <p class="mb2">Hover:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-20"></span> Grey 90 20% <code>rgba(12, 12, 13, .2)</code></p>
+      <p class="mb2">Pressed:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-30"></span> Grey 90 30% <code>rgba(12, 12, 13, .3)</code></p>
     </div>
   </div>
-
-    <div class="cf nr2 nl2">
-   <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/input-enter.svg" alt="">
-    </div>
-    <div class="fl-ns w-30-ns ph2">
-      <p><br/>Border color: <br>Grey 90 <code>#0c0c0d</code> 30%</p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-70-ns ph2">
-      <img class="w-100" src="../images/input/input-repress.svg" alt="">
-    </div>
-    <div class="fl-ns w-30-ns ph2">
-    <p><br/>Border color: <br>Focused square</p>
-    </div>
-  </div>
--->
 </section>
--->
+
+
 <section>
   <h2>Copy Rules</h2>
-<!--
-  <h3>Search Field Hint</h3>
+  <h3>Label</h3>
   <p>
     <ul>
-      <li>Tell users what objects are going to be searched if possible. “Search + object” is more clear than just saying “Search”.</li>
+      <li>Use the label to make the action clear and convey that it is a binary choice.</li>
     </ul>
   </p>
--->
 </section>
