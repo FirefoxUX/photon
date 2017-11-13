@@ -60,10 +60,9 @@
 </section>
 
 <section>
-  <h2>Elements</h2>
-  <p>
-    A checkbox can be used as a single element, or it can be combined into a list, or nested list of elements to pick multiple from.
-  </p>
+  <h2>Style</h2>
+  <p>A checkbox consists of a part to indicate its state and a label to describe the binary choice it represents.</p>
+
   <h3>Indicator & Label</h3>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
@@ -75,20 +74,6 @@
     </div>
   </div>
 
-  <h3>Clicktarget</h3>
-  <div class="cf nr2 nl2 mb3">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/checkboxes/checkbox-clicktarget.png" alt="Illustration of the extend of the clicktarget of a Checkbox.">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>A checkbox can be toggled by clicking on the area of its checkbox as well as its label. Usually the clicktarget extends to the same width for each element in a collection of checkboxes. This results in a click target that extends beyond the label, for all elements shorter than the longest.</p>
-      <p>Clicking a checkbox triggers the action on release of the click. If, during the click, the mouse is moved off of the checkbox, no action is triggered.</p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <h2>Style</h2>
   <h3>Dimensions</h3>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
@@ -108,44 +93,87 @@
       <img src="../images/components/checkboxes/checkbox-checked.png" alt="Illustration a Checked Checkbox.">
     </div>
     <div class="fl-ns w-50-ns ph2">
-      <p class="mb2">Check Background Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-60"></span> Blue 60 <code>#0060df</code></p>
-      <p class="mb2">Font: <a href="./../visuals/typography.html#scale">Body 10</a></p>
-      <p class="mb2">Text Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90"></span> Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb2">Text: <a href="./../visuals/typography.html#scale">Body 10</a></p>
+      <p class="mb2">Text Color: Grey 90 <code>#0c0c0d</code></p>
     </div>
   </div>
+</section>
+
+<section>
+  <h2>Behaviors</h2>
+  <h3>On / Off</h3>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/checkboxes/checkbox-unchecked.png" alt="Illustration an Unchecked Checkbox.">
+      <img src="../images/components/checkboxes/checkbox-states.png" alt="Example of a checked and an unchecked Checkbox.">
     </div>
     <div class="fl-ns w-50-ns ph2">
-      <p class="mb2">Uncheck Background Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-10"></span> Grey 90 10% <code>rgba(12, 12, 13, .1)</code></p>
-      <p class="mb2">Uncheck Border Color: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-30"></span> Grey 90 30% <code>rgba(12, 12, 13, .3)</code></p>
+      <h4 class="mb2">Checked (On):</h4>
+      <p class="mb2">Icon: <a href="../images/components/checkboxes/checkbox-check-16.svg">Checkbox-Check</a></p>
+      <p class="mb2">Background Color: Blue 60 <code>#0060df</code></p>
+      <h4 class="mb2">Unchecked (Off):</h4>
+      <p class="mb2">Background Color: 10% Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb2">Border Color: 30% Grey 90 <code>#0c0c0d</code></p>
+
     </div>
   </div>
 
-  <h3>Behaviors</h3>
+  <h3>Clicktarget</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/checkboxes/checkbox-clicktarget.png" alt="Illustration of the extent of the clicktarget of a Checkbox.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p>A checkbox can be toggled by clicking on the area of its checkbox as well as its label. Usually the clicktarget extends to the same width for each element in a collection of checkboxes. This results in a click target that extends beyond the label, for all elements shorter than the longest.</p>
+      <p>Clicking a checkbox triggers the action on release of the click. If, during the click, the mouse is moved off of the checkbox, no action is triggered.</p>
+    </div>
+  </div>
+
+  <h3>Disabled</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/checkboxes/checkbox-disabled.png" alt="Illustration of a checked and an unchecked disabled Checkbox.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">40% Opacity</p>
+      <p class="mb2">Can not be interacted with nor focused.</p>
+    </div>
+  </div>
+
+  <h3>Interaction</h3>
   <h4>Checked</h4>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/checkboxes/checkbox-behaviour-checked.png" alt="Illustration of all apperances a Checkbox can show when interacted with.">
+      <img src="../images/components/checkboxes/checkbox-interaction-checked.png" alt="Illustration of all apperances a checked Checkbox can show when interacted with.">
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p class="mb2">Background Color:</p>
-      <p class="mb2">Default: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-60"></span> Blue 60 <code>#0060df</code></p>
-      <p class="mb2">Hover:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-70"></span> Blue 70 <code>#003eaa</code></p>
-      <p class="mb2">Pressed:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-blue-80"></span> Blue 80 <code>#002275</code></p>
+      <p class="mb2">Default: Blue 60 <code>#0060df</code></p>
+      <p class="mb2">Hover: Blue 70 <code>#003eaa</code></p>
+      <p class="mb2">Pressed: Blue 80 <code>#002275</code></p>
     </div>
   </div>
   <h4>Unchecked</h4>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/checkboxes/checkbox-behaviour-unchecked.png" alt="Illustration of all apperances a Checkbox can show when interacted with.">
+      <img src="../images/components/checkboxes/checkbox-interaction-unchecked.png" download="" alt="Illustration of all apperances an unchecked Checkbox can show when interacted with.">
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p class="mb2">Background Color:</p>
-      <p class="mb2">Default: <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-10"></span> Grey 90 10% <code>rgba(12, 12, 13, .1)</code></p>
-      <p class="mb2">Hover:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-20"></span> Grey 90 20% <code>rgba(12, 12, 13, .2)</code></p>
-      <p class="mb2">Pressed:  <span class="dib w1 h1 v-mid mr2 mb2 br2 bg-grey-90-30"></span> Grey 90 30% <code>rgba(12, 12, 13, .3)</code></p>
+      <p class="mb2">Default: 10% Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb2">Hover: 20% Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb2">Pressed: 30% Grey 90 <code>#0c0c0d</code></p>
     </div>
   </div>
+  <h4>Focused</h4>
+  <p>Same for checked and unchecked.</p>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <p></p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Border: none</p>
+      <p class="mb2">Box Shadow: 1px inset Blue 50, 1px Blue 50, 4px 30% Blue 50</p>
+    </div>
+  </div>
+
 </section>
