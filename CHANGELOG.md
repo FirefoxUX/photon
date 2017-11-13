@@ -26,6 +26,8 @@
 - [#157](https://github.com/FirefoxUX/photon/issues/157) Typos on various pages
 
 ### Change
+- Patterns: Warnings, undraft
+- Components: Buttons, undraft
 - Components: Links, undraft
 - Visual: Typography visual assets
 
