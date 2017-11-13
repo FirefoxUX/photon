@@ -1,5 +1,34 @@
 # Photon Design System Releases
 
+## [[0.6.0] - 2017-11-14](https://github.com/firefoxux/photon/releases/tag/v0.6.0)
+
+### Add
+- Components: Checkboxes draft page
+- Components: Doorhangers draft page
+
+### Fix
+- [#63](https://github.com/FirefoxUX/photon/issues/63) [icons] The different icon states are not very clear
+- [#75](https://github.com/FirefoxUX/photon/issues/75) "Color" and "State" for "Icons" are unclear relative to concrete use cases
+- [#84](https://github.com/FirefoxUX/photon/issues/84) Add padding around apple touch icon
+- [#97](https://github.com/FirefoxUX/photon/issues/97) Secondary Button Styles
+- [#119](https://github.com/FirefoxUX/photon/issues/119) Remove iOS reference from Firefox for desktop
+- [#120](https://github.com/FirefoxUX/photon/issues/120) Add the CSS for shadows in the design docs
+- [#124](https://github.com/FirefoxUX/photon/issues/124) Add pop-up tp the word list
+- [#137](https://github.com/FirefoxUX/photon/issues/137) Visual: Update Typography Assets
+- [#140](https://github.com/FirefoxUX/photon/issues/140) No button "focus" 
+- [#147](https://github.com/FirefoxUX/photon/issues/147) Polish the links component page
+- [#148](https://github.com/FirefoxUX/photon/issues/148) Checkboxes component: Build and Define
+- [#149](https://github.com/FirefoxUX/photon/issues/149) Doorhanger component: Build
+- [#152](https://github.com/FirefoxUX/photon/issues/152) Add a visual example for a transparent version of the error pattern
+- [#154](https://github.com/FirefoxUX/photon/issues/154) Missing social meta tags in head
+- [#155](https://github.com/FirefoxUX/photon/issues/155) Social media assets for social meta tags
+- [#156](https://github.com/FirefoxUX/photon/issues/156) Refine the description in input field
+- [#157](https://github.com/FirefoxUX/photon/issues/157) Typos on various pages
+
+### Change
+- Components: Links, undraft
+- Visual: Typography visual assets
+
 ## [[0.5.0] - 2017-11-08](https://github.com/firefoxux/photon/releases/tag/v0.5.0)
 ### Add
 - Product Identity Assets: Add Firefox Beta App Icon and Firefox Glyph
