@@ -13,13 +13,13 @@
             <use xlink:href="#warning-icon-a"/>
           </mask>
           <use fill="#0C0C0D" fill-opacity=".8" fill-rule="nonzero" xlink:href="#warning-icon-a"/>
-          <g fill="#FFF" mask="url(#warning-icon-b)">
+          <g fill="#3E2800" mask="url(#warning-icon-b)">
             <rect width="263" height="263" transform="translate(-122.063 -122.063)"/>
           </g>
         </g>
       </g>
     </g>
-    <g transform="translate(34.772 20)">
+    <g transform="translate(34 20)">
       <rect width="32" height="32"/>
       <g transform="translate(6.646 6.646)">
         <mask id="warning-icon-d" fill="#fff">
@@ -29,6 +29,9 @@
         <g fill="#D7B600" mask="url(#warning-icon-d)">
           <rect width="263" height="263" transform="translate(-122.063 -122.063)"/>
         </g>
+      </g>
+      <g>
+        <rect width="32" height="32"/>
       </g>
     </g>
   </g>
