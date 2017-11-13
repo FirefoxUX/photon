@@ -17,6 +17,7 @@
 - [#137](https://github.com/FirefoxUX/photon/issues/137) Visual: Update Typography Assets
 - [#140](https://github.com/FirefoxUX/photon/issues/140) No button "focus" 
 - [#147](https://github.com/FirefoxUX/photon/issues/147) Polish the links component page
+- [#148](https://github.com/FirefoxUX/photon/issues/148) Checkboxes component: Build and Define
 - [#149](https://github.com/FirefoxUX/photon/issues/149) Doorhanger component: Build
 - [#152](https://github.com/FirefoxUX/photon/issues/152) Add a visual example for a transparent version of the error pattern
 - [#154](https://github.com/FirefoxUX/photon/issues/154) Missing social meta tags in head
