@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="240" viewBox="0 0 360 240">
+  <defs>
+    <polygon id="doorhanger-color-b" points="90 65 106 65 115 56 124 65 270 65 270 185 90 185"/>
+    <filter id="doorhanger-color-a" width="130%" height="141.9%" x="-15%" y="-17.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0470588235   0 0 0 0 0.0470588235   0 0 0 0 0.0509803922  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#doorhanger-color-a)" xlink:href="#doorhanger-color-b"/>
+    <use fill="#FFF" xlink:href="#doorhanger-color-b"/>
+    <path stroke="#0C0C0D" stroke-opacity=".2" d="M105.792893,64.5 L115,55.2928932 L124.207107,64.5 L270.5,64.5 L270.5,185.5 L89.5,185.5 L89.5,64.5 L105.792893,64.5 Z"/>
+  </g>
+</svg>
