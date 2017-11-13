@@ -81,8 +81,7 @@
       {"title": "Shadows",
         "file": "shadows.html"},
         {"title": "Warnings",
-        "file": "warnings.html",
-        "draft": "true"}
+        "file": "warnings.html"}
     ]
   },
   {"title": "Components",
