@@ -88,8 +88,7 @@
     "directory": "components",
     "pages": [
       {"title": "Buttons",
-        "file": "buttons.html",
-        "draft": "true"},
+        "file": "buttons.html"},
       {"title": "Checkboxes",
         "file": "checkboxes.html",
         "draft": "true"},
