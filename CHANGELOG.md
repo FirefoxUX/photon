@@ -3,7 +3,7 @@
 ## [[0.6.0] - 2017-11-14](https://github.com/firefoxux/photon/releases/tag/v0.6.0)
 
 ### Add
-- Components: Checkboxes draft page
+- Components: Checkboxes
 - Components: Doorhangers draft page
 
 ### Fix
