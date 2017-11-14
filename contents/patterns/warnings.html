@@ -1,41 +1,26 @@
 <header>
-  <%- include('../includes/global/message-bar.html', {type: 'Warning', text: 'This is a working draft', button: 'Report issue'}); %>
   <h1>Warnings</h1>
 </header>
 
 <section>
-  <p>Components using warning states:
-  <ul>
-    <li>
-      <a href="./components/message-bars.html">Message bars</a>
-    </li>
-    <li>
-      Notification bars
-    </li>
-    <li>
-      Input field
-    </li>
-    <li>
-      Safe browsing pages
-    </li>
-  </ul>
-</p>
-</section>
-
-<section>
   <h2>Usage</h2>
   <p>
-    Warnings provide short and relevant information that adds context when a user encounters a problem or issue. Whenever possible, provide the user with an action that helps them address the warning.
-  </p>
-</section>
-
-<section>
-  <h2>
-    Placement
-  </h2>
+    Warnings alert users prior to actions that may be damaging or harmful, without restricting them from taking an action. Warnings are generally used for issues that occur because of external factors (e.g., arriving at a dangerous website, or using a site that is causing Firefox to slow down) and should be used sparingly as part of a planned interaction. (It is ok to ask users to confirm decisions, but those confirmations should usually not take the form of a warning.) 
   <p>
-    Warnings are typically placed close to the exception requiring user action.
+  <p>
+    Warnings support users with the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). 
   </p>
+  <p>
+    We distinguish between two different categories of warnings:
+  </p>
+  <ul>
+    <li>Generic warnings</li>
+    <li>High visibility warnings</li>
+  </ul>
+  <h2>Generic warnings</h2>
+  <% include ../includes/patterns/warnings/generic-warnings.html %>
+  <h2>High visibility warnings</h2>
+  <% include ../includes/patterns/warnings/high-visibility-warnings.html %>
 </section>
 
 <section>
@@ -48,7 +33,7 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2"> 
       <p>
-         <a href="http://design.firefox.com/icons/viewer/#warning">An exclamation mark </a> enclosed inside a triangle indicates a warning. The icon is typically paired with warning text.
+         The icon used to indicate errors is <a href="http://design.firefox.com/icons/viewer/#warning">an exclamation mark enclosed within a triangle</a>.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2">
@@ -64,37 +49,31 @@
       <p>
         <a href="../visuals/color.html#yellow">Yellow</a> is the dedicated color for warning states. Warning text should be highly legible, with noticeable contrast against its background color.
       </p>
-      <h4>Background</h4>
       <p>
-        Yellow 50 <code>#ffe900</code>
-      </p>
-      <h4>Content</h4>
-      <p>
-        Yellow 90 <code>#3e2800</code>
+        In the rare case of a high visibility warning, use <a href="../visuals/color.html#red">red</a> to indicate the seriousness of the warning.
       </p>
     </div>
     <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/message-bars/action.svg" alt="Yellow Warning">
+      <img class="w-100-ns" src="../images/message-bars/warning.svg" alt="Yellow Warning">
     </div>
   </div>
-<!--   <h4>High Alert Warnings</h4>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
-      <p>
-        In the rare case of a high alert, use <a href="../visuals/color.html#red">red</a> to indicate the seriousness of the warning.
-      </p>
-      <h4>Background</h4>
-       <p>
-        Red 50 <code>#ff0039</code>, or trasparent
-      </p>
-      <h4>Content</h4>
-      <p>
-        White <code>#ffffff</code>, or Red 60 <code>#d70022</code>
-      </p>
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/warnings/warning-high-level.png" alt="High alert case in the Safe Browsing page">
-    </div>
-  </div> -->
   
+</section>
+
+<section>
+  <h3>
+    Copy Rules
+  </h3>
+  <p>A good warning message is immediately pertinent and actionable.</p>
+  <ul>
+    <li>
+      Alert users to a situation or possible issue as it arises, even if it doesn't require immediate action.
+    </li>
+    <li>
+      Include information that will help users prevent an immediate issue and avoid similar issues in the future.
+    </li>
+    <li>
+      Rely on color and iconography to alert users to the fact of the warning, and use the limited text of the warning to explain the issue and available user actions. Avoid using the word <strong>warning</strong> or <strong>caution</strong> in the copy. When used correctly, the warning icon is enough to communicate that users should proceed with caution. 
+    </li>
+  </ul>
 </section>
