@@ -30,14 +30,14 @@
   <p> 
     Most Firefox for desktop icons live on a <strong>16×16</strong> pixel grid. Some specific small icons, used in rare cases, live on a <strong>12×12</strong> pixel grid. Keep icon shape weighted towards the middle area of the grid, reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. Designing with the pixel grid on helps ensure that icons will not appear fuzzy in production.
   </p>
-  <div class="cf nr3 nl3">
-  <div class="fl-ns w-50-ns ph3">
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2">
     <figure>
       <img src="../images/icons/icon-grid-16.svg" alt="icons grid">
       <figcaption> 16&times;16 is the most common icon size on Firefox Desktop. In the image the blue area indicates the max size for round icons, magenta one is for square icons.</figcaption>
     </figure>
   </div>
-  <div class="fl-ns w-50-ns ph3">
+  <div class="fl-ns w-50-ns ph2">
     <blockquote>
        <p>
           In Sketch, select the shape and then select <em>Layer &#8594; Round to Nearest Pixel Edge</em>. Sketch will automatically align the edges with the pixel grid.
@@ -51,16 +51,16 @@
 
 
   <p>
-    Firefox for Android icons are <strong> 20×20</strong>, with a bounding box of 24×24, according to Material Design specs. Firefox for iOs icons live on a <strong>24×24</strong> grid.
+    Firefox for Android icons are <strong> 20×20</strong>, with a bounding box of 24×24, according to Material Design specs. Firefox for iOS icons live on a <strong>24×24</strong> grid.
   </p>
-  <div class="cf nr3 nl3">
-  <div class="fl-ns w-50-ns ph3">
+  <div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2">
     <figure>
       <img src="../images/icons/icon-grid-20.svg" alt="icons grid">
       <figcaption>20x20 grid for Android, with a bounding box of 24×24</figcaption>
     </figure>
   </div>
-  <div class="fl-ns w-50-ns ph3">
+  <div class="fl-ns w-50-ns ph2">
     <figure>
       <img src="../images/icons/icon-grid-24.svg" alt="icons grid">
       <figcaption>24x24 grid for iOS</figcaption>
@@ -169,111 +169,93 @@
 
 <section>
   <h2>Color</h2>
-  <p>
-    Adapt your icon color according to your background.
-  </p>
-  <table>
-  <thead>
-    <tr>
-      <th><p>Background</p></th>
-      <th colspan="2"><p>Icon Color</p></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>Light</p>
-      </td>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-grey-90"></div>
-        <p class="dib v-mid">Grey 90</p>
-      </td>
-      <td>
-        <code>#0c0c0d</code>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Dark</p>
-      </td>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-grey-10 ba b--black-10"></div>
-        <p class="dib v-mid">Grey 10</p>
-      </td>
-      <td>
-        <code>#f9f9fa</code>
-      </td>
-    </tr>
-  </tbody>
-</table>
-  <div class="cf nr3 nl3">
-  <div class="fl w-50-ns ph3">
-   <figure>
-      <img src="../images/icons/icon-color-light-bg.svg" alt="Icons on the toolbar with a light theme">
-      <figcaption>Use Grey 90 <code>#0c0c0d</code> fill on light background</figcaption>
-    </figure> 
-  </div>
-  <div class="fl w-50-ns ph3">
+  <div class="cf nr2 nl2">
+  <div class="fl w-50-ns ph2">
     <figure>
-      <img src="../images/icons/icon-color-dark-bg.svg" alt="Icons on the toolbar with a dark theme">
-      <figcaption>Use Grey 10 <code>#f9f9fa</code> fill on dark background</figcaption>
+      <img src="../images/icons/icon-color-light-bg.svg" alt="Icons on the toolbar with a light theme">
+      <figcaption>Toolbar icon on light theme.</figcaption>
     </figure>
   </div>
+  <div class="fl w-50-ns ph2">
+    <p>
+      Use color semantical. Adapt it according to your background, keeping the contrast high.
+    </p>
+    <p>
+      Use Grey 90 <code>#0c0c0d</code>, with an 80% of opacity, on light background.
+    </p>
+  </div>
 </div>
-  <h3>State</h3>
-  <p>
-     Treat primary and secondary icons differently to create an obvious visual hierarchy. 
-  </p>
-  <p>
-    Use <strong>primary icons</strong> for the main, most frequent actions on the page. A primary icon doesn't change color and usually lives within a button. 
-  </p>
-  <p>
-    Use <strong>secondary icons</strong> for subsidiary, less frequent actions on the page. Note that a secondary icon changes presentation when the user interacts with it. 
-  </p>
-  <table>
-  <thead>
-    <tr>
-      <th><p>Icons state</p></th>
-      <th><p>Opacity Primary Icons</p></th>
-      <th><p>Opacity Secondary Icons</p></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <p>Active</p>
-      </td>
-      <td>
-        <p>80%</p>
-      </td>
-      <td>
-        <p>60%</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Hover</p>
-      </td>
-      <td>
-        <p>80%</p>
-      </td>
-       <td>
-        <p>80%</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>Inactive</p>
-      </td>
-      <td>
-        <p>25%</p>
-      </td>
-      <td>
-        <p>25%</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="cf nr2 nl2">
+  <div class="fl w-50-ns ph2">
+    <figure>
+      <img src="../images/icons/icon-color-dark-bg.svg" alt="Icons on the toolbar with a dark theme">
+      <figcaption>Toolbar icon on dark theme.</figcaption>
+    </figure>
+  </div>
+  <div class="fl w-50-ns ph2">
+    <p>
+      Use Grey 10 <code>#f9f9fa</code>, with an 80% of opacity, on dark background.
+    </p>
+  </div>
+</div>
+<div class="cf nr2 nl2">
+  <div class="fl w-50-ns ph2">
+    <figure>
+      <img src="../images/message-bars/success.svg" alt="success message bar">
+      <figcaption>Success message bar.</figcaption>
+    </figure>
+  </div>
+  <div class="fl w-50-ns ph2">
+    <p>
+      Use Green 90 <code>#003706</code> on a light green background. Green colors are usually associated with success states.
+    </p>
+  </div>
+</div>
+<div class="cf nr2 nl2">
+  <div class="fl w-50-ns ph2">
+    <figure>
+      <img src="../images/warnings/error-generic-example_2.png" >
+      <figcaption>Warning message before entering about:config.</figcaption>
+    </figure>
+  </div>
+  <div class="fl w-50-ns ph2">
+   <p>
+      Use Yellow 60 <code>#d7b600</code>. Yellow icons are often used to indicate <a href="../patterns/warnings.html">warnings</a>.
+    </p>
+  </div>
+</div>
+<div class="cf nr2 nl2">
+  <div class="fl w-50-ns ph2">
+    <figure>
+      <img src="../images/errors/error-no-bg.svg" alt="Errors message">
+      <figcaption>Error message.</figcaption>
+    </figure>
+  </div>
+  <div class="fl w-50-ns ph2">
+    <p>
+      Use Red 60 <code>#d70022</code> on a trasparent background. Red on icons is often used to indicate <a href="../patterns/errors.html">errors</a>.
+    </p>
+  </div>
+</div>
+
+  <h3>States</h3>
+  <div class="cf nr2 nl2">
+  <div class="w-50-ns fl-ns ph2 mb3">
+   <figure>
+      <img src="../images/buttons/button-behaviour-ghost-light.svg" alt="ghost button">
+      <figcaption>
+        The different <a href="../components/buttons.html#ghost-3">states in a ghost button.</a>
+      </figcaption>
+   </figure>
+  </div>
+  <div class="w-50-ns fl-ns ph2 mb3">
+    <p>
+      When an icon is used to execute an action, we referr to it as <a href="../components/buttons.html#ghost">ghost button</a>.
+    </p>
+  </div>
+</div>
+
+
 </section>
 
 <section>

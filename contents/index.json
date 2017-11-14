@@ -81,28 +81,30 @@
       {"title": "Shadows",
         "file": "shadows.html"},
         {"title": "Warnings",
-        "file": "warnings.html",
-        "draft": "true"}
+        "file": "warnings.html"}
     ]
   },
   {"title": "Components",
     "directory": "components",
-    "pages": [ 
+    "pages": [
       {"title": "Buttons",
-        "file": "buttons.html",
+        "file": "buttons.html"},
+      {"title": "Checkboxes",
+        "file": "checkboxes.html"},
+      {"title": "Doorhangers",
+        "file": "doorhangers.html",
         "draft": "true"},
       {"title": "Input Fields",
         "file": "input-fields.html"},
       {"title": "Link",
-        "file": "link.html",
-        "draft": "true"},
-      {"title": "Message bars",
+        "file": "link.html"},
+      {"title": "Message Bars",
         "file": "message-bars.html"}
     ]
   },
   {"title": "Resources",
     "directory": "resources",
-    "pages": [ 
+    "pages": [
       {"title": "Icons",
         "file": "icons.html"
       },
