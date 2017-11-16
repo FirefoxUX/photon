@@ -9,7 +9,7 @@ const Feedback = React.createFactory(require('./Feedback.jsx'));
 const Header = React.createFactory(require('./Header.jsx'));
 
 const { connect } = require('react-redux');
-const { getPage } = require('./utilities.js');
+const { getEnv, getPage } = require('./utilities.js');
 
 const App = React.createClass({
   displayName: 'App',
@@ -19,7 +19,7 @@ const App = React.createClass({
   },
 
   render: function() {
-    return (<div>
+    return (<div className={getEnv()}>
       <Header/>
       <div className="flex-l flex-column-l flex-row-l fixed-l w-100-l h-100-l"
           id="content"

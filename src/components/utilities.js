@@ -18,9 +18,14 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 // contact them to request access to the GA data
 ga('create', 'UA-98252211-1', 'auto');
 
+function getEnv() {
+  return process.env.NODE_ENV;
+}
+
 function splitPath(path) {
   return path.replace(PREFIX, '').replace(/#.*/, '').split('/');
 }
+
 function parsePath(path) {
   let rv = splitPath(path);
   return rv.splice(rv.length - 2);
@@ -60,4 +65,4 @@ function sendEvent(category, action, url) {
   ga('send', 'event', category, action, url);
 }
 
-module.exports = {PREFIX, getPage, parsePath, getUrl, getSiblingPages, sendPageview, sendEvent};
+module.exports = {PREFIX, getEnv, getPage, parsePath, getUrl, getSiblingPages, sendPageview, sendEvent};

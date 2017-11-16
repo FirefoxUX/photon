@@ -1,3 +1,9 @@
 /*
   Shame
 */
+
+/* you forgot the 'alt' atribute */
+.development img[alt=""],
+.development img:not([alt]) {
+  border: 5px dashed var(--magenta-50);
+}
