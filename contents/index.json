@@ -105,6 +105,9 @@
   {"title": "Resources",
     "directory": "resources",
     "pages": [
+      {"title": "Colors",
+        "file": "colors.html"
+      },
       {"title": "Icons",
         "file": "icons.html"
       },
