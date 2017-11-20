@@ -1,5 +1,23 @@
 # Photon Design System Releases
 
+## [[0.6.1] - 2017-11-20](https://github.com/firefoxux/photon/releases/tag/v0.6.1)
+
+### Add
+- Visuals: Grid spacing visual asset
+- Resources: Colors page
+
+### Fix
+- [#150](https://github.com/FirefoxUX/photon/issues/150)  Visual: Update Grid asset and add new one for spacing
+- [#166](https://github.com/FirefoxUX/photon/issues/166) Fix link (it pointed to a local server) 
+- [#169](https://github.com/FirefoxUX/photon/pull/169) [fix] swapped text, bad grammar, invalid HTML in Errors
+- [#172](https://github.com/FirefoxUX/photon/issues/172) Visual: Color assets 
+- [#174](https://github.com/FirefoxUX/photon/issues/174) Add missing 'alt' attributes to improve accessibility
+
+### Change
+- Visuals: grid baseline grid visual asset
+- Visuals: typography visual assets
+- Visuals: colors visual assets
+
 ## [[0.6.0] - 2017-11-14](https://github.com/firefoxux/photon/releases/tag/v0.6.0)
 
 ### Add
