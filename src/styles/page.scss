@@ -207,6 +207,14 @@ main section {
 
   ul {
     line-height: 1.5;
+
+    li {
+      padding: 0 0 .5rem;
+
+      p {
+        margin: 0;
+      }
+    }
   }
 
   a {
@@ -221,6 +229,15 @@ main section {
         margin: -.3rem .15rem 0 .25rem;
         vertical-align: middle;
         width: 16px;
+      }
+    }
+
+    &[disabled] {
+      cursor: not-allowed;
+      opacity: .4;
+
+      &:hover {
+        text-decoration: none;
       }
     }
   }

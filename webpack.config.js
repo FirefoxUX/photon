@@ -57,6 +57,7 @@ var basePlugins = [
   failPlugin,
   new CopyWebpackPlugin([
     { from: 'index.html', to: '../' },
+    { from: 'robots.txt', to: '../' },
     { from: 'contents/index.json', to: '../contents/index.json' },
     { from: 'images', to: '../images' },
     { from: '404.html', to: '../' }
