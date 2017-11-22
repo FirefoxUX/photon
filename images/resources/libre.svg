@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240">
+  <defs>
+    <linearGradient id="libre-a" x1="2.678%" x2="2.678%" y1="61.707%" y2="1.848%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".588"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity=".863"/>
+    </linearGradient>
+    <linearGradient id="libre-b" x1=".89%" x2="100.004%" y1="-2.017%" y2="97.096%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="49.306%"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="libre-c" x1=".945%" x2="100.002%" y1="-.727%" y2="98.33%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="49.306%"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="libre-d" x1="-.001%" x2="99.999%" y1=".123%" y2=".123%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="49.306%"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="libre-e" x1="0%" y1=".351%" y2=".351%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="49.306%"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="libre-f" x1="-.532%" x2="51.406%" y1=".726%" y2="52.664%">
+      <stop offset="0%"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="libre-g" x1="0%" y1=".006%" y2=".006%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="49.306%"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g fill="none">
+    <path fill="#737373" d="M141.000102 74.6309412L141.000102 163.838606C141.00041 167.059798 142.393367 168.452015 145.615334 168.452322L216.383229 168.452322C219.605196 168.452015 220.998154 167.059798 220.998461 163.838606L220.998461 108.592363C221.035384 106.967803 220.398473 105.338014 219.267726 104.170452L186.835013 71.7475299C185.667159 70.6173689 184.036976 69.9795773 182.412023 70.0172247L145.615334 70.0172247C142.421674 70.0172247 140.98601 72.6978198 141.000102 74.6309412L141.000102 74.6309412zM198.410538 70.0369096C196.362455 70.6929099 195.673177 73.8108179 197.252099 75.2770375L215.787056 93.9087603C217.49933 95.5408254 220.909786 94.1443643 221 91.7738683L221 73.142207C220.999815 71.5162935 219.528275 70.0370942 217.91083 70.0369096L199.375873 70.0369096C199.056494 69.9876973 198.729732 69.9876973 198.410538 70.0369096L198.410538 70.0369096z"/>
+    <polygon fill="#B1B1B3" points="145.613 74.651 145.613 76.189 145.613 162.344 145.613 163.883 147.152 163.883 214.844 163.883 216.382 163.883 216.382 162.344 216.382 108.497 216.382 107.824 215.901 107.343 183.786 75.035 183.402 74.651 182.729 74.651 147.152 74.651"/>
+    <polygon fill="url(#libre-a)" points="148.69 77.728 181.178 77.728 213.304 110.036 213.304 160.806 148.69 160.806"/>
+    <polygon fill="url(#libre-b)" points="198.465 75.474 216.667 93.676 216.123 94.22 197.921 76.018" opacity=".25"/>
+    <polygon fill="url(#libre-c)" points="184.619 74.704 216.667 106.753 216.123 107.297 184.075 75.248" opacity=".25"/>
+    <rect width="83.847" height="1" x="103.305" y="118.451" fill="url(#libre-d)" opacity=".25" transform="rotate(90 145.228 118.835)"/>
+    <rect width="42.308" height="1" x="159.459" y="163.836" fill="url(#libre-e)" opacity=".25" transform="rotate(180 180.614 164.22)"/>
+    <polygon fill="url(#libre-f)" points="147.921 96.189 147.921 77.728 147.921 76.958 148.69 76.958 167.152 76.958 167.152 77.728 148.69 77.728 148.69 96.189" opacity=".1"/>
+    <polygon fill="url(#libre-c)" points="183.081 78.551 215.129 110.599 214.585 111.143 182.537 79.095" opacity=".1"/>
+    <rect width="64.614" height="1" x="148.69" y="160.759" fill="url(#libre-g)" opacity=".2"/>
+  </g>
+</svg>

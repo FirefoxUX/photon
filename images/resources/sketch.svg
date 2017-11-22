@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="240" viewBox="0 0 360 240">
+  <defs>
+    <polygon id="sketch-a" points="146.077 105.176 178.505 168.646 124 105.176"/>
+    <polygon id="sketch-b" points="210.932 105.176 178.505 168.646 233.009 105.176"/>
+    <polygon id="sketch-c" points="146.077 105.176 210.932 105.176 178.505 168.646"/>
+    <polygon id="sketch-d" points="233.009 105.176 209.225 73.248 210.932 105.176"/>
+    <polygon id="sketch-e" points="124 105.176 147.784 73.248 146.077 105.176"/>
+    <polygon id="sketch-f" points="178.505 70 146.077 105.176 210.932 105.176"/>
+    <polygon id="sketch-g" points="178.505 70 147.784 73.248 146.077 105.176"/>
+    <polygon id="sketch-h" points="178.505 70 209.225 73.248 210.932 105.176"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#848484" xlink:href="#sketch-a"/>
+    <use fill="#848484" xlink:href="#sketch-b"/>
+    <use fill="#B6B6B6" xlink:href="#sketch-c"/>
+    <use fill="#B6B6B6" xlink:href="#sketch-d"/>
+    <use fill="#B6B6B6" xlink:href="#sketch-e"/>
+    <use fill="#EDEDED" xlink:href="#sketch-f"/>
+    <use fill="#D1D1D1" xlink:href="#sketch-g"/>
+    <use fill="#D1D1D1" xlink:href="#sketch-h"/>
+  </g>
+</svg>
