@@ -78,9 +78,12 @@
         "file": "errors.html"},
       {"title": "Inactive",
         "file": "inactive.html"},
+      {"title": "Helpers",
+        "file": "helpers.html",
+        "draft": "true"},
       {"title": "Shadows",
         "file": "shadows.html"},
-        {"title": "Warnings",
+      {"title": "Warnings",
         "file": "warnings.html"}
     ]
   },
