@@ -1,0 +1,194 @@
+<header>
+  <h1>Radio Buttons</h1>
+  <p>
+    Radio buttons allow a selection of one option from group of mutually exclusive options.
+  </p>
+</header>
+
+<section>
+  <h2>Usage</h2>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-usage.png" alt="Usage Example of Radio Buttons as used in Firefox Options">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p>
+        Use radio buttons to provide people with a choice from a set of two to five mutually exclusive options. For example to offer a choice of how to save downloads.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Combination</h2>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <figure>
+        <img src="../images/components/radio-buttons/radiobutton-group.png" alt="Example of the correct use of Radio Buttons in a Group of Four">
+      <% include ../includes/global/do.html %>
+    </figure>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p>Combine radio buttons in groups of two to five mutually exclusive choices.</p>
+    </div>
+  </div>
+
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2">
+      <p>Never use one radio button on it’s own, consider using a checkbox instead.</p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <figure>
+        <img class="db w-100-ns" src="../images/components/radio-buttons/radiobutton-single-dont.png" alt="Example of a wrong use of Radio Buttons by using only one Radio Button">
+        <% include ../includes/global/dont.html %>
+      </figure>
+    </div>
+  </div>
+
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2">
+      <p>For more than five choices, consider other options. Those could be a drop down or a reduction of choices.</p>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <figure>
+        <img class="db w-100-ns" src="../images/components/radio-buttons/radiobutton-biggroup-dont.png" alt="Example of a wrong use of Radio Buttons by using only one Radio Button">
+        <% include ../includes/global/dont.html %>
+      </figure>
+    </div>
+  </div>
+
+</section>
+
+<section>
+  <h2>Style</h2>
+  <p>Radio Buttons consist of a part to indicate their state and a label to describe the choice it represents.</p>
+
+  <h3>Indicator & Label</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-states.png" alt="Example of a selected and an unselected radio button.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p>Use the Indicator to show whether the radio button is selected or not.</p>
+      <p>Use the label to make the choice clear.</p>
+    </div>
+  </div>
+
+  <h3>Dimensions</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-size.png" alt="Illustration of the Size of a Radio Button.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Corner Radius: <code>100%</code></p>
+      <p class="mb2">Height: <code>16px</code></p>
+      <p class="mb1">Width: <code>16px</code></p>
+      <p class="mb2">Horizontal Padding: <code>4px</code></p>
+    </div>
+  </div>
+
+  <h3>Text and Color</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-checked.png" alt="Illustration of a checked Radio Button.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Text: <a href="./../visuals/typography.html#scale">Body 10</a></p>
+      <p class="mb2">Text Color: Grey 90 <code>#0c0c0d</code></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Behaviors</h2>
+  <h3>Selected / Unselected</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-states.png" alt="Example of a selected and an unselected radio button.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <h4 class="mb2">Selected:</h4>
+      <p class="mb2">Icon: <a href="../images/components/radio-buttons/radiobutton-marker-16.svg" download="">Radio-Button-Marker</a></p>
+      <p class="mb2">Background Color: Blue 60 <code>#0060df</code></p>
+      <h4 class="mb2">Unselected:</h4>
+      <p class="mb2">Background Color: 10% Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb2">Border: 1px 30% Grey 90 <code>#0c0c0d</code></p>
+
+    </div>
+  </div>
+
+  <h3>Clicktarget</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-clicktarget.png" alt="Illustration of the extent of the clicktarget of a Checkbox.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p>A radio button can be selected by clicking on the area of its indicator as well as its label. Usually the clicktarget extends to the same width for each element in a collection of radion buttons. This results in a click target that extends beyond the label, for all elements shorter than the longest.</p>
+      <p>Clicking a radion button selects it on release of the click. If, during the click, the mouse is moved off of the radio button, it does not become selected.</p>
+    </div>
+  </div>
+
+  <h3>Disabled</h3>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-disabled.png" alt="Illustration of a selected and an unselected disabled radion button.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">40% Opacity</p>
+      <p class="mb2">Can not be interacted with nor focused.</p>
+    </div>
+  </div>
+
+  <h3>Interaction</h3>
+  <h4>Selected</h4>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-interaction-checked.png" alt="Illustration of all apperances a selected radio button can show when interacted with.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Background Color:</p>
+      <p class="mb2">Default: Blue 60 <code>#0060df</code></p>
+      <p class="mb2">Hover: Blue 70 <code>#003eaa</code></p>
+      <p class="mb2">Pressed: Blue 80 <code>#002275</code></p>
+      <h5 class="mb2">Focused:</h5>
+      <p class="mb2">Border: none</p>
+      <p class="mb2">Box Shadow: 1px inset Blue 50, 1px Blue 50, 4px 30% Blue 50</p>
+    </div>
+  </div>
+  <h4>Unselected</h4>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <img src="../images/components/radio-buttons/radiobutton-interaction-unchecked.png" alt="Illustration of all apperances an unselected radion button can show when interacted with.">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p class="mb2">Background Color:</p>
+      <p class="mb2">Default: 10% Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb2">Hover: 20% Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb2">Pressed: 30% Grey 90 <code>#0c0c0d</code></p>
+      <h5 class="mb2">Focused:</h5>
+      <p class="mb2">Border: none</p>
+      <p class="mb2">Box Shadow: 1px inset Blue 50, 1px Blue 50, 4px 30% Blue 50</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Copy Rules</h2>
+  <ul>
+    <li>
+      <p>
+        Use the imperative voice for radio button labels.
+      </p>
+    </li>
+    <li>
+      <p>
+        Do not use terminal punctuation for radio button labels.
+      </p>
+    </li>
+    <li>
+      <p>
+        Maintain parallel construction for lists of related radio button labels.
+      </p>
+    </li>
+  </ul>
+</section>
