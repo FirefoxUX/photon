@@ -1,5 +1,39 @@
 # Photon Design System Releases
 
+## [[0.6.2] - 2017-11-27](https://github.com/firefoxux/photon/releases/tag/v0.6.2)
+
+### Add
+- Visuals: Typography, iOS and Android type scale as a draft
+- Copy: Punctuation, add apostrophes and quotation marks section
+- Patterns: Overlay as draft
+- Components: Radio buttons
+- Global: add missing alt texts here and there
+
+### Fix
+- [#15](https://github.com/FirefoxUX/photon/issues/15) Downloadable colour palettes
+- [#80](https://github.com/FirefoxUX/photon/issues/80) Add copy guidelines for using typographic apostrophes
+- [#167](https://github.com/FirefoxUX/photon/issues/167) Radio buttons component: Build
+- [#171](https://github.com/FirefoxUX/photon/issues/171) Visual: Duration and Easing assets
+- [#173](https://github.com/FirefoxUX/photon/issues/173) Pattern: Overlays, Understand and Build
+- [#181](https://github.com/FirefoxUX/photon/issues/181) Add languages/apps logos to colors resources page
+- [#186](https://github.com/FirefoxUX/photon/issues/186) Add missing alt text on Writing for Users page
+- [#187](https://github.com/FirefoxUX/photon/issues/187) Add missing alt text to Capitalization page
+- [#188](https://github.com/FirefoxUX/photon/issues/188) Add missing alt text to Inactive page
+- [#189](https://github.com/FirefoxUX/photon/issues/189) Add missing alt text on Shadows page
+- [#190](https://github.com/FirefoxUX/photon/issues/190) Add missing alt text to Buttons page
+- [#191](https://github.com/FirefoxUX/photon/issues/191) Add missing alt text to Doorhangers page
+- [#192](https://github.com/FirefoxUX/photon/issues/192) Add missing alt text on Input Fields page
+- [#193](https://github.com/FirefoxUX/photon/issues/193) Add missing alt text on Links page
+- [#195](https://github.com/FirefoxUX/photon/issues/195) Overlay Pattern: Describe
+- [#196](https://github.com/FirefoxUX/photon/issues/196) Radio buttons component: Define & Document
+- [#200](https://github.com/FirefoxUX/photon/issues/200) Missing mobile type scales
+- [#202](https://github.com/FirefoxUX/photon/issues/202) Use 4px as a margin between the label and input field.
+
+### Change
+- Visuals: Motion duration and easing assets
+- Components: Spec for space between a label and an input field
+- Resources: Add languages logos on colors page
+
 ## [[0.6.1] - 2017-11-20](https://github.com/firefoxux/photon/releases/tag/v0.6.1)
 
 ### Add
