@@ -1,6 +1,6 @@
 # Photon Design System Releases
 
-## [[0.6.2] - 2017-11-27](https://github.com/firefoxux/photon/releases/tag/v0.6.2)
+## [[0.6.2] - 2017-11-28](https://github.com/firefoxux/photon/releases/tag/v0.6.2)
 
 ### Add
 - Visuals: Typography, iOS and Android type scale as a draft
