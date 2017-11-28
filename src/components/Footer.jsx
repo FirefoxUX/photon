@@ -27,7 +27,8 @@ const Footer = connect(state => {
             <Link
                 className="no-underline blue-60"
                 to={getUrl(this.props.previous_page)}
-            ><img className="dib pr2 v-mid"
+            ><img alt="Arrow pointing left, to the previous page."
+                className="dib pr2 v-mid"
                 src={`${PREFIX}/images/global/back-16.svg`}
              />{this.props.previous_page.title}
             </Link>
@@ -37,7 +38,8 @@ const Footer = connect(state => {
                 className="no-underline blue-60"
                 to={getUrl(this.props.next_page)}
             >{this.props.next_page.title}
-              <img className="dib pl2 v-mid" 
+              <img alt="Arrow pointing right, to the next page."
+                  className="dib pl2 v-mid"
                   src={`${PREFIX}/images/global/forward-16.svg`}
               />
             </Link>
