@@ -76,11 +76,17 @@
     "pages": [
       {"title": "Errors",
         "file": "errors.html"},
+      {"title": "Helpers",
+        "file": "helpers.html",
+        "draft": "true"},
       {"title": "Inactive",
         "file": "inactive.html"},
+      {"title": "Overlay",
+        "file": "overlay.html",
+        "draft":"true"},
       {"title": "Shadows",
         "file": "shadows.html"},
-        {"title": "Warnings",
+      {"title": "Warnings",
         "file": "warnings.html"}
     ]
   },
@@ -99,7 +105,10 @@
       {"title": "Link",
         "file": "links.html"},
       {"title": "Message Bars",
-        "file": "message-bars.html"}
+        "file": "message-bars.html"},
+      {"title": "Radio Buttons",
+        "file": "radio-buttons.html",
+        "draft": "true"}
     ]
   },
   {"title": "Resources",
