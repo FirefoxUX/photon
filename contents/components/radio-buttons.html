@@ -22,6 +22,7 @@
 
 <section>
   <h2>Combination</h2>
+  <h3>Between 2-5 Choices</h3>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
       <figure>
@@ -51,6 +52,25 @@
       </figure>
       <small class="db grey-50 mb3 mb0-ns">
         For more than five choices, consider other options. Those could be a drop down or a reduction of choices.
+      </small>
+    </div>
+  </div>
+  <h3>Always Exactly One Selected Choice</h3>
+  <p>In any groups of radio buttons, one must always be selected. Do not use a group of radio buttons if no slected button in an option.</p>
+  <div class="cf nr2 nl2 mb3">
+    <div class="fl-ns w-50-ns ph2">
+      <figure>
+        <img src="../images/components/radio-buttons/radiobutton-group.svg" alt="Example of the correct use of Radio Buttons in a Group of Four">
+      <% include ../includes/global/do.html %>
+    </figure>
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <figure>
+        <img class="db w-100-ns" src="../images/components/radio-buttons/radiobutton-group-inactive-dont.svg" alt="Example of a wrong use of Radio Buttons by using only one Radio Button">
+        <% include ../includes/global/dont.html %>
+      </figure>
+      <small class="db grey-50 mb3 mb0-ns">
+         This state can not be reached by the user, and it is not accessible by keyboard, as only the select radio button can be focused.
       </small>
     </div>
   </div>
@@ -110,7 +130,6 @@
       <h4 class="mb2">Unselected:</h4>
       <p class="mb2">Background Color: 10% Grey 90 <code>#0c0c0d</code></p>
       <p class="mb2">Border: 1px 30% Grey 90 <code>#0c0c0d</code></p>
-
     </div>
   </div>
 
