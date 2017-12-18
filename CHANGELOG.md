@@ -1,5 +1,13 @@
 # Photon Design System Releases
 
+## [[0.6.3] - 20XX-XX-XX](https://github.com/firefoxux/photon/releases/tag/v0.6.3)
+
+### Fix
+
+- [#210](https://github.com/FirefoxUX/photon/issues/210) Missing reccomended font weight for buttons
+- [#214](https://github.com/FirefoxUX/photon/issues/214) Component card: understand
+- [#225](https://github.com/FirefoxUX/photon/issues/225) Migrate performace example to ds repo
+
 ## [[0.6.2] - 2017-11-28](https://github.com/firefoxux/photon/releases/tag/v0.6.2)
 
 ### Add
