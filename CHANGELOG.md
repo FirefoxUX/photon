@@ -1,6 +1,6 @@
 # Photon Design System Releases
 
-## [[0.6.3] - 20XX-XX-XX](https://github.com/firefoxux/photon/releases/tag/v0.6.3)
+## [[0.6.3] - 2018-01-08](https://github.com/firefoxux/photon/releases/tag/v0.6.3)
 
 ### Fix
 
