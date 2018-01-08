@@ -1,5 +1,18 @@
 # Photon Design System Releases
 
+## [[0.6.3] - 2018-01-08](https://github.com/firefoxux/photon/releases/tag/v0.6.3)
+
+### Fix
+
+- [#73](https://github.com/FirefoxUX/photon/issues/73) Ink usage is ambiguous
+- [#203](https://github.com/FirefoxUX/photon/issues/203) Doorhanger padding?
+- [#210](https://github.com/FirefoxUX/photon/issues/210) Missing reccomended font weight for buttons
+- [#214](https://github.com/FirefoxUX/photon/issues/214) Component card: understand
+- [#220](https://github.com/FirefoxUX/photon/issues/220) Make favicon links absolute
+- [#222](https://github.com/FirefoxUX/photon/issues/222) The Roboto samples on the Typography page depict a very old version of the face (pre-Material Design)) 
+- [#225](https://github.com/FirefoxUX/photon/issues/225) Migrate performace example to ds repo
+- [#227](https://github.com/FirefoxUX/photon/issues/227) Fix some misspell
+
 ## [[0.6.2] - 2017-11-28](https://github.com/firefoxux/photon/releases/tag/v0.6.2)
 
 ### Add
