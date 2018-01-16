@@ -1,22 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="240" viewBox="0 0 360 240">
-  <defs>
-    <polygon id="sketch-a" points="146.077 105.176 178.505 168.646 124 105.176"/>
-    <polygon id="sketch-b" points="210.932 105.176 178.505 168.646 233.009 105.176"/>
-    <polygon id="sketch-c" points="146.077 105.176 210.932 105.176 178.505 168.646"/>
-    <polygon id="sketch-d" points="233.009 105.176 209.225 73.248 210.932 105.176"/>
-    <polygon id="sketch-e" points="124 105.176 147.784 73.248 146.077 105.176"/>
-    <polygon id="sketch-f" points="178.505 70 146.077 105.176 210.932 105.176"/>
-    <polygon id="sketch-g" points="178.505 70 147.784 73.248 146.077 105.176"/>
-    <polygon id="sketch-h" points="178.505 70 209.225 73.248 210.932 105.176"/>
-  </defs>
-  <g fill="none" fill-rule="evenodd">
-    <use fill="#848484" xlink:href="#sketch-a"/>
-    <use fill="#848484" xlink:href="#sketch-b"/>
-    <use fill="#B6B6B6" xlink:href="#sketch-c"/>
-    <use fill="#B6B6B6" xlink:href="#sketch-d"/>
-    <use fill="#B6B6B6" xlink:href="#sketch-e"/>
-    <use fill="#EDEDED" xlink:href="#sketch-f"/>
-    <use fill="#D1D1D1" xlink:href="#sketch-g"/>
-    <use fill="#D1D1D1" xlink:href="#sketch-h"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240">
+  <g fill="none" transform="translate(125 71)">
+    <polygon fill="#FDB300" points="24.063 3.259 55.144 0 86.226 3.259 110.289 35.302 55.144 99 0 35.302"/>
+    <path fill="#EA6C00" d="M22.3360116,35.3018977 L55.1441512,99.0003396 L0,35.3018977 M87.9530712,35.3018977 L55.1449317,99.0003396 L110.289083,35.3018977"/>
+    <polyline fill="#FDAD00" points="22.336 35.302 87.952 35.302 55.144 99"/>
+    <path fill="#FDD231" d="M55.1441512,0 L24.0627558,3.25894186 L22.3360116,35.3015581 M55.1446715,0 L86.2260668,3.25894186 L87.952811,35.3015581"/>
+    <path fill="#FDAD00" d="M110.289083,35.3015581 L86.226327,3.25894186 L87.9530712,35.3015581 M0,35.3015581 L24.0627558,3.25894186 L22.3360116,35.3015581"/>
+    <polyline fill="#FEEEB7" points="55.144 0 22.336 35.302 87.952 35.302"/>
   </g>
 </svg>
