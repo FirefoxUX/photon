@@ -1,5 +1,15 @@
 # Photon Design System Releases
 
+## [[0.6.4] - 2018-01-16](https://github.com/firefoxux/photon/releases/tag/v0.6.4)
+
+### Fix
+
+- [#215](https://github.com/FirefoxUX/photon/issues/215) B&W resource images feel disabled
+- [#232](https://github.com/FirefoxUX/photon/issues/232) Component card: build
+- [#233](https://github.com/FirefoxUX/photon/issues/233) Add more font scales to web typography
+- [#237](https://github.com/FirefoxUX/photon/issues/237) Visual: Voice and Tone assets
+- [#231](https://github.com/FirefoxUX/photon/issues/231) Broken links on Colors page
+
 ## [[0.6.3] - 2018-01-08](https://github.com/firefoxux/photon/releases/tag/v0.6.3)
 
 ### Fix
