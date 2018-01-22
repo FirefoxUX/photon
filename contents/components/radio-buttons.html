@@ -129,7 +129,16 @@
   <h3>Selected / Unselected</h3>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button.">
+      <img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button." id="showImage">
+      <iframe class="db w-100" height="180" src="https://designakt.github.io/PDS/components/radio-buttons/behavior.html" allowfullscreen="allowfullscreen" frameborder="0" id="showExample" style="display: none;"></iframe>
+      <small class="db grey-50 mb3 mb0-ns">
+         <a href="#" onclick="document.getElementById('showImage').style.display='block';
+                              document.getElementById('showExample').style.display='none';
+                              return false;">Image</a> /
+         <a href="#" onclick="document.getElementById('showImage').style.display='none';
+                              document.getElementById('showExample').style.display='block';
+                              return false;">Interactive example</a> (Currently only renders correctly in Firefox.)
+      </small>
     </div>
     <div class="fl-ns w-50-ns ph2">
       <h4 class="mb2">Selected:</h4>
