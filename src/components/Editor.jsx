@@ -8,7 +8,7 @@ require('../../node_modules/highlight.js/styles/color-brewer.css');
 const React = require('react');
 const { connect } = require('react-redux');
 const ReactDOM = require('react-dom');
-const { getPage } = require('./utilities.js');
+const { getPage, sendEvent } = require('./utilities.js');
 
 const Editor = React.createClass({
   displayName: 'Editor',
@@ -39,6 +39,7 @@ const Editor = React.createClass({
   componentDidUpdate: function(prevProps) {
     if (prevProps.text !== this.props.text) {
       this.addIds();
+      this.addInteractionEvents();
       const page = this.props.page;
       let title = `${page.title} | Photon Design System`;
       if(page.category !== page.title) {
@@ -59,6 +60,20 @@ const Editor = React.createClass({
         element.classList.remove('blue-60');
       }, 1000);
     }
+  },
+
+  addInteractionEvents: function() {
+    let node = ReactDOM.findDOMNode(this);
+    let interactiveElements = Array.from(node.querySelectorAll('.interactive'));
+    interactiveElements.forEach(element => {
+      element.addEventListener('click', e => {
+        if (e.target.classList.contains('interactive-toggle')) {
+          sendEvent('click', 'interactive-toggle', window.location.pathname);
+        } else if (e.target.classList.contains('image-toggle')) {
+          sendEvent('click', 'image-toggle', window.location.pathname);
+        }
+      });
+    });
   },
 
   addIds: function () {

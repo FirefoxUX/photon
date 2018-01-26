@@ -51,7 +51,7 @@ function getSiblingPages(page, pages) {
   var current_index = shown_pages.indexOf(page);
   var previous_page = shown_pages[current_index - 1] || shown_pages[shown_pages.length - 1];
   var next_page = shown_pages[current_index + 1] || shown_pages[0];
-  return { previous_page, next_page }
+  return { previous_page, next_page };
 }
 
 function sendPageview(url, hash) {
