@@ -71,7 +71,7 @@
         <% include ../includes/global/dont.html %>
       </figure>
       <small class="db grey-50 mb3 mb0-ns">
-         This state cannot be reached by the user, and it is not accessible by keyboard, as only the select radio button can be focused.
+         Once an option is selected, this state cannot be reached by the user again.
       </small>
     </div>
   </div>
@@ -85,15 +85,17 @@
 
 <section>
   <h2>Style</h2>
-  <div class="w-50-ns fl-ns ph2 mb3">
-    <p>Radio Buttons consist of a part to indicate their state and a label to describe the choice it represents.</p>
-  </div>
-  <div class="w-50-ns fl-ns ph2 mb3">
-    <blockquote>
-      <p>
-        Use the <a href="../images/components/radio-buttons/Photon Design System - Components - Radio-Buttons.sketch" download="">Sketch Libary Component - Radio&#8209;Button</a>.
-      </p>
-    </blockquote>
+  <div class="cf nr2 nl2 mb3">
+    <div class="w-50-ns fl-ns ph2 mb3">
+      <p>Radio Buttons consist of a part to indicate their state and a label to describe the choice it represents.</p>
+    </div>
+    <div class="w-50-ns fl-ns ph2 mb3">
+      <blockquote>
+        <p>
+          Use the <a href="../images/components/radio-buttons/Photon Design System - Components - Radio-Buttons.sketch" download="">Sketch Libary Component - Radio&#8209;Button</a>.
+        </p>
+      </blockquote>
+    </div>
   </div>
   <h3>Indicator & Label</h3>
   <div class="cf nr2 nl2 mb3">
@@ -136,8 +138,8 @@
   <h3>Selected / Unselected</h3>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button." id="showImage">
-      <iframe class="db w-100" height="180" src="https://designakt.github.io/PDS/components/radio-buttons/behavior.html" allowfullscreen="allowfullscreen" frameborder="0" id="showExample" style="display: none;"></iframe>
+      <img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button." id="showImage" style="height:202px;">
+      <iframe class="db w-100" height="202.5" src="https://designakt.github.io/PDS/components/radio-buttons/behavior.html" allowfullscreen="allowfullscreen" frameborder="0" id="showExample" style="display: none; margin-bottom: 15px;"></iframe>
       <small class="db grey-50 mb3 mb0-ns">
          <a href="#" onclick="document.getElementById('showImage').style.display='block';
                               document.getElementById('showExample').style.display='none';
@@ -165,17 +167,6 @@
     <div class="fl-ns w-50-ns ph2">
       <p>A radio button can be selected by clicking on the area of its indicator as well as its label. Usually the clicktarget extends to the same width for each element in a collection of radio buttons. This results in a click target that extends beyond the label, for all elements shorter than the longest.</p>
       <p>Clicking a radio button selects it on release of the click. If, during the click, the mouse is moved off of the radio button, it does not become selected.</p>
-    </div>
-  </div>
-
-  <h3>Disabled</h3>
-  <div class="cf nr2 nl2 mb3">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/radio-buttons/radiobutton-disabled.svg" alt="Illustration of a selected and an unselected disabled radio button.">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p class="mb2">40% Opacity</p>
-      <p class="mb2">Can not be interacted with nor focused.</p>
     </div>
   </div>
 
