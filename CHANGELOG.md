@@ -1,5 +1,23 @@
 # Photon Design System Releases
 
+## [[0.6.5] - 2018-01-30](https://github.com/firefoxux/photon/releases/tag/v0.6.5)
+
+### Fix
+
+- [#238](https://github.com/firefoxux/photon/issues/238) Visual: Writing for Users assets
+- [#244](https://github.com/firefoxux/photon/issues/244) Component card: Describe
+- [#239](https://github.com/firefoxux/photon/issues/239) Fix the mismatched visual example
+- [#224](https://github.com/firefoxux/photon/issues/224) Document interaction around disabling checkboxes/radio buttons with nested elements
+- [#234](https://github.com/firefoxux/photon/issuess/234) Document the scaling rules to typography page
+- [#236](https://github.com/firefoxux/photon/issuess/236) Capitalization Page Revision
+- [#223](https://github.com/firefoxux/photon/issuess/223) Unchecked checkboxes and radios shouldn't be gray by default type: question
+- [#212](https://github.com/firefoxux/photon/issuess/212) Helpers, patterns: build & describe
+- [#211](https://github.com/firefoxux/photon/issuess/211) Radio buttons component: release
+- [#208](https://github.com/firefoxux/photon/issuess/208) How to consistently document Focus?
+- [#204](https://github.com/firefoxux/photon/issuess/204) Doorhanger border color?
+- [#184](https://github.com/firefoxux/photon/issuess/184) Same hex color for background and foreground on default button
+- [#118](https://github.com/firefoxux/photon/issuess/118) Capitalization: what's the case suggested for titles?
+
 ## [[0.6.4] - 2018-01-16](https://github.com/firefoxux/photon/releases/tag/v0.6.4)
 
 ### Fix
