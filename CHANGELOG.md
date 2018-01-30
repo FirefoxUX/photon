@@ -5,12 +5,11 @@
 ### Fix
 
 - [#251](https://github.com/firefoxux/photon/issues/251) Add a JS event listener to the interactive radio button example
-- [#244](https://github.com/firefoxux/photon/issues/244) Component card: Describe
 - [#239](https://github.com/firefoxux/photon/issues/239) Fix the mismatched visual example
 - [#238](https://github.com/firefoxux/photon/issues/238) Visual: Writing for Users assets
 - [#236](https://github.com/firefoxux/photon/issuess/236) Capitalization Page Revision
 - [#234](https://github.com/firefoxux/photon/issuess/234) Document the scaling rules to typography page
-- [#223](https://github.com/firefoxux/photon/issuess/223) Unchecked checkboxes and radios shouldn't be gray by default type: question
+- [#223](https://github.com/firefoxux/photon/issuess/223) Unchecked checkboxes and radios shouldn't be gray by default
 - [#212](https://github.com/firefoxux/photon/issuess/212) Helpers, patterns: build & describe
 - [#211](https://github.com/firefoxux/photon/issuess/211) Radio buttons component: release
 - [#208](https://github.com/firefoxux/photon/issuess/208) How to consistently document Focus?
