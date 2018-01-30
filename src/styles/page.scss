@@ -444,3 +444,83 @@ div[data-tabs] input[type="radio"]:checked + label {
 div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
   display: block;
 }
+
+/* Interactive checkbox */
+.interactive-example {
+  background-color: var(--grey-10);
+  height: 202.5px; // same height as images
+  margin-bottom: 15px;
+  outline: 1px solid rgba(12, 12, 13, .1);
+  outline-offset: -1px;
+  width: 100%;
+}
+
+.container-demo {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.radiobutton-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  width: -moz-fit-content;
+}
+
+.group-radio-buttons {
+  align-items: center;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+input[type="radio"]:checked {
+  background-color: var(--blue-60);
+  background-image: url("../../images/components/checkboxes/radio-16.svg");
+  background-size: 16px;
+  border: none;
+}
+
+input[type="radio"] {
+  -moz-appearance: none;
+  background-color: var(--grey-90-a10);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 4px;
+  border: 1px solid var(--grey-90-a30);
+  border-radius: 100%;
+  font-size: 14px;
+  height: 16px;
+  margin-right: 4px;
+  width: 16px;
+}
+
+input[type="radio"] + label {
+  flex: 1 1 auto;
+  font-size: 14px;
+}
+
+input[type="radio"]:hover {
+  background-color: var(--grey-90-a20);
+}
+
+input[type="radio"]:hover:active {
+  background-color: var(--grey-90-a30);
+}
+
+input[type="radio"]:focus {
+  animation: none;
+  border: 0;
+  box-shadow:
+    0 0 0 1px var(--blue-50) inset,
+    0 0 0 1px var(--blue-50),
+    0 0 0 4px var(--blue-50-a30);
+}
+
+input[type="radio"]:checked:hover {
+  background-color: var(--blue-70);
+}
+
+input[type="radio"]:checked:hover:active {
+  background-color: var(--blue-80);
+}
