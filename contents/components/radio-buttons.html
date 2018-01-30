@@ -29,19 +29,19 @@
       <figure>
         <img src="../images/components/radio-buttons/radiobutton-group.svg" alt="Example of the correct use of Radio Buttons in a Group of Four">
       <% include ../includes/global/do.html %>
+      <figcaption>
+        Combine radio buttons in groups of two to five mutually exclusive choices.
+      </figcaption>
     </figure>
-    <small class="db grey-50 mb3 mb0-ns">
-      Combine radio buttons in groups of two to five mutually exclusive choices.
-    </small>
     </div>
     <div class="fl-ns w-50-ns ph2">
       <figure>
         <img class="db w-100-ns" src="../images/components/radio-buttons/radiobutton-single-dont.svg" alt="Example of a wrong use of Radio Buttons by using only one Radio Button">
         <% include ../includes/global/dont.html %>
+        <figcaption>
+          Never use one radio button on it’s own, consider using a checkbox instead.
+        </figcaption>
       </figure>
-      <small class="db grey-50 mb3 mb0-ns">
-        Never use one radio button on it’s own, consider using a checkbox instead.
-      </small>
     </div>
   </div>
   <div class="cf nr2 nl2 mb3">
@@ -50,10 +50,10 @@
       <figure>
         <img class="db w-100-ns" src="../images/components/radio-buttons/radiobutton-biggroup-dont.svg" alt="Example of a wrong use of Radio Buttons by using only one Radio Button">
         <% include ../includes/global/dont.html %>
+        <figcaption>
+          For more than five choices, consider other options. Those could be a drop down or a reduction of choices.
+        </figcaption>
       </figure>
-      <small class="db grey-50 mb3 mb0-ns">
-        For more than five choices, consider other options. Those could be a drop down or a reduction of choices.
-      </small>
     </div>
   </div>
   <h3>Always Exactly One Selected Choice</h3>
@@ -62,17 +62,17 @@
     <div class="fl-ns w-50-ns ph2">
       <figure>
         <img src="../images/components/radio-buttons/radiobutton-group.svg" alt="Example of the correct use of Radio Buttons in a Group of Four">
-      <% include ../includes/global/do.html %>
-    </figure>
+        <% include ../includes/global/do.html %>
+      </figure>
     </div>
     <div class="fl-ns w-50-ns ph2">
       <figure>
         <img class="db w-100-ns" src="../images/components/radio-buttons/radiobutton-group-inactive-dont.svg" alt="Example of a wrong use of Radio Buttons by using only one Radio Button">
         <% include ../includes/global/dont.html %>
+        <figcaption>
+           Once an option is selected, this state cannot be reached by the user again.
+        </figcaption>
       </figure>
-      <small class="db grey-50 mb3 mb0-ns">
-         Once an option is selected, this state cannot be reached by the user again.
-      </small>
     </div>
   </div>
   <h3>Consider the Order of Choices</h3>
@@ -138,7 +138,7 @@
   <h3>Selected / Unselected</h3>
   <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button." id="showImage" style="height:202px;">
+      <img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button." id="showImage" class="mb0" style="height:202px;">
       <div class='interactive'>
         <div id="select-unselect-example" class="interactive-example" style="display: none;">
           <div class="container-demo">
@@ -154,14 +154,14 @@
             </div>
           </div>
         </div>
-        <small class="db grey-50 mb3 mb0-ns">
+        <figcaption>
           <a href="#" class="image-toggle" onclick="document.getElementById('showImage').style.display='block';
                                                     document.getElementById('select-unselect-example').style.display='none';
                                                     return false;">Image</a> /
           <a href="#" class="interactive-toggle" onclick="document.getElementById('showImage').style.display='none';
                                                           document.getElementById('select-unselect-example').style.display='block';
                                                           return false;">Interactive example</a> (Currently only renders correctly in Firefox.)
-        </small>
+        </figcaption>
       </div>
     </div>
     <div class="fl-ns w-50-ns ph2">
@@ -214,9 +214,9 @@
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2 mb3">
       <iframe class="db w-100" height="180" src="https://designakt.github.io/PDS/components/radio-buttons/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-      <small class="db grey-50 mb3 mb0-ns">
-         Interactive example (Currently only renders correctly in Firefox.)
-      </small>
+      <figcaption>
+        Interactive example (Currently only renders correctly in Firefox.)
+      </figcaption>
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p class="mb2">Border: none</p>
