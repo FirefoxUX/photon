@@ -112,7 +112,7 @@ const TableOfContents = React.createClass({
                   href="https://github.com/FirefoxUX/photon/releases"
               >{'Changelog'}
               </a>
-              <span className="grey-50">{'v0.6.4'}</span>
+              <span className="grey-50">{'v0.6.5'}</span>
             </p>
             <p className="lh-copy mt0 mb1 fw4 f6">
               <a className="blue-60 no-underline"

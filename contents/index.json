@@ -107,8 +107,7 @@
       {"title": "Message Bars",
         "file": "message-bars.html"},
       {"title": "Radio Buttons",
-        "file": "radio-buttons.html",
-        "draft": "true"}
+        "file": "radio-buttons.html"}
     ]
   },
   {"title": "Resources",
