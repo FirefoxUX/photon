@@ -260,6 +260,10 @@ main section {
         }
       }
     }
+
+    div + figcaption {
+      padding-top: .25rem;
+    }
   }
 
   button {
