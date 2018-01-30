@@ -38,11 +38,13 @@ const Feedback = connect(state => {
             <p className="ma0 flex justify-around">
               <a className="mr4-ns no-underline f3 lh-copy dib"
                   id="thumbs-up"
+                  title="Send us some ❤️"
                   onClick={this.handleClick}
               >{'👍'}
               </a>
               <a className="no-underline f3 lh-copy dib"
                   id="thumbs-down"
+                  title="File an issue on GitHub"
                   onClick={this.handleClick}
               >{'👎'}
               </a>
