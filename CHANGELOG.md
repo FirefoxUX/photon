@@ -7,7 +7,6 @@
 - [#238](https://github.com/firefoxux/photon/issues/238) Visual: Writing for Users assets
 - [#244](https://github.com/firefoxux/photon/issues/244) Component card: Describe
 - [#239](https://github.com/firefoxux/photon/issues/239) Fix the mismatched visual example
-- [#224](https://github.com/firefoxux/photon/issues/224) Document interaction around disabling checkboxes/radio buttons with nested elements
 - [#234](https://github.com/firefoxux/photon/issuess/234) Document the scaling rules to typography page
 - [#236](https://github.com/firefoxux/photon/issuess/236) Capitalization Page Revision
 - [#223](https://github.com/firefoxux/photon/issuess/223) Unchecked checkboxes and radios shouldn't be gray by default type: question
