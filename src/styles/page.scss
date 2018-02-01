@@ -526,4 +526,16 @@ div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
   input[type="radio"]:checked:hover:active {
     background-color: var(--blue-80);
   }
+
+  #focus-example label {
+    font-size: 13px;
+  }
+
+  .radiobutton-wrapper span {
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin-bottom: 8px;
+  }
 }
