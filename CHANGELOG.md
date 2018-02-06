@@ -1,5 +1,13 @@
 # Photon Design System Releases
 
+## [[0.6.6] - 2018-02-06](https://github.com/firefoxux/photon/releases/tag/v0.6.6)
+
+### Fix
+
+- [#244](https://github.com/firefoxux/photon/issues/244) Component card: Describe
+- [#261](https://github.com/firefoxux/photon/issues/261) Added a tooltip for 👍 👎
+- [#251](https://github.com/firefoxux/photon/issues/251) Add a JS event listener to the interactive radio button example
+
 ## [[0.6.5] - 2018-01-30](https://github.com/firefoxux/photon/releases/tag/v0.6.5)
 
 ### Fix
