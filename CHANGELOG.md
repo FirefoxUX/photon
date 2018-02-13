@@ -1,5 +1,24 @@
 # Photon Design System Releases
 
+## [[0.6.7] - 2018-02-13](https://github.com/firefoxux/photon/releases/tag/v0.6.7)
+
+### Fix
+- [#267](https://github.com/firefoxux/photon/issues/267) Old Firefox Logo
+- [#266](https://github.com/firefoxux/photon/issues/266) Edits to Voice & Tone Page, including image captions
+- [#265](https://github.com/firefoxux/photon/issues/265) Add an inset to buttons when they're pressed 
+- [#264](https://github.com/firefoxux/photon/issues/264) Micro buttons are tough to read as-is (without text shadow)
+- [#260](https://github.com/firefoxux/photon/issues/260) Enable the Design System to provide value for mobile
+- [#258](https://github.com/firefoxux/photon/issues/258) New Word List Entry: Sign in
+- [#253](https://github.com/firefoxux/photon/issues/253) Red warning fails contrast 
+- [#249](https://github.com/firefoxux/photon/issues/249) Red warning fails contrast 
+- [#217](https://github.com/firefoxux/photon/issues/217) Message bars min-height and border-radius are undefined
+
+### Add
+- [#257](https://github.com/firefoxux/photon/issues/257) Create a padlock icon for icon set
+
+### Change
+- Homepage hero and social media images
+
 ## [[0.6.6] - 2018-02-06](https://github.com/firefoxux/photon/releases/tag/v0.6.6)
 
 ### Fix
