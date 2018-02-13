@@ -10,7 +10,7 @@
 - [#260](https://github.com/firefoxux/photon/issues/260) Enable the Design System to provide value for mobile
 - [#258](https://github.com/firefoxux/photon/issues/258) New Word List Entry: Sign in
 - [#253](https://github.com/firefoxux/photon/issues/253) Red warning fails contrast 
-- [#249](https://github.com/firefoxux/photon/issues/249) Red warning fails contrast 
+- [#249](https://github.com/firefoxux/photon/issues/249) Message bar error icon is missing
 - [#217](https://github.com/firefoxux/photon/issues/217) Message bars min-height and border-radius are undefined
 
 ### Add
