@@ -2,7 +2,7 @@
   <g fill="none" fill-rule="evenodd" transform="translate(136 73)">
     <g transform="translate(1 .5)">
       <g transform="translate(6 .5)">
-        <rect width="32" height="32" x=".356" y=".045" fill="#FF0039" rx="3"/>
+        <rect width="32" height="32" x=".356" y=".045" fill="#D70022" rx="3"/>
         <g transform="translate(4.356 4.045)">
           <rect width="20" height="20" x="2.002" y="2" stroke="#FFF" stroke-opacity=".8" stroke-width="4"/>
           <rect width="20" height="20" x="2.002" y="2" stroke="#00FEFF" stroke-opacity=".2" stroke-width="4"/>

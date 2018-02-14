@@ -10,81 +10,112 @@
   <p>
     In Firefox products we use the standard typeface for each platform.
   </p>
-
-  <h3>Windows</h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/typography/typography-segoe.svg" alt="List of Segoe UI weights used in Firefox products">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a> is the typeface used on the Windows platform.
-      </p>
-    </div>
-  </div>
-
-  <h3>macOS</h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/typography/typography-san-francisco.svg" alt="List of San Francisco weights used in Firefox products">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on Apple macOS.
-      </p>
-    </div>
-  </div>
-
-  <h3>Linux</h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/typography/typography-ubuntu.svg" alt="List of Ubuntu weights used in Firefox products">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <a href="http://font.ubuntu.com/">Ubuntu</a> is the typeface used in Ubuntu, the most common Linux distro.
-      </p>
+  <form>
+    <div class="flex flex-wrap" data-tabs>
+  <style type="text/css" scoped>
+    .background-image {
+      height: 40px;
+      min-width: 154px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: 0 center;
+    }
+  </style>
+  <input class="dn" type="radio" name="ptabs" id="platform-win" checked="checked">
+  <label class="pa2 order-1-m db mb3" for="platform-win">Windows</label>
+  <div class="order-last w-100 dn flex-grow-1" data-tab>
+    <div class="cf nr2 nl2">
+      <div class="fl-ns w-50-ns ph2">
+        <img src="../images/typography/typography-segoe.svg" alt="List of Segoe UI weights used in Firefox products">
+      </div>
+      <div class="fl-ns w-50-ns ph2">
+        <p>
+          <a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a> is the typeface used on the Windows platform.
+        </p>
+      </div>
     </div>
   </div>
 
-  <h3>Web products</h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/typography/typography-fira-sans.svg" alt="List of Fira Sans weights used in Firefox products">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <a href="https://mozilla.github.io/Fira/">Fira Sans</a> is the typeface used in Firefox web products.
-      </p>
-      <p>
-        Despite <strong>Open Sans</strong> being used on some Mozilla web properties, it is currently not recommended for Firefox products.
-      </p>
-    </div>
-  </div>
-
-  <h3>Android</h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/typography/typography-roboto.svg" alt="List of Roboto weights used in Firefox products">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> is the standard typeface on Android. <strong>Noto</strong> is the standard Android typeface for all languages not covered by Roboto.
-      </p>
+  <input class="dn" type="radio" name="ptabs" id="platform-mac-os">
+  <label class="pa2 order-1-m db mb3" for="platform-mac-os">macOS</label>
+  <div class="order-last w-100 dn flex-grow-1" data-tab>
+    <div class="cf nr2 nl2">
+      <div class="fl-ns w-50-ns ph2">
+        <img src="../images/typography/typography-san-francisco.svg" alt="List of San Francisco weights used in Firefox products">
+      </div>
+      <div class="fl-ns w-50-ns ph2">
+        <p>
+          <a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on Apple macOS.
+        </p>
+      </div>
     </div>
   </div>
 
-  <h3>iOS</h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/typography/typography-san-francisco.svg" alt="List of San Francisco weights used in Firefox products">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on the Apple iOS. 
-      </p>
+  <input class="dn" type="radio" name="ptabs" id="platform-ubuntu">
+  <label class="pa2 order-1-m db mb3" for="platform-ubuntu">Linux</label>
+  <div class="order-last w-100 dn flex-grow-1" data-tab>
+    <div class="cf nr2 nl2">
+      <div class="fl-ns w-50-ns ph2">
+        <img src="../images/typography/typography-ubuntu.svg" alt="List of Ubuntu weights used in Firefox products">
+      </div>
+      <div class="fl-ns w-50-ns ph2">
+        <p>
+          <a href="http://font.ubuntu.com/">Ubuntu</a> is the typeface used in Ubuntu, the most common Linux distro.
+        </p>
+      </div>
     </div>
   </div>
+
+  <input class="dn" type="radio" name="ptabs" id="platform-web">
+  <label class="pa2 order-1-m db mb3" for="platform-web">Web</label>
+  <div class="order-last w-100 dn flex-grow-1" data-tab>
+    <div class="cf nr2 nl2">
+      <div class="fl-ns w-50-ns ph2">
+        <img src="../images/typography/typography-fira-sans.svg" alt="List of Fira Sans weights used in Firefox products">
+      </div>
+      <div class="fl-ns w-50-ns ph2">
+        <p>
+          <a href="https://mozilla.github.io/Fira/">Fira Sans</a> is the typeface used in Firefox web products.
+        </p>
+        <p>
+          Despite <strong>Open Sans</strong> being used on some Mozilla web properties, it is currently not recommended for Firefox products.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <input class="dn" type="radio" name="ptabs" id="platform-android">
+  <label class="pa2 order-1-m db mb3" for="platform-android">Android</label>
+  <div class="order-last w-100 dn flex-grow-1" data-tab>
+    <div class="cf nr2 nl2">
+      <div class="fl-ns w-50-ns ph2">
+        <img src="../images/typography/typography-roboto.svg" alt="List of Roboto weights used in Firefox products">
+      </div>
+      <div class="fl-ns w-50-ns ph2">
+        <p>
+          <a href="https://fonts.google.com/specimen/Roboto">Roboto</a> is the standard typeface on Android. <strong>Noto</strong> is the standard Android typeface for all languages not covered by Roboto.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <input class="dn" type="radio" name="ptabs" id="platform-iOS">
+  <label class="pa2 order-1-m db mb3" for="platform-iOS">iOS</label>
+  <div class="order-last w-100 dn flex-grow-1" data-tab>
+    <div class="cf nr2 nl2">
+      <div class="fl-ns w-50-ns ph2">
+        <img src="../images/typography/typography-san-francisco.svg" alt="List of San Francisco weights used in Firefox products">
+      </div>
+      <div class="fl-ns w-50-ns ph2">
+        <p>
+          <a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on the Apple iOS.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </form>
 </section>
 
 <section>
@@ -92,7 +123,8 @@
   <p>
     The type scale enables you to indicate content hierarchy. These sizes and styles are designed to balance content density with increased readability.
   </p>
-  <div class="flex flex-wrap" data-tabs>
+  <form>
+    <div class="flex flex-wrap" data-tabs>
   <style type="text/css" scoped>
     .background-image { 
       height: 40px;
@@ -549,16 +581,17 @@
   </div>
 </div>
 
-  
+  </form>
+
   <h3>The Scaling Ratio</h3>
   <p>The recommended font sizes, which are listed in the table above, are multiplied by a specific ratio for building the typographic hierarchy. In the very rare cases, there may be a need of having a bigger/ smaller font size which is not documented. Use the dedicated ratio to create new ones.</p>
-  
+
   <h4>Body & Caption</h4>
   <figure>
     <img src="../images/typography/ratio-body&caption.svg" alt="The scaling ratio of body and caption is 1.15">
     <figcaption>The scaling ratio of body and caption is 1.15.</figcaption>
   </figure>
-  
+
   <h4>Title & Display</h4>
   <figure>
     <img src="../images/typography/ratio-title&display.svg" alt="The scaling ratio of title and display is 1.29">
@@ -630,6 +663,22 @@
 </section>
 
 <section>
+  <h2>Line Length</h2>
+  <p>
+    The number of characters per line influences readability. Studies indicate the following guidelines for English:
+    <ul>
+      <li><strong>Satisfactory</strong> <br>45-75 characters (desktop) or 35-40 characters (mobile) per line is widely regarded as a satisfactory line length.</li>
+      <li><strong>Optimal</strong> <br>Around 66 characters (desktop) or 39 characters (mobile) is optimal.</li>
+      <li><strong>Too long</strong> <br>More than 90 characters (desktop) or 50 characters (mobile) is likely too long for continuous reading.</li>
+    </ul>
+  </p>
+  <figure>
+    <img src="../images/typography/typography-linelength.svg" alt="line length">
+    <figcaption>Line lengths within the light blue range are satisfactory, while entering the dark blue range are tolerant.</figcaption>
+  </figure>
+</section>
+
+<section>
   <h2>Usage</h2>
   <h3>Display</h3>
   <p>
@@ -649,7 +698,7 @@
   </figure>
   <h3>Emphasis</h3>
   <p>
-    Use emphasized style on body text or a caption that needs to stand out from regular content. 
+    Use emphasized style on body text or a caption that needs to stand out from regular content.
   </p>
   <figure>
     <img src="../images/typography/typography-usage-3.svg" alt="Emphasis example">
@@ -667,21 +716,4 @@
       </figure>
     </div>
   </div>
-</section>
-
-
-<section>
-  <h2>Line Length</h2>
-  <p>
-    The number of characters per line influences readability. Studies indicate the following guidelines for English: 
-    <ul>
-      <li><strong>Satisfactory</strong> <br>45-75 characters (desktop) or 35-40 characters (mobile) per line is widely regarded as a satisfactory line length.</li>
-      <li><strong>Optimal</strong> <br>Around 66 characters (desktop) or 39 characters (mobile) is optimal.</li>
-      <li><strong>Too long</strong> <br>More than 90 characters (desktop) or 50 characters (mobile) is likely too long for continuous reading.</li>
-    </ul>
-  </p>
-  <figure>
-    <img src="../images/typography/typography-linelength.svg" alt="line length">
-    <figcaption>Line lengths within the light blue range are satisfactory, while entering the dark blue range are tolerant.</figcaption>
-  </figure>
 </section>
