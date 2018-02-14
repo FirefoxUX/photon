@@ -5,8 +5,7 @@
 ### Fix
 - [#267](https://github.com/firefoxux/photon/issues/267) Old Firefox Logo
 - [#266](https://github.com/firefoxux/photon/issues/266) Edits to Voice & Tone Page, including image captions
-- [#265](https://github.com/firefoxux/photon/issues/265) Add an inset to buttons when they're pressed 
-- [#264](https://github.com/firefoxux/photon/issues/264) Micro buttons are tough to read as-is (without text shadow)
+- [#265](https://github.com/firefoxux/photon/issues/265) Add an inset to buttons when they're pressed
 - [#260](https://github.com/firefoxux/photon/issues/260) Enable the Design System to provide value for mobile
 - [#258](https://github.com/firefoxux/photon/issues/258) New Word List Entry: Sign in
 - [#253](https://github.com/firefoxux/photon/issues/253) Red warning fails contrast 
