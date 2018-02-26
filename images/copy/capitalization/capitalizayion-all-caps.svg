@@ -6,27 +6,27 @@
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.780392157   0 0 0 0 0.780392157   0 0 0 0 0.780392157  0 0 0 1 0"/>
     </filter>
-    <rect id="capitalizayion-all-caps-d" width="344" height="1" x="16"/>
-    <filter id="capitalizayion-all-caps-c" width="100.1%" height="150%" x="-.1%" y="-25%" filterUnits="objectBoundingBox">
-      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+    <rect id="capitalizayion-all-caps-d" width="344" height="1" x="16" y="92"/>
+    <filter id="capitalizayion-all-caps-c" width="100.3%" height="200%" x="-.1%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0"/>
     </filter>
-    <rect id="capitalizayion-all-caps-f" width="344" height="1" x="16"/>
-    <filter id="capitalizayion-all-caps-e" width="100.1%" height="150%" x="-.1%" y="-25%" filterUnits="objectBoundingBox">
-      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+    <rect id="capitalizayion-all-caps-f" width="344" height="1" x="16" y="136"/>
+    <filter id="capitalizayion-all-caps-e" width="100.3%" height="200%" x="-.1%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0"/>
     </filter>
-    <rect id="capitalizayion-all-caps-h" width="344" height="1" x="16"/>
-    <filter id="capitalizayion-all-caps-g" width="100.1%" height="150%" x="-.1%" y="-25%" filterUnits="objectBoundingBox">
-      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+    <rect id="capitalizayion-all-caps-h" width="344" height="1" x="16" y="180"/>
+    <filter id="capitalizayion-all-caps-g" width="100.3%" height="200%" x="-.1%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0"/>
     </filter>
-    <rect id="capitalizayion-all-caps-j" width="344" height="1" x="16"/>
-    <filter id="capitalizayion-all-caps-i" width="100.1%" height="150%" x="-.1%" y="-25%" filterUnits="objectBoundingBox">
-      <feOffset dy="-.5" in="SourceAlpha" result="shadowOffsetInner1"/>
+    <rect id="capitalizayion-all-caps-j" width="344" height="1" x="16" y="224"/>
+    <filter id="capitalizayion-all-caps-i" width="100.3%" height="200%" x="-.1%" y="-50%" filterUnits="objectBoundingBox">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
       <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
       <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0"/>
     </filter>
@@ -55,12 +55,12 @@
     <use fill="#EFEFF4" xlink:href="#capitalizayion-all-caps-a"/>
     <use fill="#000" filter="url(#capitalizayion-all-caps-b)" xlink:href="#capitalizayion-all-caps-a"/>
     <path fill="#6D6D72" d="M23.8486328,37.4580078 C23.8486328,38.5878963 23.4931676,39.49666 22.7822266,40.1843262 C22.0712855,40.8719924 21.1297259,41.2158203 19.9575195,41.2158203 C18.6922137,41.2158203 17.6840044,40.7820681 16.9328613,39.9145508 C16.1817182,39.0470334 15.8061523,37.8811922 15.8061523,36.4169922 C15.8061523,34.9697193 16.184892,33.8091678 16.9423828,32.9353027 C17.6998736,32.0614377 18.7049091,31.6245117 19.9575195,31.6245117 C20.9731496,31.6245117 21.824785,31.8879368 22.5124512,32.4147949 C23.2001174,32.941653 23.626464,33.6599889 23.7915039,34.5698242 L22.6298828,34.5698242 C22.4352204,33.9519826 22.1114931,33.4822607 21.6586914,33.1606445 C21.2058897,32.8390283 20.638838,32.6782227 19.9575195,32.6782227 C19.051916,32.6782227 18.3293484,33.0167609 17.7897949,33.6938477 C17.2502414,34.3709344 16.9804688,35.2786401 16.9804688,36.4169922 C16.9804688,37.5722714 17.2481256,38.4852668 17.7834473,39.1560059 C18.318769,39.8267449 19.0455683,40.1621094 19.9638672,40.1621094 C20.7848348,40.1621094 21.4481583,39.9230167 21.9538574,39.4448242 C22.4595566,38.9666317 22.7124023,38.3403359 22.7124023,37.565918 L22.7124023,37.34375 L20.1352539,37.34375 L20.1352539,36.3408203 L23.8486328,36.3408203 L23.8486328,37.4580078 Z M31.3858203,39.9716797 L31.3858203,41 L25.7110156,41 L25.7110156,31.840332 L31.3858203,31.840332 L31.3858203,32.8686523 L26.8535938,32.8686523 L26.8535938,35.8076172 L31.150957,35.8076172 L31.150957,36.8232422 L26.8535938,36.8232422 L26.8535938,39.9716797 L31.3858203,39.9716797 Z M34.4288672,41 L33.2989844,41 L33.2989844,31.840332 L34.4098242,31.840332 L39.3800391,38.96875 L39.4816016,38.96875 L39.4816016,31.840332 L40.6114844,31.840332 L40.6114844,41 L39.5006445,41 L34.5304297,33.8969727 L34.4288672,33.8969727 L34.4288672,41 Z M48.4660547,39.9716797 L48.4660547,41 L42.79125,41 L42.79125,31.840332 L48.4660547,31.840332 L48.4660547,32.8686523 L43.9338281,32.8686523 L43.9338281,35.8076172 L48.2311914,35.8076172 L48.2311914,36.8232422 L43.9338281,36.8232422 L43.9338281,39.9716797 L48.4660547,39.9716797 Z M51.5217969,32.855957 L51.5217969,36.3598633 L53.7752149,36.3598633 C54.3634339,36.3598633 54.8172868,36.208579 55.1367871,35.9060059 C55.4562874,35.6034327 55.6160352,35.1707385 55.6160352,34.6079102 C55.6160352,34.0577772 55.4488819,33.6282568 55.1145703,33.3193359 C54.7802588,33.0104151 54.3168845,32.855957 53.7244336,32.855957 L51.5217969,32.855957 Z M51.5217969,37.3754883 L51.5217969,41 L50.3792188,41 L50.3792188,31.840332 L53.8767774,31.840332 C54.7612219,31.840332 55.4689785,32.0889461 56.0000684,32.5861816 C56.5311583,33.0834172 56.7966992,33.7446248 56.7966992,34.5698242 C56.7966992,35.2088248 56.6337777,35.7610654 56.3079297,36.2265625 C55.9820817,36.6920596 55.5314026,37.0157869 54.9558789,37.1977539 L57.0759961,41 L55.7366406,41 L53.7752149,37.3754883 L51.5217969,37.3754883 Z M64.6703125,41 L64.5306641,40.6032715 C64.4375646,40.3387845 64.3307135,40.0341 64.2101074,39.689209 C64.0895014,39.3443179 63.9826502,39.0396335 63.8895508,38.7751465 L63.7499024,38.378418 L60.1063477,38.378418 L59.1859375,41 L57.9862305,41 L61.3631836,31.840332 L62.4930664,31.840332 L65.8700195,41 L64.6703125,41 Z M61.8773438,33.3193359 L61.7313477,33.7319336 C61.6340164,34.0070001 61.5144701,34.3476542 61.3727051,34.7539062 L60.9474121,35.9726562 C60.8056471,36.3789083 60.6861008,36.7195624 60.5887695,36.9946289 L60.4427734,37.4072266 L63.4134766,37.4072266 L61.9789063,33.3193359 L61.8773438,33.3193359 Z M72.8803516,39.9716797 L72.8803516,41 L67.3198047,41 L67.3198047,31.840332 L68.4623828,31.840332 L68.4623828,39.9716797 L72.8803516,39.9716797 Z"/>
-    <use fill="#000" filter="url(#capitalizayion-all-caps-c)" transform="translate(0 92)" xlink:href="#capitalizayion-all-caps-d"/>
-    <use fill="#000" filter="url(#capitalizayion-all-caps-e)" transform="translate(0 180)" xlink:href="#capitalizayion-all-caps-f"/>
-    <g fill="#000" transform="translate(0 136)">
+    <use fill="#000" filter="url(#capitalizayion-all-caps-c)" xlink:href="#capitalizayion-all-caps-d"/>
+    <use fill="#000" filter="url(#capitalizayion-all-caps-e)" xlink:href="#capitalizayion-all-caps-f"/>
+    <g fill="#000">
       <use filter="url(#capitalizayion-all-caps-g)" xlink:href="#capitalizayion-all-caps-h"/>
     </g>
-    <g fill="#000" transform="translate(0 224)">
+    <g fill="#000">
       <use filter="url(#capitalizayion-all-caps-i)" xlink:href="#capitalizayion-all-caps-j"/>
     </g>
   </g>
