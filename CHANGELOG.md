@@ -2,6 +2,8 @@
 
 ## [[0.6.8] - 2018-02-27](https://github.com/firefoxux/photon/releases/tag/v0.6.8)
 
+### Fix
+
 - [#277](https://github.com/firefoxux/photonn/issues/277) Migrate Interactive Examples from designakt to firefoxux
 - [#274](https://github.com/firefoxux/photonn/issues/274) Edits to New Capitalization Page
 - [#273](https://github.com/firefoxux/photonn/issues/273) Old Firefox Logo 2
