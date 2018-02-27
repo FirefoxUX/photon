@@ -1,0 +1,122 @@
+/* ====================== */
+/* ------Variables------- */
+/* ====================== */
+
+:root {
+   --magenta-50:#ff1ad9;
+   --magenta-60:#ed00b5;
+   --magenta-70:#b5007f;
+   --magenta-80:#7d004f;
+   --magenta-90:#440027;
+
+   --purple-50:#9400ff;
+   --purple-60:#8000d7;
+   --purple-70:#6200a4;
+   --purple-80:#440071;
+   --purple-90:#25003e;
+
+   --blue-40:#45a1ff;
+   --blue-50:#0a84ff;
+   --blue-60:#0060df;
+   --blue-70:#003eaa;
+   --blue-80:#002275;
+   --blue-90:#000f40;
+
+   --teal-50:#00feff;
+   --teal-60:#00c8d7;
+   --teal-70:#008ea4;
+   --teal-80:#005a71;
+   --teal-90:#002d3e;
+
+   --green-50:#30e60b;
+   --green-60:#12bc00;
+   --green-70:#058b00;
+   --green-80:#006504;
+   --green-90:#003706;
+
+   --yellow-50:#ffe900;
+   --yellow-60:#d7b600;
+   --yellow-70:#a47f00;
+   --yellow-80:#715100;
+   --yellow-90:#3e2800;
+
+   --red-50:#ff0039;
+   --red-60:#d70022;
+   --red-70:#a4000f;
+   --red-80:#5a0002;
+   --red-90:#3e0200;
+
+   --orange-50:#ff9400;
+   --orange-60:#d76e00;
+   --orange-70:#a44900;
+   --orange-80:#712b00;
+   --orange-90:#3e1300;
+
+   --white:#ffffff;
+
+   --grey-10:#f9f9fa;
+   --grey-20:#ededf0;
+   --grey-30:#d7d7db;
+   --grey-40:#b1b1b3;
+   --grey-50:#737373;
+   --grey-60:#4a4a4f;
+   --grey-70:#38383d;
+   --grey-80:#2a2a2e;
+   --grey-90:#0c0c0d;
+   --grey-90-values: 240, 4%, 5%;
+   --grey-90-90: hsla(var(--grey-90-values), .9);
+   --grey-90-80: hsla(var(--grey-90-values), .8);
+   --grey-90-70: hsla(var(--grey-90-values), .7);
+   --grey-90-60: hsla(var(--grey-90-values), .6);
+   --grey-90-50: hsla(var(--grey-90-values), .5);
+   --grey-90-40: hsla(var(--grey-90-values), .4);
+   --grey-90-30: hsla(var(--grey-90-values), .3);
+   --grey-90-20: hsla(var(--grey-90-values), .2);
+   --grey-90-10: hsla(var(--grey-90-values), .1);
+
+   --ink-70:#363959;
+   --ink-80:#202340;
+   --ink-90:#0f1126;
+
+  /* Colors */
+  --blue-50-values: 210, 100%, 52%;
+
+  --blue-50-10: hsla(var(--blue-50-values), .1);
+  --blue-50-20: hsla(var(--blue-50-values), .2);
+  --blue-50-30: hsla(var(--blue-50-values), .3);
+
+
+  --teal-50-values: 180, 100%, 50%;
+  --teal-60-values: 184, 100%, 42%;
+
+  --teal-50-10: hsla(var(--teal-50-values), .1);
+  --teal-50-20: hsla(var(--teal-50-values), .2);
+
+  --teal-60-10: hsla(var(--teal-60-values), .1);
+  --teal-60-20: hsla(var(--teal-60-values), .2);
+
+
+  --grey-10-values: 240, 9%, 98%;
+
+  --grey-10: hsl(var(--grey-10-values));
+  --grey-90: hsl(var(--grey-90-values));
+
+  --grey-10-025: hsla(var(--grey-10-values), .025);
+  --grey-10-05: hsla(var(--grey-10-values), .05);
+  --grey-10-10: hsla(var(--grey-10-values), .1);
+  --grey-10-20: hsla(var(--grey-10-values), .2);
+  --grey-10-30: hsla(var(--grey-10-values), .3);
+  --grey-10-40: hsla(var(--grey-10-values), .4);
+
+  --grey-90-025: hsla(var(--grey-90-values), .025);
+  --grey-90-05: hsla(var(--grey-90-values), .05);
+
+  /* Animation Curves */
+  --animation-curve: cubic-bezier(.07,.95,0,1);
+
+
+  /* Border Radii */
+  --border-radius: 2px;
+  --border-radius-inner: 3px;
+  --border-radius-outer: 4px;
+}

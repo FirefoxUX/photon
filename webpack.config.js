@@ -60,6 +60,7 @@ var basePlugins = [
     { from: 'robots.txt', to: '../' },
     { from: 'contents/index.json', to: '../contents/index.json' },
     { from: 'images', to: '../images' },
+    { from: 'interactives', to: '../interactives' },
     { from: '404.html', to: '../' }
   ]),
   new HtmlWebpackPlugin({

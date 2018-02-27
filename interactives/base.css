@@ -1,0 +1,125 @@
+/* ====================== */
+/* ---General Styles----- */
+/* ====================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  height: 100%;
+  background-color: var(--grey-10);
+  font: -moz-dialog;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  line-height: 1.5em;
+}
+
+body.demo {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+}
+
+button, select, input {
+  -moz-appearance: none;
+  border-radius: var(--border-radius);
+}
+
+hr {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color:var(--grey-90-10);
+}
+
+a:link {
+  color: var(--blue-60);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue-70);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--blue-60);
+}
+
+
+/* ====================== */
+/* ---Content Styles----- */
+/* ====================== */
+
+h2.label-section {
+  font-size: 1.25em;
+  line-height: 1.25em;
+  margin-bottom: 8px;
+}
+
+section {
+  margin-bottom: 32px;
+  width: -moz-fit-content;
+}
+
+.container-content,
+.container-demo {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container-demo {
+  width: -moz-fit-content;
+}
+
+.group-ui-elements {
+  margin-bottom: 16px;
+}
+
+.group-ui-elements.item-checkbox,
+.group-ui-elements.item-radiobutton {
+  display: flex;
+  align-items: center;
+}
+
+.group-ui-elements.subitem,
+.group-ui-elements.item-checkbox.subcheckbox,
+.group-ui-elements.item-radiobutton.subradiobutton {
+  padding-left: 20px;
+}
+
+.group-ui-elements.item-checkbox + .group-ui-elements.item-checkbox,
+.group-ui-elements.item-radiobutton + .group-ui-elements.item-radiobutton {
+  margin-top: -8px;
+}
+
+.group-ui-elements.has-helptext {
+  margin-bottom: 4px;
+}
+
+.group-ui-elements.item-checkbox + .item-helptext,
+.group-ui-elements.item-radiobutton + .item-helptext {
+  margin-left: 20px;
+}
+
+.item-helptext {
+  font-size: .9em;
+  line-height: 1.35em;
+  color: #737373;
+}
+
+.item-helptext + .group-ui-elements.item-checkbox,
+.item-helptext + .group-ui-elements.item-radiobutton {
+  margin-top: -8px; /* ensure that a checkbox after a checkbox with helptext is decently spaced */
+}
