@@ -1,5 +1,19 @@
 # Photon Design System Releases
 
+## [[0.6.8] - 2018-02-27](https://github.com/firefoxux/photon/releases/tag/v0.6.8)
+
+### Fix
+
+- [#277](https://github.com/firefoxux/photonn/issues/277) Migrate Interactive Examples from designakt to firefoxux
+- [#274](https://github.com/firefoxux/photonn/issues/274) Edits to New Capitalization Page
+- [#273](https://github.com/firefoxux/photonn/issues/273) Old Firefox Logo 2
+- [#272](https://github.com/firefoxux/photonn/issues/272) Incorrect URL
+- [#264](https://github.com/firefoxux/photonn/issues/264) Micro buttons are tough to read as-is (without text shadow)
+- [#248](https://github.com/firefoxux/photonn/issues/248) Notification buttons look odd on wide displays; could be right-aligned
+- [#247](https://github.com/firefoxux/photonn/issues/247) Specify multi-line message bars
+- [#245](https://github.com/firefoxux/photonn/issues/245) Research: line height
+- [#224](https://github.com/firefoxux/photonn/issues/224) Document interaction around disabling checkboxes/radio buttons with nested elements
+
 ## [[0.6.7] - 2018-02-13](https://github.com/firefoxux/photon/releases/tag/v0.6.7)
 
 ### Fix
