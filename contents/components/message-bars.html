@@ -1,6 +1,6 @@
 <header>
   <h1>
-    Message bar
+    Message Bars
   </h1>
   <p>
      Message bars communicate specific information to a user. Display message bars at the top of the page or the section they apply to.
@@ -12,10 +12,10 @@
     Usage
   </h2>
   <p>
-     Message bars contain concise and scannable text that is directly related to an action that has been completed or is about to be performed. They may include a single message or multiple messages. They should not be used to <strong>Dismiss</strong> or <strong>Cancel</strong>. It's <strong>required</strong> to have an icon always to precedes the message(s).
+     Message bars contain concise and scannable text that is directly related to an action that has been completed or is about to be performed. They may include a single message or multiple messages. They should not be used to <strong>Dismiss</strong> or <strong>Cancel</strong>. It is <strong>required</strong> to have an icon precede the message(s).
   </p>
   <p>
-    Common uses for message bars include: success messages, updates, warnings, and problems or errors.
+    Common use cases for message bars include: success messages, updates, warnings, problems and errors.
   </p>
 </section>
 
@@ -27,12 +27,12 @@
     Generic
   </h3>
   <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
       <img class="w-100-ns" src="../images/message-bars/generic.svg" alt="generic message bar example">
     </div>
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
       <p>
-        Convey general information or actions that aren’t critical. Update users about a change or give them advice. Include lower priority information and should always be dismissible.
+        Convey general information or actions that aren’t critical. Update users about a change or give them advice. Include lower priority information and should be dismissible.
       </p>
     </div>
   </div>
@@ -43,7 +43,7 @@
     <div class="fl-ns w-50-ns ph2">
       <img class="w-100-ns" src="../images/message-bars/success.svg" alt="success message bar example">
     </div>
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
       <p>
        Inform users when actions are successfully completed.
       </p>
@@ -53,10 +53,10 @@
     Warning
   </h3>
   <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
      <img class="w-100-ns" src="../images/message-bars/warning.svg" alt="warning message bar example">
     </div>
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
       <p>
        Display exceptions or information the user needs to act on.
       </p>
@@ -64,10 +64,10 @@
   </div>
   <h3>Error</h3>
   <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
       <img class="w-100-ns" src="../images/message-bars/error.svg" alt="error message bar example">
     </div>
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
       <p>
        Communicate problems that must be addressed before a user can complete a task.
       </p>
@@ -77,18 +77,20 @@
 
 <section>
   <h2>Style</h2>
-  <div class="flex flex-wrap" data-tabs>
-  <input class="dn" type="radio" name="st-tabs" id="mb-generic" checked>
-  <label class="pa2 order-1-m db mb3" for="mb-generic">Generic</label>
-  <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <h3>Sizes and grid</h3>
+  <h3>Sizes and Grid</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/s-gen.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
     <p>
-      Message bars have a fixed min-height. Width may vary depending on the content. A message bar cannot grow more than its parent container.
+      Message bars have a fixed min-height. Width may vary depending on the content. The width may vary depending on the parent container. A message bar cannot grow more than its parent container.
+    </p>
+    <p>
+      <strong>Width:</strong> <code>auto</code> when placed in a large container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code> when placed in a small container
     </p>
     <p>
       <strong>Min-height:</strong> <code>32px</code></p>
@@ -98,9 +100,60 @@
   </div>
 </div>
 
+<h3>Typography</h3>
+<div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2">
+    <img class="w-100-ns" src="../images/message-bars/t-gen.svg" alt="pairing example">
+  </div>
+  <div class="fl-ns w-50-ns ph2">
+    <p>
+      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions.
+    </p>
+    <p>
+      <strong>Message:</strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
+    </p>
+     <p>
+      <strong>Button: </strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
+    </p>
+  </div>
+</div>
+
+<h2>Type-specific Style</h2>
+
+<div class="flex flex-wrap" data-tabs>
+  <input class="dn" type="radio" name="st-tabs" id="mb-generic" checked>
+  <label class="pa2 order-1-m db mb3" for="mb-generic">Generic</label>
+  <div class="order-last w-100 dn flex-grow-1" data-tab>
+    <!--
+<h3>Sizes and Grid</h3>
+<div class="cf nr2 nl2">
+  <div class="fl-ns w-50-ns ph2">
+    <img class="w-100-ns" src="../images/message-bars/s-gen.svg" alt="pairing example">
+  </div>
+  <div class="fl-ns w-50-ns ph2">
+    <p>
+      Message bars have a fixed min-height. Width may vary depending on the content. The width may vary depending on the parent container. A message bar cannot grow more than its parent container.
+    </p>
+    <p>
+      <strong>Width:</strong> <code>auto</code> when it's placed in a larger container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code> when it's placed in a smaller container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code>
+    </p>
+    <p>
+      <strong>Min-height:</strong> <code>32px</code></p>
+    <p>
+      <strong>Corner Radius:</strong> <code> 4px</code>
+    </p>
+  </div>
+</div>
+-->
 <h3>Color</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/c-gen.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
@@ -112,53 +165,67 @@
     <p>Pressed: Blue 80 <code>#003eaa</code></p>
   </div>
 </div>
-  
+
 <h3>Icon</h3>
 <div class="cf nr2 nl2">
   <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/i-gen.svg" alt="pairing example">
   </div>
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <p>
-     Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
+      Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
     </p>
     <p>
       Icons always have a <code>4px</code> padding all around.
     </p>
-    <p><strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#identity%20icon%20hover">Identity Icon Hover</a> </p>
+    <p>
+      <strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#identity%20icon%20hover">Identity Icon Hover</a>
+    </p>
   </div>
 </div>
-  
+<!--
 <h3>Typography</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/t-gen.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
     <p>
-      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
+      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions.
     </p>
     <p>
-      <strong>Message: </strong>Body 10, 13px Regular <code>400</code>
+      <strong>Message:</strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
      <p>
-      <strong>Button: </strong>Body 10, 13px Regular <code>400</code>.
+      <strong>Button: </strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
   </div>
 </div>
+-->
+
   </div>
 
   <input class="dn" type="radio" name="st-tabs" id="mb-success">
   <label class="pa2 order-1-m db mb3" for="mb-success">Success</label>
   <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <h3>Sizes and grid</h3>
+    <!--
+<h3>Sizes and Grid</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/s-suc.svg" alt="pairing example">
   </div>
-  <div class="fl-ns w-50-ns ph2">  
+  <div class="fl-ns w-50-ns ph2">
     <p>
-      Message bars have a fixed min-height. Width may vary depending on the content. A message bar cannot grow more than its parent container.
+      Message bars have a fixed min-height. Width may vary depending on the content. The width may vary depending on the parent container. A message bar cannot grow more than its parent container.
+    </p>
+    <p>
+      <strong>Width:</strong> <code>auto</code> when it's placed in a larger container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code> when it's placed in a smaller container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code>
     </p>
     <p>
       <strong>Min-height:</strong> <code>32px</code></p>
@@ -167,7 +234,7 @@
     </p>
   </div>
 </div>
-
+-->
 <h3>Color</h3>
 <div class="cf nr2 nl2">
   <div class="fl-ns w-50-ns ph2">
@@ -182,13 +249,13 @@
     <p>Pressed: Green 80 <code>#006504</code></p>
   </div>
 </div>
-  
+
 <h3>Icon</h3>
 <div class="cf nr2 nl2">
   <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/i-suc.svg" alt="pairing example">
   </div>
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <p>
       Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
     </p>
@@ -200,10 +267,10 @@
     </p>
   </div>
 </div>
-  
+<!--
 <h3>Typography</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/t-succ.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
@@ -211,26 +278,38 @@
       The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions.
     </p>
     <p>
-      <strong>Message: </strong>Body 10, 13px Regular <code>400</code>
+      <strong>Message:</strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
-    <p>
-      <strong>Button: </strong>Body 10, 13px Regular <code>400</code>.
+     <p>
+      <strong>Button: </strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
   </div>
 </div>
+-->
+
   </div>
 
   <input class="dn" type="radio" name="st-tabs" id="mb-warning">
   <label class="pa2 order-1-m db mb3" for="mb-warning">Warning</label>
   <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <h3>Sizes and grid</h3>
+    <!--
+<h3>Sizes and Grid</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/s-war.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
     <p>
-      Message bars have a fixed min-height. Width may vary depending on the content. A message bar cannot grow more than its parent container.
+      Message bars have a fixed min-height. Width may vary depending on the content. The width may vary depending on the parent container. A message bar cannot grow more than its parent container.
+    </p>
+    <p>
+      <strong>Width:</strong> <code>auto</code> when it's placed in a larger container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code> when it's placed in a smaller container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code>
     </p>
     <p>
       <strong>Min-height:</strong> <code>32px</code></p>
@@ -239,7 +318,7 @@
     </p>
   </div>
 </div>
-
+-->
 <h3>Color</h3>
 <div class="cf nr2 nl2">
   <div class="fl-ns w-50-ns ph2">
@@ -254,13 +333,13 @@
     <p>Pressed: Yellow 80 <code>#715100</code></p>
   </div>
 </div>
-  
+
 <h3>Icon</h3>
 <div class="cf nr2 nl2">
   <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/i-war.svg" alt="pairing example">
   </div>
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <p>
       Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.
     </p>
@@ -272,37 +351,49 @@
     </p>
   </div>
 </div>
-  
+<!--
 <h3>Typography</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/t-war.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
     <p>
-      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
+      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions.
     </p>
     <p>
-      <strong>Message: </strong>Body 10, 13px Regular <code>400</code>
+      <strong>Message:</strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
-    <p>
-      <strong>Button: </strong>Body 10, 13px Regular <code>400</code>.
+     <p>
+      <strong>Button: </strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
   </div>
 </div>
+-->
+
   </div>
 
   <input class="dn" type="radio" name="st-tabs" id="mb-errors">
   <label class="pa2 order-1-m db mb3" for="mb-errors">Errors</label>
   <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <h3>Sizes and grid</h3>
+    <!--
+<h3>Sizes and Grid</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
      <img class="w-100-ns" src="../images/message-bars/s-err.svg" alt="pairing example">
   </div>
-  <div class="fl-ns w-50-ns ph2">  
+  <div class="fl-ns w-50-ns ph2">
+     <p>
+      Message bars have a fixed min-height. Width may vary depending on the content. The width may vary depending on the parent container. A message bar cannot grow more than its parent container.
+    </p>
     <p>
-      Message bars have a fixed min-height. Width may vary depending on the content. A message bar cannot grow more than its parent container.
+      <strong>Width:</strong> <code>auto</code> when it's placed in a larger container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code> when it's placed in a smaller container
+    </p>
+    <p>
+      <strong>Width:</strong> <code>100%</code>
     </p>
     <p>
       <strong>Min-height:</strong> <code>32px</code></p>
@@ -311,10 +402,10 @@
     </p>
   </div>
 </div>
-  
+-->
 <h3>Color</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/c-err.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
@@ -326,40 +417,44 @@
     <p>Pressed: Red 90 <code>#3e0200</code></p>
   </div>
 </div>
-  
+
 <h3>Icon</h3>
 <div class="cf nr2 nl2">
   <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/i-err.svg" alt="pairing example">
   </div>
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <p>
-     Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/viewer/#error">icons library</a>.
+      Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/viewer/#error">icons library</a>.
     </p>
     <p>
       Icons always have a <code>4px</code> padding all around.
     </p>
-    <p><strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#error">Error</a> </p>
+    <p>
+      <strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#error">Error</a>
+    </p>
   </div>
 </div>
-  
+<!--
 <h3>Typography</h3>
 <div class="cf nr2 nl2">
-  <div class="fl-ns w-50-ns ph2"> 
+  <div class="fl-ns w-50-ns ph2">
     <img class="w-100-ns" src="../images/message-bars/t-err.svg" alt="pairing example">
   </div>
   <div class="fl-ns w-50-ns ph2">
     <p>
-      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions. 
+      The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions.
     </p>
     <p>
-      <strong>Message: </strong>Body 10, 13px Regular <code>400</code>
+      <strong>Message:</strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
      <p>
-      <strong>Button: </strong>Body 10, 13px Regular <code>400</code>.
+      <strong>Button:</strong> <code>Body 10</code> Type 13px Regular 400, leading 19px (1.4)
     </p>
   </div>
 </div>
+-->
+
   </div>
 </div>
 
@@ -368,167 +463,163 @@
 <section>
   <h2>Behavior</h2>
   <h3>
-    Dismissable
-  </h3> 
+    Dismissible
+  </h3>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">
       <img class="w-100-ns" src="../images/message-bars/ghost-btn.svg" alt="Dismissable behavior">
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p>
-        Unless they contain critical information, message bars should be dismissible by clicking or tapping the ghost button, placed always on the right corner.
+        Unless they contain critical information, message bars should be dismissible by clicking or tapping the ghost button, placed in the top right corner.
       </p>
     </div>
   </div>
   <h3>
-  Call to action
+    Call to Action
   </h3>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">
-      <img class="w-100-ns" src="../images/message-bars/mb-action-example.jpg" alt="message bar in action">
+      <img class="w-100-ns" src="../images/message-bars/mb-action-example.svg" alt="message bar in action">
     </div>
-    <div class="fl-ns w-50-ns ph2"> 
+    <div class="fl-ns w-50-ns ph2">
       <p>
-        Add one or two <a href="buttons.html#micro">micro-buttons</a> in the message bar when you want users to take an action after reading the message. 
+        Add one or two <a href="buttons.html#micro">micro-buttons</a> to the message bar if users need to take an action after reading the message.
       </p>
-    </div>
-  </div>
-  <div class="flex flex-wrap" data-tabs>
+      <div class="flex flex-wrap" data-tabs>
   <input class="dn" type="radio" name="bh-tabs" id="bh-mb-generic" checked="checked">
   <label class="pa2 order-1-m db mb3" for="bh-mb-generic">Generic</label>
   <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <div class="cf nr2 nl2 mb3">
-  <div class="fl-ns w-50-ns ph2"> 
     <img class="w-100-ns" src="../images/message-bars/btn-generic.svg" alt="pairing example">
-  </div>
-  <div class="fl-ns w-50-ns ph2 mb3">
-    <table>
-      <thead>
-        <tr>
-          <th>State</th>
-          <th>Background</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Default</td>
-          <td>Grey 90 a10 <code>rgba(12, 12, 13, 0.1)</code></td>
-        </tr>
-        <tr>
-          <td>Hover</td>
-          <td>Grey 90 a20 <code>rgba(12, 12, 13, 0.2)</code></td>
-        </tr>
-        <tr>
-          <td>Pressed</td>
-          <td>Grey 90 a30<code>rgba(12, 12, 13, 0.3)</code></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Grey 90 a10 <code>rgba(12, 12, 13, 0.1)</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Grey 90 a20 <code>rgba(12, 12, 13, 0.2)</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Grey 90 a30<code>rgba(12, 12, 13, 0.3)</code></td>
+    </tr>
+  </tbody>
+</table>
   </div>
 
   <input class="dn" type="radio" name="bh-tabs" id="bh-mb-success">
   <label class="pa2 order-1-m db mb3" for="bh-mb-success">Success</label>
   <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <div class="cf nr2 nl2 mb3">
-  <div class="fl-ns w-50-ns ph2"> 
     <img class="w-100-ns" src="../images/message-bars/btn-success.svg" alt="pairing example">
-  </div>
-  <div class="fl-ns w-50-ns ph2 mb3">
-    <table>
-      <thead>
-        <tr>
-          <th>State</th>
-          <th>Background</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Default</td>
-          <td>Green 60 <code>#12bc00</code></td>
-        </tr>
-        <tr>
-          <td>Hover</td>
-          <td>Green 70 <code>#058b00</code></td>
-        </tr>
-        <tr>
-          <td>Pressed</td>
-          <td>Green 80 <code>#006504</code></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Green 60 <code>#12bc00</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Green 70 <code>#058b00</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Green 80 <code>#006504</code></td>
+    </tr>
+  </tbody>
+</table>
+
   </div>
 
   <input class="dn" type="radio" name="bh-tabs" id="bh-mb-warning">
   <label class="pa2 order-1-m db mb3" for="bh-mb-warning">Warning</label>
   <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <div class="cf nr2 nl2 mb3">
-  <div class="fl-ns w-50-ns ph2"> 
     <img class="w-100-ns" src="../images/message-bars/btn-warning.svg" alt="pairing example">
-  </div>
-  <div class="fl-ns w-50-ns ph2 mb3">
-    <table>
-      <thead>
-        <tr>
-          <th>State</th>
-          <th>Background</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Default</td>
-          <td>Yellow 60 <code>#d7b600</code></td>
-        </tr>
-        <tr>
-          <td>Hover</td>
-          <td>Yellow 70 <code>#a47f00</code></td>
-        </tr>
-        <tr>
-          <td>Pressed</td>
-          <td>Yellow 80 <code>#715100</code></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Yellow 60 <code>#d7b600</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Yellow 70 <code>#a47f00</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Yellow 80 <code>#715100</code></td>
+    </tr>
+  </tbody>
+</table>
   </div>
 
   <input class="dn" type="radio" name="bh-tabs" id="bh-mb-error">
   <label class="pa2 order-1-m db mb3" for="bh-mb-error">Errors</label>
   <div class="order-last w-100 dn flex-grow-1" data-tab>
-    <div class="cf nr2 nl2 mb3">
-  <div class="fl-ns w-50-ns ph2"> 
     <img class="w-100-ns" src="../images/message-bars/btn-error.svg" alt="pairing example">
-  </div>
-  <div class="fl-ns w-50-ns ph2 mb3">
-    <table>
-      <thead>
-        <tr>
-          <th>State</th>
-          <th>Background</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Default</td>
-          <td>Red 70 <code>#a4000f</code></td>
-        </tr>
-        <tr>
-          <td>Hover</td>
-          <td>Red 80 <code>#5a0002</code></td>
-        </tr>
-        <tr>
-          <td>Pressed</td>
-          <td>Red 90 <code>#3e0200</code></td>
-        </tr>
-      </tbody>
-    </table>
+<table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Red 70 <code>#a4000f</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Red 80 <code>#5a0002</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Red 90 <code>#3e0200</code></td>
+    </tr>
+  </tbody>
+</table>
   </div>
 </div>
+
+    </div>
   </div>
-</div>
- 
+  <h3>
+    Message on Multiple Lines
+  </h3>
+  <div class="cf nr2 nl2">
+    <div class="fl-ns w-50-ns ph2">
+      <img class="w-100-ns" src="../images/message-bars/mb-multilines.svg" alt="message bar in action">
+    </div>
+    <div class="fl-ns w-50-ns ph2">
+      <p>
+        It is possible for the message to wrap to multiple lines. This is especially likely on mobile, or if displayed in a small container.
+      </p>
+      <p>
+        In this case the <a href="#icon">icon</a> and the <a href="dismissible">dismiss-button</a> remain aligned to the top.
+      </p>
+      <p>
+        The <a href="#call-to-action">call-to-action-buttons</a> break into a new line below the message and are aligned to the start of the message.
+      </p>
+    </div>
+  </div>
 </section>

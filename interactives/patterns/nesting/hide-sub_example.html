@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Nesting - Pattern - PDS">
+  <title>Hide Sub-Elements - Nesting Example - Pattern</title>
+  <link href="./../../base.css" rel="stylesheet">
+  <link href="./../../variables.css" rel="stylesheet">
+  <link href="./../../font.css" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+  <style>
+  body {
+    opacity: 0.5;
+    overflow: hidden;
+  }
+  body::before {
+    content: "";
+    background-image: url("images/mouse-pointer-6.svg");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    top: 0;
+    left: 0;
+  }
+  body:hover {
+    opacity: 1;
+    overflow: visible;
+  }
+  body:hover::before {
+    display: none;
+  }
+  </style>
+</head>
+<body onload="(function(){ updateHideChild() })()" style="margin:20px; height: auto;">
+
+    <div>
+      <section>
+        <div class="group-ui-elements item-checkbox">
+          <input id="hidesub_parent" type="checkbox" checked>
+          <label for="hidesub_parent">Provide Search Suggestions</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="hidesub_childA" type="checkbox" checked>
+          <label for="hidesub_childA">DuckDuckGo Search Suggestions</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="hidesub_childB" type="checkbox" >
+          <label for="hidesub_childB">Bing Search Suggestions</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="hidesub_childC" type="checkbox" >
+          <label for="hidesub_childC">Google Search Suggestions</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="hidesub_childD" type="checkbox" >
+          <label for="hidesub_childD">Yandex Search Suggestions</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="hidesub_childE" type="checkbox" >
+          <label for="hidesub_childE">Yahoo Search Suggestions</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="hidesub_childF" type="checkbox" >
+          <label for="hidesub_childF">Baidu Search Suggestions</label>
+        </div>
+      </section>
+    </div>
+
+  <script>
+    // -----------------------
+    // Hide Sub
+    var hidesub_parent = document.querySelector('input[id="hidesub_parent"]');
+    var hidesub_childA = document.querySelector('input[id="hidesub_childA"]');
+    var hidesub_childB = document.querySelector('input[id="hidesub_childB"]');
+    var hidesub_childC = document.querySelector('input[id="hidesub_childC"]');
+    var hidesub_childD = document.querySelector('input[id="hidesub_childD"]');
+    var hidesub_childE = document.querySelector('input[id="hidesub_childE"]');
+    var hidesub_childF = document.querySelector('input[id="hidesub_childF"]');
+
+    hidesub_parent.addEventListener('click', updateHideChild);
+
+    function updateHideChild() {
+      if(hidesub_parent.checked) {
+        // show elements
+        hidesub_childA.parentNode.style.display = "flex";
+        hidesub_childB.parentNode.style.display = "flex";
+        hidesub_childC.parentNode.style.display = "flex";
+        hidesub_childD.parentNode.style.display = "flex";
+        hidesub_childE.parentNode.style.display = "flex";
+        hidesub_childF.parentNode.style.display = "flex";
+      }
+      else {
+        // hide elements
+        hidesub_childA.parentNode.style.display = "none";
+        hidesub_childB.parentNode.style.display = "none";
+        hidesub_childC.parentNode.style.display = "none";
+        hidesub_childD.parentNode.style.display = "none";
+        hidesub_childE.parentNode.style.display = "none";
+        hidesub_childF.parentNode.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
