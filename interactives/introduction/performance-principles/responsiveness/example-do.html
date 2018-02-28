@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Do - Responsiveness - Perceived Performance">
+  <title>Do - Responsiveness - Perceived Performance</title>
+  <link href="./../base.css" rel="stylesheet">
+  <link href="./../font.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <style>
+    .visiblePanel {
+      animation-duration: 0s; /* delay until panel is shown */
+    }
+  </style>
+</head>
+<body>
+<button id="open">Click me</button>
+<div id="panel" class="hidden">
+  <div id="contentWrapper">
+    <div id="content" class="hidden"></div>
+  </div>
+  <button id="close">Close</button>
+</div>
+<script>
+  document.getElementById("open").onclick = function() {
+    myToggle();
+  };
+  document.getElementById("close").onclick = function() {
+    myToggle();
+  };
+
+  function myToggle() {
+    document.getElementById("panel").classList.toggle("hidden");
+    document.getElementById("panel").classList.toggle("visiblePanel");
+    document.getElementById("content").classList.toggle("hidden");
+    document.getElementById("content").classList.toggle("visibleContent");
+  }
+</script>
+</body>
+</html>

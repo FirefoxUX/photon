@@ -207,6 +207,7 @@ main section {
 
   ul {
     line-height: 1.5;
+    padding-left: 1.5rem;
 
     li {
       padding: 0 0 .5rem;
@@ -443,6 +444,10 @@ div[data-tabs] input[type="radio"]:checked + label {
 
 div[data-tabs] input[type="radio"]:checked + label + div[data-tab] {
   display: block;
+}
+
+div[data-tab] > h3:first-of-type {
+  margin-top: 0;
 }
 
 /* Interactive checkbox */
