@@ -20,14 +20,15 @@
   <p>
     The type scale enables you to indicate content hierarchy. These sizes and styles are designed to balance content density with increased readability.
   </p>
-  <form>
-    <% include ../includes/typography/typography-table-overview.html %>
-  </form>
+  <% include ../includes/typography/typography-simply.html %>
 
   <h3>The Scaling Ratio</h3>
-  <p>The recommended font sizes, which are listed in the table above, are multiplied by a specific ratio for building the typographic hierarchy. In the very rare cases, there may be a need of having a bigger/ smaller font size which is not documented. Use the dedicated ratio to create new ones.</p>
+  <p>
+    The base for the Photon type scale is <strong>1em</strong>. The ratio used to create the rest of the scale is <strong>1.2</strong>. The ratio is multiplied by the base to produce a scale of numbers that is proportionally related.
+    To provide more color to the scale, we skip one step every five.
+  </p>
 
-  <h4>Body & Caption</h4>
+<!--   <h4>Body & Caption</h4>
   <figure>
     <img src="../images/typography/ratio-body&caption.svg" alt="The scaling ratio of body and caption is 1.15">
     <figcaption>The scaling ratio of body and caption is 1.15.</figcaption>
@@ -36,8 +37,19 @@
   <h4>Title & Display</h4>
   <figure>
     <img src="../images/typography/ratio-title&display.svg" alt="The scaling ratio of title and display is 1.29">
-    <figcaption>The scaling ratio of title and display is 1.29.</figcaption>
-  </figure>
+    <figcaption>The scaling ratio of title and display is 1.29.</figcaption>þ
+  </figure> -->
+</section>
+
+<section>
+  <h3>Line-height</h3>
+  <p>Line-height, traditionally known as leading, is one of several factors that directly contribute to readability and pacing of copy. Line-heights are based on the size of the font itself. Ideal line-heights for standard copy have a ratio of 1:1.4 (typesize : line-height). For example, a type at 16px/1rem would have a line-height of 1.4rem/22px (16 x 1.4). The exception to this rule are headings, which need less spacing and therefore have a line-height ratio of 1:1.25.</p>
+  <% include ../includes/typography/typography-line-height.html %>
+</section>
+
+<section>
+  <h3>Font weight</h3>
+  <p></p>
 </section>
 
 <section>
