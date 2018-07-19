@@ -206,6 +206,12 @@
     column-gap: 12px;
 }
 
+.page-content .grid-2 {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
+    column-gap: 12px;
+}
+
 /**
  * Posts
  */
