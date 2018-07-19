@@ -18,7 +18,7 @@ The higher the expected visibility on parts of your work, the more important it 
 
 Do not consider tradeoffs in very high visibility areas and loop in other designers working on that product or feature across platforms.
   
-{% include introduction/introduction-prioritize-higher-visibility-work.html %}
+{% include introduction/prioritize-higher-visibility-work.md %}
 
 ## Balance Firefox Style and Platform Conventions
 
@@ -26,7 +26,7 @@ Do strike a balance between adapting too much platform and too little. It is esp
 
 Use our styles for visual appearance and tone, and use platform conventions for any pattern that is well established on a given platform. This will make the product or feature feel familiar to new users and still convey our style.
 
-{% include introduction/introduction-uncanny-valley.html %}
+{% include introduction/uncanny-valley.md %}
 
 ### When to use Platform Patterns
 

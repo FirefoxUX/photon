@@ -1,9 +1,10 @@
-<header>
-  <h1>Design for Performance</h1>
-  <p>
-    Firefox products should look and feel fast!
-  </p>
-</header>
+---
+layout: page
+title: Design for Performance
+order: 2
+---
+
+Firefox products should look and feel fast!
 
 <section>
   <h2>Elements of Performance</h2>
