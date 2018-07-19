@@ -21,7 +21,8 @@
       {% else %}
         <h4>{{ cat.label | split: " " | join: "-" | camelcase | split: "-" | join: " " | capitalize }}</h4>
       {% endif %}
-      {% for item in cat.docs %}
+      {% assign items = cat.docs | sort: 'order' %}
+      {% for item in items %}
         <div><a class="page-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></div>
       {% endfor %}
     {% endif %}

@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Welcome
+title: Photon Design System
 ---
-# Photon Design System
 
 Launch recognizable, enjoyable Firefox products and features faster.
 

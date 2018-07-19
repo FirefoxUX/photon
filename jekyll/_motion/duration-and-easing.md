@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Duration and Easing
+order: 1
 ---
-
-# Duration and Easing
 
 A rigidly linear movement looks unnatural to the human eye. Accelerate and decelerate smoothly to help your animation feel more natural.
 

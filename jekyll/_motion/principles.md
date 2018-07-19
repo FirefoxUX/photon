@@ -2,6 +2,7 @@
 layout: page
 title: Motion Principles
 ---
+
 <style type="text/css" scoped>
   h2 {
     display: flex;
@@ -14,8 +15,6 @@ title: Motion Principles
     display: inline-block;
   }
 </style>
-
-# Motion Principles
 
 Firefox motion is quick, supportive and whimsical.
 
