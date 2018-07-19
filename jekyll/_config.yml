@@ -18,3 +18,20 @@ github_username:  firefoxux
 
 # Build settings
 markdown: kramdown
+
+collections:
+  introduction:
+    title: Photon Design
+    output: true
+  visuals:
+    output: true
+  motion:
+    output: true
+  copy:
+    output: true
+  patterns:
+    output: true
+  components:
+    output: true
+  resources:
+    output: true

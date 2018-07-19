@@ -32,20 +32,24 @@
     float: left;
     margin-left: $spacing-unit / 2;
     margin-top: $spacing-unit / 2;
-    line-height: 36px;
+    // line-height: 36px;
 
     .menu-icon {
         display: none;
     }
 
+    h4 {
+        margin: 0;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        font-weight: 500;
+    }
+
     .page-link {
         color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-bottom: 20px;
-        }
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: 1rem;
     }
 
     @include media-query($on-palm) {

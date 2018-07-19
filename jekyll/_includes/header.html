@@ -14,11 +14,18 @@
   </a>
 
   <div class="trigger">
-    {% for my_page in site.pages %}
-      {% if my_page.title %}
-      <div><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></div>
+  {% for cat in site.collections %}
+    {% if cat.label != "posts" %}
+      {% if cat.title %}
+        <h4>{{ cat.title }}</h4>
+      {% else %}
+        <h4>{{ cat.label | split: " " | join: "-" | camelcase | split: "-" | join: " " | capitalize }}</h4>
       {% endif %}
-    {% endfor %}
+      {% for item in cat.docs %}
+        <div><a class="page-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
   </div>
 </nav>
 
