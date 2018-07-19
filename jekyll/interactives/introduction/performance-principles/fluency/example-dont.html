@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Don't - Fluency - Perceived Performance">
+  <title>Don't - Fluency - Perceived Performance</title>
+  <link href="./../base.css" rel="stylesheet">
+  <link href="./../font.css" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <style>
+    /* Make animation slower, and choppy with interruptions */
+    .spinner:before {
+      animation: spinner 1.6s steps(3) infinite;
+    }
+    @keyframes spinner {
+      38% {transform: rotate(140deg);}
+      45% {transform: rotate(140deg);}
+      50% {transform: rotate(270deg);}
+      75% {transform: rotate(270deg);}
+      to {transform: rotate(360deg);}
+    }
+  </style>
+</head>
+<body>
+  <div class="spinner"></div>
+</body>
+</html>
