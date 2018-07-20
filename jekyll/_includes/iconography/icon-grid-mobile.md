@@ -1,0 +1,7 @@
+![icons grid](../images/icons/icon-grid-20.svg)
+
+<figcaption>20x20 grid for Android, with a bounding box of 24×24</figcaption>
+
+![icons grid](../images/icons/icon-grid-24.svg)
+
+<figcaption>24x24 grid for iOS</figcaption>

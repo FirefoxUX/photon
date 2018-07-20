@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Color
-order:   0
+order: 0
 ---
 
 Firefox colors are bold, vibrant and attractive. They enhance the experience by providing visual clues and by bringing attention to primary actions.
