@@ -222,6 +222,12 @@
     column-gap: 12px;
 }
 
+.page-content .grid-5 {
+    display: grid;
+    grid: auto-flow / repeat(5, 1fr);
+    column-gap: 12px;
+}
+
 /**
  * Posts
  */
