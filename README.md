@@ -6,7 +6,7 @@ Requires:
 To run (with hot-reloading!):
 ```
 $ docker pull praqma/gh-pages
-$ docker run --name photon -d -v $PWD/jekyll:/home/jenkins -p 4000:4000 praqma/gh-pages || docker start
+$ docker run --name photon -d -v $PWD/jekyll:/home/jenkins -p 4000:4000 praqma/gh-pages || docker start photon
 $ docker exec -it photon jekyll serve --watch --host=0.0.0.0
 ```
 Open up http://localhost:4000/photon/

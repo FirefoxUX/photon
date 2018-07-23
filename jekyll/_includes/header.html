@@ -14,7 +14,8 @@
   </a>
 
   <div class="trigger">
-  {% for cat in site.collections %}
+    {% assign categories = site.collections | sort: 'order' %}
+    {% for cat in categories %}
     {% if cat.label != "posts" %}
       {% if cat.title %}
         <h4>{{ cat.title }}</h4>

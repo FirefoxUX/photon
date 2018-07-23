@@ -22,16 +22,23 @@ markdown: kramdown
 collections:
   introduction:
     title: Photon Design
+    order: 1
     output: true
   visuals:
+    order: 2
     output: true
   motion:
+    order: 3
     output: true
   copy:
+    order: 4
     output: true
   patterns:
+    order: 5
     output: true
   components:
+    order: 6
     output: true
   resources:
+    order: 7
     output: true
