@@ -1,6 +1,6 @@
 Generic warnings are an early indicator of trouble.
 
-Generic errors the most common in Firefox. They can use a combination of icon and background, or simply the icon. 
+Generic errors the most common in Firefox. They can use a combination of icon and background, or simply the icon.
 
 ![An example of a warning in about:addons](../images/warnings/error-generic-example.png)
 
