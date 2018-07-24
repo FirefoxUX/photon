@@ -52,6 +52,14 @@
         padding-left: 1rem;
     }
 
+    .draft {
+        background-color: $draft-background;
+        padding: 4px;
+        font-weight: bold;
+        font-size: 0.8em;
+        border-radius: 2px;
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 0px;
@@ -233,6 +241,19 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
+    .warning {
+        background: $warning-background;
+        border-radius: 2px;
+        padding: 6px;
+
+        a {
+            background: $warning-button-background;
+            border-radius: 2px;
+            color: $text-color;
+            padding: 2px;
+        }
+    }
 }
 
 .post-title {

@@ -24,7 +24,11 @@
       {% endif %}
       {% assign items = cat.docs | sort: 'order' %}
       {% for item in items %}
-        <div><a class="page-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></div>
+        <div><a class="page-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% if item.draft %}
+          <span class="draft">DRAFT</span>
+          {% endif %}
+        </div>
       {% endfor %}
     {% endif %}
   {% endfor %}
