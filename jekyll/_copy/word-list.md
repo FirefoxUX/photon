@@ -1,10 +1,13 @@
-<header toc-none>
-  <h1>Word List</h1>
-  <% include ../includes/copy/copy-word-list-toc.html %>
-</header>
+---
+layout: page
+title: Word List
+order: 4
+---
+
+{% include copy/word-list-toc.md %}
 
 <section>
-  <h2>A</h2>
+  <h2 id="a">A</h2>
   <h3>a11y</h3>
   <p>
     Abbreviation for accessibility (11 letters between the A and Y), reserved for internal use or where space is a consideration, otherwise please avoid or explain on first use.
@@ -29,7 +32,7 @@
 </section>
 
 <section>
-  <h2>B</h2>
+  <h2 id="b">B</h2>
   <h3>Beta</h3>
   <p>
     See <a href="#firefox-beta">Firefox Beta</a>.
@@ -41,7 +44,7 @@
 </section>
 
 <section>
-  <h2>C</h2>
+  <h2 id="c">C</h2>
   <h3>capitalization</h3>
   <p>
     Unless there is an entry stating otherwise, please capitalize the following: brands and products (Mozilla, Firefox, Test Pilot, etc.); features (Firefox Screenshots, etc.); acronyms (URL, etc.). URLs (mozilla.org, firefox.com, etc.) are lowercase.
@@ -57,7 +60,7 @@
 </section>
 
 <section>
-  <h2>D</h2>
+  <h2 id="d">D</h2>
   <h3>data</h3>
   <p>
     Treat data as a singular entity: data “is” sent, this data “is” available; not data “are” sent, these data “are” available. In general, avoid using data as a term when you can use the more helpful term information, or when you can be more specific about types of data, like browsing history, IP address or timestamp.
@@ -73,7 +76,7 @@
 </section>
 
 <section>
-  <h2>E</h2>
+  <h2 id="e">E</h2>
   <h3>email</h3>
   <p>
     One word, lowercase, no hyphen.
@@ -86,7 +89,7 @@
 </section>
 
 <section>
-  <h2>F</h2>
+  <h2 id="f">F</h2>
   <h3>features</h3>
   <p>
     Individual product features are capitalized unless there is an entry stating otherwise.
@@ -165,7 +168,7 @@
 </section>
 
 <section>
-  <h2>G</h2>
+  <h2 id="g">G</h2>
   <h3>gestures</h3>
   <p>
     For Firefox for Android, use the preferred Android terms touch, swipe, drag, pinch in, pinch out; learn more in the <href=https://www.google.com/design/spec/patterns/gestures.html>Google-maintained Material Design Style Guide</a>.
@@ -175,7 +178,7 @@
   </section>
 
 <section>
-  <h2>H</h2>
+  <h2 id="h">H</h2>
   <h3>http://</h3>
   <p>
     “http://” should never appear before an URL in communications unless you are using it to demonstrate a complete hyperlink; see also <a href="#www">www</a>.
@@ -183,7 +186,7 @@
 </section>
 
 <section>
-  <h2>I</h2>
+  <h2 id="i">I</h2>
   <h3>i18n</h3>
   <p>
     Abbreviation for internationalization (18 letters between the I and N), reserved for internal use or where space is a consideration, otherwise please avoid or explain on first use.
@@ -195,7 +198,7 @@
 </section>
 
 <section>
-  <h2>J</h2>
+  <h2 id="j">J</h2>
   <h3>Join Mozilla</h3>
   <p>
     Refers specifically to the fundraising campaign and should not be used in other contexts; both words are capitalized and “Join” should never become “Joins,” “Joining” or any other form of the word.
@@ -203,7 +206,7 @@
 </section>
 
 <section>
-  <h2>L</h2>
+  <h2 id="l">L</h2>
   <h3>l10n</h3>
   <p>
     Abbreviation for localization (10 letters between the L and N), reserved for internal use or where space is a consideration, otherwise please avoid or explain on first use.
@@ -226,7 +229,7 @@
 </section>
 
 <section>
-  <h2>M</h2>
+  <h2 id="m">M</h2>
   <h3>malware</h3>
   <p>
     Malware, like software, is an uncountable noun, which means it does not take a plural form and cannot be associated with a number; you should never refer to “a malware” or “three malwares.”
@@ -271,7 +274,7 @@
 </section>
 
 <section>
-  <h2>N</h2>
+  <h2 id="n">N</h2>
   <h3>New Tab</h3>
   <p>
     Always capitalized.
@@ -291,7 +294,7 @@
 </section>
 
 <section>
-  <h2>O</h2>
+  <h2 id="o">O</h2>
   <h3>open/open web</h3>
   <p>
     As the web is open by its very nature, there is no need to make the distinction; not a forbidden term, but avoid where possible; when specifically and intentionally referring to the Open Web movement, please capitalize.
@@ -303,7 +306,7 @@
 </section>
 
 <section>
-  <h2>P</h2>
+  <h2 id="p">P</h2>
   <h3>people</h3>
   <p>
     Though we mostly refer to “users,” this is also acceptable, and either should be used instead of “customers.”
@@ -351,7 +354,7 @@
 </section>
 
 <section>
-  <h2>R</h2>
+  <h2 id="r">R</h2>
   <h3>release numbers</h3>
   <p>
     See “<a href="#version-numbers">version numbers</a>.”
@@ -367,7 +370,7 @@
 </section>
 
 <section>
-  <h2>S</h2>
+  <h2 id="s">S</h2>
   <h3>settings</h3>
   <p>
     Use “settings” (instead of “options” or “preferences”) for Firefox for mobile and Firefox Focus to conform with the platforms; see also, <a href="#preferences">preferences</a>.
@@ -392,7 +395,7 @@
 </section>
 
 <section>
-  <h2>T</h2>
+  <h2 id="t">T</h2>
   <h3>tablet</h3>
   <p>
     Use primarily to differentiate from a phone, otherwise use “mobile device” where possible.
@@ -410,7 +413,7 @@
 </section>
 
 <section>
-  <h2>U</h2>
+  <h2 id="u">U</h2>
   <h3>URL</h3>
   <p>
     All uppercase, no periods, but URLs themselves (mozilla.org, firefox.com, etc.) are lowercase.
@@ -422,12 +425,12 @@
 </section>
 
 <section>
-  <h2>V</h2>
+  <h2 id="v">V</h2>
   <h3>version numbers</h3>
 </section>
 
 <section>
-  <h2>W</h2>
+  <h2 id="w">W</h2>
   <h3>web</h3>
   <p>
     Lowercase on its own and as part of a compound construction (unless as noted). Capitalize if the word “web” begins a sentence.
