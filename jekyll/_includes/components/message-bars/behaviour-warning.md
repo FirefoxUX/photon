@@ -1,4 +1,5 @@
-<img class="w-100-ns" src="../images/message-bars/btn-success.svg" alt="pairing example">
+![pairing example](../images/message-bars/btn-warning.svg)
+
 <table>
   <thead>
     <tr>
@@ -9,15 +10,15 @@
   <tbody>
     <tr>
       <td>Default</td>
-      <td>Green 60 <code>#12bc00</code></td>
+      <td>Yellow 60 <code>#d7b600</code></td>
     </tr>
     <tr>
       <td>Hover</td>
-      <td>Green 70 <code>#058b00</code></td>
+      <td>Yellow 70 <code>#a47f00</code></td>
     </tr>
     <tr>
       <td>Pressed</td>
-      <td>Green 80 <code>#006504</code></td>
+      <td>Yellow 80 <code>#715100</code></td>
     </tr>
   </tbody>
 </table>
