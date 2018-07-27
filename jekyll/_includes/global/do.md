@@ -1,3 +1,3 @@
-![Checkmark icon indicating a good choice](../images/global/check.svg)
-
-<span class="do">Do</span>
+<div class="do" markdown="1">
+![Checkmark icon indicating a good choice](../images/global/check.svg) Do
+</div>

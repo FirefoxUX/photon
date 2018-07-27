@@ -54,13 +54,19 @@ Responsiveness is the perceived time it takes the system to respond to user inpu
 
 Example: An empty dialog appearing immediately after a click and then taking a second to populate with content feels faster than the same dialog appearing with a second delay, but fully populated.
 
-<iframe class="db w-100" height="180" src="{{ "/interactives/introduction/performance-principles/responsiveness/example-do.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div class="grid-2">
+<div markdown="1">
+<iframe src="{{ "/interactives/introduction/performance-principles/responsiveness/example-do.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 {% include global/do.md %}
+</div>
 
-<iframe class="db w-100" height="180" src="{{ "/interactives/introduction/performance-principles/responsiveness/example-dont.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div markdown="1">
+<iframe src="{{ "/interactives/introduction/performance-principles/responsiveness/example-dont.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 {% include global/dont.md %}
+</div>
+</div>
 
 ### Fluency
 
@@ -68,17 +74,25 @@ Fluency is the perceived smoothness of a process. It could also be described as 
 
 Example: A stuttering progress indicator gives the impression of lower performance, regardless of the actual duration of the process.
 
-<iframe class="db w-100" height="180" src="{{ "/interactives/introduction/performance-principles/fluency/example-do.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div class="grid-3">
+<div markdown="1">
+<iframe src="{{ "/interactives/introduction/performance-principles/fluency/example-do.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 {% include global/do.md %}
+</div>
 
-<iframe class="db w-100" height="180" src="{{ "/interactives/introduction/performance-principles/fluency/example-dont.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div markdown="1">
+<iframe src="{{ "/interactives/introduction/performance-principles/fluency/example-dont.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 {% include global/dont.md %}
+</div>
 
-<iframe class="db w-100" height="180" src="{{ "/interactives/introduction/performance-principles/fluency/example-fallback.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div markdown="1">
+<iframe src="{{ "/interactives/introduction/performance-principles/fluency/example-fallback.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 {% include global/do.md %}
+</div>
+</div>
 
 ### Tolerance
 
@@ -86,13 +100,19 @@ Tolerance is a measure of how long the user expects a process to take and at wha
 
 Example: The tolerated duration for loading a web page is much longer than for saving a bookmark.
 
-<iframe class="db w-100" height="180" src="{{ "/interactives/introduction/performance-principles/tolerance/example-do.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div class="grid-2">
+<div markdown="1">
+<iframe src="{{ "/interactives/introduction/performance-principles/tolerance/example-do.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 {% include global/do.md %}
+</div>
 
-<iframe class="db w-100" height="180" src="{{ "/interactives/introduction/performance-principles/tolerance/example-dont.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+<div markdown="1">
+<iframe src="{{ "/interactives/introduction/performance-principles/tolerance/example-dont.html" | prepend: site.baseurl }}" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 {% include global/dont.md %}
+</div>
+</div>
 
 ### Bias and Priming
 

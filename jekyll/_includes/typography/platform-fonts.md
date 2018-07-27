@@ -17,7 +17,7 @@
       </div>
       <div class="fl-ns w-50-ns ph2">
         <p>
-          <a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=331">Segoe UI</a> is the typeface used on the Windows platform.
+          <a href="https://docs.microsoft.com/en-us/windows/uwp/design/downloads/#fonts">Segoe UI</a> is the typeface used on the Windows platform.
         </p>
       </div>
     </div>

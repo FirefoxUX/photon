@@ -9,6 +9,11 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
+    .wrapper {
+        margin-left: 15px;
+        padding-left: 0;
+    }
+
     @include media-query($on-palm) {
         padding-left: 52px;
     }
@@ -32,7 +37,6 @@
     float: left;
     margin-left: $spacing-unit / 2;
     margin-top: $spacing-unit / 2;
-    // line-height: 36px;
 
     .menu-icon {
         display: none;
