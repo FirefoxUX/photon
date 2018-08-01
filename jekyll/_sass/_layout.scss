@@ -215,40 +215,43 @@
     font-size: 24px;
 }
 
-.page-content .grid-1 {
-    display: grid;
-    grid: auto-flow / 1fr;
-    column-gap: 12px;
-}
+.page-content {
+    .grid-1 {
+        display: grid;
+        grid: auto-flow / 1fr;
+        column-gap: 12px;
+    }
 
-.page-content .grid-2 {
-    display: grid;
-    grid: auto-flow / repeat(2, 1fr);
-    column-gap: 12px;
-}
+    .grid-2 {
+        display: grid;
+        grid: auto-flow / repeat(2, 1fr);
+        column-gap: 12px;
+    }
 
-.page-content .grid-3 {
-    display: grid;
-    grid: auto-flow / repeat(3, 1fr);
-    column-gap: 12px;
-}
+    .grid-3 {
+        display: grid;
+        grid: auto-flow / repeat(3, 1fr);
+        column-gap: 12px;
+    }
 
-.page-content .grid-4 {
-    display: grid;
-    grid: auto-flow / repeat(4, 1fr);
-    column-gap: 12px;
-}
+    .grid-4 {
+        display: grid;
+        grid: auto-flow / repeat(4, 1fr);
+        column-gap: 12px;
+    }
 
-.page-content .grid-5 {
-    display: grid;
-    grid: auto-flow / repeat(5, 1fr);
-    column-gap: 12px;
-}
+    .grid-5 {
+        display: grid;
+        grid: auto-flow / repeat(5, 1fr);
+        column-gap: 12px;
+    }
 
-.page-content img {
-    background-color: $grey-20;
-    outline: 1px solid rgba(12,12,13,.1);
-    outline-offset: -1px;
+    img {
+        background-color: $grey-20;
+        outline: 1px solid rgba(12,12,13,.1);
+        outline-offset: -1px;
+    }
+
 }
 
 .icons img {

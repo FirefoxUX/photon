@@ -1,106 +1,40 @@
-<table>
+<table class="colors">
   <tbody>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-blue-40"></div>
-        <p class="dib v-mid">Blue 40</p>
-      </td>
-      <td>
-        <code>#45a1ff</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-blue-40 blue-90">AA</span>
-        </p>
-      </td>
-      <td>
-        <p class="blue-40">Fails</p>
-      </td>
+    <tr class="blue-40">
+      <td class="name">Blue 40</td>
+      <td><code>#45a1ff</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">Fails</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-blue-50"></div>
-        <p class="dib v-mid">Blue 50</p>
-      </td>
-      <td>
-        <code>#0a84ff</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-blue-50 white font-smoothing">AA Large</span>
-        </p>
-      </td>
-      <td>
-        <p class="blue-50">AA Large</p>
-      </td>
+    <tr class="blue-50">
+      <td class="name">Blue 50</td>
+      <td><code>#0a84ff</code></td>
+      <td><span class="bg">AA Large</span></td>
+      <td class="fg">AA Large</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-blue-60"></div>
-        <p class="dib v-mid">Blue 60</p>
-      </td>
-      <td>
-        <code>#0060df</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-blue-60 white font-smoothing">AA</span>
-        </p>
-      </td>
-      <td>
-        <p class="blue-60">AA</p>
-      </td>
+    <tr class="blue-60">
+      <td class="name">Blue 60</td>
+      <td><code>#0060df</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">AA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-blue-70"></div>
-        <p class="dib v-mid">Blue 70</p>
-      </td>
-      <td>
-        <code>#003eaa</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-blue-70 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="blue-70">AAA</p>
-      </td>
+    <tr class="blue-70">
+      <td class="name">Blue 70</td>
+      <td><code>#003eaa</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">AAA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-blue-80"></div>
-        <p class="dib v-mid">Blue 80</p>
-      </td>
-      <td>
-        <code>#002275</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-blue-80 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="blue-80">AAA</p>
-      </td>
+    <tr class="blue-80">
+      <td class="name">Blue 80</td>
+      <td><code>#002275</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="blue-80">AAA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-blue-90"></div>
-        <p class="dib v-mid">Blue 90</p>
-      </td>
-      <td>
-        <code>#000f40</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-blue-90 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="blue-90">AAA</p>
-      </td>
+    <tr class="blue-90">
+      <td class="name">Blue 90</td>
+      <td><code>#000f40</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="blue-90">AAA</td>
     </tr>
   </tbody>
 </table>

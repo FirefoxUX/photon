@@ -1,9 +1,9 @@
-<div class="grid-5" markdown="1">
+<div class="grid-3" markdown="1">
 
-[Blue](#blue)
+[Blue](#blue){:.color.blue}
 
-[Teal](#teal)
+[Teal](#teal){:.color.teal}
 
-[Magenta](#magenta)
+[Magenta](#magenta){:.color.magenta}
 
 </div>

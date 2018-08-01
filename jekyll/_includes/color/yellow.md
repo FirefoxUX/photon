@@ -1,89 +1,34 @@
-<table>
+<table class="colors">
   <tbody>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-yellow-50"></div>
-        <p class="dib v-mid">Yellow 50</p>
-      </td>
-      <td>
-        <code>#ffe900</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-yellow-50 yellow-90 font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="yellow-50">Fails</p>
-      </td>
+    <tr class="yellow-50">
+      <td class="name">Yellow 50</td>
+      <td><code>#ffe900</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">Fails</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-yellow-60"></div>
-        <p class="dib v-mid">Yellow 60</p>
-      </td>
-      <td>
-        <code>#d7b600</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-yellow-60 yellow-90 font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="yellow-60">Fails</p>
-      </td>
+    <tr class="yellow-60">
+      <td class="name">Yellow 60</td>
+      <td><code>#d7b600</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">Fails</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-yellow-70"></div>
-        <p class="dib v-mid">Yellow 70</p>
-      </td>
-      <td>
-        <code>#a47f00</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-yellow-70 white font-smoothing">AA</span>
-        </p>
-      </td>
-      <td>
-        <p class="yellow-70">AA</p>
-      </td>
+    <tr class="yellow-70">
+      <td class="name">Yellow 70</td>
+      <td><code>#a47f00</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">AA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-yellow-80"></div>
-        <p class="dib v-mid">Yellow 80</p>
-      </td>
-      <td>
-        <code>#715100</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-yellow-80 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="yellow-80">AAA</p>
-      </td>
+    <tr class="yellow-80">
+      <td class="name">Yellow 80</td>
+      <td><code>#715100</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="yellow-80">AAA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-yellow-90"></div>
-        <p class="dib v-mid">Yellow 90</p>
-      </td>
-      <td>
-        <code>#3e2800</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-yellow-90 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="yellow-90">AAA</p>
-      </td>
+    <tr class="yellow-90">
+      <td class="name">Yellow 90</td>
+      <td><code>#3e2800</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="yellow-90">AAA</td>
     </tr>
   </tbody>
 </table>

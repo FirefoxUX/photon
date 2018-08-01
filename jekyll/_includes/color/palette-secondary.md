@@ -1,22 +1,22 @@
 <div class="grid-5" markdown="1">
 
-[Green](#green)
+[Green](#green){:.color.green}
 
-[Yellow](#yellow)
+[Yellow](#yellow){:.color.yellow}
 
-[Red](#red)
+[Red](#red){:.color.red}
 
-[Purple](#purple)
+[Purple](#purple){:.color.purple}
 
-[Orange](#orange)
+[Orange](#orange){:.color.orange}
 
 </div>
 <div class="grid-3" markdown="1">
 
-[Ink](#ink)
+[Ink](#ink){:.color.ink}
 
-[Grey](#grey)
+[Grey](#grey){:.color.grey}
 
-[White](#white)
+[White](#white){:.color.white}
 
 </div>

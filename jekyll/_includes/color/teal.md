@@ -1,89 +1,34 @@
-<table>
+<table class="colors">
   <tbody>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-teal-50"></div>
-        <p class="dib v-mid">Teal 50</p>
-      </td>
-      <td>
-        <code>#00feff</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-teal-50 teal-90 font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="teal-50">Fails</p>
-      </td>
+    <tr class="teal-50">
+      <td class="name">Teal 50</td>
+      <td><code>#00feff</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">Fails</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-teal-60"></div>
-        <p class="dib v-mid">Teal 60</p>
-      </td>
-      <td>
-        <code>#00c8d7</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-teal-60 teal-90 font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="teal-60">Fails</p>
-      </td>
+    <tr class="teal-60">
+      <td class="name">Teal 60</td>
+      <td><code>#00c8d7</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">Fails</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-teal-70"></div>
-        <p class="dib v-mid">Teal 70</p>
-      </td>
-      <td>
-        <code>#008ea4</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-teal-70 white font-smoothing">AA</span>
-        </p>
-      </td>
-      <td>
-        <p class="teal-70">AA</p>
-      </td>
+    <tr class="teal-70">
+      <td class="name">Teal 70</td>
+      <td><code>#008ea4</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">AA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-teal-80"></div>
-        <p class="dib v-mid">Teal 80</p>
-      </td>
-      <td>
-        <code>#005a71</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-teal-80 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="teal-80">AAA</p>
-      </td>
+    <tr class="teal-80">
+      <td class="name">Teal 80</td>
+      <td><code>#005a71</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="teal-80">AAA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-teal-90"></div>
-        <p class="dib v-mid">Teal 90</p>
-      </td>
-      <td>
-        <code>#002d3e</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-teal-90 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="teal-90">AAA</p>
-      </td>
+    <tr class="teal-90">
+      <td class="name">Teal 90</td>
+      <td><code>#002d3e</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="teal-90">AAA</td>
     </tr>
   </tbody>
 </table>
