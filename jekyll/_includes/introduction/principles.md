@@ -1,4 +1,4 @@
-<div class="grid-2">
+<div class="grid-2 icons">
 <div markdown="1">
 
   ![Illustration symbolizing Adaptable. (3 sliding controllers)](../images/introduction/Adaptable.svg)

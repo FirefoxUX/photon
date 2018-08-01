@@ -1,10 +1,11 @@
 {
   "name": "workshop",
   "scripts": {
+    "install": "cp node_modules/photon-colors/photon-colors.scss jekyll/_sass/_photon-colors.scss",
     "serve": "docker exec -it photon jekyll serve --watch --host=0.0.0.0"
   },
   "dependencies": {
+    "photon-colors": "3.3.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

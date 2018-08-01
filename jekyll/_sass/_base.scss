@@ -77,16 +77,6 @@ li {
 }
 
 
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
-}
-
-
-
 /**
  * Links
  */
@@ -95,12 +85,24 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $brand-color-dark;
     }
 
     &:hover {
         color: $text-color;
         text-decoration: underline;
+    }
+
+    &:not([class])[href*="//"]::after {
+        background-image: url(../images/global/open-in-new-16.svg);
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+        content: "";
+        display: inline-block;
+        height: 16px;
+        margin: -.3rem .15rem 0 .25rem;
+        vertical-align: middle;
+        width: 16px;
     }
 }
 
@@ -110,12 +112,13 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+    background-color: $white-100;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(12,12,13,.1);
+    box-sizing: border-box;
+    font-size: 13px;
+    margin: 0 0 1rem;
+    padding: 1rem 1rem .25rem;
 
     > :last-child {
         margin-bottom: 0;
@@ -135,7 +138,6 @@ table {
     -webkit-overflow-scrolling: touch;
     overflow-x: auto;
     vertical-align: top;
-    white-space: nowrap;
     width: 100%;
 
     th {
@@ -196,7 +198,7 @@ pre {
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-left: $spacing-unit + 320px;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -224,7 +226,7 @@ pre {
 
 
 /**
- * Icons
+ * Iconsf
  */
 .icon {
 

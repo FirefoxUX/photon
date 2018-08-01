@@ -240,6 +240,12 @@
     column-gap: 12px;
 }
 
+.icons img {
+    display: block;
+    margin: 0 auto;
+    max-width: 8rem;
+}
+
 /**
  * Posts
  */
@@ -260,40 +266,82 @@
     }
 }
 
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+// .post-title {
+//     font-size: 42px;
+//     letter-spacing: -1px;
+//     line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
+//     @include media-query($on-laptop) {
+//         font-size: 36px;
+//     }
+// }
 
-.post-content {
+.post {
     margin-bottom: $spacing-unit;
 
+    h1 {
+        font-size: 33px;
+        font-weight: 200;
+        line-height: 1.2;
+        margin: 0 0 2rem;
+    }
     h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
+        font-size: 22px;
+        font-weight: 300;
+        margin: 3rem 0 1rem;
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+    h3 {
+        font-size: 17px;
+        font-weight: 500;
+        margin: 2rem 0 1rem;
+        @include media-query($on-laptop) {
+            font-size: 15px;
+        }
+    }
+    h4 {
+        font-size: 15px;
+        font-weight: 500;
+        margin: 1rem 0 .5rem;
+        @include media-query($on-laptop) {
+            font-size: 12px;
+        }
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0 0 1rem;
+    }
+    strong {
+        font-weight: 700;
+        margin: 1rem 0 .5rem;
+    }
+}
+
+.data-tabs 
+{
+    input {
+        display: none;
+    }
+
+    input + label {
+        border-top: 2px solid hsla(0,0%,100%,0);
+        border-top-color: rgba(255, 255, 255, 0);
+        padding: .5rem;
+    }
+
+    input:checked + label {
+        border-color: $blue-50;
+        color: $blue-60;
+    }
+
+    input + label + div[data-tab] {
+        display: none;
+    }
+
+    input:checked + label + div[data-tab] {
+        display: block;
     }
 }

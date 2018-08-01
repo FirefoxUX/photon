@@ -7,7 +7,7 @@
 
 # Site settings
 title: Photon Design System
-email: your-email@mozilla.com
+email: designsystem@mozilla.com
 description: > # this means to ignore newlines until "baseurl:"
   The Photon Design System houses guidelines, reusable UI components, templates,
   and other resources to help you create products for Firefox users.
