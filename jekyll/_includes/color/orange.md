@@ -1,89 +1,34 @@
-<table>
+<table class="colors">
   <tbody>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-orange-50"></div>
-        <p class="dib v-mid">Orange 50</p>
-      </td>
-      <td>
-        <code>#ff9400</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-orange-50 orange-90 font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="orange-50">Fails</p>
-      </td>
+    <tr class="orange-50">
+      <td class="name">Orange 50</td>
+      <td><code>#ff9400</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">Fails</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-orange-60"></div>
-        <p class="dib v-mid">Orange 60</p>
-      </td>
-      <td>
-        <code>#d76e00</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-orange-60 orange-90 font-smoothing">AA</span>
-        </p>
-      </td>
-      <td>
-        <p class="orange-60">AA Large</p>
-      </td>
+    <tr class="orange-60">
+      <td class="name">Orange 60</td>
+      <td><code>#d76e00</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">AA Large</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-orange-70"></div>
-        <p class="dib v-mid">Orange 70</p>
-      </td>
-      <td>
-        <code>#a44900</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-orange-70 white font-smoothing">AA</span>
-        </p>
-      </td>
-      <td>
-        <p class="orange-70">AA</p>
-      </td>
+    <tr class="orange-70">
+      <td class="name">Orange 70</td>
+      <td><code>#a44900</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">AA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-orange-80"></div>
-        <p class="dib v-mid">Orange 80</p>
-      </td>
-      <td>
-        <code>#712b00</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-orange-80 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="orange-80">AAA</p>
-      </td>
+    <tr class="orange-80">
+      <td class="name">Orange 80</td>
+      <td><code>#712b00</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">AAA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-orange-90"></div>
-        <p class="dib v-mid">Orange 90</p>
-      </td>
-      <td>
-        <code>#3e1300</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-orange-90 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="orange-90">AAA</p>
-      </td>
+    <tr class="orange-90">
+      <td class="name">Orange 90</td>
+      <td><code>#3e1300</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">AAA</td>
     </tr>
   </tbody>
 </table>

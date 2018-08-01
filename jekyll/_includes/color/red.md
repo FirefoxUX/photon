@@ -1,89 +1,34 @@
-<table>
+<table class="colors">
   <tbody>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-red-50"></div>
-        <p class="dib v-mid">Red 50</p>
-      </td>
-      <td>
-        <code>#ff0039</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-red-50 white font-smoothing">AA Large</span>
-        </p>
-      </td>
-      <td>
-        <p class="red-50">AA Large</p>
-      </td>
+    <tr class="red-50">
+      <td class="name">Red 50</td>
+      <td><code>#ff0039</code></td>
+      <td><span class="bg">AA Large</span></td>
+      <td class="fg">AA Large</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-red-60"></div>
-        <p class="dib v-mid">Red 60</p>
-      </td>
-      <td>
-        <code>#d70022</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-red-60 white font-smoothing">AA</span>
-        </p>
-      </td>
-      <td>
-        <p class="red-60">AA</p>
-      </td>
+    <tr class="red-60">
+      <td class="name">Red 60</td>
+      <td><code>#d70022</code></td>
+      <td><span class="bg">AA</span></td>
+      <td class="fg">AA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-red-70"></div>
-        <p class="dib v-mid">Red 70</p>
-      </td>
-      <td>
-        <code>#a4000f</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-red-70 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="red-70">AAA</p>
-      </td>
+    <tr class="red-70">
+      <td class="name">Red 70</td>
+      <td><code>#a4000f</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">AAA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-red-80"></div>
-        <p class="dib v-mid">Red 80</p>
-      </td>
-      <td>
-        <code>#5a0002</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-red-80 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="red-80">AAA</p>
-      </td>
+    <tr class="red-80">
+      <td class="name">Red 80</td>
+      <td><code>#5a0002</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">AAA</td>
     </tr>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-red-90"></div>
-        <p class="dib v-mid">Red 90</p>
-      </td>
-      <td>
-        <code>#3e0200</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-red-90 white font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="red-90">AAA</p>
-      </td>
+    <tr class="red-90">
+      <td class="name">Red 90</td>
+      <td><code>#3e0200</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">AAA</td>
     </tr>
   </tbody>
 </table>

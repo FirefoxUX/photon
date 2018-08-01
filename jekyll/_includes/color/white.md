@@ -1,21 +1,10 @@
-<table>
+<table class="colors">
   <tbody>
-    <tr>
-      <td>
-        <div class="dib w2 h2 v-mid mr2 br2 bg-white ba b--black-10"></div>
-        <p class="dib v-mid">White</p>
-      </td>
-      <td>
-        <code>#ffffff</code>
-      </td>
-      <td>
-        <p>
-          <span class="pa1 br1 bg-white ba b--black-10 grey-90 font-smoothing">AAA</span>
-        </p>
-      </td>
-      <td>
-        <p class="grey-90">n/a</p>
-      </td>
+    <tr class="white-100">
+      <td class="name">White 100</td>
+      <td><code>#ffffff</code></td>
+      <td><span class="bg">AAA</span></td>
+      <td class="fg">n/a</td>
     </tr>
   </tbody>
 </table>

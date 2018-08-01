@@ -28,13 +28,13 @@
       <td class="name">Blue 80</td>
       <td><code>#002275</code></td>
       <td><span class="bg">AAA</span></td>
-      <td class="blue-80">AAA</td>
+      <td class="fg">AAA</td>
     </tr>
     <tr class="blue-90">
       <td class="name">Blue 90</td>
       <td><code>#000f40</code></td>
       <td><span class="bg">AAA</span></td>
-      <td class="blue-90">AAA</td>
+      <td class="fg">AAA</td>
     </tr>
   </tbody>
 </table>
