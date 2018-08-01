@@ -56,14 +56,6 @@
         padding-left: 1rem;
     }
 
-    .draft {
-        background-color: $draft-background;
-        padding: 4px;
-        font-weight: bold;
-        font-size: 0.8em;
-        border-radius: 2px;
-    }
-
     @include media-query($on-palm) {
         position: absolute;
         top: 0px;
@@ -114,6 +106,13 @@
     }
 }
 
+.draft {
+    background-color: $draft-background;
+    padding: 4px;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 2px;
+}
 
 
 /**
@@ -216,6 +215,12 @@
     font-size: 24px;
 }
 
+.page-content .grid-1 {
+    display: grid;
+    grid: auto-flow / 1fr;
+    column-gap: 12px;
+}
+
 .page-content .grid-2 {
     display: grid;
     grid: auto-flow / repeat(2, 1fr);
@@ -240,10 +245,18 @@
     column-gap: 12px;
 }
 
+.page-content img {
+    background-color: $grey-20;
+    outline: 1px solid rgba(12,12,13,.1);
+    outline-offset: -1px;
+}
+
 .icons img {
     display: block;
     margin: 0 auto;
     max-width: 8rem;
+    background-color: transparent;
+    outline: 0;
 }
 
 /**
@@ -265,16 +278,6 @@
         }
     }
 }
-
-// .post-title {
-//     font-size: 42px;
-//     letter-spacing: -1px;
-//     line-height: 1;
-
-//     @include media-query($on-laptop) {
-//         font-size: 36px;
-//     }
-// }
 
 .post {
     margin-bottom: $spacing-unit;
@@ -320,8 +323,15 @@
     }
 }
 
-.data-tabs 
-{
+div[data-tabs] {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: repeat(6, 1fr);
+
+    div[data-tab] {
+        grid-column-end: span 6;
+    }
+
     input {
         display: none;
     }
@@ -330,6 +340,11 @@
         border-top: 2px solid hsla(0,0%,100%,0);
         border-top-color: rgba(255, 255, 255, 0);
         padding: .5rem;
+
+        &:hover {
+            background-color: $grey-20;
+            border-color: $grey-30;
+        }    
     }
 
     input:checked + label {
@@ -342,6 +357,6 @@
     }
 
     input:checked + label + div[data-tab] {
-        display: block;
+        display: grid;
     }
 }

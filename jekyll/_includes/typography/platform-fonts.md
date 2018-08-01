@@ -1,7 +1,7 @@
-<div class="data-tabs">
+<div data-tabs>
   <input type="radio" name="ptabs" id="platform-win" checked="checked">
   <label for="platform-win">Windows</label>
-  <div data-tab markdown="1">
+  <div data-tab class="grid-2" markdown="1">
 
 ![List of Segoe UI weights used in Firefox products](../images/typography/typography-segoe.svg)
 
@@ -11,7 +11,7 @@
 
   <input type="radio" name="ptabs" id="platform-mac-os">
   <label for="platform-mac-os">macOS</label>
-  <div data-tab markdown="1">
+  <div data-tab class="grid-2" markdown="1">
 
 ![List of San Francisco weights used in Firefox products](../images/typography/typography-san-francisco.svg)
 
@@ -21,7 +21,7 @@
 
   <input type="radio" name="ptabs" id="platform-ubuntu">
   <label for="platform-ubuntu">Linux</label>
-  <div data-tab markdown="1">
+  <div data-tab class="grid-2" markdown="1">
 
 ![List of Ubuntu weights used in Firefox products](../images/typography/typography-ubuntu.svg)
 
@@ -30,19 +30,21 @@
 
   <input type="radio" name="ptabs" id="platform-web">
   <label for="platform-web">Web</label>
-  <div data-tab markdown="1">
+  <div data-tab class="grid-2" markdown="1">
 
 ![List of Fira Sans weights used in Firefox products](../images/typography/typography-fira-sans.svg)
 
+<div markdown="1">
 [Fira Sans](https://mozilla.github.io/Fira/) is the typeface used in Firefox web products.
 
 Despite **Open Sans** being used on some Mozilla web properties, it is currently not recommended for Firefox products.
+</div>
 
   </div>
 
   <input type="radio" name="ptabs" id="platform-android">
   <label for="platform-android">Android</label>
-  <div data-tab markdown="1">
+  <div data-tab class="grid-2" markdown="1">
 
 ![List of Roboto weights used in Firefox products](../images/typography/typography-roboto.svg)
 
@@ -52,7 +54,7 @@ Despite **Open Sans** being used on some Mozilla web properties, it is currently
 
   <input type="radio" name="ptabs" id="platform-iOS">
   <label for="platform-iOS">iOS</label>
-  <div data-tab markdown="1">
+  <div data-tab class="grid-2" markdown="1">
 
 ![List of San Francisco weights used in Firefox products](../images/typography/typography-san-francisco.svg)
 

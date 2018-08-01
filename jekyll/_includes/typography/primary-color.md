@@ -1,3 +1,4 @@
+<div class="grid-2" markdown="1">
 ![Primary color usage example](../images/typography/typography-primary-color.svg)
 
 <table>
@@ -17,3 +18,4 @@
     </tr>
   </tbody>
 </table>
+</div>
