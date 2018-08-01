@@ -1,6 +1,7 @@
 <div class="grid-2" markdown="1">
 ![Emphasis example](../images/typography/typography-secondary-color.svg)
 
+<div>
 <table>
   <thead>
     <tr>
@@ -18,4 +19,5 @@
     </tr>
   </tbody>
 </table>
+</div>
 </div>

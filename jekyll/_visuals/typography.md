@@ -46,7 +46,6 @@ Use a primary color for main titles and body text.
 
 ### Secondary Color
 
-
 Use a secondary color for accompanying text that adds further information, details, or features to the primary content. Examples include caption text and menu subtitles.
 
 {% include typography/secondary-color.md %}
@@ -80,7 +79,7 @@ Use display style for delivering primary messages on content pages.
 
 ### Title
 
-    Use title style to summarize content that follows the title. Carefully pairing titles makes content hierarchy obvious and improves readability.
+Use title style to summarize content that follows the title. Carefully pairing titles makes content hierarchy obvious and improves readability.
 
 ![Title example](../images/typography/typography-usage-2.svg)
 
