@@ -27,12 +27,16 @@ We distinguish between two different categories of error:
 
 ### Icon
 
+<div class="grid-2" markdown="1">
 The icon used for indicate errors is an exclamation mark enclosed within a circle, usually white on a [Red 60](../visuals/color.html#red) background, or [Red 60](../visuals/color.html#red).
 
-![pairing example](../images/errors/error-icon.svg)
+![pairing example](../images/errors/error-icon.svg){:width="100%"}
+</div>
 
 ### Colors
 
+<div class="grid-2">
+<div markdown="1">
 [Red](../visuals/color.html#red) is the dedicated color for errors states. Warning text should be legible, with noticeable contrast against its background color.
 
 #### Background
@@ -43,9 +47,13 @@ Red 60 `#d70022`, or transparent
 
 White `#ffffff`, or Red 60 `#d70022`
 
+</div>
+<div markdown="1">
 ![Errors colors example](../images/errors/error-message-bar.svg)
 
 ![Error transparent example](../images/errors/error-no-bg.svg)
+</div>
+</div>
 
 ## Copy rules
 
