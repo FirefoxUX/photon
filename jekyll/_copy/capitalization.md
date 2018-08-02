@@ -13,9 +13,11 @@ When building new Firefox products, we also align capitalization practices with 
 ### Title Case: Most Words Are Capitalized
 
 {% include copy/capitalization/title-case.md %}
+
 ### Sentence Case: Most Words Are Lowercase
 
 {% include copy/capitalization/sentence-case.md %}
+
 ### All Caps: Every Word Is Capitalized
 
 {% include copy/capitalization/all-caps.md %}
