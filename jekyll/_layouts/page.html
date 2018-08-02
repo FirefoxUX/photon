@@ -18,7 +18,7 @@ layout: default
 
   </header>
 
-  <div class="post-content">
+  <div class="post-content{{ page.id | split: '/' | join: ' ' }}">
     {{ content }}
   </div>
 
