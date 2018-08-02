@@ -8,18 +8,27 @@ Firefox 57 marks the launch of a new product identity system that reflects the P
 
 ## Logo
 
+<div class="grid-2">
+<div markdown="1">
 ![Firefox app icon](../images/product-identity-assets/firefox.png)
 [VIEW HIGH-RES](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png)
 
+</div>
+<div markdown="1">
 All product icons are available for download as SVG, PDF and PNG.
 
 > [![](../images/global/download-16.svg)
 > Download all Firefox logos \\
 > 2.6 MB (.zip)](https://design.firefox.com/product-identity/firefox-product-identity-assets.zip)
+</div>
+</div>
 
 ## Channel Variations
 
 Each Firefox product’s release channel displays its own variation of the app icon.
+
+<div class="grid-2">
+<div markdown="1">
 
 ### Firefox
 
@@ -28,12 +37,18 @@ Each Firefox product’s release channel displays its own variation of the app i
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg), [.pdf](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.pdf), or [.png](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png)
 </figcaption>
 
+</div>
+<div markdown="1">
+
 ### Firefox Beta
 
 ![Firefox Beta app icon](../images/product-identity-assets/firefox-variant-beta.png)
 
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox-beta/firefox-logo-beta.svg), [.pdf](https://design.firefox.com/product-identity/firefox-beta/firefox-logo-beta.pdf), or [.png](https://design.firefox.com/product-identity/firefox-beta/firefox-logo-beta.png)
 </figcaption>
+
+</div>
+<div markdown="1">
 
 ### Firefox Developer Edition
 
@@ -42,12 +57,18 @@ Each Firefox product’s release channel displays its own variation of the app i
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.svg), [.pdf](https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.pdf), or [.png](https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.png)
 </figcaption>
 
+</div>
+<div markdown="1">
+
 ### Firefox Nightly
 
 ![Firefox Nightly app icon](../images/product-identity-assets/firefox-variant-nightly.png)
 
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox-nightly/firefox-logo-nightly.svg), [.pdf](https://design.firefox.com/product-identity/firefox-nightly/firefox-logo-nightly.pdf), or [.png](https://design.firefox.com/product-identity/firefox-nightly/firefox-logo-nightly.png)
 </figcaption>
+
+</div>
+<div markdown="1">
 
 ### Firefox Focus
 
@@ -56,74 +77,112 @@ Each Firefox product’s release channel displays its own variation of the app i
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox-focus/firefox-logo-focus.svg), [.pdf](https://design.firefox.com/product-identity/firefox-focus/firefox-logo-focus.pdf), or [.png](https://design.firefox.com/product-identity/firefox-focus/firefox-logo-focus.png)
 </figcaption>
 
+</div>
+</div>
+
 ## Using Icons with Firefox Wordmarks or Logos
 
 ### Standard Horizontal Lockup
 
+<div class="grid-2">
+<div markdown="1">
 ![Firefox Standard Horizontal Lockup](../images/product-identity-assets/firefox-woodmark-horz.png)
 
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox/firefox-horizontal-lockup/firefox-logo-horizontal-lockup.svg), [.pdf](https://design.firefox.com/product-identity/firefox/firefox-horizontal-lockup/firefox-logo-horizontal-lockup.pdf), or [.png](https://design.firefox.com/product-identity/firefox/firefox-horizontal-lockup/firefox-logo-horizontal-lockup.png)
 </figcaption>
-
+</div>
+<div markdown="1">
 Use app icons with Firefox and other product designators appearing to the right as the preferred lockup.
+</div>
+</div>
 
 ### Alternative Stacked Lockup
 
+<div class="grid-2">
+<div markdown="1">
 ![Firefox Alternative Stacked Lockup](../images/product-identity-assets/firefox-woodmark-vert.png)
 
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox/firefox-stacked-lockup/firefox-logo-stacked-lockup.svg), [.pdf](https://design.firefox.com/product-identity/firefox/firefox-stacked-lockup/firefox-logo-stacked-lockup.pdf), or [.png](https://design.firefox.com/product-identity/firefox/firefox-stacked-lockup/firefox-logo-stacked-lockup.png)
 </figcaption>
-
+</div>
+<div markdown="1">
 Use the Firefox icon with Firefox below when horizontal space is an issue. Use this lockup only for Firefox (the main product icon), and not for other channel icon variants or wordmarks.
+</div>
+</div>
 
 ### Icons as Logo
 
+<div class="grid-2">
+<div markdown="1">
 ![Firefox app icon](../images/product-identity-assets/firefox-default.png)
 
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg), [.pdf](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.pdf), or [.png](https://design.firefox.com/product-identity/firefox/firefox/firefox/firefox-logo.png)
 </figcaption>
-
+</div>
+<div markdown="1">
 Use app icons as logos without wordmarks only when Mozilla and Firefox appear in close proximity to the icon.
+</div>
+</div>
 
 ### Icon as Glyph
 
+<div class="grid-2">
+<div markdown="1">
 ![Firefox glyph icon](../images/product-identity-assets/firefox-watermark.png)
 
 <figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox-glyph/firefox-logo-glyph.svg), [.pdf](https://design.firefox.com/product-identity/firefox-glyph/firefox-logo-glyph.pdf), or [.png](https://design.firefox.com/product-identity/firefox-glyph/firefox-logo-glyph.png)
 </figcaption>
-
+</div>
+<div markdown="1">
 Use the one color icon when you need to represent Firefox with less emphasis than found in the full color icon.
 
 This can occur in situations where you need to match an existing style in certain UI contexts; for example the de-emphasized Firefox icon for product messaging found on the New Tab page.
 
 It can also be used to represent Firefox in another environment with its own style requirements; for example the iOS Share sheet.
+</div>
+</div>
 
 ### Icons Dos and Dont’s
+
+<div class="grid-2">
+<div markdown="1">
 
 ![Firefox app icon](../images/product-identity-assets/firefox-default.png)
 
 {% include global/do.md %}
 
-<small>Use the icons provided, without modification</small>
+<figcaption>Use the icons provided, without modification</figcaption>
+
+</div>
+<div markdown="1">
 
 ![Reverse Firefox app icon](../images/product-identity-assets/firefox-dont-2.png)
 
 
 {% include global/dont.md %}
 
-<small>Reverse icons</small>
+<figcaption>Reverse icons</figcaption>
+
+</div>
+<div markdown="1">
 
 ![Portion of Firefox app icon](../images/product-identity-assets/firefox-dont-3.png)
 
 {% include global/dont.md %}
 
-<small>Use just a portion of the icon</small>
+<figcaption>Use just a portion of the icon</figcaption>
+
+</div>
+<div markdown="1">
 
 ![Old Firefox app icon](../images/product-identity-assets/firefox-dont-1.png)
 
 {% include global/dont.md %}
 
-<small>Use previous icons</small>
+<figcaption>Use previous icons</figcaption>
+
+</div>
+</div>
 
 ## Additional Guidelines
 

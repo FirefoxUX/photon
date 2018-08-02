@@ -56,8 +56,13 @@ figure > img {
     display: block;
 }
 
-figcaption {
+.post figcaption, .post figcaption p {
     font-size: $small-font-size;
+    color: $grey-50;
+    // font-size: 13px;
+    line-height: 1.3;
+    // padding-top: .5rem;
+    margin-bottom: 1rem;
 }
 
 

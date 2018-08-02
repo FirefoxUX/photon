@@ -3,19 +3,6 @@ layout: page
 title: Motion Principles
 ---
 
-<style type="text/css" scoped>
-  h2 {
-    display: flex;
-    align-items: center;
-  }
-  h2 img { 
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-    display: inline-block;
-  }
-</style>
-
 Firefox motion is quick, supportive and whimsical.
 
 ## ![](../images/introduction/Quick.svg) Quick
