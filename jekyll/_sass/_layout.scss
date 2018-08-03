@@ -226,6 +226,10 @@
         display: grid;
         grid: auto-flow / repeat(2, 1fr);
         column-gap: 12px;
+
+        p > img {
+            width: 100%;
+        }
     }
 
     .grid-3 {
@@ -264,6 +268,7 @@
 .do img, .dont img {
     background-color: transparent;
     outline: 0;
+    width: auto !important;
 }
 
 video {

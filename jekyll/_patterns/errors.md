@@ -30,7 +30,7 @@ We distinguish between two different categories of error:
 <div class="grid-2" markdown="1">
 The icon used for indicate errors is an exclamation mark enclosed within a circle, usually white on a [Red 60](../visuals/color.html#red) background, or [Red 60](../visuals/color.html#red).
 
-![pairing example](../images/errors/error-icon.svg){:width="100%"}
+![pairing example](../images/errors/error-icon.svg)
 </div>
 
 ### Colors

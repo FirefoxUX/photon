@@ -8,17 +8,21 @@ Input fields allow users to add text within a defined area.
 
 ## Usage
 
+<div class="grid-2" markdown="1">
 ![an input field example](../images/input/input-fields-usage.png)
 
 Use input fields when requiring users to enter text (like email address, account name, search keyword, etc.) that can’t be automatically generated or displayed.
+</div>
 
 ## Styles
 
 The following specs are designed for desktop and web. Mobile UIs follow their platform guidelines. See [Material Design Guidelines](https://material.io/guidelines/components/text-fields.html) for Android and [Apple's Human Interface Guideline](https://developer.apple.com/macos/human-interface-guidelines/fields-and-labels/text-fields/) for iOS.
 
+<div class="grid-2" markdown="1">
 ![an input field example](../images/input/input-fields-style.png)
 
-Size
+<div markdown="1">
+**Size**
 
 Label margin bottom: `8px`
 
@@ -30,7 +34,7 @@ Width: `auto`
 
 Height: `32px`
 
-Color
+**Color**
 
 Label: Grey 90 `#0c0c0d`
 
@@ -38,13 +42,13 @@ Border: Grey 90 a20 `rgba(12, 12, 13, 0.2)`
 
 Placeholder: Grey 50 `#737373`
 
-Typography
+**Typography**
 
 Label: `0.833rem/1.4`
 
 Placeholder: `0.833rem/1.4`
 
-Icons
+**Icons**
 
 Icon width: `16px`
 
@@ -53,36 +57,41 @@ Icon height: `16px`
 Placeholder icon: Grey 90 a40 `rgba(12, 12, 13, 0.4)`
 
 Action icon: Grey 90 a60 `rgba(12, 12, 13, 0.6)`
+</div>
+</div>
 
 ## Behaviors
 
+<div class="grid-2" markdown="1">
 ![normal state example](../images/input/input-fields-behaviour.png)
 
-Default
+<div markdown="1">
+**Default**
 
 Border color: Grey 90 a20 `rgba(12, 12, 13, 0.2)`
 
-Hover
+**Hover**
 
 Border color: Grey 90 a30 `rgba(12, 12, 13, 0.3)`
 
-Focus
+**Focus**
 
 Border color: Blue 50 `#0a84ff`
 
 Box shadow: `0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)`
 
-Warning
+**Warning**
 
 Border color: Yellow 60 `#d7b600`
 
 Box shadow: `0 0 0 1px #d7b600, 0 0 0 4px rgba(215, 182, 0, 0.3)`
 
-Error
+**Error**
 
 Border color: Red 60 `#d70022`
 
 Box shadow: `0 0 0 1px #d70022, 0 0 0 4px rgba(251, 0, 34, 0.3)`
+</div>
 
 ![Interaction of a text input field](../images/input/input-fields-action-icon-clear.png)
 
@@ -95,7 +104,8 @@ In input fields, when the text overflows outside the field add a linear gradient
 ![Interaction of a password field](../images/input/input-fields-action-icon-show-password.png)
 
 In password fields, when a user starts typing display a password show icon and password hide icon on press.
-      
+</div>
+
 ## Copy Rules
 
 ### Input Fields Messages
