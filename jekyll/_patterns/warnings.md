@@ -27,17 +27,23 @@ We distinguish between two different categories of warnings:
 
 ### Icon
 
+<div class="grid-2" markdown="1">
 The icon used to indicate errors is [an exclamation mark enclosed within a triangle](http://design.firefox.com/icons/viewer/#warning).
 
-![pairing example](../images/warnings/warning-icon.svg)
+![pairing example](../images/warnings/warning-icon.svg){:width="100%"}
+</div>
 
 ### Color
 
+<div class="grid-2" markdown="1">
+<div markdown="1">
 [Yellow](../visuals/color.html#yellow) is the dedicated color for warning states. Warning text should be highly legible, with noticeable contrast against its background color.
 
 In the rare case of a high visibility warning, use [red](../visuals/color.html#yellow) to indicate the seriousness of the warning.
+</div>
 
 ![Yellow Warning](../images/message-bars/warning.svg)
+</div>
 
 ### Copy Rules
 

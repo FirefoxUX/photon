@@ -266,6 +266,11 @@
     outline: 0;
 }
 
+video {
+    outline: 1px solid rgba(12, 12, 13, 0.1);
+    width: 100%;
+}
+
 /**
  * Posts
  */

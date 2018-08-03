@@ -1,3 +1,5 @@
+<div class="grid-2" markdown="1">
+<div markdown="1">
 Based on how marked the difference needs to be, pick from three levels of elevation.
 
 <table>
@@ -34,5 +36,7 @@ Based on how marked the difference needs to be, pick from three levels of elevat
     </tr>
   </tbody>
 </table>
+</div>
 
 ![Asset that shows the three diffent styles of elevation, from lower to higher elevation](../images/patterns/shadows/elevation.svg)
+</div>
