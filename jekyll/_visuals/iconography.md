@@ -16,7 +16,7 @@ Most Firefox for desktop icons live on a **16×16** pixel grid. Some specific sm
 
 {% include iconography/icon-grid.md %}
 
-Firefox for Android icons are ** 20×20**, with a bounding box of 24×24, according to Material Design specs. Firefox for iOS icons live on a **24×24** grid.
+Firefox for Android icons are **20×20**, with a bounding box of 24×24, according to Material Design specs. Firefox for iOS icons live on a **24×24** grid.
 
 {% include iconography/icon-grid-mobile.md %}
 

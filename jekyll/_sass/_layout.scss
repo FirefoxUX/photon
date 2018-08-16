@@ -259,7 +259,7 @@
     }
 
     img {
-        background-color: $grey-20;
+        background-color: $grey-10;
         outline: 1px solid rgba(12,12,13,.1);
         outline-offset: -1px;
     }
@@ -290,16 +290,27 @@ video {
 .post-header {
     margin-bottom: $spacing-unit;
 
+    a:not([class])[href*="//"]::after {
+        width: 0;
+        margin: 0;
+    }
+
+    img {
+        background-color: transparent;
+        outline: none;
+    }
+
+
     .warning {
         background: $warning-background;
         border-radius: 2px;
-        padding: 6px;
+        padding: 10px 6px;
 
         a {
             background: $warning-button-background;
             border-radius: 2px;
             color: $text-color;
-            padding: 2px;
+            padding: 6px 4px;
         }
     }
 }
