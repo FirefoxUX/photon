@@ -1,0 +1,19 @@
+.post-content.copy {
+  .example {
+      background-color: $grey-20;
+      outline: 1px solid rgba(12,12,13,.1);
+      outline-offset: -1px;
+      margin: 0;
+      padding: 1em;
+  }
+
+  .toc {
+    margin-left: 0;
+
+    li {
+      display: inline-block;
+      margin-right: .5rem;
+      color: $grey-50;
+    }
+  }
+}

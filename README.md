@@ -1,21 +1,15 @@
 # Photon Design System  [![Build Status](https://travis-ci.org/FirefoxUX/photon.svg?branch=master)](https://travis-ci.org/FirefoxUX/photon)
 
 Requires:
-* npm version: 4.1.2
-* node version: 7.7.0
+* docker
 
 To run (with hot-reloading!):
 ```
-$ npm install
-$ npm run serve
+$ docker pull praqma/gh-pages
+$ docker run --name photon -d -v $PWD/jekyll:/home/jenkins -p 4000:4000 praqma/gh-pages || docker start photon
+$ docker exec -it photon jekyll serve --watch --host=0.0.0.0
 ```
-Navigate to http://localhost:3000 to see it!
-
-To build:
-```
-$ npm install
-$ npm run build
-```
+Open up http://localhost:4000/photon/
 
 Once you have something you like, it's time to share it with the rest of us!
 

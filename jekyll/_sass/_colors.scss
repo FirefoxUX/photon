@@ -1,0 +1,674 @@
+.post-content.visuals.color {
+  table.example {
+    margin: 0;
+    border: none;
+
+    tr {
+      border: none;
+    }
+
+    td {
+      display: grid;
+      grid: auto-flow / 1fr 75px;
+      column-gap: 12px;
+      padding: 1rem 1rem 0 1rem;
+
+      code {
+        color: $grey-90;
+      }
+    }
+  }
+
+  .bg-light {
+    background-color: $grey-20;
+    &.secondary {
+      color: $grey-50;
+    }
+  }
+  .bg-dark {
+    background-color: $grey-90;
+    color: $white-100;
+  }
+  .bg-color {
+    grid-row-gap: 1em;
+  }
+  .bg-blue {
+    background-color: $blue-50;
+    color: $white-100;
+  }
+  .bg-teal {
+    background-color: $teal-50;
+    color: $teal-90;
+    padding: 1rem;
+  }
+
+  table.light tr {
+    border: 1px solid $grey-color-light;
+  }
+  .bg-white {
+    background-color: $white-100;
+  }
+  .bg-grey-10 {
+    background-color: $grey-10;
+  }
+  .bg-grey-30 {
+    background-color: $grey-30;
+  }
+
+  table.dark {
+    color: $white-100;
+  }
+  .bg-grey-60 {
+    background-color: $grey-60;
+  }
+  .bg-grey-70 {
+    background-color: $grey-70;
+  }
+  .bg-grey-90 {
+    background-color: $grey-90;
+  }
+
+  .color {
+      padding-left: .5rem;
+      padding-right: .5rem;
+      padding-bottom: .5rem;
+      border-radius: .25rem;
+      display: block;
+  }
+  .blue {
+      background-color: $blue-50;
+      padding-top: 8rem;
+      color: $white-100;
+  }
+  .teal {
+      background-color: $teal-50;
+      padding-top: 8rem;
+      color: $teal-90;
+  }
+  .magenta {
+      background-color: $magenta-50;
+      padding-top: 8rem;
+      color: $white-100;
+  }
+  .green {
+      background-color: $green-50;
+      padding-top: 4rem;
+      color: $green-90;
+  }
+  .yellow {
+      background-color: $yellow-50;
+      padding-top: 4rem;
+      color: $yellow-90;
+  }
+  .red {
+      background-color: $red-50;
+      padding-top: 4rem;
+      color: $white-100;
+  }
+  .purple {
+      background-color: $purple-50;
+      padding-top: 4rem;
+      color: $white-100;
+  }
+  .orange {
+      background-color: $orange-50;
+      padding-top: 4rem;
+      color: $orange-90;
+  }
+  .ink {
+      background-color: $ink-70;
+      padding-top: 1rem;
+      color: $white-100;
+  }
+  .grey {
+      background-color: $grey-10;
+      padding-top: 1rem;
+      border: 1px solid $grey-color-light;
+      color: $grey-90;
+  }
+  .white {
+      background-color: $white-100;
+      padding-top: 1rem;
+      border: 1px solid $grey-color-light;
+      color: $grey-90;
+  }
+
+  /* Blues */
+  .colors {
+    .name::before {
+      content: "";
+      border-radius: .25rem;
+      display: inline-block;
+      height: 2rem;
+      vertical-align: middle;
+      width: 2rem;
+      margin-right: .5em;
+    }
+    .bg {
+      border-radius: .125rem;
+      padding: .25rem;
+    }
+  }
+
+  /* Blues. */
+  .blue-40 {
+    .name::before, .bg {
+      background-color: $blue-40;
+      color: $blue-90;
+    }
+    .fg {
+      color: $blue-40;
+    }
+  }
+  .blue-50 {
+    .name::before, .bg {
+      background-color: $blue-50;
+      color: $white-100;
+    }
+    .fg {
+      color: $blue-50;
+    }
+  }
+  .blue-60 {
+    .name::before, .bg {
+      background-color: $blue-60;
+      color: $white-100;
+    }
+    .fg {
+      color: $blue-60;
+    }
+  }
+  .blue-70 {
+    .name::before, .bg {
+      background-color: $blue-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $blue-70;
+    }
+  }
+  .blue-80 {
+    .name::before, .bg {
+      background-color: $blue-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $blue-80;
+    }
+  }
+  .blue-90 {
+    .name::before, .bg {
+      background-color: $blue-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $blue-90;
+    }
+  }
+
+  /* Teals. */
+  .teal-50 {
+    .name::before, .bg {
+      background-color: $teal-50;
+      color: $teal-90;
+    }
+    .fg {
+      color: $teal-50;
+    }
+  }
+  .teal-60 {
+    .name::before, .bg {
+      background-color: $teal-60;
+      color: $teal-90;
+    }
+    .fg {
+      color: $teal-60;
+    }
+  }
+  .teal-70 {
+    .name::before, .bg {
+      background-color: $teal-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $teal-70;
+    }
+  }
+  .teal-80 {
+    .name::before, .bg {
+      background-color: $teal-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $teal-80;
+    }
+  }
+  .teal-90 {
+    .name::before, .bg {
+      background-color: $teal-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $teal-90;
+    }
+  }
+
+  /* Magentas. */
+  .magenta-50 {
+    .name::before, .bg {
+      background-color: $magenta-50;
+      color: $white-100;
+    }
+    .fg {
+      color: $magenta-50;
+    }
+  }
+  .magenta-60 {
+    .name::before, .bg {
+      background-color: $magenta-60;
+      color: $white-100;
+    }
+    .fg {
+      color: $magenta-60;
+    }
+  }
+  .magenta-70 {
+    .name::before, .bg {
+      background-color: $magenta-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $magenta-70;
+    }
+  }
+  .magenta-80 {
+    .name::before, .bg {
+      background-color: $magenta-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $magenta-80;
+    }
+  }
+  .magenta-90 {
+    .name::before, .bg {
+      background-color: $magenta-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $magenta-90;
+    }
+  }
+
+  /* Greens. */
+  .green-50 {
+    .name::before, .bg {
+      background-color: $green-50;
+      color: $green-90;
+    }
+    .fg {
+      color: $green-50;
+    }
+  }
+  .green-60 {
+    .name::before, .bg {
+      background-color: $green-60;
+      color: $green-90;
+    }
+    .fg {
+      color: $green-60;
+    }
+  }
+  .green-70 {
+    .name::before, .bg {
+      background-color: $green-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $green-70;
+    }
+  }
+  .green-80 {
+    .name::before, .bg {
+      background-color: $green-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $green-80;
+    }
+  }
+  .green-90 {
+    .name::before, .bg {
+      background-color: $green-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $green-90;
+    }
+  }
+
+  /* Yellows. */
+  .yellow-50 {
+    .name::before, .bg {
+      background-color: $yellow-50;
+      color: $yellow-90;
+    }
+    .fg {
+      color: $yellow-50;
+    }
+  }
+  .yellow-60 {
+    .name::before, .bg {
+      background-color: $yellow-60;
+      color: $yellow-90;
+    }
+    .fg {
+      color: $yellow-60;
+    }
+  }
+  .yellow-70 {
+    .name::before, .bg {
+      background-color: $yellow-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $yellow-70;
+    }
+  }
+  .yellow-80 {
+    .name::before, .bg {
+      background-color: $yellow-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $yellow-80;
+    }
+  }
+  .yellow-90 {
+    .name::before, .bg {
+      background-color: $yellow-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $yellow-90;
+    }
+  }
+
+  /* Reds. */
+  .red-50 {
+    .name::before, .bg {
+      background-color: $red-50;
+      color: $white-100;
+    }
+    .fg {
+      color: $red-50;
+    }
+  }
+  .red-60 {
+    .name::before, .bg {
+      background-color: $red-60;
+      color: $white-100;
+    }
+    .fg {
+      color: $red-60;
+    }
+  }
+  .red-70 {
+    .name::before, .bg {
+      background-color: $red-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $red-70;
+    }
+  }
+  .red-80 {
+    .name::before, .bg {
+      background-color: $red-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $red-80;
+    }
+  }
+  .red-90 {
+    .name::before, .bg {
+      background-color: $red-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $red-90;
+    }
+  }
+
+  /* Purples. */
+  .purple-30 {
+    .name::before, .bg {
+      background-color: $purple-30;
+      color: $white-100;
+    }
+    .fg {
+      color: $purple-30;
+    }
+  }
+  .purple-40 {
+    .name::before, .bg {
+      background-color: $purple-40;
+      color: $white-100;
+    }
+    .fg {
+      color: $purple-40;
+    }
+  }
+  .purple-50 {
+    .name::before, .bg {
+      background-color: $purple-50;
+      color: $white-100;
+    }
+    .fg {
+      color: $purple-50;
+    }
+  }
+  .purple-60 {
+    .name::before, .bg {
+      background-color: $purple-60;
+      color: $white-100;
+    }
+    .fg {
+      color: $purple-60;
+    }
+  }
+  .purple-70 {
+    .name::before, .bg {
+      background-color: $purple-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $purple-70;
+    }
+  }
+  .purple-80 {
+    .name::before, .bg {
+      background-color: $purple-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $purple-80;
+    }
+  }
+  .purple-90 {
+    .name::before, .bg {
+      background-color: $purple-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $purple-90;
+    }
+  }
+
+  /* Oranges. */
+  .orange-50 {
+    .name::before, .bg {
+      background-color: $orange-50;
+      color: $orange-90;
+    }
+    .fg {
+      color: $orange-50;
+    }
+  }
+  .orange-60 {
+    .name::before, .bg {
+      background-color: $orange-60;
+      color: $orange-90;
+    }
+    .fg {
+      color: $orange-60;
+    }
+  }
+  .orange-70 {
+    .name::before, .bg {
+      background-color: $orange-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $orange-70;
+    }
+  }
+  .orange-80 {
+    .name::before, .bg {
+      background-color: $orange-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $orange-80;
+    }
+  }
+  .orange-90 {
+    .name::before, .bg {
+      background-color: $orange-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $orange-90;
+    }
+  }
+
+  /* Inks. */
+  .ink-70 {
+    .name::before, .bg {
+      background-color: $ink-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $ink-70;
+    }
+  }
+  .ink-80 {
+    .name::before, .bg {
+      background-color: $ink-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $ink-80;
+    }
+  }
+  .ink-90 {
+    .name::before, .bg {
+      background-color: $ink-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $ink-90;
+    }
+  }
+
+  /* Greys. */
+  .grey-10 {
+    .name::before, .bg {
+      background-color: $grey-10;
+    }
+    .name::before {
+      border: 1px solid $grey-color-light;
+    }
+    .fg {
+      color: $grey-10;
+    }
+  }
+  .grey-20 {
+    .name::before, .bg {
+      background-color: $grey-20;
+    }
+    .fg {
+      color: $grey-20;
+    }
+  }
+  .grey-30 {
+    .name::before, .bg {
+      background-color: $grey-30;
+    }
+    .fg {
+      color: $grey-30;
+    }
+  }
+  .grey-40 {
+    .name::before, .bg {
+      background-color: $grey-40;
+    }
+    .fg {
+      color: $grey-40;
+    }
+  }
+  .grey-50 {
+    .name::before, .bg {
+      background-color: $grey-50;
+      color: $white-100;
+    }
+    .fg {
+      color: $grey-50;
+    }
+  }
+  .grey-60 {
+    .name::before, .bg {
+      background-color: $grey-60;
+      color: $white-100;
+    }
+    .fg {
+      color: $grey-60;
+    }
+  }
+  .grey-70 {
+    .name::before, .bg {
+      background-color: $grey-70;
+      color: $white-100;
+    }
+    .fg {
+      color: $grey-70;
+    }
+  }
+  .grey-80 {
+    .name::before, .bg {
+      background-color: $grey-80;
+      color: $white-100;
+    }
+    .fg {
+      color: $grey-80;
+    }
+  }
+  .grey-90 {
+    .name::before, .bg {
+      background-color: $grey-90;
+      color: $white-100;
+    }
+    .fg {
+      color: $grey-90;
+    }
+  }
+
+  /* White. */
+  .white-100 {
+    .name::before, .bg {
+      background-color: $white-100;
+      border: 1px solid $grey-color-light;
+    }
+  }  
+}
