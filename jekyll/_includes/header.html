@@ -15,22 +15,35 @@
 
   <div class="trigger">
     {% assign categories = site.collections | sort: 'order' %}
+    {% assign currCat = page.collection | default: 'introduction' %}
     {% for cat in categories %}
     {% if cat.label != "posts" %}
-      {% if cat.title %}
-        <h4>{{ cat.title }}</h4>
-      {% else %}
-        <h4>{{ cat.label | split: " " | join: "-" | camelcase | split: "-" | join: " " | capitalize }}</h4>
-      {% endif %}
+    {% if currCat == cat.label %}
+      <div class="active">
+    {% else %}
+      <div>
+    {% endif %}
+      {% assign title = cat.label | split: " " | join: "-" | camelcase | split: "-" | join: " " | capitalize %}
+      {% assign title = cat.title | default: title %}
+      <h4>{{ title }}</h4>
       {% assign items = cat.docs | sort: 'order' %}
       {% for item in items %}
-        <div><a class="page-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-          {% if item.draft %}
-          <span class="draft">DRAFT</span>
-          {% endif %}
-        </div>
+        {% if page.url == item.url %}
+          <div><span class="page-link">{{ item.title }}</span>
+            {% if item.draft %}
+            <span class="draft">DRAFT</span>
+            {% endif %}
+          </div>
+        {% else %}
+          <div><a class="page-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+            {% if item.draft %}
+            <span class="draft">DRAFT</span>
+            {% endif %}
+          </div>
+        {% endif %}
       {% endfor %}
     {% endif %}
+    </div>
   {% endfor %}
   </div>
 </nav>

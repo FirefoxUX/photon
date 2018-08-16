@@ -38,8 +38,16 @@
     margin-left: $spacing-unit / 2;
     margin-top: $spacing-unit / 2;
 
+    div {
+        overflow: hidden;
+    }
+
     .menu-icon {
         display: none;
+    }
+
+    .collapsed:not(.active) > div {
+        max-height: 0;
     }
 
     h4 {
