@@ -539,6 +539,11 @@ Capitalize when referring to the notification standard.
 
 One word, lowercase; do not use “web site.”
 
+### Wi-Fi
+{:#wi-fi}
+
+Use Wi-Fi instead of wifi or WiFi.
+
 ### www
 {:#www}
 
