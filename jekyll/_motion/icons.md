@@ -18,6 +18,7 @@ A highlight colour can be used to draw extra attention to an area.
 <div class="grid-2">
 <div markdown="1">
 ![animation showing bookmarking](../images/motion/bookmark.gif)
+{:.animated}
 
 Example of bounce and highlight colour (Blue 60).
 </div>
@@ -25,6 +26,7 @@ Example of bounce and highlight colour (Blue 60).
 <div markdown="1">
 
 ![animation showing downloading](../images/motion/download.gif)
+{:.animated}
 
 
 </div>
@@ -37,6 +39,7 @@ Confirms the completion of a user triggered action (i.e Copy Link and Bookmark T
 <div class="grid-2">
 <div markdown="1">
 ![animation showing Copy Link](../images/motion/copyurl.gif)
+{:.animated}
 
 Example of confirmation pop-up for Copy Link.
 </div>
