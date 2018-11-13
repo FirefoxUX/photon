@@ -8,12 +8,12 @@ Tabs are used to navigate to related destinations.
 
 ## Usage
 
-- Don’t use tabs for destinations that are not related. Tabs should be connected by the same information object.
+- Tabs should be used for destinations that are related. Don’t use tabs for destinations that are not related. Tabs should be connected by the same information object.
 - Don’t load the entire page for tabs. Only the tabs and their content area should be changing when a user switches to another tab. Nothing else, including the position, should be changing. Users should feel like they are in the same place while alternating tabs. 
 - Avoid long tab content load time. Tabs should be rapid switching.
-- Don’t use multiple rows of tabs as they destroy spatial memory.
-- Don’t order tabs randomly. Order them based on user and business needs.
-- Don’t use tabs for more than 1 navigation level as their relationship may be unclear to users. Tabs should be used for the lowest navigation level on the page. 
+- Tabs should be presented in one row. Don’t use multiple rows of tabs as they destroy spatial memory.
+- Order tabs logically. Don’t order tabs randomly. Order them based on user needs.
+- Use tabs for only one navigation level. Avoid using tabs for more than 1 navigation level as their relationship may be unclear to users. Tabs should be used for the lowest navigation level on the page. 
 - Don’t use tabs when users need to compare the content behind them.
 
 ## Anatomy
