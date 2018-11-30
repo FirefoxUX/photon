@@ -10,6 +10,15 @@ Icon animations have the greatest flexibility since the form and function of an 
 
 Use this for on-press feedback when a user clicks on an icon to perform a unique task such as bookmarking or saving to Pocket. Do not use the bounce motion for common actions such as opening a door-hanger menu or library menu.
 
+<div class="grid-2">
+<div markdown="1">  
+![animation showing save to pocket](../images/motion/bounce-pocket.gif)
+{:.animated}
+
+Example of bounce.
+
+</div>
+</div>
 
 ## Highlight Colour
 
@@ -20,7 +29,7 @@ A highlight colour can be used to draw extra attention to an area.
 ![animation showing bookmarking](../images/motion/bookmark.gif)
 {:.animated}
 
-Example of bounce and highlight colour (Blue 60).
+Example of highlight colour (Blue 60).
 </div>
 
 <div markdown="1">
@@ -34,7 +43,7 @@ Example of bounce and highlight colour (Blue 60).
 
 ## Confirmation Pop-up
 
-Confirms the completion of a user triggered action (i.e Copy Link and Bookmark This Page).
+Confirms the completion of a user triggered action (i.e. Copy Link and Bookmark This Page).
 
 <div class="grid-2">
 <div markdown="1">
