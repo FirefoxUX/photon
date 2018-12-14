@@ -1,0 +1,14 @@
+.post-content.patterns {
+  .example {
+      background-color: $grey-20;
+      outline: 1px solid rgba(12,12,13,.1);
+      outline-offset: -1px;
+      margin: 0;
+      padding: 0;
+
+      img {
+        width: 100%;
+        background-color: $grey-20;
+      }
+  }
+}

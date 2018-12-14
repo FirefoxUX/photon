@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import "photon-colors";
+
+
+// Our variables
+$base-font-family: "Fira Sans";
+$code-font-family: "Fira Mono";
+$base-font-size:   14px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       $grey-90;
+$background-color: $grey-10;
+$draft-background: $yellow-50;
+$warning-background: $yellow-50;
+$warning-button-background: $yellow-60;
+
+$brand-color:      $blue-50;
+$brand-color-dark: $blue-60;
+
+$grey-color:       $grey-40;
+$grey-color-light: $grey-30;
+$grey-color-dark:  $grey-50;
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "colors",
+        "motion",
+        "copy",
+        "patterns"
+;
