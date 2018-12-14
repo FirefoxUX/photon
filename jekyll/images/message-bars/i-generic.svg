@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="180" style="background:none" viewBox="0 0 350 180">
+  <defs>
+    <path id="i-generic-a" d="M7,0 C3.13400675,-6.66133815e-16 4.4408921e-16,3.13400675 0,7 C-4.4408921e-16,10.8659932 3.13400675,14 7,14 C10.8659932,14 14,10.8659932 14,7 C13.9955914,3.13583434 10.8641657,0.00440863597 7,3.77475828e-15 L7,0 Z M7,13 C3.6862915,13 1,10.3137085 1,7 C1,3.6862915 3.6862915,1 7,1 C10.3137085,1 13,3.6862915 13,7 C12.9961426,10.3121094 10.3121094,12.9961426 7,13 Z M7,6 C6.44771525,6 6,6.44771525 6,7 L6,10 C6,10.5522847 6.44771525,11 7,11 C7.55228475,11 8,10.5522847 8,10 L8,7 C8,6.44771525 7.55228475,6 7,6 Z M7,2.812 C6.34388572,2.812 5.812,3.34388572 5.812,4 C5.812,4.65611428 6.34388572,5.188 7,5.188 C7.65611428,5.188 8.188,4.65611428 8.188,4 C8.188,3.68492281 8.06283607,3.38275036 7.84004286,3.15995714 C7.61724964,2.93716393 7.31507719,2.812 7,2.812 L7,2.812 Z"/>
+    <path id="i-generic-c" d="M7,0 C3.13400675,-6.66133815e-16 4.4408921e-16,3.13400675 0,7 C-4.4408921e-16,10.8659932 3.13400675,14 7,14 C10.8659932,14 14,10.8659932 14,7 C13.9955914,3.13583434 10.8641657,0.00440863597 7,3.77475828e-15 L7,0 Z M7,13 C3.6862915,13 1,10.3137085 1,7 C1,3.6862915 3.6862915,1 7,1 C10.3137085,1 13,3.6862915 13,7 C12.9961426,10.3121094 10.3121094,12.9961426 7,13 Z M7,6 C6.44771525,6 6,6.44771525 6,7 L6,10 C6,10.5522847 6.44771525,11 7,11 C7.55228475,11 8,10.5522847 8,10 L8,7 C8,6.44771525 7.55228475,6 7,6 Z M7,2.812 C6.34388572,2.812 5.812,3.34388572 5.812,4 C5.812,4.65611428 6.34388572,5.188 7,5.188 C7.65611428,5.188 8.188,4.65611428 8.188,4 C8.188,3.68492281 8.06283607,3.38275036 7.84004286,3.15995714 C7.61724964,2.93716393 7.31507719,2.812 7,2.812 L7,2.812 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(100 73)">
+    <g transform="translate(0 .5)">
+      <rect width="32" height="32" x=".356" y=".045" fill="#EDEDF0" rx="3"/>
+      <g transform="translate(4.356 4.045)">
+        <rect width="24" height="24"/>
+        <g transform="translate(5 5)">
+          <mask id="i-generic-b" fill="#fff">
+            <use xlink:href="#i-generic-a"/>
+          </mask>
+          <use fill="#0C0C0D" fill-opacity=".8" fill-rule="nonzero" xlink:href="#i-generic-a"/>
+          <g fill="#0C0C0D" mask="url(#i-generic-b)">
+            <rect width="200" height="200" transform="translate(-94.059 -95.048)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(80.672 1)">
+      <rect width="32" height="32" x=".356" y=".045" fill="#EDEDF0" rx="3"/>
+      <g transform="translate(4.356 4.045)">
+        <rect width="20" height="20" x="2.002" y="2" stroke="#00FEFF" stroke-opacity=".4" stroke-width="4"/>
+        <g transform="translate(5 5)">
+          <mask id="i-generic-d" fill="#fff">
+            <use xlink:href="#i-generic-c"/>
+          </mask>
+          <use fill="#0C0C0D" fill-opacity=".8" fill-rule="nonzero" xlink:href="#i-generic-c"/>
+          <g fill="#0C0C0D" mask="url(#i-generic-d)">
+            <rect width="200" height="200" transform="translate(-94.059 -95.048)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g transform="translate(75 24)">
+      <rect width="1" height="5" x="10" fill="#00FEFF" fill-opacity=".5"/>
+      <rect width="1" height="5" x="13" fill="#00FEFF" fill-opacity=".5"/>
+      <rect width="4" height="1" x="10" y="2" fill="#00FEFF" fill-opacity=".5"/>
+      <polygon fill="#00FEFF" fill-opacity=".5" points="8 9 12 5 16 9 12 13"/>
+      <rect width="24" height="23" y="9" fill="#00FEFF" fill-opacity=".5" rx="2"/>
+      <text fill="#002D3E" font-family="FiraSans-Regular, Fira Sans" font-size="10">
+        <tspan x="4.045" y="24">4px</tspan>
+      </text>
+    </g>
+    <g transform="translate(106 6)">
+      <rect width="5" height="1" y="3" fill="#FF1AD9"/>
+      <rect width="5" height="1" y="18" fill="#FF1AD9"/>
+      <rect width="1" height="16" x="2" y="3" fill="#FF1AD9"/>
+      <polygon fill="#FF1AD9" points="5 11 9 7 13 11 9 15"/>
+      <rect width="35" height="22" x="9" fill="#FF1AD9" rx="2"/>
+      <text fill="#FFF" font-family="HelveticaNeue, Helvetica Neue" font-size="12">
+        <tspan x="13.162" y="15">16px</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

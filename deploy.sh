@@ -15,13 +15,7 @@ cd dist
 rm -rf *
 cd ..
 
-# run our compile script, discussed above
-if [ "${TRAVIS_BRANCH}" == "staging" ]; then
-  npm run deploy-staging
-else
-  npm run deploy-build
-fi
-
+cp -r jekyll/* dist
 
 # inside the gh-pages repo we'll pretend to be a new user
 cd dist

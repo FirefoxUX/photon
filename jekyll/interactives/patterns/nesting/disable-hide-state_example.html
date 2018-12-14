@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Nesting - Pattern - PDS">
+  <title>Disable &amp; Hide State - Nesting Example - Pattern</title>
+  <link href="./../../base.css" rel="stylesheet">
+  <link href="./../../variables.css" rel="stylesheet">
+  <link href="./../../font.css" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet">
+
+  <style>
+  body {
+    opacity: 0.5;
+    overflow: hidden;
+  }
+  body::before {
+    content: "";
+    background-image: url("images/mouse-pointer-6.svg");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    top: 0;
+    left: 0;
+  }
+  body:hover {
+    opacity: 1;
+    overflow: visible;
+  }
+  body:hover::before {
+    display: none;
+  }
+  </style>
+
+</head>
+<body onload="(function(){ alluncheck_updateChild() })()" style="margin:20px; height: auto;">
+
+    <div>
+      <section>
+        <div class="group-ui-elements item-checkbox">
+          <input id="alluncheck_parent" type="checkbox" checked>
+          <label for="alluncheck_parent">Provide Search Suggestions</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="alluncheck_childA" type="checkbox">
+          <label for="alluncheck_childA">Show search suggestions in address bar results</label>
+        </div>
+        <div class="group-ui-elements item-checkbox subcheckbox">
+          <input id="alluncheck_childB" type="checkbox" checked>
+          <label for="alluncheck_childB">Show search suggestions ahead of browsing history in address bar results</label>
+        </div>
+      </section>
+    </div>
+  <script>
+    // -----------------------
+    // Disable Sub (uncheck all sub)
+    var alluncheck_parent = document.querySelector('input[id="alluncheck_parent"]');
+    var alluncheck_childA = document.querySelector('input[id="alluncheck_childA"]');
+    var alluncheck_childB = document.querySelector('input[id="alluncheck_childB"]');
+    var state_alluncheck_childA = alluncheck_childA.checked;
+    var state_alluncheck_childB = alluncheck_childB.checked;
+
+    alluncheck_parent.addEventListener('click', alluncheck_updateChild);
+
+    function alluncheck_updateChild() {
+      // if parent is checked, restore previous state
+      if(alluncheck_parent.checked) {
+        // enable sub-elements
+        alluncheck_childA.disabled = false;
+        alluncheck_childB.disabled = false;
+        // set previus state to sub-elements
+        alluncheck_childA.checked = state_alluncheck_childA;
+        alluncheck_childB.checked = state_alluncheck_childB;
+      }
+      // if parent is unchecked, record state and disable
+      else {
+        // record state of sub-elements
+        state_alluncheck_childA = alluncheck_childA.checked;
+        state_alluncheck_childB = alluncheck_childB.checked;
+        // remove state from sub-elements
+        alluncheck_childA.checked = false;
+        alluncheck_childB.checked = false;
+        // disable sub-elements
+        alluncheck_childA.disabled = true;
+        alluncheck_childB.disabled = true;
+      }
+    }
+  </script>
+</body>
+</html>

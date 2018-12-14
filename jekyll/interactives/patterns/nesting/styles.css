@@ -1,0 +1,597 @@
+/* ====================== */
+/* ---General Styles----- */
+/* ====================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  height: 100%;
+  background-color: var(--grey-10);
+  font: -moz-dialog;
+  line-height: 1.5em;
+}
+
+button, select, input {
+  -moz-appearance: none;
+  border-radius: var(--border-radius);
+}
+
+hr {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color:var(--grey-90-10);
+}
+
+a:link {
+  color: var(--blue-60);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue-70);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--blue-60);
+}
+
+
+
+
+/* ====================== */
+/* ---Content Styles----- */
+/* ====================== */
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: 1.25em;
+  margin-bottom: 32px;
+}
+
+h2.label-section {
+  font-size: 1.25em;
+/*   font-size: .9em; */
+  line-height: 1.25em;
+  margin-bottom: 8px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+.container-content {
+  margin: 0 auto;
+  padding: 40px;
+  /*width: 640px;*/
+}
+
+.group-ui-elements {
+  margin-bottom: 16px;
+}
+
+.group-ui-elements.item-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.group-ui-elements.subitem,
+.group-ui-elements.item-checkbox.subcheckbox {
+  padding-left: 20px;
+}
+
+.group-ui-elements.item-checkbox + .group-ui-elements.item-checkbox {
+  margin-top: -8px;
+}
+
+
+.group-ui-elements.has-helptext {
+  margin-bottom: 4px;
+}
+
+.group-ui-elements.item-button-group {
+  display: flex;
+}
+
+.group-ui-elements.item-button {
+  display: flex;
+}
+
+.group-ui-elements.item-button > label {
+  flex: 1 1 auto;
+}
+
+.group-ui-elements.item-field,
+.group-ui-elements.item-dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-ui-elements.item-dropdown-inline {
+  display: flex;
+  align-items: center;
+}
+
+.group-ui-elements.item-dropdown-inline label {
+/*   margin-right: 4px; */
+}
+
+.group-ui-elements.item-dropdown-inline select {
+  margin-right: 8px;
+  min-width: auto;
+}
+
+.group-ui-elements.item-field label,
+.group-ui-elements.item-dropdown label {
+  margin-bottom: 4px;
+}
+
+.group-ui-elements.item-dropdown select {
+  width: -moz-fit-content;
+}
+
+.group-ui-elements.item-checkbox + .item-helptext {
+  margin-left: 20px;
+}
+
+.group-ui-elements.has-attached-buttons {
+  margin-bottom: 8px;
+}
+
+.item-helptext {
+  font-size: .9em;
+  line-height: 1.35em;
+  color: #737373;
+  -moz-user-select: none;
+}
+
+.group-ui-elements.item-link {
+  display: flex;
+  align-items: center;
+}
+
+.group-ui-elements.item-link .link {
+  margin-right: 4px;
+}
+
+.group-ui-elements.item-link .link-icon {
+  width: 16px;
+  height: 16px;
+  background-image: url("../images/external-link-16.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.group-ui-elements.two-pane {
+  display: flex;
+}
+
+.group-ui-elements.two-pane > .group-ui-elements {
+  margin-bottom: 0;
+}
+
+.group-ui-elements.two-pane > .group-ui-elements:first-child {
+  margin: 0 4px 0 0;
+}
+
+.group-ui-elements.two-pane > .group-ui-elements:last-child {
+  margin: 0 0 0 4px;
+}
+
+.group-ui-elements.item-field-button-combo {
+  display: flex;
+}
+.group-ui-elements.item-field-button-combo > input[type="text"] {
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+.group-ui-elements.item-field-button-combo > button {
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+
+
+/* ====================== */
+/* ------UI Styles------- */
+/* ====================== */
+
+label {
+  -moz-user-select: none;
+}
+
+/* -------Button and Select------- */
+
+button,
+select {
+  display: block;
+  height: 30px;
+  padding: 0 8px 0;
+  margin: 0 4px;
+  min-width: 132px;
+  background-color: var(--grey-90-10);
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: inherit;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.annotator-frame button {
+  min-width: initial;
+}
+
+button:last-child,
+select:last-child {
+  margin: 0 0 0 4px;
+}
+
+button:first-child,
+select:first-child {
+  margin: 0 4px 0 0;
+}
+
+button:only-of-type,
+select:only-of-type {
+  margin: 0;
+}
+
+button:hover,
+select:hover {
+  background-color: var(--grey-90-20);
+}
+
+button:hover:active,
+select:hover:active {
+  background-color: var(--grey-90-30);
+}
+
+button::-moz-focus-inner{
+  outline: 0;
+  border: 0;
+}
+
+button.button-primary {
+  background-color: var(--blue-60);
+  color: white;
+/*   font-weight: bold; */
+}
+
+button.button-primary:hover {
+  background-color: var(--blue-70);
+  color: white;
+}
+
+button.button-primary:hover:active {
+  background-color: var(--blue-80);
+  color: white;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:hover:active {
+  opacity: .4;
+  color: -moz-dialogtext;
+  background-color: var(--grey-90-10);
+}
+
+
+/* -------Select Specific------- */
+
+select {
+  -moz-padding-end: 24px;
+  background-image: url("../images/dropdown-16.svg");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 8px) center;
+  text-overflow: ellipsis;
+}
+
+option {
+  -moz-appearance: none;
+  font-size: 14px;
+}
+
+/* Hack for hiding the focus ring inside of the dropdown :( */
+select:-moz-focusring {
+  color: transparent;
+  text-shadow:0 0 0 #000; /* your normal text color here */
+}
+select:-moz-focusring * {
+  color: #000; /* your normal text color here */
+  text-shadow: none;
+}
+
+
+/* --------Fields-------- */
+
+input[type="text"] {
+  width: 100%;
+  height: 30px;
+  padding: 0 6px 0;
+  background-color: #fff;
+  border: 1px solid var(--grey-90-20);
+  font: caption;
+  transition-property: box-shadow;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(var(--animation-curve));
+}
+
+input[type="text"]:hover {
+  border: 1px solid var(--grey-90-30);
+}
+
+input[type="text"].disabled {
+  color: var(--color-grey-disabled);
+  opacity: .5;
+}
+
+input[type="text"]:not(disabled="true"):hover {
+  border: 1px solid var(--grey-90);
+}
+
+input[type="text"].search-field {
+  padding: 0 6px 0 28px;
+  background-image: url("../images/search-16.svg");
+  background-repeat: no-repeat;
+  background-position: 6px center;
+  background-size: 16px;
+}
+
+
+/* --------Radio and Checkboxes-------- */
+
+@keyframes checked {
+  from {
+  background-size: 8px;
+  }
+  to {
+  background-size: 16px;
+  }
+}
+
+input[type="checkbox"],
+input[type="checkbox"]:disabled:hover,
+input[type="checkbox"]:disabled:hover:active,
+input[type="radio"] {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--grey-90-10);
+  background-size: 4px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid var(--grey-90-30);
+}
+
+input[type="radio"] {
+  border-radius: 100%;
+}
+
+input[type="checkbox"]:hover,
+input[type="radio"]:hover {
+  background-color: var(--grey-90-10);
+}
+
+input[type="checkbox"]:hover:active,
+input[type="radio"]:hover:active {
+  background-color: var(--grey-90-30);
+}
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:checked:disabled:hover,
+input[type="checkbox"]:checked:disabled:hover:active,
+input[type="radio"]:checked {
+  background-color: var(--blue-60);
+  background-image: url("./images/check-16.svg");
+  background-size: 16px;
+
+  border: none;
+
+  animation-name: checked;
+  animation-delay: 0;
+  animation-direction: forwards;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-timing-function:  var(--animation-curve);
+}
+input[type="radio"]:checked {
+  background-image: url("./images/radio-16.svg");
+}
+
+input[type="checkbox"]:checked:hover,
+input[type="radio"]:checked:hover {
+  background-color: var(--blue-70);
+}
+
+input[type="checkbox"]:checked:hover:active,
+input[type="radio"]:checked:hover:active {
+  background-color: var(--blue-80);
+}
+
+
+/* --------Disabled-------- */
+
+input[type="checkbox"]:disabled {
+  opacity: 0.5;
+}
+
+input[type="checkbox"]:disabled + label {
+  color: rgb(127, 127, 127);
+}
+
+
+
+/* --------Focus-------- */
+
+a:link:focus {
+  box-shadow: 0 0 0 2px var(--blue-50),
+              0 0 0 6px var(--blue-50-30);
+  border-radius: 2px;
+}
+
+button:focus,
+select:focus {
+  box-shadow: 0 0 0 1px var(--blue-50) inset,
+              0 0 0 1px var(--blue-50),
+              0 0 0 4px var(--blue-50-30);
+}
+
+input[type="checkbox"]:focus,
+input[type="radio"]:focus {
+  border-color: var(--blue-50);
+  box-shadow: 0 0 0 1px var(--blue-50),
+              0 0 0 4px var(--blue-50-30);
+}
+
+button.button-primary:focus,
+input[type="checkbox"]:checked:focus,
+input[type="radio"]:checked:focus {
+  box-shadow: 0 0 0 1px var(--blue-50) inset,
+              0 0 0 1px var(--blue-50),
+              0 0 0 4px var(--blue-50-30);
+}
+
+input[type="text"]:focus   {
+  border-color: var(--blue-50);
+  box-shadow: 0 0 0 1px var(--blue-50),
+              0 0 0 4px var(--blue-50-30);
+}
+
+
+/* --------Multi-Select Table-------- */
+
+.multiselect-table {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid var(--grey-30);
+  border-collapse: collapse;
+}
+
+.multiselect-table > thead > tr > td {
+  height: 30px;
+  background-color: var(--grey-90-025);
+  border-bottom: 1px solid var(--grey-30);
+}
+
+.multiselect-table tr > td {
+  height: 30px;
+  padding: 0 8px;
+}
+
+.multiselect-table tr > td.engine-status {
+  width: 32px;
+  line-height: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.multiselect-table td.separator {
+  padding: 0;
+  width: 1px;
+}
+
+.multiselect-table > thead td.separator > div {
+  padding: 0;
+  width: 1px;
+  height: 24px;
+  background-color: var(--grey-30);
+}
+
+.multiselect-table > tbody tr:nth-child(even) {
+  background-color: var(--grey-90-025);
+}
+
+.multiselect-table > tbody t  r {
+  -moz-user-select: none;
+}
+
+.multiselect-table > tbody tr:hover {
+  background-color: var(--grey-90-10);
+}
+
+.column-search-engine {
+  display: flex;
+  align-items: center;
+}
+
+.engine-status {
+/*   background-image: url("../images/check-16-active.svg"); */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.engine-status input[type="checkbox"] {
+  margin: 0;
+}
+
+.favicon {
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-color: var(--grey-30);
+}
+
+
+/* --------Transitions-------- */
+
+button,
+select,
+input[type="text"],
+input[type="checkbox"] {
+  transition-property: box-shadow;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(var(--animation-curve));
+}
+
+
+@keyframes focus-ring-color-shift {
+  from {
+    box-shadow: 0 0 0 1px var(--blue-50) inset,
+                0 0 0 4px var(--blue-50-10),
+                0 0 0 2px var(--blue-50-20);
+  }
+  to {
+    box-shadow: 0 0 0 1px var(--teal-60) inset,
+                0 0 0 4px var(--teal-50-10),
+                0 0 0 2px var(--teal-60-20);
+  }
+}
+
+@keyframes focus-ring-color-shift-solid {
+  from {
+    box-shadow: 0 0 0 1px var(--blue-50) inset,
+                0 0 0 4px var(--blue-50-10),
+                0 0 0 2px var(--blue-50-20),
+                0 0 0 2px #fff inset;
+  }
+  to {
+    box-shadow: 0 0 0 1px var(--teal-60) inset,
+                0 0 0 4px var(--teal-50-10),
+                0 0 0 2px var(--teal-60-20),
+                0 0 0 2px #fff inset;
+  }
+}
+
+@keyframes focus-ring-color-shift-field {
+  from {
+    border-color: var(--blue-50);
+    box-shadow: 0 0 0 4px var(--blue-50-10),
+                0 0 0 2px var(--blue-50-20);
+  }
+  to {
+    border-color: var(--teal-60);
+    box-shadow: 0 0 0 4px var(--teal-50-10),
+                0 0 0 2px var(--teal-60-20);
+  }
+}

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="360" viewBox="0 0 360 360">
+  <defs>
+    <polygon id="icon-shape-stroke-2-a" points="0 0 177 0 177 177 0 177"/>
+    <polygon id="icon-shape-stroke-2-c" points="0 0 265 0 265 265.201 0 265.201"/>
+    <polygon id="icon-shape-stroke-2-e" points="0 0 265 0 265 265.201 0 265.201"/>
+    <path id="icon-shape-stroke-2-g" d="M88.5,177 C39.7033125,177 0,137.296687 0,88.5 C0,39.7033125 39.7033125,0 88.5,0 C137.296688,0 177,39.7033125 177,88.5 C177,137.296687 137.296688,177 88.5,177 Z M88.125,24.125 C52.2775,24.125 23.125,53.2775 23.125,89.125 C23.125,124.9725 52.2775,154.125 88.125,154.125 C123.9725,154.125 153.125,124.9725 153.125,89.125 C153.125,53.2775 123.9725,24.125 88.125,24.125 Z M88.8535245,49.78125 L88.8535245,88.1464755 L127.21875,88.1464755 C130.468821,88.1464755 133.103524,90.7811788 133.103524,94.03125 C133.103524,97.2813212 130.468821,99.9160245 127.21875,99.9160245 L82.96875,99.9160245 C79.7186788,99.9160245 77.0839755,97.2813212 77.0839755,94.03125 L77.0839755,49.78125 C77.0839755,46.5311788 79.7186788,43.8964755 82.96875,43.8964755 C86.2188212,43.8964755 88.8535245,46.5311788 88.8535245,49.78125 Z"/>
+    <rect id="icon-shape-stroke-2-h" width="23" height="89" x="92" y="92"/>
+    <filter id="icon-shape-stroke-2-i" width="104.3%" height="101.1%" x="-2.2%" y="-.6%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.929411765   0 0 0 0 0   0 0 0 0 0.709803922  0 0 0 1 0"/>
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.929411765   0 0 0 0 0   0 0 0 0 0.709803922  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+    <rect id="icon-shape-stroke-2-j" width="12" height="89" x="169" y="92"/>
+    <filter id="icon-shape-stroke-2-k" width="108.3%" height="101.1%" x="-4.2%" y="-.6%" filterUnits="objectBoundingBox">
+      <feOffset dx="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.929411765   0 0 0 0 0   0 0 0 0 0.709803922  0 0 0 1 0"/>
+      <feOffset dx="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+      <feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+      <feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.929411765   0 0 0 0 0   0 0 0 0 0.709803922  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixInner1"/>
+        <feMergeNode in="shadowMatrixInner2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(92 92)">
+      <mask id="icon-shape-stroke-2-b" fill="#fff">
+        <use xlink:href="#icon-shape-stroke-2-a"/>
+      </mask>
+      <g mask="url(#icon-shape-stroke-2-b)">
+        <mask id="icon-shape-stroke-2-d" fill="#fff">
+          <use xlink:href="#icon-shape-stroke-2-c"/>
+        </mask>
+        <rect width="338" height="1" x="-1" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)"/>
+        <rect width="338" height="1" x="-1" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)"/>
+        <rect width="338" height="1" x="-1" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)"/>
+        <rect width="338" height="1" x="-1" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)"/>
+        <rect width="338" height="1" x="-1" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)"/>
+        <rect width="338" height="1" x="-1" y="187" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="198" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="209" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="220" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)"/>
+        <rect width="338" height="1" x="-1" y="231" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="242" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="253" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)" opacity=".3"/>
+        <rect width="338" height="1" x="-1" y="264" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-d)"/>
+      </g>
+      <g mask="url(#icon-shape-stroke-2-b)">
+        <g transform="matrix(0 -1 1 0 0 265)">
+          <mask id="icon-shape-stroke-2-f" fill="#fff">
+            <use xlink:href="#icon-shape-stroke-2-e"/>
+          </mask>
+          <rect width="338" height="1" x="-73" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)"/>
+          <rect width="338" height="1" x="-73" y="11" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="22" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="33" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="44" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)"/>
+          <rect width="338" height="1" x="-73" y="55" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="66" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="77" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="88" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)"/>
+          <rect width="338" height="1" x="-73" y="99" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="110" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="121" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="132" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)"/>
+          <rect width="338" height="1" x="-73" y="143" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="154" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="165" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="176" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)"/>
+          <rect width="338" height="1" x="-73" y="187" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="198" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="209" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="220" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)"/>
+          <rect width="338" height="1" x="-73" y="231" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="242" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="253" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)" opacity=".3"/>
+          <rect width="338" height="1" x="-73" y="264" fill="#D7D7DB" mask="url(#icon-shape-stroke-2-f)"/>
+        </g>
+      </g>
+      <rect width="165" height="165" x="6" y="6" stroke="#0C0C0D" stroke-opacity=".1" stroke-width="12"/>
+    </g>
+    <g transform="translate(92 92)">
+      <use fill="#FFF" xlink:href="#icon-shape-stroke-2-g"/>
+      <use fill="#0C0C0D" fill-opacity=".8" xlink:href="#icon-shape-stroke-2-g"/>
+    </g>
+    <g transform="translate(84 53)">
+      <rect width="1" height="9" x="30" y="26" fill="#ED00B5"/>
+      <rect width="21" height="1" x="9" y="30" fill="#ED00B5"/>
+      <rect width="1" height="9" x="8" y="26" fill="#ED00B5"/>
+      <rect width="39" height="22" fill="#ED00B5" fill-rule="nonzero" rx="2"/>
+      <path fill="#FFF" d="M12.754,6.9 C13.1340019,7.100001 13.423999,7.37399826 13.624,7.722 C13.824001,8.07000174 13.924,8.4639978 13.924,8.904 C13.924,9.41600256 13.8060012,9.9119976 13.57,10.392 C13.3339988,10.8720024 12.9560026,11.3979971 12.436,11.97 C11.9159974,12.5420029 11.1800048,13.2639956 10.228,14.136 L14.116,14.136 L13.996,15 L9.076,15 L9.076,14.184 C10.1560054,13.1519948 10.9579974,12.3440029 11.482,11.76 C12.0060026,11.1759971 12.367999,10.6760021 12.568,10.26 C12.768001,9.84399792 12.868,9.40400232 12.868,8.94 C12.868,8.47599768 12.7360013,8.11200132 12.472,7.848 C12.2079987,7.58399868 11.8440023,7.452 11.38,7.452 C10.987998,7.452 10.6620013,7.51799934 10.402,7.65 C10.1419987,7.78200066 9.87600136,8.0079984 9.604,8.328 L8.908,7.788 C9.23600164,7.37999796 9.60199798,7.08000096 10.006,6.888 C10.410002,6.69599904 10.8839973,6.6 11.428,6.6 C11.9320025,6.6 12.3739981,6.699999 12.754,6.9 Z M21.724,11.832 C21.724,12.832005 21.5160021,13.631997 21.1,14.232 C20.6839979,14.832003 20.080004,15.132 19.288,15.132 C18.5999966,15.132 18.0400022,14.8920024 17.608,14.412 L17.608,17.424 L16.6,17.544 L16.6,8.676 L17.464,8.676 L17.548,9.564 C17.7800012,9.23599836 18.0579984,8.98400088 18.382,8.808 C18.7060016,8.63199912 19.0559981,8.544 19.432,8.544 C20.9600076,8.544 21.724,9.63998904 21.724,11.832 Z M18.31,9.648 C18.0419987,9.84000096 17.808001,10.0799986 17.608,10.368 L17.608,13.5 C17.7760008,13.7480012 17.9859987,13.9419993 18.238,14.082 C18.4900013,14.2220007 18.7639985,14.292 19.06,14.292 C19.5880026,14.292 19.9819987,14.090002 20.242,13.686 C20.5020013,13.281998 20.632,12.6640042 20.632,11.832 C20.632,10.9999958 20.5160012,10.380002 20.284,9.972 C20.0519988,9.56399796 19.6880025,9.36 19.192,9.36 C18.8719984,9.36 18.5780013,9.45599904 18.31,9.648 Z M23.272,15 L25.6,11.664 L23.548,8.676 L24.748,8.676 L26.212,11.028 L27.688,8.676 L28.852,8.676 L26.8,11.616 L29.128,15 L27.904,15 L26.164,12.288 L24.424,15 L23.272,15 Z"/>
+      <polygon fill="#ED00B5" points="15 21 19 17 23 21 19 25"/>
+    </g>
+    <rect width="1.045" height="9" x="180" y="79" fill="#ED00B5"/>
+    <rect width="12" height="1" x="169" y="83" fill="#ED00B5"/>
+    <rect width="1.045" height="9" x="169" y="79" fill="#ED00B5"/>
+    <rect width="38.674" height="22" x="155" y="53" fill="#ED00B5" fill-rule="nonzero" rx="2"/>
+    <path fill="#FFF" d="M169.560109,67.184 L169.560109,68 L164.796109,68 L164.796109,67.184 L166.824109,67.184 L166.824109,60.836 L164.940109,61.976 L164.496109,61.268 L166.956109,59.732 L167.844109,59.732 L167.844109,67.184 L169.560109,67.184 Z M176.880109,64.832 C176.880109,65.832005 176.672111,66.631997 176.256109,67.232 C175.840107,67.832003 175.236113,68.132 174.444109,68.132 C173.756105,68.132 173.196111,67.8920024 172.764109,67.412 L172.764109,70.424 L171.756109,70.544 L171.756109,61.676 L172.620109,61.676 L172.704109,62.564 C172.93611,62.2359984 173.214107,61.9840009 173.538109,61.808 C173.86211,61.6319991 174.212107,61.544 174.588109,61.544 C176.116116,61.544 176.880109,62.639989 176.880109,64.832 Z M173.466109,62.648 C173.198107,62.840001 172.96411,63.0799986 172.764109,63.368 L172.764109,66.5 C172.932109,66.7480012 173.142107,66.9419993 173.394109,67.082 C173.64611,67.2220007 173.920107,67.292 174.216109,67.292 C174.744111,67.292 175.138107,67.090002 175.398109,66.686 C175.65811,66.281998 175.788109,65.6640042 175.788109,64.832 C175.788109,63.9999958 175.67211,63.380002 175.440109,62.972 C175.208107,62.563998 174.844111,62.36 174.348109,62.36 C174.028107,62.36 173.73411,62.455999 173.466109,62.648 Z M178.428109,68 L180.756109,64.664 L178.704109,61.676 L179.904109,61.676 L181.368109,64.028 L182.844109,61.676 L184.008109,61.676 L181.956109,64.616 L184.284109,68 L183.060109,68 L181.320109,65.288 L179.580109,68 L178.428109,68 Z"/>
+    <polygon fill="#ED00B5" points="170 74 174 70 178 74 174 78"/>
+    <use fill="#FC2DD7" fill-opacity=".25" xlink:href="#icon-shape-stroke-2-h"/>
+    <use fill="#000" filter="url(#icon-shape-stroke-2-i)" xlink:href="#icon-shape-stroke-2-h"/>
+    <g>
+      <use fill="#FC2DD7" fill-opacity=".25" xlink:href="#icon-shape-stroke-2-j"/>
+      <use fill="#000" filter="url(#icon-shape-stroke-2-k)" xlink:href="#icon-shape-stroke-2-j"/>
+    </g>
+  </g>
+</svg>

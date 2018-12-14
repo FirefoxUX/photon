@@ -9,7 +9,7 @@
   <h2>Usage</h2>
     <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/text-field.svg" alt="an input field example">
+      <img src="../images/input/input-fields-usage.png" alt="an input field example">
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p>
@@ -21,166 +21,104 @@
 
 <section>
   <h2>Styles</h2>
-  <p>The following specs are designed for desktop and web. Mobile UIs follow their platform guidelines. See <a href="https://material.io/guidelines/components/text-fields.html">Material Design Style Guide</a> for Android and <a href="https://developer.apple.com/macos/human-interface-guidelines/fields-and-labels/text-fields/">Apple's Human Interface Guideline</a> for iOS.</p>
-  <h3>Size and Color</h3>
+  <p>The following specs are designed for desktop and web. Mobile UIs follow their platform guidelines. See <a href="https://material.io/guidelines/components/text-fields.html">Material Design Guidelines</a> for Android and <a href="https://developer.apple.com/macos/human-interface-guidelines/fields-and-labels/text-fields/">Apple's Human Interface Guideline</a> for iOS.</p>
   <div class="cf nr2 nl2">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/text-field-spec.svg" alt="visual spec for an input field">
+      <img src="../images/input/input-fields-style.png" alt="an input field example">
     </div>
     <div class="fl-ns w-50-ns ph2">
-      <p>Label: <a href="./../visuals/typography.html#scale">Body 10</a>, Grey 90 <code>#0c0c0d</code>
-      <br>Hint: <a href="./../visuals/typography.html#scale">Body 20</a>, Grey 90 a40 <code>rgba(12, 12, 13, 0.4)</code>
-      <br>Input text: <a href="./../visuals/typography.html#scale">Body 20</a>, Grey 90 <code>#0c0c0d</code>
-      <br>Field height: 32px
-      <br>Padding: 8px</p>
-    </div>
-  </div>
-
-  <h3>Behaviors</h3>
-  <div class="cf nr2 nl2 mb3">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/input-normal.svg" alt="normal state example">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p><strong>Normal</strong><br>Border color: Grey 90 a30 <code>rgba(12, 12, 13, 0.3)</code></p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2 mb3">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/input-hover.svg" alt="hover state example">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p><strong>Hover</strong><br>Border color: Grey 90 a50 <code>rgba(12, 12, 13, 0.5)</code></p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2 mb3">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/input-press.svg" alt="press and focus state example">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <strong>Focus</strong><br>
-        Border color: Blue 50 <code>#0a84ff</code><br>
-        Box Shadow: <code>0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code>
-      </p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2 mb3">
-   <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/input-type.svg" alt="type state example">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p><strong>Type</strong><br>Border color: Blue 50 <code>#0a84ff</code></p>  
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2 mb3">
-   <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/input-enter.svg" alt="valid state example">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p><strong>Enter Valid</strong><br>Border color: Grey 90 a30 <code>rgba(12, 12, 13, 0.3)</code></p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2 mb3">
-   <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/input-invalid.svg" alt="invalid state example">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>
-        <strong>Enter Invalid (optional)</strong><br>Border color: Red 50 <code>#ff0039</code> <a href="../patterns/errors.html">See Errors</a>
-      </p>
-    </div>
-  </div>
-
-  <div class="cf nr2 nl2 mb3">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/input-repress.svg" alt="press again state example">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p><strong>Press Again</strong><br>Border color: Blue 50 <code>#0a84ff</code></p>
+      <p class="fw6 mb1">Size</p>
+      <p class="mb1">Label margin bottom: <code>8px</code></p>
+      <p class="mb1">Corner radius: <code>2px</code></p>
+      <p class="mb1">Padding horizontal: <code>8px</code></p>
+      <p class="mb1">Width: <code>auto</code></p>
+      <p>Height: <code>32px</code></p>
+      <p class="fw6 mb1">Color</p>
+      <p class="mb1">Label: Grey 90 <code>#0c0c0d</code></p>
+      <p class="mb1">Border: Grey 90 a20 <code>rgba(12, 12, 13, 0.2)</code></p>
+      <p>Placeholder: Grey 50 <code>#737373</code></p>
+      <p class="fw6 mb1">Typography</p>
+      <p class="mb1">Label: <code>0.833rem/1.4</code></p>
+      <p>Placeholder: <code>0.833rem/1.4</code></p>
+      <p class="fw6 mb1">Icons</p>
+      <p class="mb1">Icon width: <code>16px</code></p>
+      <p class="mb1">Icon height: <code>16px</code></p>
+      <p class="mb1">Placeholder icon: Grey 90 a40 <code>rgba(12, 12, 13, 0.4)</code></p>
+      <p>Action icon: Grey 90 a60 <code>rgba(12, 12, 13, 0.6)</code></p>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>Variants</h2>
-  <h3>Label</h3>
-  <div class="cf nr2 nl2">
+  <h2>Behaviors</h2>
+  <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/label.svg" alt="an example of adding a label to an input field">
+      <img src="../images/input/input-fields-behaviour.png" alt="normal state example">
     </div>
     <div class="fl-ns w-50-ns ph2">
-      <p>A text label is highly recommended for an input field that explains what kind of data should be filled.</p> 
-      <p>The position of the input field can be either on the top or in font of the input field.</p>
+      <p class="fw6 mb1">Default</p>
+      <p>Border color: Grey 90 a20 <code>rgba(12, 12, 13, 0.2)</code></p>
+      <p class="fw6 mb1">Hover</p>
+      <p>Border color: Grey 90 a30 <code>rgba(12, 12, 13, 0.3)</code></p>
+      <p class="fw6 mb1">Focus</p>
+      <p class="mb1">Border color: Blue 50 <code>#0a84ff</code></p>
+      <p>Box shadow: <code>0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+      <p class="fw6 mb1">Warning</p>
+      <p class="mb1">Border color: Yellow 60 <code>#d7b600</code></p>
+      <p>Box shadow: <code>0 0 0 1px #d7b600, 0 0 0 4px rgba(215, 182, 0, 0.3)</code></p>
+      <p class="fw6 mb1">Error</p>
+      <p class="mb1">Border color: Red 60 <code>#d70022</code></p>
+      <p>Box shadow: <code>0 0 0 1px #d70022, 0 0 0 4px rgba(251, 0, 34, 0.3)</code></p>
     </div>
   </div>
-
-  <h3>Hint</h3>
-  <div class="cf nr2 nl2">
+  <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/hint.svg" alt="an example of adding a hint to an input field">
+      <img src="../images/input/input-fields-action-icon-clear.png" alt="Interaction of a text input field">
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p>
-        An input field can include a hint that gives users an example of the requested text. This is especially useful when the input must conform to rules for formatting, e.g., a date that follows a DD/MM/YYYY format. <a href="input-fields.html#copy-rules">See Copy Rules</a>
+        In text fields, when a user starts typing display a <a href="https://design.firefox.com/icons/viewer/#clear%20text%20field%2016">clear text field icon</a> on the opposite side of the field.
       </p>
     </div>
   </div>
-
-  <h3>Icon</h3>
-  <div class="cf nr2 nl2">
+  <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/icon.svg" alt="an example of adding an icon to an input field">
-    </div>
-    <div class="fl-ns w-50-ns ph2">
-      <p>Search Icon: 16*16px, Gray 90 a40 <code>rgba(12, 12, 13, 0.4)</code></p>
-      <p>A search field can either live-search results or present search results after users send a query.</p>
-    </div>
-  </div>
-
-  <h3>Caption</h3>
-  <div class="cf nr2 nl2">
-    <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/caption.svg" alt="an example of adding a caption to an input field">
+      <img src="../images/input/input-fields-overflow.png" alt="Text overflow in an input field">
     </div>
     <div class="fl-ns w-50-ns ph2">
       <p>
-        Captions can tell the criteria of the input field. Use Caption 10 for captions. <a href="../visuals/typography.html#scale">See Typography</a>
+        In input fields, when the text overflows outside the field add a linear gradient to indicate to users that something is hidden.
       </p>
     </div>
   </div>
-
-  <h3>Dropdown List</h3>
-  <div class="cf nr2 nl2">
+  <div class="cf nr2 nl2 mb3">
     <div class="fl-ns w-50-ns ph2">
-      <img src="../images/input/dropdown.svg" alt="an example of adding a dropdown list to an input field">
+      <img src="../images/input/input-fields-action-icon-show-password.png" alt="Interaction of a password field">
     </div>
     <div class="fl-ns w-50-ns ph2">
-      <p>A dropdown list can be paired with input fields for giving suggestions.</p>
+      <p>
+        In password fields, when a user starts typing display a password show icon and password hide icon on press.
+      </p>
     </div>
   </div>
 </section>
 
 <section>
   <h2>Copy Rules</h2>
-  <h3>Input field Messages</h3>
+  <h3>Input Fields Messages</h3>
   <p>
     <ul>
-      <li>Prioritize brevity over niceties. Don't say please. Just tell people what to do. "Choose a number that is less than . . . "</li>
+      <li>Prioritize brevity over niceties. Don't say please. Just tell people what to do. "Choose a number that is less than..."</li>
       <li>Be as specific as possible in the message. "Choose a date" or "Choose a time" or "Enter an address” are all better than “Enter a value.”</li>
       <li>Speak to users’ cognitive processes instead of their tactile ones where possible. Use words like “choose” or “select” instead of “type” or “key”. We'd rather engage users' minds than their hands, and this also speaks more universally to users accessing the Web with touchscreens, speech-recognition software, or other user input devices.</li>
       <li>If there are programmatic rules governing valid choices, expose these in the messages where possible. Don't just tell someone that X is the nearest valid value, tell them that they must choose values in x increments. "Choose times in 30-minute increments from 8:00 am."</li>
     </ul>
 
-  <h3>Search Field Hint</h3>
+  <h3>Input Fields Placeholders</h3>
   <p>
     <ul>
-      <li>Tell users what objects are going to be searched if possible. “Search + object” is more clear than just saying “Search”.</li>
+      <li>
+        Tell users what objects are going to be searched if possible. “Search + object” is more clear than just saying “Search”.</li>
     </ul>
   </p>
 </section>

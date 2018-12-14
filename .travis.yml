@@ -1,6 +1,4 @@
-language: node_js
-node_js:
-- 7.7.0
+language: c
 # safelist
 branches:
   only:

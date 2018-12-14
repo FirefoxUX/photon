@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="240" viewBox="0 0 360 240">
+  <defs>
+    <rect id="doorhanger-pointer-a" width="168" height="240"/>
+    <polygon id="doorhanger-pointer-d" points="-71 65 75 65 84 56 93 65 109 65 109 185 -71 185"/>
+    <filter id="doorhanger-pointer-c" width="130%" height="141.9%" x="-15%" y="-17.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0470588235   0 0 0 0 0.0470588235   0 0 0 0 0.0509803922  0 0 0 0.1 0"/>
+    </filter>
+    <rect id="doorhanger-pointer-e" width="168" height="240"/>
+    <polygon id="doorhanger-pointer-h" points="59 65 75 65 84 56 93 65 239 65 239 185 59 185"/>
+    <filter id="doorhanger-pointer-g" width="130%" height="141.9%" x="-15%" y="-17.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.0470588235   0 0 0 0 0.0470588235   0 0 0 0 0.0509803922  0 0 0 0.1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(192)">
+      <mask id="doorhanger-pointer-b" fill="#fff">
+        <use xlink:href="#doorhanger-pointer-a"/>
+      </mask>
+      <g mask="url(#doorhanger-pointer-b)">
+        <use fill="#000" filter="url(#doorhanger-pointer-c)" xlink:href="#doorhanger-pointer-d"/>
+        <use fill="#FFF" xlink:href="#doorhanger-pointer-d"/>
+        <path stroke="#0C0C0D" stroke-opacity=".2" d="M74.7928932,64.5 L84,55.2928932 L93.2071068,64.5 L109.5,64.5 L109.5,185.5 L-71.5,185.5 L-71.5,64.5 L74.7928932,64.5 Z"/>
+      </g>
+    </g>
+    <mask id="doorhanger-pointer-f" fill="#fff">
+      <use xlink:href="#doorhanger-pointer-e"/>
+    </mask>
+    <g mask="url(#doorhanger-pointer-f)">
+      <use fill="#000" filter="url(#doorhanger-pointer-g)" xlink:href="#doorhanger-pointer-h"/>
+      <use fill="#FFF" xlink:href="#doorhanger-pointer-h"/>
+      <path stroke="#0C0C0D" stroke-opacity=".2" d="M74.7928932,64.5 L84,55.2928932 L93.2071068,64.5 L239.5,64.5 L239.5,185.5 L58.5,185.5 L58.5,64.5 L74.7928932,64.5 Z"/>
+    </g>
+    <rect width="1" height="160" x="167" y="45" fill="#D7D7DB"/>
+    <rect width="1" height="160" x="192" y="45" fill="#D7D7DB"/>
+  </g>
+</svg>
