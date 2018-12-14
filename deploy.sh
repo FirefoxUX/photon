@@ -15,7 +15,11 @@ cd dist
 rm -rf *
 cd ..
 
-cp -r jekyll/* dist
+cd jekyll
+bundle exec jekyll build
+cd ..
+
+cp -r jekyll/_site/* dist
 
 # inside the gh-pages repo we'll pretend to be a new user
 cd dist
