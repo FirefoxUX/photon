@@ -13,10 +13,6 @@
         margin-left: 15px;
         padding-left: 0;
     }
-
-    @include media-query($on-palm) {
-        padding-left: 52px;
-    }
 }
 
 .site-title {
@@ -37,6 +33,11 @@
     float: left;
     margin-left: $spacing-unit / 2;
     margin-top: $spacing-unit / 2;
+
+
+    @include media-width(800px) {
+        float: none;
+    }
 
     div {
         overflow: hidden;
@@ -63,56 +64,8 @@
         padding-bottom: .5rem;
         padding-left: 1rem;
     }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: left;
-
-        .menu-icon {
-            display: block;
-            float: left;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
 }
+
 
 .draft {
     background-color: $draft-background;
@@ -129,6 +82,12 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    .wrapper {
+        padding-left: 0;
+        @include media-width(800px) {
+            margin-left: 15px;
+        }
+    }
 }
 
 .footer-heading {
@@ -158,40 +117,26 @@
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+    @include media-width(800px) {
+        width: 100%;
+    }
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
+    @include media-width(800px) {
+        width: 100%;
+    }
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+    @include media-width(800px) {
+        width: 100%;
     }
 }
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
 
 /**
  * Page content
@@ -328,25 +273,16 @@ video {
         font-size: 22px;
         font-weight: 300;
         margin: 3rem 0 1rem;
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
     }
     h3 {
         font-size: 17px;
         font-weight: 500;
         margin: 2rem 0 1rem;
-        @include media-query($on-laptop) {
-            font-size: 15px;
-        }
     }
     h4 {
         font-size: 15px;
         font-weight: 500;
         margin: 1rem 0 .5rem;
-        @include media-query($on-laptop) {
-            font-size: 12px;
-        }
     }
     p {
         font-size: 15px;
