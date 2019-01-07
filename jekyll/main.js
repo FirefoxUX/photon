@@ -37,5 +37,38 @@
       });
     });
 
+    // Add click-to-copy colours.
+    document.querySelectorAll('.colors').forEach(node => {
+      // node.classList.add('clickable');
+      node.querySelectorAll('td.name, td > code').forEach(color => {
+        color.classList.add('copyable');
+      });
+
+      node.addEventListener('click', e => {
+        let text;
+        if (e.target.tagName === 'CODE') {
+          text = e.target.textContent;
+        } else if (e.target.classList.contains('name')) {
+          text = e.target.parentNode.querySelector('td > code').textContent;
+        }
+
+        console.log("Copying ", text);
+
+        if (!text) {
+          return;
+        }
+
+        let copyElement = document.createElement('input');
+        copyElement.setAttribute('type', 'text');
+        copyElement.setAttribute('value', text);
+        copyElement = document.body.appendChild(copyElement);
+        copyElement.select();
+        document.execCommand('copy');
+        copyElement.remove();
+        e.target.parentNode.querySelector('td > code').classList.add('copied');
+        setTimeout(() => {e.target.parentNode.querySelector('td > code').classList.remove('copied')}, 2000);
+      });
+    });
+
   });
 })();
