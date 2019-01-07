@@ -56,6 +56,7 @@
         padding-top: .5rem;
         padding-bottom: .5rem;
         font-weight: 500;
+        cursor: pointer;
     }
 
     .page-link {
@@ -64,8 +65,11 @@
         padding-bottom: .5rem;
         padding-left: 1rem;
     }
-}
 
+    span.page-link {
+        font-weight: 500;
+    }
+}
 
 .draft {
     background-color: $draft-background;
