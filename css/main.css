@@ -160,8 +160,6 @@ pre {
   padding-left: 350px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -209,9 +207,6 @@ iframe {
   .site-header .wrapper {
     margin-left: 15px;
     padding-left: 0; }
-  @media screen and (max-width: 600px) {
-    .site-header {
-      padding-left: 52px; } }
 
 .site-title {
   font-size: 26px;
@@ -227,6 +222,9 @@ iframe {
   float: left;
   margin-left: 15px;
   margin-top: 15px; }
+  @media screen and (max-width: 800px) {
+    .site-nav {
+      float: none; } }
   .site-nav div {
     overflow: hidden; }
   .site-nav .menu-icon {
@@ -243,40 +241,6 @@ iframe {
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 1rem; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      background-color: #f9f9fa;
-      border: 1px solid #d7d7db;
-      border-radius: 5px;
-      text-align: left; }
-      .site-nav .menu-icon {
-        display: block;
-        float: left;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          width: 18px;
-          height: 15px; }
-          .site-nav .menu-icon > svg path {
-            fill: #737373; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
 
 .draft {
   background-color: #ffe900;
@@ -291,6 +255,11 @@ iframe {
 .site-footer {
   border-top: 1px solid #d7d7db;
   padding: 30px 0; }
+  .site-footer .wrapper {
+    padding-left: 0; }
+    @media screen and (max-width: 800px) {
+      .site-footer .wrapper {
+        margin-left: 15px; } }
 
 .footer-heading {
   font-size: 18px;
@@ -314,29 +283,24 @@ iframe {
 .footer-col-1 {
   width: -webkit-calc(35% - (30px / 2));
   width: calc(35% - (30px / 2)); }
+  @media screen and (max-width: 800px) {
+    .footer-col-1 {
+      width: 100%; } }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (30px / 2));
   width: calc(20% - (30px / 2)); }
+  @media screen and (max-width: 800px) {
+    .footer-col-2 {
+      width: 100%; } }
 
 .footer-col-3 {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
+  @media screen and (max-width: 800px) {
+    .footer-col-3 {
+      width: 100%; } }
 
-@media screen and (max-width: 800px) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (30px / 2));
-    width: calc(50% - (30px / 2)); }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
-@media screen and (max-width: 600px) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
 /**
  * Page content
  */
@@ -435,23 +399,14 @@ video {
     font-size: 22px;
     font-weight: 300;
     margin: 3rem 0 1rem; }
-    @media screen and (max-width: 800px) {
-      .post h2 {
-        font-size: 18px; } }
   .post h3 {
     font-size: 17px;
     font-weight: 500;
     margin: 2rem 0 1rem; }
-    @media screen and (max-width: 800px) {
-      .post h3 {
-        font-size: 15px; } }
   .post h4 {
     font-size: 15px;
     font-weight: 500;
     margin: 1rem 0 .5rem; }
-    @media screen and (max-width: 800px) {
-      .post h4 {
-        font-size: 12px; } }
   .post p {
     font-size: 15px;
     line-height: 1.5;
