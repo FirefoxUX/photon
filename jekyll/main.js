@@ -37,5 +37,57 @@
       });
     });
 
+    // Add click-to-copy colours.
+    document.querySelectorAll('code').forEach(node => {
+      node.classList.add('copyable');
+      node.addEventListener('click', e => {
+        let text = e.target.textContent;
+
+        if (!text) {
+          return;
+        }
+
+        e.preventDefault();
+        let copyElement = document.createElement('input');
+        copyElement.setAttribute('type', 'text');
+        copyElement.setAttribute('value', text);
+        copyElement = document.body.appendChild(copyElement);
+        copyElement.select();
+        document.execCommand('copy');
+        copyElement.remove();
+        e.target.classList.add('copied');
+        setTimeout(() => {e.target.classList.remove('copied')}, 1000);
+      });
+    });
+
+    document.querySelectorAll('table.colors').forEach(node => {
+      node.querySelectorAll('td.name').forEach(color => {
+        color.classList.add('copyable');
+      });
+
+      node.addEventListener('click', e => {
+        let code;
+        let text;
+        if (e.target.classList.contains('name')) {
+          code = e.target.parentNode.querySelector('td > code');
+          text = code.textContent;
+        }
+
+        if (!text) {
+          return;
+        }
+
+        let copyElement = document.createElement('input');
+        copyElement.setAttribute('type', 'text');
+        copyElement.setAttribute('value', text);
+        copyElement = document.body.appendChild(copyElement);
+        copyElement.select();
+        document.execCommand('copy');
+        copyElement.remove();
+        code.classList.add('copied');
+        setTimeout(() => {code.classList.remove('copied')}, 1000);
+      });
+    });
+
   });
 })();
