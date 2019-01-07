@@ -38,21 +38,40 @@
     });
 
     // Add click-to-copy colours.
-    document.querySelectorAll('.colors').forEach(node => {
-      // node.classList.add('clickable');
-      node.querySelectorAll('td.name, td > code').forEach(color => {
+    document.querySelectorAll('code').forEach(node => {
+      node.classList.add('copyable');
+      node.addEventListener('click', e => {
+        let text = e.target.textContent;
+
+        if (!text) {
+          return;
+        }
+
+        e.preventDefault();
+        let copyElement = document.createElement('input');
+        copyElement.setAttribute('type', 'text');
+        copyElement.setAttribute('value', text);
+        copyElement = document.body.appendChild(copyElement);
+        copyElement.select();
+        document.execCommand('copy');
+        copyElement.remove();
+        e.target.classList.add('copied');
+        setTimeout(() => {e.target.classList.remove('copied')}, 1000);
+      });
+    });
+
+    document.querySelectorAll('table.colors').forEach(node => {
+      node.querySelectorAll('td.name').forEach(color => {
         color.classList.add('copyable');
       });
 
       node.addEventListener('click', e => {
+        let code;
         let text;
-        if (e.target.tagName === 'CODE') {
-          text = e.target.textContent;
-        } else if (e.target.classList.contains('name')) {
-          text = e.target.parentNode.querySelector('td > code').textContent;
+        if (e.target.classList.contains('name')) {
+          code = e.target.parentNode.querySelector('td > code');
+          text = code.textContent;
         }
-
-        console.log("Copying ", text);
 
         if (!text) {
           return;
@@ -65,8 +84,8 @@
         copyElement.select();
         document.execCommand('copy');
         copyElement.remove();
-        e.target.parentNode.querySelector('td > code').classList.add('copied');
-        setTimeout(() => {e.target.parentNode.querySelector('td > code').classList.remove('copied')}, 2000);
+        code.classList.add('copied');
+        setTimeout(() => {code.classList.remove('copied')}, 1000);
       });
     });
 

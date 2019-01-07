@@ -1,48 +1,4 @@
 .post-content.visuals.color {
-
-  table td code {
-    position: relative;
-
-    &::after {
-      background-color: $grey-70;
-      border-radius: 4px;
-      color: white;
-      content: "Click to copy";
-      display: block;
-      font-family: "Fira Sans";
-      font-size: 11px;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      font-weight: 500;
-      left: 50%;
-      line-height: 1;
-      opacity: 0;
-      padding: .25rem;
-      position: absolute;
-      text-align: center;
-      text-transform: uppercase;
-      top: 0;
-      transform: translateX(-50%);
-      transition: top .3s cubic-bezier(.07, .95, 0, 1), opacity .3s cubic-bezier(.07, .95, 0, 1);
-      width: 5.2rem;
-      z-index: 1;
-    }
-
-    &:hover {
-      &::after {
-        opacity: 1;
-        top: -1.4rem;
-      }
-    }
-
-    &.copied::after {
-      content: "Copied!";
-      opacity: 1;
-      top: -1.4rem;
-      width: 2.8rem;
-    }
-  }
-
   table.example {
     margin: 0;
     border: none;
