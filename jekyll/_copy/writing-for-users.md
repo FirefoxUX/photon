@@ -23,7 +23,7 @@ In general, use the second person (“you”) to address the user in Firefox pro
 
 Providing context for key features/tasks and stating their importance helps users understand the benefits of Firefox.
 
-{% include copy/writing-for-the-user-do-dont.md %}s
+{% include copy/writing-for-the-user-do-dont.md %}
 
 ## Prioritize User Over Program
 

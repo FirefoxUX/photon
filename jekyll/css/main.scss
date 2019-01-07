@@ -11,7 +11,7 @@ $base-font-family: "Fira Sans";
 $code-font-family: "Fira Mono";
 $base-font-size:   14px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -43,6 +43,7 @@ $content-width:    800px;
         "base",
         "layout",
         "syntax-highlighting",
+        "introduction",
         "colors",
         "motion",
         "copy",
