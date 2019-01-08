@@ -306,6 +306,9 @@ div[data-tabs] {
 
     div[data-tab] {
         grid-column-end: span 6;
+        padding: .5rem;
+        border: 1px solid $grey-20;
+        margin-top: -1px;
     }
 
     input {
@@ -313,9 +316,11 @@ div[data-tabs] {
     }
 
     input + label {
-        border-top: 2px solid hsla(0,0%,100%,0);
-        border-top-color: rgba(255, 255, 255, 0);
+        border: 1px solid $grey-20;
+        border-top-width: 2px;
         padding: .5rem;
+        z-index: 1;
+        cursor: pointer;
 
         &:hover {
             background-color: $grey-20;
@@ -324,8 +329,13 @@ div[data-tabs] {
     }
 
     input:checked + label {
-        border-color: $blue-50;
+        border-top-color: $blue-50;
+        border-bottom-color: $grey-10;
         color: $blue-60;
+
+        &:hover {
+            border-bottom-color: $grey-20;
+        }
     }
 
     input + label + div[data-tab] {
