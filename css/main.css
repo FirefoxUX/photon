@@ -86,6 +86,9 @@ a {
     vertical-align: middle;
     width: 16px; }
 
+.copyable {
+  cursor: pointer; }
+
 /**
  * Blockquotes
  */
@@ -195,6 +198,40 @@ pre {
 iframe {
   width: 100%;
   height: 180px; }
+
+code {
+  position: relative; }
+  code::after {
+    background-color: #38383d;
+    border-radius: 4px;
+    color: white;
+    content: "Click to copy";
+    display: block;
+    font-family: "Fira Sans";
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 500;
+    left: 50%;
+    line-height: 1;
+    opacity: 0;
+    padding: .25rem;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    transform: translateX(-50%);
+    transition: top 0.3s cubic-bezier(0.07, 0.95, 0, 1), opacity 0.3s cubic-bezier(0.07, 0.95, 0, 1);
+    width: 5.2rem;
+    z-index: 1; }
+  code:hover::after {
+    opacity: 1;
+    top: -1.4rem; }
+  code.copied::after {
+    content: "Copied!";
+    opacity: 1;
+    top: -1.4rem;
+    width: 2.8rem; }
 
 /**
  * Site header
@@ -423,19 +460,27 @@ div[data-tabs] {
   grid-auto-flow: row dense;
   grid-template-columns: repeat(6, 1fr); }
   div[data-tabs] div[data-tab] {
-    grid-column-end: span 6; }
+    grid-column-end: span 6;
+    padding: .5rem;
+    border: 1px solid #ededf0;
+    margin-top: -1px; }
   div[data-tabs] input {
     display: none; }
   div[data-tabs] input + label {
-    border-top: 2px solid rgba(255, 255, 255, 0);
-    border-top-color: rgba(255, 255, 255, 0);
-    padding: .5rem; }
+    border: 1px solid #ededf0;
+    border-top-width: 2px;
+    padding: .5rem;
+    z-index: 1;
+    cursor: pointer; }
     div[data-tabs] input + label:hover {
       background-color: #ededf0;
       border-color: #d7d7db; }
   div[data-tabs] input:checked + label {
-    border-color: #0a84ff;
+    border-top-color: #0a84ff;
+    border-bottom-color: #f9f9fa;
     color: #0060df; }
+    div[data-tabs] input:checked + label:hover {
+      border-bottom-color: #ededf0; }
   div[data-tabs] input + label + div[data-tab] {
     display: none; }
   div[data-tabs] input:checked + label + div[data-tab] {
