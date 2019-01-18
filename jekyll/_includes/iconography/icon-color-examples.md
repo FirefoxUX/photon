@@ -10,7 +10,7 @@ Use color semantically. Adapt it according to your background, keeping the contr
 Use Grey 90 a80 `rgba(12, 12, 13, 0.8)` on light backgrounds.
 </div>
 <div markdown="1">
-![Icons on the toolbar with dark theme](../images/icons/icon-color-dark-bg.svg)a 
+![Icons on the toolbar with dark theme](../images/icons/icon-color-dark-bg.svg) 
 
 <figcaption>Toolbar icon on dark theme.</figcaption>
 </div>
