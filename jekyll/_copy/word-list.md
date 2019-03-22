@@ -256,6 +256,13 @@ Hyphenated in all forms and uses.
 
 Use hyperlinked system text to indicate links to another screen or webpage see also “[buttons](#buttons).”
 
+### Log in/Login
+{:#login}
+
+Log in - verb<br/>
+Login - noun or adj.<br/>
+*Note:* "Log in to" is correct, "log into" is not.
+
 ### long-pressing
 {:#long-pressing}
 
