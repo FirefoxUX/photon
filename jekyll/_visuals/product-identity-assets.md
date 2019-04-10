@@ -116,7 +116,7 @@ Use the Firefox icon with Firefox below when horizontal space is an issue. Use t
 <div markdown="1">
 ![Firefox app icon](../images/product-identity-assets/firefox-default.png)
 
-<figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg), [.pdf](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.pdf), or [.png](https://design.firefox.com/product-identity/firefox/firefox/firefox/firefox-logo.png)
+<figcaption markdown="1">Download [.svg](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg), [.pdf](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.pdf), or [.png](https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png)
 </figcaption>
 </div>
 <div markdown="1">
