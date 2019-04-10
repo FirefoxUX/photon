@@ -23,7 +23,10 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  font-kerning: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -157,14 +160,12 @@ pre {
 .wrapper {
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 350px; }
+  flex: 1;
+  margin: 0 auto;
+  padding: 0 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      padding-right: 15px;
-      padding-left: 15px; } }
+      padding: 0 15px; } }
 
 /**
  * Clearfix
@@ -256,12 +257,14 @@ code {
     color: #737373; }
 
 .site-nav {
-  float: left;
-  margin-left: 15px;
-  margin-top: 15px; }
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-top: -30px; }
   @media screen and (max-width: 800px) {
     .site-nav {
-      float: none; } }
+      min-height: 0;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #d7d7db; } }
   .site-nav div {
     overflow: hidden; }
   .site-nav .menu-icon {
@@ -345,7 +348,13 @@ code {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  flex: 1;
+  display: flex;
+  min-width: 100vw; }
+  @media screen and (max-width: 800px) {
+    .page-content {
+      flex-direction: column; } }
 
 .page-heading {
   font-size: 20px; }
@@ -390,6 +399,9 @@ code {
   background-color: #f9f9fa;
   outline: 1px solid rgba(12, 12, 13, 0.1);
   outline-offset: -1px; }
+@media screen and (max-width: 800px) {
+  .page-content .wrapper {
+    margin-top: 30px; } }
 
 .introduction .icons img {
   display: block;
