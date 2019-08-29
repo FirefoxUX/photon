@@ -82,7 +82,7 @@ Use our styles for visual appearance and tone, and use platform conventions for 
     </tr>
     <tr>
       <td><p>Web</p></td>
-      <td><p><a href="../welcome.html">Photon Design System</a></p></td>
+      <td><p><a href="../">Photon Design System</a></p></td>
     </tr>
     <tr>
       <td><p>Windows</p></td>
