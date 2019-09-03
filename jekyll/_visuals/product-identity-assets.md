@@ -186,14 +186,4 @@ It can also be used to represent Firefox in another environment with its own sty
 
 ## Additional Guidelines
 
-Icons files containing our trademarks are available under the following licenses: vector logo files under [CC-BY 3.0](https://creativecommons.org/licenses/by-sa/3.0/) or later; bitmap logo files under [MPL 2](https://www.mozilla.org/en-US/MPL/2.0/). By using these, you agree that you will not:
-
-* make an icon or lockup the most distinctive or prominent feature on a non-Firefox website, printed material or other content
-
-* use our logos in a way that suggests any type of association or partnership with Mozilla or approval, sponsorship or endorsement by Mozilla (unless allowed via a license from us)
-
-* use our logos in a way that is harmful, deceptive, obscene or otherwise objectionable to the average person
-
-* use our logos on websites or other places containing content associated with hate speech, pornography, gambling or illegal activities
-
-* use our logos to, or in connection with, content that disparages us or sullies our reputation.
+Icons files containing our trademarks are available under the following licenses: vector logo files under [CC-BY 3.0](https://creativecommons.org/licenses/by-sa/3.0/) or later; bitmap logo files under [MPL 2](https://www.mozilla.org/en-US/MPL/2.0/). By using these, you agree that you will comply with Mozilla’s [Trademark Guidelines](https://www.mozilla.org/en-US/foundation/trademarks/) and [Software Distribution Guidelines](https://www.mozilla.org/en-US/foundation/trademarks/distribution-policy/).
