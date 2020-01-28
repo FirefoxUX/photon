@@ -14,6 +14,6 @@ Open up http://localhost:4000/photon/
 Once you have something you like, it's time to share it with the rest of us!
 
 To get your changes merged:
-* Make sure you're working on `staging`, and submit the pull request to there. All our commits go through the staging site before being pushed to `master`.
+* Make sure you're working on `master`, and submit the pull request to there.
 * Make your pull request as small as possible (so it's easier to review and merge them).
 * If it's something that needs to be merged as soon as possible, add a tag (e.g. urgent).
