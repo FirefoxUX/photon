@@ -395,6 +395,11 @@ As with possessives, it is preferable not to pluralize our brands or product nam
 
 Use preferences (instead of settings) for Firefox desktop on Mac to conform with the platform; see also, [settings](#settings).
 
+### primary password
+{:#primary-password}
+
+Use primary password (instead of master password).
+
 ### Private Browsing
 {:#Private-Browsing}
 
@@ -530,11 +535,6 @@ Used to describe the API an extension is built on; describes the technology, not
 {:#WebFWD}
 
 Please note the capitalization, unless dealing with a URL (webfwd.org).
-
-### webmaster
-{:#webmaster}
-
-One word, lowercase.
 
 ### Web Push
 {:#Web-Push}
