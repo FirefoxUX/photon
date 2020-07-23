@@ -41,8 +41,6 @@ Educate users about features and options without talking down to them or appeari
 
 Use easy-to-understand language that aligns content with functionality. Focus on what happens to the user, not on what is happening to the software. It is better to be not wrong than to be exhaustively technically accurate.
 
-{% include copy/be-human.md %}
-
 ## Maintain Parallel Constructions
 
 Create a clear distinction between the meaning of words and phrases.
