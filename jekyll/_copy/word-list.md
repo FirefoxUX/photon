@@ -398,7 +398,7 @@ Use preferences (instead of settings) for Firefox desktop on Mac to conform with
 ### primary password
 {:#primary-password}
 
-Use primary password (instead of master password).
+Primary Password is a password that unlocks the other passwords saved locally in Firefox. Primary passwords are not synced between profiles or devices. Primary Password was formerly called Master Password, a racist metaphor that perpetuates white supremacy. Firefox no longer uses this term.
 
 ### Private Browsing
 {:#Private-Browsing}
