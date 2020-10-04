@@ -10,11 +10,11 @@
 
 ##### BUTTONS
 
-Default: Blue 60 `#0a84ff`
+Default: Grey 90 a10 `rgba(12, 12, 13, 0.1)`
 
-Hover: Blue 70 `#0060df`
+Hover: Grey 90 a20 `rgba(12, 12, 13, 0.2)`
 
-Pressed: Blue 80 `#003eaa`
+Pressed: Grey 90 a30 `rgba(12, 12, 13, 0.3)`
 </div>
 </div>
 
