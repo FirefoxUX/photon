@@ -1,0 +1,205 @@
+I"T<p>We use different capitalization styles for different types of content to improve scannability, organize information, and guide users to key actions.</p>
+
+<p>When building new Firefox products, we also align capitalization practices with platform conventions to match user expectations.</p>
+
+<h2 id="capitalization-styles">Capitalization Styles</h2>
+
+<h3 id="title-case-most-words-are-capitalized">Title Case: Most Words Are Capitalized</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/copy/capitalization/capitalization-title-case.svg" alt="Title Case example" /></p>
+
+    <figcaption>Title case example</figcaption>
+  </div>
+<div>
+    <p><strong>Do capitalize</strong></p>
+
+    <ul>
+      <li>The first letter of nouns, adjectives, verbs, adverbs, and pronouns</li>
+      <li>The first and last words of the text element</li>
+      <li>The second word of a hyphenated compound unless it is an article or preposition (for example: “Quick-Search Options” and “Add-on Choices”).</li>
+    </ul>
+
+    <p><strong>Don’t capitalize</strong></p>
+
+    <ul>
+      <li>Articles (“a,” “an,” “the”) or prepositions with fewer than five letters (“to,” “on,” “at,” “by,” “from”) unless they’re the first or last words of the text element.</li>
+    </ul>
+  </div>
+</div>
+
+<h3 id="sentence-case-most-words-are-lowercase">Sentence Case: Most Words Are Lowercase</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/copy/capitalization/capitalization-sentence-case.svg" alt="Sentence case example" /></p>
+
+    <figcaption>Sentence case example</figcaption>
+  </div>
+<div>
+    <p>Only capitalize the first word of the text element, as well as any proper nouns.</p>
+  </div>
+</div>
+
+<h3 id="all-caps-every-word-is-capitalized">All Caps: Every Word Is Capitalized</h3>
+
+<p><img src="../images/copy/capitalization/capitalizayion-all-caps.svg" alt="Settings in Firefox iOS" /></p>
+
+<figcaption>All caps example</figcaption>
+
+<h2 id="platform-styles">Platform Styles</h2>
+
+<div data-tabs="">
+  <input type="radio" name="pcase" id="platform-desktop" checked="checked" />
+  <label for="platform-desktop">Desktop</label>
+  <div data-tab="">
+    <h3 id="title-case-on-desktop">Title Case on Desktop</h3>
+
+    <p>Use title case for menu labels, buttons, navigation, and section headers.</p>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-title-case-desktop-1.svg" alt="Menu labels using title case" /></p>
+
+        <figcaption>Menu labels</figcaption>
+      </div>
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-title-case-desktop-3.svg" alt="Navigation and section headers using title case" /></p>
+
+        <figcaption>Navigation and section headers</figcaption>
+      </div>
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-title-case-desktop-2.svg" alt="Page Titles using title case" /></p>
+
+        <figcaption>Page titles</figcaption>
+      </div>
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-title-case-desktop-4.svg" alt="Buttons using title case" /></p>
+
+        <figcaption>Buttons</figcaption>
+      </div>
+</div>
+
+    <h3 id="sentence-case-on-desktop">Sentence Case on Desktop</h3>
+
+    <p>Use sentence case for all body copy, image captions, and secondary, editorial subheadings.</p>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-sentence-case-desktop-1.svg" alt="body using sentence case" /></p>
+
+        <figcaption>Body copy from Firefox Screenshot</figcaption>
+      </div>
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-sentence-case-desktop-2.svg" alt="body using sentence case" /></p>
+
+        <figcaption>Section heading in title case and editorial subheading in sentence case</figcaption>
+      </div>
+</div>
+
+    <h3 id="all-caps-on-desktop">All Caps on Desktop</h3>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-all-caps-dekstop.png" alt="an Activity Stream card using uppercase for a title" /></p>
+
+        <figcaption>Card with secondary text elements in all caps</figcaption>
+      </div>
+
+In general, do not use all caps in Firefox for desktop. In rare cases, all caps may be used to visually distinguish a secondary, less important text element.
+
+</div>
+  </div>
+
+  <input type="radio" name="pcase" id="platform-android" />
+  <label for="platform-android">Android</label>
+  <div data-tab="">
+    <h3 id="title-case-on-android">Title Case on Android</h3>
+
+    <p>In general, do not use title case in Firefox for Android.</p>
+
+    <h3 id="sentence-case-on-android">Sentence Case on Android</h3>
+
+    <p>Use sentence case for all text elements except buttons.</p>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-sentence-case-android-1.svg" alt="Menu labels using sentence case" /></p>
+
+        <figcaption>Menu labels</figcaption>
+      </div>
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-sentence-case-android-2.svg" alt="Section headers using sentence case" /></p>
+
+        <figcaption>Section headers</figcaption>
+      </div>
+</div>
+
+    <h3 id="all-caps-on-android">All Caps on Android</h3>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-all-caps-android.svg" alt="an action button using uppercase" /></p>
+
+        <figcaption>‘Save’ button</figcaption>
+      </div>
+
+Use all caps for buttons.
+
+</div>
+
+    <blockquote>
+      <p>For more information, see the Writing section of the Google-maintained <a href="https://material.io/guidelines/style/writing.html#writing-tone">Material Design Guidelines</a>.</p>
+    </blockquote>
+  </div>
+
+  <input type="radio" name="pcase" id="platform-ios" />
+  <label for="platform-ios">iOS</label>
+  <div data-tab="">
+
+    <h3 id="title-case-on-ios">Title Case on iOS</h3>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-title-case-ios.svg" alt="Menu labels using title case" /></p>
+
+        <figcaption>Menu labels</figcaption>
+      </div>
+
+Use title case for menu labels, buttons, navigation, and section headers.
+
+</div>
+
+    <h3 id="sentence-case-on-ios">Sentence Case on iOS</h3>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalization-sentence-case-ios.svg" alt="all text on a incontent page using sentence case" /></p>
+
+        <figcaption>Section header in title case and body copy in sentence case</figcaption>
+      </div>
+
+In general, use sentence case for all other text elements, including image captions.
+
+</div>
+
+    <h3 id="all-caps-on-ios">All Caps on iOS</h3>
+
+    <div class="grid-2">
+<div>
+        <p><img src="../images/copy/capitalization/capitalizayion-all-caps.svg" alt="Settings in Firefox iOS" /></p>
+
+        <figcaption>Subheading in all caps</figcaption>
+      </div>
+
+Use all caps for subheadings in app Settings.
+
+</div>
+
+    <blockquote>
+      <p>For more information, see <a href="https://developer.apple.com/ios/human-interface-guidelines/overview/themes/">Apple’s Human Interface Guidelines</a>.</p>
+    </blockquote>
+  </div>
+</div>
+:ET

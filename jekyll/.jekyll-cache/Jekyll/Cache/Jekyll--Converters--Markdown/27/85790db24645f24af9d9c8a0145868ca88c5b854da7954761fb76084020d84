@@ -1,0 +1,202 @@
+I"!%<p>Firefox 57 marks the launch of a new product identity system that reflects the Photon design vision.  The first elements available in this system are the app icons for Firefox browsers and other Firefox-branded products.  These retain familiar elements of past app icons (like the fox and globe) but signal the profound changes in the product with bold colors and simplified shapes from the Photon Design System.</p>
+
+<h2 id="logo">Logo</h2>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/product-identity-assets/firefox.png" alt="Firefox app icon" />
+<a href="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png">VIEW HIGH-RES</a></p>
+
+  </div>
+<div>
+    <p>All product icons are available for download as SVG, PDF and PNG.</p>
+
+    <blockquote>
+      <p><a href="https://design.firefox.com/product-identity/firefox-product-identity-assets.zip"><img src="../images/global/download-16.svg" alt="" />
+Download all Firefox logos <br />
+2.6 MB (.zip)</a></p>
+    </blockquote>
+  </div>
+</div>
+
+<h2 id="channel-variations">Channel Variations</h2>
+
+<p>Each Firefox product’s release channel displays its own variation of the app icon.</p>
+
+<div class="grid-2">
+<div>
+
+    <h3 id="firefox">Firefox</h3>
+
+    <p><img src="../images/product-identity-assets/firefox-variant.png" alt="Firefox app icon" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png">.png</a></p>
+    </figcaption>
+
+  </div>
+<div>
+
+    <h3 id="firefox-beta">Firefox Beta</h3>
+
+    <p><img src="../images/product-identity-assets/firefox-variant-beta.png" alt="Firefox Beta app icon" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox-beta/firefox-logo-beta.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox-beta/firefox-logo-beta.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox-beta/firefox-logo-beta.png">.png</a></p>
+    </figcaption>
+
+  </div>
+<div>
+
+    <h3 id="firefox-developer-edition">Firefox Developer Edition</h3>
+
+    <p><img src="../images/product-identity-assets/firefox-variant-dev-edition.png" alt="Firefox Developer Edition app icon" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox-developer-edition/firefox-logo-developer-edition.png">.png</a></p>
+    </figcaption>
+
+  </div>
+<div>
+
+    <h3 id="firefox-nightly">Firefox Nightly</h3>
+
+    <p><img src="../images/product-identity-assets/firefox-variant-nightly.png" alt="Firefox Nightly app icon" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox-nightly/firefox-logo-nightly.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox-nightly/firefox-logo-nightly.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox-nightly/firefox-logo-nightly.png">.png</a></p>
+    </figcaption>
+
+  </div>
+<div>
+
+    <h3 id="firefox-focus">Firefox Focus</h3>
+
+    <p><img src="../images/product-identity-assets/firefox-variant-focus.png" alt="Firefox Focus app icon" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox-focus/firefox-logo-focus.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox-focus/firefox-logo-focus.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox-focus/firefox-logo-focus.png">.png</a></p>
+    </figcaption>
+
+  </div>
+</div>
+
+<h2 id="using-icons-with-firefox-wordmarks-or-logos">Using Icons with Firefox Wordmarks or Logos</h2>
+
+<h3 id="standard-horizontal-lockup">Standard Horizontal Lockup</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/product-identity-assets/firefox-woodmark-horz.png" alt="Firefox Standard Horizontal Lockup" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox/firefox-horizontal-lockup/firefox-logo-horizontal-lockup.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox/firefox-horizontal-lockup/firefox-logo-horizontal-lockup.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox/firefox-horizontal-lockup/firefox-logo-horizontal-lockup.png">.png</a></p>
+    </figcaption>
+  </div>
+<div>
+    <p>Use app icons with Firefox and other product designators appearing to the right as the preferred lockup.</p>
+  </div>
+</div>
+
+<h3 id="alternative-stacked-lockup">Alternative Stacked Lockup</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/product-identity-assets/firefox-woodmark-vert.png" alt="Firefox Alternative Stacked Lockup" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox/firefox-stacked-lockup/firefox-logo-stacked-lockup.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox/firefox-stacked-lockup/firefox-logo-stacked-lockup.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox/firefox-stacked-lockup/firefox-logo-stacked-lockup.png">.png</a></p>
+    </figcaption>
+  </div>
+<div>
+    <p>Use the Firefox icon with Firefox below when horizontal space is an issue. Use this lockup only for Firefox (the main product icon), and not for other channel icon variants or wordmarks.</p>
+  </div>
+</div>
+
+<h3 id="icons-as-logo">Icons as Logo</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/product-identity-assets/firefox-default.png" alt="Firefox app icon" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png">.png</a></p>
+    </figcaption>
+  </div>
+<div>
+    <p>Use app icons as logos without wordmarks only when Mozilla and Firefox appear in close proximity to the icon.</p>
+  </div>
+</div>
+
+<h3 id="icon-as-glyph">Icon as Glyph</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/product-identity-assets/firefox-watermark.png" alt="Firefox glyph icon" /></p>
+
+    <figcaption>
+      <p>Download <a href="https://design.firefox.com/product-identity/firefox-glyph/firefox-logo-glyph.svg">.svg</a>, <a href="https://design.firefox.com/product-identity/firefox-glyph/firefox-logo-glyph.pdf">.pdf</a>, or <a href="https://design.firefox.com/product-identity/firefox-glyph/firefox-logo-glyph.png">.png</a></p>
+    </figcaption>
+  </div>
+<div>
+    <p>Use the one color icon when you need to represent Firefox with less emphasis than found in the full color icon.</p>
+
+    <p>This can occur in situations where you need to match an existing style in certain UI contexts; for example the de-emphasized Firefox icon for product messaging found on the New Tab page.</p>
+
+    <p>It can also be used to represent Firefox in another environment with its own style requirements; for example the iOS Share sheet.</p>
+  </div>
+</div>
+
+<h3 id="icons-dos-and-donts">Icons Dos and Dont’s</h3>
+
+<div class="grid-2">
+<div>
+
+    <p><img src="../images/product-identity-assets/firefox-default.png" alt="Firefox app icon" /></p>
+
+    <div class="do">
+      <p><img src="../images/global/check.svg" alt="Checkmark icon indicating a good choice" /> Do</p>
+    </div>
+
+    <figcaption>Use the icons provided, without modification</figcaption>
+
+  </div>
+<div>
+
+    <p><img src="../images/product-identity-assets/firefox-dont-2.png" alt="Reverse Firefox app icon" /></p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+    <figcaption>Reverse icons</figcaption>
+
+  </div>
+<div>
+
+    <p><img src="../images/product-identity-assets/firefox-dont-3.png" alt="Portion of Firefox app icon" /></p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+    <figcaption>Use just a portion of the icon</figcaption>
+
+  </div>
+<div>
+
+    <p><img src="../images/product-identity-assets/firefox-dont-1.png" alt="Old Firefox app icon" /></p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+    <figcaption>Use previous icons</figcaption>
+
+  </div>
+</div>
+
+<h2 id="additional-guidelines">Additional Guidelines</h2>
+
+<p>Icons files containing our trademarks are available under the following licenses: vector logo files under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY 3.0</a> or later; bitmap logo files under <a href="https://www.mozilla.org/en-US/MPL/2.0/">MPL 2</a>. By using these, you agree that you will comply with Mozilla’s <a href="https://www.mozilla.org/en-US/foundation/trademarks/">Trademark Guidelines</a> and <a href="https://www.mozilla.org/en-US/foundation/trademarks/distribution-policy/">Software Distribution Guidelines</a>.</p>
+:ET

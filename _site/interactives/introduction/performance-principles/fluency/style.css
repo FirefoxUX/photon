@@ -1,0 +1,21 @@
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border-top: 2px solid rgba(0,120,220,1.0);
+  border-right: 2px solid rgba(0,120,220,0.0);
+  animation: spinner .6s linear infinite;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+/* inspired by https://stephanwagner.me/only-css-loading-spinner */

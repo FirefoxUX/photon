@@ -1,0 +1,22 @@
+I"<p>When all of your measurements follow the same rules, you automatically get a more consistent UI.</p>
+
+<h2 id="baseline-grid">Baseline Grid</h2>
+
+<div class="grid-2">
+  <p>The grid is based on a 4px square. This value controls the proportion, balance, and vertical alignment of every component. All elements – including icons – are aligned to this unit.</p>
+
+  <blockquote>
+    <p>For Android, use the very similar <a href="https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-baseline-grids">Material Baseline Grid</a>.</p>
+  </blockquote>
+
+</div>
+
+<p><img src="../images/grid/grid-baseline.svg" alt="4px grid applied to the Firefox chrome" /></p>
+
+<figcaption>Firefox for desktop chrome with the grid exposed</figcaption>
+
+<h2 id="spacing">Spacing</h2>
+
+<p>When you design a component, elements are spaced following the grid. The same principle applies when you stack multiple elements within and between a component.
+<img src="../images/grid/grid-spacing.svg" alt="4px grid applied to components and elements" /></p>
+:ET

@@ -1,0 +1,88 @@
+I"ª<p>Doorhangers provide a way to present decisions to users which is less intrusive than a modal dialog.</p>
+
+<h2 id="usage">Usage</h2>
+
+<div class="grid-2">
+  <p><img src="../images/components/doorhangers/doorhanger-usage.png" alt="Firefox action menu uses the doorhanger component" /></p>
+
+  <p>Doorhangers are used for prompt and notification; they are used for full featured UI; or they are used for list and menu as in the example on the left.</p>
+</div>
+
+<h2 id="structure">Structure</h2>
+
+<h3 id="directional-arrow">Directional Arrow</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/doorhangers/doorhanger-pointer.svg" alt="Directional arrow used on the right and on the left of a doorhanger" /></p>
+
+  <div>
+    <p>Doorhangers opening on the right side of the view show the directional arrow on the right.</p>
+
+    <p>Doorhangers opening on the left side of the view show the directional arrow on the left.</p>
+
+    <p>Never place the directional arrow at the center of doorhangers.</p>
+  </div>
+</div>
+
+<h2 id="style">Style</h2>
+
+<h3 id="background-and-border-colors">Background and Border Colors</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/doorhangers/doorhanger-color.svg" alt="Empty doorhanger" /></p>
+
+  <div>
+    <p>Background: White <code class="language-plaintext highlighter-rouge">#ffffff</code></p>
+
+    <p>Border Color: Grey 90 a20 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.2)</code></p>
+  </div>
+</div>
+
+<h3 id="corner-radius">Corner Radius</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/doorhangers/doorhanger-radius-win.png" alt="Doorhanger sharp corner radius on Windows" /></p>
+
+  <p>On Windows doorhangers have sharp corners.</p>
+
+  <p><img src="../images/components/doorhangers/doorhanger-radius-macos.png" alt="Doorhanger round corner radius on macOS" /></p>
+
+  <div>
+    <p>On macOS and Linux doorhangers have rounded corners.</p>
+
+    <p>Corner Radius: <code class="language-plaintext highlighter-rouge">2px</code></p>
+  </div>
+</div>
+
+<h3 id="shadows">Shadows</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/doorhangers/doorhanger-shadow.png" alt="Highlight of the doorhanger shadow" /></p>
+
+  <p>Doorhangers appear above other in-view elements. Use <a href="../patterns/shadows.html#style">shadow 30</a> to highlight elevation.</p>
+</div>
+
+<h3 id="sizes">Sizes</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/doorhangers/doorhanger-sizes.svg" alt="Redlines and specs of a doorhanger" /></p>
+
+  <div>
+    <p>Directional Arrow Height: <code class="language-plaintext highlighter-rouge">9px</code></p>
+
+    <p>Directional Arrow Margin Left: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Directional Arrow Width: <code class="language-plaintext highlighter-rouge">18px</code></p>
+
+    <p>Maximum Height: <code class="language-plaintext highlighter-rouge">90%</code></p>
+
+    <p>Maximum Width: <code class="language-plaintext highlighter-rouge">320px</code></p>
+  </div>
+</div>
+
+<h2 id="behavior">Behavior</h2>
+
+<p>Clicking outside of the active area dismiss doorhangers.</p>
+
+<p>When doorhangers content is longer than 90% of the view make the content vertically scrollable.</p>
+:ET

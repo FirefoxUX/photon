@@ -1,0 +1,275 @@
+I"=*<p>Radio buttons allow a selection of one option from a group of mutually exclusive options.</p>
+
+<h2 id="usage">Usage</h2>
+
+<div class="grid-2">
+  <p><img src="../images/components/radio-buttons/radiobutton-usage.png" alt="Usage Example of Radio Buttons as used in Firefox Options" /></p>
+
+  <p>Use radio buttons to provide people with a choice from a set of two to five mutually exclusive options. For example to offer a choice of how to save downloads.</p>
+</div>
+
+<h2 id="combination">Combination</h2>
+
+<h3 id="label-groups-of-radio-buttons">Label Groups of Radio Buttons</h3>
+
+<p>Start every group of radio buttons with a label that defines what these options are about.</p>
+
+<h3 id="between-2-5-choices">Between 2-5 Choices</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/components/radio-buttons/radiobutton-group.svg" alt="Example of the correct use of Radio Buttons in a Group of Four" /></p>
+
+    <div class="do">
+      <p><img src="../images/global/check.svg" alt="Checkmark icon indicating a good choice" /> Do</p>
+    </div>
+
+    <figcaption>Combine radio buttons in groups of two to five mutually exclusive choices.</figcaption>
+  </div>
+<div>
+    <p><img src="../images/components/radio-buttons/radiobutton-single-dont.svg" alt="Example of a wrong use of Radio Buttons by using only one Radio Button" /></p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+    <figcaption>Never use one radio button on it’s own, consider using a checkbox instead.</figcaption>
+  </div>
+<div></div>
+<div>
+    <p><img src="../images/components/radio-buttons/radiobutton-biggroup-dont.svg" alt="Example of a wrong use of Radio Buttons by using only one Radio Button" /></p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+    <figcaption>For more than five choices, consider other options. Those could be a drop down or a reduction of choices.</figcaption>
+  </div>
+</div>
+
+<h3 id="always-exactly-one-selected-choice">Always Exactly One Selected Choice</h3>
+
+<p>In any groups of radio buttons, one must always be selected. Do not use a group of radio buttons if no selected button is an option.</p>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/components/radio-buttons/radiobutton-group.svg" alt="Example of the correct use of Radio Buttons in a Group of Four" /></p>
+
+    <div class="do">
+      <p><img src="../images/global/check.svg" alt="Checkmark icon indicating a good choice" /> Do</p>
+    </div>
+  </div>
+<div>
+    <p><img src="../images/components/radio-buttons/radiobutton-group-inactive-dont.svg" alt="Example of a wrong use of Radio Buttons by using only one Radio Button" /></p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+    <figcaption>Once an option is selected, this state cannot be reached by the user again.</figcaption>
+  </div>
+</div>
+
+<h3 id="consider-the-order-of-choices">Consider the Order of Choices</h3>
+
+<ul>
+  <li>
+    <p>Make the default the first choice if possible.</p>
+  </li>
+  <li>
+    <p>If choices describe a range of impact to browsing behavior, order them from greatest impact to least impact. Do not force default to top if it breaks the sequence.</p>
+  </li>
+</ul>
+
+<h2 id="style">Style</h2>
+
+<div class="grid-2">
+  <p>Radio Buttons consist of a part to indicate their state and a label to describe the choice it represents.</p>
+
+  <blockquote>
+    <p>Use the <a href="../images/components/radio-buttons/Photon Design System - Components - Radio-Buttons.sketch">Sketch Libary Component - Radio‑Button</a>.</p>
+  </blockquote>
+</div>
+
+<h3 id="indicator--label">Indicator &amp; Label</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button." /></p>
+
+  <div>
+    <p>Use the indicator to show whether the radio button is selected or not.</p>
+
+    <p>Use the label to make the choice clear.</p>
+  </div>
+</div>
+
+<h3 id="dimensions">Dimensions</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/radio-buttons/radiobutton-size.svg" alt="Illustration of the Size of a Radio Button." /></p>
+
+  <div>
+    <p>Corner Radius: <code class="language-plaintext highlighter-rouge">100%</code></p>
+
+    <p>Height: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Width: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Horizontal Padding: <code class="language-plaintext highlighter-rouge">4px</code></p>
+  </div>
+</div>
+
+<h3 id="text-and-color">Text and Color</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/radio-buttons/radiobutton-selected.svg" alt="Illustration of a selected Radio Button." /></p>
+
+  <div>
+    <p>Text: <a href="../visuals/typography.html#scale">Body 10</a></p>
+
+    <p>Text Color: Grey 90 <code class="language-plaintext highlighter-rouge">#0c0c0d</code></p>
+  </div>
+</div>
+
+<h2 id="behaviors">Behaviors</h2>
+
+<h3 id="selected--unselected">Selected / Unselected</h3>
+
+<div class="grid-2">
+<div>
+    <p><img src="../images/components/radio-buttons/radiobutton-states.svg" alt="Example of a selected and an unselected radio button." /></p>
+
+    <div class="interactive">
+  <div id="select-unselect-example" class="interactive-example" style="display: none;">
+    <div class="container-demo">
+      <div class="radiobutton-wrapper">
+        <div class="group-radio-buttons">
+          <input name="group1" class="track-clicks" id="radio-01" checked="" type="radio" />
+          <label for="radio-01">Show browsing history</label>
+        </div>
+        <div class="group-radio-buttons">
+          <input name="group1" class="track-clicks" id="radio-02" type="radio" />
+          <label for="radio-02">Show bookmarks</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <figcaption>
+    <a href="#" class="image-toggle" onclick="document.getElementById('showImage').style.display='block';
+                                              document.getElementById('select-unselect-example').style.display='none';
+                                              return false;">Image</a> /
+    <a href="#" class="interactive-toggle" onclick="document.getElementById('showImage').style.display='none';
+                                                    document.getElementById('select-unselect-example').style.display='block';
+                                                    return false;">Interactive example</a> (Currently only renders correctly in Firefox.)
+  </figcaption>
+</div>
+  </div>
+<div>
+    <h4 id="selected">Selected:</h4>
+
+    <p>Icon: <a href="../images/components/radio-buttons/radiobutton-marker-16.svg">Radio-Button-Marker</a></p>
+
+    <p>Background Color: Blue 60 <code class="language-plaintext highlighter-rouge">#0060df</code></p>
+
+    <h4 id="unselected">Unselected:</h4>
+
+    <p>Background Color: Grey 90 a10 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.1)</code></p>
+
+    <p>Border: 1px Grey 90 a30 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.3)</code></p>
+  </div>
+</div>
+
+<h3 id="clicktarget">Clicktarget</h3>
+<div class="grid-2">
+  <p><img src="../images/components/radio-buttons/radiobutton-clicktarget.svg" alt="Illustration of the extent of the clicktarget of a Checkbox." /></p>
+
+  <div>
+    <p>A radio button can be selected by clicking on the area of its indicator as well as its label. Usually the clicktarget extends to the same width for each element in a collection of radio buttons. This results in a click target that extends beyond the label, for all elements shorter than the longest.</p>
+
+    <p>Clicking a radio button selects it on release of the click. If, during the click, the mouse is moved off of the radio button, it does not become selected.</p>
+  </div>
+</div>
+
+<h3 id="interaction">Interaction</h3>
+
+<h4 id="selected">Selected</h4>
+
+<div class="grid-2">
+  <p><img src="../images/components/radio-buttons/radiobutton-interaction-selected.png" alt="Illustration of all appearances a selected radio button can show when interacted with." /></p>
+
+  <div>
+    <p>Background Color:</p>
+
+    <p>Default: Blue 60 <code class="language-plaintext highlighter-rouge">#0060df</code></p>
+
+    <p>Hover: Blue 70 <code class="language-plaintext highlighter-rouge">#003eaa</code></p>
+
+    <p>Pressed: Blue 80 <code class="language-plaintext highlighter-rouge">#002275</code></p>
+  </div>
+</div>
+
+<h4 id="unselected">Unselected</h4>
+
+<div class="grid-2">
+  <p><img src="../images/components/radio-buttons/radiobutton-interaction-unselected.png" alt="Illustration of all appearances an unselected radio button can show when interacted with." /></p>
+
+  <div>
+    <p>Background Color:</p>
+
+    <p>Default: Grey 90 a10 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.1)</code></p>
+
+    <p>Hover: Grey 90 a20 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.2)</code></p>
+
+    <p>Pressed: Grey 90 a30 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.3)</code></p>
+  </div>
+</div>
+
+<h4 id="focused">Focused</h4>
+
+<div class="grid-2">
+<div>
+<div class="interactive">
+  <div id="focus-example" class="interactive-example">
+    <div class="container-demo">
+      <div class="radiobutton-wrapper">
+        <span>When Nightly Starts</span>
+        <div class="group-radio-buttons">
+          <input name="group2" class="track-clicks" id="radio-focus-1" checked="" type="radio" />
+          <label for="radio-focus-1">Show your home page</label>
+        </div>
+        <div class="group-radio-buttons">
+          <input name="group2" class="track-clicks" id="radio-focus-2" type="radio" />
+          <label for="radio-focus-2">Show a blank page</label>
+        </div>
+        <div class="group-radio-buttons">
+          <input name="group2" class="track-clicks" id="radio-focus-3" type="radio" />
+          <label for="radio-focus-3">Show your windows and tabs from last time</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<figcaption>Interactive example (Currently only renders correctly in Firefox.)</figcaption>
+</div>
+<div>
+    <p>Border: none</p>
+
+    <p>Box Shadow: <code class="language-plaintext highlighter-rouge">0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+  </div>
+</div>
+
+<h2 id="copy-rules">Copy Rules</h2>
+
+<ul>
+  <li>
+    <p>Use the imperative voice for radio button labels.</p>
+  </li>
+  <li>
+    <p>Do not use terminal punctuation for radio button labels.</p>
+  </li>
+  <li>
+    <p>Maintain parallel construction for lists of related radio button labels.</p>
+  </li>
+</ul>
+:ET

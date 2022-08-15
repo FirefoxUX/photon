@@ -1,0 +1,72 @@
+I"^<p>The standard set of Photon colors.</p>
+
+<h2 id="for-development">For Development</h2>
+
+<div class="grid-3">
+
+<div>
+    <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.css"><img src="../images/resources/css.svg" alt="CSS logo" /></a></p>
+    <figcaption>
+      <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.css">CSS variables</a></p>
+    </figcaption>
+  </div>
+
+<div>
+    <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.scss"><img src="../images/resources/sass.svg" alt="Sass logo" /></a></p>
+    <figcaption>
+      <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.scss">SCSS variables</a></p>
+    </figcaption>
+  </div>
+
+<div>
+    <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.less"><img src="../images/resources/less.svg" alt="Less logo" /></a></p>
+    <figcaption>
+      <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.less">LESS variables</a></p>
+    </figcaption>
+  </div>
+
+<div>
+    <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.js"><img src="../images/resources/js.svg" alt="JavaScript logo" /></a></p>
+    <figcaption>
+      <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.js">JS variables</a></p>
+    </figcaption>
+  </div>
+
+<div>
+    <p><a href="https://www.npmjs.com/package/photon-colors"><img src="../images/resources/npm.svg" alt="NPM logo" /></a></p>
+    <figcaption>
+      <p><a href="https://www.npmjs.com/package/photon-colors">NPM package</a></p>
+    </figcaption>
+  </div>
+
+</div>
+
+<h2 id="for-apps">For Apps</h2>
+<div class="grid-3">
+
+<div>
+    <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.gpl"><img src="../images/resources/gimp.svg" alt="Gimp logo" /></a></p>
+    <figcaption>
+      <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.gpl">GIMP</a></p>
+    </figcaption>
+  </div>
+
+<div>
+
+    <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.soc"><img src="../images/resources/libre.svg" alt="Libre Office logo" /></a></p>
+    <figcaption>
+      <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.soc">Libre Office</a></p>
+    </figcaption>
+  </div>
+
+<div>
+    <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.sketchpalette"><img src="../images/resources/sketch.svg" alt="Sketch logo" /></a></p>
+    <figcaption>
+      <p><a href="https://firefoxux.github.io/design-tokens/photon-colors/photon-colors.sketchpalette">Sketch</a> used together with the <a href="https://github.com/andrewfiorillo/sketch-palettes">Sketch Palettes</a> plugin.</p>
+    </figcaption>
+  </div>
+
+</div>
+
+<p>Learn more about <a href="../visuals/color.html">color</a>.</p>
+:ET

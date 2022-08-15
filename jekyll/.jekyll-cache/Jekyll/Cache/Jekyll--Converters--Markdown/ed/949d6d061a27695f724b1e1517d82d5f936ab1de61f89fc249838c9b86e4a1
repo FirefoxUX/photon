@@ -1,0 +1,53 @@
+I"R
+<h2 id="apostrophes-and-quotation-marks">Apostrophes and Quotation Marks</h2>
+
+<p>Use the typographic characters (also called smart quotes) for apostrophes and quotation marks.</p>
+
+<p>Note that in Firefox for desktop and Firefox for Android in en-US this rule is enforced programmatically so a developer’s code will be backed out if a text string contains the straight apostrophe or quote.</p>
+
+<h2 id="commas">Commas</h2>
+
+<p>In the product, use serial commas (also called Oxford commas).</p>
+
+<div class="grid-2">
+<div>
+    <p class="img">The success of the internet as a public resource depends upon interoperability, innovation, and decentralized participation worldwide.</p>
+
+    <div class="do">
+      <p><img src="../images/global/check.svg" alt="Checkmark icon indicating a good choice" /> Do</p>
+    </div>
+  </div>
+<div>
+    <p class="img">The success of the internet as a public resource depends upon interoperability, innovation and decentralized participation worldwide.</p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+  </div>
+</div>
+
+<h2 id="hyphens-and-dashes">Hyphens and Dashes</h2>
+
+<p>Use hyphens (-) to create a single idea out of two or more words. Don’t add a space before or after the hyphen.</p>
+
+<p>Use en dashes (–) for ranges, like numbers (e.g., 1–9) and dates. Don’t add a space before of after the en dash.</p>
+
+<p>Use em dashes (—) to set related — but separate — thoughts off from each other. Add a space on either side of the em dash.</p>
+
+<h2 id="ellipses">Ellipses</h2>
+
+<p>Use with Button or Menu items when the action requires additional user input, usually  via a Dialog, an Alert or moving the operation to another window or part of the UI.</p>
+
+<p>Do not use an ellipsis in a link to indicate that more information is available at the destination.</p>
+
+<p>In general, do not use ellipses in body copy.</p>
+
+<h2 id="exclamation-points">Exclamation Points</h2>
+
+<p>Use sparingly, when the text reflects genuine excitement, not as a way to create excitement. Exclamation points aren’t a substitute for creating excitement.</p>
+
+<h2 id="periods-and--other-terminal-punctuation">Periods and  Other Terminal Punctuation</h2>
+
+<p>Terminal punctuation signals the end of a text element. A period is the most common terminal punctuation. Use terminal punctuation at the end of a sentence in normal body copy. In general, do not use punctuation at the end of a headline, button label, checkbox or radio button label, tooltip, text link (unless the link ends a sentence), or navigation element.</p>
+:ET

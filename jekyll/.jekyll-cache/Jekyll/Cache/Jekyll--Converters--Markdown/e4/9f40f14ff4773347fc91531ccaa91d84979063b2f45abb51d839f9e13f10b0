@@ -1,0 +1,60 @@
+I"…<h2 id="usage">Usage</h2>
+
+<div class="grid-2">
+<div>
+    <p>Use shadows to highlight differences in elevation between two components.</p>
+
+    <p>Shadows can be applied to multiple components, including cards, menus, sidebars, and tooltips.</p>
+  </div>
+<div>
+    <p><img src="../images/patterns/shadows/elevation-example.jpg" alt="Example of an activity stream card with the shadow style applied" /></p>
+
+    <figcaption>A shadow applied to a card</figcaption>
+  </div>
+</div>
+
+<h2 id="style">Style</h2>
+
+<div class="grid-2">
+  <div>
+    <p>Based on how marked the difference needs to be, pick from three levels of elevation.</p>
+
+    <table>
+  <thead>
+    <tr>
+      <th>Shadow</th>
+      <th>X</th>
+      <th>Y</th>
+      <th>Blur</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10</td>
+      <td>0</td>
+      <td>1px</td>
+      <td>4px</td>
+      <td><code>rgba(12, 12, 13, 0.1)</code></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>0</td>
+      <td>2px</td>
+      <td>8px</td>
+      <td><code>rgba(12, 12, 13, 0.1)</code></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>0</td>
+      <td>4px</td>
+      <td>16px</td>
+      <td><code>rgba(12, 12, 13, 0.1)</code></td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+  <p><img src="../images/patterns/shadows/elevation.svg" alt="Asset that shows the three diffent styles of elevation, from lower to higher elevation" /></p>
+</div>
+:ET

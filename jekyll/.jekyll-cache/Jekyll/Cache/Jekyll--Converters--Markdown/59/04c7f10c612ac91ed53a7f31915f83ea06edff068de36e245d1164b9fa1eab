@@ -1,0 +1,110 @@
+I"�<p>Errors (or error conditions) occur when the software fails to complete an expected action. Every error becomes a point of friction for the user.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Error messages should provide essential information to help users understand and address issues, so they can recover quickly. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear).</p>
+
+<p>We distinguish between two different categories of error:</p>
+
+<ul>
+  <li>User input errors</li>
+  <li>System errors</li>
+</ul>
+
+<h3 id="user-input-errors">User input errors</h3>
+
+<div class="grid-2">
+<div>
+    <p>User input errors occur when Firefox doesn’t understand user inputs.</p>
+
+    <p>The most common cases are:</p>
+
+    <ul>
+      <li>Incomplete form</li>
+      <li>Over/under character or word count</li>
+      <li>Incompatible values</li>
+    </ul>
+  </div>
+<div>
+    <p><img src="../images/patterns/errors/user-input-error-example-1.svg" alt="User Input Error Example from Firefox Account, invalid email" /></p>
+
+    <figcaption>Incompatible values error</figcaption>
+
+    <p><img src="../images/patterns/errors/user-input-error-example-2.svg" alt="User Input Error Example from Firefox Account, invalid email" /></p>
+
+    <figcaption>Under character error</figcaption>
+  </div>
+</div>
+
+<h3 id="system-errors">System errors</h3>
+
+<div class="grid-2">
+<div>
+    <p>System errors occur when Firefox fails for some reason most likely not related to the user.</p>
+
+    <p>The most common cases are:</p>
+
+    <ul>
+      <li>Misspelled errors</li>
+      <li>Connectivity issues</li>
+      <li>Failure to load</li>
+    </ul>
+  </div>
+<div>
+    <p><img src="../images/patterns/errors/error-tab-crashed.jpg" alt="System Error Example" /></p>
+
+    <figcaption>Tab crash.</figcaption>
+  </div>
+</div>
+
+<h2 id="style">Style</h2>
+
+<h3 id="icon">Icon</h3>
+
+<div class="grid-2">
+  <p>The icon used for indicate errors is an exclamation mark enclosed within a circle, usually white on a <a href="../visuals/color.html#red">Red 60</a> background, or <a href="../visuals/color.html#red">Red 60</a>.</p>
+
+  <p><img src="../images/errors/error-icon.svg" alt="pairing example" /></p>
+</div>
+
+<h3 id="colors">Colors</h3>
+
+<div class="grid-2">
+<div>
+    <p><a href="../visuals/color.html#red">Red</a> is the dedicated color for errors states. Warning text should be legible, with noticeable contrast against its background color.</p>
+
+    <h4 id="background">Background</h4>
+
+    <p>Red 60 <code class="language-plaintext highlighter-rouge">#d70022</code>, or transparent</p>
+
+    <h4 id="content">Content</h4>
+
+    <p>White <code class="language-plaintext highlighter-rouge">#ffffff</code>, or Red 60 <code class="language-plaintext highlighter-rouge">#d70022</code></p>
+
+  </div>
+<div>
+    <p><img src="../images/errors/error-message-bar.svg" alt="Errors colors example" /></p>
+
+    <p><img src="../images/errors/error-no-bg.svg" alt="Error transparent example" /></p>
+  </div>
+</div>
+
+<h2 id="copy-rules">Copy rules</h2>
+
+<p>The best error messages are those that help users recover quickly. Remember that <strong>recover</strong> can mean more than <strong>move to the next state of the application</strong>. It can also mean <strong>gain confidence by understanding why an issue occurred</strong> or <strong>gain reassurance that the error doesn’t indicate a bigger issue or may continue to happen</strong>.</p>
+
+<ul>
+  <li>
+    <p>When the issue is a result of a user input error, simply offer a quick solution. There is no need to call out a user’s mistake or assign a cause.</p>
+  </li>
+  <li>
+    <p>When the issue is the result of system error, provide copy that explains the impact to the user, then explain the cause in clear terms, and finally explain how to resolve the issue. Note that while we do want to be accurate about errors, it is better to be <strong>not wrong</strong> than <strong>completely technically accurate</strong> so that we are helpful to the majority of users while not misspeaking to highly knowledgable users. Name the product in system errors to signal to users that errors are a software issue, not a user issue, i.e., Firefox cannot reach that page, but don’t personify Firefox.</p>
+  </li>
+  <li>
+    <p>Be brief, but not terse. Include signals to reassure users if appropriate.</p>
+  </li>
+  <li>
+    <p>Guide users with the imperative voice (<em>Enter a valid email</em>) or the active voice (<em>Firefox is not responding</em>) where possible.</p>
+  </li>
+</ul>
+:ET

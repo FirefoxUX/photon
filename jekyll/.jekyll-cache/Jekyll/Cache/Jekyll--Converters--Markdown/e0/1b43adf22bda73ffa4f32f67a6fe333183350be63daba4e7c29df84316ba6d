@@ -1,0 +1,50 @@
+I"¼<p>Card is a component to visually group related information and controls.</p>
+
+<h2 id="usage">Usage</h2>
+
+<div class="grid-2">
+  <p><img src="../images/components/card/card-usage.svg" alt="TestPilot website uses the card component" /></p>
+
+  <p>When there are collections of images and components that need to be presented on the same page, use cards to help users quickly scan the information from collections to collections.</p>
+</div>
+
+<h2 id="styles">Styles</h2>
+
+<h3 id="borders">Borders</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/card/borders.png" alt="visual examples of border radius and highlight" /></p>
+
+  <div>
+    <p>Border radius: <code class="language-plaintext highlighter-rouge">4px</code></p>
+
+    <p>Highlight border: Grey 30 <code class="language-plaintext highlighter-rouge">#D7D7DB</code>, <code class="language-plaintext highlighter-rouge">5px</code> (outside)</p>
+  </div>
+</div>
+
+<h3 id="shadow">Shadow</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/card/shadow.svg" alt="a visual example of shadow 10" /></p>
+
+  <div>
+    <p>Shadow is optional for cards.</p>
+
+    <p>If thereâ€™s a need of adding a shadow, use <a href="../patterns/shadows.html">shadow 10</a> to highlight elevation.</p>
+  </div>
+</div>
+
+<h3 id="padding">Padding</h3>
+
+<p>Use the same padding on the left &amp; right to keep the visual balance.</p>
+
+<div class="grid-2">
+  <p><img src="../images/components/card/padding.svg" alt="The activity stream example of left right padding" /></p>
+
+  <div>
+    <p>Default padding: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Large padding: <code class="language-plaintext highlighter-rouge">20px</code></p>
+  </div>
+</div>
+:ET

@@ -1,0 +1,80 @@
+I"½<p>Use nesting to form a hierarchy that expresses that one element contains or determines the following elements.</p>
+
+<div class="grid-2">
+<div>
+    <p>This hierarchy is often used to indicate that some elements are only relevant if a given parent element is selected.</p>
+
+    <p>The most common forms to express this dependency are to:</p>
+
+    <ul>
+      <li><a href="#disable-nested-elements">disable nested elements</a></li>
+      <li><a href="#hide-nested-elements">hide nested elements</a></li>
+    </ul>
+  </div>
+<div>
+    <p><img src="../images/inactive/inactive-do.svg" alt="Example of an inactive checkbox inside an active checkbox" /></p>
+
+    <figcaption>Example of a disabled nested element</figcaption>
+  </div>
+</div>
+
+<h2 id="disable-nested-elements">Disable Nested Elements</h2>
+
+<div class="grid-2">
+<div>
+    <iframe height="180" src="/photon/interactives/patterns/nesting/disable-hide-state_example.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+    <figcaption>Interactive Example for disabled sub elements in a set of checkboxes</figcaption>
+  </div>
+<div>
+    <p>Disable nested elements to help anticipate what enabling the parent will unlock, and to give additional context to the functionality of the parent.</p>
+  </div>
+</div>
+
+<h2 id="hide-nested-elements">Hide Nested Elements</h2>
+
+<div class="grid-2">
+<div>
+    <iframe height="180" src="/photon/interactives/patterns/nesting/hide-sub_example.html" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+    <figcaption>Interactive Example for hiding sub elements in a set of checkboxes</figcaption>
+  </div>
+<div>
+    <p>Hide the nested elements if showing them would overly complicate the interface, or occupy too much space in the UI.</p>
+
+    <p>Only use this if the visible part provides enough context for people to not be suprised by the additional content. Consider using sub-menues for hiding more information.</p>
+  </div>
+</div>
+
+<h2 id="usage-examples">Usage Examples</h2>
+
+<h3 id="checkboxes">Checkboxes</h3>
+
+<p>On Desktop checkboxes are often used in nested groups that disable parts of the options.</p>
+
+<video controls="" loop="">
+  <source src="../images/patterns/nesting/nesting_example_fx_pref_disable.mp4" type="video/mp4" />
+
+![Example of disabled sub options in Firefox Preferences](../images/patterns/nesting/nesting_example_fx_pref_disable.gif)
+</video>
+
+<h3 id="drop-down-lists">Drop-down Lists</h3>
+
+<p>Like Checkboxes, Drop-down lists can be used to determine what content to show. In this case content stays hidden until the corresponding list entry is selected.</p>
+
+<video controls="" loop="">
+  <source src="../images/patterns/nesting/nesting_example_fx_pref_hide.mp4" type="video/mp4" />
+
+![Example of hidding sub options in Firefox Preferences](../images/patterns/nesting/nesting_example_fx_pref_hide.gif)
+</video>
+
+<h3 id="buttons-">Buttons <!-- should be it's own pattern menu --></h3>
+
+<p>In a way, many buttons, like menus, also use nesting to hide content until pressed.</p>
+
+<video controls="" loop="">
+  <source src="../images/patterns/nesting/nesting_example_fx_button.mp4" type="video/mp4" />
+
+![Example of hidding sub options with a button](../images/patterns/nesting/nesting_example_fx_button.gif)
+</video>
+:ET

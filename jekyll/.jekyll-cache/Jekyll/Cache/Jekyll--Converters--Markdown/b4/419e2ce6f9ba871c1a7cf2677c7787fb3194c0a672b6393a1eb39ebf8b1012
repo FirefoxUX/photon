@@ -1,0 +1,234 @@
+I";$<p>Buttons execute an action or change the state of an application. Button text helps users understand what action will occur when they click or tap.</p>
+
+<h2 id="usage">Usage</h2>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-usage.png" alt="Example of a button in an interface" /></p>
+
+  <p>Buttons make actions visible. They enable users to change or complete a task. For example use a button to let users confirm a change. Use links in favor of buttons for navigation purposes with the exception of the back and forward button.</p>
+</div>
+
+<h2 id="types">Types</h2>
+
+<h3 id="primary">Primary</h3>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-primary.svg" alt="Example of a primary button" /></p>
+
+  <p>Primary buttons draw attention to a specific action. Try to limit one primary button per view.</p>
+</div>
+
+<h3 id="default">Default</h3>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-default.svg" alt="Example of a default button" /></p>
+
+  <p>Default buttons are used for secondary actions when combined with a primary button or when you need to list multiple actions in one single view like a preference page.</p>
+</div>
+
+<h3 id="ghost">Ghost</h3>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-ghost.svg" alt="Example of a ghost button" /></p>
+
+  <div>
+    <p>Ghost buttons include an icon with no accompanying text.</p>
+
+    <p>If there isn’t enough cue that the button is actionable add a background like the default button.</p>
+  </div>
+</div>
+
+<h2 id="styles">Styles</h2>
+
+<h3 id="colors">Colors</h3>
+
+<h4 id="primary-1">Primary</h4>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-primary.svg" alt="Style of a primary button" /></p>
+
+  <div>
+    <p>Text: White <code class="language-plaintext highlighter-rouge">#ffffff</code></p>
+
+    <p>Background: Blue 60 <code class="language-plaintext highlighter-rouge">#0060df</code></p>
+  </div>
+</div>
+
+<h4 id="default-1">Default</h4>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-label.svg" alt="Style of a default button" /></p>
+
+  <div>
+    <p>Text: Grey 90 <code class="language-plaintext highlighter-rouge">#0c0c0d</code></p>
+
+    <p>Background: Grey 90 a10 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.1)</code></p>
+  </div>
+</div>
+
+<h4 id="ghost-1">Ghost</h4>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-ghost.svg" alt="Style of a ghost button" /></p>
+
+  <div>
+    <p>Icon: Grey 90 a80 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.8)</code></p>
+
+    <p>Background: Transparent</p>
+  </div>
+</div>
+
+<h3 id="sizes">Sizes</h3>
+
+<h4 id="micro">Micro</h4>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-micro-spec.svg" alt="Redlines and spec of a micro size button" /></p>
+
+  <div>
+    <p>Corner Radius: <code class="language-plaintext highlighter-rouge">2px</code></p>
+
+    <p>Height: <code class="language-plaintext highlighter-rouge">24px</code></p>
+
+    <p>Horizontal Padding: <code class="language-plaintext highlighter-rouge">8px</code></p>
+
+    <p>Text: <code class="language-plaintext highlighter-rouge">11px</code>, regular <code class="language-plaintext highlighter-rouge">400</code></p>
+
+    <p>Width: <code class="language-plaintext highlighter-rouge">Auto</code></p>
+  </div>
+
+  <p><img src="../images/buttons/button-micro-example.svg" alt="Example of a micro size button in use" /></p>
+
+  <p>Use the micro version when you need to display two different primary actions with different levels of importance. Or when you don’t have enough real estate. For example in Firefox Accounts “Skip This Step” has a lower importance compared to “Sign in.”</p>
+</div>
+
+<h4 id="default-2">Default</h4>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-default-spec.svg" alt="Redlines and spec of a default size button" /></p>
+
+  <div>
+    <p>Corner Radius: <code class="language-plaintext highlighter-rouge">2px</code></p>
+
+    <p>Height: <code class="language-plaintext highlighter-rouge">32px</code></p>
+
+    <p>Horizontal Padding: <code class="language-plaintext highlighter-rouge">8px</code></p>
+
+    <p>Text: <code class="language-plaintext highlighter-rouge">13px</code>, regular <code class="language-plaintext highlighter-rouge">400</code></p>
+
+    <p>Minimum Width*: <code class="language-plaintext highlighter-rouge">132px</code></p>
+
+    <p>Width: <code class="language-plaintext highlighter-rouge">Auto</code></p>
+
+    <figcaption>*not mandatory</figcaption>
+  </div>
+
+  <p><img src="../images/buttons/button-ghost-spec.svg" alt="Redlines and spec of a ghost button" /></p>
+
+  <div>
+    <p>Height: <code class="language-plaintext highlighter-rouge">32px</code></p>
+
+    <p>Padding: <code class="language-plaintext highlighter-rouge">8px</code></p>
+
+    <p>Icon Size: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Width: <code class="language-plaintext highlighter-rouge">32px</code></p>
+  </div>
+
+  <p><img src="../images/buttons/button-default-example.svg" alt="Example of a default size button in use" /></p>
+
+  <p>Pages like Firefox error pages feature the default size button. When you need a call to action give the default size a higher priority. When the real estate is not enough opt for the micro version. When you need a more prominent action opt for the puffy version.</p>
+</div>
+
+<h4 id="puffy">Puffy</h4>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-puffy-spec.svg" alt="Redlines and spec of a puffy size button" /></p>
+
+  <div>
+    <p>Corner Radius: <code class="language-plaintext highlighter-rouge">4px</code></p>
+
+    <p>Height: <code class="language-plaintext highlighter-rouge">48px</code></p>
+
+    <p>Horizontal Padding: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Text: <code class="language-plaintext highlighter-rouge">15px</code>, regular <code class="language-plaintext highlighter-rouge">400</code></p>
+
+    <p>Width: <code class="language-plaintext highlighter-rouge">Auto</code></p>
+  </div>
+
+  <p><img src="../images/buttons/button-puffy-example.svg" alt="Example of a puffy size button" /></p>
+
+  <p>Use the puffy version when you display a call to action in large components or views. Bigger space, bigger targets. For example the modal of Firefox onboarding.</p>
+</div>
+
+<h2 id="behaviours">Behaviours</h2>
+
+<h3 id="primary-2">Primary</h3>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-behaviour-primary-light.svg" alt="Behaviour styles such as hover, pressed and focus of a primary button" /></p>
+
+  <div>
+    <p>Default Background: Blue 60 <code class="language-plaintext highlighter-rouge">#0060df</code></p>
+
+    <p>Hover Background: Blue 70 <code class="language-plaintext highlighter-rouge">#003eaa</code></p>
+
+    <p>Pressed Background: Blue 80 <code class="language-plaintext highlighter-rouge">#002275</code>
+Focus: <code class="language-plaintext highlighter-rouge">box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px 
+#0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+
+    <p>Disabled: 40% Opacity</p>
+  </div>
+</div>
+
+<h3 id="default-3">Default</h3>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-behaviour-default-light.svg" alt="Behaviour styles such as hover, pressed and focus of a default button" /></p>
+
+  <div>
+    <p>Default Background: Grey 90 a10 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.1)</code></p>
+
+    <p>Hover Background: Grey 90 a20 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.2)</code></p>
+
+    <p>Pressed Background: Grey 90 a30 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.3)</code></p>
+
+    <p>Focus: <code class="language-plaintext highlighter-rouge">box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+
+    <p>Disabled: 40% Opacity</p>
+  </div>
+</div>
+
+<h3 id="ghost-2">Ghost</h3>
+
+<div class="grid-2">
+  <p><img src="../images/buttons/button-behaviour-ghost-light.svg" alt="Behaviour styles such as hover, pressed and focus of a ghost button" /></p>
+
+  <div>
+    <p>Default Background: Transparent</p>
+
+    <p>Hover Background: Grey 90 a10 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.1)</code></p>
+
+    <p>Pressed Background: Grey 90 a20 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.2)</code></p>
+
+    <p>Focus: <code class="language-plaintext highlighter-rouge">box-shadow: 0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+
+    <p>Disabled: 40% Opacity</p>
+  </div>
+</div>
+
+<h2 id="copy-rules">Copy Rules</h2>
+
+<ul>
+  <li>
+    <p>When possible, use labels that describe the action or result of selecting the button. Use the same terms to describe the action in both the button and any supporting instructional copy.</p>
+  </li>
+  <li>
+    <p>When using two buttons to present a binary choice, if possible label as “X” and “Don’t X”. This will also help with localization.</p>
+  </li>
+  <li>
+    <p>Use <strong>ellipses</strong> in buttons when the action requires additional user input, usually via a dialog, an alert or moving the operation to another window or part of the UI.</p>
+  </li>
+</ul>
+:ET

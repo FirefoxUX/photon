@@ -1,0 +1,44 @@
+I"�<h2 id="usage">Usage</h2>
+
+<p>Use when you want to disable access to an interface feature or element, but still want to maintain the element’s visibility to the user.</p>
+
+<div class="grid-2">
+<div>
+    <p class="example"><img src="../images/inactive/inactive-do.svg" alt="Example of an inactive checkbox inside an active checkbox" /></p>
+
+    <div class="do">
+      <p><img src="../images/global/check.svg" alt="Checkmark icon indicating a good choice" /> Do</p>
+    </div>
+
+    <figcaption>Provide context and show users how to enable inactive features or elements.</figcaption>
+  </div>
+<div>
+    <p class="example"><img src="../images/inactive/inactive-dont.svg" alt="Example of an inactive button without adequate context" /></p>
+
+    <div class="dont">
+      <p><img src="../images/global/stop.svg" alt="Cross icon indicating a bad choice" /> Don’t</p>
+    </div>
+
+    <figcaption>Show inactive elements without adequate context.</figcaption>
+  </div>
+</div>
+
+<p>The components that can have an inactive state are:</p>
+
+<ul>
+  <li>buttons</li>
+  <li>checkboxes</li>
+  <li>dropdown buttons</li>
+  <li>input fields</li>
+  <li>radio buttons.</li>
+</ul>
+
+<h2 id="style">Style</h2>
+
+<div class="grid-2">
+
+  <p>Apply a 40% alpha channel to typography, icons, buttons, or components when the feature or the interface element is inactive.</p>
+
+  <p class="example"><img src="../images/inactive/inactive-style.svg" alt="Style of an inactive button" /></p>
+</div>
+:ET

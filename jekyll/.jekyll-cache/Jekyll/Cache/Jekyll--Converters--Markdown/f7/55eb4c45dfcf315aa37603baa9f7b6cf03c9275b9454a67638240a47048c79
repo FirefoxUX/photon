@@ -1,0 +1,196 @@
+I"O<p>A checkbox is used to choose between two opposite states, often to select/deselect items or enable/disable actions.</p>
+
+<p>Toggles provide an alternative UI for the same use cases and are often used on mobile.</p>
+
+<h2 id="usage">Usage</h2>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-usage.png" alt="Usage Example of a Checkbox as used in Firefox Options" /></p>
+
+  <p>Use checkboxes to provide a binary choice. For example to offer a choice about performing an action or not. It is considered “on” when it is checked, and “off” when it’s not.</p>
+</div>
+
+<h2 id="combination">Combination</h2>
+
+<p>A checkbox can be used as a single element, or it can be combined into a list, or nested list of elements to pick multiple from.</p>
+
+<h3 id="single">Single</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-combination-single.svg" alt="Example of a Single Checkbox" /></p>
+
+  <p>Use one checkbox to offer one binary choice.</p>
+</div>
+
+<h3 id="group">Group</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-combination-group.svg" alt="Example of a Group of 3 Checkboxes" /></p>
+
+  <p>Group checkboxes to convey a set of choices are related.</p>
+</div>
+
+<h3 id="nested-group">Nested Group</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-combination-nested.svg" alt="Example of 2 Checkboxes Nested Under Another Checkbox" /></p>
+
+  <div>
+    <p>Nest checkboxes to convey that some options are only available if the parent option is selected.</p>
+
+    <blockquote>
+      <p>See <a href="../patterns/nesting.html">Nesting</a> for more info on how to nest elements.</p>
+    </blockquote>
+  </div>
+</div>
+
+<h2 id="style">Style</h2>
+
+<p>A checkbox consists of a part to indicate its state and a label to describe the binary choice it represents.</p>
+
+<h3 id="indicator--label">Indicator &amp; Label</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-states.svg" alt="Example of a checked and an unchecked Checkbox." /></p>
+
+  <div>
+    <p>Use the indicator to show whether the checkbox is checked (“on”) or not (“off”).</p>
+
+    <p>Use the label to make the action clear and convey that it is a binary choice.</p>
+  </div>
+</div>
+
+<h3 id="dimensions">Dimensions</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-size.svg" alt="Illustration of the Size of a Checkbox." /></p>
+
+  <div>
+    <p>Corner Radius: <code class="language-plaintext highlighter-rouge">2px</code></p>
+
+    <p>Height: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Width: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Horizontal Padding: <code class="language-plaintext highlighter-rouge">4px</code></p>
+  </div>
+</div>
+
+<h3 id="text-and-color">Text and Color</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-checked.svg" alt="Illustration of a checked Checkbox." /></p>
+
+  <div>
+    <p>Text: <a href="../visuals/typography.html#scale">Body 10</a></p>
+
+    <p>Text Color: Grey 90 <code class="language-plaintext highlighter-rouge">#0c0c0d</code></p>
+  </div>
+</div>
+
+<h2 id="behaviors">Behaviors</h2>
+
+<h3 id="on--off">On / Off</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-states.svg" alt="Example of a checked and an unchecked Checkbox." /></p>
+
+  <div>
+    <h4 id="checked-on">Checked (On):</h4>
+
+    <p>Icon: <a href="../images/components/checkboxes/checkbox-check-16.svg">Checkbox-Check</a></p>
+
+    <p>Background Color: Blue 60 <code class="language-plaintext highlighter-rouge">#0060df</code></p>
+
+    <h4 id="unchecked-off">Unchecked (Off):</h4>
+
+    <p>Background Color: Grey 90 a10 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.1)</code></p>
+
+    <p>Border: 1px Grey 90 a30 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.3)</code></p>
+  </div>
+</div>
+
+<h3 id="clicktarget">Clicktarget</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-clicktarget.svg" alt="Illustration of the extent of the clicktarget of a Checkbox." /></p>
+
+  <div>
+    <p>A checkbox can be toggled by clicking on the area of its checkbox as well as its label. Usually the clicktarget extends to the same width for each element in a collection of checkboxes. This results in a click target that extends beyond the label, for all elements shorter than the longest.</p>
+
+    <p>Clicking a checkbox triggers the action on release of the click. If, during the click, the mouse is moved off of the checkbox, no action is triggered.</p>
+  </div>
+</div>
+
+<h3 id="disabled">Disabled</h3>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-disabled.svg" alt="Illustration of a checked and an unchecked disabled Checkbox." /></p>
+
+  <div>
+    <p>40% Opacity</p>
+
+    <p>Can not be interacted with nor focused.</p>
+  </div>
+</div>
+
+<h3 id="interaction">Interaction</h3>
+
+<h4 id="checked">Checked</h4>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-interaction-checked.png" alt="Illustration of all appearances a checked Checkbox can show when interacted with." /></p>
+
+  <div>
+    <p>Background Color:</p>
+
+    <p>Default: Blue 60 <code class="language-plaintext highlighter-rouge">#0060df</code></p>
+
+    <p>Hover: Blue 70 <code class="language-plaintext highlighter-rouge">#003eaa</code></p>
+
+    <p>Pressed: Blue 80 <code class="language-plaintext highlighter-rouge">#002275</code></p>
+
+    <h5 id="focused">Focused:</h5>
+
+    <p>Border: none</p>
+
+    <p>Box Shadow: <code class="language-plaintext highlighter-rouge">0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+  </div>
+</div>
+
+<h4 id="unchecked">Unchecked</h4>
+
+<div class="grid-2">
+  <p><img src="../images/components/checkboxes/checkbox-interaction-unchecked.png" alt="Illustration of all appearances an unchecked Checkbox can show when interacted with." /></p>
+
+  <div>
+    <p>Background Color:</p>
+
+    <p>Default: Grey 90 a10 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.1)</code></p>
+
+    <p>Hover: Grey 90 a20 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.2)</code></p>
+
+    <p>Pressed: Grey 90 a30 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.3)</code></p>
+
+    <h5 id="focused-1">Focused:</h5>
+
+    <p>Border: none</p>
+
+    <p>Box Shadow: <code class="language-plaintext highlighter-rouge">0 0 0 1px #0a84ff inset, 0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+  </div>
+</div>
+
+<h2 id="copy-rules">Copy Rules</h2>
+
+<ul>
+  <li>
+    <p>Use the imperative voice for checkbox labels.</p>
+  </li>
+  <li>
+    <p>Do not use terminal punctuation for checkbox labels.</p>
+  </li>
+  <li>
+    <p>Maintain parallel construction for lists of related checkbox labels.</p>
+  </li>
+</ul>
+:ET

@@ -1,0 +1,127 @@
+I"�<p>Input fields allow users to add text within a defined area.</p>
+
+<h2 id="usage">Usage</h2>
+
+<div class="grid-2">
+  <p><img src="../images/input/input-fields-usage.png" alt="an input field example" /></p>
+
+  <p>Use input fields when requiring users to enter text (like email address, account name, search keyword, etc.) that can’t be automatically generated or displayed.</p>
+</div>
+
+<h2 id="styles">Styles</h2>
+
+<p>The following specs are designed for desktop and web. Mobile UIs follow their platform guidelines. See <a href="https://material.io/guidelines/components/text-fields.html">Material Design Guidelines</a> for Android and <a href="https://developer.apple.com/macos/human-interface-guidelines/fields-and-labels/text-fields/">Apple’s Human Interface Guideline</a> for iOS.</p>
+
+<div class="grid-2">
+  <p><img src="../images/input/input-fields-style.png" alt="an input field example" /></p>
+
+  <div>
+    <p><strong>Size</strong></p>
+
+    <p>Label margin bottom: <code class="language-plaintext highlighter-rouge">8px</code></p>
+
+    <p>Corner radius: <code class="language-plaintext highlighter-rouge">2px</code></p>
+
+    <p>Padding horizontal: <code class="language-plaintext highlighter-rouge">8px</code></p>
+
+    <p>Width: <code class="language-plaintext highlighter-rouge">auto</code></p>
+
+    <p>Height: <code class="language-plaintext highlighter-rouge">32px</code></p>
+
+    <p><strong>Color</strong></p>
+
+    <p>Label: Grey 90 <code class="language-plaintext highlighter-rouge">#0c0c0d</code></p>
+
+    <p>Border: Grey 90 a20 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.2)</code></p>
+
+    <p>Placeholder: Grey 50 <code class="language-plaintext highlighter-rouge">#737373</code></p>
+
+    <p><strong>Typography</strong></p>
+
+    <p>Label: <code class="language-plaintext highlighter-rouge">0.833rem/1.4</code></p>
+
+    <p>Placeholder: <code class="language-plaintext highlighter-rouge">0.833rem/1.4</code></p>
+
+    <p><strong>Icons</strong></p>
+
+    <p>Icon width: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Icon height: <code class="language-plaintext highlighter-rouge">16px</code></p>
+
+    <p>Placeholder icon: Grey 90 a40 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.4)</code></p>
+
+    <p>Action icon: Grey 90 a60 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.6)</code></p>
+  </div>
+</div>
+
+<h2 id="behaviors">Behaviors</h2>
+
+<div class="grid-2">
+  <p><img src="../images/input/input-fields-behaviour.png" alt="normal state example" /></p>
+
+  <div>
+    <p><strong>Default</strong></p>
+
+    <p>Border color: Grey 90 a20 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.2)</code></p>
+
+    <p><strong>Hover</strong></p>
+
+    <p>Border color: Grey 90 a30 <code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.3)</code></p>
+
+    <p><strong>Focus</strong></p>
+
+    <p>Border color: Blue 50 <code class="language-plaintext highlighter-rouge">#0a84ff</code></p>
+
+    <p>Box shadow: <code class="language-plaintext highlighter-rouge">0 0 0 1px #0a84ff, 0 0 0 4px rgba(10, 132, 255, 0.3)</code></p>
+
+    <p><strong>Warning</strong></p>
+
+    <p>Border color: Yellow 60 <code class="language-plaintext highlighter-rouge">#d7b600</code></p>
+
+    <p>Box shadow: <code class="language-plaintext highlighter-rouge">0 0 0 1px #d7b600, 0 0 0 4px rgba(215, 182, 0, 0.3)</code></p>
+
+    <p><strong>Error</strong></p>
+
+    <p>Border color: Red 60 <code class="language-plaintext highlighter-rouge">#d70022</code></p>
+
+    <p>Box shadow: <code class="language-plaintext highlighter-rouge">0 0 0 1px #d70022, 0 0 0 4px rgba(251, 0, 34, 0.3)</code></p>
+  </div>
+
+  <p><img src="../images/input/input-fields-action-icon-clear.png" alt="Interaction of a text input field" /></p>
+
+  <p>In text fields, when a user starts typing display a <a href="https://design.firefox.com/icons/viewer/#clear%20text%20field%2016">clear text field icon</a> on the opposite side of the field.</p>
+
+  <p><img src="../images/input/input-fields-overflow.png" alt="Text overflow in an input field" /></p>
+
+  <p>In input fields, when the text overflows outside the field add a linear gradient to indicate to users that something is hidden.</p>
+
+  <p><img src="../images/input/input-fields-action-icon-show-password.png" alt="Interaction of a password field" /></p>
+
+  <p>In password fields, when a user starts typing display a password show icon and password hide icon on press.</p>
+</div>
+
+<h2 id="copy-rules">Copy Rules</h2>
+
+<h3 id="input-fields-messages">Input Fields Messages</h3>
+
+<ul>
+  <li>
+    <p>Prioritize brevity over niceties. Don’t say please. Just tell people what to do. “Choose a number that is less than…”</p>
+  </li>
+  <li>
+    <p>Be as specific as possible in the message. “Choose a date” or “Choose a time” or “Enter an address” are all better than “Enter a value.”</p>
+  </li>
+  <li>
+    <p>Speak to users’ cognitive processes instead of their tactile ones where possible. Use words like “choose” or “select” instead of “type” or “key”. We’d rather engage users’ minds than their hands, and this also speaks more universally to users accessing the Web with touchscreens, speech-recognition software, or other user input devices.</p>
+  </li>
+  <li>
+    <p>If there are programmatic rules governing valid choices, expose these in the messages where possible. Don’t just tell someone that X is the nearest valid value, tell them that they must choose values in x increments. “Choose times in 30-minute increments from 8:00 am.”</p>
+  </li>
+</ul>
+
+<h3 id="input-fields-placeholders">Input Fields Placeholders</h3>
+
+<ul>
+  <li>Tell users what objects are going to be searched if possible. “Search + object” is more clear than just saying “Search”.</li>
+</ul>
+:ET

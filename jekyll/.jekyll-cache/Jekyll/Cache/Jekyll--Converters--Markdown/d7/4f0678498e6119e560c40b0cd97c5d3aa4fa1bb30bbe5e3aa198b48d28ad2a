@@ -1,0 +1,385 @@
+I"83<p>Message bars communicate specific information to a user. Display message bars at the top of the page or the section they apply to.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Message bars contain concise and scannable text that is directly related to an action that has been completed or is about to be performed. They may include a single message or multiple messages. They should not be used to <strong>Dismiss</strong> or <strong>Cancel</strong>. It is <strong>required</strong> to have an icon precede the message(s).</p>
+
+<p>Common use cases for message bars include: success messages, updates, warnings, problems and errors.</p>
+
+<h2 id="types">Types</h2>
+
+<h3 id="generic">Generic</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/generic.svg" alt="generic message bar example" /></p>
+
+  <p>Convey general information or actions that aren’t critical. Update users about a change or give them advice. Include lower priority information and should be dismissible.</p>
+</div>
+
+<h3 id="success">Success</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/success.svg" alt="success message bar example" /></p>
+
+  <p>Inform users when actions are successfully completed.</p>
+</div>
+
+<h3 id="warning">Warning</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/warning.svg" alt="warning message bar example" /></p>
+
+  <p>Display exceptions or information the user needs to act on.</p>
+</div>
+
+<h3 id="error">Error</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/error.svg" alt="error message bar example" /></p>
+
+  <p>Communicate problems that must be addressed before a user can complete a task.</p>
+</div>
+
+<h2 id="style">Style</h2>
+
+<h3 id="sizes-and-grid">Sizes and Grid</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/s-gen.svg" alt="pairing example" /></p>
+
+  <div>
+    <p>Message bars have a fixed min-height. Width may vary depending on the content. The width may vary depending on the parent container. A message bar cannot grow more than its parent container.</p>
+
+    <p><strong>Width:</strong> <code class="language-plaintext highlighter-rouge">auto</code> when placed in a large container</p>
+
+    <p><strong>Width:</strong> <code class="language-plaintext highlighter-rouge">100%</code> when placed in a small container</p>
+
+    <p><strong>Min-height:</strong> <code class="language-plaintext highlighter-rouge">32px</code></p>
+
+    <p><strong>Corner Radius:</strong> ` 4px`</p>
+  </div>
+</div>
+
+<h3 id="typography">Typography</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/t-gen.svg" alt="pairing example" /></p>
+
+  <div>
+    <p>The body of the message should be contained within two lines. Be descriptive and include any troubleshooting actions.</p>
+
+    <p><strong>Message:</strong> <code class="language-plaintext highlighter-rouge">Body 10</code> Type 13px Regular 400, leading 19px (1.4)</p>
+
+    <p><strong>Button:</strong> <code class="language-plaintext highlighter-rouge">Body 10</code> Type 13px Regular 400, leading 19px (1.4)</p>
+  </div>
+</div>
+
+<h2 id="type-specific-style">Type-specific Style</h2>
+
+<div data-tabs="">
+  <input type="radio" name="tstyle" id="style-generic" checked="checked" />
+  <label for="style-generic">Generic</label>
+  <div data-tab="">
+    <h3 id="color">Color</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/c-gen.svg" alt="pairing example" /></p>
+
+      <div>
+        <p><strong>Background:</strong> Grey 20 <code class="language-plaintext highlighter-rouge">#ededf0</code></p>
+
+        <p><strong>Text:</strong> Grey 90 <code class="language-plaintext highlighter-rouge">#0c0c0d</code></p>
+
+        <h5 id="buttons">BUTTONS</h5>
+
+        <p>Default: Blue 60 <code class="language-plaintext highlighter-rouge">#0a84ff</code></p>
+
+        <p>Hover: Blue 70 <code class="language-plaintext highlighter-rouge">#0060df</code></p>
+
+        <p>Pressed: Blue 80 <code class="language-plaintext highlighter-rouge">#003eaa</code></p>
+      </div>
+    </div>
+
+    <h3 id="icon">Icon</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/i-gen.svg" alt="pairing example" /></p>
+
+      <div>
+        <p>Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.</p>
+
+        <p>Icons always have a <code class="language-plaintext highlighter-rouge">4px</code> padding all around.</p>
+
+        <p><strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#identity%20icon%20hover">Identity Icon Hover</a></p>
+      </div>
+    </div>
+  </div>
+
+  <input type="radio" name="tstyle" id="style-success" />
+  <label for="style-success">Success</label>
+  <div data-tab="">
+    <h3 id="color-1">Color</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/c-succ.svg" alt="pairing example" /></p>
+
+      <div>
+        <p><strong>Background:</strong> Green 50 <code class="language-plaintext highlighter-rouge">#30e60b</code></p>
+
+        <p><strong>Text:</strong> Green 90 <code class="language-plaintext highlighter-rouge">#003706</code></p>
+
+        <h5 id="buttons-1">BUTTONS</h5>
+
+        <p>Default: Green 60 <code class="language-plaintext highlighter-rouge">#12bc00</code></p>
+
+        <p>Hover: Green 70 <code class="language-plaintext highlighter-rouge">#058b00</code></p>
+
+        <p>Pressed: Green 80 <code class="language-plaintext highlighter-rouge">#006504</code></p>
+      </div>
+    </div>
+
+    <h3 id="icon-1">Icon</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/i-suc.svg" alt="pairing example" /></p>
+
+      <div>
+        <p>Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.</p>
+
+        <p>Icons always have a <code class="language-plaintext highlighter-rouge">4px</code> padding all around.</p>
+
+        <p><strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#check">Check</a></p>
+      </div>
+    </div>
+  </div>
+
+  <input type="radio" name="tstyle" id="style-warning" />
+  <label for="style-warning">Warning</label>
+  <div data-tab="">
+    <h3 id="color-2">Color</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/c-war.svg" alt="pairing example" /></p>
+
+      <div>
+        <p><strong>Background:</strong> Yellow 50 <code class="language-plaintext highlighter-rouge">#ffe900</code></p>
+
+        <p><strong>Text:</strong> Yellow 90 <code class="language-plaintext highlighter-rouge">#3e2800</code></p>
+
+        <h5 id="buttons-2">BUTTONS</h5>
+
+        <p>Default: Yellow 60 <code class="language-plaintext highlighter-rouge">#d7b600</code></p>
+
+        <p>Hover: Yellow 70 <code class="language-plaintext highlighter-rouge">#a47f00</code></p>
+
+        <p>Pressed: Yellow 80 <code class="language-plaintext highlighter-rouge">#715100</code></p>
+      </div>
+    </div>
+
+    <h3 id="icon-2">Icon</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/i-war.svg" alt="pairing example" /></p>
+
+      <div>
+        <p>Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/">icons library</a>.</p>
+
+        <p>Icons always have a <code class="language-plaintext highlighter-rouge">4px</code> padding all around.</p>
+
+        <p><strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#warning">Warning</a></p>
+      </div>
+    </div>
+  </div>
+
+  <input type="radio" name="tstyle" id="style-errors" />
+  <label for="style-errors">Errors</label>
+  <div data-tab="">
+    <h3 id="color-3">Color</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/c-err.svg" alt="pairing example" /></p>
+
+      <div>
+        <p><strong>Background:</strong> Red 60 <code class="language-plaintext highlighter-rouge">#d70022</code></p>
+
+        <p><strong>Text:</strong> White <code class="language-plaintext highlighter-rouge">#ffffff</code></p>
+
+        <h5 id="buttons-3">BUTTONS</h5>
+
+        <p>Default: Red 70 <code class="language-plaintext highlighter-rouge">#a4000f</code></p>
+
+        <p>Hover: Red 80 <code class="language-plaintext highlighter-rouge">#5a0002</code></p>
+
+        <p>Pressed: Red 90 <code class="language-plaintext highlighter-rouge">#3e0200</code></p>
+      </div>
+    </div>
+
+    <h3 id="icon-3">Icon</h3>
+
+    <div class="grid-2">
+      <p><img src="../images/message-bars/i-err.svg" alt="pairing example" /></p>
+
+      <div>
+        <p>Icons may provide additional clarity. Icons should be placed to the left of a title or message. These glyphs (16x16) can be found in the <a href="http://design.firefox.com/icons/viewer/#error">icons library</a>.</p>
+
+        <p>Icons always have a <code class="language-plaintext highlighter-rouge">4px</code> padding all around.</p>
+
+        <p><strong>Type:</strong> <a href="http://design.firefox.com/icons/viewer/#error">Error</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 id="behavior">Behavior</h2>
+
+<h3 id="dismissible">Dismissible</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/ghost-btn.svg" alt="Dismissable behavior" /></p>
+
+  <p>Unless they contain critical information, message bars should be dismissible by clicking or tapping the ghost button, placed in the top right corner.</p>
+</div>
+
+<h3 id="call-to-action">Call to Action</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/mb-action-example.svg" alt="message bar in action" /></p>
+
+  <div>
+    <p>Add one or two <a href="buttons.html#micro">micro-buttons</a> to the message bar if users need to take an action after reading the message.</p>
+
+    <div data-tabs="">
+  <input type="radio" name="tbehaviour" id="behaviour-generic" checked="checked" />
+  <label for="behaviour-generic">Generic</label>
+  <div data-tab="">
+        <p><img src="../images/message-bars/btn-generic.svg" alt="pairing example" /></p>
+
+        <table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Grey 90 a10 <code>rgba(12, 12, 13, 0.1)</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Grey 90 a20 <code>rgba(12, 12, 13, 0.2)</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Grey 90 a30<code>rgba(12, 12, 13, 0.3)</code></td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+  <input type="radio" name="tbehaviour" id="behaviour-success" />
+  <label for="behaviour-success">Success</label>
+  <div data-tab="">
+        <p><img src="../images/message-bars/btn-success.svg" alt="pairing example" /></p>
+
+        <table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Green 60 <code>#12bc00</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Green 70 <code>#058b00</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Green 80 <code>#006504</code></td>
+    </tr>
+  </tbody>
+</table>
+
+      </div>
+
+  <input type="radio" name="tbehaviour" id="behaviour-warning" />
+  <label for="behaviour-warning">Warning</label>
+  <div data-tab="">
+        <p><img src="../images/message-bars/btn-warning.svg" alt="pairing example" /></p>
+
+        <table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Yellow 60 <code>#d7b600</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Yellow 70 <code>#a47f00</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Yellow 80 <code>#715100</code></td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+
+  <input type="radio" name="tbehaviour" id="behaviour-errors" />
+  <label for="behaviour-errors">Errors</label>
+  <div data-tab="">
+        <p><img src="../images/message-bars/btn-error.svg" alt="pairing example" /></p>
+
+        <table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td>Red 70 <code>#a4000f</code></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td>Red 80 <code>#5a0002</code></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td>Red 90 <code>#3e0200</code></td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+</div>
+  </div>
+</div>
+
+<h3 id="message-on-multiple-lines">Message on Multiple Lines</h3>
+
+<div class="grid-2">
+  <p><img src="../images/message-bars/mb-multilines.svg" alt="message bar in action" /></p>
+
+  <div>
+    <p>It is possible for the message to wrap to multiple lines. This is especially likely on mobile, or if displayed in a small container.</p>
+
+    <p>In this case the <a href="#icon">icon</a> and the <a href="#dismissible">dismiss-button</a> remain aligned to the top.</p>
+
+    <p>The <a href="#call-to-action">call-to-action-buttons</a> break into a new line below the message and are aligned to the start of the message.</p>
+  </div>
+</div>
+:ET

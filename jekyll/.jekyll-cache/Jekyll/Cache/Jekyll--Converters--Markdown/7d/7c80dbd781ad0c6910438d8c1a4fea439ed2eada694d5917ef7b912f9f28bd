@@ -1,0 +1,15 @@
+I"Z<p>Overlay is a temporary layer covers on the content that shouldn’t be focused on.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p>Use overlay when you have an important part of UI that needs users’ attention without getting distracted by the rest of the content. A pop-up window and an onboarding tour are the typical examples of using overlay.</p>
+
+<h2 id="style">Style</h2>
+
+<div class="grid-2">
+  <p><img src="../images/overlay/overlay-style.svg" alt="overlay example" /></p>
+
+  <p>Overlay color: Gray 90 a60<br />
+<code class="language-plaintext highlighter-rouge">rgba(12, 12, 13, 0.6)</code></p>
+</div>
+:ET

@@ -1,0 +1,587 @@
+I"8Q<p>Good typography is invisible, enabling users to have a seamless experience while they’re using Firefox products.</p>
+
+<h2 id="typefaces">Typefaces</h2>
+
+<p>In Firefox products we use the standard typeface for each platform.</p>
+
+<form><div data-tabs="">
+  <input type="radio" name="ptabs" id="platform-win" checked="checked" />
+  <label for="platform-win">Windows</label>
+  <div data-tab="" class="grid-2">
+
+      <p><img src="../images/typography/typography-segoe.svg" alt="List of Segoe UI weights used in Firefox products" /></p>
+
+      <p><a href="https://docs.microsoft.com/en-us/windows/uwp/design/downloads/#fonts">Segoe UI</a> is the typeface used on the Windows platform.</p>
+
+    </div>
+
+  <input type="radio" name="ptabs" id="platform-mac-os" />
+  <label for="platform-mac-os">macOS</label>
+  <div data-tab="" class="grid-2">
+
+      <p><img src="../images/typography/typography-san-francisco.svg" alt="List of San Francisco weights used in Firefox products" /></p>
+
+      <p><a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on Apple macOS.</p>
+
+    </div>
+
+  <input type="radio" name="ptabs" id="platform-ubuntu" />
+  <label for="platform-ubuntu">Linux</label>
+  <div data-tab="" class="grid-2">
+
+      <p><img src="../images/typography/typography-ubuntu.svg" alt="List of Ubuntu weights used in Firefox products" /></p>
+
+      <p><a href="http://font.ubuntu.com/">Ubuntu</a> is the typeface used in Ubuntu, the most common Linux distro.</p>
+    </div>
+
+  <input type="radio" name="ptabs" id="platform-web" />
+  <label for="platform-web">Web</label>
+  <div data-tab="" class="grid-2">
+
+      <p><img src="../images/typography/typography-fira-sans.svg" alt="List of Fira Sans weights used in Firefox products" /></p>
+
+      <div>
+        <p><a href="https://mozilla.github.io/Fira/">Fira Sans</a> is the typeface used in Firefox web products.</p>
+
+        <p>Despite <strong>Open Sans</strong> being used on some Mozilla web properties, it is currently not recommended for Firefox products.</p>
+      </div>
+
+    </div>
+
+  <input type="radio" name="ptabs" id="platform-android" />
+  <label for="platform-android">Android</label>
+  <div data-tab="" class="grid-2">
+
+      <p><img src="../images/typography/typography-roboto.svg" alt="List of Roboto weights used in Firefox products" /></p>
+
+      <p><a href="https://fonts.google.com/specimen/Roboto">Roboto</a> is the standard typeface on Android. <strong>Noto</strong> is the standard Android typeface for all languages not covered by Roboto.</p>
+
+    </div>
+
+  <input type="radio" name="ptabs" id="platform-iOS" />
+  <label for="platform-iOS">iOS</label>
+  <div data-tab="" class="grid-2">
+
+      <p><img src="../images/typography/typography-san-francisco.svg" alt="List of San Francisco weights used in Firefox products" /></p>
+
+      <p><a href="https://developer.apple.com/fonts/">San Francisco</a> is the standard typeface on the Apple iOS.</p>
+
+    </div>
+</div>
+</form>
+
+<h2 id="scale">Scale</h2>
+
+<p>The type scale enables you to indicate content hierarchy. These sizes and styles are designed to balance content density with increased readability.</p>
+
+<form><div data-tabs="">
+  <style type="text/css" scoped="">
+    div[style*="background-image"] {
+        height: 40px;
+        min-width: 154px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0 center;
+    }
+  </style>
+  <input type="radio" name="tabs" id="overview-win" checked="checked" />
+  <label for="overview-win">Windows</label>
+  <div data-tab="">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Display20.png')" alt=""></div></td>
+          <td><code>36px</code></td>
+          <td>Light <code>200</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Title30.png')" alt=""></div></td>
+          <td><code>22px</code></td>
+          <td>Semilight <code>300</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Title20.png')" alt=""></div></td>
+          <td><code>17px</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Title10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Body20.png')" alt=""></div></td>
+          <td><code>15px</code></td>
+          <td>Normal <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Body10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Normal <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Caption20.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Normal <code>400</code></td>
+          <td>Bold <code>700</code></td>
+      </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/win-Caption10.png')" alt=""></div></td>
+          <td><code>11px</code></td>
+          <td>Normal <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <input type="radio" name="tabs" id="overview-mac-os" />
+  <label for="overview-mac-os">macOS</label>
+  <div data-tab="">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Display20.png')" alt=""></div></td>
+          <td><code>36px</code></td>
+          <td>Thin <code>100</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Title30.png')" alt=""></div></td>
+          <td><code>22px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Title20.png')" alt=""></div></td>
+          <td><code>17px</code></td>
+          <td>Semibold <code>600</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Title10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Body20.png')" alt=""></div></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Body10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Caption20.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/mac-Caption10.png')" alt=""></div></td>
+          <td><code>11px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <input type="radio" name="tabs" id="overview-ubuntu" />
+  <label for="overview-ubuntu">Linux</label>
+  <div data-tab="">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Display20.png')" alt=""></div></td>
+          <td><code>36px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Title30.png')" alt=""></div></td>
+          <td><code>22px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Title20.png')" alt=""></div></td>
+          <td><code>17px</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Title10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Body20.png')" alt=""></div></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Body10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Caption20.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+      </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/u-Caption10.png')" alt=""></div></td>
+          <td><code>11px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <input type="radio" name="tabs" id="overview-web" />
+  <label for="overview-web">Web</label>
+  <div data-tab="">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Display20.png')" alt=""></div></td>
+          <td><code>36px</code></td>
+          <td>ExtraLight <code>200</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Title40.png')" alt=""></div></td>
+          <td><code>28px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Title30.png')" alt=""></div></td>
+          <td><code>22px</code></td>
+          <td>Light <code>300</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Title20.png')" alt=""></div></td>
+          <td><code>17px</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Title10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Body30.png')" alt=""></div></td>
+          <td><code>17px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Body20.png')" alt=""></div></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Body10.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Caption30.png')" alt=""></div></td>
+          <td><code>15px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+      </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Caption20.png')" alt=""></div></td>
+          <td><code>13px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+      </tr>
+        <tr>
+       <td><div style="background-image: url('../images/typography/web-Caption10.png')" alt=""></div></td>
+          <td><code>11px</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <input type="radio" name="tabs" id="overview-android" />
+  <label for="overview-android">Android <span class="draft">DRAFT</span></label>
+  <div data-tab="">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+          <th>Primary</th>
+          <th>Secondary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div style="background-image: url('../images/typography/android-Title20.png')" alt=""></div></td>
+          <td><code>20sp</code></td>
+          <td>Regular <code>400</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/android-Body20.png')" alt=""></div></td>
+          <td><code>15sp</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/android-Caption20.png')" alt=""></div></td>
+          <td><code>12sp</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Medium <code>500</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+      </tr>
+      </tbody>
+    </table>
+    <p>*More type scales will come after Photon mobile scales the project scope.</p>
+  </div>
+
+  <input type="radio" name="tabs" id="overview-iOS" />
+  <label for="overview-iOS">iOS <span class="draft">DRAFT</span></label>
+  <div data-tab="">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Emphasized</th>
+          <th>Primary</th>
+          <th>Secondary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div style="background-image: url('../images/typography/iOS-Title20.png')" alt=""></div></td>
+          <td><code>20pt</code></td>
+          <td>Regular <code>400</code></td>
+          <td>&#10005;</td>
+          <td>&#10003;</td>
+          <td>&#10005;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/iOS-Body20.png')" alt=""></div></td>
+          <td><code>15pt</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+        <tr>
+          <td><div style="background-image: url('../images/typography/iOS-Caption20.png')" alt=""></div></td>
+          <td><code>12pt</code></td>
+          <td>Regular <code>400</code></td>
+          <td>Bold <code>700</code></td>
+          <td>&#10003;</td>
+          <td>&#10003;</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>*More type scales will come after Photon mobile scales the project scope.</p>
+  </div>
+</div>
+</form>
+
+<h3 id="the-scaling-ratio">The Scaling Ratio</h3>
+
+<p>The recommended font sizes, which are listed in the table above, are multiplied by a specific ratio for building the typographic hierarchy. In the very rare cases, there may be a need of having a bigger/ smaller font size which is not documented. Use the dedicated ratio to create new ones.</p>
+
+<h4 id="body--caption">Body &amp; Caption</h4>
+
+<p><img src="../images/typography/ratio-body&amp;caption.svg" alt="The scaling ratio of body and caption is 1.15" /></p>
+
+<figcaption>The scaling ratio of body and caption is 1.15.</figcaption>
+
+<h4 id="title--display">Title &amp; Display</h4>
+
+<p><img src="../images/typography/ratio-title&amp;display.svg" alt="The scaling ratio of title and display is 1.29" /></p>
+
+<figcaption>The scaling ratio of title and display is 1.29.</figcaption>
+
+<h2 id="color">Color</h2>
+
+<p>Choose a text color based on the content’s purpose and priority.</p>
+
+<h3 id="primary-color">Primary Color</h3>
+
+<p>Use a primary color for main titles and body text.</p>
+
+<div class="grid-2">
+  <p><img src="../images/typography/typography-primary-color.svg" alt="Primary color usage example" /></p>
+
+  <div>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Primary color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Light Background</td>
+      <td>Grey 90 <code>#0c0c0d</code></td>
+    </tr>
+    <tr>
+      <td>Dark Background</td>
+      <td>White <code>#ffffff</code></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<h3 id="secondary-color">Secondary Color</h3>
+
+<p>Use a secondary color for accompanying text that adds further information, details, or features to the primary content. Examples include caption text and menu subtitles.</p>
+
+<div class="grid-2">
+  <p><img src="../images/typography/typography-secondary-color.svg" alt="Emphasis example" /></p>
+
+  <div>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Secondary color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Light Background</td>
+      <td>Grey 50 <code>#737373</code></td>
+    </tr>
+    <tr>
+      <td>Dark Background</td>
+      <td>Grey 10 <code>#f9f9fa</code></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<h2 id="line-length">Line Length</h2>
+
+<p>The number of characters per line influences readability. Studies indicate the following guidelines for English:</p>
+
+<ul>
+  <li>
+    <p><strong>Satisfactory</strong> <br />
+45-75 characters (desktop) or 35-40 characters (mobile) per line is widely regarded as a satisfactory line length.</p>
+  </li>
+  <li>
+    <p><strong>Optimal</strong> <br />
+Around 66 characters (desktop) or 39 characters (mobile) is optimal.</p>
+  </li>
+  <li>
+    <p><strong>Too long</strong> <br />
+More than 90 characters (desktop) or 50 characters (mobile) is likely too long for continuous reading.</p>
+  </li>
+</ul>
+
+<p><img src="../images/typography/typography-linelength.svg" alt="line length" /></p>
+
+<figcaption>Line lengths within the light blue range are satisfactory, while entering the dark blue range are tolerant.</figcaption>
+
+<h2 id="usage">Usage</h2>
+
+<h3 id="display">Display</h3>
+
+<p>Use display style for delivering primary messages on content pages.</p>
+
+<p><img src="../images/typography/typography-usage-1.svg" alt="display example" /></p>
+
+<figcaption>Display 20 in an error page on Desktop</figcaption>
+
+<h3 id="title">Title</h3>
+
+<p>Use title style to summarize content that follows the title. Carefully pairing titles makes content hierarchy obvious and improves readability.</p>
+
+<p><img src="../images/typography/typography-usage-2.svg" alt="Title example" /></p>
+
+<figcaption>Title 30 pairing with Title 20 in Firefox Preferences on Desktop</figcaption>
+
+<h3 id="emphasis">Emphasis</h3>
+
+<p>Use emphasized style on body text or a caption that needs to stand out from regular content.</p>
+
+<p><img src="../images/typography/typography-usage-3.svg" alt="Emphasis example" /></p>
+
+<figcaption>Emphasize on "Firefox is up to date" in Firefox Preferences on Desktop</figcaption>
+
+<h3 id="font-pairing">Font Pairing</h3>
+
+<p>Font styles should typically be paired. But font styles may also be combined to indicate hierarchy or priority.</p>
+
+<p><img src="../images/typography/typography-usage-4.svg" alt="Pairing example" /></p>
+
+<figcaption>Style set 10 in Library menu on Desktop</figcaption>
+:ET

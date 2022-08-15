@@ -1,0 +1,85 @@
+I"v<h2 id="usage">Usage</h2>
+
+<p>Warnings alert users prior to actions that may be damaging or harmful, without restricting them from taking an action. Warnings are generally used for issues that occur because of external factors (e.g., arriving at a dangerous website, or using a site that is causing Firefox to slow down) and should be used sparingly as part of a planned interaction. (It is ok to ask users to confirm decisions, but those confirmations should usually not take the form of a warning.)</p>
+
+<p>Warnings support users with the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear).</p>
+
+<p>We distinguish between two different categories of warnings:</p>
+
+<ul>
+  <li>Generic warnings</li>
+  <li>High visibility warnings</li>
+</ul>
+
+<h2 id="generic-warnings">Generic warnings</h2>
+
+<div class="grid-2">
+<div>
+    <p>Generic warnings are an early indicator of trouble.</p>
+
+    <p>Generic errors the most common in Firefox. They can use a combination of icon and background, or simply the icon.</p>
+  </div>
+<div>
+    <p><img src="../images/warnings/error-generic-example.png" alt="An example of a warning in about:addons" /></p>
+
+    <figcaption>The badge is informing the users their extensions are not using the latest standard. It's up to the users to continue to use them.</figcaption>
+
+    <p><img src="../images/warnings/error-generic-example_2.png" alt="An example of warning in about:config" /></p>
+
+    <figcaption>The icon and the text suggest to the users they can encounter possible problems if they continue and access to about:config.</figcaption>
+  </div>
+</div>
+
+<h2 id="high-visibility-warnings">High visibility warnings</h2>
+
+<div class="grid-2">
+<div>
+    <p>High visibility warnings are an early indicator for an action which has significant consequences or it cannot be easily undone.</p>
+
+    <p>Those kind of warnings are extremely rare. They can use a combination of icon and background, or simply the icon. They use the red color to underline the urgency and the sense of emergency.</p>
+  </div>
+<div>
+    <p><img src="../images/warnings/warning-high-level.png" alt="An indication of a deceptive website" /></p>
+
+    <figcaption>The page is informing the users the website they're visiting can be dangerous.</figcaption>
+  </div>
+</div>
+
+<h2 id="style">Style</h2>
+
+<h3 id="icon">Icon</h3>
+
+<div class="grid-2">
+  <p>The icon used to indicate errors is <a href="http://design.firefox.com/icons/viewer/#warning">an exclamation mark enclosed within a triangle</a>.</p>
+
+  <p><img src="../images/warnings/warning-icon.svg" alt="pairing example" width="100%" /></p>
+</div>
+
+<h3 id="color">Color</h3>
+
+<div class="grid-2">
+  <div>
+    <p><a href="../visuals/color.html#yellow">Yellow</a> is the dedicated color for warning states. Warning text should be highly legible, with noticeable contrast against its background color.</p>
+
+    <p>In the rare case of a high visibility warning, use <a href="../visuals/color.html#yellow">red</a> to indicate the seriousness of the warning.</p>
+  </div>
+
+  <p><img src="../images/message-bars/warning.svg" alt="Yellow Warning" /></p>
+</div>
+
+<h3 id="copy-rules">Copy Rules</h3>
+
+<p>A good warning message is immediately pertinent and actionable.</p>
+
+<ul>
+  <li>
+    <p>Alert users to a situation or possible issue as it arises, even if it doesn’t require immediate action.</p>
+  </li>
+  <li>
+    <p>Include information that will help users prevent an immediate issue and avoid similar issues in the future.</p>
+  </li>
+  <li>
+    <p>Rely on color and iconography to alert users to the fact of the warning, and use the limited text of the warning to explain the issue and available user actions. Avoid using the word <strong>warning</strong> or <strong>caution</strong> in the copy. When used correctly, the warning icon is enough to communicate that users should proceed with caution.</p>
+  </li>
+</ul>
+:ET

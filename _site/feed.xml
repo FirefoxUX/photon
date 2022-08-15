@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photon Design System</title>
+    <description>The Photon Design System houses guidelines, reusable UI components, templates, and other resources to help you create products for Firefox users.
+</description>
+    <link>https://design.firefox.com/photon/</link>
+    <atom:link href="https://design.firefox.com/photon/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 23 Jul 2020 15:19:48 +0000</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2020 15:19:48 +0000</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+    
+  </channel>
+</rss>

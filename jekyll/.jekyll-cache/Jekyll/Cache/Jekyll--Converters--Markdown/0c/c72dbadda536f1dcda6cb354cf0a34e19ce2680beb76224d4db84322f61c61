@@ -1,0 +1,45 @@
+I"Ý<p>Icon animations have the greatest flexibility since the form and function of an icon can vary greatly. This is where we can inject the most personality and whimsy. With that said, here are a few guidelines to keep in mind.</p>
+
+<h2 id="bounce">Bounce</h2>
+
+<p>Use this for on-press feedback when a user clicks on an icon to perform a unique task such as bookmarking or saving to Pocket. Do not use the bounce motion for common actions such as opening a door-hanger menu or library menu.</p>
+
+<div class="grid-2">
+<div>
+    <p class="animated"><img src="../images/motion/bounce-pocket.gif" alt="animation showing save to pocket" /></p>
+
+    <p>Example of bounce.</p>
+
+  </div>
+</div>
+
+<h2 id="highlight-colour">Highlight Colour</h2>
+
+<p>A highlight colour can be used to draw extra attention to an area.</p>
+
+<div class="grid-2">
+<div>
+    <p class="animated"><img src="../images/motion/bookmark.gif" alt="animation showing bookmarking" /></p>
+
+    <p>Example of highlight colour (Blue 60).</p>
+  </div>
+
+<div>
+
+    <p class="animated"><img src="../images/motion/download.gif" alt="animation showing downloading" /></p>
+
+  </div>
+</div>
+
+<h2 id="confirmation-pop-up">Confirmation Pop-up</h2>
+
+<p>Confirms the completion of a user triggered action (i.e. Copy Link and Bookmark This Page).</p>
+
+<div class="grid-2">
+<div>
+    <p class="animated"><img src="../images/motion/copyurl.gif" alt="animation showing Copy Link" /></p>
+
+    <p>Example of confirmation pop-up for Copy Link.</p>
+  </div>
+</div>
+:ET

@@ -1,0 +1,251 @@
+I"y<p>Tabs are used to navigate to related destinations.</p>
+
+<h2 id="usage">Usage</h2>
+
+<ul>
+  <li>Don’t use tabs for destinations that are not related. Tabs should be connected by the same information object.</li>
+  <li>Don’t load the entire page for tabs. Only the tabs and their content area should be changing when a user switches to another tab. Nothing else, including the position, should be changing. Users should feel like they are in the same place while alternating tabs.</li>
+  <li>Avoid long tab content load time. Tabs should be rapid switching.</li>
+  <li>Don’t use multiple rows of tabs as they destroy spatial memory. Tabs should be presented in one row.</li>
+  <li>Don’t order tabs randomly. Order them based on user needs.</li>
+  <li>Avoid using tabs for more than 1 navigation level as their relationship may be unclear to users. Tabs should be used for the lowest navigation level on the page. Use tabs for only one navigation level.</li>
+  <li>Don’t use tabs when users need to compare the content behind them.</li>
+</ul>
+
+<p>There are some overlaps between Don’ts and Do’s. Haven’t which ones to include yet (whether we need both Don’ts and Do’s).</p>
+
+<p><img width="846" alt="image" src="https://user-images.githubusercontent.com/10877399/48795249-403ba600-ecca-11e8-9fa3-2df57037d373.png" /></p>
+
+<h2 id="anatomy">Anatomy</h2>
+
+<ul>
+  <li>Container</li>
+  <li>Active label</li>
+  <li>Active indicator</li>
+  <li>Inactive label</li>
+  <li>Inactive indicator</li>
+</ul>
+
+<h2 id="style">Style</h2>
+
+<ul>
+  <li>Tab line stroke
+    <ul>
+      <li>2px</li>
+    </ul>
+  </li>
+  <li>Focused box
+    <ul>
+      <li>Box width: the same as the tab</li>
+      <li>Box height: the same as the container</li>
+    </ul>
+  </li>
+  <li>Tab width
+    <ul>
+      <li>Dividing the number of tabs by the screen/panel width</li>
+      <li>Changes with labels (can align to the left, right, or middle): 16px padding for body 20, 8px padding for body 10</li>
+    </ul>
+  </li>
+  <li>Tab container height
+    <ul>
+      <li>48px for body 20</li>
+      <li>32px for body 10</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Light theme</strong></p>
+<ul>
+  <li>Active tab indicator (tab line)
+    <ul>
+      <li>Blue 50</li>
+    </ul>
+  </li>
+  <li>Active tab text label
+    <ul>
+      <li>Blue 60</li>
+    </ul>
+  </li>
+  <li>Inactive tab text label
+    <ul>
+      <li>Grey 90 a80</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Dark theme</strong></p>
+<ul>
+  <li>Active tab indicator (tab line)
+    <ul>
+      <li>Blue 50</li>
+    </ul>
+  </li>
+  <li>Active tab text label
+    <ul>
+      <li>Blue 40</li>
+    </ul>
+  </li>
+  <li>Inactive tab text label
+    <ul>
+      <li>Grey 10 a80</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Text sizes</strong></p>
+<ul>
+  <li>Same size as the body text (may be either Body 10 or 20 since there are only two body font sizes)
+    <ul>
+      <li>Body 10 (line height 16) - so it can fit an icon that is 16</li>
+      <li>Body 20 (line height 24) - so it can fit an icon that is 24</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="states">States</h2>
+
+<p><strong>Light theme</strong></p>
+<ul>
+  <li>Hover tab indicator
+    <ul>
+      <li>Grey 90 a10</li>
+    </ul>
+  </li>
+  <li>Hover tab overlay
+    <ul>
+      <li>Grey 90 a10</li>
+    </ul>
+  </li>
+  <li>Pressed tab indicator
+    <ul>
+      <li>Grey 90 a20</li>
+    </ul>
+  </li>
+  <li>Pressed tab overlay
+    <ul>
+      <li>Grey 90 a20</li>
+    </ul>
+  </li>
+  <li>Focused box
+    <ul>
+      <li>like button</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Dark theme</strong></p>
+<ul>
+  <li>Hover tab indicator
+    <ul>
+      <li>Grey 10 a20</li>
+    </ul>
+  </li>
+  <li>Hover tab overlay
+    <ul>
+      <li>Grey 10 a10</li>
+    </ul>
+  </li>
+  <li>Pressed tab indicator
+    <ul>
+      <li>Grey 10 a20</li>
+    </ul>
+  </li>
+  <li>Pressed tab overlay
+    <ul>
+      <li>Grey 10 a20</li>
+    </ul>
+  </li>
+  <li>Focused box
+    <ul>
+      <li>like button</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="behavior">Behavior</h2>
+
+<p><strong>When there are too many tabs on the right or left, an arrow appears and it becomes scrollable (light theme theme)</strong></p>
+<ul>
+  <li>Divider
+    <ul>
+      <li>Grey 90 a20</li>
+    </ul>
+  </li>
+  <li>Icon fill
+    <ul>
+      <li>Grey 90 a80</li>
+    </ul>
+  </li>
+  <li>Gradient
+    <ul>
+      <li>Linear bg-color to transparent</li>
+    </ul>
+  </li>
+  <li>Icon hover
+    <ul>
+      <li>Grey 90 a10</li>
+    </ul>
+  </li>
+  <li>Icon pressed
+    <ul>
+      <li>Grey 90 a20</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>When there are too many tabs on the right or left, an arrow appears and it becomes scrollable (dark theme)</strong></p>
+<ul>
+  <li>Divider
+    <ul>
+      <li>Grey 10 a20</li>
+    </ul>
+  </li>
+  <li>Icon fill
+    <ul>
+      <li>Grey 10 a80</li>
+    </ul>
+  </li>
+  <li>Gradient
+    <ul>
+      <li>Linear bg-color to transparent</li>
+    </ul>
+  </li>
+  <li>Icon hover
+    <ul>
+      <li>Grey 10 a10</li>
+    </ul>
+  </li>
+  <li>Icon pressed
+    <ul>
+      <li>Grey 10 a20</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Long labels</strong></p>
+<ul>
+  <li>Gradient Linear bg-color to transparent</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/1721875/47156757-10266f00-d2e8-11e8-8ec5-0a36de118fc4.jpg" alt="image" />
+<img src="https://user-images.githubusercontent.com/1721875/46953988-a1e76f80-d08f-11e8-9384-2790f8a22afa.jpg" alt="image" />
+<img src="https://user-images.githubusercontent.com/1721875/47156799-29c7b680-d2e8-11e8-9ae0-56e18e597b71.jpg" alt="image" /></p>
+
+<p><strong>The tab bar can be fixed at the top or scroll off the screen</strong></p>
+
+<h2 id="copy">Copy</h2>
+
+<ul>
+  <li>Sentence case</li>
+  <li>Short</li>
+  <li>Concise</li>
+  <li>Should be indicative of what is in the tab</li>
+</ul>
+
+<h2 id="accessibility">Accessibility</h2>
+
+<p>There are some useful guidelines on implementing tabs technology-wise: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role, https://inclusive-components.design/tabbed-interfaces/, and https://de.ryerson.ca/wa/aria/jquery/tabpanels.html#?1541694847079#goto_tabsdemo-3.</p>
+
+<p>What I got from the MDN link:
+<img width="1421" alt="image" src="https://user-images.githubusercontent.com/10877399/48795866-12576100-eccc-11e8-9aa5-c4e8ca5a4e91.png" /></p>
+:ET
