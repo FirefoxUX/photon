@@ -672,3 +672,19 @@
     }
   }  
 }
+
+.sunset-banner {
+  background: $yellow-50;
+  border-bottom: 1px solid $yellow-70;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
