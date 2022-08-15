@@ -1,11 +1,13 @@
 language: ruby
 rvm:
-  - 2.4.1
-# safelist
+- 2.4.1
 branches:
   only:
   - master
 install: gem install jekyll
 script: bash ./deploy.sh
-sudo: false # route your build to the container-based infrastructure for a faster build
-cache: bundler # caching bundler gem packages will speed up build
+sudo: false
+cache: bundler
+env:
+  global:
+    secure: e2Az4tnYkBCKWWj4f0lA1FrCAW/JM9dgjpyO4EbA/f4IcYz1JhmkgVr0wRNvPMWYKYAsKbqGB3AICKH6NuPerh67KJEt6oQFCamkKOgcZtZKBVrrxjjslFATDj4Euget7u+RYwEU7utKkYrr7+BfuZu6XoTnwJHhahU0T7x6RNR2A5KB53DGqFSoePWZNBVtE/20ToDLB6krSjrYvXQCao5vXai/K17TdN1TLiaN9FYe8LpG16/RI5FcObFnjxLzxflLJYBm56hVpIdiihNSFKLk5p1r+W18rQTYxrpHZ9PmxkXniKkO5orCrNFv/QFuL/gIifhRPtYGtxbPH1OYBE1+Tl4X3d/2YkU4HMW7v7G8xn9EsEH+s/bvqf7TWCF5vdngiNVxJ47JLA5vX7DF301g7fOHjcB2TDzFzfB/KHhfZQqe31J/U2idSfYel90dFZJcL6aTlJjkmb5v7Hii0u3UkbB5iCxJ8eRYcAG/m9WAGWp539TFl9/4HFDc7ceunrjshEzcOqKnyc9aLXTmw9NpxhybMhyUI6WZLmpUgX93uLmPp3oWDfTZ/3yF5j5KBHUquZt6tVVbpv2xXjnSyiZCcA80WPYJ52JxaRK4a/LMLyT2NCnW0kwVa6ssuaVSeTospEgCo6LF7l8g46qu5858WLfWwRWHKfRSiaKjvWo=
