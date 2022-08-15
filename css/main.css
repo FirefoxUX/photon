@@ -648,4 +648,8 @@ div[data-tabs] input:checked + label + div[data-tab] { display: grid; }
 
 .post-content.patterns .do, .post-content.patterns .dont { margin-top: 0; }
 
+.sunset-banner { background: #ffe900; border-bottom: 1px solid #a47f00; font-size: 16px; font-weight: 600; padding: 24px; position: sticky; top: 0; z-index: 2; }
+
+.sunset-banner p { margin: 0; padding: 0; }
+
 /*# sourceMappingURL=main.css.map */
