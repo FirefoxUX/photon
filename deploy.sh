@@ -6,9 +6,9 @@ rm -rf dist || exit 0;
 
 # get the existing gh-pages history, but clean out the files.
 if [ "${TRAVIS_BRANCH}" == "staging" ]; then
-  GIT_URL="https://bwinton:${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}-staging.git"
+  GIT_URL="https://jsimplicio:${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}-staging.git"
 else
-  GIT_URL="https://bwinton:${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git"
+  GIT_URL="https://jsimplicio:${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git"
 fi
 git clone --quiet --branch=gh-pages ${GIT_URL} dist > /dev/null
 cd dist
