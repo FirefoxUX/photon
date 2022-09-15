@@ -1,4 +1,4 @@
-# Photon Design System  [![Build Status](https://travis-ci.org/FirefoxUX/photon.svg?branch=master)](https://travis-ci.org/FirefoxUX/photon)
+# Photon Design System
 
 Requires:
 * docker
