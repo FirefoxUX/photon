@@ -3,7 +3,7 @@ set -e # exit with nonzero exit code if anything fails
 
 # clear the dist directory
 rm -rf dist || exit 0;
-
+echo test
 # get the existing gh-pages history, but clean out the files.
 if [ "${TRAVIS_BRANCH}" == "staging" ]; then
   GIT_URL="https://bwinton:${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}-staging.git"
